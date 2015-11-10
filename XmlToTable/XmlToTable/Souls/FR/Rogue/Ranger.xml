@@ -1,0 +1,3325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Ranger">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Impassibilité</Name>
+      <Icon>healed</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1022654065</AbilityId>
+          <Description></Description>
+          <AddonId>A3CF4767100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les points de vie maximum de vos familiers de 5% et votre endurance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les points de vie maximum de vos familiers de 10% et votre endurance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les points de vie maximum de vos familiers de 15% et votre endurance de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les points de vie maximum de vos familiers de 20% et votre endurance de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les points de vie maximum de vos familiers de 25% et votre endurance de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Œil d&apos;aigle</Name>
+      <Icon>ironwill2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>424528403</AbilityId>
+          <Description></Description>
+          <AddonId>A194DCA1300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos chances de coup critique augmentent de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos chances de coup critique augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos chances de coup critique augmentent de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Vos chances de coup critique augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Vos chances de coup critique augmentent de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Instincts de prédateur</Name>
+      <Icon>spiritoflion3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>699978571</AbilityId>
+          <Description>Augmente la puissance d&apos;attaque et les dégâts d&apos;arme du Voleur et de son familier de 4%.</Description>
+          <AddonId>A29B8D34BD7B991A3</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Plaisir de tuer</Name>
+      <Icon>beastmaster_enraged_companion_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19024827</AbilityId>
+          <Description></Description>
+          <AddonId>AFEDDB44500000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de Tir rapide et de Tir à éclats de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de Tir rapide et de Tir à éclats de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Fortifiant</Name>
+      <Icon>bolster_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>821274055</AbilityId>
+          <Description></Description>
+          <AddonId>A30F3A5C700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit les dégâts que vous et votre familier subissez de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit les dégâts que vous et votre familier subissez de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit les dégâts que vous et votre familier subissez de 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Concentration meurtrière</Name>
+      <Icon>killing_focus_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>170395522</AbilityId>
+          <Description></Description>
+          <AddonId>A0A28078200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les dégâts avec les armes à distance et de corps à corps augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les dégâts avec les armes à distance et de corps à corps augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les dégâts avec les armes à distance et de corps à corps augmentent de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les dégâts avec les armes à distance et de corps à corps augmentent de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les dégâts avec les armes à distance et de corps à corps augmentent de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Entraînement en pleine nature</Name>
+      <Icon>beastmaster_kinship_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-87782914</AbilityId>
+          <Description></Description>
+          <AddonId>AFAC489FE00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts physiques de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts physiques de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts physiques de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts physiques de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts physiques de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Tir perforant</Name>
+      <Icon>piercing_shot_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1812387454</AbilityId>
+          <Description>Inflige 157 à 174 points de dégâts. Réduit l&apos;armure de 95 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+          <AddonId>A6C06D67EAB161708</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>10.000000</Cooldown>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>1</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Fureur bestiale</Name>
+      <Icon>awareness_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>À présent, votre Tir en pleine tête augmente également vos dégâts de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Rage sanglante</Name>
+      <Icon>bleeding_aa</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre familier entre dans une Rage sanglante lorsqu&apos;il attaque des ennemis sous l&apos;effet d&apos;un saignement. Les dégâts augmentent de 5% pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre familier entre dans une Rage sanglante lorsqu&apos;il attaque des ennemis sous l&apos;effet d&apos;un saignement. Les dégâts augmentent de 10% pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre familier entre dans une Rage sanglante lorsqu&apos;il attaque des ennemis sous l&apos;effet d&apos;un saignement. Les dégâts augmentent de 15% pendant 10 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Opportunité</Name>
+      <Icon>opportunity_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1239869022</AbilityId>
+          <Description></Description>
+          <AddonId>A49E6E65E46239BA5</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques finales à distance réussies ont 6,6% de chances par Point de combo de vous apporter 1 point de combo.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques finales à distance réussies ont 13,2% de chances par Point de combo de vous apporter 1 point de combo.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos attaques finales à distance réussies ont 20% de chances par Point de combo de vous apporter 1 point de combo.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Double tir</Name>
+      <Icon>double_shot_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>84129184</AbilityId>
+          <Description></Description>
+          <AddonId>A0503B5A068C7CEBA</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vous donne 10% de chances de tirer un coup supplémentaire quand vous attaquez avec des armes à distance.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vous donne 20% de chances de tirer un coup supplémentaire quand vous attaquez avec des armes à distance.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Tir astucieux</Name>
+      <Icon>ricochet1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1488596729</AbilityId>
+          <Description>Inflige 105 à 116 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+          <AddonId>A58BA2EF9C542389F</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>26</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>1</GainComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Tir astucieux amélioré</Name>
+      <Icon>ricochet2</Icon>
+      <PrereqTraitKey>12</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Chaque ennemi supplémentaire affecté par votre Tir astucieux a 15% de chances d&apos;ajouter 1 point de combo.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Prédateur</Name>
+      <Icon>provoke1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Lorsque votre familier inflige un coup critique, vous avez 33% de chances de devenir enragé et d&apos;infliger 8% de dégâts supplémentaires pendant 15 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Lorsque votre familier inflige un coup critique, vous avez 66% de chances de devenir enragé et d&apos;infliger 8% de dégâts supplémentaires pendant 15 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Lorsque votre familier inflige un coup critique, vous avez 100% de chances de devenir enragé et d&apos;infliger 8% de dégâts supplémentaires pendant 15 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Explosion à secousse</Name>
+      <Icon>concussive_blast_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>121585151</AbilityId>
+          <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 138 points de dégâts
+2 points : 177 points de dégâts
+3 points : 227 points de dégâts
+4 points : 284 points de dégâts
+5 points : 351 points de dégâts</Description>
+          <AddonId>A073F3DFFEF67CBE0</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>10.000000</Cooldown>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>11</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Main ferme</Name>
+      <Icon>generic_ability_012_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1673078901</AbilityId>
+          <Description></Description>
+          <AddonId>A63B9287561F8775C</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre puissance d&apos;attaque et les dégâts de l&apos;arme, ainsi que ceux de votre familier augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre puissance d&apos;attaque et les dégâts de l&apos;arme, ainsi que ceux de votre familier augmentent de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre puissance d&apos;attaque et les dégâts de l&apos;arme, ainsi que ceux de votre familier augmentent de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Votre puissance d&apos;attaque et les dégâts de l&apos;arme, ainsi que ceux de votre familier augmentent de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Votre puissance d&apos;attaque et les dégâts de l&apos;arme, ainsi que ceux de votre familier augmentent de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Maître Veneur</Name>
+      <Icon>invoker_prerogative1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Morsure du Loup féroce infecte l&apos;ennemi, réduisant les soins qui lui sont prodigués de 5% pendant 10 secondes.
+Augmente l&apos;armure de votre Bête-tranchante de 20%
+Donne à la Frappe ensanglantée de votre Raptor de sang 50% de chances de toucher deux fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Morsure du Loup féroce infecte l&apos;ennemi, réduisant les soins qui lui sont prodigués de 10% pendant 10 secondes.
+Augmente l&apos;armure de votre Bête-tranchante de 40%
+Donne à la Frappe ensanglantée de votre Raptor de sang 100% de chances de toucher deux fois.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Appel précoce</Name>
+      <Icon>trinket4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1990441046</AbilityId>
+          <Description>Supprime le coût et le temps d&apos;incantation du prochain Appel. Dure 15 secondes.</Description>
+          <AddonId>A76A3B8568EAF7EA0</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Raptor de sang</Name>
+      <Icon>pet_raptor</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1422534837</AbilityId>
+          <Description>Invoque un Raptor de sang de niveau 36 maximum. Plus approprié aux dégâts.</Description>
+          <AddonId>A54CA28B521DB5B2F</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>100</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>8.000000</CastTime>
+          <Interruptible>false</Interruptible>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Le roi de la jungle</Name>
+      <Icon>spirit_of_lion1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par votre familier de 10% et réduit les dégâts des capacités à effet de zone qu&apos;il subit de 65%. Les dégâts des capacités à effet de zone qu&apos;il subit sont réduits de 1% par point investi dans l&apos;âme du Rôdeur au-delà de 21, pour un maximum de 95%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Rythme endiablé</Name>
+      <Icon>fleeting_instincts_02_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-79110268</AbilityId>
+          <Description></Description>
+          <AddonId>AFB48DF8400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de votre Tir à éclats et Feu de l&apos;ombre de 50%. Réduit leur coût en énergie de 5.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le temps d&apos;incantation de votre Tir à éclats et Feu de l&apos;ombre de 100%. Réduit leur coût en énergie de 10.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Survie des Meilleurs</Name>
+      <Icon>beastmaster_protective_companion_aura_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération général des attaques de votre familier de 0,1 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération général des attaques de votre familier de 0,2 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le délai de récupération général des attaques de votre familier de 0,3 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit le délai de récupération général des attaques de votre familier de 0,4 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit le délai de récupération général des attaques de votre familier de 0,5 seconde.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Esprit de la nature</Name>
+      <Icon>generic_ability_011</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-94891566</AbilityId>
+          <Description>15% des dégâts infligés par le familier soignent le Voleur. Dure 1 heure.</Description>
+          <AddonId>AFA5811D27121CC4D</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Tir imbattable</Name>
+      <Icon>tempest_difficult_target_z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74354681</AbilityId>
+          <Description>Inflige 205 à 227 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+          <AddonId>AFB917007316A02FD</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>1</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Instincts voraces</Name>
+      <Icon>beastmaster_enraged_companion_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-98443253</AbilityId>
+        <Description>Augmente la puissance des coups critiques infligés et des soins critiques prodigués par le Voleur et son familier de 10%, ainsi que les chances de coup critique de 5%.</Description>
+        <AddonId>AFA21E00B9AC03522</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Esprit de la nature</Name>
+      <Icon>generic_ability_011</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-94891566</AbilityId>
+        <Description>15% des dégâts infligés par le familier soignent le Voleur. Dure 1 heure.</Description>
+        <AddonId>AFA5811D27121CC4D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tir imbattable</Name>
+      <Icon>tempest_difficult_target_z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-74354681</AbilityId>
+        <Description>Inflige 205 à 227 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFB917007316A02FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-21802896</AbilityId>
+        <Description>Inflige 235 à 259 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFEB350706F6BE46B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-12482574</AbilityId>
+        <Description>Inflige 243 à 269 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFF4187F28473DAFF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-50472492</AbilityId>
+        <Description>Inflige 346 à 382 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFCFDD9D46AFE0452</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-14998342</AbilityId>
+        <Description>Inflige 449 à 496 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFF1B24BA2110646E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-40313156</AbilityId>
+        <Description>Inflige 497 à 549 points de dégâts et ajoute un affaiblissement qui augmente les dégâts du Voleur de 8% et les dégâts de son familier de 40% pendant 15 secondes. Procure 1 point de combo.</Description>
+        <AddonId>AFD98DEBC4D84FE51</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Animalisme</Name>
+      <Icon>tempest_identified_weakness_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-66933296</AbilityId>
+        <Description>Augmente les dégâts du Voleur et ceux de son familier de 40%. Dure 15 secondes.</Description>
+        <AddonId>AFC02ADD062BFD48D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tirs jumeaux</Name>
+      <Icon>double_shot_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-65070773</AbilityId>
+        <Description>Tire 2 coups et inflige des dégâts supplémentaires par point de combo à chaque coup.
+
+1 point : 286 points de dégâts
+2 points : 473 points de dégâts
+3 points : 717 points de dégâts
+4 points : 1015 points de dégâts
+5 points : 1370 points de dégâts</Description>
+        <AddonId>AFC1F194B29F18B0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42287092</AbilityId>
+        <Description>Tire 2 coups et inflige des dégâts supplémentaires par point de combo à chaque coup.
+
+1 point : 300 points de dégâts
+2 points : 510 points de dégâts
+3 points : 782 points de dégâts
+4 points : 1117 points de dégâts
+5 points : 1516 points de dégâts</Description>
+        <AddonId>AFD7AC00C910D41FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Maîtrise de Rôdeur</Name>
+      <Icon>menacingroar3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-57111622</AbilityId>
+        <Description>Chaque point investi dans l&apos;âme du Rôdeur augmente les dégâts et ceux du familier de 1%</Description>
+        <AddonId>AFC988BBACF0B9781</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Instincts multiples</Name>
+      <Icon>track_humanoids_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-50545685</AbilityId>
+        <Description>Le Voleur peut désormais activer 2 instincts à la fois.</Description>
+        <AddonId>AFCFCBBEB866AB290</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Explosion à secousse</Name>
+      <Icon>concussive_blast_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>121585151</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 138 points de dégâts
+2 points : 177 points de dégâts
+3 points : 227 points de dégâts
+4 points : 284 points de dégâts
+5 points : 351 points de dégâts</Description>
+        <AddonId>A073F3DFFEF67CBE0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1041541851</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 140 points de dégâts
+2 points : 183 points de dégâts
+3 points : 236 points de dégâts
+4 points : 298 points de dégâts
+5 points : 370 points de dégâts</Description>
+        <AddonId>A3E14AADBB2B11B1B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1085558922</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 142 points de dégâts
+2 points : 188 points de dégâts
+3 points : 246 points de dégâts
+4 points : 313 points de dégâts
+5 points : 392 points de dégâts</Description>
+        <AddonId>A40B4508AEBFAA368</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1748933298</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 145 points de dégâts
+2 points : 195 points de dégâts
+3 points : 258 points de dégâts
+4 points : 331 points de dégâts
+5 points : 418 points de dégâts</Description>
+        <AddonId>A683E9AB2AE0CFD39</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1443735694</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 150 points de dégâts
+2 points : 208 points de dégâts
+3 points : 283 points de dégâts
+4 points : 371 points de dégâts
+5 points : 475 points de dégâts</Description>
+        <AddonId>A560DA88EE2E1A2C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1614321149</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 153 points de dégâts
+2 points : 213 points de dégâts
+3 points : 291 points de dégâts
+4 points : 384 points de dégâts
+5 points : 493 points de dégâts</Description>
+        <AddonId>A603895FD8751F374</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17824058</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 166 points de dégâts
+2 points : 250 points de dégâts
+3 points : 357 points de dégâts
+4 points : 486 points de dégâts
+5 points : 639 points de dégâts</Description>
+        <AddonId>AFEF006C6661ADB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-19818014</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 197 points de dégâts
+2 points : 327 points de dégâts
+3 points : 496 points de dégâts
+4 points : 701 points de dégâts
+5 points : 946 points de dégâts</Description>
+        <AddonId>AFED199E28F72B538</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-19181355</AbilityId>
+        <Description>Interrompt un maximum de 5 ennemis, leur infligeant des dégâts par point de combo.
+
+1 point : 208 points de dégâts
+2 points : 352 points de dégâts
+3 points : 541 points de dégâts
+4 points : 771 points de dégâts
+5 points : 1046 points de dégâts</Description>
+        <AddonId>AFEDB50D54CAA468A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bête-tranchante supérieure</Name>
+      <Icon>pet_razorbeast_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>255121041</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 30 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A0F34D691A15D4BAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1797236466</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 36 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A6B1FA6F291B773BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>293509323</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 42 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A117E98CBF36E6994</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>871427366</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 48 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A33F0ED262E9A0482</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>363637753</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 51 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A15ACABF9A9EC5725</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-91714628</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 54 maximum. Plus appropriée au tank.</Description>
+        <AddonId>AFA888BBC9E6E7B3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-68109768</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 57 maximum. Plus appropriée au tank.</Description>
+        <AddonId>AFBF0BA38BA9A1DE4</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-915478</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure de niveau 59 maximum. Plus appropriée au tank.</Description>
+        <AddonId>AFFF207EA549826C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-77943903</AbilityId>
+        <Description>Invoque une Bête-tranchante supérieure. Plus appropriée au tank.</Description>
+        <AddonId>AFB5AABA1313E663C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tir rapide</Name>
+      <Icon>rapidshot1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>280691459</AbilityId>
+        <Description>Inflige 153 à 170 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A10BB0303D519D2DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1562475097</AbilityId>
+        <Description>Inflige 158 à 174 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A5D217A590ED41A98</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1007362708</AbilityId>
+        <Description>Inflige 164 à 182 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A3C0B2294199D676A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1220894091</AbilityId>
+        <Description>Inflige 172 à 190 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A48C55D8BB3CA35D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>747808121</AbilityId>
+        <Description>Inflige 180 à 198 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A2C92A579414E108E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>482743632</AbilityId>
+        <Description>Inflige 188 à 208 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A1CC615508A3BE9D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1352988639</AbilityId>
+        <Description>Inflige 197 à 218 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A50A4F7DFE0D70AFF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2008995433</AbilityId>
+        <Description>Inflige 211 à 234 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A77BED66950687613</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1334011270</AbilityId>
+        <Description>Inflige 230 à 254 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A4F836586851C422E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>623296176</AbilityId>
+        <Description>Inflige 258 à 285 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A2526BEB0C3149471</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-44537103</AbilityId>
+        <Description>Inflige 269 à 298 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD586AF187671104</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-14384283</AbilityId>
+        <Description>Inflige 382 à 422 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFF2483658B1E39FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-58780462</AbilityId>
+        <Description>Inflige 495 à 547 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFC7F14D2C9F2F981</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-95244568</AbilityId>
+        <Description>Inflige 549 à 607 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFA52AEE863BDC5C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Instincts sauvages</Name>
+      <Icon>menacingroar2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>383201413</AbilityId>
+        <Description>Augmente les dégâts du Voleur et ceux de son familier de 5% et réduit les dégâts qu&apos;ils subissent de 5%.</Description>
+        <AddonId>A16D7308576BFEECD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Instincts fugitifs</Name>
+      <Icon>fleeting_instincts_02_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>385560679</AbilityId>
+        <Description>Augmente la vitesse de déplacement de 15%.</Description>
+        <AddonId>A16FB30674E516F58</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Feu de l&apos;ombre</Name>
+      <Icon>rapidshot2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>553401968</AbilityId>
+        <Description>Inflige 629 à 695 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A20FC3E70868C72C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>525170628</AbilityId>
+        <Description>Inflige 660 à 730 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A1F4D77C4633B4E9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>787948142</AbilityId>
+        <Description>Inflige 707 à 782 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A2EF7226E620F6A33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>2114278114</AbilityId>
+        <Description>Inflige 770 à 851 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A7E0552E2AD44A92B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1105045667</AbilityId>
+        <Description>Inflige 868 à 959 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A41DDA8A37B91D3DA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>743365745</AbilityId>
+        <Description>Inflige 991 à 1096 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A2C4EDC71A4DCCDED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>8916230</AbilityId>
+        <Description>Inflige 1464 à 1619 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>A00880D0695F7A237</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-48115951</AbilityId>
+        <Description>Inflige 1850 à 2045 points de dégâts. Augmente les dégâts que le Voleur inflige avec ses attaques d&apos;arme à distance de 5% pendant 30 secondes. Rapporte 2 points de combo.</Description>
+        <AddonId>AFD21CF115FB98107</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>2.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Agression sauvage</Name>
+      <Icon>shaman-courage_of_the_bear_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>585753360</AbilityId>
+        <Description>Augmente les dégâts et les chances de votre familier d&apos;infliger un coup critique de 50%. Immunise contre la Peur et la Confusion. Dure 15 secondes.</Description>
+        <AddonId>A22E9E310E07B1FC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Artiste de l&apos;évasion</Name>
+      <Icon>escape_artist_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>668136976</AbilityId>
+        <Description>Supprime tous les effets de contrôle de foule.</Description>
+        <AddonId>A27D2F610774FC075</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Instincts de prédateur</Name>
+      <Icon>spiritoflion3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>699978571</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et les dégâts d&apos;arme du Voleur et de son familier de 4%.</Description>
+        <AddonId>A29B8D34BD7B991A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tir à éclats</Name>
+      <Icon>killer_instinct</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>777208711</AbilityId>
+        <Description>Inflige un saignement provoquant 411 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A2E534387CD5925D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1382056068</AbilityId>
+        <Description>Inflige un saignement provoquant 427 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A526080843297BEBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1855957544</AbilityId>
+        <Description>Inflige un saignement provoquant 449 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A6E9FAA2879168905</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1123033297</AbilityId>
+        <Description>Inflige un saignement provoquant 458 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A42F020D14F7BAA65</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>756815053</AbilityId>
+        <Description>Inflige un saignement provoquant 485 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A2D1C14CD1A0EE6BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>426364188</AbilityId>
+        <Description>Inflige un saignement provoquant 506 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A1969CD1C7390C61B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1809071347</AbilityId>
+        <Description>Inflige un saignement provoquant 540 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A6BD43CF34A29ADA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2084754829</AbilityId>
+        <Description>Inflige un saignement provoquant 574 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A7C42D58D6C76A3C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1838951705</AbilityId>
+        <Description>Inflige un saignement provoquant 677 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A6D9C2D19D35ACF37</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>443386794</AbilityId>
+        <Description>Inflige un saignement provoquant 704 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A1A6D8BAA7AB3A7FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-17481733</AbilityId>
+        <Description>Inflige un saignement provoquant 1001 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFEF53FFB799621AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-27020107</AbilityId>
+        <Description>Inflige un saignement provoquant 1302 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE63B4B593E84919</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-68903774</AbilityId>
+        <Description>Inflige un saignement provoquant 1441 points de dégâts en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFBE49CA25884FC67</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>30</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Loup féroce</Name>
+      <Icon>pet_dire-wolf</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>930603599</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 18 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A3777E24FE9204B1C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1780837677</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 24 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A6A256D2DF43577D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>724426975</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 30 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A2B2DE0DF3E59FC2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>746198783</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 36 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A2C7A16FF6E35D9C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Renvoi du familier</Name>
+      <Icon>redirect1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1086659173</AbilityId>
+        <Description>Renvoie votre familier.</Description>
+        <AddonId>A40C51A65DBA71310</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cure de jouvence</Name>
+      <Icon>triage3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1124820918</AbilityId>
+        <Description>Restaure 385 points de vie en 8 secondes.</Description>
+        <AddonId>A430B67B68D9F769C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>946548081</AbilityId>
+        <Description>Restaure 607 points de vie en 8 secondes.</Description>
+        <AddonId>A386B2D71B640F793</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>203193268</AbilityId>
+        <Description>Restaure 741 points de vie en 8 secondes.</Description>
+        <AddonId>A0C1C7BB481460BEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>703439251</AbilityId>
+        <Description>Restaure 821 points de vie en 8 secondes.</Description>
+        <AddonId>A29EDA193C6837967</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1095148020</AbilityId>
+        <Description>Restaure 927 points de vie en 8 secondes.</Description>
+        <AddonId>A4146A1F4D3D13403</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>2029705980</AbilityId>
+        <Description>Restaure 967 points de vie en 8 secondes.</Description>
+        <AddonId>A78FADAFCD7171ACE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>526788669</AbilityId>
+        <Description>Restaure 1084 points de vie en 8 secondes.</Description>
+        <AddonId>A1F66283DF118D7C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1303167363</AbilityId>
+        <Description>Restaure 1135 points de vie en 8 secondes.</Description>
+        <AddonId>A4DACC1837D766002</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1468235915</AbilityId>
+        <Description>Restaure 1304 points de vie en 8 secondes.</Description>
+        <AddonId>A5783808BBBC0EE3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-39839029</AbilityId>
+        <Description>Restaure 1450 points de vie en 8 secondes.</Description>
+        <AddonId>AFDA01ACBF58FDF03</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-28965105</AbilityId>
+        <Description>Restaure 1460 points de vie en 8 secondes.</Description>
+        <AddonId>AFE46070F7B9FAD3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">3.630000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Punaisage</Name>
+      <Icon>pin_down_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1150046740</AbilityId>
+        <Description>Immobilise tous les ennemis dans la zone ciblée pendant 5 secondes.</Description>
+        <AddonId>A448C52144241E729</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Garde du corps</Name>
+      <Icon>diffuse_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1409682949</AbilityId>
+        <Description>Tous les dégâts infligés au Voleur sont interceptés pendant 10 secondes.</Description>
+        <AddonId>A54060E05934738AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Raptor de sang</Name>
+      <Icon>pet_raptor</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1422534837</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 36 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>A54CA28B521DB5B2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>689886080</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 42 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>A291ED380779418EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>53411094</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 48 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>A032EFD167BAC95A8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>1452993529</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 52 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>A569AEBF98BF4252A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-7906146</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 55 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>AFF875C9E0816017A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-7618545</AbilityId>
+        <Description>Invoque un Raptor de sang de niveau 58 maximum. Plus approprié aux dégâts.</Description>
+        <AddonId>AFF8BC00F57FDC442</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-19621377</AbilityId>
+        <Description>Invoque un Raptor de sang. Plus approprié aux dégâts.</Description>
+        <AddonId>AFED499FF835F4952</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tir astucieux</Name>
+      <Icon>ricochet1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1488596729</AbilityId>
+        <Description>Inflige 105 à 116 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A58BA2EF9C542389F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>2061825748</AbilityId>
+        <Description>Inflige 111 à 123 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A7AE4F6D4E51AE7E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1970063988</AbilityId>
+        <Description>Inflige 117 à 129 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A756CCA74D8730F80</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>837771122</AbilityId>
+        <Description>Inflige 124 à 137 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A31EF5F72EC7865DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1570898610</AbilityId>
+        <Description>Inflige 132 à 146 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A5DA202B2B26D3308</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1393666850</AbilityId>
+        <Description>Inflige 155 à 171 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A5311AB22A12CFD27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-80580214</AbilityId>
+        <Description>Inflige 161 à 179 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFB32718A9E019975</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-23503955</AbilityId>
+        <Description>Inflige 228 à 252 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE995BAD78757C2B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93062446</AbilityId>
+        <Description>Inflige 297 à 328 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFA73FAD2C73C3DC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31198329</AbilityId>
+        <Description>Inflige 329 à 363 points de dégâts à un maximum de 5 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE23F38752DB97A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Loup féroce supérieur</Name>
+      <Icon>pet_dire-wolf_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1673239866</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 30 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A63BB9D3AB5175722</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>370267404</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 36 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A1611D50CDF3734D9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>308568673</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 42 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A126462619D99BFBD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>653414238</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 48 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A26F24F5E5D520ED5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1714054503</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 52 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>A662A6567830466CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-27155214</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 55 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>AFE61A4F282501B26</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-7257261</AbilityId>
+        <Description>Invoque un Loup féroce de niveau 58 maximum. Plus approprié au JcJ.</Description>
+        <AddonId>AFF914353B0ED1192</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-9119952</AbilityId>
+        <Description>Invoque un Loup féroce. Plus approprié au JcJ.</Description>
+        <AddonId>AFF74D7307EAAC3AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bête-tranchante</Name>
+      <Icon>pet_razorbeast</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1708728246</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 4 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A65D91FB6B96A9B2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>451822847</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 8 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A1AEE44FF71F4B702</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1974325667</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 12 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A75ADD1A36D607D7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1998620400</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 18 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A772086F0CDABB9E1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>2031170373</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 24 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A7911334559DB9BFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2117394703</AbilityId>
+        <Description>Invoque une Bête-tranchante de niveau 30 maximum. Plus appropriée au tank.</Description>
+        <AddonId>A7E34E10F9F5E2D65</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>100</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>8.000000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Diversion</Name>
+      <Icon>divert_rage_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1743210077</AbilityId>
+        <Description>Transfère toute la menace générée sur le familier du Voleur pendant 10 secondes.</Description>
+        <AddonId>A67E7465D23B36347</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tir perforant</Name>
+      <Icon>piercing_shot_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1812387454</AbilityId>
+        <Description>Inflige 157 à 174 points de dégâts. Réduit l&apos;armure de 95 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A6C06D67EAB161708</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>821849781</AbilityId>
+        <Description>Inflige 163 à 180 points de dégâts. Réduit l&apos;armure de 135 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A30FC6EB591AAB484</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>520654643</AbilityId>
+        <Description>Inflige 172 à 190 points de dégâts. Réduit l&apos;armure de 170 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A1F088F3384D4A69C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>2004726640</AbilityId>
+        <Description>Inflige 179 à 198 points de dégâts. Réduit l&apos;armure de 210 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A777DB370CB3A2011</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>1497896708</AbilityId>
+        <Description>Inflige 191 à 212 points de dégâts. Réduit l&apos;armure de 250 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A5948170476B46E2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>954014902</AbilityId>
+        <Description>Inflige 208 à 230 points de dégâts. Réduit l&apos;armure de 285 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A38DD1CB69891BFBD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>1355303409</AbilityId>
+        <Description>Inflige 237 à 262 points de dégâts. Réduit l&apos;armure de 340 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A50C849F18C12AB7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-88154644</AbilityId>
+        <Description>Inflige 247 à 273 points de dégâts. Réduit l&apos;armure de 350 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFABEDDEC5428FFFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-57289229</AbilityId>
+        <Description>Inflige 350 à 387 points de dégâts. Réduit l&apos;armure de 1150 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFC95D5F325DAC08B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-40302546</AbilityId>
+        <Description>Inflige 455 à 503 points de dégâts. Réduit l&apos;armure de 2400 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD99082EA9687271</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-84320442</AbilityId>
+        <Description>Inflige 504 à 557 points de dégâts. Réduit l&apos;armure de 3600 pendant 30 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFAF95F46B56FD253</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pluie de flèches</Name>
+      <Icon>rainofarrows2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1916678497</AbilityId>
+        <Description>Inflige 1184 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A723E316171474642</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>928105072</AbilityId>
+        <Description>Inflige 1262 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A3751C270732CEE00</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>823260334</AbilityId>
+        <Description>Inflige 1341 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A3111F4AE76493D6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>290602395</AbilityId>
+        <Description>Inflige 1580 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A11523D9B6F04D10D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>30200898</AbilityId>
+        <Description>Inflige 1644 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A01CCD442C0F4B5DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>262081553</AbilityId>
+        <Description>Inflige 2336 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A0F9F0C119BA5B0EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-66939243</AbilityId>
+        <Description>Inflige 3040 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFC02969548CCD2BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-21428000</AbilityId>
+        <Description>Inflige 3365 points de dégâts en 6 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFEB908E075B61770</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Appel précoce</Name>
+      <Icon>trinket4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1990441046</AbilityId>
+        <Description>Supprime le coût et le temps d&apos;incantation du prochain Appel. Dure 15 secondes.</Description>
+        <AddonId>A76A3B8568EAF7EA0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tir en pleine tête</Name>
+      <Icon>headshot3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>2085294259</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 202 points de dégâts
+2 points : 252 points de dégâts
+3 points : 310 points de dégâts
+4 points : 378 points de dégâts
+5 points : 455 points de dégâts</Description>
+        <AddonId>A7C4B10B3A62367B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>312194485</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 204 points de dégâts
+2 points : 254 points de dégâts
+3 points : 316 points de dégâts
+4 points : 387 points de dégâts
+5 points : 468 points de dégâts</Description>
+        <AddonId>A129BB5B5111E6126</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>386301594</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 207 points de dégâts
+2 points : 261 points de dégâts
+3 points : 328 points de dégâts
+4 points : 404 points de dégâts
+5 points : 493 points de dégâts</Description>
+        <AddonId>A17067E9A88D5F7C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1071112289</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 208 points de dégâts
+2 points : 266 points de dégâts
+3 points : 336 points de dégâts
+4 points : 416 points de dégâts
+5 points : 510 points de dégâts</Description>
+        <AddonId>A3FD7E0617ED20FB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1725759659</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 210 points de dégâts
+2 points : 270 points de dégâts
+3 points : 345 points de dégâts
+4 points : 430 points de dégâts
+5 points : 530 points de dégâts</Description>
+        <AddonId>A66DD00AB9FCF994A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>588640758</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 214 points de dégâts
+2 points : 277 points de dégâts
+3 points : 358 points de dégâts
+4 points : 451 points de dégâts
+5 points : 560 points de dégâts</Description>
+        <AddonId>A2315F1F61FAD5C68</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>110145060</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 216 points de dégâts
+2 points : 285 points de dégâts
+3 points : 371 points de dégâts
+4 points : 472 points de dégâts
+5 points : 591 points de dégâts</Description>
+        <AddonId>A0690AE247086EE11</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1932020632</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 0 secondes par point de combo.
+
+1 point : 220 points de dégâts
+2 points : 295 points de dégâts
+3 points : 391 points de dégâts
+4 points : 502 points de dégâts
+5 points : 632 points de dégâts</Description>
+        <AddonId>A73284B98D0359D37</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1648742810</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 0 secondes par point de combo.
+
+1 point : 229 points de dégâts
+2 points : 315 points de dégâts
+3 points : 425 points de dégâts
+4 points : 556 points de dégâts
+5 points : 711 points de dégâts</Description>
+        <AddonId>A6245D19A27DE0CFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1354128383</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 232 points de dégâts
+2 points : 325 points de dégâts
+3 points : 445 points de dégâts
+4 points : 586 points de dégâts
+5 points : 753 points de dégâts</Description>
+        <AddonId>A50B65BFFA853F9F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-42825427</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 255 points de dégâts
+2 points : 382 points de dégâts
+3 points : 545 points de dégâts
+4 points : 742 points de dégâts
+5 points : 976 points de dégâts</Description>
+        <AddonId>AFD72892DD8A1C482</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-72078342</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 301 points de dégâts
+2 points : 499 points de dégâts
+3 points : 756 points de dégâts
+4 points : 1070 points de dégâts
+5 points : 1444 points de dégâts</Description>
+        <AddonId>AFBB42BFAC82E42D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-83353586</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo. Augmente les dégâts infligés par le familier de 5%. Dure 12 secondes par point de combo.
+
+1 point : 317 points de dégâts
+2 points : 537 points de dégâts
+3 points : 825 points de dégâts
+4 points : 1177 points de dégâts
+5 points : 1597 points de dégâts</Description>
+        <AddonId>AFB08200E4327741F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

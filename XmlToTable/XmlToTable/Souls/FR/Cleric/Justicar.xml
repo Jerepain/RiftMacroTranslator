@@ -1,0 +1,2662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Justicar">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Forteresse</Name>
+      <Icon>ward4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51692641</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB3B9F331F354A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre endurance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre endurance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente votre endurance de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente votre endurance de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente votre endurance de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Armure de vertu</Name>
+      <Icon>armor_of_virtue_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1535043083</AbilityId>
+          <Description></Description>
+          <AddonId>A5B7EE60B75FF7667</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre sagesse de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre sagesse de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente votre sagesse de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente votre sagesse de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente votre sagesse de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Moment de vérité</Name>
+      <Icon>flare_of_light_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-81389306</AbilityId>
+          <Description></Description>
+          <AddonId>AFB26190656323A5B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts et les soins des Convictions de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts et les soins des Convictions de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Réparation</Name>
+      <Icon>reparation_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Salut soigne jusqu&apos;à 1 membre du groupe ou du raid en plus.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Salut soigne jusqu&apos;à 2 membres du groupe ou du raid en plus.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Salut soigne jusqu&apos;à 3 membres du groupe ou du raid en plus.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Votre Salut soigne jusqu&apos;à 4 membres du groupe ou du raid en plus.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Votre Salut soigne jusqu&apos;à 5 membres du groupe ou du raid en plus.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Dévotion envers la vie</Name>
+      <Icon>lifes_devotion_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-65480033</AbilityId>
+          <Description></Description>
+          <AddonId>AFC18DA9F5948483D</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les soins prodigués par Salut de 5% lorsque vous utilisez les capacités du Justicier.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les soins prodigués par Salut de 10% lorsque vous utilisez les capacités du Justicier.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les soins prodigués par Salut de 15% lorsque vous utilisez les capacités du Justicier.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Doctrine de béatitude</Name>
+      <Icon>doctrine_of_bliss_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1985551240</AbilityId>
+          <Description>Restaure 1042 à 1152 points de vie. Retire 1 Conviction.</Description>
+          <AddonId>A76591B88A856B283</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+          <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Précepte de refuge</Name>
+      <Icon>defensivestrike1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1299258785</AbilityId>
+          <Description>Inflige 588 à 650 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+          <AddonId>A4D711DA1A66B8221</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>5.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+          <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+          <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Citadelle imprenable</Name>
+      <Icon>bulwark1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1263310397</AbilityId>
+          <Description></Description>
+          <AddonId>A4B4C963D2704D929</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre blocage provient maintenant de 50% de votre sagesse.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre blocage provient maintenant de 100% de votre sagesse.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Confiance</Name>
+      <Icon>reprieve_01</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-43071235</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6EC8FD6545A60C</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos blocages ont 50% de chances de vous conférer une Conviction. Ne peut être appliqué plus d&apos;une fois toutes les 2 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos blocages ont 100% de chances de vous conférer une Conviction. Ne peut être appliqué plus d&apos;une fois toutes les 2 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Lumière purificatrice</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>806542081</AbilityId>
+          <Description></Description>
+          <AddonId>A3012DB013779DB55</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos coups critiques avec des capacités infligeant des dégâts de Vie confèrent une Conviction supplémentaire.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Bouclier de la foi</Name>
+      <Icon>spiritofsaints3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>365846182</AbilityId>
+          <Description></Description>
+          <AddonId>A15CE5EA626C50C4C</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les dégâts que vous subissez sont réduits de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les dégâts que vous subissez sont réduits de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les dégâts que vous subissez sont réduits de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les dégâts que vous subissez sont réduits de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les dégâts que vous subissez sont réduits de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Mine de souverain</Name>
+      <Icon>requital_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>413766657</AbilityId>
+          <Description>Augmente l&apos;endurance, l&apos;armure et les résistances de 35%. Augmente la menace générée de 350%. Permet aux excès de soins du Clerc de générer de la menace. Réduit les dégâts, les soins prodigués et l&apos;absorption conférée par les capacités de 40%, à l&apos;exception de celles du Justicier.</Description>
+          <AddonId>A18A99401C513B261</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Credo du guérisseur</Name>
+      <Icon>spiritofvaliant1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1863103625</AbilityId>
+          <Description></Description>
+          <AddonId>A6F0CB48931C2648B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les soins reçus de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les soins reçus de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Mine d&apos;honneur</Name>
+      <Icon>overwhelming_brilliance_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1916547586</AbilityId>
+          <Description>Réduit la génération de menace des capacités infligeant des dégâts de 50%. Augmente les soins prodigués par les capacités du Justicier de 10%.</Description>
+          <AddonId>A723C320268298CCD</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Déflexion dévote</Name>
+      <Icon>deflection1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1254275259</AbilityId>
+          <Description></Description>
+          <AddonId>A4AC2B8BB6B989F57</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre parade provient maintenant de 50% de votre sagesse et votre esquive de 50% de votre intelligence.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre parade provient maintenant de 100% de votre sagesse et votre esquive de 100% de votre intelligence.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Domination</Name>
+      <Icon>paladin_face_slam</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-90195981</AbilityId>
+          <Description></Description>
+          <AddonId>AFA9FB7F30A9EA043</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos sorts Marteau du devoir et Marteau de la foi de 25%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos sorts Marteau du devoir et Marteau de la foi de 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos sorts Marteau du devoir et Marteau de la foi de 75%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Interdiction</Name>
+      <Icon>interdict_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1946401743</AbilityId>
+          <Description>Interrompt la cible et les ennemis à proximité.</Description>
+          <AddonId>A7403BBCFAF89FCAB</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>8.000000</Radius>
+          <MaxAffected>50</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Engagement</Name>
+      <Icon>defstrike3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1544670164</AbilityId>
+          <Description></Description>
+          <AddonId>A5C11CBD43465E67A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vous récupérez 2% de vos points de mana quand vous réussissez un blocage.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vous récupérez 4% de vos points de mana quand vous réussissez un blocage.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Juste cause</Name>
+      <Icon>generic_ability_016</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-61872026</AbilityId>
+          <Description></Description>
+          <AddonId>AFC4FE866317E539B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre maximum de Convictions de 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre maximum de Convictions de 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente votre maximum de Convictions de 3.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Lumière de création</Name>
+      <Icon>blindinglight3</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-93147190</AbilityId>
+          <Description></Description>
+          <AddonId>AFA72AFCA58FD3B50</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés à l&apos;aide de Frappe de jugement, Condamnation, Trait de rayonnement et Doctrine d&apos;autorité de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés à l&apos;aide de Frappe de jugement, Condamnation, Trait de rayonnement et Doctrine d&apos;autorité de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés à l&apos;aide de Frappe de jugement, Condamnation, Trait de rayonnement et Doctrine d&apos;autorité de 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Loi de Thorvin</Name>
+      <Icon>deflect2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-27796981</AbilityId>
+          <Description></Description>
+          <AddonId>AFE57DA0B212CC623</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos résistances de 10%, réduit les dégâts des sorts que vous subissez de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos résistances de 20%, réduit les dégâts des sorts que vous subissez de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos résistances de 30%, réduit les dégâts des sorts que vous subissez de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Absolution</Name>
+      <Icon>absolution_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1297021479</AbilityId>
+          <Description>Ressuscite l&apos;allié et lui rend 100% de ses points de vie et 50% de mana. Utilisable en combat.</Description>
+          <AddonId>A4D4EFA27574FDC9A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>300.000000</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Frappe de rétribution</Name>
+      <Icon>smite2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-10330795</AbilityId>
+          <Description>Inflige 402 à 445 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+          <AddonId>AFF625D555A57E90C</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>6.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+          <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Droit divin</Name>
+      <Icon>resolve2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description> Quand votre santé est maximale, Doctrine de béatitude et Doctrine de loyauté absorbent les dégâts à hauteur de 33% de leur potentiel de soins normal au lieu de vous soigner.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description> Quand votre santé est maximale, Doctrine de béatitude et Doctrine de loyauté absorbent les dégâts à hauteur de 66% de leur potentiel de soins normal au lieu de vous soigner.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Quand votre santé est maximale, Doctrine de béatitude et Doctrine de loyauté absorbent les dégâts à hauteur de 100% de leur potentiel de soins normal au lieu de vous soigner.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Foi inébranlable</Name>
+      <Icon>defensivestrike2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-66226041</AbilityId>
+          <Description></Description>
+          <AddonId>AFC0D78871FA76686</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts absorbés par le blocage de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts absorbés par le blocage de 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Marteau de la foi</Name>
+      <Icon>hammer_of_virtue_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-85041758</AbilityId>
+          <Description>Consomme toutes les Convictions. Inflige 126 à 139 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+          <AddonId>AFAEE5DA267AC4EFA</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doctrine glorieuse</Name>
+      <Icon>cavalier_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-94048933</AbilityId>
+        <Description>Consomme toutes les Convictions. Réduit les dégâts subis de 2,86% par Conviction consommée. Dure 4 secondes.</Description>
+        <AddonId>AFA64ED5B71F3A99C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Marteau de la foi</Name>
+      <Icon>hammer_of_virtue_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-85041758</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 126 à 139 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFAEE5DA267AC4EFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-85513720</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 135 à 150 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFAE72A088C00B653</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-86126784</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 139 à 153 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFADDCF40E585529A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-32060924</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 175 à 193 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFE16CA043D382948</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-57165557</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 211 à 233 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFC97B90BD6129D84</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-56185152</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 227 à 251 points de dégâts de Vie par Conviction à l&apos;ennemi et à un maximum de 4 autres ennemis.</Description>
+        <AddonId>AFCA6AEC058F12BC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Condamnation</Name>
+      <Icon>smite1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-65354533</AbilityId>
+        <Description>Inflige 948 à 1048 points de dégâts de Vie.</Description>
+        <AddonId>AFC1AC4DBD5944784</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-44194394</AbilityId>
+        <Description>Inflige 1239 à 1369 points de dégâts de Vie.</Description>
+        <AddonId>AFD5DA5A648A37F63</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-3378535</AbilityId>
+        <Description>Inflige 1333 à 1473 points de dégâts de Vie.</Description>
+        <AddonId>AFFCC7299513EC428</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Assurance complète</Name>
+      <Icon>doctrine_of_loyalty_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60843264</AbilityId>
+        <Description>Confère 7 Convictions. Augmente les dégâts et les soins des Convictions de 50% pendant 30 secondes ou jusqu&apos;à ce que toutes les Convictions soient consommées.</Description>
+        <AddonId>AFC5F9B00B44E9A75</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Marteau du devoir</Name>
+      <Icon>generic_ability_013</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-43974202</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 173 à 191 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFD6101C64C8F9A58</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-85694564</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 176 à 194 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFAE4679C7C9F3D79</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-37565029</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 180 à 199 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFDC2CD9B9F49BE7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-93541549</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 183 à 203 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFA6CAB539D9EDF4A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-38926380</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 189 à 209 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFDAE07D45F8107FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-92054223</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 193 à 214 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFA835D31BF33B24E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-48339020</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 201 à 222 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFD1E67B47FBED2C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-66898273</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 211 à 233 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFC03369F68E29ECA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-76559978</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 226 à 250 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFB6FC996CE7F2538</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-5382048</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 246 à 272 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFFADE060578354AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-85702679</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 319 à 353 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFAE447E91B7B6AA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-186915</AbilityId>
+        <Description>Consomme toutes les Convictions. Inflige 380 à 420 points de dégâts de Vie par Conviction.</Description>
+        <AddonId>AFFFD25DDA4AF861F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Frappe de rétribution</Name>
+      <Icon>smite2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-10330795</AbilityId>
+        <Description>Inflige 402 à 445 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFF625D555A57E90C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-97967551</AbilityId>
+        <Description>Inflige 422 à 467 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFA2922417AF8215E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-14502661</AbilityId>
+        <Description>Inflige 453 à 500 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFF22B4FBC8C730F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-24386784</AbilityId>
+        <Description>Inflige 491 à 543 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFE8BE3209B621B21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-71913045</AbilityId>
+        <Description>Inflige 640 à 707 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFBB6B1AB82FF6E9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-43246107</AbilityId>
+        <Description>Inflige 760 à 840 points de dégâts de Vie. Utilisable après un blocage du Clerc.</Description>
+        <AddonId>AFD6C1DE5628B5B1B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Foi en action</Name>
+      <Icon>doctrine_of_virtue_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>24282980</AbilityId>
+        <Description></Description>
+        <AddonId>A017287645DAA0795</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Salut</Name>
+      <Icon>salvation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>67113915</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 131 à 145 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>A040013BBA78A4491</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-81319227</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 134 à 148 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFB272AC5D225F54D</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-93807066</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 141 à 156 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFA689E26AAD22CC2</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-19592799</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 146 à 162 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFED509A1E435ED16</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-35022189</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 152 à 168 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFDE99A93F3B4AB2C</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-41007842</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 157 à 173 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFD8E451EE1B90D96</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-43875896</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 160 à 177 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFD6281C89F9996F2</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-60119021</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 164 à 181 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFC6AA813F089E534</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-49909191</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 165 à 183 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFD067239B11EBD75</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92021050</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 171 à 189 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFA83DEC6C52DF1F7</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-67715710</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 172 à 191 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFBF6BD82AC6022DD</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-29176092</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 181 à 200 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFE42CEE4790C78B6</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-56662291</AbilityId>
+        <Description>Les capacités infligeant des dégâts restaurent 183 à 202 points de vie au Clerc. Restaure deux fois plus de points de vie en utilisant les capacités de Justicier à cible unique. Restaure un quart de ces points de vie en utilisant des capacités à zone d&apos;effet autres que celles du Justicier. Restaure 5% de ces points de vie en utilisant des capacités non-canalisées sur des cibles au sol, autres que celles du Justicier.</Description>
+        <AddonId>AFC9F66EDD6EE0B69</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cavalier</Name>
+      <Icon>conviction_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>211641305</AbilityId>
+        <Description>Les capacités infligeant des dégâts de Vie confèrent une Conviction pendant 30 secondes.</Description>
+        <AddonId>A0C9D63D967C04D66</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Réprimande</Name>
+      <Icon>redirect4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>361496699</AbilityId>
+        <Description>Attire un maximum de 5 ennemis jusqu&apos;au Clerc et les force à l&apos;attaquer pendant 3 secondes.</Description>
+        <AddonId>A158C007B3BBA0EF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Mine de souverain</Name>
+      <Icon>requital_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>413766657</AbilityId>
+        <Description>Augmente l&apos;endurance, l&apos;armure et les résistances de 35%. Augmente la menace générée de 350%. Permet aux excès de soins du Clerc de générer de la menace. Réduit les dégâts, les soins prodigués et l&apos;absorption conférée par les capacités de 40%, à l&apos;exception de celles du Justicier.</Description>
+        <AddonId>A18A99401C513B261</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Trait de rayonnement</Name>
+      <Icon>bolt_of_radiance_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>436858804</AbilityId>
+        <Description>Inflige 862 à 952 points de dégâts de Vie.</Description>
+        <AddonId>A1A09EFB440FCA57C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>547799649</AbilityId>
+        <Description>Inflige 874 à 966 points de dégâts de Vie.</Description>
+        <AddonId>A20A6C2617CDC0607</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>941231168</AbilityId>
+        <Description>Inflige 897 à 991 points de dégâts de Vie.</Description>
+        <AddonId>A381A0C409930A300</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>533373974</AbilityId>
+        <Description>Inflige 911 à 1007 points de dégâts de Vie.</Description>
+        <AddonId>A1FCAA416532BC6AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1582355505</AbilityId>
+        <Description>Inflige 929 à 1027 points de dégâts de Vie.</Description>
+        <AddonId>A5E50D43141D3EBEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>858042924</AbilityId>
+        <Description>Inflige 957 à 1057 points de dégâts de Vie.</Description>
+        <AddonId>A3324B22C92D75289</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1233663212</AbilityId>
+        <Description>Inflige 985 à 1089 points de dégâts de Vie.</Description>
+        <AddonId>A498834EC7997EB32</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>789036701</AbilityId>
+        <Description>Inflige 1022 à 1130 points de dégâts de Vie.</Description>
+        <AddonId>A2F07BE9D9E9B08AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>102952919</AbilityId>
+        <Description>Inflige 1093 à 1208 points de dégâts de Vie.</Description>
+        <AddonId>A0622EFD765ACAE18</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-92519958</AbilityId>
+        <Description>Inflige 1133 à 1252 points de dégâts de Vie.</Description>
+        <AddonId>AFA7C41EABFEC2DE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-93675833</AbilityId>
+        <Description>Inflige 1229 à 1358 points de dégâts de Vie.</Description>
+        <AddonId>AFA6A9EC7CDEA4AA3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-61412588</AbilityId>
+        <Description>Inflige 1599 à 1767 points de dégâts de Vie.</Description>
+        <AddonId>AFC56EB145924C3CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-1029779</AbilityId>
+        <Description>Inflige 1901 à 2101 points de dégâts de Vie.</Description>
+        <AddonId>AFFF0496D59994AB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Impératif du juste</Name>
+      <Icon>ressurection3bb</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>519389657</AbilityId>
+        <Description>Force un maximum de 10 ennemis proches à attaquer le Clerc pendant 3 secondes.</Description>
+        <AddonId>A1EF541D9302B6651</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Accolade resplendissante</Name>
+      <Icon>paladin-preservation</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>997293584</AbilityId>
+        <Description>Augmente les points de vie maximum de 20%. Augmente les soins reçus de 50%. Dure 10 secondes.</Description>
+        <AddonId>A3B717E109EF7265C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Absolution</Name>
+      <Icon>absolution_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>1297021479</AbilityId>
+        <Description>Ressuscite l&apos;allié et lui rend 100% de ses points de vie et 50% de mana. Utilisable en combat.</Description>
+        <AddonId>A4D4EFA27574FDC9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>300.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Précepte de refuge</Name>
+      <Icon>defensivestrike1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>1299258785</AbilityId>
+        <Description>Inflige 588 à 650 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A4D711DA1A66B8221</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>1681848349</AbilityId>
+        <Description>Inflige 599 à 662 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A643EF81D8A25F76E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>1500652661</AbilityId>
+        <Description>Inflige 615 à 680 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A597224754559C214</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>475681911</AbilityId>
+        <Description>Inflige 630 à 697 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A1C5A547783F7A36B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>384706130</AbilityId>
+        <Description>Inflige 652 à 721 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A16EE265261404C7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>44599468</AbilityId>
+        <Description>Inflige 683 à 755 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A02A888AC87B9FD88</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>1877130893</AbilityId>
+        <Description>Inflige 739 à 816 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>A6FE2BE8D7CB11C37</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-23099422</AbilityId>
+        <Description>Inflige 756 à 836 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>AFE9F87E25E987941</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63677339</AbilityId>
+        <Description>Inflige 950 à 1050 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>AFC345C6544B7967F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-86358779</AbilityId>
+        <Description>Inflige 1146 à 1267 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>AFADA4505A341BADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70027948</AbilityId>
+        <Description>Inflige 1237 à 1367 points de dégâts de Vie. Augmente les chances de blocage du Clerc de 5% pendant 8 secondes. Nécessite un bouclier.</Description>
+        <AddonId>AFBD37554B8D49F62</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Provocation</Name>
+      <Icon>piety2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1320857460</AbilityId>
+        <Description>Force l&apos;ennemi ciblé à attaquer le Clerc pendant 3 secondes.</Description>
+        <AddonId>A4EBAAF7455A0CE9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Souveraineté</Name>
+      <Icon>virtuous_conviction_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1507966295</AbilityId>
+        <Description>Étourdit pendant 2 secondes.</Description>
+        <AddonId>A59E1BD579C0516B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>2.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sursis</Name>
+      <Icon>layinghands1x</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1555582549</AbilityId>
+        <Description>Restaure 100% des points de vie du Clerc et 50% des points de vie maximum du Clerc à la cible du Mandat du juste du Clerc.</Description>
+        <AddonId>A5CB84E55BC27F73F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doctrine de loyauté</Name>
+      <Icon>righteous_invocation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1730478653</AbilityId>
+        <Description>Restaure 337 à 372 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A6725023DD527DA93</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1439919574</AbilityId>
+        <Description>Restaure 347 à 384 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A55D36DD69FEC0968</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>2109285446</AbilityId>
+        <Description>Restaure 359 à 397 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A7DB924468412403A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1032721152</AbilityId>
+        <Description>Restaure 364 à 403 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A3D8E13005E1A21FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1375145337</AbilityId>
+        <Description>Restaure 378 à 418 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A51F70D794A934022</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>190699284</AbilityId>
+        <Description>Restaure 383 à 424 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A0B5DD7145CA441CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>172774187</AbilityId>
+        <Description>Restaure 390 à 431 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A0A4C532B8418345F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>602908968</AbilityId>
+        <Description>Restaure 415 à 458 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A23EFA928DD3FAE91</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1321451206</AbilityId>
+        <Description>Restaure 422 à 466 points de vie à un maximum de 10 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A4EC3BEC6A62D5736</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Défense juste</Name>
+      <Icon>paladin-reprisal</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1745856916</AbilityId>
+        <Description>Absorbe des points de dégâts à hauteur de 50% des points de vie maximum du Clerc. Dure 10 secondes.</Description>
+        <AddonId>A680FA994B8E41D02</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Mine d&apos;honneur</Name>
+      <Icon>overwhelming_brilliance_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>1916547586</AbilityId>
+        <Description>Réduit la génération de menace des capacités infligeant des dégâts de 50%. Augmente les soins prodigués par les capacités du Justicier de 10%.</Description>
+        <AddonId>A723C320268298CCD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Interdiction</Name>
+      <Icon>interdict_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1946401743</AbilityId>
+        <Description>Interrompt la cible et les ennemis à proximité.</Description>
+        <AddonId>A7403BBCFAF89FCAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>8.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Justice équitable</Name>
+      <Icon>even_justice_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1970897476</AbilityId>
+        <Description>Inflige 365 à 404 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A757982446FF36D7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>161977196</AbilityId>
+        <Description>Inflige 375 à 415 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A09A7936CE25DE1D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1454766749</AbilityId>
+        <Description>Inflige 385 à 426 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A56B5FA9D3D293B5B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>734088497</AbilityId>
+        <Description>Inflige 398 à 440 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A2BC14D3175CC2CEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1263209816</AbilityId>
+        <Description>Inflige 411 à 455 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A4B4B0D5852D54CF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>41835013</AbilityId>
+        <Description>Inflige 453 à 500 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>A027E5A059523E6BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-70765407</AbilityId>
+        <Description>Inflige 464 à 512 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>AFBC834A17027671F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-37234265</AbilityId>
+        <Description>Inflige 583 à 644 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>AFDC7D9A72CD5F99E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-47353831</AbilityId>
+        <Description>Inflige 704 à 778 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>AFD2D70197239044E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-6704144</AbilityId>
+        <Description>Inflige 760 à 840 points de dégâts de Vie à un maximum de 5 ennemis situés devant le Clerc.</Description>
+        <AddonId>AFF99B3F0B6CE882F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Doctrine de béatitude</Name>
+      <Icon>doctrine_of_bliss_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1985551240</AbilityId>
+        <Description>Restaure 1042 à 1152 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A76591B88A856B283</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>257880082</AbilityId>
+        <Description>Restaure 1127 à 1246 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A0F5EF01278A0C2CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1380030485</AbilityId>
+        <Description>Restaure 1179 à 1304 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A52419815B9BE94DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>431813596</AbilityId>
+        <Description>Restaure 1237 à 1367 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A19BCF3DC59E2AC1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>676239880</AbilityId>
+        <Description>Restaure 1271 à 1405 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A284E9A08BA00764D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1931623321</AbilityId>
+        <Description>Restaure 1318 à 1457 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A73223B99784D0FD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1949060401</AbilityId>
+        <Description>Restaure 1335 à 1476 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A742C4D31B1E69DB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>761833926</AbilityId>
+        <Description>Restaure 1386 à 1532 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A2D68A9C6B3E941E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1569800350</AbilityId>
+        <Description>Restaure 1408 à 1557 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>A5D91409EC13BEBC0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-45776424</AbilityId>
+        <Description>Restaure 1431 à 1581 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>AFD4581D8EC44290E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-23199987</AbilityId>
+        <Description>Restaure 1519 à 1679 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>AFE9DFF0D62ECBBFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-75541024</AbilityId>
+        <Description>Restaure 1547 à 1710 points de vie. Retire 1 Conviction.</Description>
+        <AddonId>AFB7F55E09FCC472E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Intention</Name>
+      <Icon>generic_ability_024_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1991851906</AbilityId>
+        <Description>Les attaques à l&apos;arme rendent 10% de ses points de mana au Clerc. Empêche de gagner des Convictions.</Description>
+        <AddonId>A76B93F826E12B56C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blâme</Name>
+      <Icon>paladin-life_rapture_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2011478686</AbilityId>
+        <Description>Inflige 205 à 227 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A77E4BA9E3E8D6BA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1456886671</AbilityId>
+        <Description>Inflige 226 à 250 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A56D6538F88A77C71</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>90120609</AbilityId>
+        <Description>Inflige 232 à 256 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A055F21A18FDFACDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1359171852</AbilityId>
+        <Description>Inflige 292 à 322 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A5103510C54FD694E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>130279201</AbilityId>
+        <Description>Inflige 352 à 389 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A07C3E72198DDCB96</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>427834832</AbilityId>
+        <Description>Inflige 380 à 420 points de dégâts de Vie à un maximum de 10 ennemis à proximité. Réduit les chances de toucher chaque ennemi de 5% pendant 15 secondes.</Description>
+        <AddonId>A19803DD04C1C9FDA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe de jugement</Name>
+      <Icon>strike_of_judgement_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2037559528</AbilityId>
+        <Description>Inflige 570 à 630 points de dégâts de Vie.</Description>
+        <AddonId>A7972B0E833DD1F62</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1028924681</AbilityId>
+        <Description>Inflige 578 à 639 points de dégâts de Vie.</Description>
+        <AddonId>A3D54250974047F20</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1973331361</AbilityId>
+        <Description>Inflige 588 à 650 points de dégâts de Vie.</Description>
+        <AddonId>A759EA5A1E523193E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1967324605</AbilityId>
+        <Description>Inflige 603 à 667 points de dégâts de Vie.</Description>
+        <AddonId>A7542FDBD71176BA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>900796670</AbilityId>
+        <Description>Inflige 615 à 680 points de dégâts de Vie.</Description>
+        <AddonId>A35B110FEBEC84983</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2017388311</AbilityId>
+        <Description>Inflige 630 à 697 points de dégâts de Vie.</Description>
+        <AddonId>A783EE71721EC23F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1460857496</AbilityId>
+        <Description>Inflige 647 à 715 points de dégâts de Vie.</Description>
+        <AddonId>A5712EA987F0EA5A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>781087541</AbilityId>
+        <Description>Inflige 671 à 741 points de dégâts de Vie.</Description>
+        <AddonId>A2E8E73358812927F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1985836150</AbilityId>
+        <Description>Inflige 704 à 778 points de dégâts de Vie.</Description>
+        <AddonId>A765D7476AFEA9DE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>209670535</AbilityId>
+        <Description>Inflige 755 à 834 points de dégâts de Vie.</Description>
+        <AddonId>A0C7F518734E35E02</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-27001794</AbilityId>
+        <Description>Inflige 819 à 906 points de dégâts de Vie.</Description>
+        <AddonId>AFE63FC3EA114ACCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-45370316</AbilityId>
+        <Description>Inflige 1066 à 1179 points de dégâts de Vie.</Description>
+        <AddonId>AFD4BB434A71976FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-91158238</AbilityId>
+        <Description>Inflige 1266 à 1399 points de dégâts de Vie.</Description>
+        <AddonId>AFA910922973B0EF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mandat du juste</Name>
+      <Icon>faithful_doctrine_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2105010482</AbilityId>
+        <Description>Le Salut du Clerc soigne également l&apos;allié. Ne peut affecter qu&apos;un allié à la fois. Dure 1 heure.</Description>
+        <AddonId>A7D77E932B02DCBBB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doctrine d&apos;autorité</Name>
+      <Icon>spiritstrike5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2132984583</AbilityId>
+        <Description>Inflige 1812 à 2003 points de dégâts de Vie. Rend 577 à 638 points de vie à un maximum de 5 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>A7F22C30780C72F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-24694602</AbilityId>
+        <Description>Inflige 2137 à 2362 points de dégâts de Vie. Rend 607 à 670 points de vie à un maximum de 5 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>AFE8730B6874EB022</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-6515323</AbilityId>
+        <Description>Inflige 2817 à 3114 points de dégâts de Vie. Rend 633 à 699 points de vie à un maximum de 5 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>AFF9C9585FC1C5645</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-43853755</AbilityId>
+        <Description>Inflige 3040 à 3360 points de dégâts de Vie. Rend 634 à 701 points de vie à un maximum de 5 membres du groupe ou du raid. Retire 1 Conviction.</Description>
+        <AddonId>AFD62D845B1183F97</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

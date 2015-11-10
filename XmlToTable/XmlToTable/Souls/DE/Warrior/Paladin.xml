@@ -1,0 +1,2959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Paladin">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Robuster Schild</Name>
+      <Icon>bulwark1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1521303676</AbilityId>
+          <Description></Description>
+          <AddonId>A5AAD407C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren Blockwert um 0,5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren Blockwert um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren Blockwert um 1,5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Euren Blockwert um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Euren Blockwert um 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Unbeugsame Abwehr</Name>
+      <Icon>1h_shield_048a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>562518850</AbilityId>
+          <Description></Description>
+          <AddonId>A21875B4200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Schadensreduzierung beim Blocken um 1%. Reduziert den durch Zauber erlittenen Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Schadensreduzierung beim Blocken um 2%. Reduziert den durch Zauber erlittenen Schaden um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die Schadensreduzierung beim Blocken um 3%. Reduziert den durch Zauber erlittenen Schaden um 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Schild des Helden</Name>
+      <Icon>1h_shield_054a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>862002525</AbilityId>
+          <Description>Erhöht Rüstung um 3% sowie alle Widerstände um 9%. Maximal aktive Schildstärkungen: 1. Dauer beträgt 1 Stunde.</Description>
+          <AddonId>A33611D5D1EF5312E</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn aktiv, erhöht Heroisches Antlitz die Chance zu blocken und zu treffen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Beschwichtigung</Name>
+      <Icon>blindinglight3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-40232767</AbilityId>
+          <Description></Description>
+          <AddonId>AFD9A18C15287E1E8</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaden durch Besänftigender Schlag und Gerechter Schlag wird um 5% erhöht. Euer Besänftigender Schlag reduziert zudem den erlittenen Schaden 15 Sekunden lang um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Schaden durch Besänftigender Schlag und Gerechter Schlag wird um 10% erhöht. Euer Besänftigender Schlag reduziert zudem den erlittenen Schaden 15 Sekunden lang um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Schaden durch Besänftigender Schlag und Gerechter Schlag wird um 15% erhöht. Euer Besänftigender Schlag reduziert zudem den erlittenen Schaden 15 Sekunden lang um 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Gute Verteidigung</Name>
+      <Icon>plate_102_chest</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1795591797</AbilityId>
+          <Description></Description>
+          <AddonId>A6B068E7500000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Fähigkeiten, die Angriffspunkte erzeugen, um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Fähigkeiten, die Angriffspunkte erzeugen, um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von Fähigkeiten, die Angriffspunkte erzeugen, um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von Fähigkeiten, die Angriffspunkte erzeugen, um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von Fähigkeiten, die Angriffspunkte erzeugen, um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Hammer des Lichts</Name>
+      <Icon>smite2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1274495851</AbilityId>
+          <Description>Betäubt das Ziel für 3 Sekunden.</Description>
+          <AddonId>A4BF7436B593C9847</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet den Hammer des Lichts frei, einen mächtigen Distanzangriff, der zusätzlich das Ziel betäubt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Stetige Aggression</Name>
+      <Icon>defensivestrike2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Dauer von Aggressiver Block um 2 Sekunden und den Schadensbonus von Aggressiver Block um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Dauer von Aggressiver Block um 4 Sekunden und den Schadensbonus von Aggressiver Block um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die Dauer von Aggressiver Block um 6 Sekunden und den Schadensbonus von Aggressiver Block um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Beständigkeit</Name>
+      <Icon>doctrine_of_virtue_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-85247574</AbilityId>
+          <Description></Description>
+          <AddonId>AFAEB39AA00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Ausdauer um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Ausdauer um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Ausdauer um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Ausdauer um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Ausdauer um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Aggressiver Wächter</Name>
+      <Icon>invigoration1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>329187601</AbilityId>
+          <Description></Description>
+          <AddonId>A139F011100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 3% und erhöht zusätzlich alle Bedrohungen um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 6% und erhöht zusätzlich alle Bedrohungen um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 9% und erhöht zusätzlich alle Bedrohungen um 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Gesichtsrempler</Name>
+      <Icon>paladin_face_slam</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1542933015</AbilityId>
+          <Description>Unterbricht.</Description>
+          <AddonId>A5BF74A176BE8056A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Hartgesottene Verteidigung</Name>
+      <Icon>requital_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74160655</AbilityId>
+          <Description></Description>
+          <AddonId>AFB9465F100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Widerstände um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Widerstände um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Widerstände um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Essenzschub</Name>
+      <Icon>layonhands5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>321851503</AbilityId>
+          <Description>Stellt volle Gesundheit wieder her.</Description>
+          <AddonId>A132F106FF887F85C</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Gleichgewicht der Kräfte</Name>
+      <Icon>shielded</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1583510656</AbilityId>
+          <Description></Description>
+          <AddonId>A5E62748003D5DB20</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Angriffe, die auf einen Block folgen müssen, verursachen zusätzlich 20% Eurer Ausdauer als Lebensschaden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Angriffe, die auf einen Block folgen müssen, verursachen zusätzlich 40% Eurer Ausdauer als Lebensschaden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Angriffe, die auf einen Block folgen müssen, verursachen zusätzlich 60% Eurer Ausdauer als Lebensschaden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Entschlossenheit</Name>
+      <Icon>healing_flare_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-66170185</AbilityId>
+          <Description></Description>
+          <AddonId>AFC0E52B700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verringert die Abklingzeit Eures Balsam des Lichts und Segen des Lichts um 1 Sekunde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verringert die Abklingzeit Eures Balsam des Lichts und Segen des Lichts um 2 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Schild der Rachsüchtigen</Name>
+      <Icon>paladin_shield_of_the_vengeful_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-98025025</AbilityId>
+          <Description>Erhöht den Schaden um 25%. Maximal aktive Schildstärkungen: 1. Dauer beträgt 1 Stunde.</Description>
+          <AddonId>AFA2841BF792FCE2C</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Frontlinientraining</Name>
+      <Icon>righteous_invocation_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Anzahl der Feinde, die durch Schwungvoller Hieb, Urteil und Urteil des Lichts getroffen werden, um 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Anzahl der Feinde, die durch Schwungvoller Hieb, Urteil und Urteil des Lichts getroffen werden, um 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Dominanz des Lichts</Name>
+      <Icon>excommunicate</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-15663560</AbilityId>
+          <Description>Betäubt bis zu 5 Feinde innerhalb eines Abstandes von 20 Metern vor dem Paladin für 3 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+          <AddonId>AFF10FE38281E01D2</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>20.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Kämpferschild</Name>
+      <Icon>arcaneshield4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>521245720</AbilityId>
+          <Description></Description>
+          <AddonId>A1F11941800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Bei jedem erfolgreichen Block besteht eine Chance von 10%, Angriffspunkte um 1 zu erhöhen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Bei jedem erfolgreichen Block besteht eine Chance von 25%, Angriffspunkte um 1 zu erhöhen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Kräftigung</Name>
+      <Icon>reprieve_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-48645051</AbilityId>
+          <Description></Description>
+          <AddonId>AFD19BC4560C2EBD0</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Schaden ist für 15 Sekunden, nachdem Ihr einen Angriff geblockt habt, um 2% erhöht. Dieser Effekt kann bis zu 5 Mal kumuliert werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Schaden ist für 15 Sekunden, nachdem Ihr einen Angriff geblockt habt, um 5% erhöht. Dieser Effekt kann bis zu 5 Mal kumuliert werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Rachsüchtiger Zorn</Name>
+      <Icon>paladin-vengeful_wrath</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>202471296</AbilityId>
+          <Description></Description>
+          <AddonId>A0C11778000000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Göttliche Gnade</Name>
+      <Icon>paladin_lights_blessing_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-9409410</AbilityId>
+          <Description></Description>
+          <AddonId>AFF706C7E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Heilung Eures Balsam des Lichts und Eurer Segnung des Lichts um 3%. Zusätzlich wird der Lebensschaden um 6% erhöht.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Heilung Eures Balsam des Lichts und Eurer Segnung des Lichts um 6%. Zusätzlich wird der Lebensschaden um 12% erhöht.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Brutale Erwiderung</Name>
+      <Icon>smite4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-64250553</AbilityId>
+          <Description></Description>
+          <AddonId>AFC2B9D4700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht bei Angriffen, die auf einen Block folgen müssen, die erzeugte Bedrohung. Die Höhe richtet sich nach der Ausdauer. Verringert die Kosten dieser Angriffe um 50%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Gunst des Lichts</Name>
+      <Icon>heal3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-54518399</AbilityId>
+          <Description></Description>
+          <AddonId>AFCC01D8100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verringert die Abklingzeit Eures Essenzschubs und Eurer Lebensfreude um 10 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verringert die Abklingzeit Eures Essenzschubs und Eurer Lebensfreude um 20 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verringert die Abklingzeit Eures Essenzschubs und Eurer Lebensfreude um 30 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Schutz des Lichts</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-15952020</AbilityId>
+          <Description>Erhöht die erhaltene Heilung für die nächsten 12 Sekunden um 15%. Hat keinen Einfluss auf Essenzschub oder Lebensfreude.</Description>
+          <AddonId>AFF0C976C5B694F38</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>12.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Gesegnete Aigis</Name>
+      <Icon>castigation1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-45162097</AbilityId>
+          <Description></Description>
+          <AddonId>AFD4EE18F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erlaubt es Euch, 2 aktive Schildstärkungen zu haben und erhöht die Ausdauer um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Schildverteidigung</Name>
+      <Icon>castigation3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-98924078</AbilityId>
+          <Description>Verringert den vom Krieger erlittenen Schaden für 10 Sekunden um 35%. Teilt Abklingzeit mit Wappen der Entropie. Kann nicht mit Aigis des Lichts, Wappen der Aufzehrung oder Kraftschild kumuliert werden.</Description>
+          <AddonId>AFA1A89D25BE4F842</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schildverteidigung</Name>
+      <Icon>castigation3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-98924078</AbilityId>
+        <Description>Verringert den vom Krieger erlittenen Schaden für 10 Sekunden um 35%. Teilt Abklingzeit mit Wappen der Entropie. Kann nicht mit Aigis des Lichts, Wappen der Aufzehrung oder Kraftschild kumuliert werden.</Description>
+        <AddonId>AFA1A89D25BE4F842</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schild der Rachsüchtigen</Name>
+      <Icon>paladin_shield_of_the_vengeful_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-98025025</AbilityId>
+        <Description>Erhöht den Schaden um 25%. Maximal aktive Schildstärkungen: 1. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA2841BF792FCE2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aigis des Lichts</Name>
+      <Icon>hammer_of_virtue_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-92749611</AbilityId>
+        <Description>Verringert eingehenden Schaden 4 Sekunden lang um 20%. Heilt bis zu 5 Gruppen- und Schlachtzugmitglieder in einem Umkreis von 35 Metern um 241. Kann nicht mit Schildverteidigung oder Wappen der Entropie kumuliert werden.</Description>
+        <AddonId>AFA78C0D582C9F2E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>4.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Balsam des Lichts</Name>
+      <Icon>righteous_healing_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-64114415</AbilityId>
+        <Description>Heilt 272 bis 301.</Description>
+        <AddonId>AFC2DB111F0A92E78</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-73856652</AbilityId>
+        <Description>Heilt 346 bis 383.</Description>
+        <AddonId>AFB9909745CEC15EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-74423841</AbilityId>
+        <Description>Heilt 398 bis 440.</Description>
+        <AddonId>AFB9061DF89AF06E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-93452262</AbilityId>
+        <Description>Heilt 457 bis 506.</Description>
+        <AddonId>AFA6E081A767F9D78</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-27563429</AbilityId>
+        <Description>Heilt 485 bis 536.</Description>
+        <AddonId>AFE5B6A5B8AE635E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-41574202</AbilityId>
+        <Description>Heilt 520 bis 575.</Description>
+        <AddonId>AFD85A0C67C18D668</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-46431795</AbilityId>
+        <Description>Heilt 580 bis 642.</Description>
+        <AddonId>AFD3B81CDD3F7370E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-29546502</AbilityId>
+        <Description>Heilt 608 bis 672.</Description>
+        <AddonId>AFE3D27FA39BF4CB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-82100276</AbilityId>
+        <Description>Heilt 714 bis 789.</Description>
+        <AddonId>AFB1B3FCCD2637BB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-57561791</AbilityId>
+        <Description>Heilt 749 bis 828.</Description>
+        <AddonId>AFC91AD41AE0BD616</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>3.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.320000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Revanche des Lichts</Name>
+      <Icon>paladin-reprisal</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-63327825</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 342 bis 378 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFC39B1AFBC3B8551</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-88884134</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 373 bis 413 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFAB3BC5A82D9BC2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-73026660</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 425 bis 470 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFBA5B39C9ABA23DF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-12227872</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 488 bis 540 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFF456AE053EEE954</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-598939</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 733 bis 810 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFFF6DC6594E4A321</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-60728200</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 933 bis 1031 Lebensschaden zu. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFC615C78BDC41BC0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>16.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>6</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vergeltung des Lichts</Name>
+      <Icon>paladin_lights_blessing1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-47254853</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 547 bis 547 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFD2EF2BB715EFD36</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-95425572</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 586 bis 586 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFA4FEBDC9D56C7BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-38146407</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 625 bis 625 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFDB9EE993E6034D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-81354115</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 744 bis 744 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFB26A27DCEFBA6CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-89225219</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 775 bis 775 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFAAE87FD4E2E7A94</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-85591264</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 1122 bis 1122 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFAE5FB20B1A8A244</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-58454893</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 1472 bis 1472 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFC840C9370B68300</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-84337318</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 15 Sekunden 1635 bis 1635 Lebensschaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFAF91D5A6A18DED4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.650000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">2.480000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Raserei des Beschützers</Name>
+      <Icon>conviction_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-46407649</AbilityId>
+        <Description>Erlittener Schaden fügt eine Kumulierung von Rechtschaffene Raserei hinzu und erhöht den verursachten Lebensschaden des Kriegers pro Kumulierung um 5%. Gleichzeitig wird der erlittene Schaden um 1% pro Kumulierung verringert. Maximal 5 Kumulierungen. Kann nur einmal pro Sekunde geschehen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFD3BE01FAE368CFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Benediktion des Lichts</Name>
+      <Icon>overwhelming_brilliance_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-36055070</AbilityId>
+        <Description>Verursacht Lebensschaden beim Gegner. Reduziert erlittenen Schaden um 7%. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 365 Schaden
+2 Punkte: 620 Schaden
+3 Punkte: 1007 Schaden</Description>
+        <AddonId>AFDD9D7E2A8F0E50B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-34858752</AbilityId>
+        <Description>Verursacht Lebensschaden beim Gegner. Reduziert erlittenen Schaden um 7%. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 450 Schaden
+2 Punkte: 874 Schaden
+3 Punkte: 1514 Schaden</Description>
+        <AddonId>AFDEC1900BCFD43BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-28939633</AbilityId>
+        <Description>Verursacht Lebensschaden beim Gegner. Reduziert erlittenen Schaden um 7%. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 479 Schaden
+2 Punkte: 957 Schaden
+3 Punkte: 1680 Schaden</Description>
+        <AddonId>AFE466A8F6802C32A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Segnung des Lichts</Name>
+      <Icon>paladin_lights_blessing_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-33946828</AbilityId>
+        <Description>Heilt 750 bis 829.</Description>
+        <AddonId>AFDFA0334A0189A9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-96826670</AbilityId>
+        <Description>Heilt 871 bis 963.</Description>
+        <AddonId>AFA3A8AD25CF63A0B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-81275634</AbilityId>
+        <Description>Heilt 902 bis 997.</Description>
+        <AddonId>AFB27D50ECCB37157</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-29619284</AbilityId>
+        <Description>Heilt 1043 bis 1152.</Description>
+        <AddonId>AFE3C0BACA72DF520</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-61020303</AbilityId>
+        <Description>Heilt 1115 bis 1233.</Description>
+        <AddonId>AFC5CE771A1250EF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-75964906</AbilityId>
+        <Description>Heilt 1122 bis 1241.</Description>
+        <AddonId>AFB78DE169343F3B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.980000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schutz des Lichts</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-15952020</AbilityId>
+        <Description>Erhöht die erhaltene Heilung für die nächsten 12 Sekunden um 15%. Hat keinen Einfluss auf Essenzschub oder Lebensfreude.</Description>
+        <AddonId>AFF0C976C5B694F38</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Dominanz des Lichts</Name>
+      <Icon>excommunicate</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-15663560</AbilityId>
+        <Description>Betäubt bis zu 5 Feinde innerhalb eines Abstandes von 20 Metern vor dem Paladin für 3 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFF10FE38281E01D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rechtschaffener Ansturm</Name>
+      <Icon>defstrike3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>29068291</AbilityId>
+        <Description>Greift den Feind an und verursacht 606 bis 670 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A01BB8C035B6A96DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1827266707</AbilityId>
+        <Description>Greift den Feind an und verursacht 639 bis 706 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6CE9E09361A22C52</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1663733872</AbilityId>
+        <Description>Greift den Feind an und verursacht 688 bis 760 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A632A90705E757A44</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1425846609</AbilityId>
+        <Description>Greift den Feind an und verursacht 752 bis 832 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A54FCB1514F38DFD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>173845336</AbilityId>
+        <Description>Greift den Feind an und verursacht 855 bis 945 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A0A5CAB5867C6F796</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>351757461</AbilityId>
+        <Description>Greift den Feind an und verursacht 984 bis 1088 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A14F76495538B65D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-27132677</AbilityId>
+        <Description>Greift den Feind an und verursacht 1477 bis 1632 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFE61FCFB0949F659</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-73195740</AbilityId>
+        <Description>Greift den Feind an und verursacht 1879 bis 2077 körperlichen Schaden. Macht 2 Sekunden lang bewegungsunfähig. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFBA31F249EDD1D9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schild des Erkorenen</Name>
+      <Icon>generic_ability_016</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>66400259</AbilityId>
+        <Description>Erhöht den Blockwert um 5%. Maximal aktive Schildstärkungen: 1. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A03F53003A62FFD1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Geschenk des Paladins</Name>
+      <Icon>soul_paladin</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>73994924</AbilityId>
+        <Description>Erhöht pro Punkt, welcher der Paladin-Seele zugewiesen wird, die Ausdauer um 1,5%, die Rüstung um 1%, die Widerstände um 2% und den Basisschaden um 0,5%.</Description>
+        <AddonId>A046912AC72160B18</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Einmischen</Name>
+      <Icon>harbinger_lucent_slash_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>99169393</AbilityId>
+        <Description>Der Feind wird gezwungen, den Krieger für 3 Sekunden anzugreifen. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A05E934712DEB9B9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Essenzschub</Name>
+      <Icon>layonhands5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>321851503</AbilityId>
+        <Description>Stellt volle Gesundheit wieder her.</Description>
+        <AddonId>A132F106FF887F85C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gerechter Schlag</Name>
+      <Icon>flare_of_light_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>579478336</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 269 Schaden
+2 Punkte: 338 Schaden
+3 Punkte: 442 Schaden</Description>
+        <AddonId>A228A2340A139A1E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>457963547</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 271 Schaden
+2 Punkte: 345 Schaden
+3 Punkte: 456 Schaden</Description>
+        <AddonId>A1B4BF81B967771D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>124506437</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 275 Schaden
+2 Punkte: 359 Schaden
+3 Punkte: 483 Schaden</Description>
+        <AddonId>A076BD1454E5D5DF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1196299211</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 279 Schaden
+2 Punkte: 367 Schaden
+3 Punkte: 501 Schaden</Description>
+        <AddonId>A474E13CB756C9BF0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1088922193</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 282 Schaden
+2 Punkte: 379 Schaden
+3 Punkte: 524 Schaden</Description>
+        <AddonId>A40E7A25148136709</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1948495051</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 288 Schaden
+2 Punkte: 395 Schaden
+3 Punkte: 555 Schaden</Description>
+        <AddonId>A7423ACCB6AF39B25</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1164648118</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 294 Schaden
+2 Punkte: 412 Schaden
+3 Punkte: 589 Schaden</Description>
+        <AddonId>A456B1EB694A3A3F0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1938568359</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 301 Schaden
+2 Punkte: 434 Schaden
+3 Punkte: 634 Schaden</Description>
+        <AddonId>A738C34A77B6F2528</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1260181726</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 316 Schaden
+2 Punkte: 476 Schaden
+3 Punkte: 718 Schaden</Description>
+        <AddonId>A4B1CD8DE6514E3B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>824569825</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 324 Schaden
+2 Punkte: 499 Schaden
+3 Punkte: 765 Schaden</Description>
+        <AddonId>A3125EFE1413D6C95</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-10653390</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 365 Schaden
+2 Punkte: 620 Schaden
+3 Punkte: 1007 Schaden</Description>
+        <AddonId>AFF5D7132757C7D24</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-89461257</AbilityId>
+        <Description>Verursacht körperlichen Schaden.
+
+1 Punkt: 450 Schaden
+2 Punkte: 874 Schaden
+3 Punkte: 1514 Schaden</Description>
+        <AddonId>AFAAAEDF76A3B4159</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-68546957</AbilityId>
+        <Description>Verursacht körperlichen Schaden:
+
+1 Punkt: 479 Schaden
+2 Punkte: 957 Schaden
+3 Punkte: 1680 Schaden</Description>
+        <AddonId>AFBEA0E7348DA773A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schild des Helden</Name>
+      <Icon>1h_shield_054a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>862002525</AbilityId>
+        <Description>Erhöht Rüstung um 3% sowie alle Widerstände um 9%. Maximal aktive Schildstärkungen: 1. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A33611D5D1EF5312E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schwungvoller Hieb</Name>
+      <Icon>criticalsweep1b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>900986686</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 102 bis 113 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A35B3F73E433F3E42</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1697611217</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 109 bis 121 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A652F7DD1679D3670</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1105110159</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 115 bis 127 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A41DEA48F561E0324</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>951098811</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 123 bis 136 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A38B09DBB43A42D14</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>600782787</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 131 bis 145 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A23CF37C382659CBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>503630375</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 156 bis 173 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A1E04CA2736EA1425</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1482242174</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 163 bis 180 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A5859387EBEFA65E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-60872878</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 236 bis 261 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFC5F27524AE921E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53597131</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 310 bis 343 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFCCE2C359E08DBB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-10983703</AbilityId>
+        <Description>Fügt bis zu 10 Feinden 344 bis 380 körperlichen Schaden zu. Erzeugt enorme Bedrohung. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFF5866E94A3BB2B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vergeltung</Name>
+      <Icon>deflection2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1200244118</AbilityId>
+        <Description>Verursacht 206 bis 228 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A478A45962ED11763</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2103767059</AbilityId>
+        <Description>Verursacht 215 bis 238 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A7D64F01392EDC81A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>202758731</AbilityId>
+        <Description>Verursacht 227 bis 251 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A0C15DA4B6B63904C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1272578934</AbilityId>
+        <Description>Verursacht 233 bis 257 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A4BDA037656255DA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1426703709</AbilityId>
+        <Description>Verursacht 247 bis 273 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A5509C55D882B7F1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>76113966</AbilityId>
+        <Description>Verursacht 259 bis 286 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A0489682E7074A70D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1566637318</AbilityId>
+        <Description>Verursacht 277 bis 307 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A5D60FD067EBD6C07</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>851787667</AbilityId>
+        <Description>Verursacht 296 bis 327 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A32C53F93D986C59F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>590691661</AbilityId>
+        <Description>Verursacht 353 bis 390 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A23353D4D9DB957DB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>847572830</AbilityId>
+        <Description>Verursacht 368 bis 407 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>A3284EF5E4431E757</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-50163976</AbilityId>
+        <Description>Verursacht 532 bis 588 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFD028EF81FD57ABC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-43567670</AbilityId>
+        <Description>Verursacht 699 bis 773 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFD6735CA20DD0287</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-43064960</AbilityId>
+        <Description>Verursacht 777 bis 859 körperlichen Schaden. Muss eingesetzt werden, nachdem der Krieger geblockt hat.</Description>
+        <AddonId>AFD6EE1807D3C01F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>5</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.830000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">10.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.240000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lebensfreude</Name>
+      <Icon>paladin-life_rapture_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1211796244</AbilityId>
+        <Description>Reduziert den erlittenen Schaden um 10% und stellt die Gesundheit für bis zu 10 Gruppen- und Schlachtzugmitglieder bis auf 100% der Gesundheit des Kriegers wieder her. Hält 6 Sekunden lang an. Der Krieger wird sofort um diesen Wert geheilt.</Description>
+        <AddonId>A483A8B14922C2865</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hammer des Lichts</Name>
+      <Icon>smite2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1274495851</AbilityId>
+        <Description>Betäubt das Ziel für 3 Sekunden.</Description>
+        <AddonId>A4BF7436B593C9847</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gesichtsrempler</Name>
+      <Icon>paladin_face_slam</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1542933015</AbilityId>
+        <Description>Unterbricht.</Description>
+        <AddonId>A5BF74A176BE8056A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aggressiver Block</Name>
+      <Icon>defstrike2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1717811945</AbilityId>
+        <Description>Verursacht 110 bis 121 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6663BAE96C8E85E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.450000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>2033711492</AbilityId>
+        <Description>Verursacht 113 bis 125 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A7937F98476BB8568</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.450000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>717452743</AbilityId>
+        <Description>Verursacht 117 bis 130 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A2AC375C782A15B21</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.450000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>323658725</AbilityId>
+        <Description>Verursacht 185 bis 205 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A134AA3E5CDE61F72</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>67748783</AbilityId>
+        <Description>Verursacht 193 bis 213 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A0409C3AFD287C392</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1639760783</AbilityId>
+        <Description>Verursacht 204 bis 225 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A61BCC38FE8227E7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1094693876</AbilityId>
+        <Description>Verursacht 215 bis 237 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A413FB3F4D984F1AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>474081295</AbilityId>
+        <Description>Verursacht 231 bis 256 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A1C41E80F6095254B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1647385925</AbilityId>
+        <Description>Verursacht 253 bis 280 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A62311D45C6CF9C04</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>877833576</AbilityId>
+        <Description>Verursacht 288 bis 318 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A3452AD689771C0F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-87859047</AbilityId>
+        <Description>Verursacht 300 bis 332 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFAC3609982893E71</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-1764703</AbilityId>
+        <Description>Verursacht 433 bis 479 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFFE512A145B918A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-42019571</AbilityId>
+        <Description>Verursacht 570 bis 630 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFD7ED50D7C4D90E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-26279253</AbilityId>
+        <Description>Verursacht 632 bis 699 körperlichen Schaden. Erhöht den Block des Kriegers um 3% und den verursachten Schaden von Angriffen, die auf einen Block folgen müssen, 15 Sekunden lang um 5%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFE6F02AB5E0E85BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.680000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.010000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aufstauender Zorn</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1791687720</AbilityId>
+        <Description>Abschlussattacken erhalten einen Bonus in der Verteilung der Angriffskraft, je nachdem wie viele Angriffspunkte verbraucht wurden.</Description>
+        <AddonId>A6ACAFC287CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Urteil des Lichts</Name>
+      <Icon>generic_ability_013</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1804277453</AbilityId>
+        <Description>Verursacht 586 bis 648 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 30 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6B8B16CD6F8B3DB9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1666648841</AbilityId>
+        <Description>Verursacht 630 bis 696 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 32 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A63570B09410DA966</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1074974973</AbilityId>
+        <Description>Verursacht 714 bis 789 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 37 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A4012D0FD7C07D2EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>203243099</AbilityId>
+        <Description>Verursacht 761 bis 841 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 39 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A0C1D3E5BA80D3285</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-28064707</AbilityId>
+        <Description>Verursacht 1001 bis 1107 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 51 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFE53C43D565114F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-83378318</AbilityId>
+        <Description>Verursacht 1506 bis 1665 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 77 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFB07BF724DEDDB81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-73436795</AbilityId>
+        <Description>Verursacht 1672 bis 1848 Lebensschaden bei bis zu 4 Feinden. Bewirkt, dass Fähigkeiten auf Einzelziele gegen den Feind zusätzlich 86 Schaden bei bis zu 5 anderen Feinden verursachen. Hält 12 Sekunden lang an. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFB9F71859CE75ABC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>12.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Besänftigender Schlag</Name>
+      <Icon>spiritstrike5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1889768018</AbilityId>
+        <Description>Verursacht 218 bis 242 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A70A392527C6ED060</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1779157524</AbilityId>
+        <Description>Verursacht 225 bis 249 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6A0BCA14B406C730</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>128381267</AbilityId>
+        <Description>Verursacht 234 bis 258 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A07A6F15394E4C018</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1676456364</AbilityId>
+        <Description>Verursacht 248 bis 274 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A63ECB1ACA2A41DCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>380319909</AbilityId>
+        <Description>Verursacht 258 bis 285 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A16AB38A5EDA97E7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>149566048</AbilityId>
+        <Description>Verursacht 272 bis 301 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A08EA3260883125A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2133669513</AbilityId>
+        <Description>Verursacht 287 bis 318 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A7F2D3689C56C6662</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1253758032</AbilityId>
+        <Description>Verursacht 309 bis 342 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A4ABAD4507B552C5F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>108095956</AbilityId>
+        <Description>Verursacht 339 bis 374 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A067169D4EBE6A3C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1222916500</AbilityId>
+        <Description>Verursacht 385 bis 425 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A48E439942A039920</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-55745188</AbilityId>
+        <Description>Verursacht 401 bis 443 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFCAD655C5F6BB1CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-52307396</AbilityId>
+        <Description>Verursacht 580 bis 641 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFCE1DA3C3C9D70C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-5288370</AbilityId>
+        <Description>Verursacht 761 bis 842 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFFAF4E4E4BCF4E8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-62219946</AbilityId>
+        <Description>Verursacht 846 bis 935 körperlichen Schaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFC4A9956986A8F92</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">15.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Urteil</Name>
+      <Icon>doctrine_of_bliss_01_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1966120019</AbilityId>
+        <Description>Zwingt bis zu 10 Feinde in der Nähe, den Krieger 3 Sekunden lang anzugreifen.</Description>
+        <AddonId>A75309C536CDDE89C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ehrfürchtiger Schutz</Name>
+      <Icon>spiritofcrusader2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>2031759133</AbilityId>
+        <Description>Gibt bis zu 5 Gruppen- oder Schlachtzugmitgliedern Ehrfürchtigen Schutz und absorbiert Schaden basierend auf Angriffspunkten. Hält 30 Sekunden lang an.
+
+1 Punkt: Absorbiert 116 Schaden
+2 Punkte: Absorbiert 343 Schaden
+3 Punkte: Absorbiert 685 Schaden</Description>
+        <AddonId>A791A2F1D196D1CB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1353674448</AbilityId>
+        <Description>Gibt bis zu 5 Gruppen- oder Schlachtzugmitgliedern Ehrfürchtigen Schutz und absorbiert Schaden basierend auf Angriffspunkten. Hält 30 Sekunden lang an.
+
+1 Punkt: Absorbiert 122 Schaden
+2 Punkte: Absorbiert 360 Schaden
+3 Punkte: Absorbiert 719 Schaden</Description>
+        <AddonId>A50AF6ED02E561186</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>391547560</AbilityId>
+        <Description>Gibt bis zu 5 Gruppen- oder Schlachtzugmitgliedern Ehrfürchtigen Schutz und absorbiert Schaden basierend auf Angriffspunkten. Hält 30 Sekunden lang an.
+
+1 Punkt: Absorbiert 144 Schaden
+2 Punkte: Absorbiert 424 Schaden
+3 Punkte: Absorbiert 847 Schaden</Description>
+        <AddonId>A17568AA87ACCCC17</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>834294170</AbilityId>
+        <Description>Gibt bis zu 5 Gruppen- oder Schlachtzugmitgliedern Ehrfürchtigen Schutz und absorbiert Schaden basierend auf Angriffspunkten. Hält 30 Sekunden lang an.
+
+1 Punkt: Absorbiert 151 Schaden
+2 Punkte: Absorbiert 444 Schaden
+3 Punkte: Absorbiert 888 Schaden</Description>
+        <AddonId>A31BA519A71B24EBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

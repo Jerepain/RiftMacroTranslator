@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Stormcaller">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Frisson arctique</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>La réduction de la vitesse de déplacement causée par Explosion arctique, Œil de la Tempête, Orage de grêle, Vortex glacé et Frisson venteux réduit la vitesse de déplacement de 3% supplémentaires, et inflige des dégâts d&apos;Eau toutes les secondes aux ennemis en déplacement, en fonction de votre puissance de sorts.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La réduction de la vitesse de déplacement causée par Explosion arctique, Œil de la Tempête, Orage de grêle, Vortex glacé et Frisson venteux réduit la vitesse de déplacement de 6% supplémentaires, et inflige des dégâts d&apos;Eau toutes les secondes aux ennemis en déplacement, en fonction de votre puissance de sorts.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>La réduction de la vitesse de déplacement causée par Explosion arctique, Œil de la Tempête, Orage de grêle, Vortex glacé et Frisson venteux réduit la vitesse de déplacement de 10% supplémentaires, et inflige des dégâts d&apos;Eau toutes les secondes aux ennemis en déplacement, en fonction de votre puissance de sorts.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Haute tension</Name>
+      <Icon>jaggedlighting2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1428481129</AbilityId>
+          <Description></Description>
+          <AddonId>A5524E4694A60DD5B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos dégâts de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos dégâts de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos dégâts de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos dégâts de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos dégâts de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Entraînement arctique</Name>
+      <Icon>ward1zz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>889968882</AbilityId>
+          <Description></Description>
+          <AddonId>A350BD8F228D3E907</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts d&apos;Air et d&apos;Eau de 4% et tous les autres sorts de 1%. Réduit le coût en mana de toutes vos capacités d&apos;Air et d&apos;Eau non-instantanées de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts d&apos;Air et d&apos;Eau de 8% et tous les autres sorts de 2%. Réduit le coût en mana de toutes vos capacités d&apos;Air et d&apos;Eau non-instantanées de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts d&apos;Air et d&apos;Eau de 12% et tous les autres sorts de 3%. Réduit le coût en mana de toutes vos capacités d&apos;Air et d&apos;Eau non-instantanées de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts d&apos;Air et d&apos;Eau de 16% et tous les autres sorts de 4%. Réduit le coût en mana de toutes vos capacités d&apos;Air et d&apos;Eau non-instantanées de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts d&apos;Air et d&apos;Eau de 20% et tous les autres sorts de 5%. Réduit le coût en mana de toutes vos capacités d&apos;Air et d&apos;Eau non-instantanées de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Éclat de tempête</Name>
+      <Icon>shaman-vengeance_of_winter_storm_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>505142788</AbilityId>
+          <Description></Description>
+          <AddonId>A1E1BDE044C77FD94</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos capacités d&apos;Air infligeant des dégâts ont 33% de chances de faire en sorte que votre prochain Glaçon soit instantané dans les 10 secondes suivantes, que son coût en mana soit réduit de 40% et que les dégâts infligés soient augmentés de 150%. Ne peut se produire qu&apos;une seule fois toutes les 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités d&apos;Air infligeant des dégâts ont 66% de chances de faire en sorte que votre prochain Glaçon soit instantané dans les 10 secondes suivantes, que son coût en mana soit réduit de 40% et que les dégâts infligés soient augmentés de 150%. Ne peut se produire qu&apos;une seule fois toutes les 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos capacités d&apos;Air infligeant des dégâts ont 100% de chances de faire en sorte que votre prochain Glaçon soit instantané dans les 10 secondes suivantes, que son coût en mana soit réduit de 40% et que les dégâts infligés soient augmentés de 150%. Ne peut se produire qu&apos;une seule fois toutes les 10 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Atmosphère chargée</Name>
+      <Icon>dominator_nyxs_orb_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>345030185</AbilityId>
+          <Description></Description>
+          <AddonId>A1490BE296E238819</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de vos capacités à zone d&apos;effet de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos capacités à zone d&apos;effet de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de vos capacités à zone d&apos;effet de 12%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Paratonnerre</Name>
+      <Icon>dark_harbor</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1655147371</AbilityId>
+          <Description></Description>
+          <AddonId>A62A78B6B54A1CA05</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le recul provoqué par les attaques infligeant des dégâts pendant le lancement d&apos;un sort de zone est réduit de 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le recul provoqué par les attaques infligeant des dégâts pendant le lancement d&apos;un sort de zone est réduit de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Maîtrise de la foudre</Name>
+      <Icon>jaggedlighting2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1037919994</AbilityId>
+          <Description></Description>
+          <AddonId>A3DDD66FA73C41552</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit de 3% le coût en mana de vos sorts d&apos;Air et augmente leurs dégâts de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit de 6% le coût en mana de vos sorts d&apos;Air et augmente leurs dégâts de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit de 9% le coût en mana de vos sorts d&apos;Air et augmente leurs dégâts de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Chevauchée du vent</Name>
+      <Icon>tumble1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>284086316</AbilityId>
+          <Description>La vitesse de déplacement augmente de 50% pendant 10 secondes.</Description>
+          <AddonId>A10EED02C3540592F</AddonId>
+          <IsPassive>False</IsPassive>
+          <MinimumHeat>30</MinimumHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Période de froid</Name>
+      <Icon>energybeam1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1735661585</AbilityId>
+          <Description></Description>
+          <AddonId>A67741811647D3A18</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de vos sorts de l&apos;Eau de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos sorts de l&apos;Eau de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de vos sorts de l&apos;Eau de 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts de vos sorts de l&apos;Eau de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts de vos sorts de l&apos;Eau de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Frisson venteux</Name>
+      <Icon>secondwind2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1933608601</AbilityId>
+          <Description>Renverse jusqu&apos;à 5 ennemis devant le Mage. Ralentit les ennemis affectés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+          <AddonId>A73408699E73EBC9E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Conducteur de foudre</Name>
+      <Icon>lightingbolt5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>183408217</AbilityId>
+          <Description></Description>
+          <AddonId>A0AEE96591F3A662E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Électrocution, Foudre et Orage déchaîné infligent 5% de dégâts supplémentaires si l&apos;ennemi souffre d&apos;Hypothermie.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Électrocution, Foudre et Orage déchaîné infligent 10% de dégâts supplémentaires si l&apos;ennemi souffre d&apos;Hypothermie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Entraînement de la Tempête</Name>
+      <Icon>generic_ability_026_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le bonus aux dégâts de votre Flux statique de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le bonus aux dégâts de votre Flux statique de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente le bonus aux dégâts de votre Flux statique de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente le bonus aux dégâts de votre Flux statique de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente le bonus aux dégâts de votre Flux statique de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Éclairs épars</Name>
+      <Icon>chainlighting5a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le nombre maximum d&apos;ennemis qu&apos;Éclair fourchu peut frapper de 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le nombre maximum d&apos;ennemis qu&apos;Éclair fourchu peut frapper de 4.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente le nombre maximum d&apos;ennemis qu&apos;Éclair fourchu peut frapper de 6.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Inductance</Name>
+      <Icon>jaggedlighting1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les ennemis que vous avez Électrifiés subissent 3% de dégâts supplémentaires des sorts d&apos;Air et d&apos;Eau par accumulation de l&apos;effet Électrifié. N&apos;affecte pas les dégâts infligés lors d&apos;attaques au corps à corps.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les ennemis que vous avez Électrifiés subissent 6% de dégâts supplémentaires des sorts d&apos;Air et d&apos;Eau par accumulation de l&apos;effet Électrifié. N&apos;affecte pas les dégâts infligés lors d&apos;attaques au corps à corps.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les ennemis que vous avez Électrifiés subissent 9% de dégâts supplémentaires des sorts d&apos;Air et d&apos;Eau par accumulation de l&apos;effet Électrifié. N&apos;affecte pas les dégâts infligés lors d&apos;attaques au corps à corps.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Champ chargé</Name>
+      <Icon>lightingbolt4y</Icon>
+      <PrereqTraitKey>18</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Chaque ennemi subissant des dégâts de Champ de foudre fait passer les dégâts à 3 ennemis Électrifiés dans un rayon de 10 mètres. Supprime 1 effet Électrifié de chaque ennemi touché.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Cisaille de glace</Name>
+      <Icon>twilight_force_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1649297784</AbilityId>
+          <Description>Inflige 386 à 427 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+          <AddonId>A624E497861F95F82</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Fragments meurtriers</Name>
+      <Icon>twilight_force_01</Icon>
+      <PrereqTraitKey>16</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le bonus de dégâts causé par Cisaille de glace de 2% par accumulation de l&apos;effet Électrifié.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le bonus de dégâts causé par Cisaille de glace de 4% par accumulation de l&apos;effet Électrifié.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Champ de foudre</Name>
+      <Icon>lightingbolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>137477283</AbilityId>
+          <Description>Inflige 377 à 416 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+          <AddonId>A0831BCA396D7AB1A</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Orage foudroyant</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>938286815</AbilityId>
+          <Description>Inflige 2467 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+          <AddonId>A37ED1EDFB0F75584</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>18.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Défenses glacées</Name>
+      <Icon>shaman-glacial_shield</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos capacités à effet de zone infligent 5% de dégâts supplémentaires aux ennemis frappés par votre Hypothermie.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités à effet de zone infligent 10% de dégâts supplémentaires aux ennemis frappés par votre Hypothermie.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos capacités à effet de zone infligent 15% de dégâts supplémentaires aux ennemis frappés par votre Hypothermie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Conditions idéales</Name>
+      <Icon>warden-deluge_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-60894664</AbilityId>
+          <Description></Description>
+          <AddonId>AFC5ED23863C1D343</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération général de vos sorts d&apos;Air et d&apos;Eau de 1,33 seconde. Réduit le coût en mana de vos capacités à effet de zone de 5%, de vos capacités instantanées d&apos;Air et d&apos;Eau de 11%, et augmente les dégâts de vos capacités à effet de zone de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération général de vos sorts d&apos;Air et d&apos;Eau de 1,17 seconde. Réduit le coût en mana de vos capacités à effet de zone de 10%, de vos capacités instantanées d&apos;Air et d&apos;Eau de 22%, et augmente les dégâts de vos capacités à effet de zone de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le délai de récupération général de vos sorts d&apos;Air et d&apos;Eau de 1 seconde. Réduit le coût en mana de vos capacités à effet de zone de 15%, de vos capacités instantanées d&apos;Air et d&apos;Eau de 33%, et augmente les dégâts de vos capacités à effet de zone de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Supercharge</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-9600509</AbilityId>
+          <Description></Description>
+          <AddonId>AFF6D820347EF14E2</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le niveau d&apos;accumulation maximum de votre effet Électrifié de 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le niveau d&apos;accumulation maximum de votre effet Électrifié de 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Charge électrique</Name>
+      <Icon>purge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41825918</AbilityId>
+          <Description>Applique le maximum d&apos;accumulations d&apos;Électrifié du Mage à l&apos;ennemi.</Description>
+          <AddonId>AFD81C98213FE2A7D</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Poussée tempétueuse</Name>
+      <Icon>void_knight-tempest</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19940850</AbilityId>
+          <Description>Inflige 172 à 190 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+          <AddonId>AFECFBA0EA2E8284A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>1.500000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Vortex glacé</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1842798307</AbilityId>
+          <Description>Réduit les dégâts subis de 25%. En cas de coup reçu, inflige l&apos;effet Hypothermie à l&apos;attaquant et le ralentit, réduisant sa vitesse de déplacement de 20%, pendant un maximum de 10 secondes.</Description>
+          <AddonId>A6DD6DEE38114F4F3</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Armure de tempête</Name>
+      <Icon>flashback</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-59430402</AbilityId>
+        <Description>Augmente toutes les résistances de 50. Électrocution et Orage déchaîné immobilisent l&apos;ennemi pendant toute la durée de leurs canalisations. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFC7529FE74DF637A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Armure tempétueuse</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53665753</AbilityId>
+        <Description>Augmente les dégâts contre une cible unique de 15% et toutes les résistances de 50. L&apos;utilisation d&apos;une capacité de dégâts d&apos;Eau rend instantanée la prochaine capacité à effet de zone du Mage pendant 10 secondes. Ne peut survenir plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFCCD2027BAEA498A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Arc de foudre</Name>
+      <Icon>stormcaller_lightning_arc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-50341835</AbilityId>
+        <Description>Lance une chaîne d&apos;éclairs sur un maximum de 10 ennemis, infligeant 1040 à 1149 points de dégâts d&apos;Air à un maximum de 5 ennemis près de chaque ennemi touché par la chaîne d&apos;éclairs.</Description>
+        <AddonId>AFCFFD83559DED1D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Charge électrique</Name>
+      <Icon>purge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-41825918</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations d&apos;Électrifié du Mage à l&apos;ennemi.</Description>
+        <AddonId>AFD81C98213FE2A7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tempête imminente</Name>
+      <Icon>maelstrom_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-40221873</AbilityId>
+        <Description>Restaure 5% des points de mana par seconde.</Description>
+        <AddonId>AFD9A434FF33EAA7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nova statique</Name>
+      <Icon>energy_overload1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22627273</AbilityId>
+        <Description>Inflige 341 à 377 points de dégâts d&apos;Air à un maximum de 8 ennemis. Ajoute le maximum d&apos;accumulations de l&apos;effet Électrifié du Mage sur chaque ennemi touché.</Description>
+        <AddonId>AFEA6BC37637D9BA0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Inflige 445 à 492 points de dégâts d&apos;Air à un maximum de 8 ennemis. Ajoute le maximum d&apos;accumulations de l&apos;effet Électrifié du Mage sur chaque ennemi touché.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Inflige 445 à 492 points de dégâts d&apos;Air à un maximum de 8 ennemis. Ajoute le maximum d&apos;accumulations de l&apos;effet Électrifié du Mage sur chaque ennemi touché.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Poussée tempétueuse</Name>
+      <Icon>void_knight-tempest</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-19940850</AbilityId>
+        <Description>Inflige 172 à 190 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFECFBA0EA2E8284A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-84968449</AbilityId>
+        <Description>Inflige 186 à 206 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFAEF7BFFA609CDB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-89841259</AbilityId>
+        <Description>Inflige 197 à 218 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFAA521957EF7735D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-41696137</AbilityId>
+        <Description>Inflige 247 à 274 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFD83C477A2027D0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-58586777</AbilityId>
+        <Description>Inflige 297 à 328 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFC820967953E834E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-54992483</AbilityId>
+        <Description>Inflige 320 à 353 points de dégâts d&apos;Air par accumulation d&apos;Électrifié sur la cible initiale, à un maximum de 8 ennemis dans un rayon de 7 mètres autour de l&apos;ennemi électrifié. Applique à chaque ennemi un nombre d&apos;accumulations d&apos;Électrifié équivalent au nombre d&apos;accumulations sur la cible initiale.</Description>
+        <AddonId>AFCB8E19D59C048E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Champ de foudre</Name>
+      <Icon>lightingbolt4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>137477283</AbilityId>
+        <Description>Inflige 377 à 416 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A0831BCA396D7AB1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>961802459</AbilityId>
+        <Description>Inflige 387 à 428 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A3953F0DB2FC787EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1443946929</AbilityId>
+        <Description>Inflige 401 à 443 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A5610E1B191A45553</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1385398985</AbilityId>
+        <Description>Inflige 429 à 474 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A529382C919147A38</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1622063203</AbilityId>
+        <Description>Inflige 444 à 491 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A60AEB863669AEE0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1336425086</AbilityId>
+        <Description>Inflige 541 à 599 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A4FA83A7E6A4EC4D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>749590208</AbilityId>
+        <Description>Inflige 709 à 783 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>A2CADD6C0908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-97329996</AbilityId>
+        <Description>Inflige 762 à 842 points de dégâts d&apos;Air à un maximum de 8 ennemis électrifiés.</Description>
+        <AddonId>AFA32DCB4908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Décharge statique</Name>
+      <Icon>energyburst5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>264887997</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 95 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>A0FC9DEBD8DFED17D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>423314174</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 99 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>A193B42FE96C00838</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1183214418</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 104 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>A46866B523463A6CD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1672552568</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 114 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>A63B1207892B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-96848243</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 139 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>AFA3A368D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-77218828</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 160 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>AFB65BBF492B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-26459123</AbilityId>
+        <Description>Applique Décharge statique à tous les membres du groupe. Les capacités infligeant des dégâts infligent 160 points de dégâts d&apos;Air supplémentaires. Cet effet peut se produire jusqu&apos;à 10 fois. Dure 60 secondes.</Description>
+        <AddonId>AFE6C440D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Chevauchée du vent</Name>
+      <Icon>tumble1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>284086316</AbilityId>
+        <Description>La vitesse de déplacement augmente de 50% pendant 10 secondes.</Description>
+        <AddonId>A10EED02C3540592F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>30</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pluie diluvienne</Name>
+      <Icon>warden-downpour</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>312574570</AbilityId>
+        <Description>Réinitialise le délai de récupération de toutes les capacités du Tempestaire (sauf Pluie diluvienne).</Description>
+        <AddonId>A12A1826A17FB524B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hypothermie</Name>
+      <Icon>chainsofice3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>640972553</AbilityId>
+        <Description>Appliqué par Explosion arctique, Œil de la Tempête, Orage de grêle, Glaçon, Vortex glacé et Frisson venteux. Dure 15 secondes.</Description>
+        <AddonId>A26347709636DFF7E</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Glaçon</Name>
+      <Icon>icebolt1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>775964852</AbilityId>
+        <Description>Inflige 486 à 537 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A2E4048B4A5325EB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>486932152</AbilityId>
+        <Description>Inflige 496 à 548 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A1D05FEB880AA517D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1863262893</AbilityId>
+        <Description>Inflige 511 à 565 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A6F0F22ADC3D7973C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>336126128</AbilityId>
+        <Description>Inflige 522 à 577 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A1408E0B0BA00EC0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>792829390</AbilityId>
+        <Description>Inflige 534 à 591 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A2F419DCE956420AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>803671859</AbilityId>
+        <Description>Inflige 550 à 607 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A2FE70F3366FD7319</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1598076368</AbilityId>
+        <Description>Inflige 566 à 626 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A5F40B5D072DADAE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>353686584</AbilityId>
+        <Description>Inflige 586 à 647 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A1514D4384C7BB30F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1188963972</AbilityId>
+        <Description>Inflige 626 à 692 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A46DE268443BD4F59</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2045897861</AbilityId>
+        <Description>Inflige 649 à 717 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A79F1EC853674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-78196750</AbilityId>
+        <Description>Inflige 790 à 873 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFB56CFF23674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-14877728</AbilityId>
+        <Description>Inflige 1032 à 1141 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFF1CFBE03674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41467215</AbilityId>
+        <Description>Inflige 1110 à 1227 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFD8742B13674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Œil du cyclone</Name>
+      <Icon>eye_of_the_storm</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>819233816</AbilityId>
+        <Description>Inflige 2584 points de dégâts d&apos;Eau en 8 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A30D4841878E4FEB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-49170135</AbilityId>
+        <Description>Inflige 3146 points de dégâts d&apos;Eau en 8 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFD11B9296CAEFB09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-50761685</AbilityId>
+        <Description>Inflige 4109 points de dégâts d&apos;Eau en 8 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFCF9702B6012264E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-98590324</AbilityId>
+        <Description>Inflige 4420 points de dégâts d&apos;Eau en 8 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFA1FA18C7357942C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tempête grandissante</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>846277290</AbilityId>
+        <Description>Le temps d&apos;incantation du prochain sort à effet de zone est réduit de 100%.</Description>
+        <AddonId>A32712AAA49E5CA77</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flamboiement d&apos;éclairs</Name>
+      <Icon>riftblade-surging_energy_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>923334004</AbilityId>
+        <Description>Inflige 328 à 363 points de dégâts d&apos;Air. Les dégâts infligés augmentent de 10% par accumulation d&apos;effet Électrifié sur l&apos;ennemi. Inflige 30% des dégâts infligés par accumulation d&apos;effet Électrifié sur la cible d&apos;origine à un maximum de 5 ennemis supplémentaires.</Description>
+        <AddonId>A3708F5749C948C6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2011275495</AbilityId>
+        <Description>Inflige 340 à 376 points de dégâts d&apos;Air. Les dégâts infligés augmentent de 10% par accumulation d&apos;effet Électrifié sur l&apos;ennemi. Inflige 30% des dégâts infligés par accumulation d&apos;effet Électrifié sur la cible d&apos;origine à un maximum de 5 ennemis supplémentaires.</Description>
+        <AddonId>A77E1A0E7544524A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-58777346</AbilityId>
+        <Description>Inflige 418 à 463 points de dégâts d&apos;Air. Les dégâts infligés augmentent de 10% par accumulation d&apos;effet Électrifié sur l&apos;ennemi. Inflige 30% des dégâts infligés par accumulation d&apos;effet Électrifié sur la cible d&apos;origine à un maximum de 5 ennemis supplémentaires.</Description>
+        <AddonId>AFC7F20FE62219BB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-26426033</AbilityId>
+        <Description>Inflige 553 à 611 points de dégâts d&apos;Air. Les dégâts infligés augmentent de 10% par accumulation d&apos;effet Électrifié sur l&apos;ennemi. Inflige 30% des dégâts infligés par accumulation d&apos;effet Électrifié sur la cible d&apos;origine à un maximum de 5 ennemis supplémentaires.</Description>
+        <AddonId>AFE6CC54F332EEB51</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-51355233</AbilityId>
+        <Description>Inflige 563 à 622 points de dégâts d&apos;Air. Les dégâts infligés augmentent de 10% par accumulation d&apos;effet Électrifié sur l&apos;ennemi. Inflige 30% des dégâts infligés par accumulation d&apos;effet Électrifié sur la cible d&apos;origine à un maximum de 5 ennemis supplémentaires.</Description>
+        <AddonId>AFCF0619F3B3CD569</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Orage foudroyant</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>938286815</AbilityId>
+        <Description>Inflige 2467 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A37ED1EDFB0F75584</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1212135369</AbilityId>
+        <Description>Inflige 2580 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A483FB7C9B50B053D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1502228978</AbilityId>
+        <Description>Inflige 2818 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A598A31F25B2EBD56</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>215508050</AbilityId>
+        <Description>Inflige 2983 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A0CD8645242F55C5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-95068791</AbilityId>
+        <Description>Inflige 3458 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFA555D896EBCB8D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-16414913</AbilityId>
+        <Description>Inflige 4714 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFF05873F2D86779B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-90319859</AbilityId>
+        <Description>Inflige 5727 points de dégâts d&apos;Air en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Les ennemis ayant accumulés au moins 3 effets Électrifié sont immobilisés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFA9DD40D68DD81ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Averse</Name>
+      <Icon>doctrine_of_bliss_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>970148500</AbilityId>
+        <Description>Inflige 335 à 370 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A39D34A94A82A90C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2123571847</AbilityId>
+        <Description>Inflige 344 à 380 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A7E93228784A8D955</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>357048667</AbilityId>
+        <Description>Inflige 354 à 391 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A1548215B919212D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>742367466</AbilityId>
+        <Description>Inflige 359 à 397 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A2C3FA0EA8B4D8D15</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1016043302</AbilityId>
+        <Description>Inflige 370 à 409 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A3C8F9726CE6EE871</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>403352483</AbilityId>
+        <Description>Inflige 379 à 419 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A180AABA3836869EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1294287540</AbilityId>
+        <Description>Inflige 391 à 432 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A4D2542B42EBF67AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1109060773</AbilityId>
+        <Description>Inflige 404 à 446 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>A421AECA570C3BB60</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-49895434</AbilityId>
+        <Description>Inflige 444 à 491 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>AFD06A7F6C9FA01CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-75114635</AbilityId>
+        <Description>Inflige 472 à 521 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>AFB85D775CA57463E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-40710699</AbilityId>
+        <Description>Inflige 590 à 652 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>AFD92CDD5CAB56862</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-89262615</AbilityId>
+        <Description>Inflige 709 à 783 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>AFAADF5E9642B76A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-22120891</AbilityId>
+        <Description>Inflige 762 à 842 points de dégâts d&apos;Eau. Augmente les dégâts de 15% par accumulation de l&apos;effet Électrifié. Compte comme un Trait principal.</Description>
+        <AddonId>AFEAE7645B39F220D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Orage déchaîné</Name>
+      <Icon>souldrain1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1051526167</AbilityId>
+        <Description>Inflige 1920 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A3EAD04171EAC264C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>265486703</AbilityId>
+        <Description>Inflige 2003 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A0FD3016F5B757CB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>460297156</AbilityId>
+        <Description>Inflige 2069 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A1B6F93C48ADE58B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>727627360</AbilityId>
+        <Description>Inflige 2160 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A2B5EB660C20913B9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>877184511</AbilityId>
+        <Description>Inflige 2253 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A3448C5FF7F16B738</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1684594235</AbilityId>
+        <Description>Inflige 2560 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A6468DE3B75515D86</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>392264481</AbilityId>
+        <Description>Inflige 2758 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A17617B2198694988</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-6011070</AbilityId>
+        <Description>Inflige 3637 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFFA44742667619D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-54771867</AbilityId>
+        <Description>Inflige 4522 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFCBC3F655CB36D60</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-61063641</AbilityId>
+        <Description>Inflige 4924 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFC5C3E27371187BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Victime d&apos;électrocution</Name>
+      <Icon>jaggedlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1158968725</AbilityId>
+        <Description>Appliqué par Électrocution, Éclair fourchu, Orage foudroyant, Orage déchaîné, Arc de foudre et Foudre. Dure 15 secondes. Cumulable jusqu&apos;à 3 fois.</Description>
+        <AddonId>A451475953A0BC87F</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Éclair fourchu</Name>
+      <Icon>chainlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1234335622</AbilityId>
+        <Description>Inflige 346 à 382 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A4992778687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1596431178</AbilityId>
+        <Description>Inflige 353 à 391 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A5F279B4A8C4CFFF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1712168729</AbilityId>
+        <Description>Inflige 362 à 400 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A660D9F19614DA218</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1191422050</AbilityId>
+        <Description>Inflige 372 à 411 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A4703A8624B69CFCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>466913333</AbilityId>
+        <Description>Inflige 381 à 421 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A1BD4883552227F12</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>138547791</AbilityId>
+        <Description>Inflige 392 à 433 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A0842124FBC039E27</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1117319850</AbilityId>
+        <Description>Inflige 401 à 444 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>A4298F2AAE4889517</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-55287514</AbilityId>
+        <Description>Inflige 416 à 459 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFCB4612687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-19808777</AbilityId>
+        <Description>Inflige 435 à 481 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFED1BDF787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-25233854</AbilityId>
+        <Description>Inflige 467 à 516 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFE7EF64287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-15401073</AbilityId>
+        <Description>Inflige 495 à 548 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFF14FF8F87056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-61033710</AbilityId>
+        <Description>Inflige 619 à 684 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFC5CB31287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-24824777</AbilityId>
+        <Description>Inflige 743 à 822 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFE85343787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-58842767</AbilityId>
+        <Description>Inflige 799 à 883 points de dégâts d&apos;Air à un maximum de 2 ennemis.</Description>
+        <AddonId>AFC7E217187056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Barrière statique</Name>
+      <Icon>energyblast3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1479480529</AbilityId>
+        <Description>Les ennemis à proximité infligeant des dégâts sont repoussés. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 30 secondes.</Description>
+        <AddonId>A582F14D1D6C2D903</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Inspiration de la tempête</Name>
+      <Icon>stormcaller_lightning_storm_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1548106661</AbilityId>
+        <Description>Augmente les dégâts du Mage de 1% par point investi dans l&apos;âme du Tempestaire.</Description>
+        <AddonId>A5C463BA553C6FB82</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Cisaille de glace</Name>
+      <Icon>twilight_force_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1649297784</AbilityId>
+        <Description>Inflige 386 à 427 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A624E497861F95F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1019395447</AbilityId>
+        <Description>Inflige 398 à 440 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A3CC2BD77AF49E84A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1121065608</AbilityId>
+        <Description>Inflige 409 à 452 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A42D21A885C7F6DF0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>617872351</AbilityId>
+        <Description>Inflige 423 à 468 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A24D3FBDFA355264D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1277791679</AbilityId>
+        <Description>Inflige 456 à 504 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A4C298DBF4509EB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>293374681</AbilityId>
+        <Description>Inflige 467 à 516 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>A117C8AD954CAF7B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-55447388</AbilityId>
+        <Description>Inflige 569 à 628 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>AFCB1F0A4619A11DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10258500</AbilityId>
+        <Description>Inflige 743 à 822 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>AFF6377BC2A7B476B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-19606056</AbilityId>
+        <Description>Inflige 799 à 883 points de dégâts d&apos;Eau. Augmente les dégâts d&apos;Air et d&apos;Eau infligés par le Mage de 2% par accumulation de l&apos;effet Électrifié pendant 15 secondes. Ne s&apos;accumule pas avec Rayon perforant.</Description>
+        <AddonId>AFED4D5D80C54F26F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Garde-tempête</Name>
+      <Icon>arkanxshield1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1667809508</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 836 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>A6368C0E4BB568174</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1106315767</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 864 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>A41F109F7331932A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>129614787</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 911 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>A07B9C3C3CF26DBBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>167066687</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 994 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>A09F53C3F92D5D78D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1934332143</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 1215 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>A734B90EF6A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-42618975</AbilityId>
+        <Description>Réduit les dégâts subis de 15%. En cas de coup reçu, inflige Électrifié et 1392 points de dégâts d&apos;Air à l&apos;attaquant à portée. Consomme de la charge.</Description>
+        <AddonId>AFD75AFA16A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vortex glacé</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1842798307</AbilityId>
+        <Description>Réduit les dégâts subis de 25%. En cas de coup reçu, inflige l&apos;effet Hypothermie à l&apos;attaquant et le ralentit, réduisant sa vitesse de déplacement de 20%, pendant un maximum de 10 secondes.</Description>
+        <AddonId>A6DD6DEE38114F4F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flux statique</Name>
+      <Icon>elemres4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1913845381</AbilityId>
+        <Description>Augmente les dégâts infligés de 10%. Consomme de la charge.</Description>
+        <AddonId>A7212F68530C9F4CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Frisson venteux</Name>
+      <Icon>secondwind2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1933608601</AbilityId>
+        <Description>Renverse jusqu&apos;à 5 ennemis devant le Mage. Ralentit les ennemis affectés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A73408699E73EBC9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Électrocution</Name>
+      <Icon>chainlighting4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1996858953</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 1700 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A7705A649A95A94D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1584477153</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 1748 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A5E7133E124AE936C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>133838374</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 1810 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A07FA3626454128E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1384538335</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 1886 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A528660DF5D9BE529</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1789323706</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 1946 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A6AA6E9BA75C82490</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1809995603</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2022 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A6BE25753815BA7FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>444586299</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2091 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A1A7FD93BBC6C2602</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1833947657</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2191 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A6D4FD209754A42A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>804778932</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2331 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A2FF7F3B45732EC4F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1130445330</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2560 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>A43613A12E59B0312</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-82070600</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 2758 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFB1BB3B855B44658</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-18000409</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 3637 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFEED55E74883270F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-77381027</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 4522 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFB63425D6EC35688</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-18108182</AbilityId>
+        <Description>Repousse l&apos;ennemi et lui inflige 4924 points de dégâts d&apos;Air en 3 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFEEBB0EA8DEECEA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion arctique</Name>
+      <Icon>icebolt4aa</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>2055250419</AbilityId>
+        <Description>Inflige 1122 à 1240 points de dégâts d&apos;Eau à un maximum de 8 ennemis. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A7A80A1F3C4EC307B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>411698333</AbilityId>
+        <Description>Inflige 1260 à 1392 points de dégâts d&apos;Eau à un maximum de 8 ennemis. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A188A049DDC4AE16C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>650400300</AbilityId>
+        <Description>Inflige 1625 à 1796 points de dégâts d&apos;Eau à un maximum de 8 ennemis. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A26C4522C531E5D69</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-75121211</AbilityId>
+        <Description>Inflige 1920 à 2122 points de dégâts d&apos;Eau à un maximum de 8 ennemis. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFB85BDC54BAD5A41</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Orage de grêle</Name>
+      <Icon>icestormdark</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2079842969</AbilityId>
+        <Description>Inflige 1550 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A7BF7E2997DCDB56B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1236145918</AbilityId>
+        <Description>Inflige 1601 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A49AE16FE7B47BBE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>231043464</AbilityId>
+        <Description>Inflige 1651 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A0DC571885A3B6FB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1113989026</AbilityId>
+        <Description>Inflige 1819 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A42661FA2E1D72A32</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1368010799</AbilityId>
+        <Description>Inflige 1928 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>A518A302F7A3C602C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-68553384</AbilityId>
+        <Description>Inflige 2410 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFBE9F5583CDC425F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-71499409</AbilityId>
+        <Description>Inflige 2896 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFBBD016F8375B145</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-73221915</AbilityId>
+        <Description>Inflige 3116 points de dégâts d&apos;Eau en 6 secondes à un maximum de 8 ennemis dans la zone ciblée. Ralentit les ennemis touchés, réduisant leur vitesse de déplacement de 20% pendant un maximum de 10 secondes.</Description>
+        <AddonId>AFBA2B8E564785B5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Foudre</Name>
+      <Icon>lighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2130453481</AbilityId>
+        <Description>Inflige 559 à 618 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A7EFC23E94CEBBF35</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1272966442</AbilityId>
+        <Description>Inflige 571 à 631 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A4BDFED2A59E746C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1718394539</AbilityId>
+        <Description>Inflige 588 à 649 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A666C9EAB6128932F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1912406017</AbilityId>
+        <Description>Inflige 602 à 665 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A71FD000197F74169</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>974165833</AbilityId>
+        <Description>Inflige 624 à 689 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A3A1097497BAA85BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1875203746</AbilityId>
+        <Description>Inflige 653 à 722 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A6FC556A2568F90AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1082298068</AbilityId>
+        <Description>Inflige 701 à 775 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A40828ED4A2797DEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1927735389</AbilityId>
+        <Description>Inflige 787 à 870 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A72E6E85D51C659B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1556427062</AbilityId>
+        <Description>Inflige 1016 à 1123 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A5CC53136A3BC1C11</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1327452174</AbilityId>
+        <Description>Inflige 1199 à 1326 points de dégâts d&apos;Air. Ajoute 2 accumulations de l&apos;effet Électrifié.</Description>
+        <AddonId>A4F1F500EC8E7ED58</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

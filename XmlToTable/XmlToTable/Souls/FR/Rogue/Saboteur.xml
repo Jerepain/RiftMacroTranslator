@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Saboteur">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Entraînement au combat avancé</Name>
+      <Icon>long_range_bombing</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1771573454</AbilityId>
+          <Description></Description>
+          <AddonId>A699810CE00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tous les dégâts augmentent de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Tous les dégâts augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Tous les dégâts augmentent de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Tous les dégâts augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Tous les dégâts augmentent de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Doigts habiles</Name>
+      <Icon>nimble_fingers</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>844425067</AbilityId>
+          <Description></Description>
+          <AddonId>A3254E76B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la dextérité de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la dextérité de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la dextérité de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente la dextérité de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente la dextérité de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Fragmentation d&apos;armure</Name>
+      <Icon>charge_blast</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1767492350</AbilityId>
+          <Description></Description>
+          <AddonId>A6959CAFE00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Charge explosive et Charge à shrapnels ignorent 25% de l&apos;armure de votre ennemi en explosant.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Charge explosive et Charge à shrapnels ignorent 50% de l&apos;armure de votre ennemi en explosant.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Piège barbelé</Name>
+      <Icon>shreddingtrap1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1124096204</AbilityId>
+          <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 509 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+          <AddonId>A430058CCB32E5DF6</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>1.000000</CastTime>
+          <Interruptible>false</Interruptible>
+          <Radius>0.250000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Destruction massive</Name>
+      <Icon>tactician_sabotage_core</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2071028293</AbilityId>
+          <Description></Description>
+          <AddonId>A7B71624500000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts des attaques à effets de zone de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts des attaques à effets de zone de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts des attaques à effets de zone de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts des attaques à effets de zone de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts des attaques à effets de zone de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Puissance explosive accrue</Name>
+      <Icon>increased_explosive_power</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>20608017</AbilityId>
+          <Description></Description>
+          <AddonId>A013A741100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos Charges infligent 3% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos Charges infligent 6% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos Charges infligent 9% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Vos Charges infligent 12% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Vos Charges infligent 15% de dégâts supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Piège d&apos;enchevêtrement</Name>
+      <Icon>snaretrap1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>72</AbilityId>
+          <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège immobilise jusqu&apos;à 8 ennemis dans la zone pendant 8 secondes ou jusqu&apos;à ce qu&apos;ils subissent des dégâts. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+          <AddonId>A0000004836290D94</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>1.000000</CastTime>
+          <Interruptible>false</Interruptible>
+          <Radius>0.250000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Stratège militaire</Name>
+      <Icon>remote_clipping_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1341045474</AbilityId>
+          <Description></Description>
+          <AddonId>A4FEEBAE200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre énergie maximale de 5. Augmente de 5% les dégâts de toutes les capacités à effet de zone du Saboteur.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre énergie maximale de 10. Augmente de 10% les dégâts de toutes les capacités à effet de zone du Saboteur.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Blessures de combat</Name>
+      <Icon>beastmaster_strike_to_maim_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>50487688</AbilityId>
+          <Description></Description>
+          <AddonId>A0302618800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de toutes les attaques à dégâts répétés de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de toutes les attaques à dégâts répétés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de toutes les attaques à dégâts répétés de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts de toutes les attaques à dégâts répétés de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts de toutes les attaques à dégâts répétés de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Bombe à retardement</Name>
+      <Icon>bomb_time</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1336172055</AbilityId>
+          <Description>Inflige 246 à 272 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+          <AddonId>A4FA45E17E1059612</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>26</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Mise en place silencieuse</Name>
+      <Icon>silent_setup</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vous avez 33% de chances de ne pas augmenter votre menace quand vous connectez des Charges.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vous avez 66% de chances de ne pas augmenter votre menace quand vous connectez des Charges.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vous avez 100% de chances de ne pas augmenter votre menace quand vous connectez des Charges.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Armes combinées</Name>
+      <Icon>combat_survival</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Bombe à fragmentation déclenche toutes les Charges sur la cible principale. Les points de combo de la cible déclenchent la Bombe à shrapnels, infligeant des dégâts aux ennemis alentours.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Bombe d&apos;annihilation</Name>
+      <Icon>bomb_annihilation</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>258397458</AbilityId>
+          <Description>Inflige 537 à 594 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+          <AddonId>A0F66D512A134B26B</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>26</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Spécialiste des bombes</Name>
+      <Icon>bomb_specialist</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>385001503</AbilityId>
+          <Description></Description>
+          <AddonId>A16F2A81F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts occasionnés par vos bombes de 4% et réduit leur coût en énergie de 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts occasionnés par vos bombes de 8% et réduit leur coût en énergie de 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts occasionnés par vos bombes de 12% et réduit leur coût en énergie de 3.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts occasionnés par vos bombes de 16% et réduit leur coût en énergie de 4.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts occasionnés par vos bombes de 20% et réduit leur coût en énergie de 5.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Shrapnels résiduels</Name>
+      <Icon>charge_shrapnel</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>580212594</AbilityId>
+          <Description></Description>
+          <AddonId>A2295577200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Charge explosive et Charge à shrapnels infligent 20% de dégâts supplémentaires pendant 6 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Bombardement intensif</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1485015144</AbilityId>
+          <Description>Réinitialise le compte à rebours de toutes les bombes. Supprime le délai de récupération des 3 bombes suivantes.</Description>
+          <AddonId>A5883886816D07FBC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Spécialiste en démolition</Name>
+      <Icon>demolition_specialist</Icon>
+      <PrereqTraitKey>12</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Bombe d&apos;annihilation déclenche toutes les Charges sur la cible principale. Les points de combo de la cible déclenchent la Bombe à shrapnels, infligeant des dégâts aux ennemis alentours.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Guerre de tranchées</Name>
+      <Icon>snaretrap2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>17186856</AbilityId>
+          <Description></Description>
+          <AddonId>A0106402800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de vos Détonation, Bombes, Pièges et Mines terrestres de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de vos Détonation, Bombes, Pièges et Mines terrestres de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de vos Détonation, Bombes, Pièges et Mines terrestres de 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de vos Détonation, Bombes, Pièges et Mines terrestres de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de vos Détonation, Bombes, Pièges et Mines terrestres de 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Mines terrestres</Name>
+      <Icon>land_mines</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>997369916</AbilityId>
+          <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 603 à 667 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+          <AddonId>A3B72A83C8CA67AD7</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>1.000000</CastTime>
+          <Interruptible>false</Interruptible>
+          <Duration>60.000000</Duration>
+          <Radius>0.250000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Charge accrue</Name>
+      <Icon>increased_explosive_power_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1216403240</AbilityId>
+          <Description></Description>
+          <AddonId>A4880D72814B40208</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la contribution de votre arme et de votre puissance d&apos;attaque aux dégâts de Charge à shrapnels et Charge à chausse-trappes de 8%, ainsi que Charge explosive et Charge à pointes de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la contribution de votre arme et votre puissance d&apos;attaque aux dégâts de Charge à shrapnels et Charge à chausse-trappes de 16%, ainsi que Charge explosive et Charge à pointes de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la contribution de votre arme et votre puissance d&apos;attaque aux dégâts de Charge à shrapnels et Charge à chausse-trappes de 24%, ainsi que Charge explosive et Charge à pointes de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente la contribution de votre arme et votre puissance d&apos;attaque aux dégâts de Charge à shrapnels et Charge à chausse-trappes de 32%, ainsi que Charge explosive et Charge à pointes de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente la contribution de votre arme et votre puissance d&apos;attaque aux dégâts de Charge à shrapnels et Charge à chausse-trappes de 40%, ainsi que Charge explosive et Charge à pointes de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Piège d&apos;enchevêtrement amélioré</Name>
+      <Icon>snaretrap1</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Piège d&apos;enchevêtrement ne se rompt plus en cas de dégâts.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Bombe chimique améliorée</Name>
+      <Icon>bomb_chemical</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>906616456</AbilityId>
+          <Description></Description>
+          <AddonId>A3609DE8800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de Bombe chimique de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de Bombe chimique de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Extension de piège</Name>
+      <Icon>snaretrap3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74438518</AbilityId>
+          <Description>Permet au Voleur de poser des Pièges et des Mines terrestres dans une zone ciblée.</Description>
+          <AddonId>AFB90288A8ABEFD2A</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Nébulisation</Name>
+      <Icon>saboteur_cloud_maker</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-85236694</AbilityId>
+          <Description>Pose une Bombe à retardement qui inflige 176 à 194 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 176 à 194 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+          <AddonId>AFAEB642A2E4CD5C0</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>26</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Piège d&apos;immolation</Name>
+      <Icon>explosivetrap2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-97960781</AbilityId>
+        <Description>Pose aux pieds du Voleur un piège d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège enflamme le sol et inflige 382 à 423 points de dégâts de Feu pendant 0 secondes à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFA293CB330C29FF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-27155957</AbilityId>
+        <Description>Pose aux pieds du Voleur un piège d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège enflamme le sol et inflige 1405 à 1553 points de dégâts de Feu pendant 10 secondes à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFE61A20B541178E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Nébulisation</Name>
+      <Icon>saboteur_cloud_maker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-85236694</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 176 à 194 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 176 à 194 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFAEB642A2E4CD5C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-5263711</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 201 à 222 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 201 à 222 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFFAFAEA1387AE6B0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-96410695</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 208 à 230 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 208 à 230 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFA40E3B9505F0180</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-50767344</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 296 à 327 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 296 à 327 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFCF95A10D834B828</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-7254298</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 385 à 426 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 385 à 426 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFF914EE695EFDEBE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-52151326</AbilityId>
+        <Description>Pose une Bombe à retardement qui inflige 426 à 471 points de dégâts de Terre à un maximum de 5 ennemis après 4 secondes. Une autre bombe vient alors toucher les ennemis affectés, infligeant 426 à 471 points de dégâts de Terre supplémentaires à un maximum de 5 ennemis après 4 secondes.</Description>
+        <AddonId>AFCE43BE27EAA3E67</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cocktail Molotov</Name>
+      <Icon>saboteur_molotov_cocktail_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-77063558</AbilityId>
+        <Description>Lance un cocktail Molotov en direction de la cible, infligeant 426 points de dégâts de Feu le long de la trajectoire du projectile et 1919 points de dégâts de Feu en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFB681A7A3303B7C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>25.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Extension de piège</Name>
+      <Icon>snaretrap3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-74438518</AbilityId>
+        <Description>Permet au Voleur de poser des Pièges et des Mines terrestres dans une zone ciblée.</Description>
+        <AddonId>AFB90288A8ABEFD2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe à pointes</Name>
+      <Icon>barbedtrap3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-54188557</AbilityId>
+        <Description>Inflige 110 à 121 points de dégâts par seconde à un maximum de 8 ennemis dans la zone ciblée. Dure 10 secondes. Applique également Pique de chardon aux ennemis affectés, augmentant les dégâts infligés par le Voleur de 1% par accumulation. Pique de chardon peut se cumuler jusqu&apos;à 15 fois.</Description>
+        <AddonId>AFCC525F358A2EEB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-8795957</AbilityId>
+        <Description>Inflige 163 à 180 points de dégâts par seconde à un maximum de 8 ennemis dans la zone ciblée. Dure 10 secondes. Applique également Pique de chardon aux ennemis affectés, augmentant les dégâts infligés par le Voleur de 1% par accumulation. Pique de chardon peut se cumuler jusqu&apos;à 15 fois.</Description>
+        <AddonId>AFF79C8CB8E76C370</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-63590110</AbilityId>
+        <Description>Inflige 181 à 200 points de dégâts par seconde à un maximum de 8 ennemis dans la zone ciblée. Dure 10 secondes. Applique également Pique de chardon aux ennemis affectés, augmentant les dégâts infligés par le Voleur de 1% par accumulation. Pique de chardon peut se cumuler jusqu&apos;à 15 fois.</Description>
+        <AddonId>AFC35B1225A74A80D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe de braises</Name>
+      <Icon>charge_ember</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-35141359</AbilityId>
+        <Description>Inflige 237 à 262 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFDE7C9119E611AF2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-20335290</AbilityId>
+        <Description>Inflige 253 à 280 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFEC9B546A2605ED3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-81840662</AbilityId>
+        <Description>Inflige 284 à 314 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFB1F35EAD99BF036</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-62184314</AbilityId>
+        <Description>Inflige 301 à 333 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFC4B2486CDC94539</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-83428635</AbilityId>
+        <Description>Inflige 391 à 432 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFB06FAE581A493A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-76249451</AbilityId>
+        <Description>Inflige 578 à 638 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFB748695A679B712</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-85422795</AbilityId>
+        <Description>Inflige 639 à 706 points de dégâts de Terre à un maximum de 8 ennemis. Augmente les dégâts non physiques subis par chaque ennemi touché de 5% pendant 30 secondes. </Description>
+        <AddonId>AFAE88D35886DF3CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Maîtrise de Saboteur</Name>
+      <Icon>generic_ability_023</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-25303567</AbilityId>
+        <Description>Chaque point investi dans l&apos;âme du Saboteur augmente les dégâts de 1%.</Description>
+        <AddonId>AFE7DE5F1ACFF80A2</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Piège affaiblissant</Name>
+      <Icon>shreddingtrap3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-8577781</AbilityId>
+        <Description>Pose aux pieds du Voleur un piège d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, l&apos;ennemi est victime d&apos;étourdissement pendant 4 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFF7D1D0BA8A6E738</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe à éclats</Name>
+      <Icon>charge_splinter</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-7439369</AbilityId>
+        <Description>Inflige 219 à 242 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 170 pendant 30 secondes.</Description>
+        <AddonId>AFF8E7BF797D975F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-68209086</AbilityId>
+        <Description>Inflige 230 à 255 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 210 pendant 30 secondes.</Description>
+        <AddonId>AFBEF36424D42356A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-36272765</AbilityId>
+        <Description>Inflige 246 à 271 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 250 pendant 30 secondes.</Description>
+        <AddonId>AFDD68583701F7E0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-90892603</AbilityId>
+        <Description>Inflige 267 à 296 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 285 pendant 30 secondes.</Description>
+        <AddonId>AFA9516C56ED6D599</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-91552694</AbilityId>
+        <Description>Inflige 301 à 333 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 340 pendant 30 secondes.</Description>
+        <AddonId>AFA8B044A85C6059B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-69081355</AbilityId>
+        <Description>Inflige 344 à 380 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 1150 pendant 30 secondes.</Description>
+        <AddonId>AFBE1E6F53C108B99</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-21476343</AbilityId>
+        <Description>Inflige 507 à 560 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 2400 pendant 30 secondes.</Description>
+        <AddonId>AFEB84C09B2FFC628</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-85205527</AbilityId>
+        <Description>Inflige 639 à 706 points de dégâts de Terre à un maximum de 8 ennemis. Réduit l&apos;armure de chaque ennemi touché de 3600 pendant 30 secondes.</Description>
+        <AddonId>AFAEBDDE99E1A7CFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Piège d&apos;enchevêtrement</Name>
+      <Icon>snaretrap1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>72</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège immobilise jusqu&apos;à 8 ennemis dans la zone pendant 8 secondes ou jusqu&apos;à ce qu&apos;ils subissent des dégâts. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A0000004836290D94</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charge explosive</Name>
+      <Icon>charge_blast</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>121846104</AbilityId>
+        <Description>Lors de la détonation, inflige 153 à 170 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A074339588AB8CA7C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>572762140</AbilityId>
+        <Description>Lors de la détonation, inflige 158 à 174 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A2223A81C5FF64A1C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>679117463</AbilityId>
+        <Description>Lors de la détonation, inflige 164 à 182 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A287A829753E50EC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>48001181</AbilityId>
+        <Description>Lors de la détonation, inflige 172 à 190 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A02DC709D465A87D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>916981921</AbilityId>
+        <Description>Lors de la détonation, inflige 180 à 198 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A36A808A13DAD691F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>835730795</AbilityId>
+        <Description>Lors de la détonation, inflige 188 à 208 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A31D03D6B979E52C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1253946623</AbilityId>
+        <Description>Lors de la détonation, inflige 197 à 218 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A4ABDB4FF1A0445FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>413466007</AbilityId>
+        <Description>Lors de la détonation, inflige 211 à 234 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A18A4FD9762166B90</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1300974140</AbilityId>
+        <Description>Lors de la détonation, inflige 230 à 254 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A4D8B4A3CA33C7673</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1222178865</AbilityId>
+        <Description>Lors de la détonation, inflige 258 à 285 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A48D8F831B3222044</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-28621381</AbilityId>
+        <Description>Lors de la détonation, inflige 269 à 298 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE4B45BB8D2A0356</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-90448216</AbilityId>
+        <Description>Lors de la détonation, inflige 382 à 422 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFA9BDEA8F71F1CA3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-74417723</AbilityId>
+        <Description>Lors de la détonation, inflige 495 à 547 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFB9079C5D6CB8679</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-40563618</AbilityId>
+        <Description>Lors de la détonation, inflige 549 à 607 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD950C5E98219D35</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosifs puissants</Name>
+      <Icon>last_stand</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>210039379</AbilityId>
+        <Description>Vos bombes à dégâts directs ciblées et Détonation font saigner les ennemis pendant 10 secondes. Cumulable 3 fois.</Description>
+        <AddonId>A0C84F2533C348C06</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bombe d&apos;annihilation</Name>
+      <Icon>bomb_annihilation</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>258397458</AbilityId>
+        <Description>Inflige 537 à 594 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A0F66D512A134B26B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1621125477</AbilityId>
+        <Description>Inflige 567 à 626 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A60A0696587ED6DB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1235294305</AbilityId>
+        <Description>Inflige 599 à 663 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A49A11861AA626E5F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1471745872</AbilityId>
+        <Description>Inflige 640 à 707 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A57B90F50CE93BCD3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1072485147</AbilityId>
+        <Description>Inflige 727 à 804 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A3FECD31BC3F55CA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>70553308</AbilityId>
+        <Description>Inflige 756 à 835 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>A04348EDC9ADCD0F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-49250495</AbilityId>
+        <Description>Inflige 979 à 1082 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>AFD107F416E622A3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-62221060</AbilityId>
+        <Description>Inflige 1447 à 1600 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>AFC4A94FC91A09AD3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-65914228</AbilityId>
+        <Description>Inflige 1601 à 1770 points de dégâts de Terre à un maximum de 8 ennemis.</Description>
+        <AddonId>AFC123A8C76BE1CD2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Attrape-nigaud</Name>
+      <Icon>barbedtrap4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>487814189</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 382 à 423 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A1D13742D830835D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>683109582</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 417 à 461 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A28B76CCE538CE40A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1249004457</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 474 à 524 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A4A724BA97F728000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1034427619</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 545 à 603 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A3DA81CE35B7FC271</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-82129796</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 816 à 902 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFB1ACC7CCD06636A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-12341094</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège inflige 1037 à 1146 points de dégâts à un maximum de 8 ennemis dans la zone. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFF43B09AB3944771</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe chimique</Name>
+      <Icon>bomb_chemical</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>629936091</AbilityId>
+        <Description>Inflige 338 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A258C0FDB8752F4E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1283597937</AbilityId>
+        <Description>Inflige 350 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A4C822671888C2BEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1144571245</AbilityId>
+        <Description>Inflige 369 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A4438C56D7A6F56AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1216028852</AbilityId>
+        <Description>Inflige 387 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A487B20B4958D9415</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>907007541</AbilityId>
+        <Description>Inflige 414 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A360FD63568B7547C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>72550933</AbilityId>
+        <Description>Inflige 449 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A04530A15BEE820E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>707345333</AbilityId>
+        <Description>Inflige 507 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>A2A293BB597CE4EB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-87743038</AbilityId>
+        <Description>Inflige 578 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFAC525C28B528DFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-60899342</AbilityId>
+        <Description>Inflige 851 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFC5EBFF2CD81E44F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-11531918</AbilityId>
+        <Description>Inflige 1074 points de dégâts de Terre en 10 secondes à un maximum de 8 ennemis dans la zone ciblée.</Description>
+        <AddonId>AFF500972DD4B7EF0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mise en place rapide</Name>
+      <Icon>rapid_setup</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>815585515</AbilityId>
+        <Description>La prochaine capacité de charge applique 5 accumulations et ajoute 5 points de combo.</Description>
+        <AddonId>A309CD8EB59829D63</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Incrimination</Name>
+      <Icon>generic_ability_032</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>838336891</AbilityId>
+        <Description>Transfère toute la menace générée vers l&apos;allié pendant 6 secondes.</Description>
+        <AddonId>A31F8017B739CE84A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charge à pointes</Name>
+      <Icon>charge_spike</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>926605295</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 329 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A373ADFEF6F4CDD3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>646521180</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 351 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A2689215C7B5832B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>673977872</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 365 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A282C16109B582CC9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>373717742</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 386 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A16467AEE6A7C30E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>2108770825</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 408 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A7DB14A097B181126</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1573000961</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 435 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A5DC21701AC561AC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1397961313</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 489 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A53533261B8AB9A7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1374203297</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 519 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A51E8ADA1A685D39C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-72380022</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 673 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFBAF918A864D4E68</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-619096</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 995 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFFF68DA8A6121C34</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-60776325</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 1101 points de dégâts par accumulation en 10 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>AFC60A07B4DF2B9C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charge à shrapnels</Name>
+      <Icon>charge_shrapnel</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>948073550</AbilityId>
+        <Description>Lors de la détonation, inflige 105 à 116 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A3882744EAB106D82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>857509554</AbilityId>
+        <Description>Lors de la détonation, inflige 111 à 123 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A331C8EB2DBD24A28</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>965874567</AbilityId>
+        <Description>Lors de la détonation, inflige 117 à 129 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A399213875F6C516F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1370751816</AbilityId>
+        <Description>Lors de la détonation, inflige 124 à 137 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A51B40348C46BEDE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>329144751</AbilityId>
+        <Description>Lors de la détonation, inflige 132 à 146 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A139E59AF8990D72E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1386769893</AbilityId>
+        <Description>Lors de la détonation, inflige 155 à 171 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A52A86DE5BB4AC56C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>528214920</AbilityId>
+        <Description>Lors de la détonation, inflige 161 à 179 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A1F7BEB88AD5FFF58</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42495051</AbilityId>
+        <Description>Lors de la détonation, inflige 228 à 252 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD7793B588F762EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-26798278</AbilityId>
+        <Description>Lors de la détonation, inflige 297 à 328 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE67173ADCE8644D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-13839428</AbilityId>
+        <Description>Lors de la détonation, inflige 329 à 363 points de dégâts à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFF2CD3BC697DE898</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Mines terrestres</Name>
+      <Icon>land_mines</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>997369916</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 603 à 667 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>A3B72A83C8CA67AD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>1501195234</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 647 à 715 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>A597A6BE22EB4DEEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>399851492</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 732 à 809 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>A17D53FE4A95C432D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>976350458</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 791 à 874 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>A3A31ECFA5689B9FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-31501631</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 909 à 1005 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>AFE1F52C156A7769D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-56644650</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 1360 à 1504 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>AFC9FABD677FC12A8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-23489875</AbilityId>
+        <Description>Pose 4 Mines terrestres autour du Voleur pendant 60 secondes. Chaque mine inflige 1730 à 1912 points de dégâts de Terre et projette l&apos;ennemi dans les airs lors du déclenchement.</Description>
+        <AddonId>AFE9992AD9C0BECAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Duration>60.000000</Duration>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Piège barbelé</Name>
+      <Icon>shreddingtrap1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1124096204</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 509 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A430058CCB32E5DF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>350929647</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 551 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A14EAC2EF8EF98A00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>903922629</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 574 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A35E0C3C5849223F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>121517311</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 605 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A073E34FFA62F91FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>349452297</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 638 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A14D438097DA8419D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2062176840</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 685 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A7AEA5248DA63FC7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>243424254</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 750 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A0E825BFE291C3FEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1441315419</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 851 points de dégâts pendant 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>A55E8BA5BD1B52734</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-59050575</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 977 points de dégâts en 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFC7AF5B18EEC9E42</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-34167854</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 1464 points de dégâts en 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFDF6A3D2A773FE67</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-15993828</AbilityId>
+        <Description>Pose un piège aux pieds du Voleur d&apos;une durée de 60 secondes. Lorsqu&apos;il est déclenché, le piège provoque un saignement qui inflige 1860 points de dégâts en 10 secondes. Vous ne pouvez poser qu&apos;un piège à la fois.</Description>
+        <AddonId>AFF0BF41C87A8213D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.000000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>0.250000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charges</Name>
+      <Icon>elemres4d</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1185700425</AbilityId>
+        <Description>L&apos;effet des charges augmente en fonction du nombre de charges placées sur l&apos;ennemi au moment de l&apos;explosion. Vous pouvez placer un maximum de 5 charges simultanément sur un ennemi. Toutes les charges sont considérées comme des poisons.</Description>
+        <AddonId>A46AC5A494A1A58B8</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe à fragmentation</Name>
+      <Icon>bomb_fragment_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1322163253</AbilityId>
+        <Description>Inflige 246 à 271 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A4ECE9C35477A6D5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2021397552</AbilityId>
+        <Description>Inflige 254 à 281 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A787C1430D0AF9056</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1090189669</AbilityId>
+        <Description>Inflige 267 à 296 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A40FAF965552C0E9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>117968711</AbilityId>
+        <Description>Inflige 273 à 302 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A07080F4774B655BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1837927152</AbilityId>
+        <Description>Inflige 289 à 320 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A6D8C8AF08B25BC81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1479019511</AbilityId>
+        <Description>Inflige 301 à 333 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A58280BF7DD986DB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>199722962</AbilityId>
+        <Description>Inflige 321 à 355 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A0BE787D2898D1FFB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2004928186</AbilityId>
+        <Description>Inflige 342 à 378 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A7780C6BA91EAB09B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>959220043</AbilityId>
+        <Description>Inflige 402 à 444 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A392C894B8D35BAC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>299351256</AbilityId>
+        <Description>Inflige 418 à 462 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>A11D7BCD83F63DFF2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-55105454</AbilityId>
+        <Description>Inflige 593 à 655 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>AFCB72852A83C3EDE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-38171302</AbilityId>
+        <Description>Inflige 770 à 851 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>AFDB98D5A417A4290</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-80827189</AbilityId>
+        <Description>Inflige 852 à 942 points de dégâts à un maximum de 8 ennemis.</Description>
+        <AddonId>AFB2EACCB5A8C0EDF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bombe à retardement</Name>
+      <Icon>bomb_time</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1336172055</AbilityId>
+        <Description>Inflige 246 à 272 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A4FA45E17E1059612</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>239802434</AbilityId>
+        <Description>Inflige 260 à 287 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A0E4B1842855BAB9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1219167044</AbilityId>
+        <Description>Inflige 272 à 301 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A48AB034442C3629B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1154644794</AbilityId>
+        <Description>Inflige 289 à 320 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A44D27B3A9F41CFCC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1525655839</AbilityId>
+        <Description>Inflige 308 à 340 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A5AEFA91F5884B2A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>282378222</AbilityId>
+        <Description>Inflige 363 à 401 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>A10D4BFEE5C5F089F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-20918148</AbilityId>
+        <Description>Inflige 377 à 416 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>AFEC0D07C23D662D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-73410006</AbilityId>
+        <Description>Inflige 534 à 590 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>AFB9FDA2A41B1F7A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-31276341</AbilityId>
+        <Description>Inflige 695 à 768 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>AFE22C2CB4D4A9AC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-69183735</AbilityId>
+        <Description>Inflige 768 à 849 points de dégâts de Terre à un maximum de 8 ennemis au bout de 8 secondes.</Description>
+        <AddonId>AFBE0570954F4DFD6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bombardement intensif</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1485015144</AbilityId>
+        <Description>Réinitialise le compte à rebours de toutes les bombes. Supprime le délai de récupération des 3 bombes suivantes.</Description>
+        <AddonId>A5883886816D07FBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe asphyxiante</Name>
+      <Icon>bomb_choking_gas_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1634616125</AbilityId>
+        <Description>Réduit au silence tous les ennemis de la zone pendant 8 secondes.</Description>
+        <AddonId>A616E433D91526562</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Détonation</Name>
+      <Icon>detonate</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1689572409</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 202 points de dégâts
+2 points : 249 points de dégâts
+3 points : 308 points de dégâts
+4 points : 373 points de dégâts
+5 points : 448 points de dégâts</Description>
+        <AddonId>A64B4D4392A8B762B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>976226121</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 203 points de dégâts
+2 points : 253 points de dégâts
+3 points : 314 points de dégâts
+4 points : 381 points de dégâts
+5 points : 461 points de dégâts</Description>
+        <AddonId>A3A3007498A800E1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1817370557</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 204 points de dégâts
+2 points : 258 points de dégâts
+3 points : 321 points de dégâts
+4 points : 394 points de dégâts
+5 points : 478 points de dégâts</Description>
+        <AddonId>A6C52DFBD6FE409C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1576409734</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 208 points de dégâts
+2 points : 263 points de dégâts
+3 points : 332 points de dégâts
+4 points : 411 points de dégâts
+5 points : 502 points de dégâts</Description>
+        <AddonId>A5DF61A86920CCD67</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1481858971</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 209 points de dégâts
+2 points : 268 points de dégâts
+3 points : 340 points de dégâts
+4 points : 424 points de dégâts
+5 points : 522 points de dégâts</Description>
+        <AddonId>A58535F9B6BD05055</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>166427238</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 212 points de dégâts
+2 points : 275 points de dégâts
+3 points : 353 points de dégâts
+4 points : 443 points de dégâts
+5 points : 548 points de dégâts</Description>
+        <AddonId>A09EB7A66394E040B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>882228319</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 215 points de dégâts
+2 points : 282 points de dégâts
+3 points : 366 points de dégâts
+4 points : 462 points de dégâts
+5 points : 576 points de dégâts</Description>
+        <AddonId>A3495BC5F90133F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2111075856</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 218 points de dégâts
+2 points : 291 points de dégâts
+3 points : 383 points de dégâts
+4 points : 489 points de dégâts
+5 points : 615 points de dégâts</Description>
+        <AddonId>A7DD476106A5184DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1172437180</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 224 points de dégâts
+2 points : 305 points de dégâts
+3 points : 407 points de dégâts
+4 points : 527 points de dégâts
+5 points : 669 points de dégâts</Description>
+        <AddonId>A45E1F8BC79C14A6F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>941276274</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 232 points de dégâts
+2 points : 325 points de dégâts
+3 points : 445 points de dégâts
+4 points : 586 points de dégâts
+5 points : 753 points de dégâts</Description>
+        <AddonId>A381ABC726C0A940A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-64573128</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 235 points de dégâts
+2 points : 333 points de dégâts
+3 points : 459 points de dégâts
+4 points : 608 points de dégâts
+5 points : 784 points de dégâts</Description>
+        <AddonId>AFC26B138817F4BCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-41829220</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 268 points de dégâts
+2 points : 415 points de dégâts
+3 points : 606 points de dégâts
+4 points : 837 points de dégâts
+5 points : 1111 points de dégâts</Description>
+        <AddonId>AFD81BC9C8E5F0EBE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-8614444</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 301 points de dégâts
+2 points : 499 points de dégâts
+3 points : 756 points de dégâts
+4 points : 1070 points de dégâts
+5 points : 1444 points de dégâts</Description>
+        <AddonId>AFF7C8DD4263EBB9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-23319957</AbilityId>
+        <Description>Fait sauter les Charges et inflige des dégâts supplémentaires par point de combo.
+
+1 point : 317 points de dégâts
+2 points : 537 points de dégâts
+3 points : 825 points de dégâts
+4 points : 1177 points de dégâts
+5 points : 1597 points de dégâts</Description>
+        <AddonId>AFE9C2A6B7D43D6BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bombe adhésive</Name>
+      <Icon>bomb_adhesive</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2068068022</AbilityId>
+        <Description>Ralentit tous les ennemis dans la zone ciblée pendant 8 secondes.</Description>
+        <AddonId>A7B4436B69D2D165C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charge à chausse-trappes</Name>
+      <Icon>charge_caltrop</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>2072274435</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 233 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A7B8466033A29F646</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>628818773</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 248 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A257B03559FF0D36A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>863776990</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 264 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A337C30DE202EE784</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1157556096</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 310 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A44FEE78079D70EA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1122453605</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 323 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A42E748652675A3A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1884441641</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 459 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A70524C298D32D1A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1360575726</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 596 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>A5118BCEEDC616314</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-13977798</AbilityId>
+        <Description>Lors de la détonation, inflige un saignement provoquant 659 points de dégâts par accumulation en 10 secondes à un maximum de 8 ennemis. Rapporte 1 point de combo.</Description>
+        <AddonId>AFF2AB73AC6AE6F45</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Stormcaller">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Arktische Kälte</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Die Verringerung der Bewegungsgeschwindigkeit durch Arktischer Sturm, Auge des Sturms, Hagelsturm, Eisiger Wirbel und Frische Brise verstärkt sich um weitere 3% und verursacht entsprechend Eurer Zauberkraft jede Sekunde Wasserschaden bei in Bewegung befindlichen Feinden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Die Verringerung der Bewegungsgeschwindigkeit durch Arktischer Sturm, Auge des Sturms, Hagelsturm, Eisiger Wirbel und Frische Brise verstärkt sich um weitere 6% und verursacht entsprechend Eurer Zauberkraft jede Sekunde Wasserschaden bei in Bewegung befindlichen Feinden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Die Verringerung der Bewegungsgeschwindigkeit durch Arktischer Sturm, Auge des Sturms, Hagelsturm, Eisiger Wirbel und Frische Brise verstärkt sich um weitere 10% und verursacht entsprechend Eurer Zauberkraft jede Sekunde Wasserschaden bei in Bewegung befindlichen Feinden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Hochspannung</Name>
+      <Icon>jaggedlighting2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1428481129</AbilityId>
+          <Description></Description>
+          <AddonId>A5524E4694A60DD5B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Euren Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Euren Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Kaltwetterausbildung</Name>
+      <Icon>ward1zz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>889968882</AbilityId>
+          <Description></Description>
+          <AddonId>A350BD8F228D3E907</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verkürzt die Wirkzeit Eurer Luft- und Wasserzauber um 4% und die Eurer anderen Zauber um 1%. Verringert die Manakosten nicht sofort wirkender Wasserfähigkeiten um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verkürzt die Wirkzeit Eurer Luft- und Wasserzauber um 8% und die Eurer anderen Zauber um 2%. Verringert die Manakosten nicht sofort wirkender Wasserfähigkeiten um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verkürzt die Wirkzeit Eurer  Luft- und Wasserzauber um 12% und die Eurer anderen Zauber um 3%. Verringert die Manakosten nicht sofort wirkender Wasserfähigkeiten um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Verkürzt die Wirkzeit Eurer Luft- und Wasserzauber um 16% und die Eurer anderen Zauber um 4%. Verringert die Manakosten nicht sofort wirkender Wasserfähigkeiten um 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Verkürzt die Wirkzeit Eurer Luft- und Wasserzauber um 20% und die Eurer anderen Zauber um 5%. Verringert die Manakosten nicht sofort wirkender Wasserfähigkeiten um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Sturmscherbe</Name>
+      <Icon>shaman-vengeance_of_winter_storm_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>505142788</AbilityId>
+          <Description></Description>
+          <AddonId>A1E1BDE044C77FD94</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gewährt Euren Schaden verursachenden Fähigkeiten eine Chance von 33%, Euren nächsten Eiszapfen zu einem Sofortzauber zu machen, wenn Ihr ihn innerhalb der nächsten 10 Sekunden wirkt und seine Manakosten um 40% zu reduzieren. Gleichzeitig wird der Schadensbonus dieses Eiszapfens um 150% erhöht. Dies kann nur einmal innerhalb von 10 Sekunden ausgelöst werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gewährt Euren Schaden verursachenden Fähigkeiten eine Chance von 66%, Euren nächsten Eiszapfen zu einem Sofortzauber zu machen, wenn Ihr ihn innerhalb der nächsten 10 Sekunden wirkt und seine Manakosten um 40% zu reduzieren. Gleichzeitig wird der Schadensbonus dieses Eiszapfens um 150% erhöht. Dies kann nur einmal innerhalb von 10 Sekunden ausgelöst werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Gewährt Euren Schaden verursachenden Fähigkeiten eine Chance von 100%, Euren nächsten Eiszapfen zu einem Sofortzauber zu machen, wenn Ihr ihn innerhalb der nächsten 10 Sekunden wirkt und seine Manakosten um 40% zu reduzieren. Gleichzeitig wird der Schadensbonus dieses Eiszapfens um 150% erhöht. Dies kann nur einmal innerhalb von 10 Sekunden ausgelöst werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Aufgeladene Atmosphäre</Name>
+      <Icon>dominator_nyxs_orb_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>345030185</AbilityId>
+          <Description></Description>
+          <AddonId>A1490BE296E238819</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eurer Wirkungsbereich-Fähigkeiten um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten mit Wirkungsbereich um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten mit Wirkungsbereich um 12%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Blitzableiter</Name>
+      <Icon>dark_harbor</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1655147371</AbilityId>
+          <Description></Description>
+          <AddonId>A62A78B6B54A1CA05</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Verzögerungswirkung Schaden verursachender Angriffe beim Wirken von Zauber mit Wirkungsbereich um 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die Verzögerungswirkung Schaden verursachender Angriffe beim Wirken von Zauber mit Wirkungsbereich um 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Blitzbeherrschung</Name>
+      <Icon>jaggedlighting2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1037919994</AbilityId>
+          <Description></Description>
+          <AddonId>A3DDD66FA73C41552</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Manakosten Eurer Luftzauber um 3% und erhöht deren Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die Manakosten Eurer Luftzauber um 6% und erhöht deren Schaden um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert die Manakosten Eurer Luftzauber um 9% und erhöht deren Schaden um 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Windreiter</Name>
+      <Icon>tumble1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>284086316</AbilityId>
+          <Description>Erhöht die Bewegungsgeschwindigkeit für 10 Sekunden um 50%.</Description>
+          <AddonId>A10EED02C3540592F</AddonId>
+          <IsPassive>False</IsPassive>
+          <MinimumHeat>30</MinimumHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Kälteperiode</Name>
+      <Icon>energybeam1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1735661585</AbilityId>
+          <Description></Description>
+          <AddonId>A67741811647D3A18</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eurer Wasserzauber um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eurer Wasserzauber um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eurer Wasserzauber um 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden Eurer Wasserzauber um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden Eurer Wasserzauber um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Frische Brise</Name>
+      <Icon>secondwind2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1933608601</AbilityId>
+          <Description>Stößt bis zu 5 Feinde vor dem Magier zurück. Verlangsamt betroffene Feinde, sodass ihre Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert wird.</Description>
+          <AddonId>A73408699E73EBC9E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Blitzverstärker</Name>
+      <Icon>lightingbolt5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>183408217</AbilityId>
+          <Description></Description>
+          <AddonId>A0AEE96591F3A662E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Fähigkeiten Tödlicher Stromschlag, Donnerblitz und Tobender Sturm verursachen 5% mehr Schaden, wenn der Gegner an Unterkühlung leidet.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Fähigkeiten Tödlicher Stromschlag, Donnerblitz und Tobender Sturm verursachen 10% mehr Schaden, wenn der Gegner an Unterkühlung leidet.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Sturmausbildung</Name>
+      <Icon>generic_ability_026_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schadensbonus Eures Statikflusses um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schadensbonus Eures Statikflusses um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schadensbonus Eures Statikflusses um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schadensbonus Eures Statikflusses um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schadensbonus Eures Statikflusses um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Vereinzelte Blitze</Name>
+      <Icon>chainlighting5a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die maximale Anzahl der Feinde, die vom Gabelblitz getroffen werden können, um 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die maximale Anzahl der Feinde, die vom Gabelblitz getroffen werden können, um 4.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die maximale Anzahl der Feinde, die vom Gabelblitz getroffen werden können, um 6.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Induktivität</Name>
+      <Icon>jaggedlighting1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gegner, die von Euch elektrisiert wurden, erleiden durch Eure Luft- und Wasserzauber für jeden Eurer Elektrisiert-Effekte, die auf ihnen wirken, zusätzlich 3% Schaden. Betrifft nicht Schaden aus Nahkampfangriffen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gegner, die von Euch elektrisiert wurden, erleiden durch Eure Luft- und Wasserzauber für jeden Eurer Elektrisiert-Effekte, die auf ihnen wirken, zusätzlich 6% Schaden. Betrifft nicht Schaden aus Nahkampfangriffen.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Gegner, die von Euch elektrisiert wurden, erleiden durch Eure Luft- und Wasserzauber für jeden Eurer Elektrisiert-Effekte, die auf ihnen wirken, zusätzlich 9% Schaden. Betrifft nicht Schaden aus Nahkampfangriffen</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Geladenes Feld</Name>
+      <Icon>lightingbolt4y</Icon>
+      <PrereqTraitKey>18</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Überlädt Euer Blitzfeld und bewirkt, dass jeder Gegner, der durch die Fähigkeit Schaden nimmt, den Schaden auf bis zu 3 elektrifizierte Gegner in einem 10-Meter-Radius überträgt. Entfernt einen Elektrifiziert-Effekt von jedem getroffenen Gegner.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Eisschere</Name>
+      <Icon>twilight_force_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1649297784</AbilityId>
+          <Description>Verursacht 386 bis 427 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+          <AddonId>A624E497861F95F82</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Tödliche Scherben</Name>
+      <Icon>twilight_force_01</Icon>
+      <PrereqTraitKey>16</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schadensbonus Eurer Eisschere um 2% pro kumuliertem Elektrisierungseffekt.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schadensbonus Eurer Eisschere um 4% pro kumuliertem Elektrisierungseffekt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Blitzfeld</Name>
+      <Icon>lightingbolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>137477283</AbilityId>
+          <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 377 bis 416 Luftschaden.</Description>
+          <AddonId>A0831BCA396D7AB1A</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Gewittersturm</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>938286815</AbilityId>
+          <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 2467 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+          <AddonId>A37ED1EDFB0F75584</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>18.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Eingefrorene Verteidigungen</Name>
+      <Icon>shaman-glacial_shield</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Feinde, die von Euch mit Unterkühlung belegt wurden, erleiden durch Eure Fähigkeiten mit Wirkungsbereich zusätzlich 5% Schaden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Feinde, die von Euch mit Unterkühlung belegt wurden, erleiden durch Eure Fähigkeiten mit Wirkungsbereich zusätzlich 10% Schaden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Feinde, die von Euch mit Unterkühlung belegt wurden, erleiden durch Eure Fähigkeiten mit Wirkungsbereich zusätzlich 15% Schaden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Perfekte Bedingungen</Name>
+      <Icon>warden-deluge_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-60894664</AbilityId>
+          <Description></Description>
+          <AddonId>AFC5ED23863C1D343</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verkürzt die globale Abklingzeit Eurer Luft- und Wasserzauber um 1,33 Sekunden, verringert die Manakosten Eurer Fähigkeiten mit Wirkungsbereich um 5%, Eure sofort wirkenden  Luft- und Wasserfähigkeiten um 11% und erhöht den Schaden Eurer Fähigkeiten mit Wirkungsbereich um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verkürzt die globale Abklingzeit Eurer Luft- und Wasserzauber um 1,17 Sekunden, verringert die Manakosten Eurer Fähigkeiten mit Wirkungsbereich um 10%, Eure sofort wirkenden  Luft- und Wasserfähigkeiten um 22% und erhöht den Schaden Eurer Fähigkeiten mit Wirkungsbereich um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verkürzt die globale Abklingzeit Eurer Luft- und Wasserzauber um 1 Sekunde, verringert die Manakosten Eurer Fähigkeiten mit Wirkungsbereich um 15%, Eure sofort wirkenden  Luft- und Wasserfähigkeiten um 3% und erhöht den Schaden Eurer Fähigkeiten mit Wirkungsbereich um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Überladen</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-9600509</AbilityId>
+          <Description></Description>
+          <AddonId>AFF6D820347EF14E2</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die maximale Anzahl an Kumulierungen Eurer Elektrisiert-Effekte um 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die maximale Anzahl an Kumulierungen Eurer Elektrisiert-Effekte um 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Elektrische Ladung</Name>
+      <Icon>purge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41825918</AbilityId>
+          <Description>Belegt den Gegner mit der maximalen Anzahl an Kumulierungen von Elektrisiert.</Description>
+          <AddonId>AFD81C98213FE2A7D</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Unwetterschub</Name>
+      <Icon>void_knight-tempest</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19940850</AbilityId>
+          <Description>Verursacht 172 bis 190 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+          <AddonId>AFECFBA0EA2E8284A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>1.500000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Eisiger Wirbel</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1842798307</AbilityId>
+          <Description>Reduziert den erlittenen Schaden um 25%. Bewirkt bei einem Treffer Unterkühlung und verlangsamt den Angreifer, sodass seine Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert wird.</Description>
+          <AddonId>A6DD6DEE38114F4F3</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sturmrüstung</Name>
+      <Icon>flashback</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-59430402</AbilityId>
+        <Description>Erhöht alle Widerstände um 50. Für die Dauer der Kanalisierung machen Tödlicher Stromschlag und Tobender Sturm den Feind bewegungsunfähig. Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFC7529FE74DF637A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gewitterrüstung</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53665753</AbilityId>
+        <Description>Erhöht den Einzelzielschaden um 15% und alle Widerstände um 50. Das Wirken einer Schaden verursachenden Wasserfähigkeit lässt die nächste, innerhalb von 10 Sekunden gewirkte Wirkungsbereich-Fähigkeit des Magiers zum Sofortzauber werden. Kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFCCD2027BAEA498A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blitzbogen</Name>
+      <Icon>stormcaller_lightning_arc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-50341835</AbilityId>
+        <Description>Lässt Blitze auf bis zu 10 Feinde überspringen. Die Blitze verursachen 1040 bis 1149 Luftschaden bei bis zu 5 Feinden, die sich in der Nähe eines vom Blitzbogen getroffenen Feinds befinden.</Description>
+        <AddonId>AFCFFD83559DED1D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Elektrische Ladung</Name>
+      <Icon>purge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-41825918</AbilityId>
+        <Description>Belegt den Gegner mit der maximalen Anzahl an Kumulierungen von Elektrisiert.</Description>
+        <AddonId>AFD81C98213FE2A7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aufziehendes Unwetter</Name>
+      <Icon>maelstrom_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-40221873</AbilityId>
+        <Description>Stellt pro Sekunde 5% Mana wieder her.</Description>
+        <AddonId>AFD9A434FF33EAA7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Statische Nova</Name>
+      <Icon>energy_overload1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22627273</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 341 bis 377 Luftschaden. Belegt jeden getroffenen Feind mit der maximalen Anzahl an Kumulierungen von Elektrisiert.</Description>
+        <AddonId>AFEA6BC37637D9BA0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 445 bis 492 Luftschaden. Belegt jeden getroffenen Feind mit der maximalen Anzahl an Kumulierungen von Elektrisiert.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 445 bis 492 Luftschaden. Belegt jeden getroffenen Feind mit der maximalen Anzahl an Kumulierungen von Elektrisiert.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Unwetterschub</Name>
+      <Icon>void_knight-tempest</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-19940850</AbilityId>
+        <Description>Verursacht 172 bis 190 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFECFBA0EA2E8284A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-84968449</AbilityId>
+        <Description>Verursacht 186 bis 206 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFAEF7BFFA609CDB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-89841259</AbilityId>
+        <Description>Verursacht 197 bis 218 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFAA521957EF7735D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-41696137</AbilityId>
+        <Description>Verursacht 247 bis 274 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFD83C477A2027D0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-58586777</AbilityId>
+        <Description>Verursacht 297 bis 328 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFC820967953E834E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-54992483</AbilityId>
+        <Description>Verursacht 320 bis 353 Luftschaden pro Kumulierung von Elektrisiert auf dem ursprünglichen Ziel bei bis zu 8 Feinden in einem Umkreis von 7 Metern um das ursprüngliche Ziel. Fügt jedem getroffenen Ziel eine Anzahl an Kumulierungen von Elektrisiert zu, die der Anzahl der Kumulierungen auf dem ursprünglichen Ziel entspricht.</Description>
+        <AddonId>AFCB8E19D59C048E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Blitzfeld</Name>
+      <Icon>lightingbolt4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>137477283</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 377 bis 416 Luftschaden.</Description>
+        <AddonId>A0831BCA396D7AB1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>961802459</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 387 bis 428 Luftschaden.</Description>
+        <AddonId>A3953F0DB2FC787EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1443946929</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 401 bis 443 Luftschaden.</Description>
+        <AddonId>A5610E1B191A45553</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1385398985</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 429 bis 474 Luftschaden.</Description>
+        <AddonId>A529382C919147A38</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1622063203</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 444 bis 491 Luftschaden.</Description>
+        <AddonId>A60AEB863669AEE0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1336425086</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 541 bis 599 Luftschaden.</Description>
+        <AddonId>A4FA83A7E6A4EC4D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>749590208</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 709 bis 783 Luftschaden.</Description>
+        <AddonId>A2CADD6C0908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-97329996</AbilityId>
+        <Description>Verursacht bei bis zu 8 von Elektrisiert betroffenen Feinden 762 bis 842 Luftschaden.</Description>
+        <AddonId>AFA32DCB4908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Statische Entladung</Name>
+      <Icon>energyburst5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>264887997</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 95 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>A0FC9DEBD8DFED17D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>423314174</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 99 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>A193B42FE96C00838</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1183214418</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 104 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>A46866B523463A6CD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1672552568</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 114 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>A63B1207892B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-96848243</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 139 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>AFA3A368D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-77218828</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 160 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>AFB65BBF492B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-26459123</AbilityId>
+        <Description>Verursacht bei allen Gruppenmitgliedern Statische Entladung. Schaden verursachende Fähigkeiten bewirken zusätzlich 160 Luftschaden. Kann bis zu 10 Mal geschehen. Die Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>AFE6C440D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Windreiter</Name>
+      <Icon>tumble1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>284086316</AbilityId>
+        <Description>Erhöht die Bewegungsgeschwindigkeit für 10 Sekunden um 50%.</Description>
+        <AddonId>A10EED02C3540592F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>30</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Strömender Regen</Name>
+      <Icon>warden-downpour</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>312574570</AbilityId>
+        <Description>Setzt die Abklingzeit für alle Sturmruferin-Fähigkeiten zurück (mit Ausnahme von Strömender Regen).</Description>
+        <AddonId>A12A1826A17FB524B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Unterkühlung</Name>
+      <Icon>chainsofice3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>640972553</AbilityId>
+        <Description>Angewendet durch Arktischer Sturm, Auge des Sturms, Hagelsturm, Eiszapfen, Eisiger Wirbel und Frische Brise. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A26347709636DFF7E</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Eiszapfen</Name>
+      <Icon>icebolt1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>775964852</AbilityId>
+        <Description>Verursacht 486 bis 537 Wasserschaden.</Description>
+        <AddonId>A2E4048B4A5325EB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>486932152</AbilityId>
+        <Description>Verursacht 496 bis 548 Wasserschaden.</Description>
+        <AddonId>A1D05FEB880AA517D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1863262893</AbilityId>
+        <Description>Verursacht 511 bis 565 Wasserschaden.</Description>
+        <AddonId>A6F0F22ADC3D7973C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>336126128</AbilityId>
+        <Description>Verursacht 522 bis 577 Wasserschaden.</Description>
+        <AddonId>A1408E0B0BA00EC0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>792829390</AbilityId>
+        <Description>Verursacht 534 bis 591 Wasserschaden.</Description>
+        <AddonId>A2F419DCE956420AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>803671859</AbilityId>
+        <Description>Verursacht 550 bis 607 Wasserschaden.</Description>
+        <AddonId>A2FE70F3366FD7319</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1598076368</AbilityId>
+        <Description>Verursacht 566 bis 626 Wasserschaden.</Description>
+        <AddonId>A5F40B5D072DADAE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>353686584</AbilityId>
+        <Description>Verursacht 586 bis 647 Wasserschaden.</Description>
+        <AddonId>A1514D4384C7BB30F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1188963972</AbilityId>
+        <Description>Verursacht 626 bis 692 Wasserschaden.</Description>
+        <AddonId>A46DE268443BD4F59</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2045897861</AbilityId>
+        <Description>Verursacht 649 bis 717 Wasserschaden.</Description>
+        <AddonId>A79F1EC853674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-78196750</AbilityId>
+        <Description>Verursacht 790 bis 873 Wasserschaden.</Description>
+        <AddonId>AFB56CFF23674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-14877728</AbilityId>
+        <Description>Verursacht 1032 bis 1141 Wasserschaden.</Description>
+        <AddonId>AFF1CFBE03674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41467215</AbilityId>
+        <Description>Verursacht 1110 bis 1227 Wasserschaden.</Description>
+        <AddonId>AFD8742B13674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Auge des Sturms</Name>
+      <Icon>eye_of_the_storm</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>819233816</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 2338 Wasserschaden über 8 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A30D4841878E4FEB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-49170135</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 2847 Wasserschaden über 8 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFD11B9296CAEFB09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-50761685</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 3717 Wasserschaden über 8 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFCF9702B6012264E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-98590324</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 3999 Wasserschaden über 8 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFA1FA18C7357942C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Aufkommender Sturmherr</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>846277290</AbilityId>
+        <Description>Verringert die Wirkzeit der nächsten Fähigkeit mit Wirkungsbereich um 100%. </Description>
+        <AddonId>A32712AAA49E5CA77</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blitzexplosion</Name>
+      <Icon>riftblade-surging_energy_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>923334004</AbilityId>
+        <Description>Verursacht 328 bis 363 Luftschaden. Für jede auf den Feind wirkende Kumulierung von Elektrifiziert erhöht sich der Schaden um 10%. Verursacht 30% des dabei pro Kumulierung von Elektrifiziert verursachten Schadens bei bis zu 5 zusätzlichen Feinden.</Description>
+        <AddonId>A3708F5749C948C6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2011275495</AbilityId>
+        <Description>Verursacht 340 bis 376 Luftschaden. Für jede auf den Feind wirkende Kumulierung von Elektrifiziert erhöht sich der Schaden um 10%. Verursacht 30% des dabei pro Kumulierung von Elektrifiziert verursachten Schadens bei bis zu 5 zusätzlichen Feinden.</Description>
+        <AddonId>A77E1A0E7544524A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-58777346</AbilityId>
+        <Description>Verursacht 418 bis 463 Luftschaden. Für jede auf den Feind wirkende Kumulierung von Elektrifiziert erhöht sich der Schaden um 10%. Verursacht 30% des dabei pro Kumulierung von Elektrifiziert verursachten Schadens bei bis zu 5 zusätzlichen Feinden.</Description>
+        <AddonId>AFC7F20FE62219BB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-26426033</AbilityId>
+        <Description>Verursacht 553 bis 611 Luftschaden. Für jede auf den Feind wirkende Kumulierung von Elektrifiziert erhöht sich der Schaden um 10%. Verursacht 30% des dabei pro Kumulierung von Elektrifiziert verursachten Schadens bei bis zu 5 zusätzlichen Feinden.</Description>
+        <AddonId>AFE6CC54F332EEB51</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-51355233</AbilityId>
+        <Description>Verursacht 563 bis 622 Luftschaden. Für jede auf den Feind wirkende Kumulierung von Elektrifiziert erhöht sich der Schaden um 10%. Verursacht 30% des dabei pro Kumulierung von Elektrifiziert verursachten Schadens bei bis zu 5 zusätzlichen Feinden.</Description>
+        <AddonId>AFCF0619F3B3CD569</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gewittersturm</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>938286815</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 2467 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>A37ED1EDFB0F75584</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1212135369</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 2580 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>A483FB7C9B50B053D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1502228978</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 2818 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>A598A31F25B2EBD56</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>215508050</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 2983 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>A0CD8645242F55C5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-95068791</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 3458 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>AFA555D896EBCB8D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-16414913</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 4714 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>AFF05873F2D86779B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-90319859</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielgebiet 5727 Luftschaden über 6 Sekunden. Feinde, auf die 3 oder mehr Kumulierungen von Elektrisiert wirken, werden bewegungsunfähig. Erzeugt pro Sekunde 6 Ladung.</Description>
+        <AddonId>AFA9DD40D68DD81ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Wolkenbruch</Name>
+      <Icon>doctrine_of_bliss_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>970148500</AbilityId>
+        <Description>Verursacht 335 bis 370 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A39D34A94A82A90C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2123571847</AbilityId>
+        <Description>Verursacht 344 bis 380 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A7E93228784A8D955</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>357048667</AbilityId>
+        <Description>Verursacht 354 bis 391 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A1548215B919212D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>742367466</AbilityId>
+        <Description>Verursacht 359 bis 397 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A2C3FA0EA8B4D8D15</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1016043302</AbilityId>
+        <Description>Verursacht 370 bis 409 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A3C8F9726CE6EE871</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>403352483</AbilityId>
+        <Description>Verursacht 379 bis 419 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A180AABA3836869EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1294287540</AbilityId>
+        <Description>Verursacht 391 bis 432 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A4D2542B42EBF67AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1109060773</AbilityId>
+        <Description>Verursacht 404 bis 446 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>A421AECA570C3BB60</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-49895434</AbilityId>
+        <Description>Verursacht 444 bis 491 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>AFD06A7F6C9FA01CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-75114635</AbilityId>
+        <Description>Verursacht 472 bis 521 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>AFB85D775CA57463E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-40710699</AbilityId>
+        <Description>Verursacht 590 bis 652 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>AFD92CDD5CAB56862</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-89262615</AbilityId>
+        <Description>Verursacht 709 bis 783 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrifiziert. Zählt als Erstblitz.</Description>
+        <AddonId>AFAADF5E9642B76A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-22120891</AbilityId>
+        <Description>Verursacht 762 bis 842 Wasserschaden. Der Schaden erhöht sich um 15% pro Kumulierung von Elektrisiert. Zählt als Erstblitz.</Description>
+        <AddonId>AFEAE7645B39F220D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tobender Sturm</Name>
+      <Icon>souldrain1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1051526167</AbilityId>
+        <Description>Verursacht 1920 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A3EAD04171EAC264C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>265486703</AbilityId>
+        <Description>Verursacht 2003 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A0FD3016F5B757CB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>460297156</AbilityId>
+        <Description>Verursacht 2069 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A1B6F93C48ADE58B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>727627360</AbilityId>
+        <Description>Verursacht 2160 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A2B5EB660C20913B9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>877184511</AbilityId>
+        <Description>Verursacht 2253 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A3448C5FF7F16B738</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1684594235</AbilityId>
+        <Description>Verursacht 2560 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A6468DE3B75515D86</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>392264481</AbilityId>
+        <Description>Verursacht 2758 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A17617B2198694988</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-6011070</AbilityId>
+        <Description>Verursacht 3637 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFFA44742667619D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-54771867</AbilityId>
+        <Description>Verursacht 4522 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFCBC3F655CB36D60</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-61063641</AbilityId>
+        <Description>Verursacht 4924 Luftschaden über 3 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFC5C3E27371187BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Elektrisiert</Name>
+      <Icon>jaggedlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1158968725</AbilityId>
+        <Description>Angewandt von Tödlicher Stromschlag, Gabelblitz, Gewittersturm, Tobender Sturm, Blitzbogen und Donnerblitz. Dauer beträgt 15 Sekunden. Es können maximal 3 Effekte kumuliert werden.</Description>
+        <AddonId>A451475953A0BC87F</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gabelblitz</Name>
+      <Icon>chainlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1234335622</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 346 bis 382 Luftschaden.</Description>
+        <AddonId>A4992778687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1596431178</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 353 bis 391 Luftschaden.</Description>
+        <AddonId>A5F279B4A8C4CFFF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1712168729</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 362 bis 400 Luftschaden.</Description>
+        <AddonId>A660D9F19614DA218</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1191422050</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 372 bis 411 Luftschaden.</Description>
+        <AddonId>A4703A8624B69CFCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>466913333</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 381 bis 421 Luftschaden.</Description>
+        <AddonId>A1BD4883552227F12</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>138547791</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 392 bis 433 Luftschaden.</Description>
+        <AddonId>A0842124FBC039E27</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1117319850</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 401 bis 444 Luftschaden.</Description>
+        <AddonId>A4298F2AAE4889517</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-55287514</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 416 bis 459 Luftschaden.</Description>
+        <AddonId>AFCB4612687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-19808777</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 435 bis 481 Luftschaden.</Description>
+        <AddonId>AFED1BDF787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-25233854</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 467 bis 516 Luftschaden.</Description>
+        <AddonId>AFE7EF64287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-15401073</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 495 bis 548 Luftschaden.</Description>
+        <AddonId>AFF14FF8F87056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-61033710</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 619 bis 684 Luftschaden.</Description>
+        <AddonId>AFC5CB31287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-24824777</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 743 bis 822 Luftschaden.</Description>
+        <AddonId>AFE85343787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-58842767</AbilityId>
+        <Description>Verursacht bei bis zu 2 Feinden 799 bis 883 Luftschaden.</Description>
+        <AddonId>AFC7E217187056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Statikbarriere</Name>
+      <Icon>energyblast3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1479480529</AbilityId>
+        <Description>Bei einem Treffer durch in der Nähe befindliche Feinde wird der Angreifer zurückgestoßen. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A582F14D1D6C2D903</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Inspiration des Sturms</Name>
+      <Icon>stormcaller_lightning_storm_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1548106661</AbilityId>
+        <Description>Erhöht den Schaden des Magiers um 1% pro Punkt, welcher der Sturmrufer-Seele zugewiesen wird.</Description>
+        <AddonId>A5C463BA553C6FB82</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Eisschere</Name>
+      <Icon>twilight_force_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1649297784</AbilityId>
+        <Description>Verursacht 386 bis 427 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A624E497861F95F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1019395447</AbilityId>
+        <Description>Verursacht 398 bis 440 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A3CC2BD77AF49E84A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1121065608</AbilityId>
+        <Description>Verursacht 409 bis 452 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A42D21A885C7F6DF0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>617872351</AbilityId>
+        <Description>Verursacht 423 bis 468 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A24D3FBDFA355264D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1277791679</AbilityId>
+        <Description>Verursacht 456 bis 504 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A4C298DBF4509EB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>293374681</AbilityId>
+        <Description>Verursacht 467 bis 516 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>A117C8AD954CAF7B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-55447388</AbilityId>
+        <Description>Verursacht 569 bis 628 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>AFCB1F0A4619A11DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10258500</AbilityId>
+        <Description>Verursacht 743 bis 822 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>AFF6377BC2A7B476B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-19606056</AbilityId>
+        <Description>Verursacht 799 bis 883 Wasserschaden. Erhöht den vom Magier verursachten Luft- und Wasserschaden für 15 Sekunden um 2% pro Kumulierung von Elektrifiziert. Kann nicht mit Durchdringender Strahl kumuliert werden.</Description>
+        <AddonId>AFED4D5D80C54F26F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sturmschutz</Name>
+      <Icon>arkanxshield1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1667809508</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 836 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>A6368C0E4BB568174</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1106315767</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 864 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>A41F109F7331932A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>129614787</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 911 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>A07B9C3C3CF26DBBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>167066687</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 994 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>A09F53C3F92D5D78D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1934332143</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 1215 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>A734B90EF6A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-42618975</AbilityId>
+        <Description>Der erlittene Schaden wird um 15% verringert. Ein Treffer löst Elektrisiert aus und verursacht 1392 Luftschaden beim Angreifer, wenn er in Nahkampfreichweite ist. Diese Fähigkeit verbraucht Ladung, wenn sie aktiv ist.</Description>
+        <AddonId>AFD75AFA16A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Eisiger Wirbel</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1842798307</AbilityId>
+        <Description>Reduziert den erlittenen Schaden um 25%. Bewirkt bei einem Treffer Unterkühlung und verlangsamt den Angreifer, sodass seine Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert wird.</Description>
+        <AddonId>A6DD6DEE38114F4F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Statikfluss</Name>
+      <Icon>elemres4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1913845381</AbilityId>
+        <Description>Erhöht den verursachten Luft- und Wasserschaden um 10%. Diese Fähigkeit verbraucht Ladung, solange sie aktiv ist.</Description>
+        <AddonId>A7212F68530C9F4CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Frische Brise</Name>
+      <Icon>secondwind2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1933608601</AbilityId>
+        <Description>Stößt bis zu 5 Feinde vor dem Magier zurück. Verlangsamt betroffene Feinde, sodass ihre Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert wird.</Description>
+        <AddonId>A73408699E73EBC9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tödlicher Stromschlag</Name>
+      <Icon>chainlighting4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1996858953</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 1700 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A7705A649A95A94D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1584477153</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 1748 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A5E7133E124AE936C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>133838374</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 1810 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A07FA3626454128E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1384538335</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 1886 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A528660DF5D9BE529</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1789323706</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 1946 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A6AA6E9BA75C82490</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1809995603</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2022 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A6BE25753815BA7FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>444586299</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2091 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A1A7FD93BBC6C2602</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1833947657</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2191 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A6D4FD209754A42A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>804778932</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2331 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A2FF7F3B45732EC4F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1130445330</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2560 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>A43613A12E59B0312</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-82070600</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 2758 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFB1BB3B855B44658</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-18000409</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 3637 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFEED55E74883270F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-77381027</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 4522 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFB63425D6EC35688</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-18108182</AbilityId>
+        <Description>Stößt den Feind zurück und verursacht über 3 Sekunden 4924 Luftschaden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFEEBB0EA8DEECEA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Arktischer Sturm</Name>
+      <Icon>icebolt4aa</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>2055250419</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 1122 bis 1240 Wasserschaden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A7A80A1F3C4EC307B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>411698333</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 1260 bis 1392 Wasserschaden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A188A049DDC4AE16C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>650400300</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 1625 bis 1796 Wasserschaden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A26C4522C531E5D69</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-75121211</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden 1920 bis 2122 Wasserschaden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFB85BDC54BAD5A41</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hagelsturm</Name>
+      <Icon>icestormdark</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2079842969</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 1550 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A7BF7E2997DCDB56B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1236145918</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 1601 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A49AE16FE7B47BBE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>231043464</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 1651 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A0DC571885A3B6FB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1113989026</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 1819 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A42661FA2E1D72A32</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1368010799</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 1928 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>A518A302F7A3C602C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-68553384</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 2410 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFBE9F5583CDC425F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-71499409</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 2896 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFBBD016F8375B145</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-73221915</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden im Zielbereich 3116 Wasserschaden über 6 Sekunden. Verlangsamt getroffene Feinde, was deren Bewegungsgeschwindigkeit bis zu 10 Sekunden lang um 20% verringert.</Description>
+        <AddonId>AFBA2B8E564785B5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Donnerblitz</Name>
+      <Icon>lighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2130453481</AbilityId>
+        <Description>Verursacht 559 bis 618 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A7EFC23E94CEBBF35</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1272966442</AbilityId>
+        <Description>Verursacht 571 bis 631 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A4BDFED2A59E746C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1718394539</AbilityId>
+        <Description>Verursacht 588 bis 649 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A666C9EAB6128932F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1912406017</AbilityId>
+        <Description>Verursacht 602 bis 665 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A71FD000197F74169</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>974165833</AbilityId>
+        <Description>Verursacht 624 bis 689 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A3A1097497BAA85BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1875203746</AbilityId>
+        <Description>Verursacht 653 bis 722 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A6FC556A2568F90AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1082298068</AbilityId>
+        <Description>Verursacht 701 bis 775 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A40828ED4A2797DEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1927735389</AbilityId>
+        <Description>Verursacht 787 bis 870 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A72E6E85D51C659B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1556427062</AbilityId>
+        <Description>Verursacht 1016 bis 1123 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A5CC53136A3BC1C11</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1327452174</AbilityId>
+        <Description>Verursacht 1199 bis 1326 Luftschaden. Belegt den Feind mit 2 Kumulierungen von Elektrisiert.</Description>
+        <AddonId>A4F1F500EC8E7ED58</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

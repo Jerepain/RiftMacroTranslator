@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Stormcaller">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Arctic Chill</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>The movement speed reduction caused Arctic Blast, Eye of the Storm, Hailstorm, Icy Vortex and Wind Chill, reduce movement speed by an additional 3% and deals Water damage to the enemy each second based on your Spell Power while they are moving.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>The movement speed reduction caused Arctic Blast, Eye of the Storm, Hailstorm, Icy Vortex and Wind Chill, reduce movement speed by an additional 6% and deals Water damage to the enemy each second based on your Spell Power while they are moving.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>The movement speed reduction caused Arctic Blast, Eye of the Storm, Hailstorm, Icy Vortex and Wind Chill, reduce movement speed by an additional 10% and deals Water damage to the enemy each second based on your Spell Power while they are moving.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>High Voltage</Name>
+      <Icon>jaggedlighting2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1428481129</AbilityId>
+          <Description></Description>
+          <AddonId>A5524E4694A60DD5B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases your damage by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases your damage by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases your damage by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases your damage by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases your damage by 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Cold Weather Training</Name>
+      <Icon>ward1zz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>889968882</AbilityId>
+          <Description></Description>
+          <AddonId>A350BD8F228D3E907</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the cast time of your Air and Water spells by 4% and all other spells by 1%. Reduces the mana cost of non-instant Air and Water abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the cast time of your Air and Water spells by 8% and all other spells by 2%. Reduces the mana cost of non-instant Air and Water abilities by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the cast time of your Air and Water spells by 12% and all other spells by 3%. Reduces the mana cost of non-instant Air and Water abilities by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduces the cast time of your Air and Water spells by 16% and all other spells by 4%. Reduces the mana cost of non-instant Air and Water abilities by 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduces the cast time of your Air and Water spells by 20% and all other spells by 5%. Reduces the mana cost of non-instant Air and Water abilities by 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Storm Shard</Name>
+      <Icon>shaman-vengeance_of_winter_storm_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>505142788</AbilityId>
+          <Description></Description>
+          <AddonId>A1E1BDE044C77FD94</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gives your damaging Air abilities a 33% chance to make your next Icicle, within 10 seconds, instant, reduce its mana cost by 40% and increases the damage bonus of that Icicle by 150%. This cannot occur more than once every 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gives your damaging Air abilities a 66% chance to make your next Icicle, within 10 seconds, instant, reduce its mana cost by 40% and increases the damage bonus of that Icicle by 150%. This cannot occur more than once every 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Gives your damaging Air abilities a 100% chance to make your next Icicle, within 10 seconds, instant, reduce its mana cost by 40% and increases the damage bonus of that Icicle by 150%. This cannot occur more than once every 10 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Charged Atmosphere</Name>
+      <Icon>dominator_nyxs_orb_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>345030185</AbilityId>
+          <Description></Description>
+          <AddonId>A1490BE296E238819</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of your area effect abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of your area effect abilities by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of your area effect abilities by 12%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Lightning Rod</Name>
+      <Icon>dark_harbor</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1655147371</AbilityId>
+          <Description></Description>
+          <AddonId>A62A78B6B54A1CA05</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the pushback caused by damaging attacks while casting area effect spells by 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the pushback caused by damaging attacks while casting area effect spells by 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Lightning Mastery</Name>
+      <Icon>jaggedlighting2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1037919994</AbilityId>
+          <Description></Description>
+          <AddonId>A3DDD66FA73C41552</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the mana cost of your Air spells by 3% and increases their damage by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the mana cost of your Air spells by 6% and increases their damage by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the mana cost of your Air spells by 9% and increases their damage by 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Ride the Wind</Name>
+      <Icon>tumble1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>284086316</AbilityId>
+          <Description>Increases movement speed by 50% for 10s.</Description>
+          <AddonId>A10EED02C3540592F</AddonId>
+          <IsPassive>False</IsPassive>
+          <MinimumHeat>30</MinimumHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Stretch of Cold</Name>
+      <Icon>energybeam1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1735661585</AbilityId>
+          <Description></Description>
+          <AddonId>A67741811647D3A18</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of your Water spells by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of your Water spells by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of your Water spells by 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the damage of your Water spells by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the damage of your Water spells by 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Wind Chill</Name>
+      <Icon>secondwind2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1933608601</AbilityId>
+          <Description>Knocks back up to 5 enemies in front of the Mage. Snares affected enemies, reducing their movement speed by 20%, for up to 10s.</Description>
+          <AddonId>A73408699E73EBC9E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Lightning Conductor</Name>
+      <Icon>lightingbolt5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>183408217</AbilityId>
+          <Description></Description>
+          <AddonId>A0AEE96591F3A662E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Electrocute, Thunderbolt and Raging Storm deal 5% more damage if the enemy is suffering from Hypothermia.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Your Electrocute, Thunderbolt and Raging Storm deal 10% more damage if the enemy is suffering from Hypothermia.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Storm Training</Name>
+      <Icon>generic_ability_026_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage bonus of your Static Flux by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage bonus of your Static Flux by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage bonus of your Static Flux by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the damage bonus of your Static Flux by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the damage bonus of your Static Flux by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Scattered Bolts</Name>
+      <Icon>chainlighting5a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the maximum number of enemies Forked Lightning can hit by 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the maximum number of enemies Forked Lightning can hit by 4.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the maximum number of enemies Forked Lightning can hit by 6.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Inductance</Name>
+      <Icon>jaggedlighting1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Enemies who are Electrified by you take an additional 3% damage from your Air and Water spells for each of your Electrified effects on them. Does not affect damage from melee attacks.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Enemies who are Electrified by you take an additional 6% damage from your Air and Water spells for each of your Electrified effects on them. Does not affect damage from melee attacks.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Enemies who are Electrified by you take an additional 9% damage from your Air and Water spells for each of your Electrified effects on them. Does not affect damage from melee attacks.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Charged Field</Name>
+      <Icon>lightingbolt4y</Icon>
+      <PrereqTraitKey>18</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Supercharges your Lightning Field, causing each enemy damaged by Lightning Field to chain the damage to up to 3 enemies within 10 meters who are Electrified. Removes 1 Electrified effect from each enemy hit.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Ice Shear</Name>
+      <Icon>twilight_force_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1649297784</AbilityId>
+          <Description>Deals 386 to 427 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+          <AddonId>A624E497861F95F82</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Deadly Shards</Name>
+      <Icon>twilight_force_01</Icon>
+      <PrereqTraitKey>16</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases damage bonus provided by your Ice Shear by 2% per stack of Electrified.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases damage bonus provided by your Ice Shear by 4% per stack of Electrified.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Lightning Field</Name>
+      <Icon>lightingbolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>137477283</AbilityId>
+          <Description>Deals 377 to 416 Air damage to up to 8 Electrified enemies.</Description>
+          <AddonId>A0831BCA396D7AB1A</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Lightning Storm</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>938286815</AbilityId>
+          <Description>Deals 2467 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+          <AddonId>A37ED1EDFB0F75584</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>18.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Frozen Defenses</Name>
+      <Icon>shaman-glacial_shield</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Enemies who are affected by your Hypothermia take an additional 5% damage from your area effect abilities.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Enemies who are affected by your Hypothermia take an additional 10% damage from your area effect abilities.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Enemies who are affected by your Hypothermia take an additional 15% damage from your area effect abilities.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Perfect Conditions</Name>
+      <Icon>warden-deluge_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-60894664</AbilityId>
+          <Description></Description>
+          <AddonId>AFC5ED23863C1D343</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the global cooldown of your Air and Water spells 1.33 seconds, reduces the mana cost of your area effect abilities by 5%, your instant Air and Water abilities by 11% and increases the damage of your area effect abilities by 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the global cooldown of your Air and Water spells to 1.17 seconds, reduces the mana cost of your area effect abilities by 10%, your instant Air and Water abilities by 22% and increases the damage of your area effect abilities by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the global cooldown of your Air and Water spells to 1 second, reduces the mana cost of your area effect abilities by 15%, your instant Air and Water spells by 33% and increases the damage of your area effect abilities by 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Supercharge</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-9600509</AbilityId>
+          <Description></Description>
+          <AddonId>AFF6D820347EF14E2</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the maximum stack size of your Electrified effects by 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the maximum stack size of your Electrified effects by 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Electric Charge</Name>
+      <Icon>purge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41825918</AbilityId>
+          <Description>Applies the Mage&apos;s maximum number of Electrified stacks to the enemy.</Description>
+          <AddonId>AFD81C98213FE2A7D</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Storm Surge</Name>
+      <Icon>void_knight-tempest</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19940850</AbilityId>
+          <Description>Deals 172 to 190 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+          <AddonId>AFECFBA0EA2E8284A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>11</GainHeat>
+          <CastTime>1.500000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Icy Vortex</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1842798307</AbilityId>
+          <Description>Reduces damage taken by 25%. When hit, applies Hypothermia and snares the attacker, reducing their movement speed by 20%, for up to 10s.</Description>
+          <AddonId>A6DD6DEE38114F4F3</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Storm Armor</Name>
+      <Icon>flashback</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-59430402</AbilityId>
+        <Description>Increases all resists by 50. Causes Electrocute and Raging Storm to root the enemy for the duration of their channels. Lasts 1h. Counts as a Mage Armor.</Description>
+        <AddonId>AFC7529FE74DF637A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tempest Armor</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53665753</AbilityId>
+        <Description>Increases single target damage by 15% and all resists by 50. Casting a damaging Water ability causes the Mage&apos;s next area effect ability, within 10s, to be instant. Cannot occur more than once every 10s. Lasts 1h. Counts as a Mage Armor.</Description>
+        <AddonId>AFCCD2027BAEA498A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lightning Arc</Name>
+      <Icon>stormcaller_lightning_arc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-50341835</AbilityId>
+        <Description>Chains lightning to up to 10 enemies, dealing 1040 to 1149 Air damage to up to 5 enemies near each enemy hit by the chain.</Description>
+        <AddonId>AFCFFD83559DED1D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Electric Charge</Name>
+      <Icon>purge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-41825918</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Electrified stacks to the enemy.</Description>
+        <AddonId>AFD81C98213FE2A7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gathering Storm</Name>
+      <Icon>maelstrom_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-40221873</AbilityId>
+        <Description>Restores 5% mana per second.</Description>
+        <AddonId>AFD9A434FF33EAA7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Static Nova</Name>
+      <Icon>energy_overload1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22627273</AbilityId>
+        <Description>Deals 341 to 377 Air damage to up to 8 enemies. Applies the Mage&apos;s maximum number of Electrified stacks to each enemy hit.</Description>
+        <AddonId>AFEA6BC37637D9BA0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Deals 445 to 492 Air damage to up to 8 enemies. Applies the Mage&apos;s maximum number of Electrified stacks to each enemy hit.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-78809604</AbilityId>
+        <Description>Deals 445 to 492 Air damage to up to 8 enemies. Applies the Mage&apos;s maximum number of Electrified stacks to each enemy hit.</Description>
+        <AddonId>AFB4D75FC51D9A1C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Storm Surge</Name>
+      <Icon>void_knight-tempest</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-19940850</AbilityId>
+        <Description>Deals 172 to 190 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFECFBA0EA2E8284A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-84968449</AbilityId>
+        <Description>Deals 186 to 206 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFAEF7BFFA609CDB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-89841259</AbilityId>
+        <Description>Deals 197 to 218 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFAA521957EF7735D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-41696137</AbilityId>
+        <Description>Deals 247 to 274 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFD83C477A2027D0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-58586777</AbilityId>
+        <Description>Deals 297 to 328 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFC820967953E834E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-54992483</AbilityId>
+        <Description>Deals 320 to 353 Air damage, per stack of Electrified on the initial target, to up to 8 enemies within 7 meters of the initial target. Applies a number of Electrified stacks to each enemy hit equal to the number on the initial target.</Description>
+        <AddonId>AFCB8E19D59C048E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lightning Field</Name>
+      <Icon>lightingbolt4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>137477283</AbilityId>
+        <Description>Deals 377 to 416 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A0831BCA396D7AB1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>961802459</AbilityId>
+        <Description>Deals 387 to 428 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A3953F0DB2FC787EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1443946929</AbilityId>
+        <Description>Deals 401 to 443 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A5610E1B191A45553</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1385398985</AbilityId>
+        <Description>Deals 429 to 474 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A529382C919147A38</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1622063203</AbilityId>
+        <Description>Deals 444 to 491 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A60AEB863669AEE0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1336425086</AbilityId>
+        <Description>Deals 541 to 599 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A4FA83A7E6A4EC4D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>749590208</AbilityId>
+        <Description>Deals 709 to 783 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>A2CADD6C0908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-97329996</AbilityId>
+        <Description>Deals 762 to 842 Air damage to up to 8 Electrified enemies.</Description>
+        <AddonId>AFA32DCB4908FFC28</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Static Discharge</Name>
+      <Icon>energyburst5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>264887997</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 95 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>A0FC9DEBD8DFED17D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>423314174</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 99 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>A193B42FE96C00838</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1183214418</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 104 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>A46866B523463A6CD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1672552568</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 114 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>A63B1207892B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-96848243</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 139 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>AFA3A368D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-77218828</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 160 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>AFB65BBF492B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-26459123</AbilityId>
+        <Description>Applies Static Discharge to all party members. Causes damaging abilities to deal an additional 160 Air damage. Can occur up to 10 times. Lasts 60s.</Description>
+        <AddonId>AFE6C440D92B930B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Ride the Wind</Name>
+      <Icon>tumble1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>284086316</AbilityId>
+        <Description>Increases movement speed by 50% for 10s.</Description>
+        <AddonId>A10EED02C3540592F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>30</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pouring Rain</Name>
+      <Icon>warden-downpour</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>312574570</AbilityId>
+        <Description>Resets the cooldown on all Stormcaller abilities (except Pouring Rain).</Description>
+        <AddonId>A12A1826A17FB524B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hypothermia</Name>
+      <Icon>chainsofice3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>640972553</AbilityId>
+        <Description>Applied by Arctic Blast, Eye of the Storm, Hailstorm, Icicle, Icy Vortex, and Wind Chill. Lasts 15s.</Description>
+        <AddonId>A26347709636DFF7E</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Icicle</Name>
+      <Icon>icebolt1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>775964852</AbilityId>
+        <Description>Deals 486 to 537 Water damage.</Description>
+        <AddonId>A2E4048B4A5325EB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>486932152</AbilityId>
+        <Description>Deals 496 to 548 Water damage.</Description>
+        <AddonId>A1D05FEB880AA517D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1863262893</AbilityId>
+        <Description>Deals 511 to 565 Water damage.</Description>
+        <AddonId>A6F0F22ADC3D7973C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>336126128</AbilityId>
+        <Description>Deals 522 to 577 Water damage.</Description>
+        <AddonId>A1408E0B0BA00EC0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>792829390</AbilityId>
+        <Description>Deals 534 to 591 Water damage.</Description>
+        <AddonId>A2F419DCE956420AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>803671859</AbilityId>
+        <Description>Deals 550 to 607 Water damage.</Description>
+        <AddonId>A2FE70F3366FD7319</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1598076368</AbilityId>
+        <Description>Deals 566 to 626 Water damage.</Description>
+        <AddonId>A5F40B5D072DADAE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>353686584</AbilityId>
+        <Description>Deals 586 to 647 Water damage.</Description>
+        <AddonId>A1514D4384C7BB30F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1188963972</AbilityId>
+        <Description>Deals 626 to 692 Water damage.</Description>
+        <AddonId>A46DE268443BD4F59</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2045897861</AbilityId>
+        <Description>Deals 649 to 717 Water damage.</Description>
+        <AddonId>A79F1EC853674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-78196750</AbilityId>
+        <Description>Deals 790 to 873 Water damage.</Description>
+        <AddonId>AFB56CFF23674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-14877728</AbilityId>
+        <Description>Deals 1032 to 1141 Water damage.</Description>
+        <AddonId>AFF1CFBE03674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41467215</AbilityId>
+        <Description>Deals 1110 to 1227 Water damage.</Description>
+        <AddonId>AFD8742B13674EDB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Eye of the Storm</Name>
+      <Icon>eye_of_the_storm</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>819233816</AbilityId>
+        <Description>Deals 2584 Water damage over 8s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A30D4841878E4FEB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-49170135</AbilityId>
+        <Description>Deals 3146 Water damage over 8s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFD11B9296CAEFB09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-50761685</AbilityId>
+        <Description>Deals 4109 Water damage over 8s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFCF9702B6012264E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-98590324</AbilityId>
+        <Description>Deals 4420 Water damage over 8s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFA1FA18C7357942C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Building Tempest</Name>
+      <Icon>hardened_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>846277290</AbilityId>
+        <Description>Cast time of next area effect ability reduced by 100%.</Description>
+        <AddonId>A32712AAA49E5CA77</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lightning Burst</Name>
+      <Icon>riftblade-surging_energy_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>923334004</AbilityId>
+        <Description>Deals 328 to 363 Air damage. Damage is increased by 10% for each stack of Electrified on the enemy. Deals 30% of the damage done per stack of Electrified on the initial enemy to up to 5 additional enemies.</Description>
+        <AddonId>A3708F5749C948C6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2011275495</AbilityId>
+        <Description>Deals 340 to 376 Air damage. Damage is increased by 10% for each stack of Electrified on the enemy. Deals 30% of the damage done per stack of Electrified on the initial enemy to up to 5 additional enemies.</Description>
+        <AddonId>A77E1A0E7544524A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-58777346</AbilityId>
+        <Description>Deals 418 to 463 Air damage. Damage is increased by 10% for each stack of Electrified on the enemy. Deals 30% of the damage done per stack of Electrified on the initial enemy to up to 5 additional enemies.</Description>
+        <AddonId>AFC7F20FE62219BB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-26426033</AbilityId>
+        <Description>Deals 553 to 611 Air damage. Damage is increased by 10% for each stack of Electrified on the enemy. Deals 30% of the damage done per stack of Electrified on the initial enemy to up to 5 additional enemies.</Description>
+        <AddonId>AFE6CC54F332EEB51</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-51355233</AbilityId>
+        <Description>Deals 563 to 622 Air damage. Damage is increased by 10% for each stack of Electrified on the enemy. Deals 30% of the damage done per stack of Electrified on the initial enemy to up to 5 additional enemies.</Description>
+        <AddonId>AFCF0619F3B3CD569</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lightning Storm</Name>
+      <Icon>stormcaller_lightning_storm_02_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>938286815</AbilityId>
+        <Description>Deals 2467 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>A37ED1EDFB0F75584</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1212135369</AbilityId>
+        <Description>Deals 2580 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>A483FB7C9B50B053D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1502228978</AbilityId>
+        <Description>Deals 2818 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>A598A31F25B2EBD56</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>215508050</AbilityId>
+        <Description>Deals 2983 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>A0CD8645242F55C5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-95068791</AbilityId>
+        <Description>Deals 3458 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>AFA555D896EBCB8D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-16414913</AbilityId>
+        <Description>Deals 4714 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>AFF05873F2D86779B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-90319859</AbilityId>
+        <Description>Deals 5727 Air damage over 6s to up to 8 enemies in the target area. Enemies with 3, or more, stacks of Electrified are Rooted. Generates 6 Charge each second.</Description>
+        <AddonId>AFA9DD40D68DD81ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cloudburst</Name>
+      <Icon>doctrine_of_bliss_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>970148500</AbilityId>
+        <Description>Deals 335 to 370 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A39D34A94A82A90C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2123571847</AbilityId>
+        <Description>Deals 344 to 380 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A7E93228784A8D955</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>357048667</AbilityId>
+        <Description>Deals 354 to 391 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A1548215B919212D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>742367466</AbilityId>
+        <Description>Deals 359 to 397 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A2C3FA0EA8B4D8D15</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1016043302</AbilityId>
+        <Description>Deals 370 to 409 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A3C8F9726CE6EE871</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>403352483</AbilityId>
+        <Description>Deals 379 to 419 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A180AABA3836869EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1294287540</AbilityId>
+        <Description>Deals 391 to 432 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A4D2542B42EBF67AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1109060773</AbilityId>
+        <Description>Deals 404 to 446 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>A421AECA570C3BB60</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-49895434</AbilityId>
+        <Description>Deals 444 to 491 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>AFD06A7F6C9FA01CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-75114635</AbilityId>
+        <Description>Deals 472 to 521 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>AFB85D775CA57463E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-40710699</AbilityId>
+        <Description>Deals 590 to 652 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>AFD92CDD5CAB56862</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-89262615</AbilityId>
+        <Description>Deals 709 to 783 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>AFAADF5E9642B76A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-22120891</AbilityId>
+        <Description>Deals 762 to 842 Water damage. Damage is increased by 15% per stack of Electrified. Counts as a Primary Bolt.</Description>
+        <AddonId>AFEAE7645B39F220D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Raging Storm</Name>
+      <Icon>souldrain1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1051526167</AbilityId>
+        <Description>Deals 1920 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A3EAD04171EAC264C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>265486703</AbilityId>
+        <Description>Deals 2003 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A0FD3016F5B757CB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>460297156</AbilityId>
+        <Description>Deals 2069 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A1B6F93C48ADE58B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>727627360</AbilityId>
+        <Description>Deals 2160 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A2B5EB660C20913B9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>877184511</AbilityId>
+        <Description>Deals 2253 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A3448C5FF7F16B738</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1684594235</AbilityId>
+        <Description>Deals 2560 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A6468DE3B75515D86</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>392264481</AbilityId>
+        <Description>Deals 2758 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A17617B2198694988</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-6011070</AbilityId>
+        <Description>Deals 3637 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFFA44742667619D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-54771867</AbilityId>
+        <Description>Deals 4522 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFCBC3F655CB36D60</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-61063641</AbilityId>
+        <Description>Deals 4924 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFC5C3E27371187BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Electrified</Name>
+      <Icon>jaggedlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1158968725</AbilityId>
+        <Description>Applied by Electrocute, Forked Lightning, Lightning Storm, Raging Storm, Lightning Arc, and Thunderbolt. Lasts 15s. Max 3 stacks.</Description>
+        <AddonId>A451475953A0BC87F</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Forked Lightning</Name>
+      <Icon>chainlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1234335622</AbilityId>
+        <Description>Deals 346 to 382 Air damage to up to 2 enemies.</Description>
+        <AddonId>A4992778687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1596431178</AbilityId>
+        <Description>Deals 353 to 391 Air damage to up to 2 enemies.</Description>
+        <AddonId>A5F279B4A8C4CFFF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1712168729</AbilityId>
+        <Description>Deals 362 to 400 Air damage to up to 2 enemies.</Description>
+        <AddonId>A660D9F19614DA218</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1191422050</AbilityId>
+        <Description>Deals 372 to 411 Air damage to up to 2 enemies.</Description>
+        <AddonId>A4703A8624B69CFCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>466913333</AbilityId>
+        <Description>Deals 381 to 421 Air damage to up to 2 enemies.</Description>
+        <AddonId>A1BD4883552227F12</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>138547791</AbilityId>
+        <Description>Deals 392 to 433 Air damage to up to 2 enemies.</Description>
+        <AddonId>A0842124FBC039E27</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1117319850</AbilityId>
+        <Description>Deals 401 to 444 Air damage to up to 2 enemies.</Description>
+        <AddonId>A4298F2AAE4889517</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-55287514</AbilityId>
+        <Description>Deals 416 to 459 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFCB4612687056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-19808777</AbilityId>
+        <Description>Deals 435 to 481 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFED1BDF787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-25233854</AbilityId>
+        <Description>Deals 467 to 516 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFE7EF64287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-15401073</AbilityId>
+        <Description>Deals 495 to 548 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFF14FF8F87056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-61033710</AbilityId>
+        <Description>Deals 619 to 684 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFC5CB31287056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-24824777</AbilityId>
+        <Description>Deals 743 to 822 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFE85343787056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-58842767</AbilityId>
+        <Description>Deals 799 to 883 Air damage to up to 2 enemies.</Description>
+        <AddonId>AFC7E217187056289</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>2</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Static Barrier</Name>
+      <Icon>energyblast3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1479480529</AbilityId>
+        <Description>When hit by nearby enemies, knocks the attacker back. Can occur up to 5 times. Lasts 30s.</Description>
+        <AddonId>A582F14D1D6C2D903</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Inspiration of the Storm</Name>
+      <Icon>stormcaller_lightning_storm_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1548106661</AbilityId>
+        <Description>Increases the Mage&apos;s damage by 1% for each point spent in the Stormcaller soul.</Description>
+        <AddonId>A5C463BA553C6FB82</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Ice Shear</Name>
+      <Icon>twilight_force_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1649297784</AbilityId>
+        <Description>Deals 386 to 427 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A624E497861F95F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1019395447</AbilityId>
+        <Description>Deals 398 to 440 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A3CC2BD77AF49E84A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1121065608</AbilityId>
+        <Description>Deals 409 to 452 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A42D21A885C7F6DF0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>617872351</AbilityId>
+        <Description>Deals 423 to 468 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A24D3FBDFA355264D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1277791679</AbilityId>
+        <Description>Deals 456 to 504 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A4C298DBF4509EB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>293374681</AbilityId>
+        <Description>Deals 467 to 516 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>A117C8AD954CAF7B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-55447388</AbilityId>
+        <Description>Deals 569 to 628 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>AFCB1F0A4619A11DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10258500</AbilityId>
+        <Description>Deals 743 to 822 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>AFF6377BC2A7B476B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-19606056</AbilityId>
+        <Description>Deals 799 to 883 Water damage. Increases Air and Water damage taken from the Mage by 2% per stack of Electrified for 15s. Does not stack with Piercing Beam.</Description>
+        <AddonId>AFED4D5D80C54F26F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Storm Guard</Name>
+      <Icon>arkanxshield1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1667809508</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 836 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>A6368C0E4BB568174</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1106315767</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 864 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>A41F109F7331932A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>129614787</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 911 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>A07B9C3C3CF26DBBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>167066687</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 994 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>A09F53C3F92D5D78D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1934332143</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 1215 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>A734B90EF6A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-42618975</AbilityId>
+        <Description>Reduces damage taken by 15%. When hit, applies Electrified and deals 1392 Air damage to the attacker if they are in melee range. Consumes Charge while active.</Description>
+        <AddonId>AFD75AFA16A95A364</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Icy Vortex</Name>
+      <Icon>void_knight-improved_rift_summon_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1842798307</AbilityId>
+        <Description>Reduces damage taken by 25%. When hit, applies Hypothermia and snares the attacker, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A6DD6DEE38114F4F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Static Flux</Name>
+      <Icon>elemres4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1913845381</AbilityId>
+        <Description>Increases damage done by 10%. Consumes Charge while active.</Description>
+        <AddonId>A7212F68530C9F4CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Wind Chill</Name>
+      <Icon>secondwind2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1933608601</AbilityId>
+        <Description>Knocks back up to 5 enemies in front of the Mage. Snares affected enemies, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A73408699E73EBC9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Electrocute</Name>
+      <Icon>chainlighting4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1996858953</AbilityId>
+        <Description>Knocks the enemy back and deals 1700 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A7705A649A95A94D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1584477153</AbilityId>
+        <Description>Knocks the enemy back and deals 1748 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A5E7133E124AE936C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>133838374</AbilityId>
+        <Description>Knocks the enemy back and deals 1810 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A07FA3626454128E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1384538335</AbilityId>
+        <Description>Knocks the enemy back and deals 1886 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A528660DF5D9BE529</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1789323706</AbilityId>
+        <Description>Knocks the enemy back and deals 1946 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A6AA6E9BA75C82490</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1809995603</AbilityId>
+        <Description>Knocks the enemy back and deals 2022 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A6BE25753815BA7FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>444586299</AbilityId>
+        <Description>Knocks the enemy back and deals 2091 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A1A7FD93BBC6C2602</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1833947657</AbilityId>
+        <Description>Knocks the enemy back and deals 2191 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A6D4FD209754A42A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>804778932</AbilityId>
+        <Description>Knocks the enemy back and deals 2331 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A2FF7F3B45732EC4F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1130445330</AbilityId>
+        <Description>Knocks the enemy back and deals 2560 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>A43613A12E59B0312</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-82070600</AbilityId>
+        <Description>Knocks the enemy back and deals 2758 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFB1BB3B855B44658</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-18000409</AbilityId>
+        <Description>Knocks the enemy back and deals 3637 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFEED55E74883270F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-77381027</AbilityId>
+        <Description>Knocks the enemy back and deals 4522 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFB63425D6EC35688</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-18108182</AbilityId>
+        <Description>Knocks the enemy back and deals 4924 Air damage over 3s. Damage increases each second.</Description>
+        <AddonId>AFEEBB0EA8DEECEA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <PowerStatCoefficient effect="1" action="0">1.350000</PowerStatCoefficient>
+        <DamageMultiplier effect="1" action="0">0.330000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Arctic Blast</Name>
+      <Icon>icebolt4aa</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>2055250419</AbilityId>
+        <Description>Deals 1122 to 1240 Water damage to up to 8 enemies. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A7A80A1F3C4EC307B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>411698333</AbilityId>
+        <Description>Deals 1260 to 1392 Water damage to up to 8 enemies. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A188A049DDC4AE16C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>650400300</AbilityId>
+        <Description>Deals 1625 to 1796 Water damage to up to 8 enemies. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A26C4522C531E5D69</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-75121211</AbilityId>
+        <Description>Deals 1920 to 2122 Water damage to up to 8 enemies. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFB85BDC54BAD5A41</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hailstorm</Name>
+      <Icon>icestormdark</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2079842969</AbilityId>
+        <Description>Deals 1550 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A7BF7E2997DCDB56B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1236145918</AbilityId>
+        <Description>Deals 1601 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A49AE16FE7B47BBE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>231043464</AbilityId>
+        <Description>Deals 1651 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A0DC571885A3B6FB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1113989026</AbilityId>
+        <Description>Deals 1819 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A42661FA2E1D72A32</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1368010799</AbilityId>
+        <Description>Deals 1928 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>A518A302F7A3C602C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-68553384</AbilityId>
+        <Description>Deals 2410 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFBE9F5583CDC425F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-71499409</AbilityId>
+        <Description>Deals 2896 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFBBD016F8375B145</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-73221915</AbilityId>
+        <Description>Deals 3116 Water damage over 6s to up to 8 enemies in the target area. Snares enemies hit, reducing their movement speed by 20%, for up to 10s.</Description>
+        <AddonId>AFBA2B8E564785B5E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>22</GainHeat>
+        <CastTime>2.500000</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Thunderbolt</Name>
+      <Icon>lighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2130453481</AbilityId>
+        <Description>Deals 559 to 618 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A7EFC23E94CEBBF35</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1272966442</AbilityId>
+        <Description>Deals 571 to 631 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A4BDFED2A59E746C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1718394539</AbilityId>
+        <Description>Deals 588 to 649 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A666C9EAB6128932F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1912406017</AbilityId>
+        <Description>Deals 602 to 665 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A71FD000197F74169</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>974165833</AbilityId>
+        <Description>Deals 624 to 689 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A3A1097497BAA85BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1875203746</AbilityId>
+        <Description>Deals 653 to 722 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A6FC556A2568F90AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1082298068</AbilityId>
+        <Description>Deals 701 to 775 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A40828ED4A2797DEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1927735389</AbilityId>
+        <Description>Deals 787 to 870 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A72E6E85D51C659B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1556427062</AbilityId>
+        <Description>Deals 1016 to 1123 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A5CC53136A3BC1C11</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1327452174</AbilityId>
+        <Description>Deals 1199 to 1326 Air damage. Applies 2 stacks of Electrified.</Description>
+        <AddonId>A4F1F500EC8E7ED58</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

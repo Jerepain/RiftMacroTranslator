@@ -1,0 +1,3399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AblativeCoil" xml:space="preserve">
+    <value>Bobine ablative</value>
+  </data>
+  <data name="Absolution" xml:space="preserve">
+    <value>Absolution</value>
+  </data>
+  <data name="AccordofPower" xml:space="preserve">
+    <value>Accord de Puissance</value>
+  </data>
+  <data name="AccordofResilience" xml:space="preserve">
+    <value>Accord de Résistance</value>
+  </data>
+  <data name="AccordofShifting" xml:space="preserve">
+    <value>Accord de Changement</value>
+  </data>
+  <data name="AccordoftheRift" xml:space="preserve">
+    <value>Harmonie de la Faille</value>
+  </data>
+  <data name="AceShot" xml:space="preserve">
+    <value>Tir imbattable</value>
+  </data>
+  <data name="AdhesiveBomb" xml:space="preserve">
+    <value>Bombe adhésive</value>
+  </data>
+  <data name="AegisoftheLight" xml:space="preserve">
+    <value>Égide de lumière</value>
+  </data>
+  <data name="AgelessIce" xml:space="preserve">
+    <value>Glace éternelle</value>
+  </data>
+  <data name="AggressiveBlock" xml:space="preserve">
+    <value>Blocage agressif</value>
+  </data>
+  <data name="AggressiveRenewal" xml:space="preserve">
+    <value>Regain agressif</value>
+  </data>
+  <data name="AidoftheForest" xml:space="preserve">
+    <value>Soutien de la forêt</value>
+  </data>
+  <data name="Airburst" xml:space="preserve">
+    <value>Explosion aérienne</value>
+  </data>
+  <data name="Alacrity" xml:space="preserve">
+    <value>Empressement</value>
+  </data>
+  <data name="Animalism" xml:space="preserve">
+    <value>Animalisme</value>
+  </data>
+  <data name="AnnihilationBomb" xml:space="preserve">
+    <value>Bombe d'annihilation</value>
+  </data>
+  <data name="AnthemofCompetence" xml:space="preserve">
+    <value>Hymne de compétence</value>
+  </data>
+  <data name="AnthemofFervor" xml:space="preserve">
+    <value>Hymne de ferveur</value>
+  </data>
+  <data name="AnthemofGlory" xml:space="preserve">
+    <value>Hymne de gloire</value>
+  </data>
+  <data name="AQuickDeath" xml:space="preserve">
+    <value>Une mort rapide</value>
+  </data>
+  <data name="Arc" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="ArcaneAegis" xml:space="preserve">
+    <value>Égide d'arcane</value>
+  </data>
+  <data name="Archon'sBulwark" xml:space="preserve">
+    <value>Rempart d'Archonte</value>
+  </data>
+  <data name="ArcticBlast" xml:space="preserve">
+    <value>Explosion arctique</value>
+  </data>
+  <data name="ArmorofAwakening" xml:space="preserve">
+    <value>Armure du réveil</value>
+  </data>
+  <data name="ArmorofDevotion" xml:space="preserve">
+    <value>Armure de dévotion</value>
+  </data>
+  <data name="ArmorofTreachery" xml:space="preserve">
+    <value>Armure de traîtrise</value>
+  </data>
+  <data name="ArrestingPresence" xml:space="preserve">
+    <value>Présence saisissante</value>
+  </data>
+  <data name="ArterialStrike" xml:space="preserve">
+    <value>Frappe artérielle</value>
+  </data>
+  <data name="AshenDefense" xml:space="preserve">
+    <value>Défense de cendres</value>
+  </data>
+  <data name="Assassinate" xml:space="preserve">
+    <value>Assassinat</value>
+  </data>
+  <data name="AssassinMastery" xml:space="preserve">
+    <value>Maîtrise d'Assassin</value>
+  </data>
+  <data name="Atrophy" xml:space="preserve">
+    <value>Atrophie</value>
+  </data>
+  <data name="AvalancheStrike" xml:space="preserve">
+    <value>Frappe de l'avalanche</value>
+  </data>
+  <data name="AvatarofFlame" xml:space="preserve">
+    <value>Avatar des Flammes</value>
+  </data>
+  <data name="AvataroftheRift" xml:space="preserve">
+    <value>Avatar de la Faille</value>
+  </data>
+  <data name="AvatarofWater" xml:space="preserve">
+    <value>Avatar de l'Eau</value>
+  </data>
+  <data name="AvatarofWind" xml:space="preserve">
+    <value>Avatar du Vent</value>
+  </data>
+  <data name="Aversion" xml:space="preserve">
+    <value>Aversion</value>
+  </data>
+  <data name="Backdraft" xml:space="preserve">
+    <value>Retour de flammes</value>
+  </data>
+  <data name="Backhand" xml:space="preserve">
+    <value>Revers</value>
+  </data>
+  <data name="BackhandActivation" xml:space="preserve">
+    <value>Activation de revers</value>
+  </data>
+  <data name="Backstab" xml:space="preserve">
+    <value>Poignard dans le dos</value>
+  </data>
+  <data name="Banish" xml:space="preserve">
+    <value>Bannissement</value>
+  </data>
+  <data name="BarbedShot" xml:space="preserve">
+    <value>Tir barbelé</value>
+  </data>
+  <data name="BarbedTrap" xml:space="preserve">
+    <value>Piège barbelé</value>
+  </data>
+  <data name="BardMastery" xml:space="preserve">
+    <value>Maîtrise de Barde</value>
+  </data>
+  <data name="BarrierRemote" xml:space="preserve">
+    <value>Barrière à distance</value>
+  </data>
+  <data name="BattlefieldExperience" xml:space="preserve">
+    <value>Expérience du champ de bataille</value>
+  </data>
+  <data name="BattlefieldIntimidation" xml:space="preserve">
+    <value>Intimidation au combat</value>
+  </data>
+  <data name="BattlefieldMedic" xml:space="preserve">
+    <value>Médecin de guerre</value>
+  </data>
+  <data name="BattleRemote" xml:space="preserve">
+    <value>Combat à distance</value>
+  </data>
+  <data name="BattleSurge" xml:space="preserve">
+    <value>Poussée de combat</value>
+  </data>
+  <data name="Bewilder" xml:space="preserve">
+    <value>Trouble</value>
+  </data>
+  <data name="BinaryStrike" xml:space="preserve">
+    <value>Frappe binaire</value>
+  </data>
+  <data name="BindingofAffliction" xml:space="preserve">
+    <value>Lien d'affliction</value>
+  </data>
+  <data name="BindingofDeath" xml:space="preserve">
+    <value>Lien de mort</value>
+  </data>
+  <data name="BindingofDevouringDarkness" xml:space="preserve">
+    <value>Lien de Ténèbres dévorantes</value>
+  </data>
+  <data name="BindingofShadow" xml:space="preserve">
+    <value>Lien d'Ombre</value>
+  </data>
+  <data name="BitterWind" xml:space="preserve">
+    <value>Vent cinglant</value>
+  </data>
+  <data name="BladeandSoulParity" xml:space="preserve">
+    <value>Harmonie de l'âme et de la lame</value>
+  </data>
+  <data name="BladedancerMastery" xml:space="preserve">
+    <value>Maîtrise de Danselame</value>
+  </data>
+  <data name="Bladefury" xml:space="preserve">
+    <value>Fureur de lame</value>
+  </data>
+  <data name="Blademark" xml:space="preserve">
+    <value>Marque des lames</value>
+  </data>
+  <data name="BladeofElementalAffinity" xml:space="preserve">
+    <value>Lame d'affinité élémentaire</value>
+  </data>
+  <data name="BladeoftheAscended" xml:space="preserve">
+    <value>Lame des Élus</value>
+  </data>
+  <data name="BladeRush" xml:space="preserve">
+    <value>Lame fiévreuse</value>
+  </data>
+  <data name="BladeTempo" xml:space="preserve">
+    <value>Tempo des lames</value>
+  </data>
+  <data name="BlastCharge" xml:space="preserve">
+    <value>Charge explosive</value>
+  </data>
+  <data name="BlazingLight" xml:space="preserve">
+    <value>Lumière brûlante</value>
+  </data>
+  <data name="BlazingPath" xml:space="preserve">
+    <value>Chemin brûlant</value>
+  </data>
+  <data name="BlazingStrike" xml:space="preserve">
+    <value>Frappe brûlante</value>
+  </data>
+  <data name="Blight" xml:space="preserve">
+    <value>Fléau</value>
+  </data>
+  <data name="BlightedGreed" xml:space="preserve">
+    <value>Avidité corrompue</value>
+  </data>
+  <data name="BlindingPowder" xml:space="preserve">
+    <value>Poudre aveuglante</value>
+  </data>
+  <data name="BloodFever" xml:space="preserve">
+    <value>Fièvre sanglante</value>
+  </data>
+  <data name="Bloom" xml:space="preserve">
+    <value>Éclosion</value>
+  </data>
+  <data name="BoltofDepravity" xml:space="preserve">
+    <value>Trait de perversion</value>
+  </data>
+  <data name="BoltofJudgment" xml:space="preserve">
+    <value>Trait de jugement</value>
+  </data>
+  <data name="BoltofLight" xml:space="preserve">
+    <value>Éclair de lumière</value>
+  </data>
+  <data name="BoltofRadiance" xml:space="preserve">
+    <value>Trait de rayonnement</value>
+  </data>
+  <data name="BoltofRetribution" xml:space="preserve">
+    <value>Trait de châtiment</value>
+  </data>
+  <data name="BondofAlacrity" xml:space="preserve">
+    <value>Lien d'empressement</value>
+  </data>
+  <data name="BondofCorruption" xml:space="preserve">
+    <value>Lien de corruption</value>
+  </data>
+  <data name="BondofPain" xml:space="preserve">
+    <value>Lien de souffrance</value>
+  </data>
+  <data name="BondofPower" xml:space="preserve">
+    <value>Lien de pouvoir</value>
+  </data>
+  <data name="BondofShelter" xml:space="preserve">
+    <value>Lien de refuge</value>
+  </data>
+  <data name="BondofTorment" xml:space="preserve">
+    <value>Lien de tourment</value>
+  </data>
+  <data name="BoneArmor" xml:space="preserve">
+    <value>Armure d'os</value>
+  </data>
+  <data name="BoneFrenzy" xml:space="preserve">
+    <value>Frénésie d'os</value>
+  </data>
+  <data name="BoobyTrap" xml:space="preserve">
+    <value>Attrape-nigaud</value>
+  </data>
+  <data name="Bosun'sBlessing" xml:space="preserve">
+    <value>Bénédiction du Capitaine</value>
+  </data>
+  <data name="BoundFate" xml:space="preserve">
+    <value>Destin lié</value>
+  </data>
+  <data name="BreakingBlow" xml:space="preserve">
+    <value>Coup destructeur</value>
+  </data>
+  <data name="BrothersinArms" xml:space="preserve">
+    <value>Frères d'armes</value>
+  </data>
+  <data name="BrutalStrike" xml:space="preserve">
+    <value>Frappe brutale</value>
+  </data>
+  <data name="BuildingFury" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury1" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury2" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury3" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury4" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury5" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury6" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury7" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingFury8" xml:space="preserve">
+    <value>Montée de fureur</value>
+  </data>
+  <data name="BuildingTempest" xml:space="preserve">
+    <value>Tempête grandissante</value>
+  </data>
+  <data name="Bull'sEye" xml:space="preserve">
+    <value>Dans le mille</value>
+  </data>
+  <data name="BullRush" xml:space="preserve">
+    <value>Charge du taureau</value>
+  </data>
+  <data name="Burn" xml:space="preserve">
+    <value>Brûlure</value>
+  </data>
+  <data name="BurningBonds" xml:space="preserve">
+    <value>Liens brûlants</value>
+  </data>
+  <data name="BurningBright" xml:space="preserve">
+    <value>Brillance brûlante</value>
+  </data>
+  <data name="BurningGround" xml:space="preserve">
+    <value>Charbons ardents</value>
+  </data>
+  <data name="BurningPurpose" xml:space="preserve">
+    <value>Intention brûlante</value>
+  </data>
+  <data name="BurningShield" xml:space="preserve">
+    <value>Bouclier brûlant</value>
+  </data>
+  <data name="BurstSynergy" xml:space="preserve">
+    <value>Synergie d'explosion</value>
+  </data>
+  <data name="Cadence" xml:space="preserve">
+    <value>Cadence</value>
+  </data>
+  <data name="Cadenza" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="Call:BloodRaptor" xml:space="preserve">
+    <value>Raptor de sang</value>
+  </data>
+  <data name="Call:DireWolf" xml:space="preserve">
+    <value>Loup féroce</value>
+  </data>
+  <data name="Call:GreaterDireWolf" xml:space="preserve">
+    <value>Loup féroce supérieur</value>
+  </data>
+  <data name="Call:GreaterRazorbeast" xml:space="preserve">
+    <value>Bête-tranchante supérieure</value>
+  </data>
+  <data name="Call:Razorbeast" xml:space="preserve">
+    <value>Bête-tranchante</value>
+  </data>
+  <data name="CallofBlood" xml:space="preserve">
+    <value>Appel de sang</value>
+  </data>
+  <data name="CallofIce" xml:space="preserve">
+    <value>Appel de la glace</value>
+  </data>
+  <data name="CallofKinship" xml:space="preserve">
+    <value>Appel d'affinité</value>
+  </data>
+  <data name="CallofSavagery" xml:space="preserve">
+    <value>Appel de barbarie</value>
+  </data>
+  <data name="CallofStone" xml:space="preserve">
+    <value>Appel de pierre</value>
+  </data>
+  <data name="CalloftheDepths" xml:space="preserve">
+    <value>Appel des profondeurs</value>
+  </data>
+  <data name="CalloftheForest" xml:space="preserve">
+    <value>Appel de la forêt</value>
+  </data>
+  <data name="CalmingInfluence" xml:space="preserve">
+    <value>Influence apaisante</value>
+  </data>
+  <data name="CaltropCharge" xml:space="preserve">
+    <value>Charge à chausse-trappes</value>
+  </data>
+  <data name="Caregiver'sBlessing" xml:space="preserve">
+    <value>Bénédiction du soigneur</value>
+  </data>
+  <data name="CarpetBombing" xml:space="preserve">
+    <value>Bombardement intensif</value>
+  </data>
+  <data name="Cascade" xml:space="preserve">
+    <value>Cascade</value>
+  </data>
+  <data name="Cauterize" xml:space="preserve">
+    <value>Cautérisation</value>
+  </data>
+  <data name="CauterizingWave" xml:space="preserve">
+    <value>Vague cautérisante</value>
+  </data>
+  <data name="Cavalier" xml:space="preserve">
+    <value>Cavalier</value>
+  </data>
+  <data name="Censure" xml:space="preserve">
+    <value>Blâme</value>
+  </data>
+  <data name="CerebralFlare" xml:space="preserve">
+    <value>Flamboiement cérébral</value>
+  </data>
+  <data name="ChainDestruction" xml:space="preserve">
+    <value>Destruction en chaîne</value>
+  </data>
+  <data name="ChainPulse" xml:space="preserve">
+    <value>Chaîne d'impulsions</value>
+  </data>
+  <data name="ChainsofDeath" xml:space="preserve">
+    <value>Liens mortels</value>
+  </data>
+  <data name="ChainsofLife" xml:space="preserve">
+    <value>Chaînes de Vie</value>
+  </data>
+  <data name="ChannelElements" xml:space="preserve">
+    <value>Canalisation des éléments</value>
+  </data>
+  <data name="Char" xml:space="preserve">
+    <value>Calcination</value>
+  </data>
+  <data name="ChargedBlade" xml:space="preserve">
+    <value>Lame chargée</value>
+  </data>
+  <data name="ChargedPulse" xml:space="preserve">
+    <value>Impulsion chargée</value>
+  </data>
+  <data name="Charges" xml:space="preserve">
+    <value>Charges</value>
+  </data>
+  <data name="ChemicalBomb" xml:space="preserve">
+    <value>Bombe chimique</value>
+  </data>
+  <data name="Chimera'sGift" xml:space="preserve">
+    <value>Don de la Chimère</value>
+  </data>
+  <data name="Choke" xml:space="preserve">
+    <value>Étranglement</value>
+  </data>
+  <data name="ChokingGasBomb" xml:space="preserve">
+    <value>Bombe asphyxiante</value>
+  </data>
+  <data name="CinderBurst" xml:space="preserve">
+    <value>Explosion de cendres</value>
+  </data>
+  <data name="CircleofOblivion" xml:space="preserve">
+    <value>Cercle de l'oubli</value>
+  </data>
+  <data name="CleansingFlames" xml:space="preserve">
+    <value>Flammes purificatrices</value>
+  </data>
+  <data name="CleansingPrayer" xml:space="preserve">
+    <value>Prière purificatrice</value>
+  </data>
+  <data name="CleansingRush" xml:space="preserve">
+    <value>Vague de purifications</value>
+  </data>
+  <data name="CleansingWaters" xml:space="preserve">
+    <value>Flots purificateurs</value>
+  </data>
+  <data name="CleartheBreach" xml:space="preserve">
+    <value>Dégager la brèche</value>
+  </data>
+  <data name="CloseTraining" xml:space="preserve">
+    <value>Entraînement au corps à corps</value>
+  </data>
+  <data name="Cloudburst" xml:space="preserve">
+    <value>Averse</value>
+  </data>
+  <data name="CloudMaker" xml:space="preserve">
+    <value>Nébulisation</value>
+  </data>
+  <data name="CodaofCowardice" xml:space="preserve">
+    <value>Coda de lâcheté</value>
+  </data>
+  <data name="CodaofDistress" xml:space="preserve">
+    <value>Coda de détresse</value>
+  </data>
+  <data name="CodaofFury" xml:space="preserve">
+    <value>Coda de fureur</value>
+  </data>
+  <data name="CodaofJeopardy" xml:space="preserve">
+    <value>Coda du péril</value>
+  </data>
+  <data name="CodaofRestoration" xml:space="preserve">
+    <value>Coda de restauration</value>
+  </data>
+  <data name="CodaofWrath" xml:space="preserve">
+    <value>Coda de colère</value>
+  </data>
+  <data name="CombatFocus" xml:space="preserve">
+    <value>Concentration martiale</value>
+  </data>
+  <data name="CombatPreparation" xml:space="preserve">
+    <value>Préparation au combat</value>
+  </data>
+  <data name="CombinedEffort" xml:space="preserve">
+    <value>Effort conjoint</value>
+  </data>
+  <data name="CommandtoAttack" xml:space="preserve">
+    <value>Ordre d'attaque</value>
+  </data>
+  <data name="CommandtoRecover" xml:space="preserve">
+    <value>Ordre de récupération</value>
+  </data>
+  <data name="CommandtoStandGround" xml:space="preserve">
+    <value>Ordre de halte</value>
+  </data>
+  <data name="CompoundAttack" xml:space="preserve">
+    <value>Attaque complexe</value>
+  </data>
+  <data name="Conceal" xml:space="preserve">
+    <value>Dissimulation</value>
+  </data>
+  <data name="Concussion" xml:space="preserve">
+    <value>Secousse</value>
+  </data>
+  <data name="ConcussiveBlast" xml:space="preserve">
+    <value>Explosion à secousse</value>
+  </data>
+  <data name="Condemn" xml:space="preserve">
+    <value>Condamnation</value>
+  </data>
+  <data name="ConditionedResponse" xml:space="preserve">
+    <value>Réponse conditionnée</value>
+  </data>
+  <data name="Conflux" xml:space="preserve">
+    <value>Confluence</value>
+  </data>
+  <data name="Confound" xml:space="preserve">
+    <value>Déroute</value>
+  </data>
+  <data name="ConstantDeviation" xml:space="preserve">
+    <value>Déviation constante</value>
+  </data>
+  <data name="ConsumingAgony" xml:space="preserve">
+    <value>Agonie dévorante</value>
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Consommation</value>
+  </data>
+  <data name="Contaminate" xml:space="preserve">
+    <value>Contamination</value>
+  </data>
+  <data name="CorneredBeast" xml:space="preserve">
+    <value>Bête acculée</value>
+  </data>
+  <data name="CorpseExplosion" xml:space="preserve">
+    <value>Explosion cadavérique</value>
+  </data>
+  <data name="CorpseTalon" xml:space="preserve">
+    <value>Serre à cadavre</value>
+  </data>
+  <data name="CorrosiveSpores" xml:space="preserve">
+    <value>Spores corrosives</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Compte à rebours</value>
+  </data>
+  <data name="CourageoftheBear" xml:space="preserve">
+    <value>Courage de l'ours</value>
+  </data>
+  <data name="CourageoftheEagle" xml:space="preserve">
+    <value>Courage de l'aigle</value>
+  </data>
+  <data name="CourageofthePanther" xml:space="preserve">
+    <value>Courage de la panthère</value>
+  </data>
+  <data name="CreepingCorruption" xml:space="preserve">
+    <value>Corruption rampante</value>
+  </data>
+  <data name="CrestofConsumption" xml:space="preserve">
+    <value>Blason de consommation</value>
+  </data>
+  <data name="CrestofEntropy" xml:space="preserve">
+    <value>Blason d'entropie</value>
+  </data>
+  <data name="CrestoftheAbyss" xml:space="preserve">
+    <value>Blason des abysses</value>
+  </data>
+  <data name="CrestoftheShadow" xml:space="preserve">
+    <value>Blason de l'ombre</value>
+  </data>
+  <data name="Crossfire" xml:space="preserve">
+    <value>Tirs croisés</value>
+  </data>
+  <data name="CrucialInvocation" xml:space="preserve">
+    <value>Invocation cruciale</value>
+  </data>
+  <data name="CrumblingResistance" xml:space="preserve">
+    <value>Résistance émoussée</value>
+  </data>
+  <data name="CrushingBlow" xml:space="preserve">
+    <value>Coup écrasant</value>
+  </data>
+  <data name="CrushingForce" xml:space="preserve">
+    <value>Force écrasante</value>
+  </data>
+  <data name="CrushingWaves" xml:space="preserve">
+    <value>Vagues écrasantes</value>
+  </data>
+  <data name="CrystallineMissiles" xml:space="preserve">
+    <value>Projectiles cristallins</value>
+  </data>
+  <data name="CunningRuse" xml:space="preserve">
+    <value>Ruse astucieuse</value>
+  </data>
+  <data name="CurativeBeam" xml:space="preserve">
+    <value>Rayon curatif</value>
+  </data>
+  <data name="CurativeBlast" xml:space="preserve">
+    <value>Souffle curatif</value>
+  </data>
+  <data name="CurativeCore" xml:space="preserve">
+    <value>Noyau curatif</value>
+  </data>
+  <data name="CurativeEngine" xml:space="preserve">
+    <value>Moteur curatif</value>
+  </data>
+  <data name="CurativeRemote" xml:space="preserve">
+    <value>Soins à distance</value>
+  </data>
+  <data name="CurativeTorrent" xml:space="preserve">
+    <value>Torrent curatif</value>
+  </data>
+  <data name="CurativeWaters" xml:space="preserve">
+    <value>Flots curatifs</value>
+  </data>
+  <data name="CurseofAnarchy" xml:space="preserve">
+    <value>Malédiction de l'anarchie</value>
+  </data>
+  <data name="CurseofDiscord" xml:space="preserve">
+    <value>Malédiction de la discorde</value>
+  </data>
+  <data name="CurseofSolitude" xml:space="preserve">
+    <value>Malédiction de la solitude</value>
+  </data>
+  <data name="CuttingSlash" xml:space="preserve">
+    <value>Lacération tranchante</value>
+  </data>
+  <data name="CycloneStrike" xml:space="preserve">
+    <value>Frappe cyclonique</value>
+  </data>
+  <data name="DancingSteel" xml:space="preserve">
+    <value>Danse de l'acier</value>
+  </data>
+  <data name="DarkArmor" xml:space="preserve">
+    <value>Armure obscure</value>
+  </data>
+  <data name="DarkContainment" xml:space="preserve">
+    <value>Confinement obscur</value>
+  </data>
+  <data name="DarkDescent" xml:space="preserve">
+    <value>Descente noire</value>
+  </data>
+  <data name="DarkHarbor" xml:space="preserve">
+    <value>Refuge obscur</value>
+  </data>
+  <data name="DarkMalady" xml:space="preserve">
+    <value>Sombre mal</value>
+  </data>
+  <data name="DarkPassage" xml:space="preserve">
+    <value>Passage sombre</value>
+  </data>
+  <data name="DarkTouch" xml:space="preserve">
+    <value>Contact obscur</value>
+  </data>
+  <data name="DarkWater" xml:space="preserve">
+    <value>Eau sombre</value>
+  </data>
+  <data name="DauntlessStrike" xml:space="preserve">
+    <value>Frappe intrépide</value>
+  </data>
+  <data name="Deaden" xml:space="preserve">
+    <value>Étouffement</value>
+  </data>
+  <data name="DeadeyeShot" xml:space="preserve">
+    <value>Tir magistral</value>
+  </data>
+  <data name="DeadlyDance" xml:space="preserve">
+    <value>Danse mortelle</value>
+  </data>
+  <data name="DeadlyPosture" xml:space="preserve">
+    <value>Posture mortelle</value>
+  </data>
+  <data name="DeadlyStrike" xml:space="preserve">
+    <value>Frappe meurtrière</value>
+  </data>
+  <data name="Death'sDoor" xml:space="preserve">
+    <value>Porte de la Mort</value>
+  </data>
+  <data name="Death'sEdict" xml:space="preserve">
+    <value>Décret de mort</value>
+  </data>
+  <data name="Death'sEmbrace" xml:space="preserve">
+    <value>L'étreinte de la Mort</value>
+  </data>
+  <data name="DeathBlossom" xml:space="preserve">
+    <value>Floraison mortelle</value>
+  </data>
+  <data name="DeathfromtheShadows" xml:space="preserve">
+    <value>Mort tapie</value>
+  </data>
+  <data name="DeathlyPall" xml:space="preserve">
+    <value>Voile mortel</value>
+  </data>
+  <data name="DeathTouch" xml:space="preserve">
+    <value>Contact de Mort</value>
+  </data>
+  <data name="DebilitatingPoison" xml:space="preserve">
+    <value>Poison vampirisant</value>
+  </data>
+  <data name="DecayingCorruption" xml:space="preserve">
+    <value>Corruption putrescente</value>
+  </data>
+  <data name="DecisiveStrike" xml:space="preserve">
+    <value>Coup décisif</value>
+  </data>
+  <data name="Decoy" xml:space="preserve">
+    <value>Leurre</value>
+  </data>
+  <data name="DeepFreeze" xml:space="preserve">
+    <value>Grand froid</value>
+  </data>
+  <data name="DefensiveManeuver" xml:space="preserve">
+    <value>Manœuvre défensive</value>
+  </data>
+  <data name="DefensivePose" xml:space="preserve">
+    <value>Attitude défensive</value>
+  </data>
+  <data name="DefensivePosture" xml:space="preserve">
+    <value>Posture défensive</value>
+  </data>
+  <data name="DefensiveSurge" xml:space="preserve">
+    <value>Explosion défensive</value>
+  </data>
+  <data name="DeferDeath" xml:space="preserve">
+    <value>Mort retardée</value>
+  </data>
+  <data name="Defile" xml:space="preserve">
+    <value>Souillure</value>
+  </data>
+  <data name="Degeneration" xml:space="preserve">
+    <value>Dégénération</value>
+  </data>
+  <data name="Dehydrate" xml:space="preserve">
+    <value>Déshydratation</value>
+  </data>
+  <data name="DelayedBlast" xml:space="preserve">
+    <value>Explosion à retardement</value>
+  </data>
+  <data name="Deny" xml:space="preserve">
+    <value>Négation</value>
+  </data>
+  <data name="Desecrate" xml:space="preserve">
+    <value>Profaner</value>
+  </data>
+  <data name="Destroyer'sBearing" xml:space="preserve">
+    <value>Allure de destructeur</value>
+  </data>
+  <data name="Detonate" xml:space="preserve">
+    <value>Détonation</value>
+  </data>
+  <data name="DevouringBlow" xml:space="preserve">
+    <value>Coup dévorant</value>
+  </data>
+  <data name="DevouringShadows" xml:space="preserve">
+    <value>Ombres dévorantes</value>
+  </data>
+  <data name="DevouringShield" xml:space="preserve">
+    <value>Bouclier dévorant</value>
+  </data>
+  <data name="Diffuse" xml:space="preserve">
+    <value>Garde du corps</value>
+  </data>
+  <data name="DireBlow" xml:space="preserve">
+    <value>Coup redoutable</value>
+  </data>
+  <data name="DireCorruption" xml:space="preserve">
+    <value>Corruption terrible</value>
+  </data>
+  <data name="DisablingShock" xml:space="preserve">
+    <value>Choc neutralisant</value>
+  </data>
+  <data name="Disassemble" xml:space="preserve">
+    <value>Désarmer</value>
+  </data>
+  <data name="Discharge" xml:space="preserve">
+    <value>Décharge</value>
+  </data>
+  <data name="DiscipleofFlame" xml:space="preserve">
+    <value>Disciple de la flamme</value>
+  </data>
+  <data name="Disengage" xml:space="preserve">
+    <value>Dégagement</value>
+  </data>
+  <data name="Disintegration" xml:space="preserve">
+    <value>Désintégration</value>
+  </data>
+  <data name="DismissPet" xml:space="preserve">
+    <value>Renvoi du familier</value>
+  </data>
+  <data name="DismissPet1" xml:space="preserve">
+    <value>Renvoi du familier</value>
+  </data>
+  <data name="DismissPet2" xml:space="preserve">
+    <value>Renvoi du familier</value>
+  </data>
+  <data name="DismissPet3" xml:space="preserve">
+    <value>Renvoi du familier</value>
+  </data>
+  <data name="DismissPet4" xml:space="preserve">
+    <value>Renvoi du familier</value>
+  </data>
+  <data name="DisorientingBlast" xml:space="preserve">
+    <value>Explosion de désorientation</value>
+  </data>
+  <data name="DisruptiveStrike" xml:space="preserve">
+    <value>Frappe perturbatrice</value>
+  </data>
+  <data name="DistractingPulse" xml:space="preserve">
+    <value>Impulsion distrayante</value>
+  </data>
+  <data name="DistractingSlash" xml:space="preserve">
+    <value>Lacération fourvoyante</value>
+  </data>
+  <data name="DivertRage" xml:space="preserve">
+    <value>Diversion</value>
+  </data>
+  <data name="DivineCall" xml:space="preserve">
+    <value>Appel divin</value>
+  </data>
+  <data name="DoctrineofAuthority" xml:space="preserve">
+    <value>Doctrine d'autorité</value>
+  </data>
+  <data name="DoctrineofBliss" xml:space="preserve">
+    <value>Doctrine de béatitude</value>
+  </data>
+  <data name="DoctrineofGlory" xml:space="preserve">
+    <value>Doctrine glorieuse</value>
+  </data>
+  <data name="DoctrineofLoyalty" xml:space="preserve">
+    <value>Doctrine de loyauté</value>
+  </data>
+  <data name="DominatingBearing" xml:space="preserve">
+    <value>Allure de domination</value>
+  </data>
+  <data name="DoubleCoup" xml:space="preserve">
+    <value>Double Coup</value>
+  </data>
+  <data name="DoublePulse" xml:space="preserve">
+    <value>Double impulsion</value>
+  </data>
+  <data name="DoubleStrike" xml:space="preserve">
+    <value>Frappe doublée</value>
+  </data>
+  <data name="Downpour" xml:space="preserve">
+    <value>Pluie torrentielle</value>
+  </data>
+  <data name="DrainingBolt" xml:space="preserve">
+    <value>Absorption impie</value>
+  </data>
+  <data name="Dualism" xml:space="preserve">
+    <value>Dualisme</value>
+  </data>
+  <data name="DualPulse" xml:space="preserve">
+    <value>Impulsion double</value>
+  </data>
+  <data name="DuskStrike" xml:space="preserve">
+    <value>Frappe crépusculaire</value>
+  </data>
+  <data name="DusktoDawn" xml:space="preserve">
+    <value>Du crépuscule à l'aube</value>
+  </data>
+  <data name="EarthBurst" xml:space="preserve">
+    <value>Explosion terrestre</value>
+  </data>
+  <data name="EarthenBarrage" xml:space="preserve">
+    <value>Barrage de Terre</value>
+  </data>
+  <data name="EbonBlades" xml:space="preserve">
+    <value>Lames d'ébène</value>
+  </data>
+  <data name="EbonFury" xml:space="preserve">
+    <value>Fureur noire</value>
+  </data>
+  <data name="EbonTerror" xml:space="preserve">
+    <value>Terreur noire</value>
+  </data>
+  <data name="Ekkehard'sGrasp" xml:space="preserve">
+    <value>Poigne d'Ekkehard</value>
+  </data>
+  <data name="EldritchArmor" xml:space="preserve">
+    <value>Armure eldritch</value>
+  </data>
+  <data name="EldritchGift" xml:space="preserve">
+    <value>Cadeau eldritch</value>
+  </data>
+  <data name="EldritchMastery" xml:space="preserve">
+    <value>Maîtrise eldritch</value>
+  </data>
+  <data name="ElectricCharge" xml:space="preserve">
+    <value>Charge électrique</value>
+  </data>
+  <data name="ElectricityBlast" xml:space="preserve">
+    <value>Explosion électrique</value>
+  </data>
+  <data name="ElectricityCascade" xml:space="preserve">
+    <value>Cascade d'électricité</value>
+  </data>
+  <data name="Electrified" xml:space="preserve">
+    <value>Victime d'électrocution</value>
+  </data>
+  <data name="ElectrifiedMunitions" xml:space="preserve">
+    <value>Munitions électrifiées</value>
+  </data>
+  <data name="ElectrifiedStrikes" xml:space="preserve">
+    <value>Frappes électrifiées</value>
+  </data>
+  <data name="Electrocute" xml:space="preserve">
+    <value>Électrocution</value>
+  </data>
+  <data name="ElectromagneticShield" xml:space="preserve">
+    <value>Bouclier électromagnétique</value>
+  </data>
+  <data name="ElementalArmor" xml:space="preserve">
+    <value>Armure élémentaire</value>
+  </data>
+  <data name="ElementalBurst" xml:space="preserve">
+    <value>Explosion élémentaire</value>
+  </data>
+  <data name="ElementalForces" xml:space="preserve">
+    <value>Forces élémentaires</value>
+  </data>
+  <data name="Elude" xml:space="preserve">
+    <value>Esquive</value>
+  </data>
+  <data name="Elusiveness" xml:space="preserve">
+    <value>Fugacité</value>
+  </data>
+  <data name="EmbersBomb" xml:space="preserve">
+    <value>Bombe de braises</value>
+  </data>
+  <data name="Empower" xml:space="preserve">
+    <value>Renforcement</value>
+  </data>
+  <data name="EmpoweredAffliction" xml:space="preserve">
+    <value>Affliction renforcée</value>
+  </data>
+  <data name="EmpoweredDarkness" xml:space="preserve">
+    <value>Ténèbres investies</value>
+  </data>
+  <data name="EmpoweredShot" xml:space="preserve">
+    <value>Tir puissant</value>
+  </data>
+  <data name="EmpoweringLight" xml:space="preserve">
+    <value>Lumière revigorante</value>
+  </data>
+  <data name="EmpoweringStrike" xml:space="preserve">
+    <value>Frappe galvanisante</value>
+  </data>
+  <data name="EmptytheCrypts" xml:space="preserve">
+    <value>Appel d'outre-tombe</value>
+  </data>
+  <data name="EmpyreanAscension" xml:space="preserve">
+    <value>Ascension empyréenne</value>
+  </data>
+  <data name="EmpyreanBolt" xml:space="preserve">
+    <value>Trait empyréen</value>
+  </data>
+  <data name="EmpyreanEngine" xml:space="preserve">
+    <value>Machine empyréenne</value>
+  </data>
+  <data name="EmpyreanRay" xml:space="preserve">
+    <value>Rayon empyréen</value>
+  </data>
+  <data name="EnduringBrew" xml:space="preserve">
+    <value>Breuvage revigorant</value>
+  </data>
+  <data name="EnergyAlteration" xml:space="preserve">
+    <value>Altération énergétique</value>
+  </data>
+  <data name="EnfeeblingPoison" xml:space="preserve">
+    <value>Poison affaiblissant</value>
+  </data>
+  <data name="EnfeeblingTrap" xml:space="preserve">
+    <value>Piège affaiblissant</value>
+  </data>
+  <data name="EnhancedConductivity" xml:space="preserve">
+    <value>Conductivité améliorée</value>
+  </data>
+  <data name="Enrage" xml:space="preserve">
+    <value>Enragement</value>
+  </data>
+  <data name="EntanglingTrap" xml:space="preserve">
+    <value>Piège d'enchevêtrement</value>
+  </data>
+  <data name="EntropicVeil" xml:space="preserve">
+    <value>Voile entropique</value>
+  </data>
+  <data name="Eradicate" xml:space="preserve">
+    <value>Éradication</value>
+  </data>
+  <data name="Eruption" xml:space="preserve">
+    <value>Éruption</value>
+  </data>
+  <data name="EruptionofLife" xml:space="preserve">
+    <value>Éruption de Vie</value>
+  </data>
+  <data name="EscapeArtist" xml:space="preserve">
+    <value>Artiste de l'évasion</value>
+  </data>
+  <data name="EsotericEstimations" xml:space="preserve">
+    <value>Estimations ésotériques</value>
+  </data>
+  <data name="EssenceConversion" xml:space="preserve">
+    <value>Conversion d'essence</value>
+  </data>
+  <data name="EssenceLink" xml:space="preserve">
+    <value>Lien maléfique</value>
+  </data>
+  <data name="EssenceofWind" xml:space="preserve">
+    <value>Essence du vent</value>
+  </data>
+  <data name="EssenceStrike" xml:space="preserve">
+    <value>Frappe essentielle</value>
+  </data>
+  <data name="EssenceSurge" xml:space="preserve">
+    <value>Poussée d'essence</value>
+  </data>
+  <data name="EvasiveRedirection" xml:space="preserve">
+    <value>Réorientation d'esquive</value>
+  </data>
+  <data name="EvenJustice" xml:space="preserve">
+    <value>Justice équitable</value>
+  </data>
+  <data name="EverythingisaWeapon" xml:space="preserve">
+    <value>Tout est une arme</value>
+  </data>
+  <data name="Excommunicate" xml:space="preserve">
+    <value>Excommunication</value>
+  </data>
+  <data name="Exhume" xml:space="preserve">
+    <value>Exhumation</value>
+  </data>
+  <data name="ExplosiveGrowth" xml:space="preserve">
+    <value>Croissance explosive</value>
+  </data>
+  <data name="ExplosiveInfestation" xml:space="preserve">
+    <value>Infection explosive</value>
+  </data>
+  <data name="ExposeWeakness" xml:space="preserve">
+    <value>Révélateur de faiblesse</value>
+  </data>
+  <data name="Extinguish" xml:space="preserve">
+    <value>Extinction</value>
+  </data>
+  <data name="EyeoftheStorm" xml:space="preserve">
+    <value>Œil du cyclone</value>
+  </data>
+  <data name="EyeoftheStorm1" xml:space="preserve">
+    <value>Œil de la Tempête</value>
+  </data>
+  <data name="FaceSlam" xml:space="preserve">
+    <value>Gifle</value>
+  </data>
+  <data name="FaeDispersion" xml:space="preserve">
+    <value>Dispersion féerique</value>
+  </data>
+  <data name="FaeExtraction" xml:space="preserve">
+    <value>Extraction féerique</value>
+  </data>
+  <data name="FaeMimicry" xml:space="preserve">
+    <value>Mimétisme féerique</value>
+  </data>
+  <data name="FaeStep" xml:space="preserve">
+    <value>Marche féérique</value>
+  </data>
+  <data name="FaithinAction" xml:space="preserve">
+    <value>Foi en action</value>
+  </data>
+  <data name="FaithRewarded" xml:space="preserve">
+    <value>Récompense de foi</value>
+  </data>
+  <data name="FalseRepose" xml:space="preserve">
+    <value>Faux repos</value>
+  </data>
+  <data name="Fanaticism" xml:space="preserve">
+    <value>Fanatisme</value>
+  </data>
+  <data name="FanfareofPower" xml:space="preserve">
+    <value>Fanfare de puissance</value>
+  </data>
+  <data name="FanfareofVigor" xml:space="preserve">
+    <value>Fanfare de vigueur</value>
+  </data>
+  <data name="FanOut" xml:space="preserve">
+    <value>Dispersion</value>
+  </data>
+  <data name="FastSummon" xml:space="preserve">
+    <value>Invocation rapide</value>
+  </data>
+  <data name="FatedBlades" xml:space="preserve">
+    <value>Lames de la destinée</value>
+  </data>
+  <data name="Fear" xml:space="preserve">
+    <value>Peur</value>
+  </data>
+  <data name="FeastoftheFallen" xml:space="preserve">
+    <value>Festin des déchus</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="FeignDeath" xml:space="preserve">
+    <value>Mort simulée</value>
+  </data>
+  <data name="FellBlades" xml:space="preserve">
+    <value>Lames fatales</value>
+  </data>
+  <data name="FeralAggression" xml:space="preserve">
+    <value>Agression sauvage</value>
+  </data>
+  <data name="FeralInstincts" xml:space="preserve">
+    <value>Instincts sauvages</value>
+  </data>
+  <data name="FerventStrike" xml:space="preserve">
+    <value>Frappe fervente</value>
+  </data>
+  <data name="FierceStrike" xml:space="preserve">
+    <value>Frappe féroce</value>
+  </data>
+  <data name="FieryBurst" xml:space="preserve">
+    <value>Explosion ardente</value>
+  </data>
+  <data name="FieryChains" xml:space="preserve">
+    <value>Chaînes ardentes</value>
+  </data>
+  <data name="FierySpike" xml:space="preserve">
+    <value>Pointe ardente</value>
+  </data>
+  <data name="FieryWill" xml:space="preserve">
+    <value>Volonté ardente</value>
+  </data>
+  <data name="FinalBlessing" xml:space="preserve">
+    <value>Bénédiction ultime</value>
+  </data>
+  <data name="FinalBlow" xml:space="preserve">
+    <value>Coup final</value>
+  </data>
+  <data name="FireArmor" xml:space="preserve">
+    <value>Armure de feu</value>
+  </data>
+  <data name="Fireball" xml:space="preserve">
+    <value>Boule de feu</value>
+  </data>
+  <data name="FireStorm" xml:space="preserve">
+    <value>Tempête de feu</value>
+  </data>
+  <data name="FireWall" xml:space="preserve">
+    <value>Pare-feu</value>
+  </data>
+  <data name="FlameBlitz" xml:space="preserve">
+    <value>Bombardement de flammes</value>
+  </data>
+  <data name="FlameBolt" xml:space="preserve">
+    <value>Trait de flamme</value>
+  </data>
+  <data name="FlameLance" xml:space="preserve">
+    <value>Lance de flammes</value>
+  </data>
+  <data name="FlameofLife" xml:space="preserve">
+    <value>Flamme de Vie</value>
+  </data>
+  <data name="FlameRupture" xml:space="preserve">
+    <value>Interruption de flammes</value>
+  </data>
+  <data name="Flamespear" xml:space="preserve">
+    <value>Lance enflammée</value>
+  </data>
+  <data name="FlameThrust" xml:space="preserve">
+    <value>Lancer enflammé</value>
+  </data>
+  <data name="FlameVolley" xml:space="preserve">
+    <value>Volée de flammes</value>
+  </data>
+  <data name="FlaringIntellect" xml:space="preserve">
+    <value>Intellect flamboyant</value>
+  </data>
+  <data name="FlaringPower" xml:space="preserve">
+    <value>Puissance flamboyante</value>
+  </data>
+  <data name="Flashback" xml:space="preserve">
+    <value>Flash-back</value>
+  </data>
+  <data name="Flashfire" xml:space="preserve">
+    <value>Combustion spontanée</value>
+  </data>
+  <data name="FlashofRadiance" xml:space="preserve">
+    <value>Éclair de rayonnement</value>
+  </data>
+  <data name="FlashofSteel" xml:space="preserve">
+    <value>Mur d'acier</value>
+  </data>
+  <data name="FlashofthePhoenix" xml:space="preserve">
+    <value>Éclair du Phénix</value>
+  </data>
+  <data name="Flashover" xml:space="preserve">
+    <value>Rupture</value>
+  </data>
+  <data name="FleetingInstincts" xml:space="preserve">
+    <value>Instincts fugitifs</value>
+  </data>
+  <data name="FleetofFoot" xml:space="preserve">
+    <value>Troisième poumon</value>
+  </data>
+  <data name="FleshRip" xml:space="preserve">
+    <value>Déchirure de la chair</value>
+  </data>
+  <data name="FleshRot" xml:space="preserve">
+    <value>Gangrène</value>
+  </data>
+  <data name="Flicker" xml:space="preserve">
+    <value>Vacillement</value>
+  </data>
+  <data name="FlinchingStrike" xml:space="preserve">
+    <value>Frappe distrayante</value>
+  </data>
+  <data name="Flourish" xml:space="preserve">
+    <value>Floraison</value>
+  </data>
+  <data name="FlowingSand" xml:space="preserve">
+    <value>Sable mouvant</value>
+  </data>
+  <data name="Flurry" xml:space="preserve">
+    <value>Déluge de coups</value>
+  </data>
+  <data name="FocusedFire" xml:space="preserve">
+    <value>Tir concentré</value>
+  </data>
+  <data name="FocusofBody" xml:space="preserve">
+    <value>Focus de corps</value>
+  </data>
+  <data name="FollowUpAttacks" xml:space="preserve">
+    <value>Attaques complémentaires</value>
+  </data>
+  <data name="ForcedMarch" xml:space="preserve">
+    <value>Marche forcée</value>
+  </data>
+  <data name="ForceofNature" xml:space="preserve">
+    <value>Force de la Nature</value>
+  </data>
+  <data name="Fork" xml:space="preserve">
+    <value>Fourche</value>
+  </data>
+  <data name="ForkedLightning" xml:space="preserve">
+    <value>Éclair fourchu</value>
+  </data>
+  <data name="FortificationCore" xml:space="preserve">
+    <value>Noyau de Fortification</value>
+  </data>
+  <data name="FoulGrowth" xml:space="preserve">
+    <value>Croissance fétide</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Tricherie</value>
+  </data>
+  <data name="FragmentationBomb" xml:space="preserve">
+    <value>Bombe à fragmentation</value>
+  </data>
+  <data name="FreeRecoil" xml:space="preserve">
+    <value>Recul libre</value>
+  </data>
+  <data name="FriendoftheWeald" xml:space="preserve">
+    <value>Compagnon de la Sylve</value>
+  </data>
+  <data name="FrostStrike" xml:space="preserve">
+    <value>Frappe glacée</value>
+  </data>
+  <data name="FrozenWrath" xml:space="preserve">
+    <value>Colère glacée</value>
+  </data>
+  <data name="FullnessofLife" xml:space="preserve">
+    <value>Abondance de vie</value>
+  </data>
+  <data name="Fulminate" xml:space="preserve">
+    <value>Fulmination</value>
+  </data>
+  <data name="FuriousAssault" xml:space="preserve">
+    <value>Assaut furieux</value>
+  </data>
+  <data name="FuriousRage" xml:space="preserve">
+    <value>Rage furieuse</value>
+  </data>
+  <data name="FuryoftheFae" xml:space="preserve">
+    <value>Fureur des Fées</value>
+  </data>
+  <data name="FuryUnleashed" xml:space="preserve">
+    <value>Déchaînement de fureur</value>
+  </data>
+  <data name="Fusillade" xml:space="preserve">
+    <value>Fusillade</value>
+  </data>
+  <data name="FusionofFlesh" xml:space="preserve">
+    <value>Fusion de la chair</value>
+  </data>
+  <data name="GatheringofFlames" xml:space="preserve">
+    <value>Rassemblement de flammes</value>
+  </data>
+  <data name="GatheringStorm" xml:space="preserve">
+    <value>Tempête imminente</value>
+  </data>
+  <data name="General'sOrder" xml:space="preserve">
+    <value>Ordre du général</value>
+  </data>
+  <data name="Geyser" xml:space="preserve">
+    <value>Geyser</value>
+  </data>
+  <data name="GhastlyRestoration" xml:space="preserve">
+    <value>Restauration effroyable</value>
+  </data>
+  <data name="GiftoftheBeastmaster" xml:space="preserve">
+    <value>Présent du Dompteur</value>
+  </data>
+  <data name="GiftoftheChampion" xml:space="preserve">
+    <value>Présent du champion</value>
+  </data>
+  <data name="GiftoftheParagon" xml:space="preserve">
+    <value>Présent du Parangon</value>
+  </data>
+  <data name="GiftoftheReaver" xml:space="preserve">
+    <value>Don du Saccageur</value>
+  </data>
+  <data name="GiftoftheRiftblade" xml:space="preserve">
+    <value>Présent du Saigneur des Failles</value>
+  </data>
+  <data name="GiftoftheTempest" xml:space="preserve">
+    <value>Présent de la tempête</value>
+  </data>
+  <data name="GiftoftheVoidKnight" xml:space="preserve">
+    <value>Don du Chevalier du Néant</value>
+  </data>
+  <data name="GiftoftheWarlord" xml:space="preserve">
+    <value>Don du Maître de guerre</value>
+  </data>
+  <data name="GlacialShield" xml:space="preserve">
+    <value>Bouclier glacial</value>
+  </data>
+  <data name="GlacialStrike" xml:space="preserve">
+    <value>Frappe glaciale</value>
+  </data>
+  <data name="GlacialTorrent" xml:space="preserve">
+    <value>Torrent glacial</value>
+  </data>
+  <data name="GlaringFetters" xml:space="preserve">
+    <value>Entraves éblouissantes</value>
+  </data>
+  <data name="GlassyReflection" xml:space="preserve">
+    <value>Reflet lisse</value>
+  </data>
+  <data name="GloryoftheChosen" xml:space="preserve">
+    <value>Gloire des Élus</value>
+  </data>
+  <data name="GlyphsofPower" xml:space="preserve">
+    <value>Glyphes de puissance</value>
+  </data>
+  <data name="GraniteSalvo" xml:space="preserve">
+    <value>Salve de Granite</value>
+  </data>
+  <data name="GraspingtheHorizon" xml:space="preserve">
+    <value>Empoigner l'horizon</value>
+  </data>
+  <data name="GraspingVoid" xml:space="preserve">
+    <value>Étreinte du vide</value>
+  </data>
+  <data name="GraveRot" xml:space="preserve">
+    <value>Pourriture tombale</value>
+  </data>
+  <data name="GravityVoid" xml:space="preserve">
+    <value>Vide gravitationnel</value>
+  </data>
+  <data name="GriefBlight" xml:space="preserve">
+    <value>Fléau de chagrin</value>
+  </data>
+  <data name="GrimLure" xml:space="preserve">
+    <value>Sinistre appât</value>
+  </data>
+  <data name="GrimSilence" xml:space="preserve">
+    <value>Silence sinistre</value>
+  </data>
+  <data name="GuardedSteel" xml:space="preserve">
+    <value>Garde d'acier</value>
+  </data>
+  <data name="GuardianPhase" xml:space="preserve">
+    <value>Mode gardien</value>
+  </data>
+  <data name="Guardianship" xml:space="preserve">
+    <value>Parrainage</value>
+  </data>
+  <data name="Hailstorm" xml:space="preserve">
+    <value>Orage de grêle</value>
+  </data>
+  <data name="HammerofDuty" xml:space="preserve">
+    <value>Marteau du devoir</value>
+  </data>
+  <data name="HammerofFaith" xml:space="preserve">
+    <value>Marteau de la foi</value>
+  </data>
+  <data name="HarmonicDistortion" xml:space="preserve">
+    <value>Distorsion harmonique</value>
+  </data>
+  <data name="HarshDiscipline" xml:space="preserve">
+    <value>Discipline de fer</value>
+  </data>
+  <data name="HastedShot" xml:space="preserve">
+    <value>Tir précipité</value>
+  </data>
+  <data name="HastenCall" xml:space="preserve">
+    <value>Appel précoce</value>
+  </data>
+  <data name="HauntingPain" xml:space="preserve">
+    <value>Douleur obsédante</value>
+  </data>
+  <data name="HeadShot" xml:space="preserve">
+    <value>Tir en pleine tête</value>
+  </data>
+  <data name="Healer'sBlessing" xml:space="preserve">
+    <value>Bénédiction de guérisseur</value>
+  </data>
+  <data name="Healer'sCovenant" xml:space="preserve">
+    <value>Engagement du guérisseur</value>
+  </data>
+  <data name="Healer'sHaste" xml:space="preserve">
+    <value>Hâte du guérisseur</value>
+  </data>
+  <data name="HealingBreath" xml:space="preserve">
+    <value>Souffle de soins</value>
+  </data>
+  <data name="HealingCataract" xml:space="preserve">
+    <value>Cataracte de soins</value>
+  </data>
+  <data name="HealingCommunion" xml:space="preserve">
+    <value>Communion de soins</value>
+  </data>
+  <data name="HealingEffusion" xml:space="preserve">
+    <value>Profusion de soins</value>
+  </data>
+  <data name="HealingFlare" xml:space="preserve">
+    <value>Flamboiement de soins</value>
+  </data>
+  <data name="HealingFlood" xml:space="preserve">
+    <value>Inondation de soins</value>
+  </data>
+  <data name="HealingInvocation" xml:space="preserve">
+    <value>Invocation de soins</value>
+  </data>
+  <data name="HealingSpray" xml:space="preserve">
+    <value>Embruns de soins</value>
+  </data>
+  <data name="HealingTorrent" xml:space="preserve">
+    <value>Torrent de soins</value>
+  </data>
+  <data name="HeartoftheFrozenSea" xml:space="preserve">
+    <value>Cœur de la mer gelée</value>
+  </data>
+  <data name="HeatWave" xml:space="preserve">
+    <value>Vague de chaleur</value>
+  </data>
+  <data name="HellfireBlades" xml:space="preserve">
+    <value>Lames des feux de l'enfer</value>
+  </data>
+  <data name="HeroicResolve" xml:space="preserve">
+    <value>Détermination héroïque</value>
+  </data>
+  <data name="HiddenPath" xml:space="preserve">
+    <value>Hors des sentiers battus</value>
+  </data>
+  <data name="HiddenVeil" xml:space="preserve">
+    <value>Voile caché</value>
+  </data>
+  <data name="HideousReconstruction" xml:space="preserve">
+    <value>Reconstruction hideuse</value>
+  </data>
+  <data name="HighExplosives" xml:space="preserve">
+    <value>Explosifs puissants</value>
+  </data>
+  <data name="HowlingDeath" xml:space="preserve">
+    <value>Mort hurlante</value>
+  </data>
+  <data name="HundredBlades" xml:space="preserve">
+    <value>Pluie de lames</value>
+  </data>
+  <data name="HuskofIndifference" xml:space="preserve">
+    <value>Enveloppe d'indifférence</value>
+  </data>
+  <data name="Hypothermia" xml:space="preserve">
+    <value>Hypothermie</value>
+  </data>
+  <data name="IceShear" xml:space="preserve">
+    <value>Cisaille de glace</value>
+  </data>
+  <data name="IceShield" xml:space="preserve">
+    <value>Bouclier de glace</value>
+  </data>
+  <data name="Icicle" xml:space="preserve">
+    <value>Glaçon</value>
+  </data>
+  <data name="IcyBlow" xml:space="preserve">
+    <value>Coup glacé</value>
+  </data>
+  <data name="IcyBurst" xml:space="preserve">
+    <value>Explosion polaire</value>
+  </data>
+  <data name="IcyCarapace" xml:space="preserve">
+    <value>Carapace de glace</value>
+  </data>
+  <data name="IcyGale" xml:space="preserve">
+    <value>Coup de vent glacial</value>
+  </data>
+  <data name="IcyVortex" xml:space="preserve">
+    <value>Vortex glacé</value>
+  </data>
+  <data name="Ignite" xml:space="preserve">
+    <value>Immolation</value>
+  </data>
+  <data name="Illuminate" xml:space="preserve">
+    <value>Illumination</value>
+  </data>
+  <data name="ImmolationTrap" xml:space="preserve">
+    <value>Piège d'immolation</value>
+  </data>
+  <data name="Immunization" xml:space="preserve">
+    <value>Immunisation</value>
+  </data>
+  <data name="Impale" xml:space="preserve">
+    <value>Empalement</value>
+  </data>
+  <data name="ImprovedJolt" xml:space="preserve">
+    <value>Secousse améliorée</value>
+  </data>
+  <data name="Incapacitate" xml:space="preserve">
+    <value>Incapacité</value>
+  </data>
+  <data name="Incite" xml:space="preserve">
+    <value>Incitation</value>
+  </data>
+  <data name="Incriminate" xml:space="preserve">
+    <value>Incrimination</value>
+  </data>
+  <data name="Inescapable" xml:space="preserve">
+    <value>Inéluctable</value>
+  </data>
+  <data name="Infection" xml:space="preserve">
+    <value>Infection</value>
+  </data>
+  <data name="InfernalBeam" xml:space="preserve">
+    <value>Rayon infernal</value>
+  </data>
+  <data name="InfernalTorrent" xml:space="preserve">
+    <value>Torrent infernal</value>
+  </data>
+  <data name="Inferno" xml:space="preserve">
+    <value>Inferno</value>
+  </data>
+  <data name="Infestation" xml:space="preserve">
+    <value>Infection</value>
+  </data>
+  <data name="Insight" xml:space="preserve">
+    <value>Perspicacité</value>
+  </data>
+  <data name="InspirationoftheStorm" xml:space="preserve">
+    <value>Inspiration de la tempête</value>
+  </data>
+  <data name="Instigate" xml:space="preserve">
+    <value>Instigation</value>
+  </data>
+  <data name="IntensifyElements" xml:space="preserve">
+    <value>Éléments intensifiés</value>
+  </data>
+  <data name="Interdict" xml:space="preserve">
+    <value>Interdiction</value>
+  </data>
+  <data name="Interfere" xml:space="preserve">
+    <value>Interférence</value>
+  </data>
+  <data name="InternalizeCharge" xml:space="preserve">
+    <value>Charge intériorisée</value>
+  </data>
+  <data name="IntotheBreach" xml:space="preserve">
+    <value>Sur la brèche</value>
+  </data>
+  <data name="Introspection" xml:space="preserve">
+    <value>Introspection</value>
+  </data>
+  <data name="JaggedStrike" xml:space="preserve">
+    <value>Déchiquetage</value>
+  </data>
+  <data name="JealousIntervention" xml:space="preserve">
+    <value>Intervention jalouse</value>
+  </data>
+  <data name="Jolt" xml:space="preserve">
+    <value>Secousse</value>
+  </data>
+  <data name="Jolt1" xml:space="preserve">
+    <value>Secousse</value>
+  </data>
+  <data name="Judgment" xml:space="preserve">
+    <value>Jugement</value>
+  </data>
+  <data name="JudicialPrivilege" xml:space="preserve">
+    <value>Privilège judiciaire</value>
+  </data>
+  <data name="Juggernaut'sBearing" xml:space="preserve">
+    <value>Allure de mastodonte</value>
+  </data>
+  <data name="JustDefense" xml:space="preserve">
+    <value>Défense juste</value>
+  </data>
+  <data name="KeenStrike" xml:space="preserve">
+    <value>Frappe aiguisée</value>
+  </data>
+  <data name="KillingField" xml:space="preserve">
+    <value>Abattoir</value>
+  </data>
+  <data name="KingoftheHill" xml:space="preserve">
+    <value>Roi de la colline</value>
+  </data>
+  <data name="LandMines" xml:space="preserve">
+    <value>Mines terrestres</value>
+  </data>
+  <data name="LastGasp" xml:space="preserve">
+    <value>Dernier souffle</value>
+  </data>
+  <data name="LatentBlaze" xml:space="preserve">
+    <value>Embrasement latent</value>
+  </data>
+  <data name="LavaField" xml:space="preserve">
+    <value>Champ de lave</value>
+  </data>
+  <data name="LeapingPlunge" xml:space="preserve">
+    <value>Saut plongeant</value>
+  </data>
+  <data name="LeechingFlames" xml:space="preserve">
+    <value>Flammes absorbantes</value>
+  </data>
+  <data name="LeechingPoison" xml:space="preserve">
+    <value>Poison absorbant</value>
+  </data>
+  <data name="LethalPoison" xml:space="preserve">
+    <value>Poison létal</value>
+  </data>
+  <data name="LibertyofThought" xml:space="preserve">
+    <value>Ma Liberté de penser</value>
+  </data>
+  <data name="LichForm" xml:space="preserve">
+    <value>Forme de liche</value>
+  </data>
+  <data name="Life'sRapture" xml:space="preserve">
+    <value>Extase de la Vie</value>
+  </data>
+  <data name="Life'sReturn" xml:space="preserve">
+    <value>Retour à la Vie</value>
+  </data>
+  <data name="LifeBane" xml:space="preserve">
+    <value>Fléau de la vie</value>
+  </data>
+  <data name="LifeboundVeil" xml:space="preserve">
+    <value>Voile de biosyndesmos</value>
+  </data>
+  <data name="LifegivingVeil" xml:space="preserve">
+    <value>Voile vivifiant</value>
+  </data>
+  <data name="LifeLeech" xml:space="preserve">
+    <value>Absorption vitale</value>
+  </data>
+  <data name="Light'sBalm" xml:space="preserve">
+    <value>Baume de lumière</value>
+  </data>
+  <data name="Light'sBenediction" xml:space="preserve">
+    <value>Bénédiction de lumière</value>
+  </data>
+  <data name="Light'sBlessing" xml:space="preserve">
+    <value>Faveur de lumière</value>
+  </data>
+  <data name="Light'sDecree" xml:space="preserve">
+    <value>Décret de lumière</value>
+  </data>
+  <data name="Light'sDomination" xml:space="preserve">
+    <value>Domination de lumière</value>
+  </data>
+  <data name="Light'sHammer" xml:space="preserve">
+    <value>Marteau de lumière</value>
+  </data>
+  <data name="Light'sProtection" xml:space="preserve">
+    <value>Protection de lumière</value>
+  </data>
+  <data name="Light'sReprisal" xml:space="preserve">
+    <value>Représailles de lumière</value>
+  </data>
+  <data name="Light'sVengeance" xml:space="preserve">
+    <value>Vengeance de lumière</value>
+  </data>
+  <data name="LightningArc" xml:space="preserve">
+    <value>Arc de foudre</value>
+  </data>
+  <data name="LightningBlade" xml:space="preserve">
+    <value>Lame foudroyante</value>
+  </data>
+  <data name="LightningBurst" xml:space="preserve">
+    <value>Flamboiement d'éclairs</value>
+  </data>
+  <data name="LightningCharge" xml:space="preserve">
+    <value>Charge foudroyante</value>
+  </data>
+  <data name="LightningField" xml:space="preserve">
+    <value>Champ de foudre</value>
+  </data>
+  <data name="LightningFury" xml:space="preserve">
+    <value>Fureur foudroyante</value>
+  </data>
+  <data name="LightningHammer" xml:space="preserve">
+    <value>Marteau foudroyant</value>
+  </data>
+  <data name="LightningStorm" xml:space="preserve">
+    <value>Orage foudroyant</value>
+  </data>
+  <data name="LightningStrike" xml:space="preserve">
+    <value>Frappe foudroyante</value>
+  </data>
+  <data name="LightningTorrent" xml:space="preserve">
+    <value>Torrent d'éclair</value>
+  </data>
+  <data name="LightningWall" xml:space="preserve">
+    <value>Mur de foudre</value>
+  </data>
+  <data name="LightofRedemption" xml:space="preserve">
+    <value>Lumière de la rédemption</value>
+  </data>
+  <data name="LightRefraction" xml:space="preserve">
+    <value>Réfraction lumineuse</value>
+  </data>
+  <data name="LingeringDust" xml:space="preserve">
+    <value>Poussière persistante</value>
+  </data>
+  <data name="LinkofAgony" xml:space="preserve">
+    <value>Lien de l'agonie</value>
+  </data>
+  <data name="LinkofDistress" xml:space="preserve">
+    <value>Lien de la détresse</value>
+  </data>
+  <data name="LinkofMisery" xml:space="preserve">
+    <value>Lien de la misère</value>
+  </data>
+  <data name="LinkofSuffering" xml:space="preserve">
+    <value>Lien de la souffrance</value>
+  </data>
+  <data name="LivingAegis" xml:space="preserve">
+    <value>Égide vivante</value>
+  </data>
+  <data name="LivingEnergy" xml:space="preserve">
+    <value>Énergie vivante</value>
+  </data>
+  <data name="LivingFlame" xml:space="preserve">
+    <value>Flamme vivante</value>
+  </data>
+  <data name="LivingInfusion" xml:space="preserve">
+    <value>Infusion de Vie</value>
+  </data>
+  <data name="LivingShell" xml:space="preserve">
+    <value>Bouclier vivant</value>
+  </data>
+  <data name="LoathsomeRestoration" xml:space="preserve">
+    <value>Restauration répugnante</value>
+  </data>
+  <data name="LostHope" xml:space="preserve">
+    <value>Espoir perdu</value>
+  </data>
+  <data name="LoyalMinion" xml:space="preserve">
+    <value>Sbire loyal</value>
+  </data>
+  <data name="LucentSlash" xml:space="preserve">
+    <value>Taillade lucide</value>
+  </data>
+  <data name="LuminousWeapon" xml:space="preserve">
+    <value>Arme lumineuse</value>
+  </data>
+  <data name="Maelstrom" xml:space="preserve">
+    <value>Maelström</value>
+  </data>
+  <data name="MalevolentBolt" xml:space="preserve">
+    <value>Éclair malveillant</value>
+  </data>
+  <data name="MalevolentShield" xml:space="preserve">
+    <value>Bouclier malveillant</value>
+  </data>
+  <data name="MaliciousPoison" xml:space="preserve">
+    <value>Poison malfaisant</value>
+  </data>
+  <data name="ManaWrench" xml:space="preserve">
+    <value>Déchirement de mana</value>
+  </data>
+  <data name="MarkedbytheLight" xml:space="preserve">
+    <value>Marqué par la lumière</value>
+  </data>
+  <data name="MarkofExclusion" xml:space="preserve">
+    <value>Marque d'exclusion</value>
+  </data>
+  <data name="MarkofExtermination" xml:space="preserve">
+    <value>Marque d'extermination</value>
+  </data>
+  <data name="MarkofInevitability" xml:space="preserve">
+    <value>Marque d'inéluctabilité</value>
+  </data>
+  <data name="MarksmanMastery" xml:space="preserve">
+    <value>Maîtrise de Tireur d'élite</value>
+  </data>
+  <data name="MarrowHarvest" xml:space="preserve">
+    <value>Récolte de moelle</value>
+  </data>
+  <data name="MaskofDepravity" xml:space="preserve">
+    <value>Masque de perversion</value>
+  </data>
+  <data name="MassBetrayal" xml:space="preserve">
+    <value>Trahison massive</value>
+  </data>
+  <data name="MassChargedShield" xml:space="preserve">
+    <value>Bouclier chargé massif</value>
+  </data>
+  <data name="MassExhaustion" xml:space="preserve">
+    <value>Épuisement de masse</value>
+  </data>
+  <data name="MassFear" xml:space="preserve">
+    <value>Peur de masse</value>
+  </data>
+  <data name="MassGrave" xml:space="preserve">
+    <value>Charnier</value>
+  </data>
+  <data name="MassiveBlow" xml:space="preserve">
+    <value>Coup massif</value>
+  </data>
+  <data name="MassRepulsion" xml:space="preserve">
+    <value>Répulsion massive</value>
+  </data>
+  <data name="MassReversal" xml:space="preserve">
+    <value>Revers massif</value>
+  </data>
+  <data name="MasterofPoisons" xml:space="preserve">
+    <value>Maître des poisons</value>
+  </data>
+  <data name="MeditativeTrance" xml:space="preserve">
+    <value>Transe méditative</value>
+  </data>
+  <data name="MemoryCapture" xml:space="preserve">
+    <value>Mémorisation</value>
+  </data>
+  <data name="MentalFlare" xml:space="preserve">
+    <value>Flamboiement mental</value>
+  </data>
+  <data name="MentalFocus" xml:space="preserve">
+    <value>Concentration mentale</value>
+  </data>
+  <data name="MessyWounds" xml:space="preserve">
+    <value>Vilaines blessures</value>
+  </data>
+  <data name="MienofHonor" xml:space="preserve">
+    <value>Mine d'honneur</value>
+  </data>
+  <data name="MienofLeadership" xml:space="preserve">
+    <value>Mine de souverain</value>
+  </data>
+  <data name="MightyBlow" xml:space="preserve">
+    <value>Coup puissant</value>
+  </data>
+  <data name="MolotovCocktail" xml:space="preserve">
+    <value>Cocktail Molotov</value>
+  </data>
+  <data name="Monsoon" xml:space="preserve">
+    <value>Mousson</value>
+  </data>
+  <data name="Mortality" xml:space="preserve">
+    <value>Mortalité</value>
+  </data>
+  <data name="MotifofBravery" xml:space="preserve">
+    <value>Motif de bravoure</value>
+  </data>
+  <data name="MotifofEncouragement" xml:space="preserve">
+    <value>Motif d'encouragement</value>
+  </data>
+  <data name="MotifofRegeneration" xml:space="preserve">
+    <value>Motif de récupération</value>
+  </data>
+  <data name="MotifofTenacity" xml:space="preserve">
+    <value>Motif de ténacité</value>
+  </data>
+  <data name="MultipleInstincts" xml:space="preserve">
+    <value>Instincts multiples</value>
+  </data>
+  <data name="MultipleOscillations" xml:space="preserve">
+    <value>Oscillations multiples</value>
+  </data>
+  <data name="NaturalConversion" xml:space="preserve">
+    <value>Conversion naturelle</value>
+  </data>
+  <data name="NaturalHealing" xml:space="preserve">
+    <value>Guérison naturelle</value>
+  </data>
+  <data name="NaturalSplendor" xml:space="preserve">
+    <value>Splendeur naturelle</value>
+  </data>
+  <data name="Nature'sCleansing" xml:space="preserve">
+    <value>Purification de la nature</value>
+  </data>
+  <data name="Nature'sFury" xml:space="preserve">
+    <value>Fureur de la nature</value>
+  </data>
+  <data name="Nature'sTouch" xml:space="preserve">
+    <value>Contact de la nature</value>
+  </data>
+  <data name="NeckPunch" xml:space="preserve">
+    <value>Frappe dans le cou</value>
+  </data>
+  <data name="Necrosis" xml:space="preserve">
+    <value>Nécrose</value>
+  </data>
+  <data name="NecroticBolt" xml:space="preserve">
+    <value>Trait nécrotique</value>
+  </data>
+  <data name="NecroticCore" xml:space="preserve">
+    <value>Noyau nécrotique</value>
+  </data>
+  <data name="NecroticEngine" xml:space="preserve">
+    <value>Moteur nécrotique</value>
+  </data>
+  <data name="NecroticRay" xml:space="preserve">
+    <value>Rayon nécrotique</value>
+  </data>
+  <data name="NecroticTorrent" xml:space="preserve">
+    <value>Torrent nécrotique</value>
+  </data>
+  <data name="NecroticWounds" xml:space="preserve">
+    <value>Blessures nécrotiques</value>
+  </data>
+  <data name="Neddra'sEssence" xml:space="preserve">
+    <value>Essence de Neddra</value>
+  </data>
+  <data name="Neddra'sGrasp" xml:space="preserve">
+    <value>Poigne de Neddra</value>
+  </data>
+  <data name="Neddra'sInfluence" xml:space="preserve">
+    <value>Influence de Neddra</value>
+  </data>
+  <data name="Neddra'sMight" xml:space="preserve">
+    <value>Puissance de Neddra</value>
+  </data>
+  <data name="Neddra'sTorture" xml:space="preserve">
+    <value>Torture de Neddra</value>
+  </data>
+  <data name="NeuralProd" xml:space="preserve">
+    <value>Aiguillon neuronal</value>
+  </data>
+  <data name="NightbladeMastery" xml:space="preserve">
+    <value>Maîtrise de Lame Noire</value>
+  </data>
+  <data name="NoPermissiontoDie" xml:space="preserve">
+    <value>Interdiction de mourir</value>
+  </data>
+  <data name="NotionTheft" xml:space="preserve">
+    <value>Capture d'offensive</value>
+  </data>
+  <data name="NumbingCold" xml:space="preserve">
+    <value>Froid engourdissant</value>
+  </data>
+  <data name="Nyol'sHope" xml:space="preserve">
+    <value>Espoir de Nyol</value>
+  </data>
+  <data name="Nysyr'sRebuke" xml:space="preserve">
+    <value>Réprimande de Nysyr</value>
+  </data>
+  <data name="Nyx'sOrb" xml:space="preserve">
+    <value>Orbe de Nyx</value>
+  </data>
+  <data name="Obliterate" xml:space="preserve">
+    <value>Oblitération</value>
+  </data>
+  <data name="Ocean'sGlory" xml:space="preserve">
+    <value>Gloire de l'Océan</value>
+  </data>
+  <data name="OffensiveBlast" xml:space="preserve">
+    <value>Explosion offensive</value>
+  </data>
+  <data name="OntheDouble" xml:space="preserve">
+    <value>Au pas de course</value>
+  </data>
+  <data name="OpentheStream" xml:space="preserve">
+    <value>Ouverture du Fleuve</value>
+  </data>
+  <data name="OpenWater" xml:space="preserve">
+    <value>En eaux profondes</value>
+  </data>
+  <data name="Opportunity" xml:space="preserve">
+    <value>Opportunité</value>
+  </data>
+  <data name="OrbsoftheStream" xml:space="preserve">
+    <value>Orbes du courant</value>
+  </data>
+  <data name="OrbsoftheTide" xml:space="preserve">
+    <value>Orbes du flux</value>
+  </data>
+  <data name="OrchestraofthePlanes" xml:space="preserve">
+    <value>Orchestre des Plans</value>
+  </data>
+  <data name="OverflowingRenewal" xml:space="preserve">
+    <value>Renouveau luxuriant</value>
+  </data>
+  <data name="Oversaturation" xml:space="preserve">
+    <value>Sursaturation</value>
+  </data>
+  <data name="PacifyingStrike" xml:space="preserve">
+    <value>Frappe pacificatrice</value>
+  </data>
+  <data name="PainArmor" xml:space="preserve">
+    <value>Armure de souffrance</value>
+  </data>
+  <data name="PainTransmission" xml:space="preserve">
+    <value>Transmission de douleur</value>
+  </data>
+  <data name="Paladin'sGift" xml:space="preserve">
+    <value>Don du Paladin</value>
+  </data>
+  <data name="ParalyzingStrike" xml:space="preserve">
+    <value>Frappe paralysante</value>
+  </data>
+  <data name="Parasite" xml:space="preserve">
+    <value>Parasite</value>
+  </data>
+  <data name="Patron'sBlessing" xml:space="preserve">
+    <value>Bénédiction du Protecteur</value>
+  </data>
+  <data name="Patron'sRage" xml:space="preserve">
+    <value>Rage du Protecteur</value>
+  </data>
+  <data name="PeaceoftheForest" xml:space="preserve">
+    <value>Paix de la forêt</value>
+  </data>
+  <data name="Perseverance" xml:space="preserve">
+    <value>Persévérance</value>
+  </data>
+  <data name="Persist" xml:space="preserve">
+    <value>Persister</value>
+  </data>
+  <data name="PhantomBlades" xml:space="preserve">
+    <value>Lames fantômes</value>
+  </data>
+  <data name="PhantomBlow" xml:space="preserve">
+    <value>Coup fantôme</value>
+  </data>
+  <data name="PhaseStep" xml:space="preserve">
+    <value>Phase de marche</value>
+  </data>
+  <data name="PhysicalWellness" xml:space="preserve">
+    <value>Bien-être physique</value>
+  </data>
+  <data name="PiercingBeam" xml:space="preserve">
+    <value>Rayon perforant</value>
+  </data>
+  <data name="PiercingShot" xml:space="preserve">
+    <value>Tir perforant</value>
+  </data>
+  <data name="PiercingThrust" xml:space="preserve">
+    <value>Poussée perforante</value>
+  </data>
+  <data name="PillagingStone" xml:space="preserve">
+    <value>Pierre de pillage</value>
+  </data>
+  <data name="PinDown" xml:space="preserve">
+    <value>Punaisage</value>
+  </data>
+  <data name="PlagueBolt" xml:space="preserve">
+    <value>Trait de peste</value>
+  </data>
+  <data name="PlagueBringer" xml:space="preserve">
+    <value>Semeur de peste</value>
+  </data>
+  <data name="PlanarAttraction" xml:space="preserve">
+    <value>Attraction planaire</value>
+  </data>
+  <data name="PlanarBlade" xml:space="preserve">
+    <value>Lame planaire</value>
+  </data>
+  <data name="PlanarDisruption" xml:space="preserve">
+    <value>Perturbation planaire</value>
+  </data>
+  <data name="PlanarRefuge" xml:space="preserve">
+    <value>Refuge planaire</value>
+  </data>
+  <data name="PlanarRetreat" xml:space="preserve">
+    <value>Retraite planaire</value>
+  </data>
+  <data name="PlanarReversal" xml:space="preserve">
+    <value>Revers planaire</value>
+  </data>
+  <data name="PlanarShield" xml:space="preserve">
+    <value>Bouclier planaire</value>
+  </data>
+  <data name="PlanarSplash" xml:space="preserve">
+    <value>Éclaboussure planaire</value>
+  </data>
+  <data name="PlanarStrike" xml:space="preserve">
+    <value>Frappe planaire</value>
+  </data>
+  <data name="PlaneboundAegis" xml:space="preserve">
+    <value>Égide liée à un Plan</value>
+  </data>
+  <data name="PlaneboundResilience" xml:space="preserve">
+    <value>Résistance liée à un Plan</value>
+  </data>
+  <data name="PointtoPoint" xml:space="preserve">
+    <value>D'un point à l'autre</value>
+  </data>
+  <data name="PoisonGas" xml:space="preserve">
+    <value>Gaz empoisonné</value>
+  </data>
+  <data name="PoisonMalice" xml:space="preserve">
+    <value>Poison malveillant</value>
+  </data>
+  <data name="PoolofRestoration" xml:space="preserve">
+    <value>Bassin de restauration</value>
+  </data>
+  <data name="Possession" xml:space="preserve">
+    <value>Possession</value>
+  </data>
+  <data name="PouringRain" xml:space="preserve">
+    <value>Pluie diluvienne</value>
+  </data>
+  <data name="PowerChord" xml:space="preserve">
+    <value>Accord de puissance</value>
+  </data>
+  <data name="PowerCore" xml:space="preserve">
+    <value>Noyau d'énergie</value>
+  </data>
+  <data name="PowerDrain" xml:space="preserve">
+    <value>Absorption de pouvoir</value>
+  </data>
+  <data name="PowerofthePlanes" xml:space="preserve">
+    <value>Force des plans</value>
+  </data>
+  <data name="PowerShield" xml:space="preserve">
+    <value>Bouclier d'énergie</value>
+  </data>
+  <data name="PowerStrike" xml:space="preserve">
+    <value>Frappe puissante</value>
+  </data>
+  <data name="PreceptofRefuge" xml:space="preserve">
+    <value>Précepte de refuge</value>
+  </data>
+  <data name="PrecisionStrike" xml:space="preserve">
+    <value>Frappe de précision</value>
+  </data>
+  <data name="PredatoryInstincts" xml:space="preserve">
+    <value>Instincts de prédateur</value>
+  </data>
+  <data name="PredictableMovements" xml:space="preserve">
+    <value>Mouvements prévisibles</value>
+  </data>
+  <data name="Priest'sLament" xml:space="preserve">
+    <value>Lamentation du prêtre</value>
+  </data>
+  <data name="PrimalHeal" xml:space="preserve">
+    <value>Soin primitif</value>
+  </data>
+  <data name="PrimalLucidity" xml:space="preserve">
+    <value>Lucidité primitive</value>
+  </data>
+  <data name="PrimalStrike" xml:space="preserve">
+    <value>Frappe primitive</value>
+  </data>
+  <data name="Prime" xml:space="preserve">
+    <value>Apogée</value>
+  </data>
+  <data name="PrismaticArmor" xml:space="preserve">
+    <value>Armure prismatique</value>
+  </data>
+  <data name="PrismaticVolley" xml:space="preserve">
+    <value>Volée prismatique</value>
+  </data>
+  <data name="ProperTiming" xml:space="preserve">
+    <value>Synchronisation</value>
+  </data>
+  <data name="ProtectiveShield" xml:space="preserve">
+    <value>Bouclier protecteur</value>
+  </data>
+  <data name="Protector'sFury" xml:space="preserve">
+    <value>Fureur du Protecteur</value>
+  </data>
+  <data name="Provoke" xml:space="preserve">
+    <value>Provocation</value>
+  </data>
+  <data name="Puncture" xml:space="preserve">
+    <value>Piqûre</value>
+  </data>
+  <data name="PunishingBlow" xml:space="preserve">
+    <value>Frappe punitive</value>
+  </data>
+  <data name="Purge" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="Purification" xml:space="preserve">
+    <value>Purification</value>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>Intention</value>
+  </data>
+  <data name="PursuitofTruth" xml:space="preserve">
+    <value>Poursuite de la vérité</value>
+  </data>
+  <data name="Putrify" xml:space="preserve">
+    <value>Putréfaction</value>
+  </data>
+  <data name="Pyromancer'sAegis" xml:space="preserve">
+    <value>Égide du Pyromancien</value>
+  </data>
+  <data name="Pyromancer'sArmor" xml:space="preserve">
+    <value>Armure de Pyromancien</value>
+  </data>
+  <data name="QuickenElements" xml:space="preserve">
+    <value>Éléments stimulés</value>
+  </data>
+  <data name="QuickReload" xml:space="preserve">
+    <value>Recharge rapide</value>
+  </data>
+  <data name="QuickShot" xml:space="preserve">
+    <value>Tir rapide</value>
+  </data>
+  <data name="QuickStrike" xml:space="preserve">
+    <value>Frappe rapide</value>
+  </data>
+  <data name="RadiantSpores" xml:space="preserve">
+    <value>Spores rayonnantes</value>
+  </data>
+  <data name="RadiateDeath" xml:space="preserve">
+    <value>Irradiation de Mort</value>
+  </data>
+  <data name="RadicalCoalescence" xml:space="preserve">
+    <value>Union radicale</value>
+  </data>
+  <data name="RageBlight" xml:space="preserve">
+    <value>Fléau de rage</value>
+  </data>
+  <data name="RageoftheNorth" xml:space="preserve">
+    <value>Rage du Nord</value>
+  </data>
+  <data name="Ragestorm" xml:space="preserve">
+    <value>Tempête enragée</value>
+  </data>
+  <data name="RagingElements" xml:space="preserve">
+    <value>Éléments déchaînés</value>
+  </data>
+  <data name="RagingStorm" xml:space="preserve">
+    <value>Orage déchaîné</value>
+  </data>
+  <data name="RainofArrows" xml:space="preserve">
+    <value>Pluie de flèches</value>
+  </data>
+  <data name="RangerMastery" xml:space="preserve">
+    <value>Maîtrise de Rôdeur</value>
+  </data>
+  <data name="RapidFireShot" xml:space="preserve">
+    <value>Tir instantané</value>
+  </data>
+  <data name="RapidSetup" xml:space="preserve">
+    <value>Mise en place rapide</value>
+  </data>
+  <data name="RavagingDarkness" xml:space="preserve">
+    <value>Ténèbres ravageuses</value>
+  </data>
+  <data name="RavagingStrike" xml:space="preserve">
+    <value>Frappe ravageuse</value>
+  </data>
+  <data name="RavenousInstincts" xml:space="preserve">
+    <value>Instincts voraces</value>
+  </data>
+  <data name="ReadyPosture" xml:space="preserve">
+    <value>Posture prête</value>
+  </data>
+  <data name="Reaper'sBearing" xml:space="preserve">
+    <value>Allure de la faucheuse</value>
+  </data>
+  <data name="Reaper'sBlade" xml:space="preserve">
+    <value>Lame de la faucheuse</value>
+  </data>
+  <data name="Reaper'sTouch" xml:space="preserve">
+    <value>Contact de la faucheuse</value>
+  </data>
+  <data name="ReapingHarvest" xml:space="preserve">
+    <value>Moisson</value>
+  </data>
+  <data name="Rebuke" xml:space="preserve">
+    <value>Réprimande</value>
+  </data>
+  <data name="RecklessStrike" xml:space="preserve">
+    <value>Frappe téméraire</value>
+  </data>
+  <data name="Reckoning" xml:space="preserve">
+    <value>Condamnation</value>
+  </data>
+  <data name="ReclaimElements" xml:space="preserve">
+    <value>Récupération des éléments</value>
+  </data>
+  <data name="ReclaimPower" xml:space="preserve">
+    <value>Récupération de pouvoir</value>
+  </data>
+  <data name="RecoveryPosture" xml:space="preserve">
+    <value>Posture de récupération</value>
+  </data>
+  <data name="ReflectiveCommand" xml:space="preserve">
+    <value>Ordre réfléchissant</value>
+  </data>
+  <data name="ReflectivePresence" xml:space="preserve">
+    <value>Présence réfléchissante</value>
+  </data>
+  <data name="Rejuvenate" xml:space="preserve">
+    <value>Cure de jouvence</value>
+  </data>
+  <data name="RendingMunitions" xml:space="preserve">
+    <value>Munitions déchirantes</value>
+  </data>
+  <data name="RendingSlash" xml:space="preserve">
+    <value>Entaille déchirante</value>
+  </data>
+  <data name="RenewedAltruism" xml:space="preserve">
+    <value>Altruisme renouvelé</value>
+  </data>
+  <data name="RepellingShot" xml:space="preserve">
+    <value>Tir percutant</value>
+  </data>
+  <data name="Reprieve" xml:space="preserve">
+    <value>Sursis</value>
+  </data>
+  <data name="Reprisal" xml:space="preserve">
+    <value>Représailles</value>
+  </data>
+  <data name="ResoundingBlow" xml:space="preserve">
+    <value>Coup retentissant</value>
+  </data>
+  <data name="ResplendentEmbrace" xml:space="preserve">
+    <value>Accolade resplendissante</value>
+  </data>
+  <data name="RestorativeBolt" xml:space="preserve">
+    <value>Trait régénérant</value>
+  </data>
+  <data name="RestorativeEngine" xml:space="preserve">
+    <value>Moteur réparateur</value>
+  </data>
+  <data name="Resurgence" xml:space="preserve">
+    <value>Reprise</value>
+  </data>
+  <data name="Retaliation" xml:space="preserve">
+    <value>Rétribution</value>
+  </data>
+  <data name="Retreat" xml:space="preserve">
+    <value>Retraite</value>
+  </data>
+  <data name="ReverentProtection" xml:space="preserve">
+    <value>Protection respectueuse</value>
+  </data>
+  <data name="ReverentSupplication" xml:space="preserve">
+    <value>Supplication respectueuse</value>
+  </data>
+  <data name="ReversalofFortune" xml:space="preserve">
+    <value>Revers de fortune</value>
+  </data>
+  <data name="RidetheLightning" xml:space="preserve">
+    <value>Chevaucher l'éclair</value>
+  </data>
+  <data name="RidetheWind" xml:space="preserve">
+    <value>Chevauchée du vent</value>
+  </data>
+  <data name="Riff" xml:space="preserve">
+    <value>Phrasé mélodique</value>
+  </data>
+  <data name="RiftBarrage" xml:space="preserve">
+    <value>Barrage de Faille</value>
+  </data>
+  <data name="RiftDisturbance" xml:space="preserve">
+    <value>Perturbation de Faille</value>
+  </data>
+  <data name="RiftGuard" xml:space="preserve">
+    <value>Garde-Faille</value>
+  </data>
+  <data name="RiftImplosion" xml:space="preserve">
+    <value>Implosion de Faille</value>
+  </data>
+  <data name="RiftPrison" xml:space="preserve">
+    <value>Prison de Faille</value>
+  </data>
+  <data name="RiftReversal" xml:space="preserve">
+    <value>Inversion de Faille</value>
+  </data>
+  <data name="RiftShield" xml:space="preserve">
+    <value>Bouclier de Faille</value>
+  </data>
+  <data name="RiftSpear" xml:space="preserve">
+    <value>Lance de Faille</value>
+  </data>
+  <data name="RiftstalkerMastery" xml:space="preserve">
+    <value>Maîtrise de Traqueur des Failles</value>
+  </data>
+  <data name="RiftStorm" xml:space="preserve">
+    <value>Tempête de Faille</value>
+  </data>
+  <data name="RiftStrike" xml:space="preserve">
+    <value>Frappe de Faille</value>
+  </data>
+  <data name="RiftSummon" xml:space="preserve">
+    <value>Invocation de Faille</value>
+  </data>
+  <data name="RiftTravel" xml:space="preserve">
+    <value>Voyage de Faille</value>
+  </data>
+  <data name="Riftwalk" xml:space="preserve">
+    <value>Marche de Faille</value>
+  </data>
+  <data name="RighteousBlow" xml:space="preserve">
+    <value>Frappe du juste</value>
+  </data>
+  <data name="RighteousCharge" xml:space="preserve">
+    <value>Charge vertueuse</value>
+  </data>
+  <data name="RighteousDeliberation" xml:space="preserve">
+    <value>Délibération du juste</value>
+  </data>
+  <data name="RighteousImperative" xml:space="preserve">
+    <value>Impératif du juste</value>
+  </data>
+  <data name="RighteousMandate" xml:space="preserve">
+    <value>Mandat du juste</value>
+  </data>
+  <data name="Ripple" xml:space="preserve">
+    <value>Vaguelette</value>
+  </data>
+  <data name="RisingWaterfall" xml:space="preserve">
+    <value>Cascade ascendante</value>
+  </data>
+  <data name="RiteoftheForge" xml:space="preserve">
+    <value>Rite de la forge</value>
+  </data>
+  <data name="RitualofJudgment" xml:space="preserve">
+    <value>Rituel du jugement</value>
+  </data>
+  <data name="RiverofLife" xml:space="preserve">
+    <value>Fleuve de Vie</value>
+  </data>
+  <data name="Ruin" xml:space="preserve">
+    <value>Ruine</value>
+  </data>
+  <data name="RushingElements" xml:space="preserve">
+    <value>Éléments précipités</value>
+  </data>
+  <data name="RushofStrength" xml:space="preserve">
+    <value>Vague de force</value>
+  </data>
+  <data name="SaboteurMastery" xml:space="preserve">
+    <value>Maîtrise de Saboteur</value>
+  </data>
+  <data name="SacrificeLife:Damage" xml:space="preserve">
+    <value>Sacrifice de vie : Dégâts</value>
+  </data>
+  <data name="SacrificeLife:Mana" xml:space="preserve">
+    <value>Sacrifice de vie : Mana</value>
+  </data>
+  <data name="SalvageCorruption" xml:space="preserve">
+    <value>Corruption entretenue</value>
+  </data>
+  <data name="Salvation" xml:space="preserve">
+    <value>Salut</value>
+  </data>
+  <data name="SanctionHeretic" xml:space="preserve">
+    <value>Sanction d'hérétique</value>
+  </data>
+  <data name="SavageStrike" xml:space="preserve">
+    <value>Frappe cruelle</value>
+  </data>
+  <data name="SavageSweep" xml:space="preserve">
+    <value>Balayage sauvage</value>
+  </data>
+  <data name="ScattertheShadows" xml:space="preserve">
+    <value>Dispersion des ombres</value>
+  </data>
+  <data name="Scorch" xml:space="preserve">
+    <value>Ardeur</value>
+  </data>
+  <data name="Scourge" xml:space="preserve">
+    <value>Fléau</value>
+  </data>
+  <data name="ScourgeofDarkness" xml:space="preserve">
+    <value>Fléau des Ténèbres</value>
+  </data>
+  <data name="SearingStrike" xml:space="preserve">
+    <value>Frappe incandescente</value>
+  </data>
+  <data name="SearingVitality" xml:space="preserve">
+    <value>Vitalité incandescente</value>
+  </data>
+  <data name="SeepingDeath" xml:space="preserve">
+    <value>Mort suintante</value>
+  </data>
+  <data name="SentryBattery" xml:space="preserve">
+    <value>Attaque de factionnaire</value>
+  </data>
+  <data name="Sergeant'sOrder" xml:space="preserve">
+    <value>Ordre du sergent</value>
+  </data>
+  <data name="SerpentPose" xml:space="preserve">
+    <value>Position de serpent</value>
+  </data>
+  <data name="SerpentStrike" xml:space="preserve">
+    <value>Frappe du serpent</value>
+  </data>
+  <data name="SettingMoon" xml:space="preserve">
+    <value>Coucher de lune</value>
+  </data>
+  <data name="SeverBonds" xml:space="preserve">
+    <value>Rupture des liens</value>
+  </data>
+  <data name="Shadow'sTouch" xml:space="preserve">
+    <value>Contact de l'ombre</value>
+  </data>
+  <data name="ShadowAssault" xml:space="preserve">
+    <value>Assaut d'ombre</value>
+  </data>
+  <data name="ShadowBlitz" xml:space="preserve">
+    <value>Attaque de l'ombre</value>
+  </data>
+  <data name="ShadowBreach" xml:space="preserve">
+    <value>Brèche de l'Ombre</value>
+  </data>
+  <data name="ShadowFire" xml:space="preserve">
+    <value>Feu de l'ombre</value>
+  </data>
+  <data name="ShadowofDread" xml:space="preserve">
+    <value>Ombre de terreur</value>
+  </data>
+  <data name="ShadowShift" xml:space="preserve">
+    <value>Ombre glissante</value>
+  </data>
+  <data name="ShadowStalk" xml:space="preserve">
+    <value>Guet de l'ombre</value>
+  </data>
+  <data name="SharedExcess" xml:space="preserve">
+    <value>Excès partagé</value>
+  </data>
+  <data name="SharedSuffering" xml:space="preserve">
+    <value>Souffrance partagée</value>
+  </data>
+  <data name="SharedVigor" xml:space="preserve">
+    <value>Vigueur partagée</value>
+  </data>
+  <data name="ShieldDefense" xml:space="preserve">
+    <value>Défense du bouclier</value>
+  </data>
+  <data name="ShieldofOak" xml:space="preserve">
+    <value>Bouclier de chêne</value>
+  </data>
+  <data name="ShieldoftheChosen" xml:space="preserve">
+    <value>Bouclier de l'Élu</value>
+  </data>
+  <data name="ShieldoftheHero" xml:space="preserve">
+    <value>Bouclier du héros</value>
+  </data>
+  <data name="ShieldoftheVengeful" xml:space="preserve">
+    <value>Bouclier du revanchard</value>
+  </data>
+  <data name="ShieldofWill" xml:space="preserve">
+    <value>Bouclier de volonté</value>
+  </data>
+  <data name="ShiftingBlades" xml:space="preserve">
+    <value>Lames changeantes</value>
+  </data>
+  <data name="Shock" xml:space="preserve">
+    <value>Choc</value>
+  </data>
+  <data name="ShockBurst" xml:space="preserve">
+    <value>Explosion choquante</value>
+  </data>
+  <data name="ShockPulse" xml:space="preserve">
+    <value>Impulsion choquante</value>
+  </data>
+  <data name="ShrapnelCharge" xml:space="preserve">
+    <value>Charge à shrapnels</value>
+  </data>
+  <data name="ShroudofAgony" xml:space="preserve">
+    <value>Linceul d'agonie</value>
+  </data>
+  <data name="SideSteps" xml:space="preserve">
+    <value>Pas de côté</value>
+  </data>
+  <data name="SigilofBinding" xml:space="preserve">
+    <value>Sceau du Lien</value>
+  </data>
+  <data name="SigilofCatastrophe" xml:space="preserve">
+    <value>Sceau de catastrophe</value>
+  </data>
+  <data name="SigilofRuin" xml:space="preserve">
+    <value>Sceau de la Ruine</value>
+  </data>
+  <data name="SigilofSecrecy" xml:space="preserve">
+    <value>Sceau du Silence</value>
+  </data>
+  <data name="SigilofSpirits" xml:space="preserve">
+    <value>Sceau des Esprits</value>
+  </data>
+  <data name="SigilofWoe" xml:space="preserve">
+    <value>Sceau du Malheur</value>
+  </data>
+  <data name="SignofAnticipation" xml:space="preserve">
+    <value>Signe d'anticipation</value>
+  </data>
+  <data name="SignofAsias" xml:space="preserve">
+    <value>Signe d'Asias</value>
+  </data>
+  <data name="SignofDaring" xml:space="preserve">
+    <value>Signe d'audace</value>
+  </data>
+  <data name="SignofFaith" xml:space="preserve">
+    <value>Signe de foi</value>
+  </data>
+  <data name="SignofWrath" xml:space="preserve">
+    <value>Signe de courroux</value>
+  </data>
+  <data name="SilverTipMunitions" xml:space="preserve">
+    <value>Munitions à pointe d'argent</value>
+  </data>
+  <data name="SiphonVitality" xml:space="preserve">
+    <value>Siphonage de vitalité</value>
+  </data>
+  <data name="Skyfall" xml:space="preserve">
+    <value>Chute céleste</value>
+  </data>
+  <data name="Slayer'sBearing" xml:space="preserve">
+    <value>Allure de tueur</value>
+  </data>
+  <data name="SlipAway" xml:space="preserve">
+    <value>Éclipse</value>
+  </data>
+  <data name="Slumber" xml:space="preserve">
+    <value>Sommeil</value>
+  </data>
+  <data name="SmolderingBlades" xml:space="preserve">
+    <value>Lames fumantes</value>
+  </data>
+  <data name="Smother" xml:space="preserve">
+    <value>Étouffement</value>
+  </data>
+  <data name="Snowbank" xml:space="preserve">
+    <value>Congère</value>
+  </data>
+  <data name="Soldier'sBearing" xml:space="preserve">
+    <value>Allure de soldat</value>
+  </data>
+  <data name="SomaticDesecration" xml:space="preserve">
+    <value>Profanation somatique</value>
+  </data>
+  <data name="SoothingStream" xml:space="preserve">
+    <value>Courant apaisant</value>
+  </data>
+  <data name="SoulBond" xml:space="preserve">
+    <value>Lien d'Âme</value>
+  </data>
+  <data name="SoulBrand" xml:space="preserve">
+    <value>Brandon d'âme</value>
+  </data>
+  <data name="SoulCoalescence" xml:space="preserve">
+    <value>Union d'âmes</value>
+  </data>
+  <data name="SoulDrain" xml:space="preserve">
+    <value>Aspiration d'âme</value>
+  </data>
+  <data name="SoulPurge" xml:space="preserve">
+    <value>Purge d'âme</value>
+  </data>
+  <data name="SoulSickness" xml:space="preserve">
+    <value>Maladie de l'âme</value>
+  </data>
+  <data name="SoulSynthesis" xml:space="preserve">
+    <value>Synthèse de l'âme</value>
+  </data>
+  <data name="SoulTether" xml:space="preserve">
+    <value>Lien d'âme</value>
+  </data>
+  <data name="Sovereignty" xml:space="preserve">
+    <value>Souveraineté</value>
+  </data>
+  <data name="Spark" xml:space="preserve">
+    <value>Étincelle</value>
+  </data>
+  <data name="SparkShower" xml:space="preserve">
+    <value>Pluie d'étincelles</value>
+  </data>
+  <data name="Spasm" xml:space="preserve">
+    <value>Spasme</value>
+  </data>
+  <data name="Spellbreaker" xml:space="preserve">
+    <value>Brise-sort</value>
+  </data>
+  <data name="SpellDestruction" xml:space="preserve">
+    <value>Destruction de sort</value>
+  </data>
+  <data name="SpellSunder" xml:space="preserve">
+    <value>Scission de sort</value>
+  </data>
+  <data name="SpikeBomb" xml:space="preserve">
+    <value>Bombe à pointes</value>
+  </data>
+  <data name="SpikeCharge" xml:space="preserve">
+    <value>Charge à pointes</value>
+  </data>
+  <data name="SpiritofAsphodel" xml:space="preserve">
+    <value>Esprit d'Asphodel</value>
+  </data>
+  <data name="SpiritoftheWilderness" xml:space="preserve">
+    <value>Esprit de la nature</value>
+  </data>
+  <data name="SpiritofUpheaval" xml:space="preserve">
+    <value>Esprit de chamboulement</value>
+  </data>
+  <data name="SpiritualConflagration" xml:space="preserve">
+    <value>Conflagration spirituelle</value>
+  </data>
+  <data name="SpiritualDeficiency" xml:space="preserve">
+    <value>Déficience spirituelle</value>
+  </data>
+  <data name="SpiritualProtection" xml:space="preserve">
+    <value>Protection spirituelle</value>
+  </data>
+  <data name="SpiritualScrutiny" xml:space="preserve">
+    <value>Examen spirituel</value>
+  </data>
+  <data name="SplinterBomb" xml:space="preserve">
+    <value>Bombe à éclats</value>
+  </data>
+  <data name="SplinterShot" xml:space="preserve">
+    <value>Tir à éclats</value>
+  </data>
+  <data name="SplitPersonality" xml:space="preserve">
+    <value>Personnalité multiple</value>
+  </data>
+  <data name="Spotter'sCall" xml:space="preserve">
+    <value>Appel de l'observateur</value>
+  </data>
+  <data name="Sprint" xml:space="preserve">
+    <value>Sprint</value>
+  </data>
+  <data name="StalkerPhase" xml:space="preserve">
+    <value>Mode guetteur</value>
+  </data>
+  <data name="StaticBarrier" xml:space="preserve">
+    <value>Barrière statique</value>
+  </data>
+  <data name="StaticDischarge" xml:space="preserve">
+    <value>Décharge statique</value>
+  </data>
+  <data name="StaticFlux" xml:space="preserve">
+    <value>Flux statique</value>
+  </data>
+  <data name="StaticNova" xml:space="preserve">
+    <value>Nova statique</value>
+  </data>
+  <data name="StaticShockMunitions" xml:space="preserve">
+    <value>Munitions de choc statique</value>
+  </data>
+  <data name="StaticShot" xml:space="preserve">
+    <value>Tir statique</value>
+  </data>
+  <data name="SteadfastReturn" xml:space="preserve">
+    <value>Retour vaillant</value>
+  </data>
+  <data name="Stealth" xml:space="preserve">
+    <value>Furtivité</value>
+  </data>
+  <data name="Sterilize" xml:space="preserve">
+    <value>Stérilisation</value>
+  </data>
+  <data name="StoneArmor" xml:space="preserve">
+    <value>Armure de pierre</value>
+  </data>
+  <data name="Stoneshield" xml:space="preserve">
+    <value>Bouclier de pierre</value>
+  </data>
+  <data name="Stonespear" xml:space="preserve">
+    <value>Lance de pierre</value>
+  </data>
+  <data name="Storm'sFury" xml:space="preserve">
+    <value>Fureur de tempête</value>
+  </data>
+  <data name="StormArmor" xml:space="preserve">
+    <value>Armure de tempête</value>
+  </data>
+  <data name="StormBlade" xml:space="preserve">
+    <value>Lame-tempête</value>
+  </data>
+  <data name="Stormbolt" xml:space="preserve">
+    <value>Éclair foudroyant</value>
+  </data>
+  <data name="StormBurst" xml:space="preserve">
+    <value>Explosion d'orage</value>
+  </data>
+  <data name="StormGuard" xml:space="preserve">
+    <value>Garde-tempête</value>
+  </data>
+  <data name="StormShackle" xml:space="preserve">
+    <value>Entraves orageuses</value>
+  </data>
+  <data name="StormShield" xml:space="preserve">
+    <value>Bouclier orageux</value>
+  </data>
+  <data name="StormShroud" xml:space="preserve">
+    <value>Suaire de la Tempête</value>
+  </data>
+  <data name="StormSlash" xml:space="preserve">
+    <value>Taillade de la Tempête</value>
+  </data>
+  <data name="StormSurge" xml:space="preserve">
+    <value>Poussée tempétueuse</value>
+  </data>
+  <data name="StormTorrent" xml:space="preserve">
+    <value>Torrent tempétueux</value>
+  </data>
+  <data name="Strafe" xml:space="preserve">
+    <value>Salve</value>
+  </data>
+  <data name="StrengthoftheFae" xml:space="preserve">
+    <value>Force des Fées</value>
+  </data>
+  <data name="StrikeLikeIron" xml:space="preserve">
+    <value>Frappe de fer</value>
+  </data>
+  <data name="StrikeofJudgment" xml:space="preserve">
+    <value>Frappe de jugement</value>
+  </data>
+  <data name="StrikeofRetribution" xml:space="preserve">
+    <value>Frappe de rétribution</value>
+  </data>
+  <data name="StrikeoftheMaelstrom" xml:space="preserve">
+    <value>Frappe du maelström</value>
+  </data>
+  <data name="StumblingCorruption" xml:space="preserve">
+    <value>Corruption instable</value>
+  </data>
+  <data name="SubtleInvocation" xml:space="preserve">
+    <value>Invocation subtile</value>
+  </data>
+  <data name="Subtlety" xml:space="preserve">
+    <value>Subtilité</value>
+  </data>
+  <data name="Summon:FaerieHealer" xml:space="preserve">
+    <value>Fée guérisseuse</value>
+  </data>
+  <data name="Summon:FireElemental" xml:space="preserve">
+    <value>Élémentaire de Feu</value>
+  </data>
+  <data name="Summon:GreaterAirElemental" xml:space="preserve">
+    <value>Élémentaire d'Air majeur</value>
+  </data>
+  <data name="Summon:GreaterEarthElemental" xml:space="preserve">
+    <value>Élémentaire de Terre majeur</value>
+  </data>
+  <data name="Summon:GreaterFaerieHealer" xml:space="preserve">
+    <value>Guérisseuse féérique majeure</value>
+  </data>
+  <data name="Summon:GreaterFaerieSeer" xml:space="preserve">
+    <value>Oracle féérique majeur</value>
+  </data>
+  <data name="Summon:GreaterSatyrDestroyer" xml:space="preserve">
+    <value>Satyre destructeur majeur</value>
+  </data>
+  <data name="Summon:GreaterSatyrProtector" xml:space="preserve">
+    <value>Satyre protecteur majeur</value>
+  </data>
+  <data name="Summon:GreaterSkeletalKnight" xml:space="preserve">
+    <value>Invocation : Chevalier squelettique majeur</value>
+  </data>
+  <data name="Summon:GreaterSkeletalZealot" xml:space="preserve">
+    <value>Invocation : Zélote squelettique majeur</value>
+  </data>
+  <data name="Summon:LesserAirElemental" xml:space="preserve">
+    <value>Élémentaire d'Air mineur</value>
+  </data>
+  <data name="Summon:LesserEarthElemental" xml:space="preserve">
+    <value>Élémentaire de Terre mineur</value>
+  </data>
+  <data name="Summon:LesserSkeletalKnight" xml:space="preserve">
+    <value>Chevalier squelettique inférieur</value>
+  </data>
+  <data name="Summon:LesserSkeletalZealot" xml:space="preserve">
+    <value>Zélote squelettique inférieur</value>
+  </data>
+  <data name="Summon:SatyrProtector" xml:space="preserve">
+    <value>Satyre protecteur</value>
+  </data>
+  <data name="Summon:ShadowRevenant" xml:space="preserve">
+    <value>Revenant de l'Ombre</value>
+  </data>
+  <data name="Summon:WaterElemental" xml:space="preserve">
+    <value>Élémentaire d'Eau</value>
+  </data>
+  <data name="SummonBeaconofDespair" xml:space="preserve">
+    <value>Fétiche du tourment</value>
+  </data>
+  <data name="SummonGreaterPrimalCompanion" xml:space="preserve">
+    <value>Compagnon primitif supérieur</value>
+  </data>
+  <data name="SummonLesserPrimalCompanion" xml:space="preserve">
+    <value>Compagnon primitif inférieur</value>
+  </data>
+  <data name="SurgingFlare" xml:space="preserve">
+    <value>Propagation de flamboiement</value>
+  </data>
+  <data name="SweepingBlades" xml:space="preserve">
+    <value>Lames balayantes</value>
+  </data>
+  <data name="SweepingStrike" xml:space="preserve">
+    <value>Balayage</value>
+  </data>
+  <data name="SwiftShot" xml:space="preserve">
+    <value>Tir vif</value>
+  </data>
+  <data name="SwiftStrike" xml:space="preserve">
+    <value>Frappe rapide</value>
+  </data>
+  <data name="Symbiosis" xml:space="preserve">
+    <value>Symbiose</value>
+  </data>
+  <data name="SymboloftheAncient" xml:space="preserve">
+    <value>Symbole de l'Ancien</value>
+  </data>
+  <data name="SymboloftheSun" xml:space="preserve">
+    <value>Symbole du Soleil</value>
+  </data>
+  <data name="SymboloftheTorch" xml:space="preserve">
+    <value>Symbole de la Torche</value>
+  </data>
+  <data name="Synergize" xml:space="preserve">
+    <value>Synergie</value>
+  </data>
+  <data name="Synthesis" xml:space="preserve">
+    <value>Synthèse</value>
+  </data>
+  <data name="TacticalSurge" xml:space="preserve">
+    <value>Poussée tactique</value>
+  </data>
+  <data name="TacticianMastery" xml:space="preserve">
+    <value>Maîtrise de Stratéguerre</value>
+  </data>
+  <data name="TearingSlash" xml:space="preserve">
+    <value>Taillade déchirante</value>
+  </data>
+  <data name="Tempest" xml:space="preserve">
+    <value>Tempête</value>
+  </data>
+  <data name="TempestArmor" xml:space="preserve">
+    <value>Armure tempétueuse</value>
+  </data>
+  <data name="TempestWinds" xml:space="preserve">
+    <value>Vents tempétueux</value>
+  </data>
+  <data name="ThornsofIre" xml:space="preserve">
+    <value>Épines de courroux</value>
+  </data>
+  <data name="ThreadofDeath" xml:space="preserve">
+    <value>Fil de la Mort</value>
+  </data>
+  <data name="ThreadtheTrees" xml:space="preserve">
+    <value>Enfilade</value>
+  </data>
+  <data name="ThroughStep" xml:space="preserve">
+    <value>Pas de contournement</value>
+  </data>
+  <data name="ThunderBlast" xml:space="preserve">
+    <value>Explosion de tonnerre</value>
+  </data>
+  <data name="Thunderbolt" xml:space="preserve">
+    <value>Foudre</value>
+  </data>
+  <data name="ThunderousKick" xml:space="preserve">
+    <value>Coup de pied retentissant</value>
+  </data>
+  <data name="ThunderousStrike" xml:space="preserve">
+    <value>Frappe assourdissante</value>
+  </data>
+  <data name="ThunderStrike" xml:space="preserve">
+    <value>Frappe de tonnerre</value>
+  </data>
+  <data name="TidalSurge" xml:space="preserve">
+    <value>Poussée des marées</value>
+  </data>
+  <data name="TimeBomb" xml:space="preserve">
+    <value>Bombe à retardement</value>
+  </data>
+  <data name="Titan'sStrike" xml:space="preserve">
+    <value>Frappe du titan</value>
+  </data>
+  <data name="TorrentPrimer" xml:space="preserve">
+    <value>Amorce torrentielle</value>
+  </data>
+  <data name="TotalAssurance" xml:space="preserve">
+    <value>Assurance complète</value>
+  </data>
+  <data name="TouchofDarkness" xml:space="preserve">
+    <value>Contact des Ténèbres</value>
+  </data>
+  <data name="TouchofLife" xml:space="preserve">
+    <value>Contact de Vie</value>
+  </data>
+  <data name="TouchtheLight" xml:space="preserve">
+    <value>Toucher de lumière</value>
+  </data>
+  <data name="TraitorousInfluence" xml:space="preserve">
+    <value>Influence traîtresse</value>
+  </data>
+  <data name="Tranquility" xml:space="preserve">
+    <value>Tranquillité</value>
+  </data>
+  <data name="Transference" xml:space="preserve">
+    <value>Transfert</value>
+  </data>
+  <data name="Transmogrify" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="TrapExtension" xml:space="preserve">
+    <value>Extension de piège</value>
+  </data>
+  <data name="Trepidation" xml:space="preserve">
+    <value>Appréhension</value>
+  </data>
+  <data name="TrickShot" xml:space="preserve">
+    <value>Tir astucieux</value>
+  </data>
+  <data name="Trickster'sBolt" xml:space="preserve">
+    <value>Trait de l'Entourloupeur</value>
+  </data>
+  <data name="TurntheBlade" xml:space="preserve">
+    <value>Retournement de lame</value>
+  </data>
+  <data name="TwilightForce" xml:space="preserve">
+    <value>Force crépusculaire</value>
+  </data>
+  <data name="TwilightTranscendence" xml:space="preserve">
+    <value>Transcendance crépusculaire</value>
+  </data>
+  <data name="TwinCuts" xml:space="preserve">
+    <value>Filets jumeaux</value>
+  </data>
+  <data name="TwinShot" xml:space="preserve">
+    <value>Tirs jumeaux</value>
+  </data>
+  <data name="TwinStrike" xml:space="preserve">
+    <value>Frappe jumelée</value>
+  </data>
+  <data name="TyrannyofDeath" xml:space="preserve">
+    <value>Tyrannie de la Mort</value>
+  </data>
+  <data name="UnboundedOblivion" xml:space="preserve">
+    <value>Déferlement de l'oubli</value>
+  </data>
+  <data name="UnholyNexus" xml:space="preserve">
+    <value>Nexus impie</value>
+  </data>
+  <data name="Unleashed" xml:space="preserve">
+    <value>Libéré</value>
+  </data>
+  <data name="UnleashOblivion" xml:space="preserve">
+    <value>Déchaînement de l'oubli</value>
+  </data>
+  <data name="UnstableReaction" xml:space="preserve">
+    <value>Réaction instable</value>
+  </data>
+  <data name="UnstableTransformation" xml:space="preserve">
+    <value>Transformation instable</value>
+  </data>
+  <data name="UnstableVoid" xml:space="preserve">
+    <value>Néant instable</value>
+  </data>
+  <data name="Untangle" xml:space="preserve">
+    <value>Démêlage</value>
+  </data>
+  <data name="Urgency" xml:space="preserve">
+    <value>Urgence</value>
+  </data>
+  <data name="VampiricMunitions" xml:space="preserve">
+    <value>Munitions vampiriques</value>
+  </data>
+  <data name="VengeanceofthePrimalNorth" xml:space="preserve">
+    <value>Vengeance du nord primitif</value>
+  </data>
+  <data name="VengeanceoftheWinterStorm" xml:space="preserve">
+    <value>Vengeance de la tempête hivernale</value>
+  </data>
+  <data name="VengefulShock" xml:space="preserve">
+    <value>Choc vengeur</value>
+  </data>
+  <data name="VerseofAgony" xml:space="preserve">
+    <value>Couplet d'agonie</value>
+  </data>
+  <data name="VerseofCaptivation" xml:space="preserve">
+    <value>Couplet captivant</value>
+  </data>
+  <data name="VerseofFascination" xml:space="preserve">
+    <value>Couplet de fascination</value>
+  </data>
+  <data name="VerseofJoy" xml:space="preserve">
+    <value>Couplet de joie</value>
+  </data>
+  <data name="VerseofOcclusion" xml:space="preserve">
+    <value>Couplet d'occlusion</value>
+  </data>
+  <data name="VerseofVitality" xml:space="preserve">
+    <value>Couplet de vitalité</value>
+  </data>
+  <data name="Vex" xml:space="preserve">
+    <value>Vexation</value>
+  </data>
+  <data name="ViciousBlow" xml:space="preserve">
+    <value>Coup brutal</value>
+  </data>
+  <data name="ViciousOpportunity" xml:space="preserve">
+    <value>Opportunité vicieuse</value>
+  </data>
+  <data name="Vigilance" xml:space="preserve">
+    <value>Vigilance</value>
+  </data>
+  <data name="VileSpores" xml:space="preserve">
+    <value>Spores infâmes</value>
+  </data>
+  <data name="Virtuoso" xml:space="preserve">
+    <value>Virtuose</value>
+  </data>
+  <data name="VirulentPoison" xml:space="preserve">
+    <value>Poison virulent</value>
+  </data>
+  <data name="VitalityofStone" xml:space="preserve">
+    <value>Vitalité de pierre</value>
+  </data>
+  <data name="Void" xml:space="preserve">
+    <value>Néant</value>
+  </data>
+  <data name="VoidBarrage" xml:space="preserve">
+    <value>Barrage du Néant</value>
+  </data>
+  <data name="VoidBolt" xml:space="preserve">
+    <value>Trait du vide</value>
+  </data>
+  <data name="VoidLife" xml:space="preserve">
+    <value>Vie caduque</value>
+  </data>
+  <data name="VoidPropulsion" xml:space="preserve">
+    <value>Propulsion du Néant</value>
+  </data>
+  <data name="VoidStorm" xml:space="preserve">
+    <value>Tempête du Néant</value>
+  </data>
+  <data name="VoidSummon" xml:space="preserve">
+    <value>Invocation du Néant</value>
+  </data>
+  <data name="VoidWall" xml:space="preserve">
+    <value>Mur du Néant</value>
+  </data>
+  <data name="VolcanicBomb" xml:space="preserve">
+    <value>Bombe volcanique</value>
+  </data>
+  <data name="VolcanicEruption" xml:space="preserve">
+    <value>Éruption volcanique</value>
+  </data>
+  <data name="VorpalSlash" xml:space="preserve">
+    <value>Taillade vorpale</value>
+  </data>
+  <data name="WaningPower" xml:space="preserve">
+    <value>Puissance déclinante</value>
+  </data>
+  <data name="WardofFire" xml:space="preserve">
+    <value>Voile de feu</value>
+  </data>
+  <data name="WardofFlame" xml:space="preserve">
+    <value>Voile de flammes</value>
+  </data>
+  <data name="WardofScorching" xml:space="preserve">
+    <value>Voile ardent</value>
+  </data>
+  <data name="WarlockArmor" xml:space="preserve">
+    <value>Armure d'Anathema</value>
+  </data>
+  <data name="Waterjet" xml:space="preserve">
+    <value>Jet d'eau</value>
+  </data>
+  <data name="Wavelength" xml:space="preserve">
+    <value>Longueur d'onde</value>
+  </data>
+  <data name="WaveofRenewal" xml:space="preserve">
+    <value>Vague de renouveau</value>
+  </data>
+  <data name="WaveofSteel" xml:space="preserve">
+    <value>Vague d'acier</value>
+  </data>
+  <data name="WayoftheMountain" xml:space="preserve">
+    <value>Voie de la montagne</value>
+  </data>
+  <data name="WayoftheRiver" xml:space="preserve">
+    <value>Voie de la rivière</value>
+  </data>
+  <data name="WayoftheSun" xml:space="preserve">
+    <value>Voie du soleil</value>
+  </data>
+  <data name="WayoftheWind" xml:space="preserve">
+    <value>Voie du vent</value>
+  </data>
+  <data name="WeaponBarrage" xml:space="preserve">
+    <value>Barrage d'armes</value>
+  </data>
+  <data name="WeaponDefense" xml:space="preserve">
+    <value>Défense de l'arme</value>
+  </data>
+  <data name="WeaponFlare" xml:space="preserve">
+    <value>Flamboiement d'arme</value>
+  </data>
+  <data name="WellofSouls" xml:space="preserve">
+    <value>Puits des âmes</value>
+  </data>
+  <data name="WildGrowth" xml:space="preserve">
+    <value>Croissance sauvage</value>
+  </data>
+  <data name="WildStrike" xml:space="preserve">
+    <value>Frappe sauvage</value>
+  </data>
+  <data name="WindChill" xml:space="preserve">
+    <value>Frisson venteux</value>
+  </data>
+  <data name="Windspear" xml:space="preserve">
+    <value>Lance de vent</value>
+  </data>
+  <data name="Windwalk" xml:space="preserve">
+    <value>Marche du vent</value>
+  </data>
+  <data name="WisdomoftheAges" xml:space="preserve">
+    <value>Sagesse des âges</value>
+  </data>
+  <data name="WitheringFlames" xml:space="preserve">
+    <value>Flammes desséchantes</value>
+  </data>
+  <data name="WitheringVine" xml:space="preserve">
+    <value>Lianes desséchantes</value>
+  </data>
+  <data name="WordofHope" xml:space="preserve">
+    <value>Parole d'espoir</value>
+  </data>
+  <data name="WrathfulExuberance" xml:space="preserve">
+    <value>Exubérance enragée</value>
+  </data>
+  <data name="WrathofthePlanes" xml:space="preserve">
+    <value>Colère des Plans</value>
+  </data>
+  <data name="WristStrike" xml:space="preserve">
+    <value>Frappe au poignet</value>
+  </data>
+</root>

@@ -1,0 +1,3611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Tactician">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Metal Plating</Name>
+      <Icon>ward4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18227400</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE9DF3800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases Armor and Resist by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases Armor and Resist by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases Armor and Resist by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases Armor and Resist by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases Armor and Resist by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Strategic Advantage</Name>
+      <Icon>paragon_analyze_weakness_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19114985</AbilityId>
+          <Description></Description>
+          <AddonId>AFEDC541700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of area of effect attacks by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of area of effect attacks by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of area of effect attacks by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the damage of area of effect attacks by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the damage of area of effect attacks by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Boosted Defenses</Name>
+      <Icon>steelskin2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51687513</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB4FA700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces damage taken by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces damage taken by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces damage taken by 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Infernal Torrent</Name>
+      <Icon>tactician_infernal_torrent</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-79401539</AbilityId>
+          <Description>Deals 650 to 719 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+          <AddonId>AFB446DBD81D4FAE7</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+          <CostEnergy>15</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Ionization</Name>
+      <Icon>energyblast2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-54149741</AbilityId>
+          <Description></Description>
+          <AddonId>AFCC5BD9300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of non-physical attacks by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of non-physical attacks by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of non-physical attacks by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the damage of non-physical attacks by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the damage of non-physical attacks by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Conservation of Energy</Name>
+      <Icon>elementalist_prismatic_valley_z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51672995</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB885D00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Critical Hit attacks and Critical Heals give you 2 Energy.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Your Critical Hit attacks and Critical Heals give you 4 Energy.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Internal Combustion</Name>
+      <Icon>tactician_infernal_torrent_a</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Infernal Torrent causes affected enemies to burn over 6s. This effect stacks up to 5 times.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Necrotic Ray</Name>
+      <Icon>tactician_necrotic_primer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-91287461</AbilityId>
+          <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 183 damage
+2 Points: 2 stacks, 233 damage
+3 Points: 3 stacks, 294 damage
+4 Points: 4 stacks, 363 damage
+5 Points: 5 stacks, 444 damage</Description>
+          <AddonId>AFA8F105BBE40C76B</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>22</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>1.500000</CastTime>
+          <Interruptible>false</Interruptible>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Auxiliary Plan</Name>
+      <Icon>tempest_mantlet</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-70367827</AbilityId>
+          <Description></Description>
+          <AddonId>AFBCE45AD00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Critical Hit attacks and Critical Heals increase your damage and healing done by 2% for 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Your Critical Hit attacks and Critical Heals increase your damage and healing done by 4% for 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Your Critical Hit attacks and Critical Heals increase your damage and healing done by 6% for 10 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Restorative Engine</Name>
+      <Icon>tactician_mass_curative_engine_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-83571463</AbilityId>
+          <Description>Restores 64 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+          <AddonId>AFB04CCF97FDED86E</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Tactical Training</Name>
+      <Icon>tempest_evasive_redirection</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-64149443</AbilityId>
+          <Description></Description>
+          <AddonId>AFC2D283D00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of cast time and channeled attacks by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of cast time and channeled attacks by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of cast time and channeled attacks by 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the damage of cast time and channeled attacks by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the damage of cast time and channeled attacks by 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Mass Repulsion</Name>
+      <Icon>tactician_mass_repulsion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-94175219</AbilityId>
+          <Description>Knocks back surrounding enemies.</Description>
+          <AddonId>AFA63000DD78B10FA</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Extended Workload</Name>
+      <Icon>warlord_everything_isaweapon</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-75508612</AbilityId>
+          <Description></Description>
+          <AddonId>AFB7FD47C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases your Endurance by 2%. Increases your maximum Energy by 5.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases your Endurance by 4%. Increases your maximum Energy by 10.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases your Endurance by 6%. Increases your maximum Energy by 15.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Torrent Primer</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-95587523</AbilityId>
+          <Description>Removes stacks of Torrent Overload. Increases the damage and healing of Torrents for 60s.
+1 Point: 1 stack, 8%
+2 Points: 2 stacks, 16%
+3 Points: 3 stacks, 24%
+4 Points: 4 stacks, 32%
+5 Points: 5 stacks, 40%</Description>
+          <AddonId>AFA4D733D71B0ED11</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>60.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Heat Vent</Name>
+      <Icon>paladin-scales_of_justice</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-40043378</AbilityId>
+          <Description></Description>
+          <AddonId>AFD9CFC8E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the initial Energy Cost of Torrents by 1. Increases the damage and healing of Torrents by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the initial Energy Cost of Torrents by 2. Increases the damage and healing of Torrents by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the initial Energy Cost of Torrents by 3. Increases the damage and healing of Torrents by 18%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduces the initial Energy Cost of Torrents by 4. Increases the damage and healing of Torrents by 24%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduces the initial Energy Cost of Torrents by 5. Increases the damage and healing of Torrents by 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Enhanced Core</Name>
+      <Icon>tactician_empyrean_core_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-73458120</AbilityId>
+          <Description></Description>
+          <AddonId>AFB9F1E3800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage and healing done by your Cores by 25%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage and healing done by your Cores by 50%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Battle Remote</Name>
+      <Icon>tactician_devastative_augument</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-12117205</AbilityId>
+          <Description>Increases damage and healing by 20% for 10s.</Description>
+          <AddonId>AFF471B2B5788E8B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Empyrean Boost</Name>
+      <Icon>harbinger_empyrean_ascension_d</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-29874541</AbilityId>
+          <Description></Description>
+          <AddonId>AFE38269300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of your Bolts and Rays by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of your Bolts and Rays by 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of your Bolts and Rays by 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Expanded Torrents</Name>
+      <Icon>energybolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-31758538</AbilityId>
+          <Description></Description>
+          <AddonId>AFE1B673600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Whenever you use a Torrent, you gain a stacking buff that causes your next Tactician Combo Point generating ability to add an additional Combo Point. Stacks up to 2 times.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Whenever you use a Torrent, you gain a stacking buff that causes your next Tactician Combo Point generating ability to add an additional Combo Point. Stacks up to 4 times.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Enhanced Necrotic Torrent</Name>
+      <Icon>tactician_necrotic_torrent_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Necrotic Torrent deals 40% more damage if the target&apos;s Health is below 30%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Necrotic Torrent deals 60% more damage if the target&apos;s Health is below 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Infernal Beam</Name>
+      <Icon>void_knight_rift_reversal_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-30150110</AbilityId>
+          <Description>Deals 1095 to 1210 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+          <AddonId>AFE33F2224DEA7DF3</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Curative Torrent</Name>
+      <Icon>tactician_curative_torrent</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-68267828</AbilityId>
+          <Description>Restores 221 to 245 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+          <AddonId>AFBEE50CC7787FDAD</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+          <CostEnergy>15</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <MaxAffected>20</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Palliative Care</Name>
+      <Icon>harbinger_conditioned_response</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-24380305</AbilityId>
+          <Description></Description>
+          <AddonId>AFE8BFC6F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases healing done by 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases healing done by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases healing done by 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases healing done by 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases healing done by 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Temperature Inversion</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_a</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Glacial Torrent applies up to 7 stacks of Glacial Chill to affected enemies, causing them to take 10% more damage per stack from Infernal Torrent. Infernal Torrent consumes 1 stack of Glacial Chill per tick.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Primer Amplification</Name>
+      <Icon>tactician_barrier_augument_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96052269</AbilityId>
+          <Description></Description>
+          <AddonId>AFA465BD300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tactician Finishers increase damage and healing done by 10%. Lasts 30s.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Energy Alteration</Name>
+      <Icon>tempest_endgame</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-96852856</AbilityId>
+        <Description>Rays can be cast instantly with no cost, but their damage is reduced by 30%. Curative Blast has no cost, but its healing is reduced by 30%. Rays and Curative Blast restores 3 Energy per Combo Point spent.</Description>
+        <AddonId>AFA3A2488B8E8F15E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Torrent Primer</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-95587523</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Increases the damage and healing of Torrents for 60s.
+1 Point: 1 stack, 8%
+2 Points: 2 stacks, 16%
+3 Points: 3 stacks, 24%
+4 Points: 4 stacks, 32%
+5 Points: 5 stacks, 40%</Description>
+        <AddonId>AFA4D733D71B0ED11</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>60.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Barrier Remote</Name>
+      <Icon>tactician_barrier_augument_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-95263689</AbilityId>
+        <Description>Gains an absorption shield equal to 20% of the Rogue&apos;s max health. Lasts 10s.</Description>
+        <AddonId>AFA52643742C961B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Mass Repulsion</Name>
+      <Icon>tactician_mass_repulsion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-94175219</AbilityId>
+        <Description>Knocks back surrounding enemies.</Description>
+        <AddonId>AFA63000DD78B10FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyrean Engine</Name>
+      <Icon>tactician_empyrean_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92079741</AbilityId>
+        <Description>Causes the Rogue&apos;s Empyrean Bolt to deal an additional 70% damage to surrounding enemies. The damage and healing done by Cores are increased by 20%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFA82F9838C5B37E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Necrotic Ray</Name>
+      <Icon>tactician_necrotic_primer</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-91287461</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 183 damage
+2 Points: 2 stacks, 233 damage
+3 Points: 3 stacks, 294 damage
+4 Points: 4 stacks, 363 damage
+5 Points: 5 stacks, 444 damage</Description>
+        <AddonId>AFA8F105BBE40C76B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>-26026272</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 186 damage
+2 Points: 2 stacks, 237 damage
+3 Points: 3 stacks, 302 damage
+4 Points: 4 stacks, 375 damage
+5 Points: 5 stacks, 460 damage</Description>
+        <AddonId>AFE72DEE0819C1AC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>-33076522</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 188 damage
+2 Points: 2 stacks, 244 damage
+3 Points: 3 stacks, 313 damage
+4 Points: 4 stacks, 392 damage
+5 Points: 5 stacks, 486 damage</Description>
+        <AddonId>AFE074AD6C622B0D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>-72408768</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 190 damage
+2 Points: 2 stacks, 249 damage
+3 Points: 3 stacks, 324 damage
+4 Points: 4 stacks, 408 damage
+5 Points: 5 stacks, 509 damage</Description>
+        <AddonId>AFBAF214094CEF4A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>-80099452</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 194 damage
+2 Points: 2 stacks, 257 damage
+3 Points: 3 stacks, 339 damage
+4 Points: 4 stacks, 432 damage
+5 Points: 5 stacks, 543 damage</Description>
+        <AddonId>AFB39C7846F1DA8F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-87974366</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 198 damage
+2 Points: 2 stacks, 269 damage
+3 Points: 3 stacks, 359 damage
+4 Points: 4 stacks, 464 damage
+5 Points: 5 stacks, 589 damage</Description>
+        <AddonId>AFAC19E227D060885</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-90463400</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 206 damage
+2 Points: 2 stacks, 291 damage
+3 Points: 3 stacks, 397 damage
+4 Points: 4 stacks, 524 damage
+5 Points: 5 stacks, 674 damage</Description>
+        <AddonId>AFA9BA3588025E8E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-83075173</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 210 damage
+2 Points: 2 stacks, 298 damage
+3 Points: 3 stacks, 410 damage
+4 Points: 4 stacks, 543 damage
+5 Points: 5 stacks, 701 damage</Description>
+        <AddonId>AFB0C5F9B9D227F69</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-2323352</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 239 damage
+2 Points: 2 stacks, 371 damage
+3 Points: 3 stacks, 542 damage
+4 Points: 4 stacks, 750 damage
+5 Points: 5 stacks, 996 damage</Description>
+        <AddonId>AFFDC8C68EA7026CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-38370443</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 269 damage
+2 Points: 2 stacks, 446 damage
+3 Points: 3 stacks, 678 damage
+4 Points: 4 stacks, 960 damage
+5 Points: 5 stacks, 1297 damage</Description>
+        <AddonId>AFDB683758CB23822</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-71581565</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Death damage per Combo Point to up to 8 enemies.
+
+1 Point: 1 stack, 283 damage
+2 Points: 2 stacks, 481 damage
+3 Points: 3 stacks, 740 damage
+4 Points: 4 stacks, 1058 damage
+5 Points: 5 stacks, 1436 damage</Description>
+        <AddonId>AFBBBC0835A29FEB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ablative Coil</Name>
+      <Icon>tactician_ablative_coil_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89706999</AbilityId>
+        <Description>Protects all raid members around the Rogue from harm, reducing damage taken by 30% for up to 6s.</Description>
+        <AddonId>AFAA72E097349BC9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Restorative Engine</Name>
+      <Icon>tactician_mass_curative_engine_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-83571463</AbilityId>
+        <Description>Restores 64 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFB04CCF97FDED86E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-47104948</AbilityId>
+        <Description>Restores 75 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD313C4C879D705E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-5757409</AbilityId>
+        <Description>Restores 88 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFFA8261FA54A550A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-88432093</AbilityId>
+        <Description>Restores 93 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFABAA2237D3FFC14</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-90437774</AbilityId>
+        <Description>Restores 97 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFA9C077297299741</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-20043403</AbilityId>
+        <Description>Restores 112 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFECE297564375C55</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43069505</AbilityId>
+        <Description>Restores 115 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD6ECFBF7539A502</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-29692731</AbilityId>
+        <Description>Restores 134 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE3AECC57ED2F21F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-49424057</AbilityId>
+        <Description>Restores 143 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD0DD947A915168A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-6102022</AbilityId>
+        <Description>Restores 145 health to up to 10 party or raid members when Empyrean Bolt or Restorative Bolt is executed. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFFA2E3FA491FFE44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Infernal Torrent</Name>
+      <Icon>tactician_infernal_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-79401539</AbilityId>
+        <Description>Deals 650 to 719 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFB446DBD81D4FAE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-17738175</AbilityId>
+        <Description>Deals 699 to 772 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFEF15641A987E178</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-77356486</AbilityId>
+        <Description>Deals 726 to 802 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFB63A23A8211EE21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-2190289</AbilityId>
+        <Description>Deals 762 to 842 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFFDE942F79414047</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-8264766</AbilityId>
+        <Description>Deals 801 to 886 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF81E3C2C4E972DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-27947298</AbilityId>
+        <Description>Deals 857 to 947 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE558EDE895609FF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-9753551</AbilityId>
+        <Description>Deals 932 to 1031 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF6B2C3193BE298F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-71440830</AbilityId>
+        <Description>Deals 1051 to 1162 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFBBDE642DB204306</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-69103384</AbilityId>
+        <Description>Deals 1201 to 1328 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFBE190E88ADB96DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-72239455</AbilityId>
+        <Description>Deals 1772 to 1959 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFBB1B6A1402DEEC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-48813331</AbilityId>
+        <Description>Deals 2239 to 2475 Fire damage to up to 8 enemies in front of you over 3s. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFD172AED23EB0F88</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Curative Remote</Name>
+      <Icon>tactician_curative_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-77146817</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 36 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFB66D53FC59F9B09</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-87211660</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 40 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFACD41748550B012</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-73666769</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 43 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFB9BEF2F83F4314B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-44254263</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 45 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFD5CBBC9992B04C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-27681277</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 54 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFE599E037AD33A16</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-35377792</AbilityId>
+        <Description>Debuffs the target, healing the attacker for 56 health when the target is hit by ability attacks. Lasts 15s.</Description>
+        <AddonId>AFDE42D80596658F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Necrotic Core</Name>
+      <Icon>tactician_necrotic_core</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-75689093</AbilityId>
+        <Description>Sets up a Core that deals 460 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFB7D137B36AC1265</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-69892487</AbilityId>
+        <Description>Sets up a Core that deals 493 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFBD58679BDB246A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-19116263</AbilityId>
+        <Description>Sets up a Core that deals 515 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFEDC4F193E35A67C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-11076507</AbilityId>
+        <Description>Sets up a Core that deals 546 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFF56FC65A148D8CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-52969102</AbilityId>
+        <Description>Sets up a Core that deals 580 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFCD7C1727A8E6934</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-67378088</AbilityId>
+        <Description>Sets up a Core that deals 623 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFBFBE458ECB31B56</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-120127</AbilityId>
+        <Description>Sets up a Core that deals 705 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFFFE2AC1B51FC161</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-87254415</AbilityId>
+        <Description>Sets up a Core that deals 751 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFACC9A71D07D3A53</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-33902922</AbilityId>
+        <Description>Sets up a Core that deals 986 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFDFAAEB68BE55651</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-88777798</AbilityId>
+        <Description>Sets up a Core that deals 1479 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFAB55BBA4C9C7A40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-93362581</AbilityId>
+        <Description>Sets up a Core that deals 1641 Death damage over 15s to up to 10 nearby enemies.</Description>
+        <AddonId>AFA6F666B55986E6E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Necrotic Bolt</Name>
+      <Icon>tactician_necrotic_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-74327681</AbilityId>
+        <Description>Deals 712 to 787 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFB91D97F6A81AEB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-70788746</AbilityId>
+        <Description>Deals 838 to 926 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFBC7D97674B35274</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-54176380</AbilityId>
+        <Description>Deals 871 to 963 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFCC55584D00F75F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-97032953</AbilityId>
+        <Description>Deals 1235 to 1365 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFA376507569D9A6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-1777521</AbilityId>
+        <Description>Deals 1605 to 1774 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFFE4E08FA5A2C7E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-33484800</AbilityId>
+        <Description>Deals 1776 to 1964 Death damage to all enemies between the Rogue and the enemy target. No cooldown if the target&apos;s health is below 30%.</Description>
+        <AddonId>AFE01100078B7259E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Curative Torrent</Name>
+      <Icon>tactician_curative_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-68267828</AbilityId>
+        <Description>Restores 221 to 245 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFBEE50CC7787FDAD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-38593945</AbilityId>
+        <Description>Restores 254 to 281 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFDB31A6771F7F522</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-67315493</AbilityId>
+        <Description>Restores 263 to 291 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFBFCD8DB5F528502</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63412907</AbilityId>
+        <Description>Restores 305 to 337 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFC386555D20111E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-2282268</AbilityId>
+        <Description>Restores 325 to 360 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFFDD2CE46BE03C92</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53195630</AbilityId>
+        <Description>Restores 329 to 364 health party or raid members in front of you over 3s. This effect can heal up to 2 additional party or raid members. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCD44C9246DBA340</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Power Core</Name>
+      <Icon>tactician_power_core_z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-67659735</AbilityId>
+        <Description>Sets up a Core that debuffs nearby enemies, increasing damage taken by 10%. Lasts 15s.</Description>
+        <AddonId>AFBF79829B2DD89A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Restorative Bolt</Name>
+      <Icon>chloromancer_void_life_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-62948912</AbilityId>
+        <Description>Restores a single ally for 644 to 712 health. Awards 1 Combo Point.</Description>
+        <AddonId>AFC3F79D0BA97A21E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60342406</AbilityId>
+        <Description>Restores a single ally for 649 to 718 health. Awards 1 Combo Point.</Description>
+        <AddonId>AFC673F7A92D465C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Curative Core</Name>
+      <Icon>tactician_curative_core_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-61269717</AbilityId>
+        <Description>Sets up a Core that restores 376 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFC59192B9972CE49</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-29502694</AbilityId>
+        <Description>Sets up a Core that restores 427 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFE3DD31A879D26C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-41218125</AbilityId>
+        <Description>Sets up a Core that restores 502 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFD8B0FB3AD5B8F7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-28746398</AbilityId>
+        <Description>Sets up a Core that restores 533 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFE495D62B74D724B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-63460851</AbilityId>
+        <Description>Sets up a Core that restores 557 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFC37AA0D9A52EC07</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-17188642</AbilityId>
+        <Description>Sets up a Core that restores 644 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFEF9B8DED032621A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43240378</AbilityId>
+        <Description>Sets up a Core that restores 666 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFD6C3446DAA50EB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-66723286</AbilityId>
+        <Description>Sets up a Core that restores 770 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFC05E22A96215C3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96880678</AbilityId>
+        <Description>Sets up a Core that restores 823 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFA39B7DA57316A88</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-97800916</AbilityId>
+        <Description>Sets up a Core that restores 828 health over 15s to up to 10 nearby party or raid members.</Description>
+        <AddonId>AFA2BAD2C96162B36</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Curative Blast</Name>
+      <Icon>tactician_curative_primer_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-60891805</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 71 health
+2 Points: 2 stacks, 156 health
+3 Points: 3 stacks, 271 health
+4 Points: 4 stacks, 416 health
+5 Points: 5 stacks, 586 health</Description>
+        <AddonId>AFC5EDD638A21712C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-60776897</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 73 health
+2 Points: 2 stacks, 165 health
+3 Points: 3 stacks, 288 health
+4 Points: 4 stacks, 439 health
+5 Points: 5 stacks, 621 health</Description>
+        <AddonId>AFC609E3F7EC9CAC9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-56135293</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 77 health
+2 Points: 2 stacks, 173 health
+3 Points: 3 stacks, 300 health
+4 Points: 4 stacks, 458 health
+5 Points: 5 stacks, 648 health</Description>
+        <AddonId>AFCA771839DF89E35</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-67206990</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 88 health
+2 Points: 2 stacks, 198 health
+3 Points: 3 stacks, 346 health
+4 Points: 4 stacks, 531 health
+5 Points: 5 stacks, 751 health</Description>
+        <AddonId>AFBFE80B2C5DCE1A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-76355070</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 89 health
+2 Points: 2 stacks, 204 health
+3 Points: 3 stacks, 357 health
+4 Points: 4 stacks, 547 health
+5 Points: 5 stacks, 776 health</Description>
+        <AddonId>AFB72EA0289A45FD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-18716170</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 102 health
+2 Points: 2 stacks, 235 health
+3 Points: 3 stacks, 412 health
+4 Points: 4 stacks, 633 health
+5 Points: 5 stacks, 897 health</Description>
+        <AddonId>AFEE269F658B06582</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-31670124</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 108 health
+2 Points: 2 stacks, 249 health
+3 Points: 3 stacks, 439 health
+4 Points: 4 stacks, 675 health
+5 Points: 5 stacks, 959 health</Description>
+        <AddonId>AFE1CC09448A1E508</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42616458</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Restores health per Combo Point to up to 10 party or raid members over 15s.
+
+1 Point: 1 stack, 108 health
+2 Points: 2 stacks, 251 health
+3 Points: 3 stacks, 441 health
+4 Points: 4 stacks, 679 health
+5 Points: 5 stacks, 964 health</Description>
+        <AddonId>AFD75B976684F3F6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tactician Mastery</Name>
+      <Icon>soul_rogue</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-59420165</AbilityId>
+        <Description>Increases damage by 0.75% and increases healing by 0.75% for each point spent in the Tactician soul.</Description>
+        <AddonId>AFC7551FB98DB1F71</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Necrotic Engine</Name>
+      <Icon>tactician_necrotic_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-41642852</AbilityId>
+        <Description>When hit, the Rogue deals 36 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD84949C98C4F757</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-94237831</AbilityId>
+        <Description>When hit, the Rogue deals 38 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFA620B79914A1B8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-34625154</AbilityId>
+        <Description>When hit, the Rogue deals 41 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFDEFA97EBEF90CE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-16495802</AbilityId>
+        <Description>When hit, the Rogue deals 44 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFF044B469431A046</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92287024</AbilityId>
+        <Description>When hit, the Rogue deals 51 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFA7FCFD0B704FC2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-80636378</AbilityId>
+        <Description>When hit, the Rogue deals 58 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFB319626DBC7F884</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-23166205</AbilityId>
+        <Description>When hit, the Rogue deals 88 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE9E8303378B9F4E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-2945086</AbilityId>
+        <Description>When hit, the Rogue deals 112 Death damage to the attacker. Increases damage of Bolts and Rays by 30%. Reduces damage of Torrents by 30%. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFFD30FC23E3C6811</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fortification Core</Name>
+      <Icon>tactician_fortification_core</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-36937426</AbilityId>
+        <Description>Sets up a Core that increases the Armor and Resist of nearby party or raid members by 30%. Lasts 15s.</Description>
+        <AddonId>AFDCC612EAF20C927</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Infernal Beam</Name>
+      <Icon>void_knight_rift_reversal_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-30150110</AbilityId>
+        <Description>Deals 1095 to 1210 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFE33F2224DEA7DF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-74805588</AbilityId>
+        <Description>Deals 1190 to 1315 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFB8A8EAC967E4814</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-51104688</AbilityId>
+        <Description>Deals 1341 to 1482 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFCF43450D8466741</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-2575348</AbilityId>
+        <Description>Deals 1529 to 1690 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFFD8B40C9485ED01</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-53061346</AbilityId>
+        <Description>Deals 2252 to 2489 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFCD6591E45E1A5A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-91175755</AbilityId>
+        <Description>Deals 2842 to 3141 Fire damage to up to 8 enemies between the Rogue and the target over 15s.</Description>
+        <AddonId>AFA90C4B57B2BE771</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Necrotic Torrent</Name>
+      <Icon>tactician_necrotic_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-16123239</AbilityId>
+        <Description>Deals 585 to 646 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF09FA99DAC7B73E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-52378536</AbilityId>
+        <Description>Deals 601 to 665 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCE0C458893B90C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-67024377</AbilityId>
+        <Description>Deals 624 to 690 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFC014A071FCCB66E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-23575084</AbilityId>
+        <Description>Deals 656 to 725 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE9845D455531345</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-93297241</AbilityId>
+        <Description>Deals 682 to 754 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFA7065A7C088B84C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-51848694</AbilityId>
+        <Description>Deals 716 to 791 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCE8DA0A5EA36D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-6098837</AbilityId>
+        <Description>Deals 753 to 832 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFFA2F06B74475233</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-29411917</AbilityId>
+        <Description>Deals 805 to 890 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE3F35B37D3D8BFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-15661270</AbilityId>
+        <Description>Deals 876 to 969 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF11072A860679CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-43267767</AbilityId>
+        <Description>Deals 988 to 1092 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFD6BC949D4E4A87C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-53103415</AbilityId>
+        <Description>Deals 1027 to 1135 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCD5B4C957332068</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-92614365</AbilityId>
+        <Description>Deals 1461 to 1615 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFA7AD123B7A21263</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93880936</AbilityId>
+        <Description>Deals 1900 to 2100 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFA677D98A05FA8DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-12833285</AbilityId>
+        <Description>Deals 2103 to 2325 Death damage to up to 8 enemies in front of you over 3s. Deals 20% more damage if the enemy&apos;s health is below 30%. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF3C2DFB827EB37A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Curative Engine</Name>
+      <Icon>tactician_curative_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-14108722</AbilityId>
+        <Description>When hit, the Rogue restores 23 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFF28B7CED5E1F1EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-24705001</AbilityId>
+        <Description>When hit, the Rogue restores 43 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE870817E3BDD5D9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-87336407</AbilityId>
+        <Description>When hit, the Rogue restores 61 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFACB5A29E4160DE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-93409722</AbilityId>
+        <Description>When hit, the Rogue restores 74 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFA6EAE46D5821D44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-47284788</AbilityId>
+        <Description>When hit, the Rogue restores 85 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD2E7DCCE0D6094D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-31907109</AbilityId>
+        <Description>When hit, the Rogue restores 100 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE1922DBF2116BD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-32179470</AbilityId>
+        <Description>When hit, the Rogue restores 105 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE14FAF29F75B827</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-45411289</AbilityId>
+        <Description>When hit, the Rogue restores 111 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD4B14279895635B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-46804342</AbilityId>
+        <Description>When hit, the Rogue restores 127 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFD35D28AAB40B405</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-62932004</AbilityId>
+        <Description>When hit, the Rogue restores 132 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFC3FBBDC8A8481A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-35812497</AbilityId>
+        <Description>When hit, the Rogue restores 152 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFDDD8B6F9A928FB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-26750412</AbilityId>
+        <Description>When hit, the Rogue restores 163 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFE67D234C9908B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-34157267</AbilityId>
+        <Description>When hit, the Rogue restores 165 health. Can be triggered at most once per second. Only 1 Engine can be activated at a time.</Description>
+        <AddonId>AFDF6CD2DD145CC66</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Battle Remote</Name>
+      <Icon>tactician_devastative_augument</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-12117205</AbilityId>
+        <Description>Increases damage and healing by 20% for 10s.</Description>
+        <AddonId>AFF471B2B5788E8B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Glacial Torrent</Name>
+      <Icon>tactician_glacial_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-11775160</AbilityId>
+        <Description>Deals 693 to 766 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFF4C5348BEACD0E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-23820572</AbilityId>
+        <Description>Deals 732 to 809 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE9486E4421DB0ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-92484292</AbilityId>
+        <Description>Deals 774 to 855 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFA7CCD3C2FC2935F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-52821382</AbilityId>
+        <Description>Deals 827 to 914 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCDA027ABA76CE0D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-26042125</AbilityId>
+        <Description>Deals 931 to 1029 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE72A0F3712DFEED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-94099331</AbilityId>
+        <Description>Deals 988 to 1092 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFA64287D7280E705</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-55209346</AbilityId>
+        <Description>Deals 1283 to 1418 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFCB5927EA9F88D95</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-25759519</AbilityId>
+        <Description>Deals 1900 to 2100 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFE76F0E1C0B35087</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-2950324</AbilityId>
+        <Description>Deals 2103 to 2325 Water damage to up to 8 enemies in front of you over 3s. Snares affected enemies. Reduces Energy by 1 for every second of channel.</Description>
+        <AddonId>AFFD2FB4C921E2519</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Curative Beam</Name>
+      <Icon>tactician_curative_beam</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10970092</AbilityId>
+        <Description>Restores up to 939 health to up to 10 party or raid members between the Rogue and the target over 15s.</Description>
+        <AddonId>AFF589C149D6631E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-78148452</AbilityId>
+        <Description>Restores up to 1078 health to up to 10 party or raid members between the Rogue and the target over 15s.</Description>
+        <AddonId>AFB578C9C8F798346</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-76944823</AbilityId>
+        <Description>Restores up to 1198 health to up to 10 party or raid members between the Rogue and the target over 15s.</Description>
+        <AddonId>AFB69EA4978830333</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-79700363</AbilityId>
+        <Description>Restores up to 1207 health to up to 10 party or raid members between the Rogue and the target over 15s.</Description>
+        <AddonId>AFB3FDE750ED552F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyrean Bolt</Name>
+      <Icon>tactician_empyrean_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-6412426</AbilityId>
+        <Description>Deals 153 to 170 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFF9E27766284EEC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-58701260</AbilityId>
+        <Description>Deals 158 to 174 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFC804A34B7FC8CF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-2862443</AbilityId>
+        <Description>Deals 164 to 182 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFFD45295968816F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-19461858</AbilityId>
+        <Description>Deals 172 to 190 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFED7091EBC5078A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-96843484</AbilityId>
+        <Description>Deals 180 to 198 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFA3A49244AD5BDEE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-37294106</AbilityId>
+        <Description>Deals 188 to 208 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFDC6EFE6C6151B3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-53406056</AbilityId>
+        <Description>Deals 197 to 218 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFCD11698B72807AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-88555748</AbilityId>
+        <Description>Deals 211 to 234 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFAB8BF1CB4DE662E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-94273891</AbilityId>
+        <Description>Deals 230 to 254 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFA617E9DAF36C900</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-75050555</AbilityId>
+        <Description>Deals 258 to 285 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFB86D1C56B2B68AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-83573699</AbilityId>
+        <Description>Deals 269 to 298 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFB04C43D33699CDF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-48864847</AbilityId>
+        <Description>Deals 382 to 422 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFD1661B12CCC0FAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-32786612</AbilityId>
+        <Description>Deals 495 to 547 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFE0BB74C807A4FA1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-59519319</AbilityId>
+        <Description>Deals 549 to 607 Life damage. Awards 1 Combo Point.</Description>
+        <AddonId>AFC73CEA9A5840988</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyrean Ray</Name>
+      <Icon>tactician_empyrean_primer</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-3447848</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 300 damage
+2 Points: 2 stacks, 373 damage
+3 Points: 3 stacks, 461 damage
+4 Points: 4 stacks, 560 damage
+5 Points: 5 stacks, 676 damage</Description>
+        <AddonId>AFFCB63D86F6A8C0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-21805139</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 302 damage
+2 Points: 2 stacks, 377 damage
+3 Points: 3 stacks, 469 damage
+4 Points: 4 stacks, 573 damage
+5 Points: 5 stacks, 694 damage</Description>
+        <AddonId>AFEB347AD18C77602</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-33211824</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 305 damage
+2 Points: 2 stacks, 387 damage
+3 Points: 3 stacks, 486 damage
+4 Points: 4 stacks, 600 damage
+5 Points: 5 stacks, 732 damage</Description>
+        <AddonId>AFE053A506F498D89</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-97543372</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 308 damage
+2 Points: 2 stacks, 392 damage
+3 Points: 3 stacks, 498 damage
+4 Points: 4 stacks, 617 damage
+5 Points: 5 stacks, 757 damage</Description>
+        <AddonId>AFA2F9B3446E7C7C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-76852927</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 311 damage
+2 Points: 2 stacks, 400 damage
+3 Points: 3 stacks, 512 damage
+4 Points: 4 stacks, 638 damage
+5 Points: 5 stacks, 787 damage</Description>
+        <AddonId>AFB6B51417BF668A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-62539875</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 316 damage
+2 Points: 2 stacks, 412 damage
+3 Points: 3 stacks, 531 damage
+4 Points: 4 stacks, 670 damage
+5 Points: 5 stacks, 832 damage</Description>
+        <AddonId>AFC45B79D9A5AC5EE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-35976184</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 320 damage
+2 Points: 2 stacks, 423 damage
+3 Points: 3 stacks, 553 damage
+4 Points: 4 stacks, 702 damage
+5 Points: 5 stacks, 879 damage</Description>
+        <AddonId>AFDDB0C0863403336</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-24605697</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 326 damage
+2 Points: 2 stacks, 438 damage
+3 Points: 3 stacks, 579 damage
+4 Points: 4 stacks, 745 damage
+5 Points: 5 stacks, 940 damage</Description>
+        <AddonId>AFE888BFF7DB82944</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-7391412</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 338 damage
+2 Points: 2 stacks, 468 damage
+3 Points: 3 stacks, 632 damage
+4 Points: 4 stacks, 828 damage
+5 Points: 5 stacks, 1057 damage</Description>
+        <AddonId>AFF8F374C66FFA395</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-53135430</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 344 damage
+2 Points: 2 stacks, 484 damage
+3 Points: 3 stacks, 662 damage
+4 Points: 4 stacks, 874 damage
+5 Points: 5 stacks, 1123 damage</Description>
+        <AddonId>AFCD537BA9FEC5454</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-73416506</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 378 damage
+2 Points: 2 stacks, 568 damage
+3 Points: 3 stacks, 813 damage
+4 Points: 4 stacks, 1107 damage
+5 Points: 5 stacks, 1458 damage</Description>
+        <AddonId>AFB9FC0C6CF11E528</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-45200747</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 448 damage
+2 Points: 2 stacks, 743 damage
+3 Points: 3 stacks, 1128 damage
+4 Points: 4 stacks, 1598 damage
+5 Points: 5 stacks, 2159 damage</Description>
+        <AddonId>AFD4E4A95779E97F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95842980</AbilityId>
+        <Description>Removes stacks of Torrent Overload. Deals Life damage per Combo Point.
+
+1 Point: 1 stack, 471 damage
+2 Points: 2 stacks, 801 damage
+3 Points: 3 stacks, 1233 damage
+4 Points: 4 stacks, 1760 damage
+5 Points: 5 stacks, 2390 damage</Description>
+        <AddonId>AFA498D5C7BFA9C2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Ranged Weapon</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name></Name>
+      <Icon>Default</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>38917157</AbilityId>
+        <Description></Description>
+        <AddonId>A0251D42500000000</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

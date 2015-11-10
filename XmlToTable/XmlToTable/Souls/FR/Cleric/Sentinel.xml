@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Sentinel">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Bienveillance</Name>
+      <Icon>spiritofvaliant1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-83485572</AbilityId>
+          <Description></Description>
+          <AddonId>AFB061C7C20CD8F0B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le recul de 50% lorsque vous êtes touché en lançant des sorts de soin.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le recul de 100% lorsque vous êtes touché en lançant des sorts de soin. </Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Bénédiction</Name>
+      <Icon>shroudofpenitence1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1158496590</AbilityId>
+          <Description></Description>
+          <AddonId>A450D414E3863536A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Regard vigilant</Name>
+      <Icon>awareness_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2034782645</AbilityId>
+          <Description></Description>
+          <AddonId>A794851B55064648A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre puissance des sorts augmente de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre puissance des sorts augmente de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre puissance des sorts augmente de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Votre puissance des sorts augmente de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Votre puissance des sorts augmente de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Pensif</Name>
+      <Icon>inspiration1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-95051304</AbilityId>
+          <Description></Description>
+          <AddonId>AFA55A1D849F2EC52</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts incantés de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts incantés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts incantés de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts incantés de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts incantés de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Expéditif</Name>
+      <Icon>righteousness3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-90846080</AbilityId>
+          <Description></Description>
+          <AddonId>AFA95CC8060250482</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts instantanés de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts instantanés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts instantanés de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Bénédiction de guérisseur</Name>
+      <Icon>generic_ability_018</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-1479152</AbilityId>
+          <Description>Les sorts de soins et d&apos;absorption à cible unique restaurent 320 à 354 points de vie supplémentaires. Dure 1 heure.</Description>
+          <AddonId>AFFE96E1075A3C9B7</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Toucher de lumière</Name>
+      <Icon>redirect4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>431433303</AbilityId>
+          <Description>Le prochain sort prodiguant des soins ou absorbant des dégâts est lancé instantanément, réduisant son coût en mana de 50%. Dure 30 secondes.</Description>
+          <AddonId>A19B726578DC32395</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Compréhension divine</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-43217778</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6C8C8E48CCD3E4</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à cible unique de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à cible unique de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à cible unique de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à cible unique de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à cible unique de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Appel à l&apos;action</Name>
+      <Icon>layonhands4aa</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-81112066</AbilityId>
+          <Description></Description>
+          <AddonId>AFB2A53FE78A78AF9</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 3% les soins que vous prodiguez et l&apos;absorption que vous conférez aux alliés disposant de moins de 75% de leurs points de vie.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 6% les soins que vous prodiguez et l&apos;absorption que vous conférez aux alliés disposant de moins de 75% de leurs points de vie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Aube lumineuse</Name>
+      <Icon>blindinglight3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-63921178</AbilityId>
+          <Description></Description>
+          <AddonId>AFC30A3E67640E1CE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par vos capacités de Vie de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par vos capacités de Vie de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par vos capacités de Vie de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Urgence</Name>
+      <Icon>righteousness2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-77437234</AbilityId>
+          <Description>La vitesse de déplacement augmente de 50% pendant 10 secondes.</Description>
+          <AddonId>AFB6266CE3DF07942</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Appel miséricordieux</Name>
+      <Icon>spiritual_will</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>781423433</AbilityId>
+          <Description></Description>
+          <AddonId>A2E93934942EE09DC</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le délai de récupération général de Prière de purification et Lumière revigorante est réduit de 0,5 seconde. Vous soigne à hauteur de 2% de vos points de vie maximum.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le délai de récupération général de Prière de purification et Lumière revigorante est réduit de 0,5 seconde. Vous soigne à hauteur de 4% de vos points de vie maximum.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Le délai de récupération général de Prière de purification et Lumière revigorante est réduit de 0,5 seconde. Vous soigne à hauteur de 6% de vos points de vie maximum.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Lumière revigorante</Name>
+      <Icon>healing_flare_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>508460475</AbilityId>
+          <Description>Supprime un effet de malédiction, de maladie ou de poison à un maximum de 10 membres du groupe ou du raid.</Description>
+          <AddonId>A1E4E7DBB72466C42</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>25.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Souffle enchanté</Name>
+      <Icon>flame_speaker_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Souffle de soins soigne jusqu&apos;à 2 autres membres du groupe ou du raid à hauteur de 20% des soins prodigués.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Souffle de soins soigne jusqu&apos;à 2 autres membres du groupe ou du raid à hauteur de 40% des soins prodigués.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Souffle de soins soigne jusqu&apos;à 2 autres membres du groupe ou du raid à hauteur de 60% des soins prodigués.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Attention</Name>
+      <Icon>blindinglight2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-44859419</AbilityId>
+          <Description></Description>
+          <AddonId>AFD537FE529B99C50</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre maximum de mana augmente de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre maximum de mana augmente de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Échos d&apos;altruisme</Name>
+      <Icon>virtuoso</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos Invocations prodiguent des soins supplémentaires équivalents à 4% des soins prodigués après 1 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos Invocations prodiguent des soins supplémentaires équivalents à 8% des soins prodigués après 1 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos Invocations prodiguent des soins supplémentaires équivalents à 12% des soins prodigués après 1 seconde.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Marqué par la lumière</Name>
+      <Icon>mend1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>417136780</AbilityId>
+          <Description>Les sorts de soins restaurent 208 à 230 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+          <AddonId>A18DD008CD07188B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>1.500000</Cooldown>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Parole de Vie</Name>
+      <Icon>sentinel-protect_the_flock_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18337183</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE832616F9A1C69</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos soins à cible unique ont 5% de chances de réduire le coût en mana et le délai de récupération général de votre prochain Souffle de soins à 0.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos soins à cible unique ont 10% de chances de réduire le coût en mana et le délai de récupération général de votre prochain Souffle de soins à 0.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Amas de Lumière</Name>
+      <Icon>righteous_healing_01_a</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41122168</AbilityId>
+          <Description></Description>
+          <AddonId>AFD8C86881CDA6569</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos Invocations réduisent de 1,5 seconde le délai de récupération actuel de votre Toucher de lumière.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos Invocations réduisent de 3 secondes le délai de récupération actuel de votre Toucher de lumière.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Hâte du guérisseur</Name>
+      <Icon>sentinel-refreshing_communion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1908785631</AbilityId>
+          <Description>Réduit le temps d&apos;incantation des 5 prochains sorts de soins de 30%. Dure 30 secondes.</Description>
+          <AddonId>A71C5C1DF7FA12E6B</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Nobles prières</Name>
+      <Icon>heal2z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-13221183</AbilityId>
+          <Description></Description>
+          <AddonId>AFF3642C137FDCC00</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos Invocations de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos Invocations de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos Invocations de 12%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Supplication rapide</Name>
+      <Icon>layonhands2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-4092344</AbilityId>
+          <Description></Description>
+          <AddonId>AFFC18E48387CC991</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos Invocations de 0,1 seconde et leur coût de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos Invocations de 0,2 seconde et leur coût de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos Invocations de 0,3 seconde et leur coût de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos Invocations de 0,4 seconde et leur coût de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos Invocations de 0,5 seconde et leur coût de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Invocation cruciale</Name>
+      <Icon>heal2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-29793309</AbilityId>
+          <Description>Restaure 2820 à 3116 points de vie.</Description>
+          <AddonId>AFE3963E3B47EBE76</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>40.000000</CostManaPercent>
+          <CastTime>2.000000</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Abondance de vie</Name>
+      <Icon>doctrine_of_bliss_01_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96755324</AbilityId>
+          <Description>Restaure des points de vie à hauteur de 100% des points de vie maximum du Clerc.</Description>
+          <AddonId>AFA3BA1846C5ACC33</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Abondance de vie</Name>
+      <Icon>doctrine_of_bliss_01_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-96755324</AbilityId>
+        <Description>Restaure des points de vie à hauteur de 100% des points de vie maximum du Clerc.</Description>
+        <AddonId>AFA3BA1846C5ACC33</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Urgence</Name>
+      <Icon>righteousness2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-77437234</AbilityId>
+        <Description>La vitesse de déplacement augmente de 50% pendant 10 secondes.</Description>
+        <AddonId>AFB6266CE3DF07942</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Supplication respectueuse</Name>
+      <Icon>layonhands3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-65264354</AbilityId>
+        <Description>Régénère 5% des points de mana par seconde pendant 10 secondes.</Description>
+        <AddonId>AFC1C251E18C20F5A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Exubérance enragée</Name>
+      <Icon>sentinel_wrathful_exuberance_cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-57713812</AbilityId>
+        <Description>En cas de soins prodigués par le Clerc pendant le combat, inflige à la cible de l&apos;allié des dégâts de Vie à hauteur de 75% des soins administrés. Non applicable au Clerc. Ne peut affecter qu&apos;un allié à la fois. Ne peut pas être déclenché par Abondance de vie. Dure 1 heure.</Description>
+        <AddonId>AFC8F5B6C5A654779</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Parole d&apos;espoir</Name>
+      <Icon>anthem_of_fervor_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-56932097</AbilityId>
+        <Description></Description>
+        <AddonId>AFC9B48FF7AFCB9BF</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lumière de la rédemption</Name>
+      <Icon>shroudofpenitent2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-55820854</AbilityId>
+        <Description>Restaure 342 à 378 points de vie à un allié lorsque le Clerc commence à invoquer. Ne peut affecter qu&apos;un allié à la fois.</Description>
+        <AddonId>AFCAC3DCACD874C98</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Éclair de rayonnement</Name>
+      <Icon>magicward3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-45817096</AbilityId>
+        <Description>Apaise tous les ennemis à proximité pendant 8 secondes ou jusqu&apos;à ce qu&apos;ils subissent des dégâts.</Description>
+        <AddonId>AFD44E2F88D718E7C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Invocation cruciale</Name>
+      <Icon>heal2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-29793309</AbilityId>
+        <Description>Restaure 2820 à 3116 points de vie.</Description>
+        <AddonId>AFE3963E3B47EBE76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-70849778</AbilityId>
+        <Description>Restaure 2879 à 3182 points de vie.</Description>
+        <AddonId>AFBC6EB0E363BD1B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-9932705</AbilityId>
+        <Description>Restaure 2986 à 3300 points de vie.</Description>
+        <AddonId>AFF68705FB259E0AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-7302769</AbilityId>
+        <Description>Restaure 3036 à 3356 points de vie.</Description>
+        <AddonId>AFF90918F16FF707C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-31154588</AbilityId>
+        <Description>Restaure 3224 à 3563 points de vie.</Description>
+        <AddonId>AFE249E64D13338C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-97226932</AbilityId>
+        <Description>Restaure 3283 à 3628 points de vie.</Description>
+        <AddonId>AFA346F4C7547011C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ma Liberté de penser</Name>
+      <Icon>holystrength2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-24447089</AbilityId>
+        <Description>Dissipe tous les effets de contrôle.</Description>
+        <AddonId>AFE8AF78F4011A1D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Espoir de Nyol</Name>
+      <Icon>sentinel-healing_benediction_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10649228</AbilityId>
+        <Description>Augmente les soins prodigués de 50% pour les 5 prochains sorts prodiguant des soins à une cible unique. Dure 30 secondes.</Description>
+        <AddonId>AFF5D817487E5AD71</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Altruisme renouvelé</Name>
+      <Icon>piety3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-5843965</AbilityId>
+        <Description>Réinitialise le délai de récupération de toutes les capacités de Sentinelle (à l&apos;exception de Retour à la Vie).</Description>
+        <AddonId>AFFA6D403A325DFA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bénédiction de guérisseur</Name>
+      <Icon>generic_ability_018</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-1479152</AbilityId>
+        <Description>Les sorts de soins et d&apos;absorption à cible unique restaurent 320 à 354 points de vie supplémentaires. Dure 1 heure.</Description>
+        <AddonId>AFFE96E1075A3C9B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Invocation subtile</Name>
+      <Icon>restore2b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>73</AbilityId>
+        <Description>Restaure 953 à 1054 points de vie.</Description>
+        <AddonId>A00000049F8F76F86</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1317892564</AbilityId>
+        <Description>Restaure 1012 à 1119 points de vie.</Description>
+        <AddonId>A4E8D71D499773877</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>36213468</AbilityId>
+        <Description>Restaure 1092 à 1207 points de vie.</Description>
+        <AddonId>A022892DC0E0B0D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1046642002</AbilityId>
+        <Description>Restaure 1144 à 1265 points de vie.</Description>
+        <AddonId>A3E627D52A8ACB975</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1823809237</AbilityId>
+        <Description>Restaure 1200 à 1326 points de vie.</Description>
+        <AddonId>A6CB51ED577CB5AC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>232540055</AbilityId>
+        <Description>Restaure 1232 à 1362 points de vie.</Description>
+        <AddonId>A0DDC47979580F488</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1489107274</AbilityId>
+        <Description>Restaure 1278 à 1412 points de vie.</Description>
+        <AddonId>A58C1F94AD9F43740</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1566569793</AbilityId>
+        <Description>Restaure 1295 à 1431 points de vie.</Description>
+        <AddonId>A5D5FF5412EE9F17F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-41928235</AbilityId>
+        <Description>Restaure 1343 à 1485 points de vie.</Description>
+        <AddonId>AFD8039D5ADE2EFB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-18220448</AbilityId>
+        <Description>Restaure 1364 à 1508 points de vie.</Description>
+        <AddonId>AFEE9FA609A5B015F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-92684148</AbilityId>
+        <Description>Restaure 1435 à 1586 points de vie.</Description>
+        <AddonId>AFA79C08CA420A8DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-5081020</AbilityId>
+        <Description>Restaure 1496 à 1654 points de vie.</Description>
+        <AddonId>AFFB2784487D177E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-67048484</AbilityId>
+        <Description>Restaure 1501 à 1659 points de vie.</Description>
+        <AddonId>AFC00EBDC6D542741</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Détermination héroïque</Name>
+      <Icon>holystrength3c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>160234792</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 10. Dure 1 heure.</Description>
+        <AddonId>A098CFD28290C0B36</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1531639906</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 20. Dure 1 heure.</Description>
+        <AddonId>A5B4AF86298AD8862</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1334847940</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 30. Dure 1 heure.</Description>
+        <AddonId>A4F9029C461ED8359</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>45201325</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 40. Dure 1 heure.</Description>
+        <AddonId>A02B1B7AD2CDE4582</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1312122196</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 50. Dure 1 heure.</Description>
+        <AddonId>A4E3565541A2CD4C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-77957189</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 60. Dure 1 heure.</Description>
+        <AddonId>AFB5A77BB71DC8E7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-49295436</AbilityId>
+        <Description>Augmente l&apos;endurance de la cible et de tous les membres de son groupe ou raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFD0FCFB4C2E98A22</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Appel divin</Name>
+      <Icon>spiritofsaints1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>233457235</AbilityId>
+        <Description>Restaure 755 à 835 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A0DEA465350E0DDCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1234420252</AbilityId>
+        <Description>Restaure 767 à 848 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A4993C21C89D7D8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2099309798</AbilityId>
+        <Description>Restaure 807 à 892 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A7D20ECE695966422</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>1434251337</AbilityId>
+        <Description>Restaure 842 à 930 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A557CF0494D0A6284</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>713514412</AbilityId>
+        <Description>Restaure 844 à 932 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A2A875DAC8A861998</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Engagement du guérisseur</Name>
+      <Icon>ardent_doctrine_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>280783078</AbilityId>
+        <Description>Réduit les dégâts subis de 40% pendant 10 secondes.</Description>
+        <AddonId>A10BC68E643725C47</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Marqué par la lumière</Name>
+      <Icon>mend1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>417136780</AbilityId>
+        <Description>Les sorts de soins restaurent 208 à 230 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>A18DD008CD07188B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>163225506</AbilityId>
+        <Description>Les sorts de soins restaurent 215 à 238 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>A09BA9FA2D1F676C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>493365390</AbilityId>
+        <Description>Les sorts de soins restaurent 219 à 242 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>A1D68288EAED634B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-28569179</AbilityId>
+        <Description>Les sorts de soins restaurent 226 à 249 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>AFE4C11A5D20E65D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-96035487</AbilityId>
+        <Description>Les sorts de soins restaurent 229 à 253 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>AFA469D61A39F3108</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-9214812</AbilityId>
+        <Description>Les sorts de soins restaurent 241 à 267 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>AFF7364A486D8B946</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-46787562</AbilityId>
+        <Description>Les sorts de soins restaurent 252 à 278 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>AFD361416B0BDBC8F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-68350166</AbilityId>
+        <Description>Les sorts de soins restaurent 253 à 280 points de vie à un maximum de 2 membres du groupe ou du raid proches du Clerc. Dure 1 heure.</Description>
+        <AddonId>AFBED0F2AC22D3920</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Toucher de lumière</Name>
+      <Icon>redirect4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>431433303</AbilityId>
+        <Description>Le prochain sort prodiguant des soins ou absorbant des dégâts est lancé instantanément, réduisant son coût en mana de 50%. Dure 30 secondes.</Description>
+        <AddonId>A19B726578DC32395</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Invocation de soins</Name>
+      <Icon>heal2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>489397491</AbilityId>
+        <Description>Restaure 1744 à 1927 points de vie.</Description>
+        <AddonId>A1D2B9CF371B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1243746566</AbilityId>
+        <Description>Restaure 1837 à 2031 points de vie.</Description>
+        <AddonId>A4A22110664AE9FFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1286659701</AbilityId>
+        <Description>Restaure 1903 à 2104 points de vie.</Description>
+        <AddonId>A4CB0DE7537C83F40</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>230066489</AbilityId>
+        <Description>Restaure 1978 à 2186 points de vie.</Description>
+        <AddonId>A0DB689397295834B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>115411219</AbilityId>
+        <Description>Restaure 2014 à 2226 points de vie.</Description>
+        <AddonId>A06E109133A714BB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1694762334</AbilityId>
+        <Description>Restaure 2056 à 2272 points de vie.</Description>
+        <AddonId>A6504055EAD863E96</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-68870358</AbilityId>
+        <Description>Restaure 2132 à 2356 points de vie.</Description>
+        <AddonId>AFBE51F2A71B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-23359818</AbilityId>
+        <Description>Restaure 2168 à 2397 points de vie.</Description>
+        <AddonId>AFE9B8EB671B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-16336442</AbilityId>
+        <Description>Restaure 2302 à 2544 points de vie.</Description>
+        <AddonId>AFF06B9C671B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-60872502</AbilityId>
+        <Description>Restaure 2345 à 2592 points de vie.</Description>
+        <AddonId>AFC5F28CA71B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lumière revigorante</Name>
+      <Icon>healing_flare_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>508460475</AbilityId>
+        <Description>Supprime un effet de malédiction, de maladie ou de poison à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A1E4E7DBB72466C42</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Communion de soins</Name>
+      <Icon>heal3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>532927533</AbilityId>
+        <Description>Restaure 410 à 453 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A1FC3D42DCB98FC33</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>656212874</AbilityId>
+        <Description>Restaure 428 à 473 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A271D038A76E28F4E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>770495586</AbilityId>
+        <Description>Restaure 435 à 480 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A2DECD462B068B3E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1390109634</AbilityId>
+        <Description>Restaure 443 à 490 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A52DB63C2D9D8C219</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>544695781</AbilityId>
+        <Description>Restaure 461 à 509 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A207765E5CDA862C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>181982359</AbilityId>
+        <Description>Restaure 467 à 517 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A0AD8D497BC25F9A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>997571276</AbilityId>
+        <Description>Restaure 497 à 549 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A3B75BACCBE1F21F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-78081894</AbilityId>
+        <Description>Restaure 506 à 559 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>AFB58909A8AF9FE1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Prière purificatrice</Name>
+      <Icon>spiritual_will</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>573428586</AbilityId>
+        <Description>Dissipe un effet de malédiction, de maladie ou de poison.</Description>
+        <AddonId>A222DD36A9C63E24B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Retour à la Vie</Name>
+      <Icon>ressurect4y</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>646325348</AbilityId>
+        <Description>Ressuscite l&apos;allié et lui rend 50% de ses points de vie et de mana. Utilisable en combat.</Description>
+        <AddonId>A26862464D9EECBE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>300.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Éclair de lumière</Name>
+      <Icon>spiritbolt1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>987453712</AbilityId>
+        <Description>Inflige 770 à 851 points de dégâts de Vie.</Description>
+        <AddonId>A3ADB59108421B55F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>215856650</AbilityId>
+        <Description>Inflige 785 à 868 points de dégâts de Vie.</Description>
+        <AddonId>A0CDDB60AB3AC8C32</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>555462971</AbilityId>
+        <Description>Inflige 805 à 890 points de dégâts de Vie.</Description>
+        <AddonId>A211BB13BD5DBE4CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>358256918</AbilityId>
+        <Description>Inflige 828 à 915 points de dégâts de Vie.</Description>
+        <AddonId>A155A91169B6F50F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1058534486</AbilityId>
+        <Description>Inflige 847 à 937 points de dégâts de Vie.</Description>
+        <AddonId>A3F17F456777C9BB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1932511770</AbilityId>
+        <Description>Inflige 870 à 962 points de dégâts de Vie.</Description>
+        <AddonId>A732FCA1AC4DEE9D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>980820819</AbilityId>
+        <Description>Inflige 892 à 986 points de dégâts de Vie.</Description>
+        <AddonId>A3A76235392DCF20A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1196610091</AbilityId>
+        <Description>Inflige 924 à 1021 points de dégâts de Vie.</Description>
+        <AddonId>A4752D22B8BF3E1F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1493108841</AbilityId>
+        <Description>Inflige 968 à 1070 points de dégâts de Vie.</Description>
+        <AddonId>A58FF0869777E4ACB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>42327059</AbilityId>
+        <Description>Inflige 1039 à 1148 points de dégâts de Vie.</Description>
+        <AddonId>A0285DC134F63B5BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-42721752</AbilityId>
+        <Description>Inflige 1101 à 1217 points de dégâts de Vie.</Description>
+        <AddonId>AFD741E289ACA3B93</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-7033196</AbilityId>
+        <Description>Inflige 1375 à 1520 points de dégâts de Vie.</Description>
+        <AddonId>AFF94AE94AB069955</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-70235663</AbilityId>
+        <Description>Inflige 1652 à 1825 points de dégâts de Vie.</Description>
+        <AddonId>AFBD049F18A98DF47</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-91040029</AbilityId>
+        <Description>Inflige 1777 à 1964 points de dégâts de Vie.</Description>
+        <AddonId>AFA92D6E361DF7386</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Récompense de foi</Name>
+      <Icon>sentinel-healing_benediction</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1318898508</AbilityId>
+        <Description>Les sorts de soins et d&apos;absorption restaurent 854 à 944 points de vie supplémentaires aux membres du groupe ou du raid qui disposent de moins de 50% de leurs points de vie.</Description>
+        <AddonId>A4E9CCB4C9D3CC154</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vigilance</Name>
+      <Icon>blindinglight1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1467340559</AbilityId>
+        <Description>Restaure 1697 points de vie lorsque les points de vie sont inférieurs à 20% ou lorsque vous subissez un coup mortel dans les 10 secondes.</Description>
+        <AddonId>A5775D70FC99BF648</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>430046198</AbilityId>
+        <Description>Restaure 1725 points de vie lorsque les points de vie sont inférieurs à 20% ou lorsque vous subissez un coup mortel dans les 10 secondes.</Description>
+        <AddonId>A19A1FBF66183F7A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-22837462</AbilityId>
+        <Description>Restaure 1833 points de vie lorsque les points de vie sont inférieurs à 20% ou lorsque vous subissez un coup mortel dans les 10 secondes.</Description>
+        <AddonId>AFEA3872AE3EC8606</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-50024435</AbilityId>
+        <Description>Restaure 1865 points de vie lorsque les points de vie sont inférieurs à 20% ou lorsque vous subissez un coup mortel dans les 10 secondes.</Description>
+        <AddonId>AFD04B00DCA809283</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bannissement</Name>
+      <Icon>magicward2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1758206256</AbilityId>
+        <Description>Inflige 1200 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A68CC193056B0EFFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1077830693</AbilityId>
+        <Description>Inflige 1247 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A403E64252F418D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>559680620</AbilityId>
+        <Description>Inflige 1276 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A215C0C6CA071A083</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>291938709</AbilityId>
+        <Description>Inflige 1314 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A1166A1957E84C9C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>254556219</AbilityId>
+        <Description>Inflige 1351 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A0F2C383B55D749D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1070763010</AbilityId>
+        <Description>Inflige 1397 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A3FD28C028F14D4D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1343309788</AbilityId>
+        <Description>Inflige 1496 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A501147DCB13D7703</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1879993278</AbilityId>
+        <Description>Inflige 1549 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>A700E6BBEA4CDFAA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-86270509</AbilityId>
+        <Description>Inflige 1887 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>AFADB9DD3731F0C76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-79800659</AbilityId>
+        <Description>Inflige 2465 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>AFB3E56AD955EC147</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-31305797</AbilityId>
+        <Description>Inflige 2652 points de dégâts de Vie en 12 secondes.</Description>
+        <AddonId>AFE224FBB7CC084FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Souffle de soins</Name>
+      <Icon>flame_speaker_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1778238839</AbilityId>
+        <Description>Restaure 1323 à 1462 points de vie.</Description>
+        <AddonId>A69FDC577932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1734096537</AbilityId>
+        <Description>Restaure 1376 à 1521 points de vie.</Description>
+        <AddonId>A675C3699B510D197</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1332732562</AbilityId>
+        <Description>Restaure 1477 à 1632 points de vie.</Description>
+        <AddonId>A4F6FE29293D07D74</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1902720694</AbilityId>
+        <Description>Restaure 1569 à 1734 points de vie.</Description>
+        <AddonId>A716936B66B59F5DB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1229857358</AbilityId>
+        <Description>Restaure 1654 à 1828 points de vie.</Description>
+        <AddonId>A494E224E36604212</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1592782442</AbilityId>
+        <Description>Restaure 1713 à 1893 points de vie.</Description>
+        <AddonId>A5EEFEE6ABCB5C50D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2069614575</AbilityId>
+        <Description>Restaure 1780 à 1968 points de vie.</Description>
+        <AddonId>A7B5BCFEF271E1FE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>669359339</AbilityId>
+        <Description>Restaure 1811 à 2002 points de vie.</Description>
+        <AddonId>A27E59CEB5FF09A3B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1864021987</AbilityId>
+        <Description>Restaure 1850 à 2044 points de vie.</Description>
+        <AddonId>A6F1AB7E32AF44DF2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1712615846</AbilityId>
+        <Description>Restaure 1919 à 2121 points de vie.</Description>
+        <AddonId>A661471A69B7E50C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-25558896</AbilityId>
+        <Description>Restaure 1943 à 2148 points de vie.</Description>
+        <AddonId>AFE7A0090932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5197636</AbilityId>
+        <Description>Restaure 2049 à 2265 points de vie.</Description>
+        <AddonId>AFFB0B0BC932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-12965261</AbilityId>
+        <Description>Restaure 2104 à 2326 points de vie.</Description>
+        <AddonId>AFF3A2A73932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89481398</AbilityId>
+        <Description>Restaure 2110 à 2332 points de vie.</Description>
+        <AddonId>AFAAA9F4AAAFA31EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hâte du guérisseur</Name>
+      <Icon>sentinel-refreshing_communion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>1908785631</AbilityId>
+        <Description>Réduit le temps d&apos;incantation des 5 prochains sorts de soins de 30%. Dure 30 secondes.</Description>
+        <AddonId>A71C5C1DF7FA12E6B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

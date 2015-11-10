@@ -1,0 +1,3404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Bard">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Bonne santé</Name>
+      <Icon>good_health</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1873838232</AbilityId>
+          <Description></Description>
+          <AddonId>A6FB0809800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre endurance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre endurance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente votre endurance de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente votre endurance de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente votre endurance de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Inspiration de Barde</Name>
+      <Icon>bardic_inspiration</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-15100255</AbilityId>
+          <Description></Description>
+          <AddonId>AFF1996A100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos Codas ont 20% de chances par point de combo de réinitialiser les Motifs existants.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Compositeur talentueux</Name>
+      <Icon>talented_composer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1401246100</AbilityId>
+          <Description></Description>
+          <AddonId>A5385519400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le rayon de vos Motifs, Fanfares et Hymnes augmente de 5 mètres.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le rayon de vos Motifs, Fanfares et Hymnes augmente de 10 mètres.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Hymne de gloire</Name>
+      <Icon>anthem_of_glory</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>523867370</AbilityId>
+          <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 141 et toutes leurs résistances de 19.</Description>
+          <AddonId>A1F3994EA84754240</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Habitude des rues</Name>
+      <Icon>street_smart</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>106566004</AbilityId>
+          <Description></Description>
+          <AddonId>A065A117400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Musicien des rues</Name>
+      <Icon>street_performer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-4423016</AbilityId>
+          <Description></Description>
+          <AddonId>AFFBC829800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Quand vos points de vie sont inférieurs à 30%, votre vitesse de déplacement augmente de 5% et tous les effets de soins dont vous bénéficiez augmentent de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Quand vos points de vie sont inférieurs à 30%, votre vitesse de déplacement augmente de 10% et tous les effets de soins dont vous bénéficiez augmentent de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Accord de puissance</Name>
+      <Icon>power_chord</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1343250481</AbilityId>
+          <Description>Inflige 210 à 232 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+          <AddonId>A50106031622AF48C</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>4.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>2</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Chagrin étendu</Name>
+      <Icon>stunning_blow_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>La durée de Coda de péril, Coda de lâcheté et Coda de détresse augmente de 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La durée de Coda de péril, Coda de lâcheté et Coda de détresse augmente de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Présence scénique</Name>
+      <Icon>stage_presence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-53584040</AbilityId>
+          <Description></Description>
+          <AddonId>AFCCE5F5800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tous les effets de soins dont vous bénéficiez augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Tous les effets de soins dont vous bénéficiez augmentent de 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Musique assourdissante</Name>
+      <Icon>deafening_music</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>902156879</AbilityId>
+          <Description></Description>
+          <AddonId>A35C5D24F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts des attaques non physiques de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts des attaques non physiques de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts des attaques non physiques de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts des attaques non physiques de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts des attaques non physiques de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Coda de fureur</Name>
+      <Icon>coda_of_fury</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>37198687</AbilityId>
+          <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 124 points de dégâts
+2 points : 160 points de dégâts
+3 points : 202 points de dégâts
+4 points : 250 points de dégâts
+5 points : 307 points de dégâts</Description>
+          <AddonId>A02379B5FC9B1A000</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>18</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Hymne de compétence amélioré</Name>
+      <Icon>anthem_of_competence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1304848314</AbilityId>
+          <Description></Description>
+          <AddonId>A4DC667BA00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Hymne de compétence agit désormais sur les membres du groupe ou du raid au combat.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Phrasé mélodique</Name>
+      <Icon>riff</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1990860407</AbilityId>
+          <Description>Inflige 411 à 454 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+          <AddonId>A76AA1E779830CE7B</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme à distance</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>5</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Coda de restauration</Name>
+      <Icon>coda_of_restoration_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1510112149</AbilityId>
+          <Description>Restaure des points de vie supplémentaires par point de combo sur un maximum de 5 membres du groupe ou du raid.
+
+1 point : 21 points de vie
+2 points : 48 points de vie
+3 points : 82 points de vie
+4 points : 124 points de vie
+5 points : 174 points de vie</Description>
+          <AddonId>A5A027B955AEBD903</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>18</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>30.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Esprit triomphant</Name>
+      <Icon>triumphant_spirit</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>287290575</AbilityId>
+          <Description></Description>
+          <AddonId>A111FB4CF00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les soins prodigués de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les soins prodigués de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les soins prodigués de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les soins prodigués de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les soins prodigués de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Couplet captivant</Name>
+      <Icon>verse_of_fascination_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>757298829</AbilityId>
+          <Description>Hypnotise l&apos;ennemi pendant 8 secondes ou jusqu&apos;à ce qu&apos;il subisse des dégâts. N&apos;affecte qu&apos;un ennemi à la fois.</Description>
+          <AddonId>A2D23768D7C544EF7</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Résonance</Name>
+      <Icon>resonance</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>877024351</AbilityId>
+          <Description></Description>
+          <AddonId>A3446545F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente tous les attributs de votre allié de 1% si celui-ci est affecté par Motif de bravoure, Motif de récupération et Motif de ténacité. Dure 20 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente tous les attributs de votre allié de 2% si celui-ci est affecté par Motif de bravoure, Motif de récupération et Motif de ténacité. Dure 20 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente tous les attributs de votre allié de 3% si celui-ci est affecté par Motif de bravoure, Motif de récupération et Motif de ténacité. Dure 20 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente tous les attributs de votre allié de 4% si celui-ci est affecté par Motif de bravoure, Motif de récupération et Motif de ténacité. Dure 20 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente tous les attributs de votre allié de 5% si celui-ci est affecté par Motif de bravoure, Motif de récupération et Motif de ténacité. Dure 20 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Virtuose</Name>
+      <Icon>virtuoso_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>971980186</AbilityId>
+          <Description>Tous les points de combo consommés sont conservés en utilisant des Codas. Dure 15 secondes.</Description>
+          <AddonId>A39EF3D9AD3761DC5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>180.000015</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Âme revigorée</Name>
+      <Icon>cadence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Cadence soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 2% de votre puissance d&apos;attaque chaque fois qu&apos;elle inflige des dégâts.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Cadence soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 4% de votre puissance d&apos;attaque chaque fois qu&apos;elle inflige des dégâts.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Cadence soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 6% de votre puissance d&apos;attaque chaque fois qu&apos;elle inflige des dégâts.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Accord d&apos;inspiration</Name>
+      <Icon>power_chord_b</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Accord de puissance soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 3% de votre puissance d&apos;attaque. Augmente de 5% les dégâts des prochains Cadence et Tempo.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Accord de puissance soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 6% de votre puissance d&apos;attaque. Augmente de 10% les dégâts des prochains Cadence et Tempo.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Accord de puissance soigne jusqu&apos;à 5 membres du groupe ou du raid à hauteur de 9% de votre puissance d&apos;attaque. Augmente de 15% les dégâts des prochains Cadence et Tempo.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Motif de récupération amélioré</Name>
+      <Icon>motif_of_regeneration</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-93706266</AbilityId>
+          <Description></Description>
+          <AddonId>AFA6A27E600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Motif de récupération affecte désormais les membres du groupe ou du raid.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Théorie musicale avancée</Name>
+      <Icon>exorcize1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-35880143</AbilityId>
+          <Description></Description>
+          <AddonId>AFDDC833100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de vos attaques de Barde de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos attaques de Barde de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos attaques de Barde de 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Réverbération</Name>
+      <Icon>ward1z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-24355901</AbilityId>
+          <Description></Description>
+          <AddonId>AFE8C5BC300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les Codas ont 20% de chances par point de combo d&apos;augmenter votre puissance d&apos;attaque de 8% par accumulation. Cumulable 1 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les Codas ont 20% de chances par point de combo d&apos;augmenter votre puissance d&apos;attaque de 8% par accumulation. Cumulable 2 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les Codas ont 20% de chances par point de combo d&apos;augmenter votre puissance d&apos;attaque de 8% par accumulation. Cumulable 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les Codas ont 20% de chances par point de combo d&apos;augmenter votre puissance d&apos;attaque de 8% par accumulation. Cumulable 4 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les Codas ont 20% de chances par point de combo d&apos;augmenter votre puissance d&apos;attaque de 8% par accumulation. Cumulable 5 fois.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Couplet d&apos;agonie</Name>
+      <Icon>bard_verse_of_agony</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3372885</AbilityId>
+          <Description>Inflige 637 à 704 points de dégâts de Vie.</Description>
+          <AddonId>AFFCC88ABE7680A26</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Distorsion harmonique</Name>
+      <Icon>bard_harmonic_distortion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-5114297</AbilityId>
+          <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié de 568 à 628 points de vie.</Description>
+          <AddonId>AFFB1F647515D4FE5</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        </Ability>
+        <Ability>
+          <AbilityId>-20742196</AbilityId>
+          <Description></Description>
+          <AddonId>AFEC37FCC00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Modulation</Name>
+      <Icon>coda_of_wrath</Icon>
+      <PrereqTraitKey>23</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tempo réduit le délai de récupération de Couplet d&apos;agonie et de Couplet de vitalité de 1 seconde par seconde de canalisation.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Tempo réduit le délai de récupération de Couplet d&apos;agonie et de Couplet de vitalité de 2 secondes par seconde de canalisation.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Orchestre des Plans</Name>
+      <Icon>bard_orchestra_of_the_planes</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89538427</AbilityId>
+        <Description>Place aux pieds du Voleur une aura réduisant de 0% les dégâts subis par les membres du groupe ou du raid et augmentant  les dégâts infligés de 15%. Leur rend 630 points de vie en 15 secondes et inflige 959 points de dégâts de Vie à un maximum de 5 ennemis en 15 secondes.</Description>
+        <AddonId>AFAA9C085A3AD3A8E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Couplet d&apos;occlusion</Name>
+      <Icon>tactician_ablative_coil_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-72375985</AbilityId>
+        <Description>Génère un bouclier qui protège tous les membres du groupe ou du raid, en absorbant jusqu&apos;à 543 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFBAFA14F4829FC0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-37266356</AbilityId>
+        <Description>Génère un bouclier qui protège tous les membres du groupe ou du raid, en absorbant jusqu&apos;à 547 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFDC75C4C805F705D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tempo</Name>
+      <Icon>power_chord_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-65335436</AbilityId>
+        <Description>Inflige 605 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFC1B0F749E44C343</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-43267434</AbilityId>
+        <Description>Inflige 641 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFD6BCA965F150B33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-3698773</AbilityId>
+        <Description>Inflige 670 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFFC78FAB4C59713D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-39080425</AbilityId>
+        <Description>Inflige 715 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFDABAE17B537DEAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-49425685</AbilityId>
+        <Description>Inflige 759 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFD0DD2EBF0C71D7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-49188682</AbilityId>
+        <Description>Inflige 895 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFD1170B6A03594A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43576066</AbilityId>
+        <Description>Inflige 931 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFD6714FE63F7DDB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-92542259</AbilityId>
+        <Description>Inflige 1324 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFA7BEACD4A655395</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-92527884</AbilityId>
+        <Description>Inflige 1723 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFA7C22F4B3027C3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83091547</AbilityId>
+        <Description>Inflige 1908 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFB0C1FA58B3FF768</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Oscillations multiples</Name>
+      <Icon>untangle_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-59553057</AbilityId>
+        <Description>Cadence, Tempo et Accord de puissance infligent des dégâts à 3 ennemis, mais infligent 50% de dégâts en moins.</Description>
+        <AddonId>AFC734ADF682130EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Maîtrise de Barde</Name>
+      <Icon>inspiration4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-24688849</AbilityId>
+        <Description>Augmente les dégâts de 0,75%, les soins de 0,5% et l&apos;endurance de 0,5% pour chaque point investi dans l&apos;âme du Barde.</Description>
+        <AddonId>AFE87472FA2FE509E</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name></Name>
+      <Icon>Default</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-20742196</AbilityId>
+        <Description></Description>
+        <AddonId>AFEC37FCC00000000</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Distorsion harmonique</Name>
+      <Icon>bard_harmonic_distortion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-5114297</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié de 568 à 628 points de vie.</Description>
+        <AddonId>AFFB1F647515D4FE5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-40000045</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié à raison de 653 à 722 points de vie.</Description>
+        <AddonId>AFD9DA5D3782382A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-65283868</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié à raison de 676 à 747 points de vie.</Description>
+        <AddonId>AFC1BD8E47B8D1434</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-96336731</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié à raison de 782 à 864 points de vie.</Description>
+        <AddonId>AFA4204A53AA757F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-7627098</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié à raison de 834 à 922 points de vie.</Description>
+        <AddonId>AFF8B9EA67CF33F95</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-58949448</AbilityId>
+        <Description>À chaque utilisation d&apos;une Coda, le Voleur a 20% de chances par point de combo d&apos;obtenir Énergie harmonique, augmentant les dégâts de 5%. Cette amélioration est cumulable 5 fois. Distorsion harmonique consomme 1 unité d&apos;Énergie harmonique et soigne un seul allié à raison de 841 à 929 points de vie.</Description>
+        <AddonId>AFC7C80B881373EC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Couplet d&apos;agonie</Name>
+      <Icon>bard_verse_of_agony</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-3372885</AbilityId>
+        <Description>Inflige 637 à 704 points de dégâts de Vie.</Description>
+        <AddonId>AFFCC88ABE7680A26</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-69227211</AbilityId>
+        <Description>Inflige 697 à 771 points de dégâts de Vie.</Description>
+        <AddonId>AFBDFAD3598F07D90</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-93274431</AbilityId>
+        <Description>Inflige 791 à 874 points de dégâts de Vie.</Description>
+        <AddonId>AFA70BEC197DEFDF8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-9237208</AbilityId>
+        <Description>Inflige 909 à 1005 points de dégâts de Vie.</Description>
+        <AddonId>AFF730D2874B7D9B0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-38674562</AbilityId>
+        <Description>Inflige 1360 à 1504 points de dégâts de Vie.</Description>
+        <AddonId>AFDB1DF7EA458566C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-95853818</AbilityId>
+        <Description>Inflige 1730 à 1912 points de dégâts de Vie.</Description>
+        <AddonId>AFA49630608D39524</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Motif de récupération</Name>
+      <Icon>motif_of_regeneration_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>18574050</AbilityId>
+        <Description>Restaure 105 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>A011B6AE226FDCA3F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>199680781</AbilityId>
+        <Description>Restaure 165 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>A0BE6E30DBB0A31C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>706587702</AbilityId>
+        <Description>Restaure 202 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>A2A1DAC36A89B929B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1580913309</AbilityId>
+        <Description>Restaure 224 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>A5E3AD29D7720330B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1307689744</AbilityId>
+        <Description>Restaure 253 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>A4DF1C310DD7D49E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-30384771</AbilityId>
+        <Description>Restaure 264 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFE305D7DBCB7AA9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-5268097</AbilityId>
+        <Description>Restaure 295 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFFAF9D7FB2FB1CB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-8901407</AbilityId>
+        <Description>Restaure 309 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFF782CE19DDDF7ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15194434</AbilityId>
+        <Description>Restaure 355 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFF1826BECF4FD474</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-13992149</AbilityId>
+        <Description>Restaure 395 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFF2A7F2BC74A6177</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-22277659</AbilityId>
+        <Description>Restaure 397 points de vie en 20 secondes. Augmente les soins reçus de 5%.</Description>
+        <AddonId>AFEAC11E5A89C84AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Coda de fureur</Name>
+      <Icon>coda_of_fury</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>37198687</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 124 points de dégâts
+2 points : 160 points de dégâts
+3 points : 202 points de dégâts
+4 points : 250 points de dégâts
+5 points : 307 points de dégâts</Description>
+        <AddonId>A02379B5FC9B1A000</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1662740908</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 127 points de dégâts
+2 points : 164 points de dégâts
+3 points : 210 points de dégâts
+4 points : 263 points de dégâts
+5 points : 325 points de dégâts</Description>
+        <AddonId>A631B69AC337B7E92</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1743274238</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 128 points de dégâts
+2 points : 168 points de dégâts
+3 points : 217 points de dégâts
+4 points : 273 points de dégâts
+5 points : 339 points de dégâts</Description>
+        <AddonId>A67E840FE96056431</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>852622817</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 130 points de dégâts
+2 points : 172 points de dégâts
+3 points : 226 points de dégâts
+4 points : 288 points de dégâts
+5 points : 361 points de dégâts</Description>
+        <AddonId>A32D1FDE1A175ED63</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1851932100</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 133 points de dégâts
+2 points : 178 points de dégâts
+3 points : 236 points de dégâts
+4 points : 304 points de dégâts
+5 points : 384 points de dégâts</Description>
+        <AddonId>A6E623DC47378A6AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>136374041</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 139 points de dégâts
+2 points : 195 points de dégâts
+3 points : 267 points de dégâts
+4 points : 352 points de dégâts
+5 points : 452 points de dégâts</Description>
+        <AddonId>A0820E719A8BC5FC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-62870766</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 141 points de dégâts
+2 points : 200 points de dégâts
+3 points : 275 points de dégâts
+4 points : 365 points de dégâts
+5 points : 470 points de dégâts</Description>
+        <AddonId>AFC40AB12E3034AD0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5559716</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 160 points de dégâts
+2 points : 249 points de dégâts
+3 points : 363 points de dégâts
+4 points : 502 points de dégâts
+5 points : 666 points de dégâts</Description>
+        <AddonId>AFFAB2A5CBBBF564A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-99153953</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 181 points de dégâts
+2 points : 299 points de dégâts
+3 points : 454 points de dégâts
+4 points : 642 points de dégâts
+5 points : 866 points de dégâts</Description>
+        <AddonId>AFA1707DF9B85B96D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-94801845</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo à un maximum de 5 ennemis.
+
+1 point : 190 points de dégâts
+2 points : 322 points de dégâts
+3 points : 495 points de dégâts
+4 points : 706 points de dégâts
+5 points : 958 points de dégâts</Description>
+        <AddonId>AFA59704B88072F28</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Couplet de vitalité</Name>
+      <Icon>verse_of_vitality</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>135522751</AbilityId>
+        <Description>Restaure 280 à 310 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A0813E9BF2912C322</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>231958367</AbilityId>
+        <Description>Restaure 294 à 325 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A0DD3675F6DA3A1FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17019824</AbilityId>
+        <Description>Restaure 337 à 373 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>AFEFC4C503631EF57</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-38164145</AbilityId>
+        <Description>Restaure 375 à 415 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>AFDB9A94F67FA19BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-35784547</AbilityId>
+        <Description>Restaure 377 à 417 points de vie à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>AFDDDF89D62A1D48D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda de lâcheté</Name>
+      <Icon>coda_of_cowardice</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>274374632</AbilityId>
+        <Description>Augmente les dégâts physiques subis par l&apos;ennemi et tous les ennemis proches de 5% pendant une durée déterminée par les points de combo.
+
+1 point : dure 6 secondes
+2 points : dure 12 secondes
+3 points : dure 18 secondes
+4 points : dure 24 secondes
+5 points : dure 30 secondes</Description>
+        <AddonId>A105A9FE8C4C8803A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hymne de gloire</Name>
+      <Icon>anthem_of_glory</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>523867370</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 141 et toutes leurs résistances de 19.</Description>
+        <AddonId>A1F3994EA84754240</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1723014383</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 270 et toutes leurs résistances de 23.</Description>
+        <AddonId>A66B31CEF83C7A8C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>932862203</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 399 et toutes leurs résistances de 27.</Description>
+        <AddonId>A379A58FB9B10AE87</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1192989483</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 527 et toutes leurs résistances de 32.</Description>
+        <AddonId>A471B932B8FA20C84</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1874009136</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 656 et toutes leurs résistances de 40.</Description>
+        <AddonId>A6FB31C30C16947B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-39269357</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 1400 et toutes leurs résistances de 50.</Description>
+        <AddonId>AFDA8CC13CE1DE0E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-44498497</AbilityId>
+        <Description>Augmente l&apos;armure de tous les membres du groupe ou du raid de 2000 et toutes leurs résistances de 65.</Description>
+        <AddonId>AFD5901BF682F32D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Couplet captivant</Name>
+      <Icon>verse_of_fascination_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>757298829</AbilityId>
+        <Description>Hypnotise l&apos;ennemi pendant 8 secondes ou jusqu&apos;à ce qu&apos;il subisse des dégâts. N&apos;affecte qu&apos;un ennemi à la fois.</Description>
+        <AddonId>A2D23768D7C544EF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Couplet de joie</Name>
+      <Icon>verse_of_joy</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>766317719</AbilityId>
+        <Description>Restaure chaque seconde 5 points de charge, 50 points de mana, 5 points de puissance, et 5 points d&apos;énergie pendant 15 secondes pour tous les membres du groupe ou du raid.</Description>
+        <AddonId>A2DAD149799991550</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-37403796</AbilityId>
+        <Description>Restaure chaque seconde 5 points de charge, 120 points de mana, 5 points de puissance, et 5 points d&apos;énergie pendant 15 secondes pour tous les membres du groupe ou du raid.</Description>
+        <AddonId>AFDC5436C5D26226F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-32184112</AbilityId>
+        <Description>Restaure chaque seconde 5 points de charge, 140 points de mana, 5 points de puissance, et 5 points d&apos;énergie pendant 15 secondes pour tous les membres du groupe ou du raid.</Description>
+        <AddonId>AFE14E8D06588958C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-23628312</AbilityId>
+        <Description>Restaure chaque seconde 5 points de charge, 160 points de mana, 5 points de puissance, et 5 points d&apos;énergie pendant 15 secondes pour tous les membres du groupe ou du raid.</Description>
+        <AddonId>AFE9775E8807137B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Couplet de fascination</Name>
+      <Icon>verse_of_fascination</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>806905193</AbilityId>
+        <Description>Hypnotise les ennemis à proximité pendant 8 secondes ou jusqu&apos;à ce qu&apos;ils subissent des dégâts.</Description>
+        <AddonId>A301865698B83FC55</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda du péril</Name>
+      <Icon>coda_of_distress_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>874186574</AbilityId>
+        <Description>L&apos;ennemi subit 80 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A341B074E3B22A7D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>558981082</AbilityId>
+        <Description>L&apos;ennemi subit 115 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A21515FDA7C008092</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1738192904</AbilityId>
+        <Description>L&apos;ennemi subit 175 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A679AB80884913FFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>686765822</AbilityId>
+        <Description>L&apos;ennemi subit 250 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A28EF36FE813677AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>515661430</AbilityId>
+        <Description>L&apos;ennemi subit 370 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A1EBC5E7640C2E14E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>60843841</AbilityId>
+        <Description>L&apos;ennemi subit 530 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A03A0674141BE00CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1001287049</AbilityId>
+        <Description>L&apos;ennemi subit 900 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>A3BAE6D89842ED939</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-4001071</AbilityId>
+        <Description>L&apos;ennemi subit 1200 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>AFFC2F2D17E596F23</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18448332</AbilityId>
+        <Description>L&apos;ennemi subit 1500 points de dégâts physiques supplémentaires. Chaque assaillant peut déclencher cet effet une fois toutes les 3 secondes.
+
+1 point : 10 secondes
+2 points : 15 secondes
+3 points : 20 secondes
+4 points : 25 secondes
+5 points : 30 secondes</Description>
+        <AddonId>AFEE6803486E21765</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Virtuose</Name>
+      <Icon>virtuoso_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>971980186</AbilityId>
+        <Description>Tous les points de combo consommés sont conservés en utilisant des Codas. Dure 15 secondes.</Description>
+        <AddonId>A39EF3D9AD3761DC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>180.000015</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda de détresse</Name>
+      <Icon>coda_of_distress</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1015923578</AbilityId>
+        <Description>Augmente les dégâts non physiques subis par l&apos;ennemi et les ennemis proches de 7% pendant une durée déterminée par les points de combo.
+
+1 point : dure 6 secondes
+2 points : dure 12 secondes
+3 points : dure 18 secondes
+4 points : dure 24 secondes
+5 points : dure 30 secondes</Description>
+        <AddonId>A3C8DC37A72AF7186</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda de colère</Name>
+      <Icon>coda_of_wrath_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1179522229</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 202 points de dégâts
+2 points : 252 points de dégâts
+3 points : 310 points de dégâts
+4 points : 378 points de dégâts
+5 points : 455 points de dégâts</Description>
+        <AddonId>A464E14B5320AA383</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1460181813</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 204 points de dégâts
+2 points : 254 points de dégâts
+3 points : 316 points de dégâts
+4 points : 387 points de dégâts
+5 points : 468 points de dégâts</Description>
+        <AddonId>A57089B35DB9E9F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1787413632</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 207 points de dégâts
+2 points : 261 points de dégâts
+3 points : 328 points de dégâts
+4 points : 404 points de dégâts
+5 points : 493 points de dégâts</Description>
+        <AddonId>A6A89C4806A4E3AF5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>795832219</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 208 points de dégâts
+2 points : 266 points de dégâts
+3 points : 336 points de dégâts
+4 points : 416 points de dégâts
+5 points : 510 points de dégâts</Description>
+        <AddonId>A2F6F6F9B8CCCBE66</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>260447145</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 210 points de dégâts
+2 points : 270 points de dégâts
+3 points : 345 points de dégâts
+4 points : 430 points de dégâts
+5 points : 530 points de dégâts</Description>
+        <AddonId>A0F861BA966319568</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1766652634</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 214 points de dégâts
+2 points : 277 points de dégâts
+3 points : 358 points de dégâts
+4 points : 451 points de dégâts
+5 points : 560 points de dégâts</Description>
+        <AddonId>A694CFADAA466922C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1939066695</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 216 points de dégâts
+2 points : 285 points de dégâts
+3 points : 371 points de dégâts
+4 points : 472 points de dégâts
+5 points : 591 points de dégâts</Description>
+        <AddonId>A7393CF478D0D85B8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>501328992</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 220 points de dégâts
+2 points : 295 points de dégâts
+3 points : 391 points de dégâts
+4 points : 502 points de dégâts
+5 points : 632 points de dégâts</Description>
+        <AddonId>A1DE1AC607C974394</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1898339536</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 229 points de dégâts
+2 points : 315 points de dégâts
+3 points : 425 points de dégâts
+4 points : 556 points de dégâts
+5 points : 711 points de dégâts</Description>
+        <AddonId>A71265CD0416C1CB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>840476418</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 232 points de dégâts
+2 points : 325 points de dégâts
+3 points : 445 points de dégâts
+4 points : 586 points de dégâts
+5 points : 753 points de dégâts</Description>
+        <AddonId>A3218A702B9FC72D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-69665916</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 255 points de dégâts
+2 points : 382 points de dégâts
+3 points : 545 points de dégâts
+4 points : 742 points de dégâts
+5 points : 976 points de dégâts</Description>
+        <AddonId>AFBD8FB8416127379</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-81579102</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 301 points de dégâts
+2 points : 499 points de dégâts
+3 points : 756 points de dégâts
+4 points : 1070 points de dégâts
+5 points : 1444 points de dégâts</Description>
+        <AddonId>AFB2333A210C2DCAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-61992534</AbilityId>
+        <Description>Inflige des dégâts de Vie par point de combo.
+
+1 point : 317 points de dégâts
+2 points : 537 points de dégâts
+3 points : 825 points de dégâts
+4 points : 1177 points de dégâts
+5 points : 1597 points de dégâts</Description>
+        <AddonId>AFC4E11AA3A40A3B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Motif de ténacité</Name>
+      <Icon>motif_of_tenacity</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1303653269</AbilityId>
+        <Description>Réduit les dégâts subis de 5% pour tous les membres du groupe ou du raid pendant 20 secondes.</Description>
+        <AddonId>A4DB42B957C8DB970</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Accord de puissance</Name>
+      <Icon>power_chord</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1343250481</AbilityId>
+        <Description>Inflige 210 à 232 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A50106031622AF48C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>1920880032</AbilityId>
+        <Description>Inflige 217 à 240 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A727E4DA07932661B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>2031192261</AbilityId>
+        <Description>Inflige 229 à 254 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A791188C5BF0A30F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>1781670663</AbilityId>
+        <Description>Inflige 239 à 265 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A6A322307A299B479</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>610163606</AbilityId>
+        <Description>Inflige 256 à 283 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A245E5B968F435294</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>1178440884</AbilityId>
+        <Description>Inflige 276 à 306 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A463D94B441267341</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>421949339</AbilityId>
+        <Description>Inflige 317 à 350 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>A19266F9BCAF3DE9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-12863690</AbilityId>
+        <Description>Inflige 329 à 364 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>AFF3BB73658127090</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-53549642</AbilityId>
+        <Description>Inflige 467 à 516 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>AFCCEE5B67D9A978D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-68350060</AbilityId>
+        <Description>Inflige 606 à 670 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>AFBED0F948570E107</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42581920</AbilityId>
+        <Description>Inflige 671 à 741 points de dégâts de Vie. Rapporte 2 points de combo.</Description>
+        <AddonId>AFD7640603742E8D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cadence</Name>
+      <Icon>cadence_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1487673667</AbilityId>
+        <Description>Inflige 366 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A58AC1943784B2900</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>587558317</AbilityId>
+        <Description>Inflige 376 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A23056DAD94064C94</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>852172678</AbilityId>
+        <Description>Inflige 390 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A32CB1F8670DD4B50</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>270114254</AbilityId>
+        <Description>Inflige 411 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A10199DCE68057F9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1072505161</AbilityId>
+        <Description>Inflige 427 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A3FED214973B83449</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>411310742</AbilityId>
+        <Description>Inflige 449 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A18841A96C2ABC3A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>22377412</AbilityId>
+        <Description>Inflige 472 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A015573C43E51B0AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>473109736</AbilityId>
+        <Description>Inflige 504 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A1C3314E81BAE824F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>2062268578</AbilityId>
+        <Description>Inflige 549 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A7AEBB8A2B1988031</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1348485534</AbilityId>
+        <Description>Inflige 619 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>A5060419E3C5C5DAD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-34463805</AbilityId>
+        <Description>Inflige 644 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFDF21FC3E48043BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-39184981</AbilityId>
+        <Description>Inflige 915 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFDAA15AB999C6541</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-47845182</AbilityId>
+        <Description>Inflige 1191 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFD25F0C2964DAB02</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-78797604</AbilityId>
+        <Description>Inflige 1319 points de dégâts de Vie en 2 secondes. Rapporte 1 point de combo par seconde.</Description>
+        <AddonId>AFB4DA4DCC52AF122</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Coda de restauration</Name>
+      <Icon>coda_of_restoration_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1510112149</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo sur un maximum de 5 membres du groupe ou du raid.
+
+1 point : 21 points de vie
+2 points : 48 points de vie
+3 points : 82 points de vie
+4 points : 124 points de vie
+5 points : 174 points de vie</Description>
+        <AddonId>A5A027B955AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1073604894</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo à un maximum de 5 membres du groupe ou du raid.
+
+1 point : 23 points de vie
+2 points : 53 points de vie
+3 points : 91 points de vie
+4 points : 138 points de vie
+5 points : 196 points de vie</Description>
+        <AddonId>A3FFDE91E45211203</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>902989370</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo à un maximum de 5 membres du groupe ou du raid.
+
+1 point : 25 points de vie
+2 points : 59 points de vie
+3 points : 100 points de vie
+4 points : 155 points de vie
+5 points : 218 points de vie</Description>
+        <AddonId>A35D2863A512F08EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>486565327</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo à un maximum de 5 membres du groupe ou du raid.
+
+1 point : 27 points de vie
+2 points : 61 points de vie
+3 points : 106 points de vie
+4 points : 160 points de vie
+5 points : 227 points de vie</Description>
+        <AddonId>A1D0065CF9626ECB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>765521026</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo à un maximum de 5 membres du groupe ou du raid.
+
+1 point : 30 points de vie
+2 points : 68 points de vie
+3 points : 119 points de vie
+4 points : 182 points de vie
+5 points : 257 points de vie</Description>
+        <AddonId>A2DA0EC82B7F44DC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1818962550</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo à un maximum de 5 membres du groupe ou du raid.
+
+1 point : 30 points de vie
+2 points : 70 points de vie
+3 points : 122 points de vie
+4 points : 187 points de vie
+5 points : 266 points de vie</Description>
+        <AddonId>A6C6B2A76255F6F6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-10462245</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo sur un maximum de 5 membres du groupe ou du raid.
+
+1 point : 34 points de vie
+2 points : 81 points de vie
+3 points : 140 points de vie
+4 points : 215 points de vie
+5 points : 306 points de vie</Description>
+        <AddonId>AFF605BDB5AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-61156732</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo sur un maximum de 5 membres du groupe ou du raid.
+
+1 point : 38 points de vie
+2 points : 88 points de vie
+3 points : 155 points de vie
+4 points : 239 points de vie
+5 points : 339 points de vie</Description>
+        <AddonId>AFC5AD2845AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-77494518</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo sur un maximum de 5 membres du groupe ou du raid.
+
+1 point : 38 points de vie
+2 points : 88 points de vie
+3 points : 155 points de vie
+4 points : 240 points de vie
+5 points : 341 points de vie</Description>
+        <AddonId>AFB61870A5AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Motif de bravoure</Name>
+      <Icon>motif_of_bravery</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1532247126</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 3 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A5B543C56F68674C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>768521543</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 12 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A2DCEB54770176BFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>677657485</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 28 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A28643B8D8FC62832</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2066590346</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 40 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A7B2DAA8A42B07314</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2090712182</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 53 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A7C9DBC76762D7215</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1971418677</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 62 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>A75817635F7DF2CEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-31215939</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 130 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>AFE23AEBDBA6A0DD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-78628229</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts de tous les membres du groupe ou du raid de 225 et leurs chances d&apos;infliger un coup critique de 1% pendant 20 secondes.</Description>
+        <AddonId>AFB503A7BD916688A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hymne de ferveur</Name>
+      <Icon>anthem_of_fervor</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1679203414</AbilityId>
+        <Description>Réduit le coût des capacités de tous les membres du groupe ou du raid de 5%.</Description>
+        <AddonId>A64169C56C4DF44A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Motif d&apos;encouragement</Name>
+      <Icon>motif_of_encouragement</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1774010323</AbilityId>
+        <Description>Pousse jusqu&apos;à 5 créatures à proximité à suivre le Voleur pendant 20 secondes.</Description>
+        <AddonId>A69BD3FD3745F0A98</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hymne de compétence</Name>
+      <Icon>anthem_of_competence</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1856182425</AbilityId>
+        <Description>Augmente la vitesse de déplacement hors combat de 15% pour tous les membres du groupe ou du raid.</Description>
+        <AddonId>A6EA318992F56E5E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Phrasé mélodique</Name>
+      <Icon>riff</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1990860407</AbilityId>
+        <Description>Inflige 411 à 454 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A76AA1E779830CE7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1221651225</AbilityId>
+        <Description>Inflige 434 à 480 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A48D0EB19CFC8515D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1011625765</AbilityId>
+        <Description>Inflige 459 à 508 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A3C4C2F259C0816B0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1521611542</AbilityId>
+        <Description>Inflige 490 à 541 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A5AB1F3163178E702</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>346625628</AbilityId>
+        <Description>Inflige 556 à 615 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A14A9165C76A94FB6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1092292281</AbilityId>
+        <Description>Inflige 578 à 639 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>A411B0EB9CE7231BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-68089579</AbilityId>
+        <Description>Inflige 750 à 829 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>AFBF109159D26A90D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-42774919</AbilityId>
+        <Description>Inflige 1109 à 1226 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>AFD734E798E3983C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-7950707</AbilityId>
+        <Description>Inflige 1227 à 1356 points de dégâts de Vie. Rapporte 5 points de combo.</Description>
+        <AddonId>AFF86AE8DBEC36885</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme à distance</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fanfare de puissance</Name>
+      <Icon>fanfare_of_power</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>2008357338</AbilityId>
+        <Description>Augmente la force, la dextérité, l&apos;intelligence et la sagesse de tous les membres du groupe ou du raid de 30. Dure 1 heure.</Description>
+        <AddonId>A77B519DA20AD56D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>379343254</AbilityId>
+        <Description>Augmente la force, la dextérité, l&apos;intelligence et la sagesse de tous les membres du groupe ou du raid de 40. Dure 1 heure.</Description>
+        <AddonId>A169C5196A863F19C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>7079079</AbilityId>
+        <Description>Augmente la force, la dextérité, l&apos;intelligence et la sagesse de tous les membres du groupe ou du raid de 50. Dure 1 heure.</Description>
+        <AddonId>A006C04A77B357900</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>232723928</AbilityId>
+        <Description>Augmente la force, la dextérité, l&apos;intelligence et la sagesse de tous les membres du groupe ou du raid de 60. Dure 1 heure.</Description>
+        <AddonId>A0DDF15D8A740BB2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-28111274</AbilityId>
+        <Description>Augmente la force, la dextérité, l&apos;intelligence et la sagesse de tous les membres du groupe ou du raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFE530E5662BBD8EE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fanfare de vigueur</Name>
+      <Icon>fanfare_of_vigor</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>2028562086</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 10. Dure 1 heure.</Description>
+        <AddonId>A78E966A67C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1138302822</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 20. Dure 1 heure.</Description>
+        <AddonId>A43D91F6692ED58F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>256530365</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 30. Dure 1 heure.</Description>
+        <AddonId>A0F4A57BD8EDA3ADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>692072575</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 40. Dure 1 heure.</Description>
+        <AddonId>A2940307F5E58C134</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>96862812</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 50. Dure 1 heure.</Description>
+        <AddonId>A05C6025C645A4158</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-93118454</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 60. Dure 1 heure.</Description>
+        <AddonId>AFA73200A7C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-82855484</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFB0FB9C47C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

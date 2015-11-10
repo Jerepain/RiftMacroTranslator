@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2964AA86-DF16-4CFD-979E-C38D18FF594B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XmlToTable</RootNamespace>
+    <AssemblyName>XmlToTable</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SoulTree.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Souls\EN\Cleric\Cabalist.xml" />
+    <Content Include="Souls\EN\Cleric\Defiler.xml" />
+    <Content Include="Souls\EN\Cleric\Druid.xml" />
+    <Content Include="Souls\EN\Cleric\Inquisitor.xml" />
+    <Content Include="Souls\EN\Cleric\Justicar.xml" />
+    <Content Include="Souls\EN\Cleric\PlanarAttunement.xml" />
+    <Content Include="Souls\EN\Cleric\Purifier.xml" />
+    <Content Include="Souls\EN\Cleric\Sentinel.xml" />
+    <Content Include="Souls\EN\Cleric\Shaman.xml" />
+    <Content Include="Souls\EN\Cleric\Warden.xml" />
+    <Content Include="Souls\EN\Mage\Archon.xml" />
+    <Content Include="Souls\EN\Mage\Chloromancer.xml" />
+    <Content Include="Souls\EN\Mage\Dominator.xml" />
+    <Content Include="Souls\EN\Mage\Elemental Summoner.xml" />
+    <Content Include="Souls\EN\Mage\Harbinger.xml" />
+    <Content Include="Souls\EN\Mage\Necromancer.xml" />
+    <Content Include="Souls\EN\Mage\PlanarAttunement.xml" />
+    <Content Include="Souls\EN\Mage\Pyromancer.xml" />
+    <Content Include="Souls\EN\Mage\Stormcaller.xml" />
+    <Content Include="Souls\EN\Mage\Warlock.xml" />
+    <Content Include="Souls\EN\Rogue\Assassin.xml" />
+    <Content Include="Souls\EN\Rogue\Bard.xml" />
+    <Content Include="Souls\EN\Rogue\Bladedancer.xml" />
+    <Content Include="Souls\EN\Rogue\Marksman.xml" />
+    <Content Include="Souls\EN\Rogue\Nightblade.xml" />
+    <Content Include="Souls\EN\Rogue\PlanarAttunement.xml" />
+    <Content Include="Souls\EN\Rogue\Ranger.xml" />
+    <Content Include="Souls\EN\Rogue\Riftstalker.xml" />
+    <Content Include="Souls\EN\Rogue\Saboteur.xml" />
+    <Content Include="Souls\EN\Rogue\Tactician.xml" />
+    <Content Include="Souls\EN\Warrior\Beastmaster.xml" />
+    <Content Include="Souls\EN\Warrior\Champion.xml" />
+    <Content Include="Souls\EN\Warrior\Paladin.xml" />
+    <Content Include="Souls\EN\Warrior\Paragon.xml" />
+    <Content Include="Souls\EN\Warrior\Reaver.xml" />
+    <Content Include="Souls\EN\Warrior\Riftblade.xml" />
+    <Content Include="Souls\EN\Warrior\Tempest.xml" />
+    <Content Include="Souls\EN\Warrior\Void Knight.xml" />
+    <Content Include="Souls\EN\Warrior\Warlord.xml" />
+    <Content Include="Souls\FR\Cleric\Cabalist.xml" />
+    <Content Include="Souls\FR\Cleric\Defiler.xml" />
+    <Content Include="Souls\FR\Cleric\Druid.xml" />
+    <Content Include="Souls\FR\Cleric\Inquisitor.xml" />
+    <Content Include="Souls\FR\Cleric\Justicar.xml" />
+    <Content Include="Souls\FR\Cleric\PlanarAttunement.xml" />
+    <Content Include="Souls\FR\Cleric\Purifier.xml" />
+    <Content Include="Souls\FR\Cleric\Sentinel.xml" />
+    <Content Include="Souls\FR\Cleric\Shaman.xml" />
+    <Content Include="Souls\FR\Cleric\Warden.xml" />
+    <Content Include="Souls\FR\Mage\Archon.xml" />
+    <Content Include="Souls\FR\Mage\Chloromancer.xml" />
+    <Content Include="Souls\FR\Mage\Dominator.xml" />
+    <Content Include="Souls\FR\Mage\Elemental Summoner.xml" />
+    <Content Include="Souls\FR\Mage\Harbinger.xml" />
+    <Content Include="Souls\FR\Mage\Necromancer.xml" />
+    <Content Include="Souls\FR\Mage\PlanarAttunement.xml" />
+    <Content Include="Souls\FR\Mage\Pyromancer.xml" />
+    <Content Include="Souls\FR\Mage\Stormcaller.xml" />
+    <Content Include="Souls\FR\Mage\Warlock.xml" />
+    <Content Include="Souls\FR\Rogue\Assassin.xml" />
+    <Content Include="Souls\FR\Rogue\Bard.xml" />
+    <Content Include="Souls\FR\Rogue\Bladedancer.xml" />
+    <Content Include="Souls\FR\Rogue\Marksman.xml" />
+    <Content Include="Souls\FR\Rogue\Nightblade.xml" />
+    <Content Include="Souls\FR\Rogue\PlanarAttunement.xml" />
+    <Content Include="Souls\FR\Rogue\Ranger.xml" />
+    <Content Include="Souls\FR\Rogue\Riftstalker.xml" />
+    <Content Include="Souls\FR\Rogue\Saboteur.xml" />
+    <Content Include="Souls\FR\Rogue\Tactician.xml" />
+    <Content Include="Souls\FR\Warrior\Beastmaster.xml" />
+    <Content Include="Souls\FR\Warrior\Champion.xml" />
+    <Content Include="Souls\FR\Warrior\Paladin.xml" />
+    <Content Include="Souls\FR\Warrior\Paragon.xml" />
+    <Content Include="Souls\FR\Warrior\Reaver.xml" />
+    <Content Include="Souls\FR\Warrior\Riftblade.xml" />
+    <Content Include="Souls\FR\Warrior\Tempest.xml" />
+    <Content Include="Souls\FR\Warrior\Void Knight.xml" />
+    <Content Include="Souls\FR\Warrior\Warlord.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

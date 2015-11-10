@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Sentinel">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Wohlwollen</Name>
+      <Icon>spiritofvaliant1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-83485572</AbilityId>
+          <Description></Description>
+          <AddonId>AFB061C7C20CD8F0B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert bei erlittenem Schaden die Verzögerungswirkung beim Wirken von Heilungen um 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert bei erlittenem Schaden die Verzögerungswirkung beim Wirken von Heilungen um 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Segnung</Name>
+      <Icon>shroudofpenitence1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1158496590</AbilityId>
+          <Description></Description>
+          <AddonId>A450D414E3863536A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht durch Euch verursachte Heilung und verliehene Absorption um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht durch Euch verursachte Heilung und verliehene Absorption um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht durch Euch verursachte Heilung und verliehene Absorption um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht durch Euch verursachte Heilung und verliehene Absorption um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht durch Euch verursachte Heilung und verliehene Absorption um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Wachsamer Blick</Name>
+      <Icon>awareness_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2034782645</AbilityId>
+          <Description></Description>
+          <AddonId>A794851B55064648A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Zauberkraft um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Zauberkraft um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Zauberkraft um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Zauberkraft um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Zauberkraft um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Nachdenklich</Name>
+      <Icon>inspiration1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-95051304</AbilityId>
+          <Description></Description>
+          <AddonId>AFA55A1D849F2EC52</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht durch Eure Zauber mit Wirkzeit verursachte Heilung und Absorption um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht durch Eure Zauber mit Wirkzeit verursachte Heilung und Absorption um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht durch Eure Zauber mit Wirkzeit verursachte Heilung und Absorption um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht durch Eure Zauber mit Wirkzeit verursachte Heilung und Absorption um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht durch Eure Zauber mit Wirkzeit verursachte Heilung und Absorption um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Zügig</Name>
+      <Icon>righteousness3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-90846080</AbilityId>
+          <Description></Description>
+          <AddonId>AFA95CC8060250482</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure verursachte Heilung und Euch verliehene Absorption durch Sofortzauber um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure verursachte Heilung und Euch verliehene Absorption durch Sofortzauber um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure verursachte Heilung und Euch verliehene Absorption durch Sofortzauber um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Segen des Heilers</Name>
+      <Icon>generic_ability_018</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-1479152</AbilityId>
+          <Description>Lässt Heil- und Absorptionszauber für Einzelziele zusätzlich 320 bis 354 Gesundheit wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+          <AddonId>AFFE96E1075A3C9B7</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Berührung des Lichts</Name>
+      <Icon>redirect4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>431433303</AbilityId>
+          <Description>Bewirkt, dass der nächste Heil- oder Absorptionszauber ein Sofortzauber wird und reduziert seine Manakosten um 50%. Dauer beträgt 30 Sekunden.</Description>
+          <AddonId>A19B726578DC32395</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Göttliches Verständnis</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-43217778</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6C8C8E48CCD3E4</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht durch Eure Einzelzielzauber verursachte Heilung und Absorption um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht durch Eure Einzelzielzauber verursachte Heilung und Absorption um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht durch Eure Einzelzielzauber verursachte Heilung und Absorption um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht durch Eure Einzelzielzauber verursachte Heilung und Absorption um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht durch Eure Einzelzielzauber verursachte Heilung und Absorption um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Ruf zum Handeln</Name>
+      <Icon>layonhands4aa</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-81112066</AbilityId>
+          <Description></Description>
+          <AddonId>AFB2A53FE78A78AF9</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure verursachte Heilung und die gewährte Absorption bei Verbündeten mit unter 75% Gesundheit um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure verursachte Heilung und die gewährte Absorption bei Verbündeten mit unter 75% Gesundheit um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Leuchtende Morgendämmerung</Name>
+      <Icon>blindinglight3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-63921178</AbilityId>
+          <Description></Description>
+          <AddonId>AFC30A3E67640E1CE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht durch Euch verursachten Schaden und gewährte Heilung durch lebensbasierte Fähigkeiten um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht durch Euch verursachten Schaden und gewährte Heilung durch lebensbasierte Fähigkeiten um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht durch Euch verursachten Schaden und gewährte Heilung durch lebensbasierte Fähigkeiten um 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Dringlichkeit</Name>
+      <Icon>righteousness2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-77437234</AbilityId>
+          <Description>Erhöht die Bewegungsgeschwindigkeit für 10 Sekunden um 50%.</Description>
+          <AddonId>AFB6266CE3DF07942</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Barmherziger Anreiz</Name>
+      <Icon>spiritual_will</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>781423433</AbilityId>
+          <Description></Description>
+          <AddonId>A2E93934942EE09DC</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verkürzt die globale Abklingzeit von Läuterungsgebet und Stärkendes Licht um 0,5 Sekunden und lässt sie Gesundheit in Höhe von 2% Eurer maximalen Gesundheit wiederherstellen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verkürzt die globale Abklingzeit von Läuterungsgebet und Stärkendes Licht um 0,5 Sekunden und lässt sie Gesundheit in Höhe von 4% Eurer maximalen Gesundheit wiederherstellen.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verkürzt die globale Abklingzeit von Läuterungsgebet und Stärkendes Licht um 0,5 Sekunden und lässt sie Gesundheit in Höhe von 6% Eurer maximalen Gesundheit wiederherstellen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Stärkendes Licht</Name>
+      <Icon>healing_flare_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>508460475</AbilityId>
+          <Description>Entfernt 1 Fluch-, Krankheits- oder Vergiftungseffekt von bis zu 10 Gruppen- oder Schlachtzugmitgliedern.</Description>
+          <AddonId>A1E4E7DBB72466C42</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>25.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Entrückter Hauch</Name>
+      <Icon>flame_speaker_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Heilender Hauch heilt bis zu 2 andere Gruppen- oder Schlachtzugmitglieder um 20% der geheilten Gesundheit.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Heilender Hauch heilt bis zu 2 andere Gruppen- oder Schlachtzugmitglieder um 40% der geheilten Gesundheit.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Euer Heilender Hauch heilt bis zu 2 andere Gruppen- oder Schlachtzugmitglieder um 60% der geheilten Gesundheit.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Aufmerksam</Name>
+      <Icon>blindinglight2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-44859419</AbilityId>
+          <Description></Description>
+          <AddonId>AFD537FE529B99C50</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euer maximales Mana um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euer maximales Mana um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Echos der Selbstlosigkeit</Name>
+      <Icon>virtuoso</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Anrufungen stellen zusätzliche Gesundheit in Höhe von 4% der nach 1 Sekunde geheilten Gesundheit wieder her.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Anrufungen stellen zusätzliche Gesundheit in Höhe von 8% der nach 1 Sekunde geheilten Gesundheit wieder her.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Anrufungen stellen zusätzliche Gesundheit in Höhe von 12% der nach 1 Sekunde geheilten Gesundheit wieder her.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Lichtgeweiht</Name>
+      <Icon>mend1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>417136780</AbilityId>
+          <Description>Bewirkt, dass Heilzauber 208 bis 230 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+          <AddonId>A18DD008CD07188B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>1.500000</Cooldown>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Wort des Lebens</Name>
+      <Icon>sentinel-protect_the_flock_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18337183</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE832616F9A1C69</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Einzelzielheilungen verfügen über eine 5%ige Chance, die Manakosten und globale Abklingzeit beim nächsten Mal, wenn Ihr Heilender Hauch wirkt, auf 0 zu senken.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Einzelzielheilungen verfügen über eine 10%ige Chance, die Manakosten und globale Abklingzeit beim nächsten Mal, wenn Ihr Heilender Hauch wirkt, auf 0 zu senken.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Versammlung des Lichts</Name>
+      <Icon>righteous_healing_01_a</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41122168</AbilityId>
+          <Description></Description>
+          <AddonId>AFD8C86881CDA6569</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Anrufungen verkürzen die aktuelle Abklingzeit Eurer Berührung des Lichts um 1,5 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Anrufungen verkürzen die aktuelle Abklingzeit Eurer Berührung des Lichts um 3 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Hast des Heilers</Name>
+      <Icon>sentinel-refreshing_communion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1908785631</AbilityId>
+          <Description>Reduziert die Wirkzeit der nächsten 5 Heilzauber um 30%. Dauer beträgt 30 Sekunden.</Description>
+          <AddonId>A71C5C1DF7FA12E6B</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>6.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Erhabenes Flehen</Name>
+      <Icon>heal2z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-13221183</AbilityId>
+          <Description></Description>
+          <AddonId>AFF3642C137FDCC00</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Wirkung der Zauberkraft auf Eure Anrufungen um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Wirkung der Zauberkraft auf Eure Anrufungen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die Wirkung der Zauberkraft auf Eure Anrufungen um 12%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Schneller Appell</Name>
+      <Icon>layonhands2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-4092344</AbilityId>
+          <Description></Description>
+          <AddonId>AFFC18E48387CC991</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eurer Anrufungen um 0,1 Sekunden und die Kosten Eurer Anrufungen um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eurer Anrufungen um 0,2 Sekunden und die Kosten Eurer Anrufungen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eurer Anrufungen um 0,3 Sekunden und die Kosten Eurer Anrufungen um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eurer Anrufungen um 0,4 Sekunden und die Kosten Eurer Anrufungen um 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eurer Anrufungen um 0,5 Sekunden und die Kosten Eurer Anrufungen um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Entscheidende Anrufung</Name>
+      <Icon>heal2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-29793309</AbilityId>
+          <Description>Stellt 2820 bis 3116 Gesundheit wieder her.</Description>
+          <AddonId>AFE3963E3B47EBE76</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>40.000000</CostManaPercent>
+          <CastTime>2.000000</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Fülle des Lebens</Name>
+      <Icon>doctrine_of_bliss_01_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96755324</AbilityId>
+          <Description>Stellt Gesundheit in Höhe von 100% der maximalen Gesundheit des Klerikers wieder her.</Description>
+          <AddonId>AFA3BA1846C5ACC33</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Fülle des Lebens</Name>
+      <Icon>doctrine_of_bliss_01_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-96755324</AbilityId>
+        <Description>Stellt Gesundheit in Höhe von 100% der maximalen Gesundheit des Klerikers wieder her.</Description>
+        <AddonId>AFA3BA1846C5ACC33</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Dringlichkeit</Name>
+      <Icon>righteousness2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-77437234</AbilityId>
+        <Description>Erhöht die Bewegungsgeschwindigkeit für 10 Sekunden um 50%.</Description>
+        <AddonId>AFB6266CE3DF07942</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ehrfürchtiges Flehen</Name>
+      <Icon>layonhands3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-65264354</AbilityId>
+        <Description>Stellt 10 Sekunden lang jede Sekunde 5% Mana wieder her.</Description>
+        <AddonId>AFC1C251E18C20F5A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Zorniger Überschwang</Name>
+      <Icon>sentinel_wrathful_exuberance_cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-57713812</AbilityId>
+        <Description>Bei einer Heilung durch den Wirker im Kampf wird dem Ziel des gestärkten Verbündeten Lebensschaden in Höhe von 75% der Heilung zugefügt. Kann nicht den Kleriker als Ziel haben. Kann immer nur auf 1 Verbündeten gewirkt werden. Kann nicht von Fülle des Lebens ausgelöst werden. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFC8F5B6C5A654779</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Wort der Hoffnung</Name>
+      <Icon>anthem_of_fervor_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-56932097</AbilityId>
+        <Description></Description>
+        <AddonId>AFC9B48FF7AFCB9BF</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Licht der Erlösung</Name>
+      <Icon>shroudofpenitent2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-55820854</AbilityId>
+        <Description>Stellt beim Verbündeten 342 bis 378 Gesundheit wieder her, wann immer der Kleriker eine Anrufung wirkt. Kann nur bei 1 Verbündeten eingesetzt werden.</Description>
+        <AddonId>AFCAC3DCACD874C98</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Strahlungs-
+Blitzschlag</Name>
+      <Icon>magicward3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-45817096</AbilityId>
+        <Description>Besänftigt alle Feinde in der Nähe 8 Sekunden lang oder bis zu einem Treffer.</Description>
+        <AddonId>AFD44E2F88D718E7C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Entscheidende Anrufung</Name>
+      <Icon>heal2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-29793309</AbilityId>
+        <Description>Stellt 2820 bis 3116 Gesundheit wieder her.</Description>
+        <AddonId>AFE3963E3B47EBE76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-70849778</AbilityId>
+        <Description>Stellt 2879 bis 3182 Gesundheit wieder her.</Description>
+        <AddonId>AFBC6EB0E363BD1B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-9932705</AbilityId>
+        <Description>Stellt 2986 bis 3300 Gesundheit wieder her.</Description>
+        <AddonId>AFF68705FB259E0AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-7302769</AbilityId>
+        <Description>Stellt 3036 bis 3356 Gesundheit wieder her.</Description>
+        <AddonId>AFF90918F16FF707C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-31154588</AbilityId>
+        <Description>Stellt 3224 bis 3563 Gesundheit wieder her.</Description>
+        <AddonId>AFE249E64D13338C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-97226932</AbilityId>
+        <Description>Stellt 3283 bis 3628 Gesundheit wieder her.</Description>
+        <AddonId>AFA346F4C7547011C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>40.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.750000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Freiheit der Gedanken</Name>
+      <Icon>holystrength2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-24447089</AbilityId>
+        <Description>Entfernt alle Kontrolleffekte.</Description>
+        <AddonId>AFE8AF78F4011A1D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nyols Hoffnung</Name>
+      <Icon>sentinel-healing_benediction_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10649228</AbilityId>
+        <Description>Erhöht die bewirkte Heilung bei den nächsten 5 Einzelzielheilungen um 50%. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>AFF5D817487E5AD71</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Erneuerter Altruismus</Name>
+      <Icon>piety3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-5843965</AbilityId>
+        <Description>Setzt die Abklingzeiten aller Schildwachenfähigkeiten zurück (außer Rückkehr des Lebens).</Description>
+        <AddonId>AFFA6D403A325DFA2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Segen des Heilers</Name>
+      <Icon>generic_ability_018</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-1479152</AbilityId>
+        <Description>Lässt Heil- und Absorptionszauber für Einzelziele zusätzlich 320 bis 354 Gesundheit wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFFE96E1075A3C9B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Geschickte Anrufung</Name>
+      <Icon>restore2b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>73</AbilityId>
+        <Description>Stellt 953 bis 1054 Gesundheit wieder her.</Description>
+        <AddonId>A00000049F8F76F86</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1317892564</AbilityId>
+        <Description>Stellt 1012 bis 1119 Gesundheit wieder her.</Description>
+        <AddonId>A4E8D71D499773877</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>36213468</AbilityId>
+        <Description>Stellt 1092 bis 1207 Gesundheit wieder her.</Description>
+        <AddonId>A022892DC0E0B0D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1046642002</AbilityId>
+        <Description>Stellt 1144 bis 1265 Gesundheit wieder her.</Description>
+        <AddonId>A3E627D52A8ACB975</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1823809237</AbilityId>
+        <Description>Stellt 1200 bis 1326 Gesundheit wieder her.</Description>
+        <AddonId>A6CB51ED577CB5AC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>232540055</AbilityId>
+        <Description>Stellt 1232 bis 1362 Gesundheit wieder her.</Description>
+        <AddonId>A0DDC47979580F488</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1489107274</AbilityId>
+        <Description>Stellt 1278 bis 1412 Gesundheit wieder her.</Description>
+        <AddonId>A58C1F94AD9F43740</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1566569793</AbilityId>
+        <Description>Stellt 1295 bis 1431 Gesundheit wieder her.</Description>
+        <AddonId>A5D5FF5412EE9F17F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-41928235</AbilityId>
+        <Description>Stellt 1343 bis 1485 Gesundheit wieder her.</Description>
+        <AddonId>AFD8039D5ADE2EFB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-18220448</AbilityId>
+        <Description>Stellt 1364 bis 1508 Gesundheit wieder her.</Description>
+        <AddonId>AFEE9FA609A5B015F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-92684148</AbilityId>
+        <Description>Stellt 1435 bis 1586 Gesundheit wieder her.</Description>
+        <AddonId>AFA79C08CA420A8DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-5081020</AbilityId>
+        <Description>Stellt 1496 bis 1654 Gesundheit wieder her.</Description>
+        <AddonId>AFFB2784487D177E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-67048484</AbilityId>
+        <Description>Stellt 1501 bis 1659 Gesundheit wieder her.</Description>
+        <AddonId>AFC00EBDC6D542741</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heroische Entschlossenheit</Name>
+      <Icon>holystrength3c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>160234792</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 10. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A098CFD28290C0B36</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1531639906</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 20. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A5B4AF86298AD8862</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1334847940</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 30. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A4F9029C461ED8359</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>45201325</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 40. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A02B1B7AD2CDE4582</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1312122196</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 50. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A4E3565541A2CD4C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-77957189</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 60. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFB5A77BB71DC8E7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-49295436</AbilityId>
+        <Description>Erhöht die Ausdauer des Ziels und aller seiner Gruppen- oder Schlachtzugmitglieder um 70. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFD0FCFB4C2E98A22</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Göttlicher Ruf</Name>
+      <Icon>spiritofsaints1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>233457235</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 755 bis 835 Gesundheit wieder her.</Description>
+        <AddonId>A0DEA465350E0DDCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1234420252</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 767 bis 848 Gesundheit wieder her.</Description>
+        <AddonId>A4993C21C89D7D8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2099309798</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 807 bis 892 Gesundheit wieder her.</Description>
+        <AddonId>A7D20ECE695966422</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>1434251337</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 842 bis 930 Gesundheit wieder her.</Description>
+        <AddonId>A557CF0494D0A6284</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>713514412</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 844 bis 932 Gesundheit wieder her.</Description>
+        <AddonId>A2A875DAC8A861998</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bund des Heilers</Name>
+      <Icon>ardent_doctrine_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>280783078</AbilityId>
+        <Description>Reduziert den erlittenen Schaden 10 Sekunden lang um 40%.</Description>
+        <AddonId>A10BC68E643725C47</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lichtgeweiht</Name>
+      <Icon>mend1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>417136780</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 208 bis 230 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A18DD008CD07188B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>163225506</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 215 bis 238 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A09BA9FA2D1F676C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>493365390</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 219 bis 242 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A1D68288EAED634B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-28569179</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 226 bis 249 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFE4C11A5D20E65D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-96035487</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 229 bis 253 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA469D61A39F3108</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-9214812</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 241 bis 267 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF7364A486D8B946</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-46787562</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 252 bis 278 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFD361416B0BDBC8F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-68350166</AbilityId>
+        <Description>Bewirkt, dass Heilzauber 253 bis 280 Gesundheit bei bis zu 2 Gruppen- oder Schlachtzugmitgliedern in der Nähe des Klerikers wiederherstellen. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFBED0F2AC22D3920</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Berührung des Lichts</Name>
+      <Icon>redirect4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>431433303</AbilityId>
+        <Description>Bewirkt, dass der nächste Heil- oder Absorptionszauber ein Sofortzauber wird und reduziert seine Manakosten um 50%. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A19B726578DC32395</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilende Anrufung</Name>
+      <Icon>heal2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>489397491</AbilityId>
+        <Description>Stellt 1744 bis 1927 Gesundheit wieder her.</Description>
+        <AddonId>A1D2B9CF371B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1243746566</AbilityId>
+        <Description>Stellt 1837 bis 2031 Gesundheit wieder her.</Description>
+        <AddonId>A4A22110664AE9FFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1286659701</AbilityId>
+        <Description>Stellt 1903 bis 2104 Gesundheit wieder her.</Description>
+        <AddonId>A4CB0DE7537C83F40</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>230066489</AbilityId>
+        <Description>Stellt 1978 bis 2186 Gesundheit wieder her.</Description>
+        <AddonId>A0DB689397295834B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>115411219</AbilityId>
+        <Description>Stellt 2014 bis 2226 Gesundheit wieder her.</Description>
+        <AddonId>A06E109133A714BB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1694762334</AbilityId>
+        <Description>Stellt 2056 bis 2272 Gesundheit wieder her.</Description>
+        <AddonId>A6504055EAD863E96</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-68870358</AbilityId>
+        <Description>Stellt 2132 bis 2356 Gesundheit wieder her.</Description>
+        <AddonId>AFBE51F2A71B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-23359818</AbilityId>
+        <Description>Stellt 2168 bis 2397 Gesundheit wieder her.</Description>
+        <AddonId>AFE9B8EB671B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-16336442</AbilityId>
+        <Description>Stellt 2302 bis 2544 Gesundheit wieder her.</Description>
+        <AddonId>AFF06B9C671B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-60872502</AbilityId>
+        <Description>Stellt 2345 bis 2592 Gesundheit wieder her.</Description>
+        <AddonId>AFC5F28CA71B4BA06</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <CastTime>2.500000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Stärkendes Licht</Name>
+      <Icon>healing_flare_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>508460475</AbilityId>
+        <Description>Entfernt 1 Fluch-, Krankheits- oder Vergiftungseffekt von bis zu 10 Gruppen- oder Schlachtzugmitgliedern.</Description>
+        <AddonId>A1E4E7DBB72466C42</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilende Gemeinschaft</Name>
+      <Icon>heal3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>532927533</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 410 bis 453 Gesundheit wieder her.</Description>
+        <AddonId>A1FC3D42DCB98FC33</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>656212874</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 428 bis 473 Gesundheit wieder her.</Description>
+        <AddonId>A271D038A76E28F4E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>770495586</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 435 bis 480 Gesundheit wieder her.</Description>
+        <AddonId>A2DECD462B068B3E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1390109634</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 443 bis 490 Gesundheit wieder her.</Description>
+        <AddonId>A52DB63C2D9D8C219</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>544695781</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 461 bis 509 Gesundheit wieder her.</Description>
+        <AddonId>A207765E5CDA862C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>181982359</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 467 bis 517 Gesundheit wieder her.</Description>
+        <AddonId>A0AD8D497BC25F9A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>997571276</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 497 bis 549 Gesundheit wieder her.</Description>
+        <AddonId>A3B75BACCBE1F21F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-78081894</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 506 bis 559 Gesundheit wieder her.</Description>
+        <AddonId>AFB58909A8AF9FE1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Läuterungsgebet</Name>
+      <Icon>spiritual_will</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>573428586</AbilityId>
+        <Description>Entfernt 1 Fluch, Krankheit oder Vergiftung.</Description>
+        <AddonId>A222DD36A9C63E24B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rückkehr des Lebens</Name>
+      <Icon>ressurect4y</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>646325348</AbilityId>
+        <Description>Holt den gefallenen Verbündeten zurück ins Leben und stellt Gesundheit und Mana zu 50% wieder her. Kann im Kampf verwendet werden.</Description>
+        <AddonId>A26862464D9EECBE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>300.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lichtblitz</Name>
+      <Icon>spiritbolt1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>987453712</AbilityId>
+        <Description>Verursacht 770 bis 851 Lebensschaden.</Description>
+        <AddonId>A3ADB59108421B55F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>215856650</AbilityId>
+        <Description>Verursacht 785 bis 868 Lebensschaden.</Description>
+        <AddonId>A0CDDB60AB3AC8C32</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>555462971</AbilityId>
+        <Description>Verursacht 805 bis 890 Lebensschaden.</Description>
+        <AddonId>A211BB13BD5DBE4CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>358256918</AbilityId>
+        <Description>Verursacht 828 bis 915 Lebensschaden.</Description>
+        <AddonId>A155A91169B6F50F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1058534486</AbilityId>
+        <Description>Verursacht 847 bis 937 Lebensschaden.</Description>
+        <AddonId>A3F17F456777C9BB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1932511770</AbilityId>
+        <Description>Verursacht 870 bis 962 Lebensschaden.</Description>
+        <AddonId>A732FCA1AC4DEE9D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>980820819</AbilityId>
+        <Description>Verursacht 892 bis 986 Lebensschaden.</Description>
+        <AddonId>A3A76235392DCF20A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1196610091</AbilityId>
+        <Description>Verursacht 924 bis 1021 Lebensschaden.</Description>
+        <AddonId>A4752D22B8BF3E1F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1493108841</AbilityId>
+        <Description>Verursacht 968 bis 1070 Lebensschaden.</Description>
+        <AddonId>A58FF0869777E4ACB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>42327059</AbilityId>
+        <Description>Verursacht 1039 bis 1148 Lebensschaden.</Description>
+        <AddonId>A0285DC134F63B5BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-42721752</AbilityId>
+        <Description>Verursacht 1101 bis 1217 Lebensschaden.</Description>
+        <AddonId>AFD741E289ACA3B93</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-7033196</AbilityId>
+        <Description>Verursacht 1375 bis 1520 Lebensschaden.</Description>
+        <AddonId>AFF94AE94AB069955</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-70235663</AbilityId>
+        <Description>Verursacht 1652 bis 1825 Lebensschaden.</Description>
+        <AddonId>AFBD049F18A98DF47</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-91040029</AbilityId>
+        <Description>Verursacht 1777 bis 1964 Lebensschaden.</Description>
+        <AddonId>AFA92D6E361DF7386</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lohn des Glaubens</Name>
+      <Icon>sentinel-healing_benediction</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1318898508</AbilityId>
+        <Description>Lässt Heil- und Absorptionszauber zusätzlich 854 bis 944 Gesundheit wiederherstellen, wenn die Gesundheit von Gruppen- oder Schlachtzugmitgliedern unter 50% gefallen ist.</Description>
+        <AddonId>A4E9CCB4C9D3CC154</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Wachsamkeit</Name>
+      <Icon>blindinglight1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1467340559</AbilityId>
+        <Description>Stellt 1697 Gesundheit wieder her, wenn innerhalb von 10 Sekunden die Gesundheit unter 20% fällt oder ein tödlicher Treffer erhalten wird.</Description>
+        <AddonId>A5775D70FC99BF648</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>430046198</AbilityId>
+        <Description>Stellt 1725 Gesundheit wieder her, wenn innerhalb von 10 Sekunden die Gesundheit unter 20% fällt oder ein tödlicher Treffer erhalten wird.</Description>
+        <AddonId>A19A1FBF66183F7A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-22837462</AbilityId>
+        <Description>Stellt 1833 Gesundheit wieder her, wenn innerhalb von 10 Sekunden die Gesundheit unter 20% fällt oder ein tödlicher Treffer erhalten wird.</Description>
+        <AddonId>AFEA3872AE3EC8606</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-50024435</AbilityId>
+        <Description>Stellt 1865 Gesundheit wieder her, wenn innerhalb von 10 Sekunden die Gesundheit unter 20% fällt oder ein tödlicher Treffer erhalten wird.</Description>
+        <AddonId>AFD04B00DCA809283</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Verbannung</Name>
+      <Icon>magicward2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1758206256</AbilityId>
+        <Description>Verursacht 1200 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A68CC193056B0EFFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1077830693</AbilityId>
+        <Description>Verursacht 1247 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A403E64252F418D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>559680620</AbilityId>
+        <Description>Verursacht 1276 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A215C0C6CA071A083</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>291938709</AbilityId>
+        <Description>Verursacht 1314 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A1166A1957E84C9C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>254556219</AbilityId>
+        <Description>Verursacht 1351 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A0F2C383B55D749D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1070763010</AbilityId>
+        <Description>Verursacht 1397 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A3FD28C028F14D4D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1343309788</AbilityId>
+        <Description>Verursacht 1496 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A501147DCB13D7703</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1879993278</AbilityId>
+        <Description>Verursacht 1549 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>A700E6BBEA4CDFAA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-86270509</AbilityId>
+        <Description>Verursacht 1887 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>AFADB9DD3731F0C76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-79800659</AbilityId>
+        <Description>Verursacht 2465 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>AFB3E56AD955EC147</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-31305797</AbilityId>
+        <Description>Verursacht 2652 Lebensschaden über 12 Sekunden.</Description>
+        <AddonId>AFE224FBB7CC084FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>1.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.083333</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilender Hauch</Name>
+      <Icon>flame_speaker_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1778238839</AbilityId>
+        <Description>Stellt 1323 bis 1462 Gesundheit wieder her.</Description>
+        <AddonId>A69FDC577932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1734096537</AbilityId>
+        <Description>Stellt 1376 bis 1521 Gesundheit wieder her.</Description>
+        <AddonId>A675C3699B510D197</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1332732562</AbilityId>
+        <Description>Stellt 1477 bis 1632 Gesundheit wieder her.</Description>
+        <AddonId>A4F6FE29293D07D74</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1902720694</AbilityId>
+        <Description>Stellt 1569 bis 1734 Gesundheit wieder her.</Description>
+        <AddonId>A716936B66B59F5DB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1229857358</AbilityId>
+        <Description>Stellt 1654 bis 1828 Gesundheit wieder her.</Description>
+        <AddonId>A494E224E36604212</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1592782442</AbilityId>
+        <Description>Stellt 1713 bis 1893 Gesundheit wieder her.</Description>
+        <AddonId>A5EEFEE6ABCB5C50D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2069614575</AbilityId>
+        <Description>Stellt 1780 bis 1968 Gesundheit wieder her.</Description>
+        <AddonId>A7B5BCFEF271E1FE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>669359339</AbilityId>
+        <Description>Stellt 1811 bis 2002 Gesundheit wieder her.</Description>
+        <AddonId>A27E59CEB5FF09A3B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1864021987</AbilityId>
+        <Description>Stellt 1850 bis 2044 Gesundheit wieder her.</Description>
+        <AddonId>A6F1AB7E32AF44DF2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1712615846</AbilityId>
+        <Description>Stellt 1919 bis 2121 Gesundheit wieder her.</Description>
+        <AddonId>A661471A69B7E50C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-25558896</AbilityId>
+        <Description>Stellt 1943 bis 2148 Gesundheit wieder her.</Description>
+        <AddonId>AFE7A0090932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5197636</AbilityId>
+        <Description>Stellt 2049 bis 2265 Gesundheit wieder her.</Description>
+        <AddonId>AFFB0B0BC932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-12965261</AbilityId>
+        <Description>Stellt 2104 bis 2326 Gesundheit wieder her.</Description>
+        <AddonId>AFF3A2A73932CB007</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89481398</AbilityId>
+        <Description>Stellt 2110 bis 2332 Gesundheit wieder her.</Description>
+        <AddonId>AFAAA9F4AAAFA31EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.500000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hast des Heilers</Name>
+      <Icon>sentinel-refreshing_communion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>1908785631</AbilityId>
+        <Description>Reduziert die Wirkzeit der nächsten 5 Heilzauber um 30%. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A71C5C1DF7FA12E6B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

@@ -1,0 +1,3328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Beastmaster">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Swiftness</Name>
+      <Icon>silent_footsteps_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-89150484</AbilityId>
+          <Description></Description>
+          <AddonId>AFAAFABEC00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases out of combat movement speed by 2%. Increases damage done by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases out of combat movement speed by 4%. Increases damage done by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases out of combat movement speed by 6%. Increases damage done by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases out of combat movement speed by 8%. Increases damage done by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases out of combat movement speed by 10%. Increases damage done by 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Razor Sharp Fangs</Name>
+      <Icon>life-drain3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases damage done by the Primal Companion by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases damage done by the Primal Companion by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases damage done by the Primal Companion by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases damage done by the Primal Companion by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases damage done by the Primal Companion by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Call of Stone</Name>
+      <Icon>archon_rock_slide</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-24790133</AbilityId>
+          <Description>Reduces incoming damage by 5% on all Party or Raid members for 20s after a successful Finisher. Lasts 1h.</Description>
+          <AddonId>AFE85BB8B3E2526AE</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Call of Stone ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Fierce Wounds</Name>
+      <Icon>sweep4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Hitting with Fierce Strike increases the damage that your Pet does by 3% for 12 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Hitting with Fierce Strike increases the damage that your Pet does by 6% for 12 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Hitting with Fierce Strike increases the damage that your Pet does by 9% for 12 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Hitting with Fierce Strike increases the damage that your Pet does by 12% for 12 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Hitting with Fierce Strike increases the damage that your Pet does by 15% for 12 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Primal Fury</Name>
+      <Icon>menacingroar2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increase the Critical Hit chance of the Primal Companion by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increase the Critical Hit chance of the Primal Companion by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increase the Critical Hit chance of the Primal Companion by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Hunter</Name>
+      <Icon>tempest_camouflage</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-83631781</AbilityId>
+          <Description></Description>
+          <AddonId>AFB03E15B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the Base Damage of damage over time effects by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the Base Damage of damage over time effects by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the Base Damage of damage over time effects by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Primal Heal</Name>
+      <Icon>chloromancer_entropic_veil_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-23103337</AbilityId>
+          <Description>Heals 227 to 251 Health in addition to 31 Health per damage over time effect on the enemy up to 5.</Description>
+          <AddonId>AFE9F78974994676E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>6.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Primal Heal ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Primal Bond</Name>
+      <Icon>druid-strength_of_the_fae</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-50119153</AbilityId>
+          <Description></Description>
+          <AddonId>AFD033E0F10DD17F1</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>15% of healing done to you also heals your Primal Companion.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>30% of healing done to you also heals your Primal Companion.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Command to Attack</Name>
+      <Icon>blazeofglory1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-85044933</AbilityId>
+          <Description>Increases Attack Power and Spell Power by 15% on all party or raid members for 20s.</Description>
+          <AddonId>AFAEE513B677B63D2</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>35.000000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Command to Attack ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Strike to Maim</Name>
+      <Icon>beastmaster_strike_to_maim</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1763735973</AbilityId>
+          <Description></Description>
+          <AddonId>A692079A500000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Melee critical hits inflicted by you and your pet also deal 10% of your strength or your pet&apos;s strength over 8 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Melee critical hits inflicted by you and your pet also deal 20% of your strength or your pet&apos;s strength over 8 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Melee critical hits inflicted by you and your pet also deal 30% of your strength or your pet&apos;s strength over 8 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Melee critical hits inflicted by you and your pet also deal 40% of your strength or your pet&apos;s strength over 8 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Melee critical hits inflicted by you and your pet also deal 50% of your strength or your pet&apos;s strength over 8 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Summon Greater Primal Companion</Name>
+      <Icon>beastmaster-greater_corporeal_manifestation</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>424181101</AbilityId>
+          <Description>
+            Summons a Greater Primal Companion (max level 28).
+
+            Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+          </Description>
+          <AddonId>A19487D6D5E8385AF</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>20</CostEnergy>
+          <CastTime>8.000000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Summon Primal Companion ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Pack Mentality</Name>
+      <Icon>spiritoflion2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases you and your pet&apos;s maximum Health by 4%, and damage by 2% while your pet is active.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases you and your pet&apos;s maximum Health by 8%, and damage by 4% while your pet is active.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases you and your pet&apos;s maximum Health by 12%, and damage by 6% while your pet is active.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Tenacious Wounds</Name>
+      <Icon>scrape1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1352344260</AbilityId>
+          <Description></Description>
+          <AddonId>A509B22C400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Physical damage over time damage is increased by 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Physical damage over time damage is increased by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Physical damage over time damage is increased by 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Blood Rage</Name>
+      <Icon>menacingroar2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the Primal Companion&apos;s damage by 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the Primal Companion&apos;s damage by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the Primal Companion&apos;s damage by 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases the Primal Companion&apos;s damage by 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases the Primal Companion&apos;s damage by 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Hunt Master</Name>
+      <Icon>beastmaster_enraged_companion_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>584092264</AbilityId>
+          <Description></Description>
+          <AddonId>A22D08A6800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases Duration on Calls and Commands by 5 seconds. Increases the range of Fierce Strike and Brutal Strike by 10m.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases Duration on Calls and Commands by 10 seconds. Increases the range of Fierce Strike and Brutal Strike by 20m.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Ties that Bind</Name>
+      <Icon>beastmaster_ties_that_bind</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1536403978</AbilityId>
+          <Description></Description>
+          <AddonId>A5B93AA0A00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increase your pet&apos;s maximum health by 10%. Reduces the cost of Beastmaster abilities by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increase your pet&apos;s maximum health by 20%. Reduces the cost of Beastmaster abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increase your pet&apos;s maximum health by 30%. Reduces the cost of Beastmaster abilities by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Call of Kinship</Name>
+      <Icon>beastmaster_kinship_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-58504364</AbilityId>
+          <Description>Heals Party or Raid members 330 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+          <AddonId>AFC834B54C6A04D2D</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Call of Kinship ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Guardianship</Name>
+      <Icon>defiler_chimeras_gift_w</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>916602667</AbilityId>
+          <Description>Restores 464 to 513 health to up to 5 party or raid members.</Description>
+          <AddonId>A36A23F2B8121E193</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <CostEnergy>22</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>30.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Tutelage</Name>
+      <Icon>defiler_chimeras_gift_b</Icon>
+      <PrereqTraitKey>19</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Causes Guardianship to restore additional health over 6s.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Abolition</Name>
+      <Icon>beastmaster_protective_companion_aura_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3968158</AbilityId>
+          <Description></Description>
+          <AddonId>AFFC3736269948100</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Fierce Strike has a 50% chance to remove 1 buff from the enemy.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Your Fierce Strike has a 100% chance to remove 1 buff from the enemy.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Loyalty</Name>
+      <Icon>menacingroar3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51927295</AbilityId>
+          <Description></Description>
+          <AddonId>AFCE7A701319E0B9F</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the cast time of your Summon by 50%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Calming Influence</Name>
+      <Icon>beastmaster_beast_whisperer_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2057119273</AbilityId>
+          <Description>Puts an enemy to Sleep for 8s. Can only affect 1 enemy.</Description>
+          <AddonId>A7A9D2629B186D576</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Calming Influence ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Cunning Ruse</Name>
+      <Icon>generic_ability_004</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-77334901</AbilityId>
+          <Description>Deals 333 to 368 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+          <AddonId>AFB63F68B8D9CE91C</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Melee Weapon</RequiresWeapon>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Cunning Ruse ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Relentless</Name>
+      <Icon>pyroclasty2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Beastmaster Bleed effects from Abilities last for an additional hit.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Beastmaster Bleed effects from Abilities last for an additional 2 hits.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Vicious Blow</Name>
+      <Icon>2h_axe_036_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-36948103</AbilityId>
+          <Description>Deals 171 to 189 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+          <AddonId>AFDCC37799417EBFE</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Melee Weapon</RequiresWeapon>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Vicious Blow ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Command to Stand Ground</Name>
+      <Icon>blazeofglory3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-30418864</AbilityId>
+          <Description>Increases current and Maximum Health by 25%, Armor and Resistances by 10% on all party or raid members for 20s.</Description>
+          <AddonId>AFE2FD850D13CEABE</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>35.000000</Radius>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>27</Key>
+      <Name>Twin Cuts</Name>
+      <Icon>scrape2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-50817022</AbilityId>
+          <Description>Deals 172 to 190 Physical damage. Bleeds 290 health over 15s, in addition to 290 health over 15s from a second wound.</Description>
+          <AddonId>AFCF898028C31F447</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Melee Weapon</RequiresWeapon>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Command to Attack</Name>
+      <Icon>blazeofglory1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-85044933</AbilityId>
+        <Description>Increases Attack Power and Spell Power by 15% on all party or raid members for 20s.</Description>
+        <AddonId>AFAEE513B677B63D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Cunning Ruse</Name>
+      <Icon>generic_ability_004</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-77334901</AbilityId>
+        <Description>Deals 333 to 368 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+        <AddonId>AFB63F68B8D9CE91C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-61601570</AbilityId>
+        <Description>Deals 385 to 425 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+        <AddonId>AFC5408DE98B67416</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-99993046</AbilityId>
+        <Description>Deals 442 to 489 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+        <AddonId>AFA0A3A2A49603F66</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-19739578</AbilityId>
+        <Description>Deals 664 to 734 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+        <AddonId>AFED2CC466CCF55E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-12726491</AbilityId>
+        <Description>Deals 846 to 935 Physical damage in addition to increasing the damage done by the Beastmaster and their Primal Companion by 4% per damage over time on the enemy, up to 5 for 20s. Awards 1 Attack Point.</Description>
+        <AddonId>AFF3DCF25DA7202A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Brutal Strike</Name>
+      <Icon>2h_axe_043_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-68500704</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 135 damage
+          2 Points: 170 damage
+          3 Points: 222 damage
+        </Description>
+        <AddonId>AFBEAC320334C5BB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-66049894</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 136 damage
+          2 Points: 173 damage
+          3 Points: 229 damage
+        </Description>
+        <AddonId>AFC10289A8A9AD037</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-37127816</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 138 damage
+          2 Points: 180 damage
+          3 Points: 243 damage
+        </Description>
+        <AddonId>AFDC979788C6FA753</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-41573930</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 139 damage
+          2 Points: 184 damage
+          3 Points: 251 damage
+        </Description>
+        <AddonId>AFD85A1D64D8842DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-14544714</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 141 damage
+          2 Points: 190 damage
+          3 Points: 262 damage
+        </Description>
+        <AddonId>AFF2210B650787EBB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-66354468</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 144 damage
+          2 Points: 198 damage
+          3 Points: 278 damage
+        </Description>
+        <AddonId>AFC0B82DC5EFAA0AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-47656454</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 147 damage
+          2 Points: 206 damage
+          3 Points: 296 damage
+        </Description>
+        <AddonId>AFD28D1FA22EE2994</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-93090009</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 151 damage
+          2 Points: 218 damage
+          3 Points: 317 damage
+        </Description>
+        <AddonId>AFA738F2746AAF013</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-31573347</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 159 damage
+          2 Points: 239 damage
+          3 Points: 360 damage
+        </Description>
+        <AddonId>AFE1E3A9D55C3F257</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-90004283</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 162 damage
+          2 Points: 251 damage
+          3 Points: 384 damage
+        </Description>
+        <AddonId>AFAA2A4C5DA836453</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-29032028</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 183 damage
+          2 Points: 311 damage
+          3 Points: 505 damage
+        </Description>
+        <AddonId>AFE4501A46953A509</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-35255793</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 227 damage
+          2 Points: 439 damage
+          3 Points: 760 damage
+        </Description>
+        <AddonId>AFDE60A0F9E09E8AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-46541308</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Deals additional 30% damage per damage over time effect on the Enemy, up to 150%:
+
+          1 Point: 240 damage
+          2 Points: 480 damage
+          3 Points: 843 damage
+        </Description>
+        <AddonId>AFD39D60456702D32</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cutting Slash</Name>
+      <Icon>scrape3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-65004200</AbilityId>
+        <Description>Deals 113 to 125 Physical damage. Bleeds 0 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFC201D58B6BAA77E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-52898818</AbilityId>
+        <Description>Deals 117 to 130 Physical damage. Bleeds 274 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFCD8D3FE9CCC4CE0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-33900712</AbilityId>
+        <Description>Deals 124 to 137 Physical damage. Bleeds 290 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFDFAB7587E29A29D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-39833608</AbilityId>
+        <Description>Deals 129 to 143 Physical damage. Bleeds 303 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFDA02FF8D343A7AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-19008293</AbilityId>
+        <Description>Deals 137 to 151 Physical damage. Bleeds 319 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFEDDF4DBD70206D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-59647778</AbilityId>
+        <Description>Deals 145 to 160 Physical damage. Bleeds 336 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFC71D8DE60F46597</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-63706847</AbilityId>
+        <Description>Deals 156 to 172 Physical damage. Bleeds 361 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFC33E921B467F924</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-12400020</AbilityId>
+        <Description>Deals 170 to 188 Physical damage. Bleeds 396 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFF42CA6C593619CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-7510105</AbilityId>
+        <Description>Deals 194 to 214 Physical damage. Bleeds 450 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFF8D67A798236191</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-92759338</AbilityId>
+        <Description>Deals 222 to 246 Physical damage. Bleeds 518 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFA789AD684E74FF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-69343648</AbilityId>
+        <Description>Deals 335 to 370 Physical damage. Bleeds 778 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFBDDE660A6CF693A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-78090943</AbilityId>
+        <Description>Deals 425 to 470 Physical damage. Bleeds 988 health over 15s. Can be stacked up to 3 times.</Description>
+        <AddonId>AFB586D4145A9CBE0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.450000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.680000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fury Unleashed</Name>
+      <Icon>blessing_of_the_flames_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-63390762</AbilityId>
+        <Description>Increases the Critical Hit damage of the Warrior and their Primal Companion by 1%, and their damage by 3% for 15s. Each damage over time effect on the enemy multiplies these values, up to 5. This ability is not affected by the Global Cooldown.</Description>
+        <AddonId>AFC38BBD63C49D66C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Call of Savagery</Name>
+      <Icon>beastmaster_enraged_companion_aura_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-63347505</AbilityId>
+        <Description>Increases damage done by 5% on all party or raid members for 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFC3964CF53F1B050</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Call of Kinship</Name>
+      <Icon>beastmaster_kinship_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-58504364</AbilityId>
+        <Description>Heals Party or Raid members 330 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFC834B54C6A04D2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-88775855</AbilityId>
+        <Description>Heals Party or Raid members 373 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFAB5635186A7E1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-32618778</AbilityId>
+        <Description>Heals Party or Raid members 390 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFE0E46E6759631EE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-35192608</AbilityId>
+        <Description>Heals Party or Raid members 439 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFDE700E092C71985</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-61058146</AbilityId>
+        <Description>Heals Party or Raid members 459 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFC5C539E1DE414A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-53907318</AbilityId>
+        <Description>Heals Party or Raid members 528 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFCC9708AA3521D4C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-12401377</AbilityId>
+        <Description>Heals Party or Raid members 589 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFF42C51F73A52ACA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-78256984</AbilityId>
+        <Description>Heals Party or Raid members 592 Health over 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFB55E4A8A6EEAD19</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gift of the Beastmaster</Name>
+      <Icon>soul_beastmaster</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-53066579</AbilityId>
+        <Description>Base Damage is increased by 0.5% for each point spent in the Beastmaster Soul. The Primal Companion&apos;s Base Damage is increased by 2.5% for each point spent in the Beastmaster Soul.</Description>
+        <AddonId>AFCD644AD8C10CBFF</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Twin Cuts</Name>
+      <Icon>scrape2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-50817022</AbilityId>
+        <Description>Deals 172 to 190 Physical damage. Bleeds 290 health over 15s, in addition to 290 health over 15s from a second wound.</Description>
+        <AddonId>AFCF898028C31F447</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-86962047</AbilityId>
+        <Description>Deals 188 to 208 Physical damage. Bleeds 316 health over 15s, in addition to 316 health over 15s from a second wound.</Description>
+        <AddonId>AFAD11081874AEAA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-14710870</AbilityId>
+        <Description>Deals 213 to 236 Physical damage. Bleeds 316 health over 15s, in addition to 316 health over 15s from a second wound.</Description>
+        <AddonId>AFF1F87AA3FF53CF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>776487998</AbilityId>
+        <Description>Deals 245 to 271 Physical damage. Bleeds 414 health over 15s, in addition to 414 health over 15s from a second wound.</Description>
+        <AddonId>A2E48443E8C31F447</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>38759739</AbilityId>
+        <Description>Deals 369 to 407 Physical damage. Bleeds 622 health over 15s, in addition to 622 health over 15s from a second wound.</Description>
+        <AddonId>A024F6D3B8C31F447</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1734663456</AbilityId>
+        <Description>Deals 469 to 518 Physical damage. Bleeds 791 health over 15s, in addition to 791 health over 15s from a second wound.</Description>
+        <AddonId>A6764DD208C31F447</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Command to Recover</Name>
+      <Icon>spiritofsaints3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-50270558</AbilityId>
+        <Description>Increases healing done by 15% on all party or raid members for 20s.</Description>
+        <AddonId>AFD00EEA28FF099C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vicious Opportunity</Name>
+      <Icon>disabling3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-44834231</AbilityId>
+        <Description>Deals 305 to 337 Physical damage in addition to 42 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFD53E249E384F8E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-61470885</AbilityId>
+        <Description>Deals 322 to 356 Physical damage in addition to 44 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFC56075BBDA58A2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-59197115</AbilityId>
+        <Description>Deals 346 to 382 Physical damage in addition to 47 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFC78B945C60DC83C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-46196417</AbilityId>
+        <Description>Deals 378 to 418 Physical damage in addition to 52 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFD3F193FDC0820AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-74937299</AbilityId>
+        <Description>Deals 573 to 633 Physical damage in addition to 60 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFB888C2D4D989929</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-32453702</AbilityId>
+        <Description>Deals 495 to 548 Physical damage in addition to 69 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFE10CBBA69E7B7FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-95354369</AbilityId>
+        <Description>Deals 743 to 822 Physical damage in addition to 104 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFA5101FF5D67A691</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-61121994</AbilityId>
+        <Description>Deals 946 to 1045 Physical damage in addition to 131 Physical damage per damage over time effect on the Enemy, up to 5. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>AFC5B5A367C5E2AB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Spotter&apos;s Call</Name>
+      <Icon>awareness_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-37568806</AbilityId>
+        <Description>Causes the enemy to take an additional 80 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFDC2BEDAE55137DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-40166297</AbilityId>
+        <Description>Causes the enemy to take an additional 115 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFD9B1C676B86F561</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-65561530</AbilityId>
+        <Description>Causes the enemy to take an additional 175 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFC179C465B8B193D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-64855749</AbilityId>
+        <Description>Causes the enemy to take an additional 250 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFC22613B44525D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-90669943</AbilityId>
+        <Description>Causes the enemy to take an additional 370 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFA987C89A26AA739</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10554700</AbilityId>
+        <Description>Causes the enemy to take an additional 530 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFF5EF2B44A0A9291</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-10360206</AbilityId>
+        <Description>Causes the enemy to take an additional 900 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFF61EA72D9E201C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-71253293</AbilityId>
+        <Description>Causes the enemy to take an additional 1200 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFBC0C2D38BC17DCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-935977</AbilityId>
+        <Description>Causes the enemy to take an additional 1500 Physical damage when hit. Each attacker may trigger this once every 3s. Lasts 20s.</Description>
+        <AddonId>AFFF1B7D74783A4FF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vicious Blow</Name>
+      <Icon>2h_axe_036_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-36948103</AbilityId>
+        <Description>Deals 171 to 189 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFDCC37799417EBFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-83783755</AbilityId>
+        <Description>Deals 182 to 201 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFB018FB568A3B5A8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-45725150</AbilityId>
+        <Description>Deals 189 to 208 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFD464A223BBDD75D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-23606666</AbilityId>
+        <Description>Deals 196 to 217 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFE97CA767D2EFD13</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-49566788</AbilityId>
+        <Description>Deals 208 to 230 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFD0BABBCDA0E2F8F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-68789321</AbilityId>
+        <Description>Deals 221 to 245 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFBE65BB775FC86F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-3944860</AbilityId>
+        <Description>Deals 238 to 263 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFFC3CE64B76ABE66</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-36642409</AbilityId>
+        <Description>Deals 271 to 299 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFDD0E197CAD79188</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-53214446</AbilityId>
+        <Description>Deals 288 to 318 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFCD40312567245BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-27407480</AbilityId>
+        <Description>Deals 379 to 419 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFE5DCB888A0B8795</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-96469077</AbilityId>
+        <Description>Deals 570 to 630 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFA3FFFABD2D20E43</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-44245622</AbilityId>
+        <Description>Deals 632 to 699 Physical damage. Deals an additional 15% damage per damage over time effect on the Enemy, up to 75%. Awards 1 Attack Point.</Description>
+        <AddonId>AFD5CDD8A2775A4E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Command to Stand Ground</Name>
+      <Icon>blazeofglory3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-30418864</AbilityId>
+        <Description>Increases current and Maximum Health by 25%, Armor and Resistances by 10% on all party or raid members for 20s.</Description>
+        <AddonId>AFE2FD850D13CEABE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Call of Stone</Name>
+      <Icon>archon_rock_slide</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-24790133</AbilityId>
+        <Description>Reduces incoming damage by 5% on all Party or Raid members for 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFE85BB8B3E2526AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Primal Heal</Name>
+      <Icon>chloromancer_entropic_veil_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-23103337</AbilityId>
+        <Description>Heals 227 to 251 Health in addition to 31 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFE9F78974994676E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>15</RequiredLevel>
+        <AbilityId>-51996628</AbilityId>
+        <Description>Heals 275 to 304 Health in addition to 38 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFCE6982C8066554A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>19</RequiredLevel>
+        <AbilityId>-83321047</AbilityId>
+        <Description>Heals 305 to 337 Health in addition to 42 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFB089F298060D5C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>25</RequiredLevel>
+        <AbilityId>-92682296</AbilityId>
+        <Description>Heals 355 to 392 Health in addition to 49 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFA79C7C877090039</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>-83084932</AbilityId>
+        <Description>Heals 407 to 450 Health in addition to 56 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFB0C397C5D7CCE00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>-87412288</AbilityId>
+        <Description>Heals 428 to 473 Health in addition to 60 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFACA31C0BFDD04D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>-11562192</AbilityId>
+        <Description>Heals 476 to 526 Health in addition to 67 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFF4F933086BCC836</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>-46024751</AbilityId>
+        <Description>Heals 507 to 561 Health in addition to 71 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFD41B7D1635C49D8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-95672767</AbilityId>
+        <Description>Heals 584 to 645 Health in addition to 82 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFA4C264165B9CA82</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-14685624</AbilityId>
+        <Description>Heals 650 to 718 Health in addition to 91 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFF1FEA48644511C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-46995103</AbilityId>
+        <Description>Heals 653 to 722 Health in addition to 91 Health per damage over time effect on the enemy up to 5.</Description>
+        <AddonId>AFD32E961CD3CED6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bond of Shelter</Name>
+      <Icon>beastmaster_comp_intervention</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-20707066</AbilityId>
+        <Description>Increases Armor by 399 and Resistances by 27 on all party or raid members.</Description>
+        <AddonId>AFEC409069433B156</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-98839429</AbilityId>
+        <Description>Increases Armor by 527 and Resistances by 32 on all party or raid members.</Description>
+        <AddonId>AFA1BD47B5FF7BED7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-64771189</AbilityId>
+        <Description>Increases Armor by 656 and Resistances by 40 on all party or raid members.</Description>
+        <AddonId>AFC23AB8B399607B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-45808731</AbilityId>
+        <Description>Increases Armor by 1400 and Resistances by 50 on all party or raid members.</Description>
+        <AddonId>AFD4503A58A8ACF14</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-73385253</AbilityId>
+        <Description>Increases Armor by 2000 and Resistances by 65 on all party or raid members.</Description>
+        <AddonId>AFBA03ADBC887AE25</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Messy Wounds</Name>
+      <Icon>goo7b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-6452736</AbilityId>
+        <Description>Causes the enemy to take an additional 15% damage from the Warrior&apos;s attacks for 30s. This Ability is not affected by the Global Cooldown.</Description>
+        <AddonId>AFF9D8A00D367191D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Enrage</Name>
+      <Icon>beastmaster_enraged_companion_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-5771315</AbilityId>
+        <Description>Assaults the enemy with primal energy, causing the enemy to bleed 844 health over 10s. Increases party and raid member Damage by 5%, Critical Hit Chance by 5%, and Critical Hit Power by 10%. Increases the Primal Companion&apos;s damage by 25%, Critical Hit Chance by 25%, and Critical Hit Power by 50%. Lasts 10s.</Description>
+        <AddonId>AFFA7EFCDAA9506A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">1.870000</PowerStatCoefficient>
+        <DamageMultiplier effect="2" action="0">0.090000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">2.810000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1281515481</AbilityId>
+        <Description>Assaults the enemy with primal energy, causing the enemy to bleed 970 health over 10s. Increases party and raid member Damage by 5%, Critical Hit Chance by 5%, and Critical Hit Power by 10%. Increases the Primal Companion&apos;s damage by 25%, Critical Hit Chance by 25%, and Critical Hit Power by 50%. Lasts 10s.</Description>
+        <AddonId>A4C625FD96EA0B9E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">1.870000</PowerStatCoefficient>
+        <DamageMultiplier effect="2" action="0">0.090000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">2.810000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1919696001</AbilityId>
+        <Description>Assaults the enemy with primal energy, causing the enemy to bleed 1456 health over 10s. Increases party and raid member Damage by 5%, Critical Hit Chance by 5%, and Critical Hit Power by 10%. Increases the Primal Companion&apos;s damage by 25%, Critical Hit Chance by 25%, and Critical Hit Power by 50%. Lasts 10s.</Description>
+        <AddonId>A726C3C81AA94C4FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">1.870000</PowerStatCoefficient>
+        <DamageMultiplier effect="2" action="0">0.090000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">2.810000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1265037273</AbilityId>
+        <Description>Assaults the enemy with primal energy, causing the enemy to bleed 1852 health over 10s. Increases party and raid member Damage by 5%, Critical Hit Chance by 5%, and Critical Hit Power by 10%. Increases the Primal Companion&apos;s damage by 25%, Critical Hit Chance by 25%, and Critical Hit Power by 50%. Lasts 10s.</Description>
+        <AddonId>A4B66EFD953AA3644</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">1.870000</PowerStatCoefficient>
+        <DamageMultiplier effect="2" action="0">0.090000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">2.810000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Call of Blood</Name>
+      <Icon>nysyrs_rebuke</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-4266520</AbilityId>
+        <Description>Increases Critical Hit chance by 5% on all Party or Raid members for 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>AFFBEE5E8BA050313</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Summon Greater Primal Companion</Name>
+      <Icon>beastmaster-greater_corporeal_manifestation</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>424181101</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion (max level 28).
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A19487D6D5E8385AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1276568078</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion (max level 34).
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A4C16E20E489E33D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1580407324</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion (max level 40).
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A5E331A1CDEE622AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>698509047</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion (max level 46).
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A29A266F78265A055</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>503709615</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion.
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A1E05FFAF7DAA4D02</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1013966679</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion.
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>A3C6FE757D9895B00</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-53238165</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion.
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>AFCD3A66B6F93EC20</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-79773825</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion.
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>AFB3EBF7FB42B01BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-38071005</AbilityId>
+        <Description>
+          Summons a Greater Primal Companion.
+
+          Damage taken by the pet from AE abilities is reduced by 65%, plus an additional 1% for every point spent in the Beastmaster soul level above 21.
+        </Description>
+        <AddonId>AFDBB1523D5593376</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Building Fury</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>570822290</AbilityId>
+        <Description>Finishers gain a bonus to Attack Power contribution based on how many Attack Points were consumed.</Description>
+        <AddonId>A22060E927CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Summon Lesser Primal Companion</Name>
+      <Icon>beastmaster-lesser_corporeal_manifestation_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>589749974</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 5).</Description>
+        <AddonId>A2326DED6A62ED718</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>359025826</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 9).</Description>
+        <AddonId>A15664CA2DB33A674</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>983214</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 13).</Description>
+        <AddonId>A000F00AEB9925173</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1021634561</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 19).</Description>
+        <AddonId>A3CE4E801B4D23974</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>884331932</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 25).</Description>
+        <AddonId>A34B5D59C806B4932</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>268664248</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 31).</Description>
+        <AddonId>A10037DB8D30FF245</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1685468450</AbilityId>
+        <Description>Summons a Lesser Primal Companion (max level 37).</Description>
+        <AddonId>A64763522BADBEA4F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bond of Alacrity</Name>
+      <Icon>swiftstrike2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>637868286</AbilityId>
+        <Description>Increases movement speed of all Party or Raid members by 15%.</Description>
+        <AddonId>A260518FEC560E9FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tearing Slash</Name>
+      <Icon>sweep3c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>706888108</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 139 damage, 201 health bled.
+          2 Points: 182 damage, 264 health bled.
+          3 Points: 247 damage, 358 health bled.
+        </Description>
+        <AddonId>A2A2241AC16474349</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1195283028</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 140 damage, 204 health bled.
+          2 Points: 188 damage, 271 health bled.
+          3 Points: 258 damage, 373 health bled.
+        </Description>
+        <AddonId>A473E92545925FABF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1974494897</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 143 damage, 207 health bled.
+          2 Points: 195 damage, 281 health bled.
+          3 Points: 271 damage, 393 health bled.
+        </Description>
+        <AddonId>A75B066B125911AFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1846113101</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 146 damage, 211 health bled.
+          2 Points: 202 damage, 293 health bled.
+          3 Points: 286 damage, 415 health bled.
+        </Description>
+        <AddonId>A6E09734D6BCC172A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>529713497</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 149 damage, 216 health bled.
+          2 Points: 213 damage, 308 health bled.
+          3 Points: 308 damage, 446 health bled.
+        </Description>
+        <AddonId>A1F92C959576CD64B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1029564662</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 154 damage, 223 health bled.
+          2 Points: 228 damage, 330 health bled.
+          3 Points: 338 damage, 489 health bled.
+        </Description>
+        <AddonId>A3D5DE8F667FA898F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1253608977</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 162 damage, 235 health bled.
+          2 Points: 251 damage, 363 health bled.
+          3 Points: 384 damage, 555 health bled.
+        </Description>
+        <AddonId>A4AB88E11969D415C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>2115263196</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 172 damage, 248 health bled.
+          2 Points: 280 damage, 404 health bled.
+          3 Points: 442 damage, 638 health bled.
+        </Description>
+        <AddonId>A7E145ADCB5033224</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1879169591</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 209 damage, 304 health bled.
+          2 Points: 390 damage, 564 health bled.
+          3 Points: 662 damage, 959 health bled.
+        </Description>
+        <AddonId>A7001DA37B44C89AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1055477110</AbilityId>
+        <Description>
+          Deals Physical damage per Attack Point. Bleeds additional health per Attack Point over 15s:
+
+          1 Point: 240 damage, 347 health bled.
+          2 Points: 480 damage, 694 health bled.
+          3 Points: 843 damage, 1219 health bled.
+        </Description>
+        <AddonId>A3EE94D76B62E547E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dismiss Pet</Name>
+      <Icon>redirect1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>831141497</AbilityId>
+        <Description>Dismiss your Pet.</Description>
+        <AddonId>A318A36797A3B01B8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Call of the Forest</Name>
+      <Icon>spiritoftree1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>863269368</AbilityId>
+        <Description>Reduces cast time and autoattack delay by 7% on all party or raid members for 20s after a successful Finisher. Lasts 1h.</Description>
+        <AddonId>A337471F832EB45A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>12</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Guardianship</Name>
+      <Icon>defiler_chimeras_gift_w</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>916602667</AbilityId>
+        <Description>Restores 464 to 513 health to up to 5 party or raid members.</Description>
+        <AddonId>A36A23F2B8121E193</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>981897960</AbilityId>
+        <Description>Restores 485 to 536 health to up to 5 party or raid members.</Description>
+        <AddonId>A3A8692E87217F5D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-68578203</AbilityId>
+        <Description>Restores 520 to 575 health to up to 5 party or raid members.</Description>
+        <AddonId>AFBE99465C0D6C5E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1658244596</AbilityId>
+        <Description>Restores 580 to 642 health to up to 5 party or raid members.</Description>
+        <AddonId>A62D6CDF4D00742DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1566107994</AbilityId>
+        <Description>Restores 608 to 672 health to up to 5 party or raid members.</Description>
+        <AddonId>A5D58E95A9BEB4388</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1595329987</AbilityId>
+        <Description>Restores 714 to 789 health to up to 5 party or raid members.</Description>
+        <AddonId>A5F16CDC3865690BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1309726603</AbilityId>
+        <Description>Restores 749 to 828 health to up to 5 party or raid members.</Description>
+        <AddonId>A4E10D78B65144896</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bond of Power</Name>
+      <Icon>beastmaster_bond_of_might_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1253844988</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 10 on all party or raid members.</Description>
+        <AddonId>A4ABC27FC9087524B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1766500263</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 20 on all party or raid members.</Description>
+        <AddonId>A694AA7A7D8BB346B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1577543647</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 30 on all party or raid members.</Description>
+        <AddonId>A5E0767DF48F41F80</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1550747057</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 40 on all party or raid members.</Description>
+        <AddonId>A5C6E85B1779C5EB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>73346279</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 50 on all party or raid members.</Description>
+        <AddonId>A045F2CE79E7C8133</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-96943593</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 60 on all party or raid members.</Description>
+        <AddonId>AFA38C217F5C4FD16</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-20269376</AbilityId>
+        <Description>Increases Strength, Dexterity, Intelligence, and Wisdom by 70 on all party or raid members.</Description>
+        <AddonId>AFECAB6C052CD9EEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Primal Lucidity</Name>
+      <Icon>1h_mace_049</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1610620853</AbilityId>
+        <Description>Deals 533 to 589 Physical damage. Reduces cast time by 3% on all party or raid members for 6s.</Description>
+        <AddonId>A60001FB56B5EC650</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">1.250000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.870000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2011253239</AbilityId>
+        <Description>Deals 702 to 776 Physical damage. Reduces cast time by 3% on all party or raid members for 6s.</Description>
+        <AddonId>A77E149F78B5C5798</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">1.250000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.870000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>1105876618</AbilityId>
+        <Description>Deals 1055 to 1166 Physical damage. Reduces cast time by 3% on all party or raid members for 6s.</Description>
+        <AddonId>A41EA568A68C4CDE9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">1.250000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.870000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>325982743</AbilityId>
+        <Description>Deals 1171 to 1294 Physical damage. Reduces cast time by 3% on all party or raid members for 6s.</Description>
+        <AddonId>A136E1A174888160A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">1.250000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.870000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flesh Rip</Name>
+      <Icon>critical4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1695164184</AbilityId>
+        <Description>Deals 323 to 358 Physical damage. Bleeds 507 health over 15s. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>A650A27188B23DAE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.800000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.210000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1718440839</AbilityId>
+        <Description>Deals 344 to 380 Physical damage. Bleeds 540 health over 15s. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>A666D53879D841815</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.800000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.210000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1463767187</AbilityId>
+        <Description>Deals 453 to 501 Physical damage. Bleeds 710 health over 15s. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>A573F509391D9284B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.800000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.210000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>173441101</AbilityId>
+        <Description>Deals 682 to 754 Physical damage. Bleeds 1069 health over 15s. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>A0A56804D8D19AF33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.800000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.210000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>441047337</AbilityId>
+        <Description>Deals 757 to 837 Physical damage. Bleeds 1186 health over 15s. Must be used after the Warrior&apos;s pet Critically Hits.</Description>
+        <AddonId>A1A49D9296877B46D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.800000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.210000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fierce Strike</Name>
+      <Icon>sweep4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1747061033</AbilityId>
+        <Description>Deals 218 to 242 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A68220929542EAD07</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>772064340</AbilityId>
+        <Description>Deals 225 to 249 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A2E04C45474CCE518</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1605864157</AbilityId>
+        <Description>Deals 234 to 258 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A5FB78ADD64A64F91</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1469026923</AbilityId>
+        <Description>Deals 248 to 274 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A578F926B4CD14B81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>150006968</AbilityId>
+        <Description>Deals 258 to 285 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A08F0ECB8BC64ACB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>589538171</AbilityId>
+        <Description>Deals 272 to 301 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A2323A37BD6352EE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2093345718</AbilityId>
+        <Description>Deals 287 to 318 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A7CC5EBB6D33D0BBB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>897315592</AbilityId>
+        <Description>Deals 309 to 342 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A357BF3083AB90577</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1330956995</AbilityId>
+        <Description>Deals 339 to 374 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A4F54CAC37E84E18A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1611352966</AbilityId>
+        <Description>Deals 385 to 425 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A600B4B8693233C7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-77716638</AbilityId>
+        <Description>Deals 401 to 443 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFB5E2362CCD1740F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-54391346</AbilityId>
+        <Description>Deals 580 to 641 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFCC20DCE68337E27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-23270174</AbilityId>
+        <Description>Deals 761 to 842 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFE9CECE25DCFBE8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-94411286</AbilityId>
+        <Description>Deals 846 to 935 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFA5F65EA900FED42</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Calming Influence</Name>
+      <Icon>beastmaster_beast_whisperer_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2057119273</AbilityId>
+        <Description>Puts an enemy to Sleep for 8s. Can only affect 1 enemy.</Description>
+        <AddonId>A7A9D2629B186D576</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

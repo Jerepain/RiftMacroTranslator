@@ -1,0 +1,40 @@
+﻿@model RiftMacroTranslator.Models.Translation1DB
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Translation1DB</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.en)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.en)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fr)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fr)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.de)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.de)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

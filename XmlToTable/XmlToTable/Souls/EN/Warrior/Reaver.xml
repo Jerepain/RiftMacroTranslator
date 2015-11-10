@@ -1,0 +1,3041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Reaver">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Power From The Masses</Name>
+      <Icon>doctrine_of_dedication_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1916969115</AbilityId>
+          <Description></Description>
+          <AddonId>A7242A09B0EE73230</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces damage taken by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces damage taken by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces damage taken by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduces damage taken by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduces damage taken by 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Entropic Embrace</Name>
+      <Icon>entropy_embrace</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2024284545</AbilityId>
+          <Description></Description>
+          <AddonId>A78A8218100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases non-physical damage by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases non-physical damage by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases non-physical damage by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases non-physical damage by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases non-physical damage by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Binding of Affliction</Name>
+      <Icon>binding_of_affliction_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>478081866</AbilityId>
+          <Description>Increases damage of non-physical attacks by 5%. Lasts 1h.</Description>
+          <AddonId>A1C7EF34A122CBA96</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Imbued Armor</Name>
+      <Icon>plate_116_chest_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>985091926</AbilityId>
+          <Description></Description>
+          <AddonId>A3AB74F5600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases Armor by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases Armor by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases Armor by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases Armor by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases Armor by 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Ethereal Bond</Name>
+      <Icon>spiritblast1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>257905772</AbilityId>
+          <Description></Description>
+          <AddonId>A0F5F546C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the Power cost of Blood Fever, Soul Sickness, Necrotic Wounds and Flesh Rot by 3. Reduces damage taken from Spells by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the Power cost of Blood Fever, Soul Sickness, Necrotic Wounds and Flesh Rot by 6. Reduces damage taken from Spells by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the Power cost of Blood Fever, Soul Sickness, Necrotic Wounds and Flesh Rot by 9. Reduces damage taken from Spells by 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Reaping Touch</Name>
+      <Icon>charge2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1289182290</AbilityId>
+          <Description></Description>
+          <AddonId>A4CD75C5200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of all attacks by 1% and causes Ravaging Strike to reduce the target&apos;s armor based on the rank of Ravaging Strike used for 15 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of all attacks by 2% and causes Ravaging Strike to reduce the target&apos;s armor based on the rank of Ravaging Strike used for 15 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of all attacks by 3% and causes Ravaging Strike to reduce the target&apos;s armor based on the rank of Ravaging Strike used for 15 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Grisly Works</Name>
+      <Icon>heavybleeding</Icon>
+      <PrereqTraitKey>21</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>336930824</AbilityId>
+          <Description></Description>
+          <AddonId>A14152808166CA20A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>For 15 seconds after killing an enemy you have Tagged, healing from Soul Feast is increased by an additional 50%. Deals 50% of your weapon&apos;s damage to up to 10 surrounding enemies when the Tagged enemy dies.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>For 15 seconds after killing an enemy you have Tagged, healing from Soul Feast is increased by an additional 100%. Deals 100% of your weapon&apos;s damage to up to 10 surrounding enemies when the Tagged enemy dies.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Vile Affinity</Name>
+      <Icon>illumination_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Corruptions last an additional 4 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Corruptions last an additional 8 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Planar Attunement</Name>
+      <Icon>magicresist1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>398173982</AbilityId>
+          <Description></Description>
+          <AddonId>A17BBA71E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases damage done by damage over time abilities by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases damage done by damage over time abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases damage done by damage over time abilities by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases damage done by damage over time abilities by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases damage done by damage over time abilities by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Tempered Constitution</Name>
+      <Icon>discombobulate3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-36964769</AbilityId>
+          <Description></Description>
+          <AddonId>AFDCBF65F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases Endurance by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases Endurance by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases Endurance by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Increases Endurance by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Increases Endurance by 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Crest Mastery</Name>
+      <Icon>elemward1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-35810660</AbilityId>
+          <Description></Description>
+          <AddonId>AFDDD929C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases all Resists by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases all Resists by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases all Resists by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Spasm</Name>
+      <Icon>confound1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-67102006</AbilityId>
+          <Description>Interrupts an enemy.</Description>
+          <AddonId>AFC001ACAA88C1DFC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Crest of the Shadow</Name>
+      <Icon>reaver_crest_of_shadow</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-38990394</AbilityId>
+          <Description>Absorbs 442 damage. Lasts 30s.</Description>
+          <AddonId>AFDAD0DC68E2FE62A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>20</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Infectious</Name>
+      <Icon>poison_gas_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-7686936</AbilityId>
+          <Description></Description>
+          <AddonId>AFF8AB4E800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage of Soul Sickness, Blood Fever, Necrotic Wounds, and Flesh Rot by 33%</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage of Soul Sickness, Blood Fever, Necrotic Wounds, and Flesh Rot by 66%</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage of Soul Sickness, Blood Fever, Necrotic Wounds, and Flesh Rot by 100%</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Sinister Intent</Name>
+      <Icon>poison_gas_02</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1920848212</AbilityId>
+          <Description></Description>
+          <AddonId>A727DD1540E873649</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the threat generation of all damage over time effects by 15%, modified by Endurance.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Crest of Entropy</Name>
+      <Icon>hidden_veil_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1286555264</AbilityId>
+          <Description>Reduces damage taken by 30% for 6s. Shares a cooldown with Shield Defense. Does not stack with Aegis of Light, Crest of Consumption, or Power Shield.</Description>
+          <AddonId>A4CAF46807B341C26</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>6.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Shadow of Dread</Name>
+      <Icon>defiler_link_of_agony</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>853303261</AbilityId>
+          <Description>Charges at the enemy and applies Soul Sickness, Blood Fever, Necrotic Wounds and Flesh Rot if they are known. Roots for 2s. Awards 1 Attack Point.</Description>
+          <AddonId>A32DC5FDD72008488</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Crippling Infestation</Name>
+      <Icon>infestation_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1341511211</AbilityId>
+          <Description></Description>
+          <AddonId>A4FF5D62B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Enemies affected by Infestation or Explosive Infestation take 5% more damage from your Death based attacks. Increases damage done by your Death based attacks by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Enemies affected by Infestation or Explosive Infestation take 10% more damage from your Death based attacks. Increases damage done by your Death based attacks by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Enemies affected by Infestation or Explosive Infestation take 15% more damage from your Death based attacks. Increases damage done by your Death based attacks by 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Enemies affected by Infestation or Explosive Infestation take 20% more damage from your Death based attacks. Increases damage done by your Death based attacks by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Enemies affected by Infestation or Explosive Infestation take 25% more damage from your Death based attacks. Increases damage done by your Death based attacks by 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Soul Feast</Name>
+      <Icon>life-drain3</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1620667334</AbilityId>
+          <Description></Description>
+          <AddonId>A60996BC600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Soul Sickness, Blood Fever, Necrotic Wounds and Flesh Rot heal you 3% of the damage done by their damage over time effects.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Soul Devour</Name>
+      <Icon>menacingroar2a</Icon>
+      <PrereqTraitKey>20</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>785773172</AbilityId>
+          <Description></Description>
+          <AddonId>A2ED5F27400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the healing of Soul Feast by 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Flesh Rot</Name>
+      <Icon>flesh_rot_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1149698657</AbilityId>
+          <Description>Deals 361 Death damage over 15s. Awards 1 Attack Point.</Description>
+          <AddonId>A44870261210B5F50</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+          <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+          <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Walks with Death</Name>
+      <Icon>dusk_to_dawn_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74103869</AbilityId>
+          <Description></Description>
+          <AddonId>AFB9543C300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the cooldown of Infestation, and Explosive Infestation by 5 seconds. Reduces damage taken from Spells by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the cooldown of Infestation, and Explosive Infestation by 10 seconds. Reduces damage taken from Spells by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the cooldown of Infestation, and Explosive Infestation by 15 seconds. Reduces damage taken from Spells by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Dire Corruption</Name>
+      <Icon>necromancer_detonate_bones_02_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51955505</AbilityId>
+          <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 384 damage total.
+2 Points: 508 damage total.
+3 Points: 693 damage total.</Description>
+          <AddonId>AFCE738CF6876D445</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>22</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>30.000000</Duration>
+          <Interval>3.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks Dire Corruption ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Immunization</Name>
+      <Icon>healed</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-99350169</AbilityId>
+          <Description>Makes the enemy immune to all of the Warrior’s Reaver Damage Over Time abilities and Taunts for 5m. Does not work against players.</Description>
+          <AddonId>AFA140967CECAA164</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>300.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Unlocks the Immunization ability.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Explosive Infestation</Name>
+      <Icon>reaver_explosive_infestation_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-30439995</AbilityId>
+          <Description>Effects up to 5 enemies. After 8s, deals 258 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+          <AddonId>AFE2F85C5AEC9729E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>22</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Immunization</Name>
+      <Icon>healed</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-99350169</AbilityId>
+        <Description>Makes the enemy immune to all of the Warrior’s Reaver Damage Over Time abilities and Taunts for 5m. Does not work against players.</Description>
+        <AddonId>AFA140967CECAA164</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>300.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Crest of Consumption</Name>
+      <Icon>reaver_plague_eater</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-98160952</AbilityId>
+        <Description>Reduces incoming damage by 20% for 4s. Increases healing received by 20% for 15s. Does not stack with Shield Defense or Crest of Entropy.</Description>
+        <AddonId>AFA262EC833738B00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>4.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Binding of Devouring Darkness</Name>
+      <Icon>reaver_binding_of_devouring_darkness</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-92600430</AbilityId>
+        <Description>Grants the effects of Binding of Shadow, Binding of Death, Binding of Affliction and Plague Bringer. Increases Endurance by 5%. Increases healing received by 5%. Lasts 1h.</Description>
+        <AddonId>AFA7B079283EFBC99</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Binding of Shadow</Name>
+      <Icon>dominator-mass_exhaustion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-80850365</AbilityId>
+        <Description>Increases range of Shadow of Dread, Soul Sickness, Necrotic Wounds, Flesh Rot, Infestation, and Explosive Infestation by 10 meters. Reduces damage taken from Spells by 3%. Lasts 1h.</Description>
+        <AddonId>AFB2E5243B00554B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dire Blow</Name>
+      <Icon>roguestrike1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-69883250</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 269 damage.
+2 Points: 338 damage.
+3 Points: 442 damage.</Description>
+        <AddonId>AFBD5AA8E63FE11BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-79179628</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 271 damage.
+2 Points: 345 damage.
+3 Points: 456 damage.</Description>
+        <AddonId>AFB47D0943022ED86</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-50872072</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 275 damage.
+2 Points: 359 damage.
+3 Points: 483 damage.</Description>
+        <AddonId>AFCF7C0F83E25F555</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-95043968</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 279 damage.
+2 Points: 367 damage.
+3 Points: 501 damage.</Description>
+        <AddonId>AFA55BE809586AC18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-67325636</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 282 damage.
+2 Points: 379 damage.
+3 Points: 524 damage.</Description>
+        <AddonId>AFBFCB13C7EC8FFC6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-55242047</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 288 damage.
+2 Points: 395 damage.
+3 Points: 555 damage.</Description>
+        <AddonId>AFCB512C176F4494B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-8320553</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 294 damage.
+2 Points: 412 damage.
+3 Points: 589 damage.</Description>
+        <AddonId>AFF8109D79D333E68</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-88474247</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 301 damage.
+2 Points: 434 damage.
+3 Points: 634 damage.</Description>
+        <AddonId>AFAB9FD7932E85D5F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-29938523</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 316 damage.
+2 Points: 476 damage.
+3 Points: 718 damage.</Description>
+        <AddonId>AFE372CA5449E434E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-55663539</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 324 damage.
+2 Points: 499 damage.
+3 Points: 765 damage.</Description>
+        <AddonId>AFCAEA44D88CF77C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-74217507</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 365 damage.
+2 Points: 620 damage.
+3 Points: 1007 damage.</Description>
+        <AddonId>AFB9387DD74791C33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-15223359</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 450 damage.
+2 Points: 874 damage.
+3 Points: 1514 damage.</Description>
+        <AddonId>AFF17B5C1B6197984</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-77762084</AbilityId>
+        <Description>Deals Death damage based on Attack Points.
+
+1 Point: 479 damage.
+2 Points: 957 damage.
+3 Points: 1680 damage.</Description>
+        <AddonId>AFB5D71DCCE1181EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Spasm</Name>
+      <Icon>confound1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-67102006</AbilityId>
+        <Description>Interrupts an enemy.</Description>
+        <AddonId>AFC001ACAA88C1DFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Creeping Corruption</Name>
+      <Icon>cabalist_sigil_of_ravaging</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-64010440</AbilityId>
+        <Description>Applies Creeping Corruption to the Warrior, dealing additional Death damage per Attack Point over 30s to up to 10 enemies and reduces the healing done by affected enemies by 15%:
+
+1 Point: 334 damage total.
+2 Points: 516 damage total.
+3 Points: 790 damage total.</Description>
+        <AddonId>AFC2F4738DDA21472</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-82409832</AbilityId>
+        <Description>Applies Creeping Corruption to the Warrior, dealing additional Death damage per Attack Point over 30s to up to 10 enemies and reduces the healing done by affected enemies by 15%:
+
+1 Point: 354 damage total.
+2 Points: 574 damage total.
+3 Points: 908 damage total.</Description>
+        <AddonId>AFB1686981E31D841</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-49341487</AbilityId>
+        <Description>Applies Creeping Corruption to the Warrior, dealing additional Death damage per Attack Point over 30s to up to 10 enemies and reduces the healing done by affected enemies by 15%:
+
+1 Point: 432 damage total.
+2 Points: 802 damage total.
+3 Points: 1363 damage total.</Description>
+        <AddonId>AFD0F1BD1890B2D77</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-40740288</AbilityId>
+        <Description>Applies Creeping Corruption to the Warrior, dealing additional Death damage per Attack Point over 30s to up to 10 enemies and reduces the healing done by affected enemies by 15%:
+
+1 Point: 494 damage total.
+2 Points: 987 damage total.
+3 Points: 1734 damage total.</Description>
+        <AddonId>AFD925A40A175FE0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Dire Corruption</Name>
+      <Icon>necromancer_detonate_bones_02_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-51955505</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 384 damage total.
+2 Points: 508 damage total.
+3 Points: 693 damage total.</Description>
+        <AddonId>AFCE738CF6876D445</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-52528664</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 392 damage total.
+2 Points: 530 damage total.
+3 Points: 737 damage total.</Description>
+        <AddonId>AFCDE79E848428CCE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-86671093</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 398 damage total.
+2 Points: 548 damage total.
+3 Points: 774 damage total.</Description>
+        <AddonId>AFAD5810B7043E3C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-38800915</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 407 damage total.
+2 Points: 576 damage total.
+3 Points: 829 damage total.</Description>
+        <AddonId>AFDAFF1ED64417EF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-80432961</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 417 damage total.
+2 Points: 604 damage total.
+3 Points: 884 damage total.</Description>
+        <AddonId>AFB34B0BF5B67D3E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-35643096</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 446 damage total.
+2 Points: 688 damage total.
+3 Points: 1053 damage total.</Description>
+        <AddonId>AFDE021287E91DAA9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-55794819</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 453 damage total.
+2 Points: 711 damage total.
+3 Points: 1098 damage total.</Description>
+        <AddonId>AFCACA37DA91C2DD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-59147610</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 536 damage total.
+2 Points: 954 damage total.
+3 Points: 1587 damage total.</Description>
+        <AddonId>AFC797AA6827E92D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-86308681</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 621 damage total.
+2 Points: 1204 damage total.
+3 Points: 2085 damage total.</Description>
+        <AddonId>AFADB08B787864239</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-72724625</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds:
+
+1 Point: 660 damage total.
+2 Points: 1318 damage total.
+3 Points: 2314 damage total.</Description>
+        <AddonId>AFBAA4F6F3E6E0E7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Crest of the Shadow</Name>
+      <Icon>reaver_crest_of_shadow</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-38990394</AbilityId>
+        <Description>Absorbs 442 damage. Lasts 30s.</Description>
+        <AddonId>AFDAD0DC68E2FE62A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>-66275913</AbilityId>
+        <Description>Absorbs 585 damage. Lasts 30s.</Description>
+        <AddonId>AFC0CB5B77F33EA82</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>-49693847</AbilityId>
+        <Description>Absorbs 659 damage. Lasts 30s.</Description>
+        <AddonId>AFD09BB69E832050A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>-34355054</AbilityId>
+        <Description>Absorbs 778 damage. Lasts 30s.</Description>
+        <AddonId>AFDF3C8928500860E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>-32888396</AbilityId>
+        <Description>Absorbs 826 damage. Lasts 30s.</Description>
+        <AddonId>AFE0A29B465DB2133</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-12878581</AbilityId>
+        <Description>Absorbs 862 damage. Lasts 30s.</Description>
+        <AddonId>AFF3B7D0B86B0F1B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-7978053</AbilityId>
+        <Description>Absorbs 996 damage. Lasts 30s.</Description>
+        <AddonId>AFF8643BB8FB827F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-63248422</AbilityId>
+        <Description>Absorbs 1031 damage. Lasts 30s.</Description>
+        <AddonId>AFC3AE7DAA442AC23</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-93475373</AbilityId>
+        <Description>Absorbs 1194 damage. Lasts 30s.</Description>
+        <AddonId>AFA6DADD337EA60F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-43977376</AbilityId>
+        <Description>Absorbs 1277 damage. Lasts 30s.</Description>
+        <AddonId>AFD60F5606C6D8C2B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-73902331</AbilityId>
+        <Description>Absorbs 1286 damage. Lasts 30s.</Description>
+        <AddonId>AFB9857058C6D29EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Explosive Infestation</Name>
+      <Icon>reaver_explosive_infestation_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-30439995</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 258 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFE2F85C5AEC9729E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-92066081</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 297 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFA832EDFD09A9ECF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-17805865</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 309 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFEF04DD78EB5EBFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-86034904</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 447 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFADF3628C9A1F801</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-97980492</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 588 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFA28EFB497448486</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-59263568</AbilityId>
+        <Description>Effects up to 5 enemies. After 8s, deals 652 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFC77B5B0BC3BF52A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Decaying Corruption</Name>
+      <Icon>sacrificepet2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-27824468</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds. Additional damage dealt each second to enemies who are moving:
+
+1 Point: 377 damage, 109 damage/s to moving enemies.
+2 Points: 640 damage, 187 damage/s to moving enemies.
+3 Points: 1039 damage, 303 damage/s to moving enemies.</Description>
+        <AddonId>AFE576EACAA1275E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-87043823</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds. Additional damage dealt each second to enemies who are moving:
+
+1 Point: 465 damage, 136 damage/s to moving enemies.
+2 Points: 901 damage, 264 damage/s to moving enemies.
+3 Points: 1561 damage, 456 damage/s to moving enemies.</Description>
+        <AddonId>AFACFD111A32D22C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-37011470</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption take Death damage every 3 seconds. Additional damage dealt each second to enemies who are moving:
+
+1 Point: 494 damage, 144 damage/s to moving enemies.
+2 Points: 987 damage, 289 damage/s to moving enemies.
+3 Points: 1734 damage, 507 damage/s to moving enemies.</Description>
+        <AddonId>AFDCB3FF28F43F219</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Stumbling Corruption</Name>
+      <Icon>scourge_of_darkness_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-12407416</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 312 damage total.
+2 Points: 453 damage total.
+3 Points: 663 damage total.</Description>
+        <AddonId>AFF42AD88F855CE89</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>877245717</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 334 damage total.
+2 Points: 516 damage total.
+3 Points: 790 damage total.</Description>
+        <AddonId>A3449B51561B6A641</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>644058302</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 340 damage total.
+2 Points: 532 damage total.
+3 Points: 823 damage total.</Description>
+        <AddonId>A26638CBE92229959</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1267336309</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 402 damage total.
+2 Points: 716 damage total.
+3 Points: 1190 damage total.</Description>
+        <AddonId>A4B8A047597EB3278</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1555335734</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 465 damage total.
+2 Points: 901 damage total.
+3 Points: 1561 damage total.</Description>
+        <AddonId>A5CB48A3640241607</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-3318485</AbilityId>
+        <Description>Corrupts the ground at the Warrior&apos;s current position for 30s, up to 10 enemies within the corruption are snared and take Death damage every 3 seconds:
+
+1 Point: 494 damage total.
+2 Points: 987 damage total.
+3 Points: 1734 damage total.</Description>
+        <AddonId>AFFCD5D2B69AD86F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Incite</Name>
+      <Icon>incite_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>181651666</AbilityId>
+        <Description>Forces up to 10 nearby enemies to attack the Warrior for 1s for each Reaver damage over time ability they are affected by.</Description>
+        <AddonId>A0AD3C8D273848813</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Crest of the Abyss</Name>
+      <Icon>elemward1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>243901481</AbilityId>
+        <Description>Increases Armor by 3%. Lasts 1h.</Description>
+        <AddonId>A0E89A4293F2BB0FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Soul Sickness</Name>
+      <Icon>necropotence2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>458094657</AbilityId>
+        <Description>Deals 255 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A1B4DF8416D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1738233726</AbilityId>
+        <Description>Deals 264 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A679B577E86EB59AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>665670345</AbilityId>
+        <Description>Deals 274 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A27AD52C9DB049972</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1560731976</AbilityId>
+        <Description>Deals 290 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A5D06E148ABF3B3B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>578935429</AbilityId>
+        <Description>Deals 303 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A2281DA858AF97576</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>88239285</AbilityId>
+        <Description>Deals 319 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A05426CB56E0B5122</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1573944729</AbilityId>
+        <Description>Deals 336 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A5DD07D99BDE8137F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1841334907</AbilityId>
+        <Description>Deals 361 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A6DC08A7B7F06ECC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1535027013</AbilityId>
+        <Description>Deals 396 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A5B7EA7454C8B8D21</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>748009254</AbilityId>
+        <Description>Deals 450 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A2C95B7264D63CCB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-45301646</AbilityId>
+        <Description>Deals 469 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFD4CC0726D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5504051</AbilityId>
+        <Description>Deals 678 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFFAC03CD6D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-75356715</AbilityId>
+        <Description>Deals 890 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFB8225D56D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53764591</AbilityId>
+        <Description>Deals 988 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFCCB9E116D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Binding of Affliction</Name>
+      <Icon>binding_of_affliction_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>478081866</AbilityId>
+        <Description>Increases damage of non-physical attacks by 5%. Lasts 1h.</Description>
+        <AddonId>A1C7EF34A122CBA96</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Grim Lure</Name>
+      <Icon>life-drain5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>645903806</AbilityId>
+        <Description>Forces the enemy to attack the Warrior for 3s.</Description>
+        <AddonId>A267FB5BEA94451A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gift of the Reaver</Name>
+      <Icon>soul_reaver</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>771041545</AbilityId>
+        <Description>Increases Endurance by 1.5% per point spent in the Reaver soul. Increases Armor by 1% per point spent in the Reaver soul. Increases Resistances by 2% per point spent in the Reaver soul. Base Damage is increased by 0.5% for each Point spent in the Reaver Soul.</Description>
+        <AddonId>A2DF52909BA46FC75</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Shadow of Dread</Name>
+      <Icon>defiler_link_of_agony</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>853303261</AbilityId>
+        <Description>Charges at the enemy and applies Soul Sickness, Blood Fever, Necrotic Wounds and Flesh Rot if they are known. Roots for 2s. Awards 1 Attack Point.</Description>
+        <AddonId>A32DC5FDD72008488</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Building Fury</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>929334413</AbilityId>
+        <Description>Finishers gain a bonus to Attack Power contribution based on how many Attack Points were consumed.</Description>
+        <AddonId>A3764848D7CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blood Fever</Name>
+      <Icon>bloodfire1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1028907925</AbilityId>
+        <Description>Deals 290 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A3D53E3957093143F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>957129901</AbilityId>
+        <Description>Deals 303 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A390CA4AD2D7E0793</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1045643871</AbilityId>
+        <Description>Deals 319 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A3E53425FC763896F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>867753881</AbilityId>
+        <Description>Deals 336 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A33B8DF9992EB25A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>914077651</AbilityId>
+        <Description>Deals 361 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A367BB7D3A6AF077C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>471548056</AbilityId>
+        <Description>Deals 396 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A1C1B409872736828</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>506965481</AbilityId>
+        <Description>Deals 450 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A1E37ADE9BE23C072</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>659456134</AbilityId>
+        <Description>Deals 518 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A274E8086C444BC3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1450538213</AbilityId>
+        <Description>Deals 778 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A567574E59DAFE3B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1752521681</AbilityId>
+        <Description>Deals 988 Death damage over 15s. Reduces Hit by 5% for 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A68755BD1DBEBE90A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Binding of Death</Name>
+      <Icon>binding_of_death_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1074194439</AbilityId>
+        <Description>Reduces damage taken from non Spell attacks by 5% and Spells by 15%. Lasts 1h. May only have 1 Binding active at a time.</Description>
+        <AddonId>A4006E807E5E2B62D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Flesh Rot</Name>
+      <Icon>flesh_rot_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1149698657</AbilityId>
+        <Description>Deals 361 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A44870261210B5F50</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>-92156087</AbilityId>
+        <Description>Deals 396 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFA81CF4965F99708</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>-84163694</AbilityId>
+        <Description>Deals 450 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFAFBC3922CB21179</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>-13624967</AbilityId>
+        <Description>Deals 518 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFF30197971D6F319</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-82661225</AbilityId>
+        <Description>Deals 778 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFB12B0974BFBDA31</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-34403758</AbilityId>
+        <Description>Deals 988 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>AFDF30A52511CFA03</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Crest of Entropy</Name>
+      <Icon>hidden_veil_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1286555264</AbilityId>
+        <Description>Reduces damage taken by 30% for 6s. Shares a cooldown with Shield Defense. Does not stack with Aegis of Light, Crest of Consumption, or Power Shield.</Description>
+        <AddonId>A4CAF46807B341C26</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Plague Bringer</Name>
+      <Icon>plague_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1303986066</AbilityId>
+        <Description>Causes the Warrior&apos;s Reaver damage over time abilities to affect up to 7 additional enemies, dealing less damage than to the target. Lasts 12s.</Description>
+        <AddonId>A4DB93F928D708E8B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cyclone Strike</Name>
+      <Icon>whirlwind4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1374980422</AbilityId>
+        <Description>Deals weapon plus 208 to 230 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>A51F4894676B78FAA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1562787124</AbilityId>
+        <Description>Deals weapon plus 221 to 244 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>A5D263D3471FE5C39</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1657902384</AbilityId>
+        <Description>Deals weapon plus 232 to 256 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>A62D195303B77D4BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>433964425</AbilityId>
+        <Description>Deals weapon plus 248 to 275 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>A19DDC589463A8DB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>510851485</AbilityId>
+        <Description>Deals weapon plus 266 to 294 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>A1E72F99DF0471A9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-46510556</AbilityId>
+        <Description>Deals weapon plus 316 to 349 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>AFD3A4E2412E5E241</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-18710528</AbilityId>
+        <Description>Deals weapon plus 329 to 364 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>AFEE28000AA6E7F7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-36889498</AbilityId>
+        <Description>Deals weapon plus 477 to 527 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>AFDCD1C6650928A21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-26242810</AbilityId>
+        <Description>Deals weapon plus 626 to 692 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>AFE6F9106838341E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-56969214</AbilityId>
+        <Description>Deals weapon plus 695 to 768 Physical damage to up to 10 enemies. Generates significant threat. Awards 1 Attack Point.</Description>
+        <AddonId>AFC9AB802663E3998</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Concussion</Name>
+      <Icon>concussion_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1738560445</AbilityId>
+        <Description>Forces up to 10 nearby enemies to attack the Warrior for 3s.</Description>
+        <AddonId>A67A053BD91F7D76E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Infestation</Name>
+      <Icon>infestation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1749513995</AbilityId>
+        <Description>After 8s, deals 364 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A6847770BE2838156</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2059962074</AbilityId>
+        <Description>After 8s, deals 389 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A7AC886DA81A3E616</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1078434004</AbilityId>
+        <Description>After 8s, deals 416 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A404798D481B464A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>2119366430</AbilityId>
+        <Description>After 8s, deals 495 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A7E52F71E2C44C487</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1227289922</AbilityId>
+        <Description>After 8s, deals 516 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A4926F542C8C4F993</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>100110659</AbilityId>
+        <Description>After 8s, deals 746 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>A05F79143A867E969</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-46207527</AbilityId>
+        <Description>After 8s, deals 979 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFD3EEDD9903D1515</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-35995327</AbilityId>
+        <Description>After 8s, deals 1087 Death damage, increased by 45% per damage over time effect on the Enemy, maximum of 5.</Description>
+        <AddonId>AFDDAC14155FD4E12</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Necrotic Wounds</Name>
+      <Icon>necropotence4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2032650878</AbilityId>
+        <Description>Deals 543 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A7927CA7E8F9C3AE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1789493782</AbilityId>
+        <Description>Deals 595 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A6AA9821661727989</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1018350912</AbilityId>
+        <Description>Deals 675 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A3CB2CD40932572C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>746105656</AbilityId>
+        <Description>Deals 776 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A2C78AB38AF872727</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>248971317</AbilityId>
+        <Description>Deals 1166 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A0ED70035ED5EF9A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1643901953</AbilityId>
+        <Description>Deals 1483 Death damage over 15s. Awards 1 Attack Point.</Description>
+        <AddonId>A61FBF40166AF6A69</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ravaging Strike</Name>
+      <Icon>charge1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2053801633</AbilityId>
+        <Description>Deals Weapon plus 218 to 242 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A7A6A86A17A1E03F0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>888060908</AbilityId>
+        <Description>Deals Weapon plus 225 to 249 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A34EEBBEC3CC997C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1372389583</AbilityId>
+        <Description>Deals Weapon plus 234 to 258 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A51CD00CF529B1C47</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1841158266</AbilityId>
+        <Description>Deals Weapon plus 248 to 274 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A6DBDD87A7969F4AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1136543086</AbilityId>
+        <Description>Deals Weapon plus 258 to 285 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A43BE456EC7350C81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1363608160</AbilityId>
+        <Description>Deals Weapon plus 272 to 301 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A514702606107DD4B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1344281757</AbilityId>
+        <Description>Deals Weapon plus 287 to 318 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A50201C9D5ECB1707</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1854814190</AbilityId>
+        <Description>Deals Weapon plus 309 to 342 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A6E8E37EE4D87F83D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1756133671</AbilityId>
+        <Description>Deals Weapon plus 339 to 374 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A68AC7927514C33FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1060519302</AbilityId>
+        <Description>Deals Weapon plus 385 to 425 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>A3F363D864D876CCD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-84593978</AbilityId>
+        <Description>Deals Weapon plus 401 to 443 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFAF532C66B93D3C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-34111361</AbilityId>
+        <Description>Deals Weapon plus 580 to 641 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFDF7807F8BF09F7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-60040398</AbilityId>
+        <Description>Deals Weapon plus 761 to 842 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFC6BDB3273EA9FBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-26773576</AbilityId>
+        <Description>Deals Weapon plus 846 to 935 Physical damage. Awards 1 Attack Point.</Description>
+        <AddonId>AFE6777B8A1F5B062</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Melee Weapon</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

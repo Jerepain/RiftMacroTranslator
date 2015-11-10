@@ -1,0 +1,36 @@
+﻿@model RiftMacroTranslator.Models.Translation1DB
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Translation1DB</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.en)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.en)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fr)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fr)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.de)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.de)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

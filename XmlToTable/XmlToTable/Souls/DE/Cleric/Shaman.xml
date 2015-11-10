@@ -1,0 +1,2672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Shaman">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Dickhäutig</Name>
+      <Icon>steelskin3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1234456496</AbilityId>
+          <Description></Description>
+          <AddonId>A49944FB042E584ED</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert Euren erlittenen Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert Euren erlittenen Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert Euren erlittenen Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduziert Euren erlittenen Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduziert Euren erlittenen Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Unbedingter Mut</Name>
+      <Icon>heroicsurge1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1561688358</AbilityId>
+          <Description></Description>
+          <AddonId>A5D157926221B2774</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren verursachten Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren verursachten Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren verursachten Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Euren verursachten Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Euren verursachten Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Günstling des Valnir</Name>
+      <Icon>shaman-lighting_hammer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verlängert die Dauer von Blitz um 2 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verlängert die Dauer von Blitz um 4 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verlängert die Dauer von Blitz um 6 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Mut des Bären</Name>
+      <Icon>shaman-courage_of_the_bear</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>702835163</AbilityId>
+          <Description>Erhöht die Ausdauer um 5%.</Description>
+          <AddonId>A29E469DB49A5A0FA</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Böse Spur</Name>
+      <Icon>scrape1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-53936460</AbilityId>
+          <Description></Description>
+          <AddonId>AFCC8FEB4183C6676</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die kritische Trefferchance Eurer Fähigkeiten um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die kritische Trefferchance Eurer Fähigkeiten um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die kritische Trefferchance Eurer Fähigkeiten um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht die kritische Trefferchance Eurer Fähigkeiten um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht die kritische Trefferchance Eurer Fähigkeiten um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Isoliert</Name>
+      <Icon>chainlighting2b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-23866294</AbilityId>
+          <Description></Description>
+          <AddonId>AFE93D44A1355977C</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren durch Einzelzielfähigkeiten verursachten Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren durch Einzelzielfähigkeiten verursachten Schaden um 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Sturmgeboren</Name>
+      <Icon>void_knight-tempest</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1551367587</AbilityId>
+          <Description></Description>
+          <AddonId>A5C77FDA3714A64D7</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren verursachten Luft- und Wasserschaden um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren verursachten Luft- und Wasserschaden um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren verursachten Luft- und Wasserschaden um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Fester Griff</Name>
+      <Icon>void_knight-ravenous_strength</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-48320412</AbilityId>
+          <Description></Description>
+          <AddonId>AFD1EB0642F1E82E4</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht durch Angriffe mit Waffen verursachten Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht durch Angriffe mit Waffen verursachten Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht durch Angriffe mit Waffen verursachten Schaden um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht durch Angriffe mit Waffen verursachten Schaden um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht durch Angriffe mit Waffen verursachten Schaden um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Gletscherschild</Name>
+      <Icon>shaman-glacial_shield</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1382508543</AbilityId>
+          <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 652. Verursacht bei einem eingehenden Treffer 93 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+          <AddonId>A526767FFF11B6F27</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Kaltblütig</Name>
+      <Icon>generic_ability_029</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-39956081</AbilityId>
+          <Description></Description>
+          <AddonId>AFD9E518F041E89DC</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren verursachten Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren verursachten Schaden um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Betäubende Kälte</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-49795214</AbilityId>
+          <Description>Reduziert 15 Sekunden lang alle erhaltenen Heil- und Absorptionseffekte um 10%.</Description>
+          <AddonId>AFD082F72447EBFA7</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Muster der Gewalt</Name>
+      <Icon>shockwave2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-79924998</AbilityId>
+          <Description></Description>
+          <AddonId>AFB3C70FA79771F94</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Angriffe mit Waffen verringern die aktuelle Abklingzeit von Gewaltiger Schlag um 0,66 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Angriffe mit Waffen verringern die aktuelle Abklingzeit von Gewaltiger Schlag um 1,33 Sekunde.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Angriffe mit Waffen verringern die aktuelle Abklingzeit von Gewaltiger Schlag um 2 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Brutalisieren</Name>
+      <Icon>bleeding_a</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gewaltiger Schlag ruft beim Gegner Blutungen hervor, wodurch zusätzliche 15% des Schadens über 3 Sekunden verursacht werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gewaltiger Schlag ruft beim Gegner Blutungen hervor, wodurch zusätzliche 30% des Schadens über 3 Sekunden verursacht werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Gewaltiger Schlag ruft beim Gegner Blutungen hervor, wodurch zusätzliche 45% des Schadens über 3 Sekunden verursacht werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Bitterkalter Wind</Name>
+      <Icon>shaman-vengeance_of_bitter_wind</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>596140913</AbilityId>
+          <Description>Unterbricht.</Description>
+          <AddonId>A2388637170F9C0F6</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Zornige Schläge</Name>
+      <Icon>slam3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-1042524</AbilityId>
+          <Description></Description>
+          <AddonId>AFFF017A430D77AA2</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Effekte der Zauberkraft Eures Zerschmetternden Schlages und Eisigen Schlages um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Effekte der Zauberkraft Eures Zerschmetternden Schlages und Eisigen Schlages um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Schneewehe</Name>
+      <Icon>beastmaster_shared_bonds</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-10886127</AbilityId>
+          <Description>Verlangsamt 8 Sekunden lang.</Description>
+          <AddonId>AFF59E4118B387E65</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Eisige Umarmung</Name>
+      <Icon>layinghands1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>398855930</AbilityId>
+          <Description></Description>
+          <AddonId>A17C60EFA1BA5C5A8</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Chance, mit Luft- und Wasserfähigkeiten kritische Treffer zu landen, um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Chance, mit Luft- und Wasserfähigkeiten kritische Treffer zu landen, um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Erschütternder Schluss</Name>
+      <Icon>stormcaller_lightning_storm_01</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden, den Ihr mit Blitz verursacht, um 10%. Erhöht den Schaden, den Ihr mit Stromschlag verursacht, nachdem Ihr einen kritischen Treffer mit einem Waffenangriff gelandet habt, um 30%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden, den Ihr mit Blitz verursacht, um 20%. Erhöht den Schaden, den Ihr mit Stromschlag verursacht, nachdem Ihr einen kritischen Treffer mit einem Waffenangriff gelandet habt, um 80%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden, den Ihr mit Blitz verursacht, um 30%. Erhöht den Schaden, den Ihr mit Stromschlag verursacht, nachdem Ihr einen kritischen Treffer mit einem Waffenangriff gelandet habt, um 120%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Wut des Nordens</Name>
+      <Icon>spiritofcrusader2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-47657450</AbilityId>
+          <Description>Fügt 10 Kumulierungen von Wut des Nordens hinzu. Erhöht die kritische Trefferchance von Schadensfähigkeiten um 10% pro Kumulierung. Jeder kritische Treffer entfernt 1 Kumulierung. Dauer beträgt 60 Sekunden.</Description>
+          <AddonId>AFD28CE16796678A7</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Frostbeule</Name>
+      <Icon>shatter3a</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1602597247</AbilityId>
+          <Description></Description>
+          <AddonId>A5F85B17F4E1F0253</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure nicht-körperlichen Angriffe mit Waffen erhöhen den Schaden, den Ihr mit Eurem nächsten körperlichen Angriff mit einer Waffe verursacht, um 10%. </Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure nicht-körperlichen Angriffe mit Waffen erhöhen den Schaden, den Ihr mit Eurem nächsten körperlichen Angriff mit einer Waffe verursacht, um 20%. </Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure nicht-körperlichen Angriffe mit Waffen erhöhen den Schaden, den Ihr mit Eurem nächsten körperlichen Angriff mit einer Waffe verursacht, um 30%. </Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Schwergewicht</Name>
+      <Icon>steelskin2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-44021586</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6048AE14BBFD68</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren durch Gewaltiger Schlag verursachten Schaden um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren durch Gewaltiger Schlag verursachten Schaden um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Verschleiß</Name>
+      <Icon>exposeweakness2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-81174172</AbilityId>
+          <Description></Description>
+          <AddonId>AFB296164664C3E4E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Schadensfähigkeiten ignorieren 15% der gegnerischen Rüstung und Widerstände.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Schadensfähigkeiten ignorieren 30% der gegnerischen Rüstung und Widerstände.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Herz aus Eis</Name>
+      <Icon>icy_heart2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-95538550</AbilityId>
+          <Description></Description>
+          <AddonId>AFA4E328A4D865867</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren durch Rachen verursachten Schaden um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren durch Rachen verursachten Schaden um 40%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren durch Rachen verursachten Schaden um 60%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Schlag des Mahlstroms</Name>
+      <Icon>whirlwind1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>253388216</AbilityId>
+          <Description>Verursacht bei bis zu 5 Feinden 402 bis 445 Schaden.</Description>
+          <AddonId>A0F1A65B8394393D4</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Dauerfrost</Name>
+      <Icon>paragon-way_of_mountain_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-50846265</AbilityId>
+          <Description>Betäubt Feinde in der Nähe 3 Sekunden lang. Erhöht den durch einen Kleriker erlittenen Schaden um 50%.</Description>
+          <AddonId>AFCF825C72F17E35F</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>50</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mut des Panthers</Name>
+      <Icon>shaman-courage_of_the_jaguar</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96393620</AbilityId>
+        <Description>Erhöht den Schaden um 10%. Erlaubt Fähigkeiten, 5% der Rüstung und Widerstände ihres Zieles zu ignorieren. Reduziert Manakosten um 5%.</Description>
+        <AddonId>AFA41266C947063F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Windwanderung</Name>
+      <Icon>deflection2b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-71373486</AbilityId>
+        <Description>Erhöht den Ausweich- und den Parierwert um 25%. Erhöht die Bewegungsgeschwindigkeit um 50%. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFBBEED522C187A3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ruhm des Erwählten</Name>
+      <Icon>rally1x</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-63348691</AbilityId>
+        <Description>Angriffe mit Waffen stellen beim Kleriker 129 bis 143 Gesundheit wieder her. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFC39602DBD2D73A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Altersloses Eis</Name>
+      <Icon>icy_heart1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-55233057</AbilityId>
+        <Description>Stellt 7% Mana wieder her. Verlangsamt den Kleriker 5 Sekunden lang.</Description>
+        <AddonId>AFCB535DF34BEAEDF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Zorniger Angriff</Name>
+      <Icon>spiritofcrusader1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-54685630</AbilityId>
+        <Description>Reduziert die globale Abklingzeit des Klerikers um 0,5 Sek. Reduziert die Manakosten um 35%. Reduziert den Wirkungsbereich-Schaden um 25%.</Description>
+        <AddonId>AFCBD90426E190E66</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Dauerfrost</Name>
+      <Icon>paragon-way_of_mountain_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-50846265</AbilityId>
+        <Description>Betäubt Feinde in der Nähe 3 Sekunden lang. Erhöht den durch einen Kleriker erlittenen Schaden um 50%.</Description>
+        <AddonId>AFCF825C72F17E35F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Betäubende Kälte</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-49795214</AbilityId>
+        <Description>Reduziert 15 Sekunden lang alle erhaltenen Heil- und Absorptionseffekte um 10%.</Description>
+        <AddonId>AFD082F72447EBFA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Wut des Nordens</Name>
+      <Icon>spiritofcrusader2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>-47657450</AbilityId>
+        <Description>Fügt 10 Kumulierungen von Wut des Nordens hinzu. Erhöht die kritische Trefferchance von Schadensfähigkeiten um 10% pro Kumulierung. Jeder kritische Treffer entfernt 1 Kumulierung. Dauer beträgt 60 Sekunden.</Description>
+        <AddonId>AFD28CE16796678A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Ruf des Eises</Name>
+      <Icon>icebolt4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-45561272</AbilityId>
+        <Description></Description>
+        <AddonId>AFD48CA48064B15D2</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Verbesserter Stromschlag</Name>
+      <Icon>lighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-34209890</AbilityId>
+        <Description></Description>
+        <AddonId>AFDF5FF9E2ABFB2AC</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gletscherschlag</Name>
+      <Icon>harbinger_rending_slash_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-33248561</AbilityId>
+        <Description>Verursacht 2137 bis 2362 Wasserschaden. Ignoriert 25% des gegnerischen Widerstands. Kann nur bei Feinden eingesetzt werden, deren Gesundheit bei unter 30% liegt.</Description>
+        <AddonId>AFE04AACF9F2DC39D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>1.880000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-83439473</AbilityId>
+        <Description>Verursacht 2817 bis 3114 Wasserschaden. Ignoriert 25% des gegnerischen Widerstands. Kann nur bei Feinden eingesetzt werden, deren Gesundheit bei unter 30% liegt.</Description>
+        <AddonId>AFB06D08F5245A9BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>1.880000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-55980277</AbilityId>
+        <Description>Verursacht 3040 bis 3360 Wasserschaden. Ignoriert 25% des gegnerischen Widerstands. Kann nur bei Feinden eingesetzt werden, deren Gesundheit bei unter 30% liegt.</Description>
+        <AddonId>AFCA9CF0B9559C214</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>1.880000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Eisiger Schlag</Name>
+      <Icon>shatter3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-17932814</AbilityId>
+        <Description>Verursacht 657 bis 726 Wasserschaden.</Description>
+        <AddonId>AFEEE5DF27A07837E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-85267568</AbilityId>
+        <Description>Verursacht 682 bis 753 Wasserschaden.</Description>
+        <AddonId>AFAEAEB903AF2C197</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-86023446</AbilityId>
+        <Description>Verursacht 729 bis 805 Wasserschaden.</Description>
+        <AddonId>AFADF62EA8ADA189B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-43654141</AbilityId>
+        <Description>Verursacht 755 bis 834 Wasserschaden.</Description>
+        <AddonId>AFD65E40377C17FAA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-81116238</AbilityId>
+        <Description>Verursacht 890 bis 984 Wasserschaden.</Description>
+        <AddonId>AFB2A43B2AEA5E74B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-59462686</AbilityId>
+        <Description>Verursacht 1173 bis 1297 Wasserschaden.</Description>
+        <AddonId>AFC74ABE23E83782F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-44719728</AbilityId>
+        <Description>Verursacht 1266 bis 1399 Wasserschaden.</Description>
+        <AddonId>AFD55A190341CDD69</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blitzreiter</Name>
+      <Icon>power_chord_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-16872553</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 353 bis 391 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFEFE8B97F04DCCA8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-51477467</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 362 bis 400 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFCEE8425E6E38E5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-27298677</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 372 bis 411 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFE5F748BA2C3BA27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-80765784</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 377 bis 417 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFB2F9CA886E600A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-82912219</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 388 bis 429 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFB0EDC25E352C6A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-45506862</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 398 bis 440 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFD499ED222914087</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-59326267</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 411 bis 455 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFC76C0C5A512E173</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-42939574</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 424 bis 469 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFD70CB4A8AD108DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-45117960</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 467 bis 516 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFD4F8DF8A9094F6B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-82138375</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 495 bis 548 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>AFB1AAAF9B82CAA86</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>980774296</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 619 bis 684 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>A3A756D98F04DCCA8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>782376871</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 743 bis 822 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>A2EA21FA7F04DCCA8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1885335978</AbilityId>
+        <Description>Greift den Feind an und fügt ihm und allen Feinden auf dem Weg zu ihm 799 bis 883 Luftschaden zu. Entfernt alle bewegungshemmenden Effekte beim Kleriker.</Description>
+        <AddonId>A705FF1AAF04DCCA8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schneewehe</Name>
+      <Icon>beastmaster_shared_bonds</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-10886127</AbilityId>
+        <Description>Verlangsamt 8 Sekunden lang.</Description>
+        <AddonId>AFF59E4118B387E65</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gefrorener Grimm</Name>
+      <Icon>holysmite4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>120311091</AbilityId>
+        <Description>Verursacht 3021 Wasserschaden über 15 Sekunden. Erhöht vom Feind durch Rache-Fähigkeiten des Klerikers erlittenen Schaden um 100%. Greift auf bis zu 5 Feinde in der Nähe über, wenn sie von Eurem Schlag des Mahlstroms getroffen werden.</Description>
+        <AddonId>A072BCD33583F3BBC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">4.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.166700</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-83386355</AbilityId>
+        <Description>Verursacht 3562 Wasserschaden über 15 Sekunden. Erhöht vom Feind durch Rache-Fähigkeiten des Klerikers erlittenen Schaden um 100%. Greift auf bis zu 5 Feinde in der Nähe über, wenn sie von Eurem Schlag des Mahlstroms getroffen werden.</Description>
+        <AddonId>AFB07A00D7E204EF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">4.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.166700</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-37462998</AbilityId>
+        <Description>Verursacht 4696 Wasserschaden über 15 Sekunden. Erhöht vom Feind durch Rache-Fähigkeiten des Klerikers erlittenen Schaden um 100%. Greift auf bis zu 5 Feinde in der Nähe über, wenn sie von Eurem Schlag des Mahlstroms getroffen werden.</Description>
+        <AddonId>AFDC45C2A8CC84652</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">4.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.166700</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-28257534</AbilityId>
+        <Description>Verursacht 5068 Wasserschaden über 15 Sekunden. Erhöht vom Feind durch Rache-Fähigkeiten des Klerikers erlittenen Schaden um 100%. Greift auf bis zu 5 Feinde in der Nähe über, wenn sie von Eurem Schlag des Mahlstroms getroffen werden.</Description>
+        <AddonId>AFE50D302C0381519</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">4.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.166700</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rache des Wilden Nordens</Name>
+      <Icon>chainlighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>209031731</AbilityId>
+        <Description>Angriffe mit Waffen fügen bis zu 5 Feinden zusätzlich 49 bis 54 Wasserschaden zu. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A0C7592337B6A3A6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Schlag des Mahlstroms</Name>
+      <Icon>whirlwind1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>253388216</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 402 bis 445 Schaden.</Description>
+        <AddonId>A0F1A65B8394393D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1544736902</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 422 bis 467 Schaden.</Description>
+        <AddonId>A5C12D086376C4979</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1895760794</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 453 bis 500 Schaden.</Description>
+        <AddonId>A70FF039A854C6958</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1289296567</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 491 bis 543 Schaden.</Description>
+        <AddonId>A4CD91AB779F8058F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>805220428</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 640 bis 707 Schaden.</Description>
+        <AddonId>A2FFEB04C880BBD03</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-29308767</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 760 bis 840 Schaden.</Description>
+        <AddonId>AFE40C8A12F9DD21F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bitterkalter Wind</Name>
+      <Icon>shaman-vengeance_of_bitter_wind</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>596140913</AbilityId>
+        <Description>Unterbricht.</Description>
+        <AddonId>A2388637170F9C0F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rache des Wintersturms</Name>
+      <Icon>shaman-vengeance_of_winter_storm</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>697515884</AbilityId>
+        <Description>Angriffe mit Waffen verursachen zusätzlich 91 bis 101 Wasserschaden. Die Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A29933F6CDE902A7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Mut des Bären</Name>
+      <Icon>shaman-courage_of_the_bear</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>702835163</AbilityId>
+        <Description>Erhöht die Ausdauer um 5%.</Description>
+        <AddonId>A29E469DB49A5A0FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ekkehards Griff</Name>
+      <Icon>lighting2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>772075368</AbilityId>
+        <Description>Verursacht 497 bis 549 Luftschaden.</Description>
+        <AddonId>A2E04EF6878B877FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1880189816</AbilityId>
+        <Description>Verursacht 508 bis 561 Luftschaden.</Description>
+        <AddonId>A70116B785786BEF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>826311691</AbilityId>
+        <Description>Verursacht 522 bis 577 Luftschaden.</Description>
+        <AddonId>A3140840B7A108C1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1121413106</AbilityId>
+        <Description>Verursacht 535 bis 591 Luftschaden.</Description>
+        <AddonId>A42D767F25C72B09F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>228283432</AbilityId>
+        <Description>Verursacht 554 bis 612 Luftschaden.</Description>
+        <AddonId>A0D9B54284123A212</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>600165310</AbilityId>
+        <Description>Verursacht 580 bis 641 Luftschaden.</Description>
+        <AddonId>A23C5CBBEBADCFBCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1546356692</AbilityId>
+        <Description>Verursacht 623 bis 689 Luftschaden.</Description>
+        <AddonId>A5C2B87D47978853F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-16596331</AbilityId>
+        <Description>Verursacht 700 bis 774 Luftschaden.</Description>
+        <AddonId>AFF02C295A2F68114</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-32617797</AbilityId>
+        <Description>Verursacht 902 bis 997 Luftschaden.</Description>
+        <AddonId>AFE0E4ABB75ED7AB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-77139808</AbilityId>
+        <Description>Verursacht 1066 bis 1178 Luftschaden.</Description>
+        <AddonId>AFB66F0A08FC15F1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.800000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mut des Adlers</Name>
+      <Icon>ironwill2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>829413277</AbilityId>
+        <Description>Erhöht die Weisheit um 5%.</Description>
+        <AddonId>A316FD79D56211F93</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rausch der Stärke</Name>
+      <Icon>tempest_physical_training_y</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>872686429</AbilityId>
+        <Description>Setzt die Abklingzeit für Gewaltiger Schlag zurück.</Description>
+        <AddonId>A3404235D7D8FEA1B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blitzhammer</Name>
+      <Icon>shaman-lighting_hammer</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1126308096</AbilityId>
+        <Description>Verursacht 286 bis 317 Luftschaden. Blitz verursacht zusätzlich 423 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A432219006DDE6ACB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>449271705</AbilityId>
+        <Description>Verursacht 291 bis 322 Luftschaden. Blitz verursacht zusätzlich 428 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A1AC757999C3D44C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>976363058</AbilityId>
+        <Description>Verursacht 299 bis 330 Luftschaden. Blitz verursacht zusätzlich 440 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A3A321E324892F3C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>705589594</AbilityId>
+        <Description>Verursacht 303 bis 335 Luftschaden. Blitz verursacht zusätzlich 447 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A2A0E715AA476E52D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1191060959</AbilityId>
+        <Description>Verursacht 309 bis 342 Luftschaden. Blitz verursacht zusätzlich 456 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A46FE25DFD1E85CFF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>46187323</AbilityId>
+        <Description>Verursacht 318 bis 352 Luftschaden. Blitz verursacht zusätzlich 470 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A02C0C33BC95935E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>367966478</AbilityId>
+        <Description>Verursacht 328 bis 363 Luftschaden. Blitz verursacht zusätzlich 484 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A15EEB90E9DF57022</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>265674510</AbilityId>
+        <Description>Verursacht 340 bis 376 Luftschaden. Blitz verursacht zusätzlich 502 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A0FD5DF0E78DAD634</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1083839719</AbilityId>
+        <Description>Verursacht 364 bis 402 Luftschaden. Blitz verursacht zusätzlich 537 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>A409A14E777349937</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-41550627</AbilityId>
+        <Description>Verursacht 377 bis 417 Luftschaden. Blitz verursacht zusätzlich 556 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>AFD85FCDDC04C1E0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15572586</AbilityId>
+        <Description>Verursacht 445 bis 492 Luftschaden. Blitz verursacht zusätzlich 656 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>AFF126196AE4E5313</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-45648559</AbilityId>
+        <Description>Verursacht 587 bis 649 Luftschaden. Blitz verursacht zusätzlich 864 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>AFD47755137389252</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-61288306</AbilityId>
+        <Description>Verursacht 633 bis 699 Luftschaden. Blitz verursacht zusätzlich 933 Luftschaden über 9 Sekunden. Schaden nimmt über den Zeitraum zu.</Description>
+        <AddonId>AFC58D08E8A9B48EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Herz der Gefrorenen See</Name>
+      <Icon>arkanxshield1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1203007891</AbilityId>
+        <Description>Erhöht die Widerstände aller Gruppen- und Schlachtzugmitglieder um 27.</Description>
+        <AddonId>A47B47193909A751E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-18108112</AbilityId>
+        <Description>Erhöht die Widerstände aller Gruppen- und Schlachtzugmitglieder um 32.</Description>
+        <AddonId>AFEEBB130D0EA1165</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-77570775</AbilityId>
+        <Description>Erhöht die Widerstände aller Gruppen- und Schlachtzugmitglieder um 40.</Description>
+        <AddonId>AFB605D2969012C80</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-44973891</AbilityId>
+        <Description>Erhöht die Widerstände aller Gruppen- und Schlachtzugmitglieder um 50.</Description>
+        <AddonId>AFD51C0BD6788C029</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-49646426</AbilityId>
+        <Description>Erhöht die Widerstände aller Gruppen- und Schlachtzugmitglieder um 65.</Description>
+        <AddonId>AFD0A74A67B22B6EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gletscherschild</Name>
+      <Icon>shaman-glacial_shield</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>1382508543</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 652. Verursacht bei einem eingehenden Treffer 93 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A526767FFF11B6F27</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>535025943</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 706. Verursacht bei einem eingehenden Treffer 95 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A1FE3D917996D962D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>1474919746</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 734. Verursacht bei einem eingehenden Treffer 96 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A57E97D42720C5B3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>888709029</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 779. Verursacht bei einem eingehenden Treffer 98 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A34F89FA58F11BB46</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>1710985072</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 797. Verursacht bei einem eingehenden Treffer 100 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A65FB8F7044F51971</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>910656180</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 811. Verursacht bei einem eingehenden Treffer 104 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A364782B4E0BF3D02</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>811116999</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 861. Verursacht bei einem eingehenden Treffer 110 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A3058A9C7E0A3FC64</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>648704190</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 875. Verursacht bei einem eingehenden Treffer 114 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>A26AA70BEA035F4A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-94843839</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 936. Verursacht bei einem eingehenden Treffer 136 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>AFA58CC41833283C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-71311383</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 968. Verursacht bei einem eingehenden Treffer 158 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>AFBBFDFE9F79CBA11</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-57064706</AbilityId>
+        <Description>Absorbiert 25% des erlittenen Schadens bis zu einer Höhe von 971. Verursacht bei einem eingehenden Treffer 168 Wasserschaden beim Angreifer. Dauer beträgt 30 Sekunden.</Description>
+        <AddonId>AFC9942FE4FE31DD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gewaltiger Schlag</Name>
+      <Icon>shockwave2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1592331833</AbilityId>
+        <Description>Verursacht 1176 bis 1300 Schaden.</Description>
+        <AddonId>A5EE90E39C07F5749</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1281545373</AbilityId>
+        <Description>Verursacht 1215 bis 1343 Schaden.</Description>
+        <AddonId>A4C62D49D61180CEB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>894810675</AbilityId>
+        <Description>Verursacht 1240 bis 1371 Schaden.</Description>
+        <AddonId>A3555BA3353D668DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2073362023</AbilityId>
+        <Description>Verursacht 1275 bis 1410 Schaden.</Description>
+        <AddonId>A7B94FE6785225F39</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>716896076</AbilityId>
+        <Description>Verursacht 1314 bis 1452 Schaden.</Description>
+        <AddonId>A2ABAF74C7A20698A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>890580753</AbilityId>
+        <Description>Verursacht 1364 bis 1507 Schaden.</Description>
+        <AddonId>A35152F112E32FCF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2065898895</AbilityId>
+        <Description>Verursacht 1458 bis 1611 Schaden.</Description>
+        <AddonId>A7B231D8F5103439D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2129184048</AbilityId>
+        <Description>Verursacht 1510 bis 1669 Schaden.</Description>
+        <AddonId>A7EE8C53083BD19C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-50168296</AbilityId>
+        <Description>Verursacht 1780 bis 1967 Schaden.</Description>
+        <AddonId>AFD027E18647C1D74</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-21682679</AbilityId>
+        <Description>Verursacht 2347 bis 2594 Schaden.</Description>
+        <AddonId>AFEB52609E5F8F547</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-16046938</AbilityId>
+        <Description>Verursacht 2534 bis 2801 Schaden.</Description>
+        <AddonId>AFF0B24A6BE813DB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Stromschlag</Name>
+      <Icon>lighting1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1766883846</AbilityId>
+        <Description>Verursacht 353 bis 390 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A6950820674396665</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1202817639</AbilityId>
+        <Description>Verursacht 362 bis 401 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A47B18A679826EB41</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1788727016</AbilityId>
+        <Description>Verursacht 376 bis 415 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A6A9DCEE8435E3C02</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>59089223</AbilityId>
+        <Description>Verursacht 394 bis 436 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A0385A147898D21DB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>2118841619</AbilityId>
+        <Description>Verursacht 422 bis 467 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A7E4AF513A8722101</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>428414027</AbilityId>
+        <Description>Verursacht 459 bis 507 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>A1989144B78CC75F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-67065288</AbilityId>
+        <Description>Verursacht 596 bis 659 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>AFC00AA38618EE682</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-69139900</AbilityId>
+        <Description>Verursacht 709 bis 783 Luftschaden. Der Schaden erhöht sich um 50%, wenn der Zauber innerhalb von 6 Sekunden nach einem kritischen Treffer eines Waffenangriffs gewirkt wird.</Description>
+        <AddonId>AFBE102445E886D8E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.560000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lawinenschlag</Name>
+      <Icon>slam2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1919758815</AbilityId>
+        <Description>Verursacht 365 bis 404 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A726D31DF8377ECF2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>884503153</AbilityId>
+        <Description>Verursacht 375 bis 415 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A34B872712B2EF960</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>942833073</AbilityId>
+        <Description>Verursacht 385 bis 426 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A38327DB1882393DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>903702165</AbilityId>
+        <Description>Verursacht 398 bis 440 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A35DD66956C0B1046</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>985818079</AbilityId>
+        <Description>Verursacht 411 bis 455 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A3AC263DF23E78C64</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1223070225</AbilityId>
+        <Description>Verursacht 453 bis 500 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A48E6921151729B6B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-87786288</AbilityId>
+        <Description>Verursacht 464 bis 512 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFAC47CD0AE40FF9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63729163</AbilityId>
+        <Description>Verursacht 583 bis 644 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFC3391F5484ADFC9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-60158122</AbilityId>
+        <Description>Verursacht 704 bis 778 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFC6A0F566A8EDE27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-25999713</AbilityId>
+        <Description>Verursacht 760 bis 840 Wasserschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFE73469F968D3429</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Zerschmetternder Schlag</Name>
+      <Icon>frost_hammer1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2094433281</AbilityId>
+        <Description>Verursacht 570 bis 630 Schaden.</Description>
+        <AddonId>A7CD6840173E1C1DA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>68299447</AbilityId>
+        <Description>Verursacht 578 bis 639 Schaden.</Description>
+        <AddonId>A04122AB773C1BEE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>795641470</AbilityId>
+        <Description>Verursacht 588 bis 650 Schaden.</Description>
+        <AddonId>A2F6C867E410C390F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2030705699</AbilityId>
+        <Description>Verursacht 603 bis 667 Schaden.</Description>
+        <AddonId>A790A1C237879FABC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1288130923</AbilityId>
+        <Description>Verursacht 615 bis 680 Schaden.</Description>
+        <AddonId>A4CC7516B63144C87</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>101972396</AbilityId>
+        <Description>Verursacht 630 bis 697 Schaden.</Description>
+        <AddonId>A0613F9AC87422542</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>576632911</AbilityId>
+        <Description>Verursacht 647 bis 715 Schaden.</Description>
+        <AddonId>A225EB84FC18945FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1686068859</AbilityId>
+        <Description>Verursacht 671 bis 741 Schaden.</Description>
+        <AddonId>A647F5E7B94F4EEA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>750980534</AbilityId>
+        <Description>Verursacht 704 bis 778 Schaden.</Description>
+        <AddonId>A2CC30DB6E3474A8A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1129965941</AbilityId>
+        <Description>Verursacht 755 bis 834 Schaden.</Description>
+        <AddonId>A4359E97531F4824B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-45844285</AbilityId>
+        <Description>Verursacht 773 bis 855 Schaden.</Description>
+        <AddonId>AFD4478C3CD95956B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-80199202</AbilityId>
+        <Description>Verursacht 971 bis 1073 Schaden.</Description>
+        <AddonId>AFB3841DE5DC1B760</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-42423477</AbilityId>
+        <Description>Verursacht 1173 bis 1297 Schaden.</Description>
+        <AddonId>AFD78AB4B52EFABE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-29117703</AbilityId>
+        <Description>Verursacht 1266 bis 1399 Schaden.</Description>
+        <AddonId>AFE43B2F95D865A6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

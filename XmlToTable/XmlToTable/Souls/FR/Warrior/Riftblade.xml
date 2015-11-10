@@ -1,0 +1,3162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Riftblade">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Renforcement élémentaire</Name>
+      <Icon>lightingbolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-64647095</AbilityId>
+          <Description></Description>
+          <AddonId>AFC25904900000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Flux élémentaire</Name>
+      <Icon>chainlighting1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les améliorations de Lame augmentent les chances de toucher de 3% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les améliorations de Lame augmentent les chances de toucher de 6% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les améliorations de Lame augmentent les chances de toucher de 9% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les améliorations de Lame augmentent les chances de toucher de 12% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les améliorations de Lame augmentent les chances de toucher de 15% supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Lance de vent</Name>
+      <Icon>lance1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1505512909</AbilityId>
+          <Description>Étourdit la cible pendant 3 secondes.</Description>
+          <AddonId>A59BC4DCD4FAA5B41</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>1</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Lance de vent.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Contact élémentaire</Name>
+      <Icon>souldrain3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>679718004</AbilityId>
+          <Description></Description>
+          <AddonId>A2883AC74539F854E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos capacités d&apos;attaque ont 33% de chances d&apos;infliger à l&apos;ennemi des dégâts d&apos;Air supplémentaires équivalents à 3% de votre puissance d&apos;attaque.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités d&apos;attaque ont 66% de chances d&apos;infliger à l&apos;ennemi des dégâts d&apos;Air supplémentaires équivalents à 3% de votre puissance d&apos;attaque.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos capacités d&apos;attaque ont 100% de chances d&apos;infliger à l&apos;ennemi des dégâts d&apos;Air supplémentaires équivalents à 3% de votre puissance d&apos;attaque.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Précision élémentaire</Name>
+      <Icon>shaman-glory_of_the_chosen</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>922020252</AbilityId>
+          <Description></Description>
+          <AddonId>A36F4E99C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les attaques non physiques ignorent 2% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les attaques non physiques ignorent 4% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les attaques non physiques ignorent 6% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les attaques non physiques ignorent 8% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les attaques non physiques ignorent 10% des résistances de la cible.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Sang brûlant</Name>
+      <Icon>bleeding_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1631921368</AbilityId>
+          <Description></Description>
+          <AddonId>A614524D86DD7AED3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>En cas de coup reçu au corps à corps, l&apos;ennemi a 10% de chances de subir des dégâts de Feu équivalents à 6% de sa puissance d&apos;attaque.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>En cas de coup reçu au corps à corps, l&apos;ennemi a 20% de chances de subir des dégâts de Feu équivalents à 6% de sa puissance d&apos;attaque.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>En cas de coup reçu au corps à corps, l&apos;ennemi a 30% de chances de subir des dégâts de Feu équivalents à 6% de sa puissance d&apos;attaque.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Affinité</Name>
+      <Icon>archon_crumbling_resistance_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-55548242</AbilityId>
+          <Description></Description>
+          <AddonId>AFCB066AE00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit les dégâts subis issus des attaques non physiques de 2%. Augmente les dégâts non physiques infligés de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit les dégâts subis issus des attaques non physiques de 4%. Augmente les dégâts non physiques infligés de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit les dégâts subis issus des attaques non physiques de 6%. Augmente les dégâts non physiques infligés de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit les dégâts subis issus des attaques non physiques de 8%. Augmente les dégâts non physiques infligés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit les dégâts subis issus des attaques non physiques de 10%. Augmente les dégâts non physiques infligés de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Lame d&apos;affinité élémentaire</Name>
+      <Icon>holysweep3aa</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>574912446</AbilityId>
+          <Description>Les attaques cumulatives ont 25% de chances de soigner le Guerrier à hauteur de 20% de la puissance d&apos;attaque. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+          <AddonId>A224477BE4EFA9265</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Lame d&apos;affinité élémentaire.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Fourche</Name>
+      <Icon>cripplingshot1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-58172091</AbilityId>
+          <Description>Les capacités de lance touchent jusqu&apos;à 5 ennemis mais infligent 50% de dégâts en moins.</Description>
+          <AddonId>AFC885D45D36CEB86</AddonId>
+          <IsPassive>False</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Fourche.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Caresse élémentaire</Name>
+      <Icon>energyblast1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>969362245</AbilityId>
+          <Description></Description>
+          <AddonId>A39C74B45229FC475</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>La menace générée par les effets des dégâts est réduite de 25%. Les dégâts sont accrus de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La menace générée par les effets des dégâts est réduite de 50%. Les dégâts sont accrus de 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Avatars améliorés</Name>
+      <Icon>absolution_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1788078131</AbilityId>
+          <Description></Description>
+          <AddonId>A6A93E83300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;Avatar du vent à 13%, l&apos;Avatar de l&apos;Eau à 7%, les dégâts de l&apos;Avatar des Flammes de 10% et l&apos;Avatar de la Faille à 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de l&apos;Avatar du vent de 16%, de l&apos;Avatar de l&apos;Eau de 10%, de l&apos;Avatar des Flammes de 20%, de l&apos;Avatar de la Faille de 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Condensateur d&apos;explosion</Name>
+      <Icon>virtuoso_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-45619114</AbilityId>
+          <Description></Description>
+          <AddonId>AFD47E85600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts d&apos;Explosions et de Brûlure de 8%</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts d&apos;Explosions et de Brûlure de 16%</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts d&apos;Explosions et de Brûlure de 24%</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts d&apos;Explosions et de Brûlure de 32%</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts d&apos;Explosions et de Brûlure de 40%</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Propagation d&apos;énergie</Name>
+      <Icon>riftblade-surging_energy_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1479236641</AbilityId>
+          <Description></Description>
+          <AddonId>A582B5C21204F0083</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Confère 25% de chances que le coût en puissance de votre prochaine capacité rapportant des points d&apos;attaque soit réduit de 25% en cas d&apos;attaque réussie.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Confère 50% de chances que le coût en puissance de votre prochaine capacité rapportant des points d&apos;attaque soit réduit de 25% en cas d&apos;attaque réussie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Bouclier de pierre</Name>
+      <Icon>riftblade_stone_shield_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>230076056</AbilityId>
+          <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 182 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+          <AddonId>A0DB6AE988ACBDE8F</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Bouclier de pierre.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Explosion rapide</Name>
+      <Icon>sanction_heretic_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18623644</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE3D36400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la contribution de votre puissance d&apos;attaque et de vos dégâts d&apos;arme à vos attaques de type Explosion de 40%. Le coût en puissance de ces attaques est réduit de 40%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Arme élémentaire</Name>
+      <Icon>generic_ability_021</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2110576641</AbilityId>
+          <Description></Description>
+          <AddonId>A7DCCD80100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les dégâts infligés par Contact élémentaire augmentent de 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les dégâts infligés par Contact élémentaire augmentent de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Synergie</Name>
+      <Icon>cabalist_sigil_of_ravaging_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41210563</AbilityId>
+          <Description></Description>
+          <AddonId>AFD8B2D3D4C00205D</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le coût en puissance des téléportations de 50%. Augmente les dégâts de toutes les attaques finales de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Pluie torrentielle</Name>
+      <Icon>warden-deluge_a</Icon>
+      <PrereqTraitKey>19</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>La durée de Tempête de Faille augmente d&apos;1 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La durée de Tempête de Faille augmente de 2 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Déchaînement amélioré</Name>
+      <Icon>energyburst3f</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>209649187</AbilityId>
+          <Description></Description>
+          <AddonId>A0C7EFE2300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Une attaque réussie avec une capacité de type Explosion augmente les dégâts des attaques non physiques de 10% pendant 6 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Une attaque réussie avec une capacité de type Explosion augmente les dégâts des attaques non physiques de 20% pendant 6 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Tempête de Faille</Name>
+      <Icon>generic_ability_031</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>476643581</AbilityId>
+          <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 285 points de dégâts
+2 points : 390 points de dégâts
+3 points : 549 points de dégâts</Description>
+          <AddonId>A1C6900FD40B56F2A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>22</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Tempête de Faille.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Brûlure</Name>
+      <Icon>bomb_choking_gas_a</Icon>
+      <PrereqTraitKey>26</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les ennemis blessés par Explosion polaire alors qu&apos;ils sont sous l&apos;effet d&apos;Explosion ardente subissent 3%, 6% ou 9% de puissance d&apos;attaque sous forme de dégâts d&apos;Air dont le total est fonction des points d&apos;attaque utilisés.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les ennemis blessés par Explosion polaire alors qu&apos;ils sont sous l&apos;effet d&apos;Explosion ardente subissent 6%, 12% ou 18% de puissance d&apos;attaque sous forme de dégâts d&apos;Air dont le total est fonction des points d&apos;attaque utilisés.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Familiarité de Faille</Name>
+      <Icon>scatter_the_shadows</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-20519994</AbilityId>
+          <Description></Description>
+          <AddonId>AFEC6E3C600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la portée de vos Téléportations de 3 mètres et les dégâts élémentaires de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la portée de vos Téléportations de 6 mètres et les dégâts élémentaires de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Barrage de Faille</Name>
+      <Icon>purge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-31074456</AbilityId>
+          <Description>Étourdit un maximum de 8 ennemis pendant 3 secondes.</Description>
+          <AddonId>AFE25D76873B07A06</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Barrage de Faille.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Avatar des Flammes</Name>
+      <Icon>demolition_specialist</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-25886028</AbilityId>
+          <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 146 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+          <AddonId>AFE7502B4E5899525</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Avatar des Flammes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Intensifier</Name>
+      <Icon>flashback_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-23303184</AbilityId>
+          <Description></Description>
+          <AddonId>AFE9C6BF000000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts des coups critiques et les chances d&apos;infliger un coup critique de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts des coups critiques et les chances d&apos;infliger un coup critique de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts des coups critiques et les chances d&apos;infliger un coup critique de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Implosion de Faille</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>35920450</AbilityId>
+          <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 395 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+          <AddonId>A02241A426F3737D3</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Implosion de Faille.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Explosion ardente</Name>
+      <Icon>slam4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>411115433</AbilityId>
+          <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 51 points de dégâts
+2 points : 150 points de dégâts
+3 points : 300 points de dégâts</Description>
+          <AddonId>A18811FA9A44AC000</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostEnergy>15</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Explosion ardente.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>27</Key>
+      <Name>Frappe glacée améliorée</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Accroît de 10% l&apos;augmentation des dégâts de Frappe élémentaire due à Frappe glacée.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Accroît de 20% l&apos;augmentation des dégâts de Frappe élémentaire due à Frappe glacée.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Voyage de Faille</Name>
+      <Icon>scatter_the_shadows</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-87529854</AbilityId>
+        <Description>Téléporte vers la zone souhaitée.</Description>
+        <AddonId>AFAC8668257BE9F16</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Synergie d&apos;explosion</Name>
+      <Icon>bomb_fragment_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-73394494</AbilityId>
+        <Description>Les dégâts de base des 3 prochaines attaques de type Explosion augmentent de 40%. N&apos;active pas le délai de récupération général.</Description>
+        <AddonId>AFBA016C2493D7E65</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000002</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Présent du Saigneur des Failles</Name>
+      <Icon>soul_riftblade</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-71412052</AbilityId>
+        <Description>Les dégâts de base augmentent de 1% par point dépensé dans l&apos;âme du Saigneur des Failles.</Description>
+        <AddonId>AFBBE56ACC69FACB8</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Fourche</Name>
+      <Icon>cripplingshot1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-58172091</AbilityId>
+        <Description>Les capacités de lance touchent jusqu&apos;à 5 ennemis mais infligent 50% de dégâts en moins.</Description>
+        <AddonId>AFC885D45D36CEB86</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lame des Élus</Name>
+      <Icon>2h_sword_069a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-38256167</AbilityId>
+        <Description>Confère Lame-tempête, Lame d&apos;affinité élémentaire, Lame planaire et Lame des Élus, qui réduisent le coût en puissance des attaques finales non physiques de 2 points et les dégâts des capacités du Saigneur des Failles de 30%. Dure 1 heure.</Description>
+        <AddonId>AFDB841D9DAB8E8AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Barrage de Faille</Name>
+      <Icon>purge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-31074456</AbilityId>
+        <Description>Étourdit un maximum de 8 ennemis pendant 3 secondes.</Description>
+        <AddonId>AFE25D76873B07A06</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Avatar des Flammes</Name>
+      <Icon>demolition_specialist</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-25886028</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 146 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFE7502B4E5899525</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-8521473</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 159 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFF7DF8FF57BE3483</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-38317055</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 181 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFDB75401E1C1F68E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-14906200</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 209 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFF1C8CA83EC66B84</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-96508976</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 312 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFA3F63D0BB0F4F44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-82383054</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 20% de chances d&apos;infliger 396 points de dégâts de Feu à l&apos;attaquant. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>AFB16EF3239B08094</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lance de Faille</Name>
+      <Icon>2h_staff_078a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22031241</AbilityId>
+        <Description>Inflige 773 à 854 points de dégâts d&apos;Air à la cible et à un maximum de 8 ennemis sur la trajectoire du projectile. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFEAFD4777C0A0A9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-1341383</AbilityId>
+        <Description>Inflige 1015 à 1122 points de dégâts d&apos;Air à la cible et à un maximum de 8 ennemis sur la trajectoire du projectile. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFFEB8839E64975B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41302803</AbilityId>
+        <Description>Inflige 1127 à 1246 points de dégâts d&apos;Air à la cible et à un maximum de 8 ennemis sur la trajectoire du projectile. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFD89C4ED62C2BD73</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Implosion de Faille</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>35920450</AbilityId>
+        <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 395 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A02241A426F3737D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>212051720</AbilityId>
+        <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 456 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A0CA3A70848C9FB5C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1599984222</AbilityId>
+        <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 476 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5F5DD25E9327554D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1672186449</AbilityId>
+        <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 687 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A63AB8A51915A3578</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>2024804423</AbilityId>
+        <Description>Affaiblit l&apos;ennemi. Toutes attaques élémentaires du Guerrier lui appliquent Poussée implosive. Après 8 secondes, inflige 902 points de dégâts d&apos;Air, augmentés de 5% par Poussée implosive sur l&apos;ennemi, jusqu&apos;à un maximum de 5 accumulations. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A78B01047CC5993B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lance enflammée</Name>
+      <Icon>critical2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>115904938</AbilityId>
+        <Description>Inflige 438 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A06E891AA7A595DFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1022809590</AbilityId>
+        <Description>Inflige 472 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3CF6D5F6640908CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1964537953</AbilityId>
+        <Description>Inflige 492 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A75187861B118CBCC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2120130376</AbilityId>
+        <Description>Inflige 522 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A7E5E9F4898938AF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>946863183</AbilityId>
+        <Description>Inflige 554 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A386FFC4F58EB4BFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>312226365</AbilityId>
+        <Description>Inflige 596 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A129C323DCFFCECD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1014032987</AbilityId>
+        <Description>Inflige 676 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3C70EA5B97A85B96</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1720328828</AbilityId>
+        <Description>Inflige 720 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A668A227C302216A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>652532638</AbilityId>
+        <Description>Inflige 948 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A26E4DB9EDB4438EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-34980167</AbilityId>
+        <Description>Inflige 1425 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFDEA3EB96CA6D6AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18133923</AbilityId>
+        <Description>Inflige 1583 points de dégâts de Feu en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFEEB4C5DA0405C5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lame planaire</Name>
+      <Icon>shockwave3d</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>148138694</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances de réinitialiser Marche de Faille et Voyage de Faille. Augmente les dégâts des capacités du Saigneur des Failles de 10%. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>A08D46AC6608339A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bouclier de pierre</Name>
+      <Icon>riftblade_stone_shield_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>230076056</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 182 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>A0DB6AE988ACBDE8F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>-46204852</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 610 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFD3EF84C6B7A9C65</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>-20218628</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 679 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFECB7CFC601EB92E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>-22829920</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 709 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFEA3A4A0B0B71B2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>-15786923</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 800 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFF0F1C558DF00C23</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-51420131</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 830 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFCEF641D7A3345EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-90455515</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1148 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFA9BC2255F4B5AD3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-99764388</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1277 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFA0DB75C548BE20D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-68508583</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1286 points de dégâts. Dure 30 secondes. Cette capacité n&apos;est pas affectée par le délai de récupération général.</Description>
+        <AddonId>AFBEAA459AF043D6F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe glacée</Name>
+      <Icon>riftblade_frost_strike_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>273821893</AbilityId>
+        <Description>Inflige 210 à 232 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A105230C5890FDE26</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>284469167</AbilityId>
+        <Description>Inflige 220 à 243 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A10F4A7AF7C340F48</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1165638312</AbilityId>
+        <Description>Inflige 232 à 257 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A457A3AA82C3D22F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1990418981</AbilityId>
+        <Description>Inflige 245 à 271 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A76A36225396434B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1859133083</AbilityId>
+        <Description>Inflige 264 à 292 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6ED01E9B77445C2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1545567662</AbilityId>
+        <Description>Inflige 288 à 318 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5C1F7DAE722644B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-46045710</AbilityId>
+        <Description>Inflige 327 à 362 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFD4165F259B78CCA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-50965571</AbilityId>
+        <Description>Inflige 376 à 416 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFCF653BD589D6123</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-48458032</AbilityId>
+        <Description>Inflige 566 à 626 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFD1C96D0484F868C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-56315317</AbilityId>
+        <Description>Inflige 720 à 796 points de dégâts d&apos;Eau. Augmente les dégâts infligés par les attaques élémentaires de 10% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFCA4B24B938A50C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion polaire</Name>
+      <Icon>shaman-vengeance_of_winter_storm_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>328860256</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 35 points de dégâts.
+2 points : 104 points de dégâts.
+3 points : 208 points de dégâts.</Description>
+        <AddonId>A139A02604BCAF884</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>2073761196</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 36 points de dégâts.
+2 points : 107 points de dégâts.
+3 points : 214 points de dégâts.</Description>
+        <AddonId>A7B9B15AC4BCAB6DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>509553858</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 39 points de dégâts.
+2 points : 114 points de dégâts.
+3 points : 228 points de dégâts.</Description>
+        <AddonId>A1E5F2CC2A12D153A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>109170358</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 40 points de dégâts.
+2 points : 118 points de dégâts.
+3 points : 236 points de dégâts.</Description>
+        <AddonId>A0681CEB68574A9D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1807320741</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 41 points de dégâts.
+2 points : 123 points de dégâts.
+3 points : 246 points de dégâts.</Description>
+        <AddonId>A6BB986A5380F59F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2029327279</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 44 points de dégâts.
+2 points : 130 points de dégâts.
+3 points : 261 points de dégâts.</Description>
+        <AddonId>A78F513AF5424B618</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1743749850</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 47 points de dégâts.
+2 points : 138 points de dégâts.
+3 points : 277 points de dégâts.</Description>
+        <AddonId>A67EF82DA61738F7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1702699702</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 50 points de dégâts.
+2 points : 149 points de dégâts.
+3 points : 298 points de dégâts.</Description>
+        <AddonId>A657D22B63878BCC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2049268130</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 57 points de dégâts.
+2 points : 169 points de dégâts.
+3 points : 338 points de dégâts.</Description>
+        <AddonId>A7A2559A25276D46D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1945519504</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 61 points de dégâts.
+2 points : 180 points de dégâts.
+3 points : 360 points de dégâts.</Description>
+        <AddonId>A73F645907F19AF92</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-14136395</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 80 points de dégâts.
+2 points : 237 points de dégâts.
+3 points : 474 points de dégâts.</Description>
+        <AddonId>AFF284BB54D8C9397</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78284976</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 120 points de dégâts.
+2 points : 357 points de dégâts.
+3 points : 713 points de dégâts.</Description>
+        <AddonId>AFB557750531AF6ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-84721284</AbilityId>
+        <Description>L&apos;arme du Guerrier se couvre de glace pendant 15 secondes. Sa prochaine capacité d&apos;attaque réussie inflige des dégâts d&apos;Eau supplémentaires :
+
+1 point : 134 points de dégâts.
+2 points : 396 points de dégâts.
+3 points : 791 points de dégâts.</Description>
+        <AddonId>AFAF3417C53F06FB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Explosion ardente</Name>
+      <Icon>slam4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>411115433</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 51 points de dégâts
+2 points : 150 points de dégâts
+3 points : 300 points de dégâts</Description>
+        <AddonId>A18811FA9A44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1325347585</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 55 points de dégâts
+2 points : 162 points de dégâts
+3 points : 324 points de dégâts</Description>
+        <AddonId>A4EFF33012DBD883B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1449935104</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 58 points de dégâts
+2 points : 169 points de dégâts
+3 points : 338 points de dégâts</Description>
+        <AddonId>A566C41004443C3DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>585757222</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 60 points de dégâts
+2 points : 178 points de dégâts
+3 points : 357 points de dégâts</Description>
+        <AddonId>A22E9F2267FB50231</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>688301654</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 63 points de dégâts
+2 points : 188 points de dégâts
+3 points : 376 points de dégâts</Description>
+        <AddonId>A2906A656AC855A3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>930615962</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 68 points de dégâts
+2 points : 202 points de dégâts
+3 points : 405 points de dégâts</Description>
+        <AddonId>A3778129A86BBC5B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>888681632</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 75 points de dégâts
+2 points : 222 points de dégâts
+3 points : 443 points de dégâts</Description>
+        <AddonId>A34F834A04CAF9F3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1160915906</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 85 points de dégâts
+2 points : 252 points de dégâts
+3 points : 504 points de dégâts</Description>
+        <AddonId>A45322BC2E5D35309</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>307021021</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 89 points de dégâts
+2 points : 263 points de dégâts
+3 points : 526 points de dégâts</Description>
+        <AddonId>A124CC4DD2648AED2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>130745899</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 129 points de dégâts
+2 points : 379 points de dégâts
+3 points : 759 points de dégâts</Description>
+        <AddonId>A07CB062B99C941A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-53240947</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 169 points de dégâts
+2 points : 499 points de dégâts
+3 points : 997 points de dégâts</Description>
+        <AddonId>AFCD39B8DA44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41863641</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Feu supplémentaires par point d&apos;attaque pendant 15 secondes. Dure 15 secondes.
+
+1 point : 188 points de dégâts
+2 points : 554 points de dégâts
+3 points : 1108 points de dégâts</Description>
+        <AddonId>AFD813627A44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tempête de Faille</Name>
+      <Icon>generic_ability_031</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>476643581</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 285 points de dégâts
+2 points : 390 points de dégâts
+3 points : 549 points de dégâts</Description>
+        <AddonId>A1C6900FD40B56F2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>110382156</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 290 points de dégâts
+2 points : 407 points de dégâts
+3 points : 582 points de dégâts</Description>
+        <AddonId>A06944C4C585095BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>794467694</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 298 points de dégâts
+2 points : 429 points de dégâts
+3 points : 626 points de dégâts</Description>
+        <AddonId>A2F5A9D6ED3B16D50</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1091169794</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 311 points de dégâts
+2 points : 470 points de dégâts
+3 points : 710 points de dégâts</Description>
+        <AddonId>A4109EE02DDBA86D9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-34279651</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 320 points de dégâts
+2 points : 493 points de dégâts
+3 points : 756 points de dégâts</Description>
+        <AddonId>AFDF4EF1D2280D7A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-45535183</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 360 points de dégâts
+2 points : 613 points de dégâts
+3 points : 995 points de dégâts</Description>
+        <AddonId>AFD4930317DF331EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-90176555</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 446 points de dégâts
+2 points : 864 points de dégâts
+3 points : 1497 points de dégâts</Description>
+        <AddonId>AFAA003D56DD08EFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-9081247</AbilityId>
+        <Description>Applique Tempête de Faille au Guerrier, infligeant des dégâts d&apos;Air supplémentaires pendant 6 secondes à un maximum de 5 ennemis en fonction des points d&apos;attaque utilisés.
+
+1 point : 474 points de dégâts
+2 points : 947 points de dégâts
+3 points : 1661 points de dégâts</Description>
+        <AddonId>AFF756E61444034EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe de tonnerre</Name>
+      <Icon>riftblade_thunder_strike_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>490337432</AbilityId>
+        <Description>Inflige 186 à 205 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A1D39F498E34BB556</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>929125038</AbilityId>
+        <Description>Inflige 203 à 225 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A376152AE86CBB4CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1400147948</AbilityId>
+        <Description>Inflige 231 à 255 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A53748FEC53A6C091</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1812460728</AbilityId>
+        <Description>Inflige 265 à 293 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A6C07F4B89E6E5A8B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1120404843</AbilityId>
+        <Description>Inflige 399 à 441 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A42C8056B7B5457E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>375607775</AbilityId>
+        <Description>Inflige 507 à 560 points de dégâts d&apos;Air à un maximum de 5 ennemis. Rapporte 1 point d&apos;attaque.</Description>
+        <AddonId>A166351DF6ADB9BC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar de l&apos;Eau</Name>
+      <Icon>riftblade-avatar_of_water_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>501920592</AbilityId>
+        <Description>Réduit les dégâts subis de 5%. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>A1DEAB3506CDE4844</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lame d&apos;affinité élémentaire</Name>
+      <Icon>holysweep3aa</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>574912446</AbilityId>
+        <Description>Les attaques cumulatives ont 25% de chances de soigner le Guerrier à hauteur de 20% de la puissance d&apos;attaque. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>A224477BE4EFA9265</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar de la Faille</Name>
+      <Icon>ebon_fury_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>586213503</AbilityId>
+        <Description>Augmente les dégâts des capacités élémentaires de 15%, en plus de réduire le coût en puissance des attaques cumulatives élémentaires de 2. Vous ne pouvez activer qu&apos;un sort d&apos;Avatar à la fois. Dure 1 heure.</Description>
+        <AddonId>A22F0E87F6F12ACEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Marche de Faille</Name>
+      <Icon>generic_ability_022</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>909489591</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 63 à 70 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3635B5B7D0F1874F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1387043765</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 68 à 75 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A52AC9BB5A26EBA72</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>612185676</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 71 à 79 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A247D364C6C715458</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1922071723</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 75 à 83 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A72907CABBAF91FCA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1186834715</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 81 à 89 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A46BDA91B82B1DC2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>817085614</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 96 à 106 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A30B3BCAED312777B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-71601809</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 101 à 111 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFBBB716FAA4179C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-80191464</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 145 à 161 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFB386018B1AAEBD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-84953286</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 191 à 211 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFAEFB73AC354DC5B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-29048667</AbilityId>
+        <Description>Téléporte derrière l&apos;ennemi et lui inflige 213 à 236 points de dégâts d&apos;Air. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFE44C0A5B6E70652</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion d&apos;orage</Name>
+      <Icon>chainlighting5a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1058361955</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 52 points de dégâts
+2 points : 153 points de dégâts
+3 points : 307 points de dégâts</Description>
+        <AddonId>A3F15526328C9C32D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1234806185</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 62 points de dégâts
+2 points : 183 points de dégâts
+3 points : 366 points de dégâts</Description>
+        <AddonId>A4999A5A980C32CDA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>2088343182</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 64 points de dégâts
+2 points : 190 points de dégâts
+3 points : 381 points de dégâts</Description>
+        <AddonId>A7C79968E13453CD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1949250272</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 93 points de dégâts
+2 points : 275 points de dégâts
+3 points : 551 points de dégâts</Description>
+        <AddonId>A742F32E09CDF40C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>450193796</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 123 points de dégâts
+2 points : 362 points de dégâts
+3 points : 724 points de dégâts</Description>
+        <AddonId>A1AD56984A060D6E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83828380</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts d&apos;Air supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 136 points de dégâts
+2 points : 402 points de dégâts
+3 points : 804 points de dégâts</Description>
+        <AddonId>AFB00E16443A32404</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar du Vent</Name>
+      <Icon>generic_ability_025_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1115947072</AbilityId>
+        <Description>Augmente les chances d&apos;esquive de 3% et la vitesse de déplacement de 10%. Dure 1 heure.</Description>
+        <AddonId>A4284004052949299</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lance de vent</Name>
+      <Icon>lance1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1505512909</AbilityId>
+        <Description>Étourdit la cible pendant 3 secondes.</Description>
+        <AddonId>A59BC4DCD4FAA5B41</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Montée de fureur</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1519821007</AbilityId>
+        <Description>Les attaques finales gagnent un bonus de contribution à la puissance d&apos;attaque en fonction du nombre de points d&apos;attaque consommés.</Description>
+        <AddonId>A5A96A0CF7CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lame-tempête</Name>
+      <Icon>shockwave3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1557281695</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 25 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>A5CD23B9F9C33368B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-11066149</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 27 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFF5724DB878F53D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-98600736</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 28 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFA1F78E0823BC738</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-72268272</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 29 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFBB146106FA22769</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-11414488</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 30 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFF51D428B9ED4183</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-82408216</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 32 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFB168CE8CB938E32</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-44764696</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 33 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFD54F1E860F05902</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-10885968</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 36 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFF59E4B06B214486</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-89548309</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 39 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFAA999EB8A88A59D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-89647007</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 45 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFAA818617BBC895E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-57027614</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 47 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFC99D3E2825502AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-3723710</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 68 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFFC72E42CBFD2520</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93471836</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 89 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFA6DBBA4B4512291</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-51087208</AbilityId>
+        <Description>Les attaques réussies avec une capacité ont 25% de chances d&apos;infliger 99 points de dégâts d&apos;Air. Vous ne pouvez activer qu&apos;un seul sort de Lame à la fois. Dure 1 heure.</Description>
+        <AddonId>AFCF478985D954EA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion terrestre</Name>
+      <Icon>riftblade-earth_burst_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1634370869</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 43 points de dégâts
+2 points : 125 points de dégâts
+3 points : 250 points de dégâts</Description>
+        <AddonId>A616A85353AB3DB1F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>261620229</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 45 points de dégâts
+2 points : 133 points de dégâts
+3 points : 265 points de dégâts</Description>
+        <AddonId>A0F9802057D246C28</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>842024161</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 47 points de dégâts
+2 points : 141 points de dégâts
+3 points : 281 points de dégâts</Description>
+        <AddonId>A323044E17069A2B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1821227432</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 51 points de dégâts
+2 points : 151 points de dégâts
+3 points : 303 points de dégâts</Description>
+        <AddonId>A6C8DB9A8574A3173</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1510645406</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 58 points de dégâts
+2 points : 172 points de dégâts
+3 points : 343 points de dégâts</Description>
+        <AddonId>A5A0A9E9E282BB7A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>454065394</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 62 points de dégâts
+2 points : 183 points de dégâts
+3 points : 366 points de dégâts</Description>
+        <AddonId>A1B107CF25B840A40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1254452783</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 82 points de dégâts
+2 points : 241 points de dégâts
+3 points : 481 points de dégâts</Description>
+        <AddonId>A4AC56E2F396782F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-87059174</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 123 points de dégâts
+2 points : 362 points de dégâts
+3 points : 724 points de dégâts</Description>
+        <AddonId>AFACF951A40584D31</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-5385291</AbilityId>
+        <Description>La prochaine capacité d&apos;attaque du Guerrier inflige des dégâts de Terre supplémentaires par point d&apos;attaque à un maximum de 5 ennemis. Dure 15 secondes.
+
+1 point : 136 points de dégâts
+2 points : 402 points de dégâts
+3 points : 804 points de dégâts</Description>
+        <AddonId>AFFADD3B52AC86491</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe incandescente</Name>
+      <Icon>shockwave1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1897016662</AbilityId>
+        <Description>Inflige 218 à 242 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A71122D5669026794</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1732401986</AbilityId>
+        <Description>Inflige 225 à 249 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A67425B42560ADD59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1009876296</AbilityId>
+        <Description>Inflige 234 à 258 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3C317D48A11C22FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1994899796</AbilityId>
+        <Description>Inflige 248 à 274 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A76E7C1547D66062A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>2014675980</AbilityId>
+        <Description>Inflige 258 à 285 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A7815840C7009F9A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>162744500</AbilityId>
+        <Description>Inflige 272 à 301 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A09B348B49012F5C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>454213028</AbilityId>
+        <Description>Inflige 287 à 318 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1B12BDA433CF0ED0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1825446730</AbilityId>
+        <Description>Inflige 309 à 342 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6CCE1B4A8006F46D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1662483801</AbilityId>
+        <Description>Inflige 339 à 374 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A63177D59FB7FE880</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1698579918</AbilityId>
+        <Description>Inflige 385 à 425 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A653E45CE7AE96C69</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6022641</AbilityId>
+        <Description>Inflige 401 à 443 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFFA41A0F127D6DAC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-17515966</AbilityId>
+        <Description>Inflige 580 à 641 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFEF4BA420BB0C429</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96009836</AbilityId>
+        <Description>Inflige 761 à 842 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFA4701943E38D880</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-80112207</AbilityId>
+        <Description>Inflige 846 à 935 points de dégâts de Feu. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFB3995B15358A777</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lance de pierre</Name>
+      <Icon>2h_polearm_019_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1936866306</AbilityId>
+        <Description>Interrompt.</Description>
+        <AddonId>A73723C02BF6828CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe de Faille</Name>
+      <Icon>shadow_assault</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1980969236</AbilityId>
+        <Description>Inflige 684 à 756 points de dégâts d&apos;Air. Augmente les dégâts non physiques infligés par le Guerrier de 25% pendant 20 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A76133114B9D2550D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1593986752</AbilityId>
+        <Description>Inflige 787 à 870 points de dégâts d&apos;Air. Augmente les dégâts non physiques infligés par le Guerrier de 25% pendant 20 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5F024EC09A26A74C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1467187259</AbilityId>
+        <Description>Inflige 1181 à 1305 points de dégâts d&apos;Air. Augmente les dégâts non physiques infligés par le Guerrier de 25% pendant 20 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5773803B8516F9BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-94463954</AbilityId>
+        <Description>Inflige 1503 à 1662 points de dégâts d&apos;Air. Augmente les dégâts non physiques infligés par le Guerrier de 25% pendant 20 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFA5E982E86767AE0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

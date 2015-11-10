@@ -1,0 +1,3041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Reaver">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Pouvoir des masses</Name>
+      <Icon>doctrine_of_dedication_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1916969115</AbilityId>
+          <Description></Description>
+          <AddonId>A7242A09B0EE73230</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit les dégâts des sorts reçus de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit les dégâts des sorts reçus de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit les dégâts des sorts reçus de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit les dégâts des sorts reçus de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit les dégâts des sorts reçus de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Étreinte entropique</Name>
+      <Icon>entropy_embrace</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2024284545</AbilityId>
+          <Description></Description>
+          <AddonId>A78A8218100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts non physiques de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts non physiques de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts non physiques de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts non physiques de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts non physiques de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Lien d&apos;affliction</Name>
+      <Icon>binding_of_affliction_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>478081866</AbilityId>
+          <Description>Augmente les dégâts des attaques non physiques de 5%. Dure 1 heure.</Description>
+          <AddonId>A1C7EF34A122CBA96</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Armure imprégnée</Name>
+      <Icon>plate_116_chest_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>985091926</AbilityId>
+          <Description></Description>
+          <AddonId>A3AB74F5600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;armure de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;armure de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;armure de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente l&apos;armure de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente l&apos;armure de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Lien éthéré</Name>
+      <Icon>spiritblast1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>257905772</AbilityId>
+          <Description></Description>
+          <AddonId>A0F5F546C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le coût en puissance de Fièvre sanglante, Maladie de l&apos;âme, Blessures nécrotiques et Gangrène diminue de 3 points. Réduit les dégâts des sorts de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le coût en puissance de Fièvre sanglante, Maladie de l&apos;âme, Blessures nécrotiques et Gangrène diminue de 6 points. Réduit les dégâts des sorts de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Le coût en puissance de Fièvre sanglante, Maladie de l&apos;âme, Blessures nécrotiques et Gangrène diminue de 9 points. Réduit les dégâts des sorts de 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Contact faucheur</Name>
+      <Icon>charge2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1289182290</AbilityId>
+          <Description></Description>
+          <AddonId>A4CD75C5200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de toutes les capacités de 1%. Frappe ravageuse réduit pendant 15 secondes l&apos;armure de l&apos;ennemi selon la version de Frappe ravageuse utilisée.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de toutes les capacités de 2%. Frappe ravageuse réduit pendant 15 secondes l&apos;armure de l&apos;ennemi selon la version de Frappe ravageuse utilisée.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de toutes les capacités de 3%. Frappe ravageuse réduit pendant 15 secondes l&apos;armure de l&apos;ennemi selon la version de Frappe ravageuse utilisée.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Tâches macabres</Name>
+      <Icon>heavybleeding</Icon>
+      <PrereqTraitKey>21</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>336930824</AbilityId>
+          <Description></Description>
+          <AddonId>A14152808166CA20A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les soins prodigués par Festin des âmes augmentent de 50% supplémentaires pendant les 15 secondes qui suivent la mort de l&apos;ennemi que vous aviez attaqué en premier. Inflige 50% des dégâts de votre arme à un maximum de 10 ennemis à proximité lorsque l&apos;ennemi que vous aviez attaqué en premier meurt.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les soins prodigués par Festin des âmes augmentent de 100% supplémentaires pendant les 15 secondes qui suivent la mort de l&apos;ennemi que vous aviez attaqué en premier. Inflige 100% des dégâts de votre arme à un maximum de 10 ennemis à proximité lorsque l&apos;ennemi que vous aviez attaqué en premier meurt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Affinité infâme</Name>
+      <Icon>illumination_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les Corruptions durent 4 secondes supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les Corruptions durent 8 secondes supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Harmonisation planaire</Name>
+      <Icon>magicresist1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>398173982</AbilityId>
+          <Description></Description>
+          <AddonId>A17BBA71E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 2% les dégâts infligés par les capacités de dégâts répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 4% les dégâts infligés par les capacités de dégâts répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente de 6% les dégâts infligés par les capacités de dégâts répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente de 8% les dégâts infligés par les capacités de dégâts répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente de 10% les dégâts infligés par les capacités de dégâts répétés.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Constitution résistante</Name>
+      <Icon>discombobulate3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-36964769</AbilityId>
+          <Description></Description>
+          <AddonId>AFDCBF65F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;endurance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;endurance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;endurance de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente l&apos;endurance de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente l&apos;endurance de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Maîtrise des Blasons</Name>
+      <Icon>elemward1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-35810660</AbilityId>
+          <Description></Description>
+          <AddonId>AFDDD929C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente toutes les résistances de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente toutes les résistances de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente toutes les résistances de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Spasme</Name>
+      <Icon>confound1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-67102006</AbilityId>
+          <Description>Interrompt un ennemi.</Description>
+          <AddonId>AFC001ACAA88C1DFC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Blason de l&apos;ombre</Name>
+      <Icon>reaver_crest_of_shadow</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-38990394</AbilityId>
+          <Description>Absorbe 442 points de dégâts. Dure 30 secondes.</Description>
+          <AddonId>AFDAD0DC68E2FE62A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>20</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Infectieux</Name>
+      <Icon>poison_gas_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-7686936</AbilityId>
+          <Description></Description>
+          <AddonId>AFF8AB4E800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène de 33%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène de 66%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Intentions funestes</Name>
+      <Icon>poison_gas_02</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1920848212</AbilityId>
+          <Description></Description>
+          <AddonId>A727DD1540E873649</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tous les effets de dégâts répétés génèrent 15% de menace supplémentaire, voire plus en fonction de l&apos;endurance.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Blason d&apos;entropie</Name>
+      <Icon>hidden_veil_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1286555264</AbilityId>
+          <Description>Réduit les dégâts subis de 30% pendant 6 secondes. Partage le temps de récupération de Défense du bouclier. Non cumulable avec Égide de lumière, Blason de consommation ou Bouclier d&apos;énergie.</Description>
+          <AddonId>A4CAF46807B341C26</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>6.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Ombre de terreur</Name>
+      <Icon>defiler_link_of_agony</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>853303261</AbilityId>
+          <Description>Charge l&apos;ennemi, lui applique Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène lorsqu&apos;elles sont connues, et l&apos;immobilise pendant 2 secondes. Procure 1 point d&apos;attaque.</Description>
+          <AddonId>A32DC5FDD72008488</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MinRange>3.000000</MinRange>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Infection destructrice</Name>
+      <Icon>infestation_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1341511211</AbilityId>
+          <Description></Description>
+          <AddonId>A4FF5D62B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques de Mort infligent 5% de dégâts supplémentaires aux ennemis affectés par Infection ou Infection explosive. Augmente les dégâts infligés par vos attaques de Mort de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques de Mort infligent 10% de dégâts supplémentaires aux ennemis affectés par Infection ou Infection explosive. Augmente les dégâts infligés par vos attaques de Mort de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos attaques de Mort infligent 15% de dégâts supplémentaires aux ennemis affectés par Infection ou Infection explosive. Augmente les dégâts infligés par vos attaques de Mort de 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Vos attaques de Mort infligent 20% de dégâts supplémentaires aux ennemis affectés par Infection ou Infection explosive. Augmente les dégâts infligés par vos attaques de Mort de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Vos attaques de Mort infligent 25% de dégâts supplémentaires aux ennemis affectés par Infection ou Infection explosive. Augmente les dégâts infligés par vos attaques de Mort de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Festin des âmes</Name>
+      <Icon>life-drain3</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1620667334</AbilityId>
+          <Description></Description>
+          <AddonId>A60996BC600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène vous soignent à raison de 3% des dégâts infligés par leurs effets de dégâts répétés.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Dévoreur d&apos;âmes</Name>
+      <Icon>menacingroar2a</Icon>
+      <PrereqTraitKey>20</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>785773172</AbilityId>
+          <Description></Description>
+          <AddonId>A2ED5F27400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les soins alloués par Festin des âmes augmentent de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Gangrène</Name>
+      <Icon>flesh_rot_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1149698657</AbilityId>
+          <Description>Inflige 361 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+          <AddonId>A44870261210B5F50</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+          <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+          <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Marche macabre</Name>
+      <Icon>dusk_to_dawn_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74103869</AbilityId>
+          <Description></Description>
+          <AddonId>AFB9543C300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération d&apos;Infection et Infection explosive de 5 secondes. Réduit les dégâts des sorts de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération d&apos;Infection et Infection explosive de 10 secondes. Réduit les dégâts des sorts de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le délai de récupération d&apos;Infection et Infection explosive de 15 secondes. Réduit les dégâts des sorts de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Corruption terrible</Name>
+      <Icon>necromancer_detonate_bones_02_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51955505</AbilityId>
+          <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 384 points de dégâts totaux
+2 points : 508 points de dégâts totaux
+3 points : 693 points de dégâts totaux.</Description>
+          <AddonId>AFCE738CF6876D445</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>22</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>30.000000</Duration>
+          <Interval>3.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Corruption terrible.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Immunisation</Name>
+      <Icon>healed</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-99350169</AbilityId>
+          <Description>Immunise l&apos;ennemi contre toutes les capacités de dégâts répétés et toutes les provocations du Saccageur pendant 5 minutes. Ne fonctionne pas sur les joueurs.</Description>
+          <AddonId>AFA140967CECAA164</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>300.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Immunisation.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Infection explosive</Name>
+      <Icon>reaver_explosive_infestation_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-30439995</AbilityId>
+          <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 258 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+          <AddonId>AFE2F85C5AEC9729E</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>22</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Immunisation</Name>
+      <Icon>healed</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-99350169</AbilityId>
+        <Description>Immunise l&apos;ennemi contre toutes les capacités de dégâts répétés et toutes les provocations du Saccageur pendant 5 minutes. Ne fonctionne pas sur les joueurs.</Description>
+        <AddonId>AFA140967CECAA164</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>300.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blason de consommation</Name>
+      <Icon>reaver_plague_eater</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-98160952</AbilityId>
+        <Description>Réduit les dégâts subis de 20% pendant 4 secondes. Augmente les soins prodigués de 20% pendant 15 secondes. Non cumulable avec Défense du bouclier ou Blason d&apos;entropie.</Description>
+        <AddonId>AFA262EC833738B00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>4.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lien de Ténèbres dévorantes</Name>
+      <Icon>reaver_binding_of_devouring_darkness</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-92600430</AbilityId>
+        <Description>Confère les effets de Lien d&apos;Ombre, Lien de mort, Lien d&apos;affliction et Semeur de peste. Augmente l&apos;endurance de 5%. Augmente les soins reçus de 5%. Dure 1 heure.</Description>
+        <AddonId>AFA7B079283EFBC99</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lien d&apos;Ombre</Name>
+      <Icon>dominator-mass_exhaustion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-80850365</AbilityId>
+        <Description>Augmente la portée d&apos;Ombre de terreur, Maladie de l&apos;âme, Blessures nécrotiques, Gangrène, Infection et Infection explosive de 10 mètres. Réduit les dégâts des sorts de 3%. Dure 1 heure.</Description>
+        <AddonId>AFB2E5243B00554B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coup redoutable</Name>
+      <Icon>roguestrike1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-69883250</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 269 points de dégâts.
+2 points : 338 points de dégâts.
+3 points : 442 points de dégâts.</Description>
+        <AddonId>AFBD5AA8E63FE11BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-79179628</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 271 points de dégâts.
+2 points : 345 points de dégâts.
+3 points : 456 points de dégâts.</Description>
+        <AddonId>AFB47D0943022ED86</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-50872072</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 275 points de dégâts.
+2 points : 359 points de dégâts.
+3 points : 483 points de dégâts.</Description>
+        <AddonId>AFCF7C0F83E25F555</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-95043968</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 279 points de dégâts.
+2 points : 367 points de dégâts.
+3 points : 501 points de dégâts.</Description>
+        <AddonId>AFA55BE809586AC18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-67325636</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 282 points de dégâts.
+2 points : 379 points de dégâts.
+3 points : 524 points de dégâts.</Description>
+        <AddonId>AFBFCB13C7EC8FFC6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-55242047</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 288 points de dégâts.
+2 points : 395 points de dégâts.
+3 points : 555 points de dégâts.</Description>
+        <AddonId>AFCB512C176F4494B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-8320553</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 294 points de dégâts.
+2 points : 412 points de dégâts.
+3 points : 589 points de dégâts.</Description>
+        <AddonId>AFF8109D79D333E68</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-88474247</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 301 points de dégâts.
+2 points : 434 points de dégâts.
+3 points : 634 points de dégâts.</Description>
+        <AddonId>AFAB9FD7932E85D5F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-29938523</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 316 points de dégâts.
+2 points : 476 points de dégâts.
+3 points : 718 points de dégâts.</Description>
+        <AddonId>AFE372CA5449E434E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-55663539</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 324 points de dégâts.
+2 points : 499 points de dégâts.
+3 points : 765 points de dégâts.</Description>
+        <AddonId>AFCAEA44D88CF77C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-74217507</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 365 points de dégâts.
+2 points : 620 points de dégâts.
+3 points : 1007 points de dégâts.</Description>
+        <AddonId>AFB9387DD74791C33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-15223359</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 450 points de dégâts.
+2 points : 874 points de dégâts.
+3 points : 1514 points de dégâts.</Description>
+        <AddonId>AFF17B5C1B6197984</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-77762084</AbilityId>
+        <Description>Inflige des dégâts de Mort dont le total est fonction des points d&apos;attaque :
+
+1 point : 479 points de dégâts.
+2 points : 957 points de dégâts.
+3 points : 1680 points de dégâts.</Description>
+        <AddonId>AFB5D71DCCE1181EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Spasme</Name>
+      <Icon>confound1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-67102006</AbilityId>
+        <Description>Interrompt un ennemi.</Description>
+        <AddonId>AFC001ACAA88C1DFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Corruption rampante</Name>
+      <Icon>cabalist_sigil_of_ravaging</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-64010440</AbilityId>
+        <Description>Applique Corruption rampante au Guerrier, ce qui inflige des dégâts de Mort supplémentaires à un maximum de 10 ennemis et réduit de 15% les soins qu&apos;ils prodiguent pendant 30 secondes pour chaque point d&apos;attaque utilisé.
+
+1 point : 334 points de dégâts totaux
+2 points : 516 points de dégâts totaux
+3 points : 790 points de dégâts totaux.</Description>
+        <AddonId>AFC2F4738DDA21472</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-82409832</AbilityId>
+        <Description>Applique Corruption rampante au Guerrier, ce qui inflige des dégâts de Mort supplémentaires à un maximum de 10 ennemis et réduit de 15% les soins qu&apos;ils prodiguent pendant 30 secondes pour chaque point d&apos;attaque utilisé.
+
+1 point : 354 points de dégâts totaux
+2 points : 574 points de dégâts totaux
+3 points : 908 points de dégâts totaux.</Description>
+        <AddonId>AFB1686981E31D841</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-49341487</AbilityId>
+        <Description>Applique Corruption rampante au Guerrier, ce qui inflige des dégâts de Mort supplémentaires à un maximum de 10 ennemis et réduit de 15% les soins qu&apos;ils prodiguent pendant 30 secondes pour chaque point d&apos;attaque utilisé.
+
+1 point : 432 points de dégâts totaux
+2 points : 802 points de dégâts totaux
+3 points : 1363 points de dégâts totaux.</Description>
+        <AddonId>AFD0F1BD1890B2D77</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-40740288</AbilityId>
+        <Description>Applique Corruption rampante au Guerrier, ce qui inflige des dégâts de Mort supplémentaires à un maximum de 10 ennemis et réduit de 15% les soins qu&apos;ils prodiguent pendant 30 secondes pour chaque point d&apos;attaque utilisé.
+
+1 point : 494 points de dégâts totaux
+2 points : 987 points de dégâts totaux
+3 points : 1734 points de dégâts totaux.</Description>
+        <AddonId>AFD925A40A175FE0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Corruption terrible</Name>
+      <Icon>necromancer_detonate_bones_02_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-51955505</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 384 points de dégâts totaux
+2 points : 508 points de dégâts totaux
+3 points : 693 points de dégâts totaux.</Description>
+        <AddonId>AFCE738CF6876D445</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-52528664</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 392 points de dégâts totaux
+2 points : 530 points de dégâts totaux
+3 points : 737 points de dégâts totaux.</Description>
+        <AddonId>AFCDE79E848428CCE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-86671093</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 398 points de dégâts totaux
+2 points : 548 points de dégâts totaux
+3 points : 774 points de dégâts totaux.</Description>
+        <AddonId>AFAD5810B7043E3C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-38800915</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 407 points de dégâts totaux
+2 points : 576 points de dégâts totaux
+3 points : 829 points de dégâts totaux.</Description>
+        <AddonId>AFDAFF1ED64417EF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-80432961</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 417 points de dégâts totaux
+2 points : 604 points de dégâts totaux
+3 points : 884 points de dégâts totaux.</Description>
+        <AddonId>AFB34B0BF5B67D3E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-35643096</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 446 points de dégâts totaux
+2 points : 688 points de dégâts totaux
+3 points : 1053 points de dégâts totaux.</Description>
+        <AddonId>AFDE021287E91DAA9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-55794819</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 453 points de dégâts totaux
+2 points : 711 points de dégâts totaux
+3 points : 1098 points de dégâts totaux.</Description>
+        <AddonId>AFCACA37DA91C2DD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-59147610</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 536 points de dégâts totaux
+2 points : 954 points de dégâts totaux
+3 points : 1587 points de dégâts totaux.</Description>
+        <AddonId>AFC797AA6827E92D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-86308681</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 621 points de dégâts totaux
+2 points : 1204 points de dégâts totaux
+3 points : 2085 points de dégâts totaux.</Description>
+        <AddonId>AFADB08B787864239</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-72724625</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis :
+
+1 point : 660 points de dégâts totaux
+2 points : 1318 points de dégâts totaux
+3 points : 2314 points de dégâts totaux.</Description>
+        <AddonId>AFBAA4F6F3E6E0E7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Blason de l&apos;ombre</Name>
+      <Icon>reaver_crest_of_shadow</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-38990394</AbilityId>
+        <Description>Absorbe 442 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFDAD0DC68E2FE62A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>-66275913</AbilityId>
+        <Description>Absorbe 585 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFC0CB5B77F33EA82</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>-49693847</AbilityId>
+        <Description>Absorbe 659 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFD09BB69E832050A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>-34355054</AbilityId>
+        <Description>Absorbe 778 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFDF3C8928500860E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>-32888396</AbilityId>
+        <Description>Absorbe 826 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFE0A29B465DB2133</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-12878581</AbilityId>
+        <Description>Absorbe 862 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFF3B7D0B86B0F1B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-7978053</AbilityId>
+        <Description>Absorbe 996 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFF8643BB8FB827F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-63248422</AbilityId>
+        <Description>Absorbe 1031 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFC3AE7DAA442AC23</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-93475373</AbilityId>
+        <Description>Absorbe 1194 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFA6DADD337EA60F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-43977376</AbilityId>
+        <Description>Absorbe 1277 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFD60F5606C6D8C2B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-73902331</AbilityId>
+        <Description>Absorbe 1286 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFB9857058C6D29EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Infection explosive</Name>
+      <Icon>reaver_explosive_infestation_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-30439995</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 258 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFE2F85C5AEC9729E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-92066081</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 297 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFA832EDFD09A9ECF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-17805865</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 309 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFEF04DD78EB5EBFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-86034904</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 447 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFADF3628C9A1F801</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-97980492</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 588 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFA28EFB497448486</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-59263568</AbilityId>
+        <Description>Affecte jusqu&apos;à 5 ennemis. Au bout de 8 secondes, inflige 652 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFC77B5B0BC3BF52A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Corruption putrescente</Name>
+      <Icon>sacrificepet2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-27824468</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis. Les ennemis en mouvement subissent des dégâts supplémentaires chaque seconde :
+
+1 point : 377 points de dégâts, 109 dégâts par seconde aux ennemis en mouvement
+2 points : 640 points de dégâts, 187 dégâts par seconde aux ennemis en mouvement
+3 points : 1039 points de dégâts, 303 dégâts par seconde aux ennemis en mouvement.</Description>
+        <AddonId>AFE576EACAA1275E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-87043823</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis. Les ennemis en mouvement subissent des dégâts supplémentaires chaque seconde :
+
+1 point : 465 points de dégâts, 136 dégâts par seconde aux ennemis en mouvement
+2 points : 901 points de dégâts, 264 dégâts par seconde aux ennemis en mouvement
+3 points : 1561 points de dégâts, 456 dégâts par seconde aux ennemis en mouvement.</Description>
+        <AddonId>AFACFD111A32D22C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-37011470</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption inflige des dégâts de Mort toutes les 3 secondes à un maximum de 10 ennemis. Les ennemis en mouvement subissent des dégâts supplémentaires chaque seconde :
+
+1 point : 494 points de dégâts, 144 dégâts par seconde aux ennemis en mouvement
+2 points : 987 points de dégâts, 289 dégâts par seconde aux ennemis en mouvement
+3 points : 1734 points de dégâts, 507 dégâts par seconde aux ennemis en mouvement.</Description>
+        <AddonId>AFDCB3FF28F43F219</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Corruption instable</Name>
+      <Icon>scourge_of_darkness_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-12407416</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 312 points de dégâts totaux
+2 points : 453 points de dégâts totaux
+3 points : 663 points de dégâts totaux.</Description>
+        <AddonId>AFF42AD88F855CE89</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>877245717</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 334 points de dégâts totaux
+2 points : 516 points de dégâts totaux
+3 points : 790 points de dégâts totaux.</Description>
+        <AddonId>A3449B51561B6A641</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>644058302</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 340 points de dégâts totaux
+2 points : 532 points de dégâts totaux
+3 points : 823 points de dégâts totaux.</Description>
+        <AddonId>A26638CBE92229959</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1267336309</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 402 points de dégâts totaux
+2 points : 716 points de dégâts totaux
+3 points : 1190 points de dégâts totaux.</Description>
+        <AddonId>A4B8A047597EB3278</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1555335734</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 465 points de dégâts totaux
+2 points : 901 points de dégâts totaux
+3 points : 1561 points de dégâts totaux.</Description>
+        <AddonId>A5CB48A3640241607</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-3318485</AbilityId>
+        <Description>Corrompt le sol autour du Guerrier pendant 30 secondes. La corruption ralentit un maximum de 10 ennemis et leur inflige des dégâts de Mort toutes les 3 secondes :
+
+1 point : 494 points de dégâts totaux
+2 points : 987 points de dégâts totaux
+3 points : 1734 points de dégâts totaux.</Description>
+        <AddonId>AFFCD5D2B69AD86F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Incitation</Name>
+      <Icon>incite_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>181651666</AbilityId>
+        <Description>Force un maximum de 10 ennemis proches à attaquer le Guerrier pendant 1 secondes lorsque le Saccageur inflige des dégâts répétés sur une cible.</Description>
+        <AddonId>A0AD3C8D273848813</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blason des abysses</Name>
+      <Icon>elemward1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>243901481</AbilityId>
+        <Description>Augmente l&apos;armure de 3%. Dure 1 heure.</Description>
+        <AddonId>A0E89A4293F2BB0FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Maladie de l&apos;âme</Name>
+      <Icon>necropotence2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>458094657</AbilityId>
+        <Description>Inflige 255 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1B4DF8416D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1738233726</AbilityId>
+        <Description>Inflige 264 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A679B577E86EB59AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>665670345</AbilityId>
+        <Description>Inflige 274 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A27AD52C9DB049972</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1560731976</AbilityId>
+        <Description>Inflige 290 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5D06E148ABF3B3B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>578935429</AbilityId>
+        <Description>Inflige 303 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A2281DA858AF97576</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>88239285</AbilityId>
+        <Description>Inflige 319 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A05426CB56E0B5122</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1573944729</AbilityId>
+        <Description>Inflige 336 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5DD07D99BDE8137F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1841334907</AbilityId>
+        <Description>Inflige 361 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6DC08A7B7F06ECC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1535027013</AbilityId>
+        <Description>Inflige 396 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5B7EA7454C8B8D21</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>748009254</AbilityId>
+        <Description>Inflige 450 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A2C95B7264D63CCB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-45301646</AbilityId>
+        <Description>Inflige 469 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFD4CC0726D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5504051</AbilityId>
+        <Description>Inflige 678 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFFAC03CD6D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-75356715</AbilityId>
+        <Description>Inflige 890 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFB8225D56D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53764591</AbilityId>
+        <Description>Inflige 988 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFCCB9E116D99B1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Lien d&apos;affliction</Name>
+      <Icon>binding_of_affliction_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>478081866</AbilityId>
+        <Description>Augmente les dégâts des attaques non physiques de 5%. Dure 1 heure.</Description>
+        <AddonId>A1C7EF34A122CBA96</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sinistre appât</Name>
+      <Icon>life-drain5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>645903806</AbilityId>
+        <Description>Force l&apos;ennemi à attaquer le Guerrier pendant 3 secondes.</Description>
+        <AddonId>A267FB5BEA94451A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Don du Saccageur</Name>
+      <Icon>soul_reaver</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>771041545</AbilityId>
+        <Description>Chaque point investi dans l&apos;âme du Saccageur augmente l&apos;endurance de 1,5%, l&apos;armure de 1%, les résistances de 2% et les dégâts de base de 0,5%.</Description>
+        <AddonId>A2DF52909BA46FC75</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Ombre de terreur</Name>
+      <Icon>defiler_link_of_agony</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>853303261</AbilityId>
+        <Description>Charge l&apos;ennemi, lui applique Maladie de l&apos;âme, Fièvre sanglante, Blessures nécrotiques et Gangrène lorsqu&apos;elles sont connues, et l&apos;immobilise pendant 2 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A32DC5FDD72008488</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Montée de fureur</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>929334413</AbilityId>
+        <Description>Les attaques finales gagnent un bonus de contribution à la puissance d&apos;attaque en fonction du nombre de points d&apos;attaque consommés.</Description>
+        <AddonId>A3764848D7CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fièvre sanglante</Name>
+      <Icon>bloodfire1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1028907925</AbilityId>
+        <Description>Inflige 290 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3D53E3957093143F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>957129901</AbilityId>
+        <Description>Inflige 303 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A390CA4AD2D7E0793</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1045643871</AbilityId>
+        <Description>Inflige 319 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3E53425FC763896F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>867753881</AbilityId>
+        <Description>Inflige 336 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A33B8DF9992EB25A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>914077651</AbilityId>
+        <Description>Inflige 361 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A367BB7D3A6AF077C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>471548056</AbilityId>
+        <Description>Inflige 396 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1C1B409872736828</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>506965481</AbilityId>
+        <Description>Inflige 450 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1E37ADE9BE23C072</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>659456134</AbilityId>
+        <Description>Inflige 518 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A274E8086C444BC3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1450538213</AbilityId>
+        <Description>Inflige 778 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A567574E59DAFE3B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1752521681</AbilityId>
+        <Description>Inflige 988 points de dégâts de Mort durant 15 secondes. Réduit les chances de toucher de 5% pendant 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A68755BD1DBEBE90A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lien de mort</Name>
+      <Icon>binding_of_death_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1074194439</AbilityId>
+        <Description>Réduit les dégâts autres que ceux des sorts de 5% et les dégâts des sorts de 15%. Dure 1 heure. Vous ne pouvez activer qu&apos;un Lien à la fois.</Description>
+        <AddonId>A4006E807E5E2B62D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gangrène</Name>
+      <Icon>flesh_rot_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1149698657</AbilityId>
+        <Description>Inflige 361 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A44870261210B5F50</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>-92156087</AbilityId>
+        <Description>Inflige 396 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFA81CF4965F99708</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>-84163694</AbilityId>
+        <Description>Inflige 450 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFAFBC3922CB21179</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>-13624967</AbilityId>
+        <Description>Inflige 518 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFF30197971D6F319</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-82661225</AbilityId>
+        <Description>Inflige 778 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFB12B0974BFBDA31</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-34403758</AbilityId>
+        <Description>Inflige 988 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFDF30A52511CFA03</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">9.000000</AggroMultiplier>
+        <DamageMultiplier effect="0" action="0">0.170000</DamageMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">1.500000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Blason d&apos;entropie</Name>
+      <Icon>hidden_veil_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1286555264</AbilityId>
+        <Description>Réduit les dégâts subis de 30% pendant 6 secondes. Partage le temps de récupération de Défense du bouclier. Non cumulable avec Égide de lumière, Blason de consommation ou Bouclier d&apos;énergie.</Description>
+        <AddonId>A4CAF46807B341C26</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Semeur de peste</Name>
+      <Icon>plague_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1303986066</AbilityId>
+        <Description>Les capacités du Saccageur infligeant des dégâts répétés affectent jusqu&apos;à 7 ennemis supplémentaires, ces derniers subissent moins de dégâts que la cible principale. Dure 12 secondes.</Description>
+        <AddonId>A4DB93F928D708E8B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe cyclonique</Name>
+      <Icon>whirlwind4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1374980422</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 208 à 230 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A51F4894676B78FAA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1562787124</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 221 à 244 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5D263D3471FE5C39</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1657902384</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 232 à 256 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A62D195303B77D4BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>433964425</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 248 à 275 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A19DDC589463A8DB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>510851485</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 266 à 294 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1E72F99DF0471A9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-46510556</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 316 à 349 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFD3A4E2412E5E241</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-18710528</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 329 à 364 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFEE28000AA6E7F7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-36889498</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 477 à 527 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFDCD1C6650928A21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-26242810</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 626 à 692 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFE6F9106838341E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-56969214</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 695 à 768 points de dégâts physiques à un maximum de 10 ennemis. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFC9AB802663E3998</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Secousse</Name>
+      <Icon>concussion_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1738560445</AbilityId>
+        <Description>Force un maximum de 10 ennemis proches à attaquer le Guerrier pendant 3 secondes.</Description>
+        <AddonId>A67A053BD91F7D76E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Infection</Name>
+      <Icon>infestation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1749513995</AbilityId>
+        <Description>Après 8 secondes, inflige 364 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A6847770BE2838156</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2059962074</AbilityId>
+        <Description>Après 8 secondes, inflige 389 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A7AC886DA81A3E616</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1078434004</AbilityId>
+        <Description>Après 8 secondes, inflige 416 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A404798D481B464A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>2119366430</AbilityId>
+        <Description>Après 8 secondes, inflige 495 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A7E52F71E2C44C487</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1227289922</AbilityId>
+        <Description>Après 8 secondes, inflige 516 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A4926F542C8C4F993</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>100110659</AbilityId>
+        <Description>Après 8 secondes, inflige 746 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>A05F79143A867E969</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-46207527</AbilityId>
+        <Description>Après 8 secondes, inflige 979 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFD3EEDD9903D1515</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-35995327</AbilityId>
+        <Description>Après 8 secondes, inflige 1087 points de dégâts de Mort, augmentés de 45% par effet de dégâts répétés affectant l&apos;ennemi, jusqu&apos;à un maximum de 5 effets.</Description>
+        <AddonId>AFDDAC14155FD4E12</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Blessures nécrotiques</Name>
+      <Icon>necropotence4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2032650878</AbilityId>
+        <Description>Inflige 543 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A7927CA7E8F9C3AE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1789493782</AbilityId>
+        <Description>Inflige 595 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6AA9821661727989</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1018350912</AbilityId>
+        <Description>Inflige 675 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3CB2CD40932572C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>746105656</AbilityId>
+        <Description>Inflige 776 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A2C78AB38AF872727</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>248971317</AbilityId>
+        <Description>Inflige 1166 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A0ED70035ED5EF9A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1643901953</AbilityId>
+        <Description>Inflige 1483 points de dégâts de Mort en 15 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A61FBF40166AF6A69</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe ravageuse</Name>
+      <Icon>charge1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2053801633</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 218 à 242 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A7A6A86A17A1E03F0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>888060908</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 225 à 249 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A34EEBBEC3CC997C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1372389583</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 234 à 258 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A51CD00CF529B1C47</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1841158266</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 248 à 274 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6DBDD87A7969F4AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1136543086</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 258 à 285 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A43BE456EC7350C81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1363608160</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 272 à 301 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A514702606107DD4B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1344281757</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 287 à 318 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A50201C9D5ECB1707</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1854814190</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 309 à 342 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6E8E37EE4D87F83D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1756133671</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 339 à 374 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A68AC7927514C33FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1060519302</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 385 à 425 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3F363D864D876CCD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-84593978</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 401 à 443 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFAF532C66B93D3C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-34111361</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 580 à 641 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFDF7807F8BF09F7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-60040398</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 761 à 842 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFC6BDB3273EA9FBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-26773576</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 846 à 935 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFE6777B8A1F5B062</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="2" action="0">0.900000</PowerStatCoefficient>
+        <AggroMultiplier effect="2" action="0">5.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="2" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

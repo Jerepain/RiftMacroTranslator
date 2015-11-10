@@ -1,0 +1,3405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Bard">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Gute Gesundheit</Name>
+      <Icon>good_health</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1873838232</AbilityId>
+          <Description></Description>
+          <AddonId>A6FB0809800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Ausdauer um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Ausdauer um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Ausdauer um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Ausdauer um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Ausdauer um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Inspiration des Barden</Name>
+      <Icon>bardic_inspiration</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-15100255</AbilityId>
+          <Description></Description>
+          <AddonId>AFF1996A100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Codas haben eine Chance von 20% pro Combopunkt, bestehende Melodien zu erneuern.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Talentierter Komponist</Name>
+      <Icon>talented_composer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1401246100</AbilityId>
+          <Description></Description>
+          <AddonId>A5385519400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Wirkungsradius Eurer Melodien, Fanfaren und Hymnen um 5 Meter.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Wirkungsradius Eurer Melodien, Fanfaren und Hymnen um 10 Meter.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Hymne des Ruhms</Name>
+      <Icon>anthem_of_glory</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>523867370</AbilityId>
+          <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 141 und alle Widerstände um 19.</Description>
+          <AddonId>A1F3994EA84754240</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Intelligentes Ziel</Name>
+      <Icon>street_smart</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>106566004</AbilityId>
+          <Description></Description>
+          <AddonId>A065A117400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den verursachten Schaden und die bewirkte Heilung um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den verursachten Schaden und die bewirkte Heilung um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den verursachten Schaden und die bewirkte Heilung um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den verursachten Schaden und die bewirkte Heilung um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den verursachten Schaden und die bewirkte Heilung um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Straßenkünstler</Name>
+      <Icon>street_performer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-4423016</AbilityId>
+          <Description></Description>
+          <AddonId>AFFBC829800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn Eure Gesundheit unter 30% fällt, erhöht sich Eure Bewegungsgeschwindigkeit um 5%, und alle auf Euch liegenden Heileffekte werden um 5% erhöht.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Wenn Eure Gesundheit unter 30% fällt, erhöht sich Eure Bewegungsgeschwindigkeit um 10%, und alle auf Euch liegenden Heileffekte werden um 10% erhöht.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Machtakkord</Name>
+      <Icon>power_chord</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1343250481</AbilityId>
+          <Description>Verursacht 210 bis 232 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+          <AddonId>A50106031622AF48C</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <Cooldown>4.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>2</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Schwerer Kummer</Name>
+      <Icon>stunning_blow_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Dauer Eurer Fähigkeiten Coda des Wagnisses, Coda der Feigheit und Coda der Verzweiflung um 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Dauer Eurer Fähigkeiten Coda des Wagnisses, Coda der Feigheit und Coda der Verzweiflung um 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Bühnenpräsenz</Name>
+      <Icon>stage_presence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-53584040</AbilityId>
+          <Description></Description>
+          <AddonId>AFCCE5F5800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Alle auf Euch angewandten Heileffekte werden um 2% erhöht.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Alle auf Euch angewandten Heileffekte werden um 4% erhöht.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Betäubende Musik</Name>
+      <Icon>deafening_music</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>902156879</AbilityId>
+          <Description></Description>
+          <AddonId>A35C5D24F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Coda der Raserei</Name>
+      <Icon>coda_of_fury</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>37198687</AbilityId>
+          <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 124 Schaden
+2 Punkte: 160 Schaden
+3 Punkte: 202 Schaden
+4 Punkte: 250 Schaden
+5 Punkte: 307 Schaden</Description>
+          <AddonId>A02379B5FC9B1A000</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>18</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Verbesserte Hymne der Tüchtigkeit</Name>
+      <Icon>anthem_of_competence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1304848314</AbilityId>
+          <Description></Description>
+          <AddonId>A4DC667BA00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Hymne der Tüchtigkeit beeinflusst nun auch Gruppen- und Schlachtzugmitglieder, wenn sich diese im Kampf befinden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Riff</Name>
+      <Icon>riff</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1990860407</AbilityId>
+          <Description>Verursacht 411 bis 454 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+          <AddonId>A76AA1E779830CE7B</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>5</GainComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Coda der Wiederherstellung</Name>
+      <Icon>coda_of_restoration_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1510112149</AbilityId>
+          <Description>Regeneriert zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder.
+
+1 Punkt: 21 Gesundheit
+2 Punkte: 48 Gesundheit
+3 Punkte: 82 Gesundheit
+4 Punkte: 124 Gesundheit
+5 Punkte: 174 Gesundheit</Description>
+          <AddonId>A5A027B955AEBD903</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>18</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>30.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Überlegener Geist</Name>
+      <Icon>triumphant_spirit</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>287290575</AbilityId>
+          <Description></Description>
+          <AddonId>A111FB4CF00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die bewirkte Heilung um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die bewirkte Heilung um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die bewirkte Heilung um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht die bewirkte Heilung um 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht die bewirkte Heilung um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Vers der Fesselung</Name>
+      <Icon>verse_of_fascination_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>757298829</AbilityId>
+          <Description>Hypnotisiert für 8 Sekunden oder bis zu einem Treffer. Kann nur bei 1 Feind eingesetzt werden.</Description>
+          <AddonId>A2D23768D7C544EF7</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Resonanz</Name>
+      <Icon>resonance</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>877024351</AbilityId>
+          <Description></Description>
+          <AddonId>A3446545F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht alle Attribute Eures Verbündeten um 1%, wenn er unter dem Einfluss von Melodie der Tapferkeit, Melodie der Regeneration und Melodie der Hartnäckigkeit steht. Hält 20 Sekunden an.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht alle Attribute Eures Verbündeten um 2%, wenn er unter dem Einfluss von Melodie der Tapferkeit, Melodie der Regeneration und Melodie der Hartnäckigkeit steht. Hält 20 Sekunden an.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht alle Attribute Eures Verbündeten um 3%, wenn er unter dem Einfluss von Melodie der Tapferkeit, Melodie der Regeneration und Melodie der Hartnäckigkeit steht. Hält 20 Sekunden an.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht alle Attribute Eures Verbündeten um 4%, wenn er unter dem Einfluss von Melodie der Tapferkeit, Melodie der Regeneration und Melodie der Hartnäckigkeit steht. Hält 20 Sekunden an.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht alle Attribute Eures Verbündeten um 5%, wenn er unter dem Einfluss von Melodie der Tapferkeit, Melodie der Regeneration und Melodie der Hartnäckigkeit steht. Hält 20 Sekunden an.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Virtuose</Name>
+      <Icon>virtuoso_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>971980186</AbilityId>
+          <Description>Bewirkt, dass Combopunkte durch den Einsatz von Codas erhalten bleiben. Hält 15 Sekunden an.</Description>
+          <AddonId>A39EF3D9AD3761DC5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>180.000015</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Gestärkte Seele</Name>
+      <Icon>cadence</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Kadenz heilt bis zu 5 Gruppen- und Schlachtzugmitglieder für 2% Eurer Angriffskraft, jedes Mal, wenn sie Schaden verursacht.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Kadenz heilt bis zu 5 Gruppen- und Schlachtzugmitglieder für 4% Eurer Angriffskraft, jedes Mal, wenn sie Schaden verursacht.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Kadenz heilt bis zu 5 Gruppen- und Schlachtzugmitglieder für 6% Eurer Angriffskraft, jedes Mal, wenn sie Schaden verursacht.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Akkord der Inspiration</Name>
+      <Icon>power_chord_b</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Machtakkord heilt bis zu 5 Gruppen- und Schlachtzugmitglieder in Höhe von 3% Eurer Angriffskraft. Erhöht den Schaden Eurer nächsten Kadenz oder Cadenza um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Machtakkord heilt bis zu 5 Gruppen- und Schlachtzugmitglieder in Höhe von 6% Eurer Angriffskraft. Erhöht den Schaden Eurer nächsten Kadenz oder Cadenza um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Euer Machtakkord heilt bis zu 5 Gruppen- und Schlachtzugmitglieder in Höhe von 9% Eurer Angriffskraft. Erhöht den Schaden Eurer nächsten Kadenz oder Cadenza um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Verbesserte Melodie der Regeneration</Name>
+      <Icon>motif_of_regeneration</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-93706266</AbilityId>
+          <Description></Description>
+          <AddonId>AFA6A27E600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Melodie der Regeneration betrifft jetzt Gruppen- und Schlachtzugmitglieder.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Verbesserte Musiktheorie</Name>
+      <Icon>exorcize1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-35880143</AbilityId>
+          <Description></Description>
+          <AddonId>AFDDC833100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Bardenangriffen um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Bardenangriffen um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Bardenangriffen um 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Nachhall</Name>
+      <Icon>ward1z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-24355901</AbilityId>
+          <Description></Description>
+          <AddonId>AFE8C5BC300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn Ihr eine Coda einsetzt, besteht eine Chance von 20% pro eingesetzten Combopunkt, dass Ihr eine kumulative Stärkung erhaltet, die Eure Angriffskraft um 8% pro Kumulierung erhöht. Maximal 1 Kumulierung möglich.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Wenn Ihr eine Coda einsetzt, besteht eine Chance von 20% pro eingesetzten Combopunkt, dass Ihr eine kumulative Stärkung erhaltet, die Eure Angriffskraft um 8% pro Kumulierung erhöht. Maximal 2 Kumulierungen möglich.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Wenn Ihr eine Coda einsetzt, besteht eine Chance von 20% pro eingesetzten Combopunkt, dass Ihr eine kumulative Stärkung erhaltet, die Eure Angriffskraft um 8% pro Kumulierung erhöht. Maximal 3 Kumulierungen möglich.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Wenn Ihr eine Coda einsetzt, besteht eine Chance von 20% pro eingesetzten Combopunkt, dass Ihr eine kumulative Stärkung erhaltet, die Eure Angriffskraft um 8% pro Kumulierung erhöht. Maximal 4 Kumulierungen möglich.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Wenn Ihr eine Coda einsetzt, besteht eine Chance von 20% pro eingesetzten Combopunkt, dass Ihr eine kumulative Stärkung erhaltet, die Eure Angriffskraft um 8% pro Kumulierung erhöht. Maximal 5 Kumulierungen möglich.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Vers der Qual</Name>
+      <Icon>bard_verse_of_agony</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3372885</AbilityId>
+          <Description>Verursacht 637 bis 704 Lebensschaden.</Description>
+          <AddonId>AFFCC88ABE7680A26</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Harmonische Verzerrung</Name>
+      <Icon>bard_harmonic_distortion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-5114297</AbilityId>
+          <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 568 bis 628 Gesundheit wieder her.</Description>
+          <AddonId>AFFB1F647515D4FE5</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        </Ability>
+        <Ability>
+          <AbilityId>-20742196</AbilityId>
+          <Description></Description>
+          <AddonId>AFEC37FCC00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Modulation</Name>
+      <Icon>coda_of_wrath</Icon>
+      <PrereqTraitKey>23</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Cadenza verringert die Abklingzeit von Vers der Qual und Vers der Vitalität um 1 Sekunde pro Sekunde an Kanalisierung.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Cadenza verringert die Abklingzeit von Vers der Qual und Vers der Vitalität um 2 Sekunden pro Sekunde an Kanalisierung.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Orchester der Ebenen</Name>
+      <Icon>bard_orchestra_of_the_planes</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89538427</AbilityId>
+        <Description>Platziert eine Aura zu Füßen des Schurken, die den Schaden von Gruppen- und Schlachtzugmitgliedern um 15% erhöht, sie über 15 Sekunden um 630 Gesundheit heilt und bis zu 5 Gegnern 959 Lebensschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFAA9C085A3AD3A8E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vers der Okklusion</Name>
+      <Icon>tactician_ablative_coil_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-72375985</AbilityId>
+        <Description>Platziert ein Schild über alle Gruppen- oder Schlachtzugmitglieder, der bis zu 543 Schaden absorbiert. Hält 30 Sekunden lang an.</Description>
+        <AddonId>AFBAFA14F4829FC0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-37266356</AbilityId>
+        <Description>Platziert ein Schild über alle Gruppen- oder Schlachtzugmitglieder, der bis zu 547 Schaden absorbiert. Hält 30 Sekunden lang an.</Description>
+        <AddonId>AFDC75C4C805F705D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cadenza</Name>
+      <Icon>power_chord_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-65335436</AbilityId>
+        <Description>Verursacht 605 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFC1B0F749E44C343</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-43267434</AbilityId>
+        <Description>Verursacht 641 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFD6BCA965F150B33</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-3698773</AbilityId>
+        <Description>Verursacht 670 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFFC78FAB4C59713D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-39080425</AbilityId>
+        <Description>Verursacht 715 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFDABAE17B537DEAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-49425685</AbilityId>
+        <Description>Verursacht 759 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFD0DD2EBF0C71D7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-49188682</AbilityId>
+        <Description>Verursacht 895 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFD1170B6A03594A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43576066</AbilityId>
+        <Description>Verursacht 931 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFD6714FE63F7DDB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-92542259</AbilityId>
+        <Description>Verursacht 1324 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFA7BEACD4A655395</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-92527884</AbilityId>
+        <Description>Verursacht 1723 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFA7C22F4B3027C3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83091547</AbilityId>
+        <Description>Verursacht 1908 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFB0C1FA58B3FF768</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mehrfach-
+schwingungen</Name>
+      <Icon>untangle_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-59553057</AbilityId>
+        <Description>Kadenz, Cadenza und Machtakkord fügen 3 Gegnern Schaden zu, verursachen aber 50% weniger Schaden.</Description>
+        <AddonId>AFC734ADF682130EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Barden-Meisterung</Name>
+      <Icon>inspiration4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-24688849</AbilityId>
+        <Description>Erhöht den Schaden um 0,75%, die Heilung um 0,5% und die Ausdauer um 0,5% pro Punkt, welcher der Barden-Seele zugewiesen wird.</Description>
+        <AddonId>AFE87472FA2FE509E</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name></Name>
+      <Icon>Default</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-20742196</AbilityId>
+        <Description></Description>
+        <AddonId>AFEC37FCC00000000</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Harmonische Verzerrung</Name>
+      <Icon>bard_harmonic_distortion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-5114297</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 568 bis 628 Gesundheit wieder her.</Description>
+        <AddonId>AFFB1F647515D4FE5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-40000045</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 653 bis 722 Gesundheit wieder her.</Description>
+        <AddonId>AFD9DA5D3782382A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-65283868</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 676 bis 747 Gesundheit wieder her.</Description>
+        <AddonId>AFC1BD8E47B8D1434</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-96336731</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 782 bis 864 Gesundheit wieder her.</Description>
+        <AddonId>AFA4204A53AA757F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-7627098</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 834 bis 922 Gesundheit wieder her.</Description>
+        <AddonId>AFF8B9EA67CF33F95</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-58949448</AbilityId>
+        <Description>Bei jedem Einsatz einer Coda erhält der Schurke eine Chance von 20% pro Combopunkt, Harmonische Energie zu erhalten, die den Schaden um 5% erhöht. Diese Stärkung kann bis zu 5 Mal kumuliert werden. Harmonische Verzerrung verbraucht 1 Kumulierung von Harmonische Energie und stellt bei einem einzelnen Verbündeten 841 bis 929 Gesundheit wieder her.</Description>
+        <AddonId>AFC7C80B881373EC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vers der Qual</Name>
+      <Icon>bard_verse_of_agony</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-3372885</AbilityId>
+        <Description>Verursacht 637 bis 704 Lebensschaden.</Description>
+        <AddonId>AFFCC88ABE7680A26</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-69227211</AbilityId>
+        <Description>Verursacht 697 bis 771 Lebensschaden.</Description>
+        <AddonId>AFBDFAD3598F07D90</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-93274431</AbilityId>
+        <Description>Verursacht 791 bis 874 Lebensschaden.</Description>
+        <AddonId>AFA70BEC197DEFDF8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-9237208</AbilityId>
+        <Description>Verursacht 909 bis 1005 Lebensschaden.</Description>
+        <AddonId>AFF730D2874B7D9B0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-38674562</AbilityId>
+        <Description>Verursacht 1360 bis 1504 Lebensschaden.</Description>
+        <AddonId>AFDB1DF7EA458566C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-95853818</AbilityId>
+        <Description>Verursacht 1730 bis 1912 Lebensschaden.</Description>
+        <AddonId>AFA49630608D39524</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.750000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.750000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Melodie der Regeneration</Name>
+      <Icon>motif_of_regeneration_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>18574050</AbilityId>
+        <Description>Stellt über 20 Sekunden 105 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>A011B6AE226FDCA3F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>199680781</AbilityId>
+        <Description>Stellt über 20 Sekunden 165 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>A0BE6E30DBB0A31C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>706587702</AbilityId>
+        <Description>Stellt über 20 Sekunden 202 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>A2A1DAC36A89B929B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1580913309</AbilityId>
+        <Description>Stellt über 20 Sekunden 224 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>A5E3AD29D7720330B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1307689744</AbilityId>
+        <Description>Stellt über 20 Sekunden 253 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>A4DF1C310DD7D49E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-30384771</AbilityId>
+        <Description>Stellt über 20 Sekunden 264 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFE305D7DBCB7AA9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-5268097</AbilityId>
+        <Description>Stellt über 20 Sekunden 295 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFFAF9D7FB2FB1CB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-8901407</AbilityId>
+        <Description>Stellt über 20 Sekunden 309 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFF782CE19DDDF7ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15194434</AbilityId>
+        <Description>Stellt über 20 Sekunden 355 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFF1826BECF4FD474</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-13992149</AbilityId>
+        <Description>Stellt über 20 Sekunden 395 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFF2A7F2BC74A6177</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-22277659</AbilityId>
+        <Description>Stellt über 20 Sekunden 397 Gesundheit wieder her. Erhöht die erhaltene Heilung um 5%.</Description>
+        <AddonId>AFEAC11E5A89C84AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.990000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Coda der Raserei</Name>
+      <Icon>coda_of_fury</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>37198687</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 124 Schaden
+2 Punkte: 160 Schaden
+3 Punkte: 202 Schaden
+4 Punkte: 250 Schaden
+5 Punkte: 307 Schaden</Description>
+        <AddonId>A02379B5FC9B1A000</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1662740908</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 127 Schaden
+2 Punkte: 164 Schaden
+3 Punkte: 210 Schaden
+4 Punkte: 263 Schaden
+5 Punkte: 325 Schaden</Description>
+        <AddonId>A631B69AC337B7E92</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1743274238</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 128 Schaden
+2 Punkte: 168 Schaden
+3 Punkte: 217 Schaden
+4 Punkte: 273 Schaden
+5 Punkte: 339 Schaden</Description>
+        <AddonId>A67E840FE96056431</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>852622817</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 130 Schaden
+2 Punkte: 172 Schaden
+3 Punkte: 226 Schaden
+4 Punkte: 288 Schaden
+5 Punkte: 361 Schaden</Description>
+        <AddonId>A32D1FDE1A175ED63</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1851932100</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 133 Schaden
+2 Punkte: 178 Schaden
+3 Punkte: 236 Schaden
+4 Punkte: 304 Schaden
+5 Punkte: 384 Schaden</Description>
+        <AddonId>A6E623DC47378A6AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>136374041</AbilityId>
+        <Description>Verursacht Todesschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 139 Schaden
+2 Punkte: 195 Schaden
+3 Punkte: 267 Schaden
+4 Punkte: 352 Schaden
+5 Punkte: 452 Schaden</Description>
+        <AddonId>A0820E719A8BC5FC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-62870766</AbilityId>
+        <Description>Verursacht Lebensschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 141 Schaden
+2 Punkte: 200 Schaden
+3 Punkte: 275 Schaden
+4 Punkte: 365 Schaden
+5 Punkte: 470 Schaden</Description>
+        <AddonId>AFC40AB12E3034AD0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5559716</AbilityId>
+        <Description>Verursacht Lebensschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 160 Schaden
+2 Punkte: 249 Schaden
+3 Punkte: 363 Schaden
+4 Punkte: 502 Schaden
+5 Punkte: 666 Schaden</Description>
+        <AddonId>AFFAB2A5CBBBF564A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-99153953</AbilityId>
+        <Description>Verursacht Lebensschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 181 Schaden
+2 Punkte: 299 Schaden
+3 Punkte: 454 Schaden
+4 Punkte: 642 Schaden
+5 Punkte: 866 Schaden</Description>
+        <AddonId>AFA1707DF9B85B96D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-94801845</AbilityId>
+        <Description>Verursacht Lebensschaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 190 Schaden
+2 Punkte: 322 Schaden
+3 Punkte: 495 Schaden
+4 Punkte: 706 Schaden
+5 Punkte: 958 Schaden</Description>
+        <AddonId>AFA59704B88072F28</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vers der Vitalität</Name>
+      <Icon>verse_of_vitality</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>135522751</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 280 bis 310 Gesundheit wieder her.</Description>
+        <AddonId>A0813E9BF2912C322</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>231958367</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 294 bis 325 Gesundheit wieder her.</Description>
+        <AddonId>A0DD3675F6DA3A1FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17019824</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 337 bis 373 Gesundheit wieder her.</Description>
+        <AddonId>AFEFC4C503631EF57</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-38164145</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 375 bis 415 Gesundheit wieder her.</Description>
+        <AddonId>AFDB9A94F67FA19BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-35784547</AbilityId>
+        <Description>Stellt bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern 377 bis 417 Gesundheit wieder her.</Description>
+        <AddonId>AFDDDF89D62A1D48D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda der Feigheit</Name>
+      <Icon>coda_of_cowardice</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>274374632</AbilityId>
+        <Description>Erhöht beim Feind und Feinden in der Nähe den durch körperliche Angriffe erlittenen Schaden um 5%. Die Dauer des Effekts richtet sich nach der Zahl der Combopunkte.
+
+1 Punkt: Dauer beträgt 6 Sekunden
+2 Punkte: Dauer beträgt 12 Sekunden
+3 Punkte: Dauer beträgt 18 Sekunden
+4 Punkte: Dauer beträgt 24 Sekunden
+5 Punkte: Dauer beträgt 30 Sekunden</Description>
+        <AddonId>A105A9FE8C4C8803A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hymne des Ruhms</Name>
+      <Icon>anthem_of_glory</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>523867370</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 141 und alle Widerstände um 19.</Description>
+        <AddonId>A1F3994EA84754240</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1723014383</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 270 und alle Widerstände um 23.</Description>
+        <AddonId>A66B31CEF83C7A8C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>932862203</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 399 und alle Widerstände um 27.</Description>
+        <AddonId>A379A58FB9B10AE87</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1192989483</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 527 und alle Widerstände um 32.</Description>
+        <AddonId>A471B932B8FA20C84</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1874009136</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 656 und alle Widerstände um 40.</Description>
+        <AddonId>A6FB31C30C16947B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-39269357</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 1400 und alle Widerstände um 50.</Description>
+        <AddonId>AFDA8CC13CE1DE0E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-44498497</AbilityId>
+        <Description>Erhöht bei allen Gruppen- oder Schlachtzugmitgliedern die Rüstung um 2000 und alle Widerstände um 65.</Description>
+        <AddonId>AFD5901BF682F32D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vers der Fesselung</Name>
+      <Icon>verse_of_fascination_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>757298829</AbilityId>
+        <Description>Hypnotisiert für 8 Sekunden oder bis zu einem Treffer. Kann nur bei 1 Feind eingesetzt werden.</Description>
+        <AddonId>A2D23768D7C544EF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vers der Freude</Name>
+      <Icon>verse_of_joy</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>766317719</AbilityId>
+        <Description>Stellt über 15 Sekunden jede Sekunde 5 Ladung wieder her, 50 Mana, 5 Kraft und 5 Energie bei allen Gruppen- oder Schlachtzugmitgliedern.</Description>
+        <AddonId>A2DAD149799991550</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-37403796</AbilityId>
+        <Description>Regeneriert über 15 Sekunden jede Sekunde 5 Ladung, 120 Mana, 5 Kraft und 5 Energie bei allen Gruppen- oder Schlachtzugmitgliedern.</Description>
+        <AddonId>AFDC5436C5D26226F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-32184112</AbilityId>
+        <Description>Regeneriert über 15 Sekunden jede Sekunde 5 Ladung, 140 Mana, 5 Kraft und 5 Energie bei allen Gruppen- oder Schlachtzugmitgliedern.</Description>
+        <AddonId>AFE14E8D06588958C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-23628312</AbilityId>
+        <Description>Regeneriert über 15 Sekunden jede Sekunde 5 Ladung, 160 Mana, 5 Kraft und 5 Energie bei allen Gruppen- oder Schlachtzugmitgliedern.</Description>
+        <AddonId>AFE9775E8807137B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vers der Begeisterung</Name>
+      <Icon>verse_of_fascination</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>806905193</AbilityId>
+        <Description>Hypnotisiert Feinde in der Nähe für 8 Sekunden oder bis zu einem Treffer.</Description>
+        <AddonId>A301865698B83FC55</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda des Wagnisses</Name>
+      <Icon>coda_of_distress_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>874186574</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 80 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A341B074E3B22A7D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>558981082</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 115 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A21515FDA7C008092</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1738192904</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 175 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Punkt: 10 Sekunden
+2 Punkte: 15 Sekunden
+3 Punkte: 20 Sekunden
+4 Punkte: 25 Sekunden
+5 Punkte: 30 Sekunden</Description>
+        <AddonId>A679AB80884913FFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>686765822</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 250 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A28EF36FE813677AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>515661430</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 370 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A1EBC5E7640C2E14E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>60843841</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 530 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A03A0674141BE00CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1001287049</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 900 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>A3BAE6D89842ED939</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-4001071</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 1200 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>AFFC2F2D17E596F23</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18448332</AbilityId>
+        <Description>Bewirkt, dass der Feind zusätzlich 1500 körperlichen Schaden erleidet. Jeder Angreifer kann dies einmal in 3 Sekunden auslösen.
+
+1 Point: 10 Sekunden
+2 Points: 15 Sekunden
+3 Points: 20 Sekunden
+4 Points: 25 Sekunden
+5 Points: 30 Sekunden</Description>
+        <AddonId>AFEE6803486E21765</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Virtuose</Name>
+      <Icon>virtuoso_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>971980186</AbilityId>
+        <Description>Bewirkt, dass Combopunkte durch den Einsatz von Codas erhalten bleiben. Hält 15 Sekunden an.</Description>
+        <AddonId>A39EF3D9AD3761DC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>180.000015</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda der Verzweiflung</Name>
+      <Icon>coda_of_distress</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1015923578</AbilityId>
+        <Description>Erhöht beim Feind und Feinden in der Nähe den durch nicht-körperliche Angriffe erlittenen Schaden um 7%. Die Dauer des Effekts richtet sich nach der Zahl der Combopunkte.
+ 
+ 1 Punkt: Dauer beträgt 6 Sekunden
+ 2 Punkte: Dauer beträgt 12 Sekunden
+ 3 Punkte: Dauer beträgt 18 Sekunden
+ 4 Punkte: Dauer beträgt 24 Sekunden
+ 5 Punkte: Dauer beträgt 30 Sekunden</Description>
+        <AddonId>A3C8DC37A72AF7186</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coda des Zorns</Name>
+      <Icon>coda_of_wrath_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1179522229</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 202 Schaden
+2 Punkte: 252 Schaden
+3 Punkte: 310 Schaden
+4 Punkte: 378 Schaden
+5 Punkte: 455 Schaden</Description>
+        <AddonId>A464E14B5320AA383</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1460181813</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 204 Schaden
+2 Punkte: 254 Schaden
+3 Punkte: 316 Schaden
+4 Punkte: 387 Schaden
+5 Punkte: 468 Schaden</Description>
+        <AddonId>A57089B35DB9E9F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1787413632</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 207 Schaden
+2 Punkte: 261 Schaden
+3 Punkte: 328 Schaden
+4 Punkte: 404 Schaden
+5 Punkte: 493 Schaden</Description>
+        <AddonId>A6A89C4806A4E3AF5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>795832219</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 208 Schaden
+2 Punkte: 266 Schaden
+3 Punkte: 336 Schaden
+4 Punkte: 416 Schaden
+5 Punkte: 510 Schaden</Description>
+        <AddonId>A2F6F6F9B8CCCBE66</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>260447145</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 210 Schaden
+2 Punkte: 270 Schaden
+3 Punkte: 345 Schaden
+4 Punkte: 430 Schaden
+5 Punkte: 530 Schaden</Description>
+        <AddonId>A0F861BA966319568</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1766652634</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 214 Schaden
+2 Punkte: 277 Schaden
+3 Punkte: 358 Schaden
+4 Punkte: 451 Schaden
+5 Punkte: 560 Schaden</Description>
+        <AddonId>A694CFADAA466922C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1939066695</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 216 Schaden
+2 Punkte: 285 Schaden
+3 Punkte: 371 Schaden
+4 Punkte: 472 Schaden
+5 Punkte: 591 Schaden</Description>
+        <AddonId>A7393CF478D0D85B8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>501328992</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 220 Schaden
+2 Punkte: 295 Schaden
+3 Punkte: 391 Schaden
+4 Punkte: 502 Schaden
+5 Punkte: 632 Schaden</Description>
+        <AddonId>A1DE1AC607C974394</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1898339536</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 229 Schaden
+2 Punkte: 315 Schaden
+3 Punkte: 425 Schaden
+4 Punkte: 556 Schaden
+5 Punkte: 711 Schaden</Description>
+        <AddonId>A71265CD0416C1CB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>840476418</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 232 Schaden
+2 Punkte: 325 Schaden
+3 Punkte: 445 Schaden
+4 Punkte: 586 Schaden
+5 Punkte: 753 Schaden</Description>
+        <AddonId>A3218A702B9FC72D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-69665916</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 255 Schaden
+2 Punkte: 382 Schaden
+3 Punkte: 545 Schaden
+4 Punkte: 742 Schaden
+5 Punkte: 976 Schaden</Description>
+        <AddonId>AFBD8FB8416127379</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-81579102</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 301 Schaden
+2 Punkte: 499 Schaden
+3 Punkte: 756 Schaden
+4 Punkte: 1070 Schaden
+5 Punkte: 1444 Schaden</Description>
+        <AddonId>AFB2333A210C2DCAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-61992534</AbilityId>
+        <Description>Verursacht Lebensschaden pro eingesetzten Combopunkt.
+
+1 Punkt: 317 Schaden
+2 Punkte: 537 Schaden
+3 Punkte: 825 Schaden
+4 Punkte: 1177 Schaden
+5 Punkte: 1597 Schaden</Description>
+        <AddonId>AFC4E11AA3A40A3B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Melodie der Hartnäckigkeit</Name>
+      <Icon>motif_of_tenacity</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1303653269</AbilityId>
+        <Description>Reduziert den erlittenen Schaden bei allen Gruppen- oder Schlachtzugmitgliedern 20 Sekunden lang um 5%.</Description>
+        <AddonId>A4DB42B957C8DB970</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Machtakkord</Name>
+      <Icon>power_chord</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1343250481</AbilityId>
+        <Description>Verursacht 210 bis 232 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A50106031622AF48C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>1920880032</AbilityId>
+        <Description>Verursacht 217 bis 240 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A727E4DA07932661B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>2031192261</AbilityId>
+        <Description>Verursacht 229 bis 254 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A791188C5BF0A30F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>1781670663</AbilityId>
+        <Description>Verursacht 239 bis 265 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A6A322307A299B479</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>610163606</AbilityId>
+        <Description>Verursacht 256 bis 283 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A245E5B968F435294</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>1178440884</AbilityId>
+        <Description>Verursacht 276 bis 306 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A463D94B441267341</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>421949339</AbilityId>
+        <Description>Verursacht 317 bis 350 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A19266F9BCAF3DE9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-12863690</AbilityId>
+        <Description>Verursacht 329 bis 364 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFF3BB73658127090</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-53549642</AbilityId>
+        <Description>Verursacht 467 bis 516 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFCCEE5B67D9A978D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-68350060</AbilityId>
+        <Description>Verursacht 606 bis 670 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFBED0F948570E107</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42581920</AbilityId>
+        <Description>Verursacht 671 bis 741 Lebensschaden. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFD7640603742E8D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Kadenz</Name>
+      <Icon>cadence_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1487673667</AbilityId>
+        <Description>Verursacht 366 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A58AC1943784B2900</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>587558317</AbilityId>
+        <Description>Verursacht 376 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A23056DAD94064C94</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>852172678</AbilityId>
+        <Description>Verursacht 390 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A32CB1F8670DD4B50</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>270114254</AbilityId>
+        <Description>Verursacht 411 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A10199DCE68057F9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1072505161</AbilityId>
+        <Description>Verursacht 427 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A3FED214973B83449</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>411310742</AbilityId>
+        <Description>Verursacht 449 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A18841A96C2ABC3A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>22377412</AbilityId>
+        <Description>Verursacht 472 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A015573C43E51B0AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>473109736</AbilityId>
+        <Description>Verursacht 504 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A1C3314E81BAE824F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>2062268578</AbilityId>
+        <Description>Verursacht 549 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A7AEBB8A2B1988031</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1348485534</AbilityId>
+        <Description>Verursacht 619 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>A5060419E3C5C5DAD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-34463805</AbilityId>
+        <Description>Verursacht 644 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFDF21FC3E48043BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-39184981</AbilityId>
+        <Description>Verursacht 915 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFDAA15AB999C6541</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-47845182</AbilityId>
+        <Description>Verursacht 1191 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFD25F0C2964DAB02</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-78797604</AbilityId>
+        <Description>Verursacht 1319 Lebensschaden über 2 Sekunden. Gewährt pro Sekunde 1 Combopunkt.</Description>
+        <AddonId>AFB4DA4DCC52AF122</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Coda der Wiederherstellung</Name>
+      <Icon>coda_of_restoration_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1510112149</AbilityId>
+        <Description>Regeneriert zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder.
+
+1 Punkt: 21 Gesundheit
+2 Punkte: 48 Gesundheit
+3 Punkte: 82 Gesundheit
+4 Punkte: 124 Gesundheit
+5 Punkte: 174 Gesundheit</Description>
+        <AddonId>A5A027B955AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1073604894</AbilityId>
+        <Description>Stellt zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder wieder her.
+
+1 Punkt: 23 Gesundheit
+2 Punkte: 53 Gesundheit
+3 Punkte: 91 Gesundheit
+4 Punkte: 138 Gesundheit
+5 Punkte: 196 Gesundheit</Description>
+        <AddonId>A3FFDE91E45211203</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>902989370</AbilityId>
+        <Description>Stellt zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder wieder her.
+
+1 Punkt: 25 Gesundheit
+2 Punkte: 59 Gesundheit
+3 Punkte: 100 Gesundheit
+4 Punkte: 155 Gesundheit
+5 Punkte: 218 Gesundheit</Description>
+        <AddonId>A35D2863A512F08EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>486565327</AbilityId>
+        <Description>Stellt zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder wieder her.
+
+1 Punkt: 27 Gesundheit
+2 Punkte: 61 Gesundheit
+3 Punkte: 106 Gesundheit
+4 Punkte: 160 Gesundheit
+5 Punkte: 227 Gesundheit</Description>
+        <AddonId>A1D0065CF9626ECB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>765521026</AbilityId>
+        <Description>Stellt zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder wieder her.
+
+1 Punkt: 30 Gesundheit
+2 Punkte: 68 Gesundheit
+3 Punkte: 119 Gesundheit
+4 Punkte: 182 Gesundheit
+5 Punkte: 257 Gesundheit</Description>
+        <AddonId>A2DA0EC82B7F44DC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1818962550</AbilityId>
+        <Description>Stellt zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder wieder her.
+
+1 Punkt: 30 Gesundheit
+2 Punkte: 70 Gesundheit
+3 Punkte: 122 Gesundheit
+4 Punkte: 187 Gesundheit
+5 Punkte: 266 Gesundheit</Description>
+        <AddonId>A6C6B2A76255F6F6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-10462245</AbilityId>
+        <Description>Regeneriert zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder.
+
+1 Punkt: 34 Gesundheit
+2 Punkte: 81 Gesundheit
+3 Punkte: 140 Gesundheit
+4 Punkte: 215 Gesundheit
+5 Punkte: 306 Gesundheit</Description>
+        <AddonId>AFF605BDB5AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-61156732</AbilityId>
+        <Description>Regeneriert zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder.
+
+1 Punkt: 38 Gesundheit
+2 Punkte: 88 Gesundheit
+3 Punkte: 155 Gesundheit
+4 Punkte: 239 Gesundheit
+5 Punkte: 339 Gesundheit</Description>
+        <AddonId>AFC5AD2845AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-77494518</AbilityId>
+        <Description>Regeneriert zusätzliche Gesundheit pro Combopunkt für bis zu 5 Gruppen- oder Schlachtzugmitglieder.
+
+1 Punkt: 38 Gesundheit
+2 Punkte: 88 Gesundheit
+3 Punkte: 155 Gesundheit
+4 Punkte: 240 Gesundheit
+5 Punkte: 341 Gesundheit</Description>
+        <AddonId>AFB61870A5AEBD903</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>30.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Melodie der Tapferkeit</Name>
+      <Icon>motif_of_bravery</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1532247126</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 3 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A5B543C56F68674C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>768521543</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 12 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A2DCEB54770176BFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>677657485</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 28 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A28643B8D8FC62832</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>2066590346</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 40 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A7B2DAA8A42B07314</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2090712182</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 53 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A7C9DBC76762D7215</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1971418677</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 62 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>A75817635F7DF2CEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-31215939</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 130 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>AFE23AEBDBA6A0DD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-78628229</AbilityId>
+        <Description>Erhöht für 20 Sekunden bei allen Gruppen- oder Schlachtzugmitgliedern die Angriffs- und Zauberkraft um 225 und erhöht die kritische Trefferchance auf alle Gruppen- oder Schlachtzugmitglieder um 1% für 20 Sekunden.</Description>
+        <AddonId>AFB503A7BD916688A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hymne des Eifers</Name>
+      <Icon>anthem_of_fervor</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1679203414</AbilityId>
+        <Description>Reduziert die Kosten für Fähigkeiten bei allen Gruppen- oder Schlachtzugmitgliedern um 5%.</Description>
+        <AddonId>A64169C56C4DF44A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Melodie der Ermutigung</Name>
+      <Icon>motif_of_encouragement</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1774010323</AbilityId>
+        <Description>Zwingt bis zu 5 in der Nähe befindliche Kreaturen, dem Schurken für 20 Sekunden zu folgen.</Description>
+        <AddonId>A69BD3FD3745F0A98</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hymne der Tüchtigkeit</Name>
+      <Icon>anthem_of_competence</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1856182425</AbilityId>
+        <Description>Erhöht außerhalb von Kämpfen die Bewegungsgeschwindigkeit aller Gruppen- und Schlachtzugmitglieder um 15%.</Description>
+        <AddonId>A6EA318992F56E5E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Riff</Name>
+      <Icon>riff</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1990860407</AbilityId>
+        <Description>Verursacht 411 bis 454 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A76AA1E779830CE7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1221651225</AbilityId>
+        <Description>Verursacht 434 bis 480 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A48D0EB19CFC8515D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>1011625765</AbilityId>
+        <Description>Verursacht 459 bis 508 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A3C4C2F259C0816B0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1521611542</AbilityId>
+        <Description>Verursacht 490 bis 541 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A5AB1F3163178E702</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>346625628</AbilityId>
+        <Description>Verursacht 556 bis 615 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A14A9165C76A94FB6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1092292281</AbilityId>
+        <Description>Verursacht 578 bis 639 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>A411B0EB9CE7231BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-68089579</AbilityId>
+        <Description>Verursacht 750 bis 829 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>AFBF109159D26A90D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-42774919</AbilityId>
+        <Description>Verursacht 1109 bis 1226 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>AFD734E798E3983C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-7950707</AbilityId>
+        <Description>Verursacht 1227 bis 1356 Lebensschaden. Gewährt 5 Combopunkte.</Description>
+        <AddonId>AFF86AE8DBEC36885</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>5</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fanfare der Macht</Name>
+      <Icon>fanfare_of_power</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>2008357338</AbilityId>
+        <Description>Erhöht die Stärke, Geschicklichkeit, Intelligenz und Weisheit aller Gruppen- oder Schlachtzugmitglieder um 30. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A77B519DA20AD56D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>379343254</AbilityId>
+        <Description>Erhöht die Stärke, Geschicklichkeit, Intelligenz und Weisheit aller Gruppen- oder Schlachtzugmitglieder um 40. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A169C5196A863F19C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>7079079</AbilityId>
+        <Description>Erhöht die Stärke, Geschicklichkeit, Intelligenz und Weisheit aller Gruppen- oder Schlachtzugmitglieder um 50. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A006C04A77B357900</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>232723928</AbilityId>
+        <Description>Erhöht die Stärke, Geschicklichkeit, Intelligenz und Weisheit aller Gruppen- oder Schlachtzugmitglieder um 60. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A0DDF15D8A740BB2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-28111274</AbilityId>
+        <Description>Erhöht die Stärke, Geschicklichkeit, Intelligenz und Weisheit aller Gruppen- oder Schlachtzugmitglieder um 70. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFE530E5662BBD8EE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fanfare der Lebenskraft</Name>
+      <Icon>fanfare_of_vigor</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>2028562086</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 10. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A78E966A67C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1138302822</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 20. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A43D91F6692ED58F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>256530365</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 30. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A0F4A57BD8EDA3ADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>692072575</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 40. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A2940307F5E58C134</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>96862812</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 50. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A05C6025C645A4158</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-93118454</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 60. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA73200A7C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-82855484</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 70. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFB0FB9C47C080D22</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>3.000000</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

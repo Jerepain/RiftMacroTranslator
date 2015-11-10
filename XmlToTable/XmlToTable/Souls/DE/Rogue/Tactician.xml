@@ -1,0 +1,3613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Tactician">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Metallpanzerung</Name>
+      <Icon>ward4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18227400</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE9DF3800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Rüstung und Widerstände um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Rüstung und Widerstände um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Rüstung und Widerstände um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Rüstung und Widerstände um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Rüstung und Widerstände um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Strategischer Vorteil</Name>
+      <Icon>paragon_analyze_weakness_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19114985</AbilityId>
+          <Description></Description>
+          <AddonId>AFEDC541700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Wirkungsbereich-Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Wirkungsbereich-Angriffen um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von Wirkungsbereich-Angriffen um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von Wirkungsbereich-Angriffen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von Wirkungsbereich-Angriffen um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Verbesserte Verteidigung</Name>
+      <Icon>steelskin2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51687513</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB4FA700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert den erlittenen Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert den erlittenen Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert den erlittenen Schaden um 3%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Höllische Flut</Name>
+      <Icon>tactician_infernal_torrent</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-79401539</AbilityId>
+          <Description>Verursacht bei bis zu 8 Feinden vor Euch 650 bis 719 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+          <AddonId>AFB446DBD81D4FAE7</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <CostEnergy>15</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Ionisierung</Name>
+      <Icon>energyblast2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-54149741</AbilityId>
+          <Description></Description>
+          <AddonId>AFCC5BD9300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von nicht körperlichen Angriffen um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Energieersparnis</Name>
+      <Icon>elementalist_prismatic_valley_z</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51672995</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB885D00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Angriffe mit kritischen Treffern und Eure kritischen Heilungen gewähren Euch 2 Energie.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Angriffe mit kritischen Treffern und Eure kritischen Heilungen gewähren Euch 4 Energie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Innere Verbrennung</Name>
+      <Icon>tactician_infernal_torrent_a</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Höllische Flut setzt betroffene Gegner 6 Sekunden lang in Brand. Es können maximal 5 Effekte kumuliert werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Nekrotischer Zündsatz</Name>
+      <Icon>tactician_necrotic_primer</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-91287461</AbilityId>
+          <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 183 Schaden
+2 Punkte: 2 Kumulierungen, 233 Schaden
+3 Punkte: 3 Kumulierungen, 294 Schaden
+4 Punkte: 4 Kumulierungen, 363 Schaden
+5 Punkte: 5 Kumulierungen, 444 Schaden</Description>
+          <AddonId>AFA8F105BBE40C76B</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>22</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>1.500000</CastTime>
+          <Interruptible>false</Interruptible>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Ausweichplan</Name>
+      <Icon>tempest_mantlet</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-70367827</AbilityId>
+          <Description></Description>
+          <AddonId>AFBCE45AD00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Angriffe mit kritischen Treffern und Eure kritische Heilungen erhöhen Euren verursachten Schaden und Eure bewirkte Heilung 10 Sekunden lang um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Angriffe mit kritischen Treffern und Eure kritische Heilungen erhöhen Euren verursachten Schaden und Eure bewirkte Heilung 10 Sekunden lang um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Angriffe mit kritischen Treffern und Eure kritische Heilungen erhöhen Euren verursachten Schaden und Eure bewirkte Heilung 10 Sekunden lang um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Regenerativer Motor</Name>
+      <Icon>tactician_mass_curative_engine_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-83571463</AbilityId>
+          <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 64 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+          <AddonId>AFB04CCF97FDED86E</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Taktische Ausbildung</Name>
+      <Icon>tempest_evasive_redirection</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-64149443</AbilityId>
+          <Description></Description>
+          <AddonId>AFC2D283D00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Wirkzeit- und kanalisierten Angriffen um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Wirkzeit- und kanalisierten Angriffen um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von Wirkzeit- und kanalisierten Angriffen um 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von Wirkzeit- und kanalisierten Angriffen um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von Wirkzeit- und kanalisierten Angriffen um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Massenrückstoß</Name>
+      <Icon>tactician_mass_repulsion</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-94175219</AbilityId>
+          <Description>Stößt umgebende Feinde zurück.</Description>
+          <AddonId>AFA63000DD78B10FA</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Erweiterte Arbeitslast</Name>
+      <Icon>warlord_everything_isaweapon</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-75508612</AbilityId>
+          <Description></Description>
+          <AddonId>AFB7FD47C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Ausdauer um 2% und Eure maximale Energie um 5.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Ausdauer um 4% und Eure maximale Energie um 10.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Ausdauer um 6% und Eure maximale Energie um 15.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Flutüberladung</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-95587523</AbilityId>
+          <Description>Entfernt Kumulierungen von Flutüberladung. Erhöht den Schaden und die Heilung von Fluten für 60 Sekunden.
+
+1 Punkt: 1 Kumulierung, 8% Erhöhung
+2 Punkte: 2 Kumulierungen, 16% Erhöhung
+3 Punkte: 3 Kumulierungen, 24% Erhöhung
+4 Punkte: 4 Kumulierungen, 32% Erhöhung
+5 Punkte: 5 Kumulierungen, 40% Erhöhung</Description>
+          <AddonId>AFA4D733D71B0ED11</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>60.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Wärmeabzug</Name>
+      <Icon>paladin-scales_of_justice</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-40043378</AbilityId>
+          <Description></Description>
+          <AddonId>AFD9CFC8E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Anfangsenergiekosten von Fluten um 1. Erhöht den von Fluten verursachten Schaden und die bewirkte Heilung um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die Anfangsenergiekosten von Fluten um 2. Erhöht den von Fluten verursachten Schaden und die bewirkte Heilung um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert die Anfangsenergiekosten von Fluten um 3. Erhöht den von Fluten verursachten Schaden und die bewirkte Heilung um 18%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduziert die Anfangsenergiekosten von Fluten um 4. Erhöht den von Fluten verursachten Schaden und die bewirkte Heilung um 24%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduziert die Anfangsenergiekosten von Fluten um 5. Erhöht den von Fluten verursachten Schaden und die bewirkte Heilung um 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Verbesserter Kern</Name>
+      <Icon>tactician_empyrean_core_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-73458120</AbilityId>
+          <Description></Description>
+          <AddonId>AFB9F1E3800000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den durch Eure Kerne verursachten Schaden und die durch sie bewirkte Heilung um 25%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den durch Eure Kerne verursachten Schaden und die durch sie bewirkte Heilung um 50%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Vernichtungsverstärkung</Name>
+      <Icon>tactician_devastative_augument</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-12117205</AbilityId>
+          <Description>Erhöht Schaden und Heilung 10 Sekunden lang um 20%.</Description>
+          <AddonId>AFF471B2B5788E8B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Empyreum-Schub</Name>
+      <Icon>harbinger_empyrean_ascension_d</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-29874541</AbilityId>
+          <Description></Description>
+          <AddonId>AFE38269300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Blitzen und Strahlen um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Blitzen und Strahlen um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von Blitzen und Strahlen um 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Erweiterte Fluten</Name>
+      <Icon>energybolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-31758538</AbilityId>
+          <Description></Description>
+          <AddonId>AFE1B673600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Bei jedem Einsatz einer Flut erhaltet Ihr eine kumulative Stärkung, durch die Eure nächste Taktikerfähigkeit, die Combopunkte erzeugt, einen zusätzlichen Combopunkt gewährt. Kann bis zu 2 Mal kumuliert werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Bei jedem Einsatz einer Flut erhaltet Ihr eine kumulative Stärkung, durch die Eure nächste Taktikerfähigkeit, die Combopunkte erzeugt, einen zusätzlichen Combopunkt gewährt. Kann bis zu 4 Mal kumuliert werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Verbesserte Nekrotische Flut</Name>
+      <Icon>tactician_necrotic_torrent_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Nekrotische Flut verursacht 40% mehr Schaden, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Nekrotische Flut verursacht 60% mehr Schaden, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Höllenstrahl</Name>
+      <Icon>void_knight_rift_reversal_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-30150110</AbilityId>
+          <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 1095 bis 1210 Feuerschaden über 15 Sekunden.</Description>
+          <AddonId>AFE33F2224DEA7DF3</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostEnergy>24</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Heilende Flut</Name>
+      <Icon>tactician_curative_torrent</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-68267828</AbilityId>
+          <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 221 bis 245 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+          <AddonId>AFBEE50CC7787FDAD</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+          <CostEnergy>15</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <MaxAffected>20</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Schmerztherapie</Name>
+      <Icon>harbinger_conditioned_response</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-24380305</AbilityId>
+          <Description></Description>
+          <AddonId>AFE8BFC6F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die bewirkte Heilung um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die bewirkte Heilung um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die bewirkte Heilung um 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht die bewirkte Heilung um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht die bewirkte Heilung um 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Temperaturumkehr</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_a</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gletscherstrom belegt betroffene Feinde mit bis zu 7 Kumulierungen von Gletscherkühle, wodurch sie 10% mehr Schaden pro Kumulierung von Höllische Flut erleiden. Höllische Flut verbraucht pro Impuls 1 Kumulierung von Gletscherkühle.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Zündsatzverstärkung</Name>
+      <Icon>tactician_barrier_augument_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96052269</AbilityId>
+          <Description></Description>
+          <AddonId>AFA465BD300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Abschlussattacken des Taktikers erhöhen den verursachten Schaden und die bewirkte Heilung um 10%. Dauer beträgt 30 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Energie-Umwandlung</Name>
+      <Icon>tempest_endgame</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-96852856</AbilityId>
+        <Description>Strahlen können kostenlos als Sofortzauber gewirkt werden, ihr Schaden ist jedoch um 30% verringert. Heilwelle ist kostenlos, ihre Heilung ist jedoch um 30% verringert. Strahlen und Heilwelle stellen 3 Energie pro investierten Combopunkt wieder her.</Description>
+        <AddonId>AFA3A2488B8E8F15E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Fluten-Zündsatz</Name>
+      <Icon>stormcaller_lightning_storm_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-95587523</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Erhöht den Schaden und die Heilung von Fluten für 60 Sekunden.
+
+1 Punkt: 1 Kumulierung, 8% Erhöhung
+2 Punkte: 2 Kumulierungen, 16% Erhöhung
+3 Punkte: 3 Kumulierungen, 24% Erhöhung
+4 Punkte: 4 Kumulierungen, 32% Erhöhung
+5 Punkte: 5 Kumulierungen, 40% Erhöhung</Description>
+        <AddonId>AFA4D733D71B0ED11</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>60.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Barrierensteuerung</Name>
+      <Icon>tactician_barrier_augument_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-95263689</AbilityId>
+        <Description>Verleiht einen Absorptionsschild, der Schaden in Höhe von 20% der maximalen Gesundheit des Schurken absorbiert. Dauer beträgt 10 Sekunden.</Description>
+        <AddonId>AFA52643742C961B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Massenrückstoß</Name>
+      <Icon>tactician_mass_repulsion</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-94175219</AbilityId>
+        <Description>Stößt umgebende Feinde zurück.</Description>
+        <AddonId>AFA63000DD78B10FA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyreum-Motor</Name>
+      <Icon>tactician_empyrean_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92079741</AbilityId>
+        <Description>Der Empyreum-Blitz des Schurken verursacht zusätzlich 70% Schaden bei Feinden in seiner Nähe. Erhöht die Schadens- und Heilwirkung von Kernen um 20%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFA82F9838C5B37E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Nekrotischer Strahl</Name>
+      <Icon>tactician_necrotic_primer</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-91287461</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 183 Schaden
+2 Punkte: 2 Kumulierungen, 233 Schaden
+3 Punkte: 3 Kumulierungen, 294 Schaden
+4 Punkte: 4 Kumulierungen, 363 Schaden
+5 Punkte: 5 Kumulierungen, 444 Schaden</Description>
+        <AddonId>AFA8F105BBE40C76B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>-26026272</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 186 Schaden
+2 Punkte: 2 Kumulierungen, 237 Schaden
+3 Punkte: 3 Kumulierungen, 302 Schaden
+4 Punkte: 4 Kumulierungen, 375 Schaden
+5 Punkte: 5 Kumulierungen, 460 Schaden</Description>
+        <AddonId>AFE72DEE0819C1AC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>-33076522</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 188 Schaden
+2 Punkte: 2 Kumulierungen, 244 Schaden
+3 Punkte: 3 Kumulierungen, 313 Schaden
+4 Punkte: 4 Kumulierungen, 392 Schaden
+5 Punkte: 5 Kumulierungen, 486 Schaden</Description>
+        <AddonId>AFE074AD6C622B0D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>-72408768</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 190 Schaden
+2 Punkte: 2 Kumulierungen, 249 Schaden
+3 Punkte: 3 Kumulierungen, 324 Schaden
+4 Punkte: 4 Kumulierungen, 408 Schaden
+5 Punkte: 5 Kumulierungen, 509 Schaden</Description>
+        <AddonId>AFBAF214094CEF4A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>-80099452</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 194 Schaden
+2 Punkte: 2 Kumulierungen, 257 Schaden
+3 Punkte: 3 Kumulierungen, 339 Schaden
+4 Punkte: 4 Kumulierungen, 432 Schaden
+5 Punkte: 5 Kumulierungen, 543 Schaden</Description>
+        <AddonId>AFB39C7846F1DA8F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-87974366</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 198 Schaden
+2 Punkte: 2 Kumulierungen, 269 Schaden
+3 Punkte: 3 Kumulierungen, 359 Schaden
+4 Punkte: 4 Kumulierungen, 464 Schaden
+5 Punkte: 5 Kumulierungen, 589 Schaden</Description>
+        <AddonId>AFAC19E227D060885</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-90463400</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 206 Schaden
+2 Punkte: 2 Kumulierungen, 291 Schaden
+3 Punkte: 3 Kumulierungen, 397 Schaden
+4 Punkte: 4 Kumulierungen, 524 Schaden
+5 Punkte: 5 Kumulierungen, 674 Schaden</Description>
+        <AddonId>AFA9BA3588025E8E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-83075173</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 210 Schaden
+2 Punkte: 2 Kumulierungen, 298 Schaden
+3 Punkte: 3 Kumulierungen, 410 Schaden
+4 Punkte: 4 Kumulierungen, 543 Schaden
+5 Punkte: 5 Kumulierungen, 701 Schaden</Description>
+        <AddonId>AFB0C5F9B9D227F69</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-2323352</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 239 Schaden
+2 Punkte: 2 Kumulierungen, 371 Schaden
+3 Punkte: 3 Kumulierungen, 542 Schaden
+4 Punkte: 4 Kumulierungen, 750 Schaden
+5 Punkte: 5 Kumulierungen, 996 Schaden</Description>
+        <AddonId>AFFDC8C68EA7026CA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-38370443</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 269 Schaden
+2 Punkte: 2 Kumulierungen, 446 Schaden
+3 Punkte: 3 Kumulierungen, 678 Schaden
+4 Punkte: 4 Kumulierungen, 960 Schaden
+5 Punkte: 5 Kumulierungen, 1297 Schaden</Description>
+        <AddonId>AFDB683758CB23822</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-71581565</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Todesschaden pro Combopunkt bei bis zu 8 Feinden.
+
+1 Punkt: 1 Kumulierung, 283 Schaden
+2 Punkte: 2 Kumulierungen, 481 Schaden
+3 Punkte: 3 Kumulierungen, 740 Schaden
+4 Punkte: 4 Kumulierungen, 1058 Schaden
+5 Punkte: 5 Kumulierungen, 1436 Schaden</Description>
+        <AddonId>AFBBBC0835A29FEB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ablativrolle</Name>
+      <Icon>tactician_ablative_coil_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89706999</AbilityId>
+        <Description>Schützt alle Schlachtzugmitglieder um den Schurken, indem der erlittene Schaden 6 Sekunden lang um 30% verringert wird.</Description>
+        <AddonId>AFAA72E097349BC9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Regenerativer Motor</Name>
+      <Icon>tactician_mass_curative_engine_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-83571463</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 64 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFB04CCF97FDED86E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-47104948</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 75 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD313C4C879D705E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-5757409</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 88 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFFA8261FA54A550A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-88432093</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 93 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFABAA2237D3FFC14</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-90437774</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 97 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFA9C077297299741</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-20043403</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 112 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFECE297564375C55</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43069505</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 115 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD6ECFBF7539A502</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-29692731</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 134 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE3AECC57ED2F21F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-49424057</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 143 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD0DD947A915168A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-6102022</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 145 Gesundheit wieder her, wenn Empyreum-Blitz oder Regenerativer Blitz ausgeführt wird. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFFA2E3FA491FFE44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Höllische Flut</Name>
+      <Icon>tactician_infernal_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-79401539</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 650 bis 719 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFB446DBD81D4FAE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-17738175</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 699 bis 772 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFEF15641A987E178</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-77356486</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 726 bis 802 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFB63A23A8211EE21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-2190289</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 762 bis 842 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFFDE942F79414047</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-8264766</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 801 bis 886 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF81E3C2C4E972DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-27947298</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 857 bis 947 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE558EDE895609FF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-9753551</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 932 bis 1031 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF6B2C3193BE298F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-71440830</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1051 bis 1162 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFBBDE642DB204306</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-69103384</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1201 bis 1328 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFBE190E88ADB96DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-72239455</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1772 bis 1959 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFBB1B6A1402DEEC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-48813331</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 2239 bis 2475 Feuerschaden über 3 Sekunden. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFD172AED23EB0F88</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilsteuerung</Name>
+      <Icon>tactician_curative_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-77146817</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 36 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFB66D53FC59F9B09</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-87211660</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 40 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFACD41748550B012</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-73666769</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 43 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFB9BEF2F83F4314B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-44254263</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 45 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFD5CBBC9992B04C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-27681277</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 54 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFE599E037AD33A16</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-35377792</AbilityId>
+        <Description>Schwächt das Ziel, sodass ein Treffer beim Angreifer 56 Gesundheit wieder herstellt, wenn das Ziel von einem Fähigkeitenangriff getroffen ist. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFDE42D80596658F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nekrotischer Kern</Name>
+      <Icon>tactician_necrotic_core</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-75689093</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 460 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFB7D137B36AC1265</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-69892487</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 493 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFBD58679BDB246A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-19116263</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 515 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFEDC4F193E35A67C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-11076507</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 546 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFF56FC65A148D8CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-52969102</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 580 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFCD7C1727A8E6934</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-67378088</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 623 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFBFBE458ECB31B56</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-120127</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 705 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFFFE2AC1B51FC161</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-87254415</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 751 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFACC9A71D07D3A53</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-33902922</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 986 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFDFAAEB68BE55651</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-88777798</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 1479 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFAB55BBA4C9C7A40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-93362581</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 10 Gegnern in der Nähe 1641 Todesschaden über 15 Sekunden zufügt.</Description>
+        <AddonId>AFA6F666B55986E6E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nekrotischer Blitz</Name>
+      <Icon>tactician_necrotic_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-74327681</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 712 bis 787 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFB91D97F6A81AEB7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-70788746</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 838 bis 926 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFBC7D97674B35274</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-54176380</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 871 bis 963 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFCC55584D00F75F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-97032953</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 1235 bis 1365 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFA376507569D9A6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-1777521</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 1605 bis 1774 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFFE4E08FA5A2C7E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-33484800</AbilityId>
+        <Description>Verursacht bei allen Feinden zwischen dem Schurken und dem Ziel 1776 bis 1964 Todesschaden. Die Abklingzeit entfällt, wenn die Gesundheit des Ziels unter 30% liegt.</Description>
+        <AddonId>AFE01100078B7259E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Heilende Flut</Name>
+      <Icon>tactician_curative_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-68267828</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 221 bis 245 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFBEE50CC7787FDAD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-38593945</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 254 bis 281 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFDB31A6771F7F522</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-67315493</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 263 bis 291 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFBFCD8DB5F528502</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63412907</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 305 bis 337 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFC386555D20111E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-2282268</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 325 bis 360 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFFDD2CE46BE03C92</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53195630</AbilityId>
+        <Description>Stellt bei vor Euch befindlichen Gruppen- oder Schlachtzugmitgliedern über 3 Sekunden 329 bis 364 Gesundheit wieder her. Dieser Effekt kann bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder heilen. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCD44C9246DBA340</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Energiekern</Name>
+      <Icon>tactician_power_core_z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-67659735</AbilityId>
+        <Description>Platziert einen Kern, der bis zu 0 Gegnern in der Nähe 0 Todesschaden über 15 Sekunden zufügt. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFBF79829B2DD89A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Regenerativer Blitz</Name>
+      <Icon>chloromancer_void_life_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-62948912</AbilityId>
+        <Description>Stellt bei einem einzelnen Verbündeten 644 bis 712 Gesundheit wieder her. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFC3F79D0BA97A21E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60342406</AbilityId>
+        <Description>Stellt bei einem einzelnen Verbündeten 649 bis 718 Gesundheit wieder her. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFC673F7A92D465C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilender Kern</Name>
+      <Icon>tactician_curative_core_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-61269717</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 376 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFC59192B9972CE49</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-29502694</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 427 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFE3DD31A879D26C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-41218125</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 502 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFD8B0FB3AD5B8F7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-28746398</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 533 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFE495D62B74D724B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-63460851</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 557 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFC37AA0D9A52EC07</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-17188642</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 644 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFEF9B8DED032621A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-43240378</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 666 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFD6C3446DAA50EB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-66723286</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 770 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFC05E22A96215C3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96880678</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 823 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFA39B7DA57316A88</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-97800916</AbilityId>
+        <Description>Platziert einen Kern, der über 15 Sekunden bei bis zu 10 in der Nähe befindlichen Gruppen- oder Schlachtzugmitgliedern 828 Gesundheit wiederherstellt.</Description>
+        <AddonId>AFA2BAD2C96162B36</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilwelle</Name>
+      <Icon>tactician_curative_primer_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-60891805</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 71 Gesundheit
+2 Points: 2 Kumulierungen, 156 Gesundheit
+3 Punkte: 3 Kumulierungen, 271 Gesundheit
+4 Punkte: 4 Kumulierungen, 416 Gesundheit
+5 Punkte: 5 Kumulierungen, 586 Gesundheit</Description>
+        <AddonId>AFC5EDD638A21712C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-60776897</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 73 Gesundheit
+2 Points: 2 Kumulierungen, 165 Gesundheit
+3 Punkte: 3 Kumulierungen, 288 Gesundheit
+4 Punkte: 4 Kumulierungen, 439 Gesundheit
+5 Punkte: 5 Kumulierungen, 621 Gesundheit</Description>
+        <AddonId>AFC609E3F7EC9CAC9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-56135293</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 77 Gesundheit
+2 Points: 2 Kumulierungen, 173 Gesundheit
+3 Punkte: 3 Kumulierungen, 300 Gesundheit
+4 Punkte: 4 Kumulierungen, 458 Gesundheit
+5 Punkte: 5 Kumulierungen, 648 Gesundheit</Description>
+        <AddonId>AFCA771839DF89E35</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-67206990</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 88 Gesundheit
+2 Points: 2 Kumulierungen, 198 Gesundheit
+3 Punkte: 3 Kumulierungen, 346 Gesundheit
+4 Punkte: 4 Kumulierungen, 531 Gesundheit
+5 Punkte: 5 Kumulierungen, 751 Gesundheit</Description>
+        <AddonId>AFBFE80B2C5DCE1A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-76355070</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 89 Gesundheit
+2 Points: 2 Kumulierungen, 204 Gesundheit
+3 Punkte: 3 Kumulierungen, 357 Gesundheit
+4 Punkte: 4 Kumulierungen, 547 Gesundheit
+5 Punkte: 5 Kumulierungen, 776 Gesundheit</Description>
+        <AddonId>AFB72EA0289A45FD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-18716170</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 102 Gesundheit
+2 Points: 2 Kumulierungen, 235 Gesundheit
+3 Punkte: 3 Kumulierungen, 412 Gesundheit
+4 Punkte: 4 Kumulierungen, 633 Gesundheit
+5 Punkte: 5 Kumulierungen, 897 Gesundheit</Description>
+        <AddonId>AFEE269F658B06582</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-31670124</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 108 Gesundheit
+2 Points: 2 Kumulierungen, 249 Gesundheit
+3 Punkte: 3 Kumulierungen, 439 Gesundheit
+4 Punkte: 4 Kumulierungen, 675 Gesundheit
+5 Punkte: 5 Kumulierungen, 959 Gesundheit</Description>
+        <AddonId>AFE1CC09448A1E508</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42616458</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Regeneriert bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern über 15 Sekunden Gesundheit pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 108 Gesundheit
+2 Points: 2 Kumulierungen, 251 Gesundheit
+3 Punkte: 3 Kumulierungen, 441 Gesundheit
+4 Punkte: 4 Kumulierungen, 679 Gesundheit
+5 Punkte: 5 Kumulierungen, 964 Gesundheit</Description>
+        <AddonId>AFD75B976684F3F6A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Taktiker-Meisterung</Name>
+      <Icon>soul_rogue</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-59420165</AbilityId>
+        <Description>Erhöht Schaden und Heilung um 0,75% pro Punkt, welcher der Taktiker-Seele zugewiesen wird.</Description>
+        <AddonId>AFC7551FB98DB1F71</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nekrotischer Motor</Name>
+      <Icon>tactician_necrotic_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-41642852</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 36 Todesschaden zu. Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD84949C98C4F757</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-94237831</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 38 Todesschaden zu.  Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFA620B79914A1B8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-34625154</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 41 Todesschaden zu. Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFDEFA97EBEF90CE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-16495802</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 44 Todesschaden zu.  Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFF044B469431A046</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92287024</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 51 Todesschaden zu.  Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFA7FCFD0B704FC2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-80636378</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 58 Todesschaden zu.  Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFB319626DBC7F884</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-23166205</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 88 Todesschaden zu.  Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE9E8303378B9F4E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-2945086</AbilityId>
+        <Description>Wenn der Schurke getroffen wird, fügt er dem Angreifer 112 Todesschaden zu. Erhöht Schaden von Blitzen und Strahlen um 30%. Reduziert Schaden von Fluten um 30%. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFFD30FC23E3C6811</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Festigungskern</Name>
+      <Icon>tactician_fortification_core</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-36937426</AbilityId>
+        <Description>Platziert einen Kern, der Rüstung und Widerstände bei Gruppen- oder Schlachtzugmitgliedern in der Nähe um 30% erhöht. Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFDCC612EAF20C927</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Höllenstrahl</Name>
+      <Icon>void_knight_rift_reversal_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-30150110</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 1095 bis 1210 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFE33F2224DEA7DF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-74805588</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 1190 bis 1315 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFB8A8EAC967E4814</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-51104688</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 1341 bis 1482 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFCF43450D8466741</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-2575348</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 1529 bis 1690 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFFD8B40C9485ED01</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-53061346</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 2252 bis 2489 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFCD6591E45E1A5A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-91175755</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden zwischen dem Schurken und dem Ziel 2842 bis 3141 Feuerschaden über 15 Sekunden.</Description>
+        <AddonId>AFA90C4B57B2BE771</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Nekrotische Flut</Name>
+      <Icon>tactician_necrotic_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-16123239</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 585 bis 646 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF09FA99DAC7B73E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-52378536</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 601 bis 665 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCE0C458893B90C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-67024377</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 624 bis 690 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFC014A071FCCB66E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-23575084</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 656 bis 725 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE9845D455531345</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-93297241</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 682 bis 754 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFA7065A7C088B84C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-51848694</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 716 bis 791 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCE8DA0A5EA36D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-6098837</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 753 bis 832 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFFA2F06B74475233</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-29411917</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 805 bis 890 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE3F35B37D3D8BFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-15661270</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 876 bis 969 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF11072A860679CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-43267767</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 988 bis 1092 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFD6BC949D4E4A87C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-53103415</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1027 bis 1135 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCD5B4C957332068</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-92614365</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1461 bis 1615 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFA7AD123B7A21263</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93880936</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1900 bis 2100 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFA677D98A05FA8DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-12833285</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 2103 bis 2325 Todessschaden über 3 Sekunden. Verursacht 20% mehr Schaden, wenn die Gesundheit des Feindes unter 30% liegt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF3C2DFB827EB37A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilender Motor</Name>
+      <Icon>tactician_curative_engine</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-14108722</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 23 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFF28B7CED5E1F1EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-24705001</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 43 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE870817E3BDD5D9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-87336407</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 61 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFACB5A29E4160DE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-93409722</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 74 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFA6EAE46D5821D44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-47284788</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 85 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden.  Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD2E7DCCE0D6094D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-31907109</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 100 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE1922DBF2116BD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-32179470</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 105 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE14FAF29F75B827</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-45411289</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 111 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden.  Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD4B14279895635B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-46804342</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 127 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFD35D28AAB40B405</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-62932004</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 132 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFC3FBBDC8A8481A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-35812497</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 152 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFDDD8B6F9A928FB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-26750412</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 163 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden. Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFE67D234C9908B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-34157267</AbilityId>
+        <Description>Stellt bei einem Treffer beim Schurken 165 Gesundheit wieder her. Kann höchstens einmal pro Sekunde ausgelöst werden.  Es kann immer nur 1 Motor aktiviert sein.</Description>
+        <AddonId>AFDF6CD2DD145CC66</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Kampfsteuerung</Name>
+      <Icon>tactician_devastative_augument</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-12117205</AbilityId>
+        <Description>Erhöht Schaden und Heilung 10 Sekunden lang um 20%.</Description>
+        <AddonId>AFF471B2B5788E8B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gletscherflut</Name>
+      <Icon>tactician_glacial_torrent</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-11775160</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 693 bis 766 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFF4C5348BEACD0E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-23820572</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 732 bis 809 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE9486E4421DB0ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-92484292</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 774 bis 855 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFA7CCD3C2FC2935F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-52821382</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 827 bis 914 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCDA027ABA76CE0D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-26042125</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 931 bis 1029 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE72A0F3712DFEED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-94099331</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 988 bis 1092 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFA64287D7280E705</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-55209346</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1283 bis 1418 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFCB5927EA9F88D95</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-25759519</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 1900 bis 2100 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFE76F0E1C0B35087</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-2950324</AbilityId>
+        <Description>Verursacht bei bis zu 8 Feinden vor Euch 2103 bis 2325 Wasserschaden über 3 Sekunden. Getroffene Feinde werden verlangsamt. Verringert die Energie in jeder Sekunde der Kanalisierung um 1.</Description>
+        <AddonId>AFFD2FB4C921E2519</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <CostEnergy>15</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Heilender Strahl</Name>
+      <Icon>tactician_curative_beam</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10970092</AbilityId>
+        <Description>Stellt über 15 Sekunden bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern zwischen dem Schurken und dem Ziel bis zu 939 Gesundheit wieder her.</Description>
+        <AddonId>AFF589C149D6631E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-78148452</AbilityId>
+        <Description>Stellt über 15 Sekunden bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern zwischen dem Schurken und dem Ziel bis zu 1078 Gesundheit wieder her.</Description>
+        <AddonId>AFB578C9C8F798346</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-76944823</AbilityId>
+        <Description>Stellt über 15 Sekunden bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern zwischen dem Schurken und dem Ziel bis zu 1198 Gesundheit wieder her.</Description>
+        <AddonId>AFB69EA4978830333</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-79700363</AbilityId>
+        <Description>Stellt über 15 Sekunden bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern zwischen dem Schurken und dem Ziel bis zu 1207 Gesundheit wieder her.</Description>
+        <AddonId>AFB3FDE750ED552F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <MaxAffected>20</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyreum-Blitz</Name>
+      <Icon>tactician_empyrean_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-6412426</AbilityId>
+        <Description>Verursacht 153 bis 170 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFF9E27766284EEC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-58701260</AbilityId>
+        <Description>Verursacht 158 bis 174 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFC804A34B7FC8CF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-2862443</AbilityId>
+        <Description>Verursacht 164 bis 182 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFFD45295968816F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-19461858</AbilityId>
+        <Description>Verursacht 172 bis 190 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFED7091EBC5078A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-96843484</AbilityId>
+        <Description>Verursacht 180 bis 198 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFA3A49244AD5BDEE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-37294106</AbilityId>
+        <Description>Verursacht 188 bis 208 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFDC6EFE6C6151B3D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-53406056</AbilityId>
+        <Description>Verursacht 197 bis 218 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFCD11698B72807AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-88555748</AbilityId>
+        <Description>Verursacht 211 bis 234 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFAB8BF1CB4DE662E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-94273891</AbilityId>
+        <Description>Verursacht 230 bis 254 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFA617E9DAF36C900</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-75050555</AbilityId>
+        <Description>Verursacht 258 bis 285 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFB86D1C56B2B68AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-83573699</AbilityId>
+        <Description>Verursacht 269 bis 298 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFB04C43D33699CDF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-48864847</AbilityId>
+        <Description>Verursacht 382 bis 422 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFD1661B12CCC0FAF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-32786612</AbilityId>
+        <Description>Verursacht 495 bis 547 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFE0BB74C807A4FA1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-59519319</AbilityId>
+        <Description>Verursacht 549 bis 607 Lebensschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFC73CEA9A5840988</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Empyreum-Strahl</Name>
+      <Icon>tactician_empyrean_primer</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-3447848</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 300 Schaden
+2 Punkte: 2 Kumulierungen, 373 Schaden
+3 Punkte: 3 Kumulierungen, 461 Schaden
+4 Punkte: 4 Kumulierungen, 560 Schaden
+5 Punkte: 5 Kumulierungen, 676 Schaden</Description>
+        <AddonId>AFFCB63D86F6A8C0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-21805139</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 302 Schaden
+2 Punkte: 2 Kumulierungen, 377 Schaden
+3 Punkte: 3 Kumulierungen, 469 Schaden
+4 Punkte: 4 Kumulierungen, 573 Schaden
+5 Punkte: 5 Kumulierungen, 694 Schaden</Description>
+        <AddonId>AFEB347AD18C77602</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-33211824</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 305 Schaden
+2 Punkte: 2 Kumulierungen, 387 Schaden
+3 Punkte: 3 Kumulierungen, 486 Schaden
+4 Punkte: 4 Kumulierungen, 600 Schaden
+5 Punkte: 5 Kumulierungen, 732 Schaden</Description>
+        <AddonId>AFE053A506F498D89</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-97543372</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 308 Schaden
+2 Punkte: 2 Kumulierungen, 392 Schaden
+3 Punkte: 3 Kumulierungen, 498 Schaden
+4 Punkte: 4 Kumulierungen, 617 Schaden
+5 Punkte: 5 Kumulierungen, 757 Schaden</Description>
+        <AddonId>AFA2F9B3446E7C7C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-76852927</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 311 Schaden
+2 Punkte: 2 Kumulierungen, 400 Schaden
+3 Punkte: 3 Kumulierungen, 512 Schaden
+4 Punkte: 4 Kumulierungen, 638 Schaden
+5 Punkte: 5 Kumulierungen, 787 Schaden</Description>
+        <AddonId>AFB6B51417BF668A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-62539875</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 316 Schaden
+2 Punkte: 2 Kumulierungen, 412 Schaden
+3 Punkte: 3 Kumulierungen, 531 Schaden
+4 Punkte: 4 Kumulierungen, 670 Schaden
+5 Punkte: 5 Kumulierungen, 832 Schaden</Description>
+        <AddonId>AFC45B79D9A5AC5EE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-35976184</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 320 Schaden
+2 Punkte: 2 Kumulierungen, 423 Schaden
+3 Punkte: 3 Kumulierungen, 553 Schaden
+4 Punkte: 4 Kumulierungen, 702 Schaden
+5 Punkte: 5 Kumulierungen, 879 Schaden</Description>
+        <AddonId>AFDDB0C0863403336</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-24605697</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 326 Schaden
+2 Punkte: 2 Kumulierungen, 438 Schaden
+3 Punkte: 3 Kumulierungen, 579 Schaden
+4 Punkte: 4 Kumulierungen, 745 Schaden
+5 Punkte: 5 Kumulierungen, 940 Schaden</Description>
+        <AddonId>AFE888BFF7DB82944</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-7391412</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 338 Schaden
+2 Punkte: 2 Kumulierungen, 468 Schaden
+3 Punkte: 3 Kumulierungen, 632 Schaden
+4 Punkte: 4 Kumulierungen, 828 Schaden
+5 Punkte: 5 Kumulierungen, 1057 Schaden</Description>
+        <AddonId>AFF8F374C66FFA395</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-53135430</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 344 Schaden
+2 Punkte: 2 Kumulierungen, 484 Schaden
+3 Punkte: 3 Kumulierungen, 662 Schaden
+4 Punkte: 4 Kumulierungen, 874 Schaden
+5 Punkte: 5 Kumulierungen, 1123 Schaden</Description>
+        <AddonId>AFCD537BA9FEC5454</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-73416506</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 378 Schaden
+2 Punkte: 2 Kumulierungen, 568 Schaden
+3 Punkte: 3 Kumulierungen, 813 Schaden
+4 Punkte: 4 Kumulierungen, 1107 Schaden
+5 Punkte: 5 Kumulierungen, 1458 Schaden</Description>
+        <AddonId>AFB9FC0C6CF11E528</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-45200747</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 448 Schaden
+2 Punkte: 2 Kumulierungen, 743 Schaden
+3 Punkte: 3 Kumulierungen, 1128 Schaden
+4 Punkte: 4 Kumulierungen, 1598 Schaden
+5 Punkte: 5 Kumulierungen, 2159 Schaden</Description>
+        <AddonId>AFD4E4A95779E97F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95842980</AbilityId>
+        <Description>Entfernt Kumulierungen von Flutüberladung. Verursacht Lebensschaden pro Combopunkt.
+
+1 Punkt: 1 Kumulierung, 471 Schaden
+2 Punkte: 2 Kumulierungen, 801 Schaden
+3 Punkte: 3 Kumulierungen, 1233 Schaden
+4 Punkte: 4 Kumulierungen, 1760 Schaden
+5 Punkte: 5 Kumulierungen, 2390 Schaden</Description>
+        <AddonId>AFA498D5C7BFA9C2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Fernkampfwaffe</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>1.500000</CastTime>
+        <Interruptible>false</Interruptible>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name></Name>
+      <Icon>Default</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>38917157</AbilityId>
+        <Description></Description>
+        <AddonId>A0251D42500000000</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

@@ -1,0 +1,3417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Bladedancer">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Schnelle Reflexe</Name>
+      <Icon>quick_reflexes</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1036694795</AbilityId>
+          <Description></Description>
+          <AddonId>A3DCAB50B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Ausweichchance um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Ausweichchance um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Ausweichchance um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Ausweichchance um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Ausweichchance um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Kampfexpertise</Name>
+      <Icon>intimidatingweapon1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>619185458</AbilityId>
+          <Description></Description>
+          <AddonId>A24E8053200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden aller Fähigkeiten, die Combopunkte erzeugen, um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden aller Fähigkeiten, die Combopunkte erzeugen, um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden aller Fähigkeiten, die Combopunkte erzeugen, um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden aller Fähigkeiten, die Combopunkte erzeugen, um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden aller Fähigkeiten, die Combopunkte erzeugen, um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Zurückschlagen</Name>
+      <Icon>deflection4ccc</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1881684685</AbilityId>
+          <Description></Description>
+          <AddonId>A70283ACD00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Ihr habt eine Chance von 100%, Euren Gegner mit beiden Waffen zu treffen, wenn Ihr einen Angriff abwehrt, pariert oder ihm ausweicht.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Revanche</Name>
+      <Icon>deflection3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>337457294</AbilityId>
+          <Description>Verursacht 163 bis 180 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+          <AddonId>A141D308E818E3A27</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <Cooldown>6.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>1</GainComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Klinge und Zorn</Name>
+      <Icon>generic_ability_007_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Schneller Schlag und Euer Präzisionsschlag erhöhen den Schaden Eures nächsten Harten Schlags oder Dualen Schlags um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Fähigkeiten Schneller Schlag und Präzisionsschlag erhöhen den Schaden Eures nächsten Harten Schlags um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Verbesserter Tödlicher Tanz</Name>
+      <Icon>combat_pose1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Tödlicher Tanz erhöht jetzt den Schaden Eurer nächsten 3 Fähigkeiten, die Combopunkte erzeugen, um 4% pro Combopunkt. Dieser Bonus gilt nur für Angriffe mit Nahkampfwaffen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Tödlicher Tanz erhöht jetzt den Schaden Eurer nächsten 3 Fähigkeiten, die Combopunkte erzeugen, um 8% pro Combopunkt. Dieser Bonus gilt nur für Angriffe mit Nahkampfwaffen.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Euer Tödlicher Tanz erhöht jetzt den Schaden Eurer nächsten 3 Fähigkeiten, die Combopunkte erzeugen, um 12% pro Combopunkt. Dieser Bonus gilt nur für Angriffe mit Nahkampfwaffen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Sprint</Name>
+      <Icon>tumble1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>265715720</AbilityId>
+          <Description>Erhöht die Bewegungsgeschwindigkeit für 15 Sekunden um 50%.</Description>
+          <AddonId>A0FD680088779AB47</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Klingengewandtheit</Name>
+      <Icon>deflect1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1420134518</AbilityId>
+          <Description></Description>
+          <AddonId>A54A5887600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eurer Abschlussattacken um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eurer Abschlussattacken um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eurer Abschlussattacken um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden Eurer Abschlussattacken um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden Eurer Abschlussattacken um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Behände</Name>
+      <Icon>ambidextrous</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>923549927</AbilityId>
+          <Description></Description>
+          <AddonId>A370C40E700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Geschicklichkeit um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Geschicklichkeit um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Geschicklichkeit um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Geschicklichkeit um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Geschicklichkeit um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Klingentempo</Name>
+      <Icon>blade_tempo</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1951412239</AbilityId>
+          <Description>Erhöht Schaden 15 Sekunden lang um 30%.</Description>
+          <AddonId>A7450300FC8778E25</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Krönender Abschluss</Name>
+      <Icon>combat_culmination</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>490555837</AbilityId>
+          <Description></Description>
+          <AddonId>A1D3D49BD6B9A2ADD</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Die Abschlussattacke führt dazu, dass körperliche Angriffe 2% der Zielausrüstung pro Combopunkte für 10 Sekunden ignoriert.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Die Abschlussattacke führt dazu, dass körperliche Angriffe 4% der Zielausrüstung pro Combopunkte für 10 Sekunden ignoriert.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Die Abschlussattacke führt dazu, dass körperliche Angriffe 6% der Zielausrüstung pro Combopunkte für 10 Sekunden ignoriert.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Kampfeffizienz</Name>
+      <Icon>embolden2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1783962654</AbilityId>
+          <Description></Description>
+          <AddonId>A6A551C1E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Abschlussattacken verleihen Euch 1 Punkt Energie pro Combopunkt.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Abschlussattacken verleihen Euch 2 Punkte Energie pro Combopunkt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Meditative Trance</Name>
+      <Icon>paladin-preservation_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>264342182</AbilityId>
+          <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 94 Gesundheit
+2 Punkte: 204 Gesundheit
+3 Punkte: 352 Gesundheit
+4 Punkte: 535 Gesundheit
+5 Punkte: 756 Gesundheit</Description>
+          <AddonId>A0FC18AA61FF3ED67</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>12.000000</Duration>
+          <Interval>3.000000</Interval>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Oberhand</Name>
+      <Icon>steelskin3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>389407123</AbilityId>
+          <Description></Description>
+          <AddonId>A1735E19300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Euren Angriffen mit der Nebenhand um 7%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Euren Angriffen mit der Nebenhand um 14%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Euren Angriffen mit der Nebenhand um 21%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Euren Angriffen mit der Nebenhand um 28%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Euren Angriffen mit der Nebenhand um 35%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Gemetzel</Name>
+      <Icon>doctrine_of_authority_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-11016241</AbilityId>
+          <Description></Description>
+          <AddonId>AFF57E7CF00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erfolgreiche kritische Treffer erhöhen Euren Schaden um 3% und verringern den erlittenen Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erfolgreiche kritische Treffer erhöhen Euren Schaden um 6% und verringern den erlittenen Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erfolgreiche kritische Treffer erhöhen Euren Schaden um 9% und verringern den erlittenen Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erfolgreiche kritische Treffer erhöhen Euren Schaden um 12% und verringern den erlittenen Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erfolgreiche kritische Treffer erhöhen Euren Schaden um 15% und verringern den erlittenen Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Gegengewicht</Name>
+      <Icon>rudeawake1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>175028416</AbilityId>
+          <Description></Description>
+          <AddonId>A0A6EB8C000000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Abklingzeit aller rhythmischen Bewegungen um 15 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Abklingzeit aller Rhythmischen Bewegungen um 30 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Lebhaftigkeit</Name>
+      <Icon>discombobulate3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2037010444</AbilityId>
+          <Description></Description>
+          <AddonId>A796A500C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure maximale Energie um 5. Erhöht den Schaden aller Klingentänzer-Fähigkeiten um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure maximale Energie um 10. Erhöht den Schaden aller Klingentänzer-Fähigkeiten um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Doppelangriff-Meisterung</Name>
+      <Icon>harbinger_blademark</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-17988902</AbilityId>
+          <Description></Description>
+          <AddonId>AFEED82DA00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eurer Angriffe mit der Nebenhand um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eurer Angriffe mit der Nebenhand um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eurer Angriffe mit der Nebenhand um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Klingentrubel</Name>
+      <Icon>finalstrike1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-69057550</AbilityId>
+          <Description></Description>
+          <AddonId>AFBE243F200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Interval>3.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Dauer Eurer rhythmischen Fähigkeiten um 3 Sekunden. Gewährt alle 3 Sekunden Klingenstoß und erhöht den Schaden Eures nächsten Schnellen Schlags und Präzisionsschlags um 5%. Kann bis zu 5-mal kumuliert werden, bis es aufgebraucht ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Dauer Eurer rhythmischen Fähigkeiten um 6 Sekunden. Gewährt alle 3 Sekunden Klingenstoß und erhöht den Schaden Eures nächsten Schnellen Schlags und Präzisionsschlags um 10%. Kann bis zu 5-mal kumuliert werden, bis es aufgebraucht ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die Dauer Eurer rhythmischen Fähigkeiten um 9 Sekunden. Gewährt alle 3 Sekunden Klingenstoß und erhöht den Schaden Eures nächsten Schnellen Schlags und Präzisionsschlags um 15%. Kann bis zu 5-mal kumuliert werden, bis es aufgebraucht ist.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Tanzender Stahl</Name>
+      <Icon>dancing_steel</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2124791585</AbilityId>
+          <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1288 bis 1424 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+          <AddonId>A7EA5BF21C273EFE8</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>40</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Beherzter Schlag</Name>
+      <Icon>finalstrike2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>106049083</AbilityId>
+          <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 192 Schaden, 20 Sekunden
+2 Punkte: 252 Schaden, 30 Sekunden
+3 Punkte: 327 Schaden, 40 Sekunden
+4 Punkte: 416 Schaden, 50 Sekunden
+5 Punkte: 518 Schaden, 60 Sekunden</Description>
+          <AddonId>A06522E3B1A1C4AB0</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Duellhaltung</Name>
+      <Icon>warlord_ready_posture_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96129820</AbilityId>
+          <Description></Description>
+          <AddonId>AFA452CE400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erfolgreiche kritische Treffer mit Klingentänzer-Fähigkeiten erhöhen Eure Angriffskraft und Euren Waffenschaden um 2% pro Kumulierung. Kann bis zu 5 Mal kumuliert werden. Dauer beträgt 30 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erfolgreiche kritische Treffer mit Klingentänzer-Fähigkeiten erhöhen Eure Angriffskraft und Euren Waffenschaden um 4% pro Kumulierung. Kann bis zu 5 Mal kumuliert werden. Dauer beträgt 30 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Hundert Klingen</Name>
+      <Icon>bladedancer_hundred_blades_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74491293</AbilityId>
+          <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 1468 bis 1622 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+          <AddonId>AFB8F5A63DA5A1387</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>40</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>20.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Verteidigungs-Haltung</Name>
+      <Icon>tempest_close_training_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-12273355</AbilityId>
+          <Description>Erhöht die Bewegungsgeschwindigkeit um 15%. Heilt alle 2 Sekunden 1% der maximalen Gesundheit. Verringert die Energieregenerationsrate um 5 pro Sekunde. Umschaltbare Fähigkeit. Dieser Effekt hält an, bis er deaktiviert wird.</Description>
+          <AddonId>AFF44B93591CA40BB</AddonId>
+          <IsPassive>False</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dualer Schlag</Name>
+      <Icon>paragon_shifting_blades_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-89048601</AbilityId>
+        <Description>Verursacht 532 bis 588 kombinierten Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFAB139E77D2712F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.940000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.940000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-48849255</AbilityId>
+        <Description>Verursacht 591 bis 653 kombinierten Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFD169E998133C2E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.940000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.940000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hundert Klingen</Name>
+      <Icon>bladedancer_hundred_blades_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-74491293</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 1468 bis 1622 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFB8F5A63DA5A1387</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-7130704</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 1694 bis 1872 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFF9331B0B5B8D532</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-60806998</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 1766 bis 1952 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFC6028AA94C775E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63678349</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 2552 bis 2821 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFC3458734245BFFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-64823438</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 3351 bis 3704 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFC22DF725342F2B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60646786</AbilityId>
+        <Description>Verursacht mit jeder Waffe bei bis zu 5 Feinden in einem Kegel von 20 Metern um den Schurken 3720 bis 4112 Schaden über 6 Sekunden. Erlaubt Bewegungen.</Description>
+        <AddonId>AFC629A7E6B897FD6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doppelschlag</Name>
+      <Icon>paragon_path_of_the_tempest_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-60449485</AbilityId>
+        <Description>Verursacht kombinierten Waffen- und zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 258 Schaden
+2 Punkte: 393 Schaden
+3 Punkte: 568 Schaden
+4 Punkte: 778 Schaden
+5 Punkte: 1030 Schaden</Description>
+        <AddonId>AFC659D33681BCF67</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-95814162</AbilityId>
+        <Description>Verursacht kombinierten Waffen- und zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 309 Schaden
+2 Punkte: 522 Schaden
+3 Punkte: 799 Schaden
+4 Punkte: 1139 Schaden
+5 Punkte: 1545 Schaden</Description>
+        <AddonId>AFA49FDEE3BD5BA77</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-28362895</AbilityId>
+        <Description>Verursacht kombinierten Waffen- und zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 325 Schaden
+2 Punkte: 564 Schaden
+3 Punkte: 875 Schaden
+4 Punkte: 1258 Schaden
+5 Punkte: 1714 Schaden</Description>
+        <AddonId>AFE4F37716301C072</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schicksalsklingen</Name>
+      <Icon>harbinger_phantom_blades</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-41630703</AbilityId>
+        <Description>Erhöht den Beitrag von Angriffskraft bei allen Klingentänzer-Angriffen um 150% und ignoriert die Rüstung des Gegners völlig. Hält 15 Sekunden lang an.</Description>
+        <AddonId>AFD84C411CF6C17C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Klingentänzer-Meisterung</Name>
+      <Icon>combat_pose</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-37259109</AbilityId>
+        <Description>Erhöht den Schaden um 1% pro Punkt, welcher der Klingentänzer-Seele zugewiesen wird.</Description>
+        <AddonId>AFDC7789B9331636F</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Verteidigungs-Haltung</Name>
+      <Icon>tempest_close_training_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-12273355</AbilityId>
+        <Description>Erhöht die Bewegungsgeschwindigkeit um 15%. Heilt alle 2 Sekunden 1% der maximalen Gesundheit. Verringert die Energieregenerationsrate um 5 pro Sekunde. Umschaltbare Fähigkeit. Dieser Effekt hält an, bis er deaktiviert wird.</Description>
+        <AddonId>AFF44B93591CA40BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dekonstruktion</Name>
+      <Icon>disabling4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>68896768</AbilityId>
+        <Description>Entwaffnet das Ziel für 6 Sekunden.</Description>
+        <AddonId>A041B4800A97AD250</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Losmachen</Name>
+      <Icon>defensivestrike3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>90085581</AbilityId>
+        <Description>Betäubt für 4 Sekunden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A055E98CDA269CBD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>4.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Harter Schlag</Name>
+      <Icon>disabling1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>93296395</AbilityId>
+        <Description>Verursacht 139 bis 153 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A058F970B4E96ED0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>235456850</AbilityId>
+        <Description>Verursacht 143 bis 158 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A0E08C95294C626F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1730414280</AbilityId>
+        <Description>Verursacht 150 bis 166 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A672406C899630207</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1812072247</AbilityId>
+        <Description>Verursacht 157 bis 174 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A6C0207376C90794B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>549421451</AbilityId>
+        <Description>Verursacht 165 bis 182 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A20BF818B60528426</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2117924071</AbilityId>
+        <Description>Verursacht 174 bis 192 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A7E3CF4E7845C1D18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>889996346</AbilityId>
+        <Description>Verursacht 183 bis 202 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A350C443A7400831D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>783925300</AbilityId>
+        <Description>Verursacht 197 bis 217 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2EB9C034C843E95E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>929021133</AbilityId>
+        <Description>Verursacht 215 bis 238 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A375FBCCDE37DACC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1672234163</AbilityId>
+        <Description>Verursacht 244 bis 269 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A63AC44B37DE4477A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-61566771</AbilityId>
+        <Description>Verursacht 255 bis 281 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFC5490CD8F341794</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-35551285</AbilityId>
+        <Description>Verursacht 367 bis 406 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFDE187CBD2F9FD25</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-44120497</AbilityId>
+        <Description>Verursacht 481 bis 531 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFD5EC64FE2803049</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70877235</AbilityId>
+        <Description>Verursacht 534 bis 591 Schaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFBC67FCDD29AF132</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Beherzter Schlag</Name>
+      <Icon>finalstrike2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>106049083</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 192 Schaden, 20 Sekunden
+2 Punkte: 252 Schaden, 30 Sekunden
+3 Punkte: 327 Schaden, 40 Sekunden
+4 Punkte: 416 Schaden, 50 Sekunden
+5 Punkte: 518 Schaden, 60 Sekunden</Description>
+        <AddonId>A06522E3B1A1C4AB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1545212658</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 195 Schaden, 20 Sekunden
+2 Punkte: 260 Schaden, 30 Sekunden
+3 Punkte: 341 Schaden, 40 Sekunden
+4 Punkte: 436 Schaden, 50 Sekunden
+5 Punkte: 549 Schaden, 60 Sekunden</Description>
+        <AddonId>A5C1A12F26BF0BD7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>276119453</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 199 Schaden, 20 Sekunden
+2 Punkte: 270 Schaden, 30 Sekunden
+3 Punkte: 361 Schaden, 40 Sekunden
+4 Punkte: 466 Schaden, 50 Sekunden
+5 Punkte: 590 Schaden, 60 Sekunden</Description>
+        <AddonId>A10753F9DD73481EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1245570880</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 207 Schaden, 20 Sekunden
+2 Punkte: 290 Schaden, 30 Sekunden
+3 Punkte: 395 Schaden, 40 Sekunden
+4 Punkte: 520 Schaden, 50 Sekunden
+5 Punkte: 668 Schaden, 60 Sekunden</Description>
+        <AddonId>A4A3DE7406EDF7B51</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1488033437</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 211 Schaden, 20 Sekunden
+2 Punkte: 300 Schaden, 30 Sekunden
+3 Punkte: 415 Schaden, 40 Sekunden
+4 Punkte: 550 Schaden, 50 Sekunden
+5 Punkte: 711 Schaden, 60 Sekunden</Description>
+        <AddonId>A58B1969D7488CEAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>630408400</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 234 Schaden, 20 Sekunden
+2 Punkte: 356 Schaden, 30 Sekunden
+3 Punkte: 515 Schaden, 40 Sekunden
+4 Punkte: 706 Schaden, 50 Sekunden
+5 Punkte: 934 Schaden, 60 Sekunden</Description>
+        <AddonId>A259344D0C1DD8AF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-24519590</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 280 Schaden, 20 Sekunden
+2 Punkte: 474 Schaden, 30 Sekunden
+3 Punkte: 725 Schaden, 40 Sekunden
+4 Punkte: 1034 Schaden, 50 Sekunden
+5 Punkte: 1402 Schaden, 60 Sekunden</Description>
+        <AddonId>AFE89DC5AAF669F23</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-45206730</AbilityId>
+        <Description>Verursacht pro Combopunkt zusätzlichen Schaden. Erhöht über einen Zeitraum, der auf Combopunkten basiert, die Chance auf kritische Treffer um 5%.
+
+1 Punkt: 296 Schaden, 20 Sekunden
+2 Punkte: 512 Schaden, 30 Sekunden
+3 Punkte: 794 Schaden, 40 Sekunden
+4 Punkte: 1141 Schaden, 50 Sekunden
+5 Punkte: 1555 Schaden, 60 Sekunden</Description>
+        <AddonId>AFD4E333657FEEE59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dualismus</Name>
+      <Icon>deflection1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>145381789</AbilityId>
+        <Description>Erlaubt es Euren Fähigkeiten Schneller Schlag und Präzisionsschlag für 15 Sekunden ein zweites Mal zu treffen und einen zusätzlichen Combopunkt hinzuzufügen.</Description>
+        <AddonId>A08AA599D54EC42EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Stählerner Blitz</Name>
+      <Icon>charge3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>212560084</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 139 bis 154 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A0CAB68D488191DA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>769716780</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 149 bis 165 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A2DE0F22C15BEA848</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>2078956800</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 155 bis 172 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A7BEA5D0088CD4DC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1429409443</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 165 bis 183 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A55330EA36F4F7CD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>539039858</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 175 bis 194 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A202118727FB2D9D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1652036538</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 188 bis 208 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A627813BA556B5237</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>907599579</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 213 bis 236 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>A3618DEDBF3F6553D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-27342947</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 226 bis 250 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFE5EC79DF2CDF9ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15495032</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 297 bis 329 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFF139088D029C196</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-21727883</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 447 bis 494 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFEB475757D12991F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-3322433</AbilityId>
+        <Description>Greift den Feind an und fügt ihm 496 bis 549 Schaden zu. Macht ihn für 2 Sekunden bewegungsunfähig. Entfernt alle bewegungshemmenden Effekte beim Schurken. Gewährt 2 Combopunkte.</Description>
+        <AddonId>AFFCD4DBFAC236837</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Meditative Trance</Name>
+      <Icon>paladin-preservation_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>264342182</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 94 Gesundheit
+2 Punkte: 204 Gesundheit
+3 Punkte: 352 Gesundheit
+4 Punkte: 535 Gesundheit
+5 Punkte: 756 Gesundheit</Description>
+        <AddonId>A0FC18AA61FF3ED67</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1387851649</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 103 Gesundheit
+2 Punkte: 228 Gesundheit
+3 Punkte: 394 Gesundheit
+4 Punkte: 603 Gesundheit
+5 Punkte: 851 Gesundheit</Description>
+        <AddonId>A52B8EF816682B73B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>564387991</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 112 Gesundheit
+2 Punkte: 252 Gesundheit
+3 Punkte: 436 Gesundheit
+4 Punkte: 667 Gesundheit
+5 Punkte: 944 Gesundheit</Description>
+        <AddonId>A21A3E09747916E63</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1033473949</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 116 Gesundheit
+2 Punkte: 263 Gesundheit
+3 Punkte: 454 Gesundheit
+4 Punkte: 696 Gesundheit
+5 Punkte: 984 Gesundheit</Description>
+        <AddonId>A3D998F9D8B333C2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>886492447</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 128 Gesundheit
+2 Punkte: 294 Gesundheit
+3 Punkte: 511 Gesundheit
+4 Punkte: 782 Gesundheit
+5 Punkte: 1108 Gesundheit</Description>
+        <AddonId>A34D6CD1FC50C2720</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1846274598</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 132 Gesundheit
+2 Punkte: 303 Gesundheit
+3 Punkte: 529 Gesundheit
+4 Punkte: 811 Gesundheit
+5 Punkte: 1148 Gesundheit</Description>
+        <AddonId>A6E0BEA2697E8181A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2014291979</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 150 Gesundheit
+2 Punkte: 347 Gesundheit
+3 Punkte: 606 Gesundheit
+4 Punkte: 931 Gesundheit
+5 Punkte: 1320 Gesundheit</Description>
+        <AddonId>A780FA80B0C8A3E71</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>2089131437</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 165 Gesundheit
+2 Punkte: 383 Gesundheit
+3 Punkte: 672 Gesundheit
+4 Punkte: 1033 Gesundheit
+5 Punkte: 1466 Gesundheit</Description>
+        <AddonId>A7C859DAD760D0B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-67399481</AbilityId>
+        <Description>Stellt über 12 Sekunden zusätzliche Gesundheit pro Combopunkt wieder her.
+
+1 Punkt: 165 Gesundheit
+2 Punkte: 385 Gesundheit
+3 Punkte: 677 Gesundheit
+4 Punkte: 1041 Gesundheit
+5 Punkte: 1477 Gesundheit</Description>
+        <AddonId>AFBFB90C7760D0B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Sprint</Name>
+      <Icon>tumble1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>265715720</AbilityId>
+        <Description>Erhöht die Bewegungsgeschwindigkeit für 15 Sekunden um 50%.</Description>
+        <AddonId>A0FD680088779AB47</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Revanche</Name>
+      <Icon>deflection3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>337457294</AbilityId>
+        <Description>Verursacht 163 bis 180 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A141D308E818E3A27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2069134279</AbilityId>
+        <Description>Verursacht 176 bis 195 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A7B547BC7AA2D0D26</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>689045149</AbilityId>
+        <Description>Verursacht 184 bis 203 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2911FE9D6361FEEB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>625633076</AbilityId>
+        <Description>Verursacht 193 bis 214 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A254A6734AD66F364</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>299703932</AbilityId>
+        <Description>Verursacht 204 bis 226 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A11DD1E7C6460F50A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>763015279</AbilityId>
+        <Description>Verursacht 220 bis 243 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2D7AB06F4DAD36F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>939937070</AbilityId>
+        <Description>Verursacht 240 bis 266 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A38064D2E6D498466</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1188486915</AbilityId>
+        <Description>Verursacht 273 bis 302 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A46D6DF0357D810FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-30719350</AbilityId>
+        <Description>Verursacht 314 bis 347 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFE2B428A98A07D9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-41569688</AbilityId>
+        <Description>Verursacht 470 bis 519 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFD85B26894AE373F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-95668450</AbilityId>
+        <Description>Verursacht 597 bis 659 Schaden. Muss verwendet werden, nachdem der Schurke Abwehren, Ausweichen oder Parieren eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFA4C371E89329ABF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Entwirrung</Name>
+      <Icon>untangle</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>545137137</AbilityId>
+        <Description>Hebt alle Mengenkontrolle-Effekte auf und macht 8 Sekunden lang gegen solche Effekte immun.</Description>
+        <AddonId>A207E21F18888BFCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Kombinations-Attacke</Name>
+      <Icon>charge2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>676725229</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 113 Schaden
+2 Punkte: 147 Schaden
+3 Punkte: 188 Schaden
+4 Punkte: 236 Schaden
+5 Punkte: 293 Schaden</Description>
+        <AddonId>A285601EDBF8C7BD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>511047269</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 115 Schaden
+2 Punkte: 151 Schaden
+3 Punkte: 196 Schaden
+4 Punkte: 249 Schaden
+5 Punkte: 310 Schaden</Description>
+        <AddonId>A1E75F6658B1DC01D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1082692504</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 116 Schaden
+2 Punkte: 156 Schaden
+3 Punkte: 204 Schaden
+4 Punkte: 262 Schaden
+5 Punkte: 329 Schaden</Description>
+        <AddonId>A40889398C872DC18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1951949654</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 120 Schaden
+2 Punkte: 162 Schaden
+3 Punkte: 216 Schaden
+4 Punkte: 280 Schaden
+5 Punkte: 354 Schaden</Description>
+        <AddonId>A7458635690D6AB87</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>250010314</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 124 Schaden
+2 Punkte: 174 Schaden
+3 Punkte: 238 Schaden
+4 Punkte: 312 Schaden
+5 Punkte: 401 Schaden</Description>
+        <AddonId>A0EE6DACA72CAB70A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>608776915</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 127 Schaden
+2 Punkte: 180 Schaden
+3 Punkte: 249 Schaden
+4 Punkte: 331 Schaden
+5 Punkte: 427 Schaden</Description>
+        <AddonId>A244932D37A7B6FD8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>255801840</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 128 Schaden
+2 Punkte: 185 Schaden
+3 Punkte: 257 Schaden
+4 Punkte: 343 Schaden
+5 Punkte: 445 Schaden</Description>
+        <AddonId>A0F3F39F0538FFAE5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-94493490</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 147 Schaden
+2 Punkte: 234 Schaden
+3 Punkte: 345 Schaden
+4 Punkte: 480 Schaden
+5 Punkte: 640 Schaden</Description>
+        <AddonId>AFA5E24CE899A065B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-81289161</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 168 Schaden
+2 Punkte: 284 Schaden
+3 Punkte: 435 Schaden
+4 Punkte: 620 Schaden
+5 Punkte: 841 Schaden</Description>
+        <AddonId>AFB27A0378DCD5108</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-10215067</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt bei bis zu 5 Feinden.
+
+1 Punkt: 177 Schaden
+2 Punkte: 307 Schaden
+3 Punkte: 477 Schaden
+4 Punkte: 685 Schaden
+5 Punkte: 933 Schaden</Description>
+        <AddonId>AFF64216568D30BC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Waffenhagel</Name>
+      <Icon>weapon_barrage</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1036528302</AbilityId>
+        <Description>Bewirkt Unterbrechung, die das Ziel bei Erfolg 5 Sekunden lang mit Verstummen belegt.</Description>
+        <AddonId>A3DC82AAEAEB2F5B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Zwillingsschlag</Name>
+      <Icon>twin_strike_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1062562520</AbilityId>
+        <Description>Verursacht 96 bis 106 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 96 bis 106 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A3F556AD86482C8F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1152220266</AbilityId>
+        <Description>Verursacht 103 bis 113 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 103 bis 113 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A44AD7C6A38D80788</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>711705552</AbilityId>
+        <Description>Verursacht 108 bis 119 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 108 bis 119 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2A6BC3D015E78172</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>489895838</AbilityId>
+        <Description>Verursacht 116 bis 128 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 116 bis 128 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A1D33379E9C76296C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1284030361</AbilityId>
+        <Description>Verursacht 123 bis 136 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 123 bis 136 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A4C88BF9993672F54</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>661114073</AbilityId>
+        <Description>Verursacht 146 bis 162 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 146 bis 162 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2767CCD9B5FE4282</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>709186206</AbilityId>
+        <Description>Verursacht 153 bis 169 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 153 bis 169 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2A45529E5B05509B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1689108792</AbilityId>
+        <Description>Verursacht 219 bis 243 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 219 bis 243 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A64ADC1389031B656</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1193244373</AbilityId>
+        <Description>Verursacht 288 bis 319 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 288 bis 319 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A471F76D5A9306775</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83809537</AbilityId>
+        <Description>Verursacht 320 bis 354 Schaden. Verursacht bei bis zu 4 weiteren in der Nähe befindlichen Feinden 320 bis 354 Nebenhand-Waffenschaden. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFB012AFF87C081C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Harmonie von Klinge und Seele</Name>
+      <Icon>revitalize1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1122861576</AbilityId>
+        <Description>Die Fähigkeiten des Schurken kosten keine Energie mehr. Erhöht 15 Sekunden lang die Chance auf kritische Treffer um 50% und ihren Schaden um 50.</Description>
+        <AddonId>A42ED82088A1FC750</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Präzisionsschlag</Name>
+      <Icon>critical2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1196909451</AbilityId>
+        <Description>Verursacht 67 bis 74 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A4757638B5B9F8E1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1675264383</AbilityId>
+        <Description>Verursacht 78 bis 86 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A63DA817F4A313F1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2054725059</AbilityId>
+        <Description>Verursacht 93 bis 103 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A7A789DC31FBFDB00</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1299925173</AbilityId>
+        <Description>Verursacht 114 bis 126 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A4D7B48B58CDB519F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1526365128</AbilityId>
+        <Description>Verursacht 147 bis 162 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A5AFA7BC885639308</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1025386595</AbilityId>
+        <Description>Verursacht 188 bis 208 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>A3D1E286326EDD499</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-29382787</AbilityId>
+        <Description>Verursacht 345 bis 382 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>AFE3FA77D6DED1B08</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-31639289</AbilityId>
+        <Description>Verursacht 474 bis 524 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 2 Combopunkte. Parieren oder Ausweichen sind nicht möglich.</Description>
+        <AddonId>AFE1D3907785F64E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schneller Schlag</Name>
+      <Icon>sweep3b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1277127007</AbilityId>
+        <Description>Verursacht 37 bis 41 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A4C1F695F8DAAABBF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1415875680</AbilityId>
+        <Description>Verursacht 44 bis 48 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A54648C6098CCD430</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>621258084</AbilityId>
+        <Description>Verursacht 54 bis 60 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2507A5644272457B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1387385488</AbilityId>
+        <Description>Verursacht 59 bis 65 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A52B1D29074979DC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>108584247</AbilityId>
+        <Description>Verursacht 71 bis 78 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A0678DD3759504AD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1530986539</AbilityId>
+        <Description>Verursacht 82 bis 90 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A5B41002B40E89C98</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>750830534</AbilityId>
+        <Description>Verursacht 97 bis 107 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2CC0C3C677071211</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>710964780</AbilityId>
+        <Description>Verursacht 113 bis 125 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A2A60762C843A87E1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1875888578</AbilityId>
+        <Description>Verursacht 162 bis 179 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A6FCFC9C2747F6382</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1132226063</AbilityId>
+        <Description>Verursacht 175 bis 193 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>A437C660FADBFF561</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42642030</AbilityId>
+        <Description>Verursacht 316 bis 349 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFD7555925E37484F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-83505181</AbilityId>
+        <Description>Verursacht 458 bis 506 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFB05CFE3825CD911</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83198011</AbilityId>
+        <Description>Verursacht 523 bis 578 Nebenhand-Waffenschaden. Muss verwendet werden, nachdem der Schurke Harter Schlag oder Dualer Schlag eingesetzt hat. Gewährt 1 Combopunkt.</Description>
+        <AddonId>AFB0A7FC582ABEF89</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Kampf mit 2 Waffen</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gewappnet</Name>
+      <Icon>combat_pose1_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1496501054</AbilityId>
+        <Description>Erhöht die Geschicklichkeit aller Gruppen- oder Schlachtzugmitglieder um 30. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A5932CB3E5D051755</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1255973173</AbilityId>
+        <Description>Erhöht die Geschicklichkeit aller Gruppen- oder Schlachtzugmitglieder um 40. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A4ADCA1352F6E0587</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1391728495</AbilityId>
+        <Description>Erhöht die Geschicklichkeit aller Gruppen- oder Schlachtzugmitglieder um 50. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A52F4176F8313D7E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2093053975</AbilityId>
+        <Description>Erhöht die Geschicklichkeit aller Gruppen- oder Schlachtzugmitglieder um 60. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A7CC17817591BFF1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70301759</AbilityId>
+        <Description>Erhöht die Geschicklichkeit aller Gruppen- oder Schlachtzugmitglieder um 70. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFBCF47C1591BFF1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tödlicher Tanz</Name>
+      <Icon>combat_pose1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1683478228</AbilityId>
+        <Description>Klingentänzer-Abschlussattacken erhöhen den verursachten Schaden der nächsten Fähigkeit des Schurken, die Combopunkte erzeugt, um 3% pro eingesetzten Combopunkt. Dieser Bonus gilt nur für Angriffe mit Nahkampfwaffen.</Description>
+        <AddonId>A6457D6D46B7BF06D</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tödlicher Schlag</Name>
+      <Icon>roguestrike2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1789543338</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 181 Schaden
+2 Punkte: 226 Schaden
+3 Punkte: 280 Schaden
+4 Punkte: 342 Schaden
+5 Punkte: 413 Schaden</Description>
+        <AddonId>A6AAA43AA85C7634E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1795791306</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 183 Schaden
+2 Punkte: 229 Schaden
+3 Punkte: 286 Schaden
+4 Punkte: 351 Schaden
+5 Punkte: 426 Schaden</Description>
+        <AddonId>A6B0999CA74BF707F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>552507663</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 186 Schaden
+2 Punkte: 236 Schaden
+3 Punkte: 297 Schaden
+4 Punkte: 368 Schaden
+5 Punkte: 451 Schaden</Description>
+        <AddonId>A20EE990F4EB3CCE4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>21623304</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 187 Schaden
+2 Punkte: 240 Schaden
+3 Punkte: 305 Schaden
+4 Punkte: 380 Schaden
+5 Punkte: 468 Schaden</Description>
+        <AddonId>A0149F20818F05E59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>2108058656</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 189 Schaden
+2 Punkte: 245 Schaden
+3 Punkte: 315 Schaden
+4 Punkte: 394 Schaden
+5 Punkte: 488 Schaden</Description>
+        <AddonId>A7DA66C20473A6136</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>782501874</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 192 Schaden
+2 Punkte: 252 Schaden
+3 Punkte: 327 Schaden
+4 Punkte: 416 Schaden
+5 Punkte: 518 Schaden</Description>
+        <AddonId>A2EA407F2866DC3C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>265735244</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 195 Schaden
+2 Punkte: 260 Schaden
+3 Punkte: 341 Schaden
+4 Punkte: 436 Schaden
+5 Punkte: 549 Schaden</Description>
+        <AddonId>A0FD6CC4C883915A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>348420200</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 199 Schaden
+2 Punkte: 270 Schaden
+3 Punkte: 361 Schaden
+4 Punkte: 466 Schaden
+5 Punkte: 590 Schaden</Description>
+        <AddonId>A14C478687DB3C57B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2054156909</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 207 Schaden
+2 Punkte: 290 Schaden
+3 Punkte: 395 Schaden
+4 Punkte: 520 Schaden
+5 Punkte: 668 Schaden</Description>
+        <AddonId>A7A6FF26D51D18644</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1886268005</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 211 Schaden
+2 Punkte: 300 Schaden
+3 Punkte: 415 Schaden
+4 Punkte: 550 Schaden
+5 Punkte: 711 Schaden</Description>
+        <AddonId>A706E2A652DC5F338</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-64512778</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 234 Schaden
+2 Punkte: 356 Schaden
+3 Punkte: 515 Schaden
+4 Punkte: 706 Schaden
+5 Punkte: 934 Schaden</Description>
+        <AddonId>AFC279CF63163578E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-95798449</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 280 Schaden
+2 Punkte: 474 Schaden
+3 Punkte: 725 Schaden
+4 Punkte: 1034 Schaden
+5 Punkte: 1402 Schaden</Description>
+        <AddonId>AFA4A3B4F6457E969</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18128051</AbilityId>
+        <Description>Verursacht zusätzlichen Schaden pro Combopunkt.
+
+1 Punkt: 296 Schaden
+2 Punkte: 512 Schaden
+3 Punkte: 794 Schaden
+4 Punkte: 1141 Schaden
+5 Punkte: 1555 Schaden</Description>
+        <AddonId>AFEEB634D4CD26D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Seitenschritte</Name>
+      <Icon>side_steps</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1792681436</AbilityId>
+        <Description>Erhöht den Ausweichwert für 15 Sekunden um 50%.</Description>
+        <AddonId>A6ADA25DCE98B047B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doppelter Coup</Name>
+      <Icon>deflection4cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1809451313</AbilityId>
+        <Description>Erhöht den Schaden aller Combopunkte generierenden Klingentänzerangriffe 15 Sekunden lang um 85%.</Description>
+        <AddonId>A6BDA0931731F4FC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Klingentempo</Name>
+      <Icon>blade_tempo</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1951412239</AbilityId>
+        <Description>Erhöht Schaden 15 Sekunden lang um 30%.</Description>
+        <AddonId>A7450300FC8778E25</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tanzender Stahl</Name>
+      <Icon>dancing_steel</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2124791585</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1288 bis 1424 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>A7EA5BF21C273EFE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>336079519</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1385 bis 1530 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>A14082A9F88805D35</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>1334324913</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1567 bis 1732 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>A4F882EB1CDD4A0C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>816474012</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1694 bis 1872 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>A30AA679CC2FEC925</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-30071798</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 1948 bis 2153 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>AFE35240A79CCD20C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-32900337</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 2925 bis 3233 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>AFE09FB0F98E93EEE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-72964816</AbilityId>
+        <Description>Fügt bis zu 5 Feinden 6 Sekunden lang mit jeder Waffe 3720 bis 4112 Schaden zu. Macht den Schurken gegen Mengenkontrolle immun. Erlaubt Bewegungen.</Description>
+        <AddonId>AFBA6A5307E862B87</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

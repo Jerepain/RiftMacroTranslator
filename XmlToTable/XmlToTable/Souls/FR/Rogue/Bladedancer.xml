@@ -1,0 +1,3417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Rogue" name="Bladedancer">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Bons réflexes</Name>
+      <Icon>quick_reflexes</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1036694795</AbilityId>
+          <Description></Description>
+          <AddonId>A3DCAB50B00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos chances d&apos;esquive de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos chances d&apos;esquive de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos chances d&apos;esquive de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos chances d&apos;esquive de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos chances d&apos;esquive de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Expertise du combat</Name>
+      <Icon>intimidatingweapon1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>619185458</AbilityId>
+          <Description></Description>
+          <AddonId>A24E8053200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les dégâts de vos capacités rapportant des points de combo augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les dégâts de vos capacités rapportant des points de combo augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les dégâts de vos capacités rapportant des points de combo augmentent de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les dégâts de vos capacités rapportant des points de combo augmentent de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les dégâts de vos capacités rapportant des points de combo augmentent de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Contre-attaque</Name>
+      <Icon>deflection4ccc</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1881684685</AbilityId>
+          <Description></Description>
+          <AddonId>A70283ACD00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vous confère 100% de chances de contre-attaquer avec vos deux armes quand vous déviez, parez ou esquivez une attaque.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Représailles</Name>
+      <Icon>deflection3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>337457294</AbilityId>
+          <Description>Inflige 163 à 180 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+          <AddonId>A141D308E818E3A27</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>6.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <GainComboPoints>1</GainComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Lame et fureur</Name>
+      <Icon>generic_ability_007_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Frappe rapide et votre Frappe de précision augmentent les dégâts de votre prochaine Frappe aiguisée ou Frappe binaire de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Frappe rapide et votre Frappe de précision augmentent les dégâts de votre prochaine Frappe aiguisée ou Frappe binaire de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Danse mortelle améliorée</Name>
+      <Icon>combat_pose1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Danse mortelle augmente les dégâts de vos 3 prochaines capacités rapportant des points de combo de 4% par point de combo dépensé. Ce bonus ne s&apos;applique qu&apos;aux attaques avec des armes de corps à corps.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Danse mortelle augmente les dégâts de vos 3 prochaines capacités rapportant des points de combo de 8% par point de combo dépensé. Ce bonus ne s&apos;applique qu&apos;aux attaques avec des armes de corps à corps.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Danse mortelle augmente les dégâts de vos 3 prochaines capacités rapportant des points de combo de 12% par point de combo dépensé. Ce bonus ne s&apos;applique qu&apos;aux attaques avec des armes de corps à corps.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Sprint</Name>
+      <Icon>tumble1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>265715720</AbilityId>
+          <Description>La vitesse de déplacement augmente de 50% pendant 15 secondes.</Description>
+          <AddonId>A0FD680088779AB47</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Fine lame</Name>
+      <Icon>deflect1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1420134518</AbilityId>
+          <Description></Description>
+          <AddonId>A54A5887600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de vos attaques finales de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos attaques finales de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de vos attaques finales de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts de vos attaques finales de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts de vos attaques finales de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Ambidextre</Name>
+      <Icon>ambidextrous</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>923549927</AbilityId>
+          <Description></Description>
+          <AddonId>A370C40E700000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la dextérité de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la dextérité de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la dextérité de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente la dextérité de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente la dextérité de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Tempo des lames</Name>
+      <Icon>blade_tempo</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1951412239</AbilityId>
+          <Description>Augmente les dégâts de 30% pendant 15 secondes.</Description>
+          <AddonId>A7450300FC8778E25</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Apogée du combat</Name>
+      <Icon>combat_culmination</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>490555837</AbilityId>
+          <Description></Description>
+          <AddonId>A1D3D49BD6B9A2ADD</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques finales permettent à vos attaques physiques d&apos;ignorer 2% de l&apos;armure de votre cible par point de combo pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques finales permettent à vos attaques physiques d&apos;ignorer 4% de l&apos;armure de votre cible par point de combo pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos attaques finales permettent à vos attaques physiques d&apos;ignorer 6% de l&apos;armure de votre cible par point de combo pendant 10 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Efficacité au combat</Name>
+      <Icon>embolden2a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1783962654</AbilityId>
+          <Description></Description>
+          <AddonId>A6A551C1E00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques finales vous rapportent 1 point d&apos;énergie par point de combo.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques finales vous rapportent 2 points d&apos;énergie par point de combo.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Transe méditative</Name>
+      <Icon>paladin-preservation_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>264342182</AbilityId>
+          <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 94 points de vie
+2 points : 204 points de vie
+3 points : 352 points de vie
+4 points : 535 points de vie
+5 points : 756 points de vie</Description>
+          <AddonId>A0FC18AA61FF3ED67</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>12.000000</Duration>
+          <Interval>3.000000</Interval>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Contre-tempo</Name>
+      <Icon>steelskin3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>389407123</AbilityId>
+          <Description></Description>
+          <AddonId>A1735E19300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 7% la contribution de vos attaques de main secondaire à la puissance d&apos;attaque et aux dégâts d&apos;arme.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 14% la contribution de vos attaques de main secondaire à la puissance d&apos;attaque et aux dégâts d&apos;arme.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente de 21% la contribution de vos attaques de main secondaire à la puissance d&apos;attaque et aux dégâts d&apos;arme.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente de 28% la contribution de vos attaques de main secondaire à la puissance d&apos;attaque et aux dégâts d&apos;arme.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente de 35% la contribution de vos attaques de main secondaire à la puissance d&apos;attaque et aux dégâts d&apos;arme.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Taillader et trancher</Name>
+      <Icon>doctrine_of_authority_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-11016241</AbilityId>
+          <Description></Description>
+          <AddonId>AFF57E7CF00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les coups critiques réussis augmentent de 3% les dégâts infligés, et réduisent de 1% les dégâts subis.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les coups critiques réussis augmentent de 6% les dégâts infligés, et réduisent de 2% les dégâts subis.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les coups critiques réussis augmentent de 9% les dégâts infligés, et réduisent de 3% les dégâts subis.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les coups critiques réussis augmentent de 12% les dégâts infligés, et réduisent de 4% les dégâts subis.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les coups critiques réussis augmentent de 15% les dégâts infligés, et réduisent de 5% les dégâts subis.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Contrepoids</Name>
+      <Icon>rudeawake1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>175028416</AbilityId>
+          <Description></Description>
+          <AddonId>A0A6EB8C000000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le délai de récupération de toutes les actions rythmées est réduit de 15 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Le délai de récupération de toutes les actions rythmées est réduit de 30 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Vivacité</Name>
+      <Icon>discombobulate3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2037010444</AbilityId>
+          <Description></Description>
+          <AddonId>A796A500C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre énergie maximale de 5. Augmente de 5% les dégâts de toutes les capacités du Danselame.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre énergie maximale de 10. Augmente de 10% les dégâts de toutes les capacités du Danselame.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Ambidextrie maîtrisée</Name>
+      <Icon>harbinger_blademark</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-17988902</AbilityId>
+          <Description></Description>
+          <AddonId>AFEED82DA00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de vos attaques de main secondaire de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de vos attaques de main secondaire de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de vos attaques de main secondaire de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Tourbillon de lames</Name>
+      <Icon>finalstrike1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-69057550</AbilityId>
+          <Description></Description>
+          <AddonId>AFBE243F200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Interval>3.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>La durée de vos capacités rythmées est prolongée de 3 secondes. Vous acquérez Tourbillon de lames toutes les 3 secondes, ce qui augmente les dégâts de votre prochaine Frappe rapide ou Frappe de précision de 5%. Cumulable jusqu&apos;à 5 fois à moins d&apos;être consommé.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La durée de vos capacités rythmées est prolongée de 6 secondes. Vous acquérez Tourbillon de lames toutes les 3 secondes, ce qui augmente les dégâts de votre prochaine Frappe rapide ou Frappe de précision de 10%. Cumulable jusqu&apos;à 5 fois à moins d&apos;être consommé.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>La durée de vos capacités rythmées est prolongée de 9 secondes. Vous acquérez Tourbillon de lames toutes les 3 secondes, ce qui augmente les dégâts de votre prochaine Frappe rapide ou Frappe de précision de 15%. Cumulable jusqu&apos;à 5 fois à moins d&apos;être consommé.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Danse de l&apos;acier</Name>
+      <Icon>dancing_steel</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2124791585</AbilityId>
+          <Description>Inflige 1288 à 1424 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+          <AddonId>A7EA5BF21C273EFE8</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>40</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Frappe intrépide</Name>
+      <Icon>finalstrike2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>106049083</AbilityId>
+          <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 192 points de dégâts, 20 secondes
+2 points : 252 points de dégâts, 30 secondes
+3 points : 327 points de dégâts, 40 secondes
+4 points : 416 points de dégâts, 50 secondes
+5 points : 518 points de dégâts, 60 secondes</Description>
+          <AddonId>A06522E3B1A1C4AB0</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>16</CostEnergy>
+          <ConsumesComboPoints>True</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Pose du duelliste</Name>
+      <Icon>warlord_ready_posture_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96129820</AbilityId>
+          <Description></Description>
+          <AddonId>AFA452CE400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les coups critiques réussis à l&apos;aide des capacités de Danselame augmentent votre puissance d&apos;attaque et vos dégâts d&apos;arme de 2% par accumulation. Cumulable jusqu&apos;à 5 fois. Dure 30 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les coups critiques réussis à l&apos;aide des capacités de Danselame augmentent votre puissance d&apos;attaque et vos dégâts d&apos;arme de 4% par accumulation. Cumulable jusqu&apos;à 5 fois. Dure 30 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Pluie de lames</Name>
+      <Icon>bladedancer_hundred_blades_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74491293</AbilityId>
+          <Description>Inflige 1468 à 1622 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+          <AddonId>AFB8F5A63DA5A1387</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>40</CostEnergy>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>20.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Attitude défensive</Name>
+      <Icon>tempest_close_training_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-12273355</AbilityId>
+          <Description>Augmente la vitesse de déplacement de 15%. Réduit les dégâts subis de 5%. Restaure 1% des points de vie maximum toutes les 2 secondes. Réduit le taux de récupération d&apos;énergie de 5 par seconde. Capacité pouvant être activée ou désactivée. Dure jusqu&apos;à annulation.</Description>
+          <AddonId>AFF44B93591CA40BB</AddonId>
+          <IsPassive>False</IsPassive>
+          <ConsumesComboPoints>False</ConsumesComboPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe binaire</Name>
+      <Icon>paragon_shifting_blades_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-89048601</AbilityId>
+        <Description>Inflige 532 à 588 points de dégâts d&apos;arme combinés. Rapporte 1 point de combo.</Description>
+        <AddonId>AFAB139E77D2712F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.940000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.940000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-48849255</AbilityId>
+        <Description>Inflige 591 à 653 points de dégâts d&apos;arme combinés. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD169E998133C2E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.940000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.940000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Pluie de lames</Name>
+      <Icon>bladedancer_hundred_blades_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-74491293</AbilityId>
+        <Description>Inflige 1468 à 1622 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFB8F5A63DA5A1387</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-7130704</AbilityId>
+        <Description>Inflige 1694 à 1872 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFF9331B0B5B8D532</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-60806998</AbilityId>
+        <Description>Inflige 1766 à 1952 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFC6028AA94C775E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63678349</AbilityId>
+        <Description>Inflige 2552 à 2821 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFC3458734245BFFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-64823438</AbilityId>
+        <Description>Inflige 3351 à 3704 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFC22DF725342F2B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60646786</AbilityId>
+        <Description>Inflige 3720 à 4112 points de dégâts en 6 secondes avec chaque arme à un maximum de 5 ennemis situés dans un cône à moins de 20 mètres du Voleur. Déplacement possible.</Description>
+        <AddonId>AFC629A7E6B897FD6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>20.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe doublée</Name>
+      <Icon>paragon_path_of_the_tempest_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-60449485</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus des dégâts supplémentaires par point de combo.
+
+1 point : 258 points de dégâts
+2 points : 393 points de dégâts
+3 points : 568 points de dégâts
+4 points : 778 points de dégâts
+5 points : 1030 points de dégâts</Description>
+        <AddonId>AFC659D33681BCF67</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-95814162</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus des dégâts supplémentaires par point de combo.
+
+1 point : 309 points de dégâts
+2 points : 522 points de dégâts
+3 points : 799 points de dégâts
+4 points : 1139 points de dégâts
+5 points : 1545 points de dégâts</Description>
+        <AddonId>AFA49FDEE3BD5BA77</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-28362895</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus des dégâts supplémentaires par point de combo.
+
+1 point : 325 points de dégâts
+2 points : 564 points de dégâts
+3 points : 875 points de dégâts
+4 points : 1258 points de dégâts
+5 points : 1714 points de dégâts</Description>
+        <AddonId>AFE4F37716301C072</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lames de la destinée</Name>
+      <Icon>harbinger_phantom_blades</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-41630703</AbilityId>
+        <Description>Toutes les attaques du Danselame reçoivent un bonus de contribution à la puissance d&apos;attaque de 150% et ignorent complètement l&apos;armure de l&apos;ennemi. Dure 15 secondes.</Description>
+        <AddonId>AFD84C411CF6C17C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Maîtrise de Danselame</Name>
+      <Icon>combat_pose</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-37259109</AbilityId>
+        <Description>Chaque point investi dans l&apos;âme du Danselame augmente les dégâts de 1%.</Description>
+        <AddonId>AFDC7789B9331636F</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Attitude défensive</Name>
+      <Icon>tempest_close_training_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-12273355</AbilityId>
+        <Description>Augmente la vitesse de déplacement de 15%. Réduit les dégâts subis de 5%. Restaure 1% des points de vie maximum toutes les 2 secondes. Réduit le taux de récupération d&apos;énergie de 5 par seconde. Capacité pouvant être activée ou désactivée. Dure jusqu&apos;à annulation.</Description>
+        <AddonId>AFF44B93591CA40BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Désarmer</Name>
+      <Icon>disabling4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>68896768</AbilityId>
+        <Description>Désarme pendant 6 secondes.</Description>
+        <AddonId>A041B4800A97AD250</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dégagement</Name>
+      <Icon>defensivestrike3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>90085581</AbilityId>
+        <Description>Étourdit pendant 4 secondes. Rapporte 1 point de combo.</Description>
+        <AddonId>A055E98CDA269CBD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>4.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe aiguisée</Name>
+      <Icon>disabling1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>93296395</AbilityId>
+        <Description>Inflige 139 à 153 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A058F970B4E96ED0E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>235456850</AbilityId>
+        <Description>Inflige 143 à 158 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A0E08C95294C626F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1730414280</AbilityId>
+        <Description>Inflige 150 à 166 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A672406C899630207</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1812072247</AbilityId>
+        <Description>Inflige 157 à 174 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A6C0207376C90794B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>549421451</AbilityId>
+        <Description>Inflige 165 à 182 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A20BF818B60528426</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2117924071</AbilityId>
+        <Description>Inflige 174 à 192 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A7E3CF4E7845C1D18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>889996346</AbilityId>
+        <Description>Inflige 183 à 202 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A350C443A7400831D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>783925300</AbilityId>
+        <Description>Inflige 197 à 217 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A2EB9C034C843E95E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>929021133</AbilityId>
+        <Description>Inflige 215 à 238 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A375FBCCDE37DACC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1672234163</AbilityId>
+        <Description>Inflige 244 à 269 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>A63AC44B37DE4477A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-61566771</AbilityId>
+        <Description>Inflige 255 à 281 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFC5490CD8F341794</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-35551285</AbilityId>
+        <Description>Inflige 367 à 406 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFDE187CBD2F9FD25</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-44120497</AbilityId>
+        <Description>Inflige 481 à 531 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD5EC64FE2803049</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70877235</AbilityId>
+        <Description>Inflige 534 à 591 points de dégâts. Rapporte 1 point de combo.</Description>
+        <AddonId>AFBC67FCDD29AF132</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.850000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.850000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Frappe intrépide</Name>
+      <Icon>finalstrike2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>106049083</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 192 points de dégâts, 20 secondes
+2 points : 252 points de dégâts, 30 secondes
+3 points : 327 points de dégâts, 40 secondes
+4 points : 416 points de dégâts, 50 secondes
+5 points : 518 points de dégâts, 60 secondes</Description>
+        <AddonId>A06522E3B1A1C4AB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1545212658</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 195 points de dégâts, 20 secondes
+2 points : 260 points de dégâts, 30 secondes
+3 points : 341 points de dégâts, 40 secondes
+4 points : 436 points de dégâts, 50 secondes
+5 points : 549 points de dégâts, 60 secondes</Description>
+        <AddonId>A5C1A12F26BF0BD7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>276119453</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 199 points de dégâts, 20 secondes
+2 points : 270 points de dégâts, 30 secondes
+3 points : 361 points de dégâts, 40 secondes
+4 points : 466 points de dégâts, 50 secondes
+5 points : 590 points de dégâts, 60 secondes</Description>
+        <AddonId>A10753F9DD73481EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1245570880</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 207 points de dégâts, 20 secondes
+2 points : 290 points de dégâts, 30 secondes
+3 points : 395 points de dégâts, 40 secondes
+4 points : 520 points de dégâts, 50 secondes
+5 points : 668 points de dégâts, 60 secondes</Description>
+        <AddonId>A4A3DE7406EDF7B51</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1488033437</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 211 points de dégâts, 20 secondes
+2 points : 300 points de dégâts, 30 secondes
+3 points : 415 points de dégâts, 40 secondes
+4 points : 550 points de dégâts, 50 secondes
+5 points : 711 points de dégâts, 60 secondes</Description>
+        <AddonId>A58B1969D7488CEAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>630408400</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 234 points de dégâts, 20 secondes
+2 points : 356 points de dégâts, 30 secondes
+3 points : 515 points de dégâts, 40 secondes
+4 points : 706 points de dégâts, 50 secondes
+5 points : 934 points de dégâts, 60 secondes</Description>
+        <AddonId>A259344D0C1DD8AF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-24519590</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 280 points de dégâts, 20 secondes
+2 points : 474 points de dégâts, 30 secondes
+3 points : 725 points de dégâts, 40 secondes
+4 points : 1034 points de dégâts, 50 secondes
+5 points : 1402 points de dégâts, 60 secondes</Description>
+        <AddonId>AFE89DC5AAF669F23</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-45206730</AbilityId>
+        <Description>Augmente les chances de coup critique des membres du groupe ou du raid de 5% pendant une durée déterminée par les points de combo. Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 296 points de dégâts, 20 secondes
+2 points : 512 points de dégâts, 30 secondes
+3 points : 794 points de dégâts, 40 secondes
+4 points : 1141 points de dégâts, 50 secondes
+5 points : 1555 points de dégâts, 60 secondes</Description>
+        <AddonId>AFD4E333657FEEE59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dualisme</Name>
+      <Icon>deflection1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>145381789</AbilityId>
+        <Description>Permet de frapper deux fois avec Frappe rapide et Frappe de précision, et d&apos;ajouter un point de combo supplémentaire pendant 15 secondes.</Description>
+        <AddonId>A08AA599D54EC42EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mur d&apos;acier</Name>
+      <Icon>charge3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>212560084</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 139 à 154 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A0CAB68D488191DA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>769716780</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 149 à 165 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A2DE0F22C15BEA848</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>2078956800</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 155 à 172 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A7BEA5D0088CD4DC1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1429409443</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 165 à 183 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A55330EA36F4F7CD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>539039858</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 175 à 194 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A202118727FB2D9D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1652036538</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 188 à 208 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A627813BA556B5237</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>907599579</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 213 à 236 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>A3618DEDBF3F6553D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-27342947</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 226 à 250 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>AFE5EC79DF2CDF9ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15495032</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 297 à 329 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>AFF139088D029C196</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-21727883</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 447 à 494 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>AFEB475757D12991F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-3322433</AbilityId>
+        <Description>Fonce sur l&apos;ennemi, lui infligeant 496 à 549 points de dégâts. Immobilise pendant 2 secondes. Dissipe tous les effets d&apos;entrave au déplacement du Voleur. Rapporte 2 points de combo.</Description>
+        <AddonId>AFFCD4DBFAC236837</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MinRange>3.000000</MinRange>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Transe méditative</Name>
+      <Icon>paladin-preservation_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>264342182</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 94 points de vie
+2 points : 204 points de vie
+3 points : 352 points de vie
+4 points : 535 points de vie
+5 points : 756 points de vie</Description>
+        <AddonId>A0FC18AA61FF3ED67</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1387851649</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 103 points de vie
+2 points : 228 points de vie
+3 points : 394 points de vie
+4 points : 603 points de vie
+5 points : 851 points de vie</Description>
+        <AddonId>A52B8EF816682B73B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>564387991</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 112 points de vie
+2 points : 252 points de vie
+3 points : 436 points de vie
+4 points : 667 points de vie
+5 points : 944 points de vie</Description>
+        <AddonId>A21A3E09747916E63</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>1033473949</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 116 points de vie
+2 points : 263 points de vie
+3 points : 454 points de vie
+4 points : 696 points de vie
+5 points : 984 points de vie</Description>
+        <AddonId>A3D998F9D8B333C2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>886492447</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 128 points de vie
+2 points : 294 points de vie
+3 points : 511 points de vie
+4 points : 782 points de vie
+5 points : 1108 points de vie</Description>
+        <AddonId>A34D6CD1FC50C2720</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1846274598</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 132 points de vie
+2 points : 303 points de vie
+3 points : 529 points de vie
+4 points : 811 points de vie
+5 points : 1148 points de vie</Description>
+        <AddonId>A6E0BEA2697E8181A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2014291979</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 150 points de vie
+2 points : 347 points de vie
+3 points : 606 points de vie
+4 points : 931 points de vie
+5 points : 1320 points de vie</Description>
+        <AddonId>A780FA80B0C8A3E71</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>2089131437</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 165 points de vie
+2 points : 383 points de vie
+3 points : 672 points de vie
+4 points : 1033 points de vie
+5 points : 1466 points de vie</Description>
+        <AddonId>A7C859DAD760D0B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-67399481</AbilityId>
+        <Description>Restaure des points de vie supplémentaires par point de combo en 12 secondes.
+
+1 point : 165 points de vie
+2 points : 385 points de vie
+3 points : 677 points de vie
+4 points : 1041 points de vie
+5 points : 1477 points de vie</Description>
+        <AddonId>AFBFB90C7760D0B97</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>12.000000</Duration>
+        <Interval>3.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.500000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Sprint</Name>
+      <Icon>tumble1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>265715720</AbilityId>
+        <Description>La vitesse de déplacement augmente de 50% pendant 15 secondes.</Description>
+        <AddonId>A0FD680088779AB47</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Représailles</Name>
+      <Icon>deflection3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>337457294</AbilityId>
+        <Description>Inflige 163 à 180 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A141D308E818E3A27</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2069134279</AbilityId>
+        <Description>Inflige 176 à 195 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A7B547BC7AA2D0D26</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>689045149</AbilityId>
+        <Description>Inflige 184 à 203 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A2911FE9D6361FEEB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>625633076</AbilityId>
+        <Description>Inflige 193 à 214 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A254A6734AD66F364</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>299703932</AbilityId>
+        <Description>Inflige 204 à 226 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A11DD1E7C6460F50A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>763015279</AbilityId>
+        <Description>Inflige 220 à 243 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A2D7AB06F4DAD36F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>939937070</AbilityId>
+        <Description>Inflige 240 à 266 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A38064D2E6D498466</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1188486915</AbilityId>
+        <Description>Inflige 273 à 302 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>A46D6DF0357D810FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-30719350</AbilityId>
+        <Description>Inflige 314 à 347 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>AFE2B428A98A07D9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-41569688</AbilityId>
+        <Description>Inflige 470 à 519 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD85B26894AE373F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-95668450</AbilityId>
+        <Description>Inflige 597 à 659 points de dégâts. À utiliser après que le Voleur a dévié, esquivé ou paré. Rapporte 1 point de combo.</Description>
+        <AddonId>AFA4C371E89329ABF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.950000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.950000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Démêlage</Name>
+      <Icon>untangle</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>545137137</AbilityId>
+        <Description>Supprime tous les effets de contrôle de foule. Immunise contre les effets de contrôle de foule pendant 8 secondes.</Description>
+        <AddonId>A207E21F18888BFCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Attaque complexe</Name>
+      <Icon>charge2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>676725229</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 113 points de dégâts
+2 points : 147 points de dégâts
+3 points : 188 points de dégâts
+4 points : 236 points de dégâts
+5 points : 293 points de dégâts</Description>
+        <AddonId>A285601EDBF8C7BD1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>511047269</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 115 points de dégâts
+2 points : 151 points de dégâts
+3 points : 196 points de dégâts
+4 points : 249 points de dégâts
+5 points : 310 points de dégâts</Description>
+        <AddonId>A1E75F6658B1DC01D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1082692504</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 116 points de dégâts
+2 points : 156 points de dégâts
+3 points : 204 points de dégâts
+4 points : 262 points de dégâts
+5 points : 329 points de dégâts</Description>
+        <AddonId>A40889398C872DC18</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1951949654</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 120 points de dégâts
+2 points : 162 points de dégâts
+3 points : 216 points de dégâts
+4 points : 280 points de dégâts
+5 points : 354 points de dégâts</Description>
+        <AddonId>A7458635690D6AB87</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>250010314</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 124 points de dégâts
+2 points : 174 points de dégâts
+3 points : 238 points de dégâts
+4 points : 312 points de dégâts
+5 points : 401 points de dégâts</Description>
+        <AddonId>A0EE6DACA72CAB70A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>608776915</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 127 points de dégâts
+2 points : 180 points de dégâts
+3 points : 249 points de dégâts
+4 points : 331 points de dégâts
+5 points : 427 points de dégâts</Description>
+        <AddonId>A244932D37A7B6FD8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>255801840</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 128 points de dégâts
+2 points : 185 points de dégâts
+3 points : 257 points de dégâts
+4 points : 343 points de dégâts
+5 points : 445 points de dégâts</Description>
+        <AddonId>A0F3F39F0538FFAE5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-94493490</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 147 points de dégâts
+2 points : 234 points de dégâts
+3 points : 345 points de dégâts
+4 points : 480 points de dégâts
+5 points : 640 points de dégâts</Description>
+        <AddonId>AFA5E24CE899A065B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-81289161</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 168 points de dégâts
+2 points : 284 points de dégâts
+3 points : 435 points de dégâts
+4 points : 620 points de dégâts
+5 points : 841 points de dégâts</Description>
+        <AddonId>AFB27A0378DCD5108</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-10215067</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo à un maximum de 5 ennemis.
+
+1 point : 177 points de dégâts
+2 points : 307 points de dégâts
+3 points : 477 points de dégâts
+4 points : 685 points de dégâts
+5 points : 933 points de dégâts</Description>
+        <AddonId>AFF64216568D30BC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>18</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Barrage d&apos;armes</Name>
+      <Icon>weapon_barrage</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1036528302</AbilityId>
+        <Description>Interrompt l&apos;ennemi. Si l&apos;interruption réussit, l&apos;ennemi est réduit au silence pendant 5 secondes.</Description>
+        <AddonId>A3DC82AAEAEB2F5B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe jumelée</Name>
+      <Icon>twin_strike_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1062562520</AbilityId>
+        <Description>Inflige 96 à 106 points de dégâts. Inflige 96 à 106 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A3F556AD86482C8F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1152220266</AbilityId>
+        <Description>Inflige 103 à 113 points de dégâts. Inflige 103 à 113 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A44AD7C6A38D80788</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>711705552</AbilityId>
+        <Description>Inflige 108 à 119 points de dégâts. Inflige 108 à 119 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A2A6BC3D015E78172</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>489895838</AbilityId>
+        <Description>Inflige 116 à 128 points de dégâts. Inflige 116 à 128 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A1D33379E9C76296C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1284030361</AbilityId>
+        <Description>Inflige 123 à 136 points de dégâts. Inflige 123 à 136 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A4C88BF9993672F54</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>661114073</AbilityId>
+        <Description>Inflige 146 à 162 points de dégâts. Inflige 146 à 162 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A2767CCD9B5FE4282</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>709186206</AbilityId>
+        <Description>Inflige 153 à 169 points de dégâts. Inflige 153 à 169 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A2A45529E5B05509B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1689108792</AbilityId>
+        <Description>Inflige 219 à 243 points de dégâts. Inflige 219 à 243 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A64ADC1389031B656</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1193244373</AbilityId>
+        <Description>Inflige 288 à 319 points de dégâts. Inflige 288 à 319 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>A471F76D5A9306775</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83809537</AbilityId>
+        <Description>Inflige 320 à 354 points de dégâts. Inflige 320 à 354 points de dégâts de l&apos;arme secondaire à un maximum de 4 autres ennemis à proximité. Rapporte 1 point de combo.</Description>
+        <AddonId>AFB012AFF87C081C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>26</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.510000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">0.510000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Harmonie de l&apos;âme et de la lame</Name>
+      <Icon>revitalize1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1122861576</AbilityId>
+        <Description>Les capacités du Voleur ne consomment plus d&apos;énergie. Augmente les chances d&apos;infliger un coup critique de 50% et les dégâts des coups critiques de 50% pendant 15 secondes.</Description>
+        <AddonId>A42ED82088A1FC750</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe de précision</Name>
+      <Icon>critical2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1196909451</AbilityId>
+        <Description>Inflige 67 à 74 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A4757638B5B9F8E1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1675264383</AbilityId>
+        <Description>Inflige 78 à 86 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A63DA817F4A313F1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2054725059</AbilityId>
+        <Description>Inflige 93 à 103 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A7A789DC31FBFDB00</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1299925173</AbilityId>
+        <Description>Inflige 114 à 126 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A4D7B48B58CDB519F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1526365128</AbilityId>
+        <Description>Inflige 147 à 162 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A5AFA7BC885639308</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1025386595</AbilityId>
+        <Description>Inflige 188 à 208 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>A3D1E286326EDD499</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-29382787</AbilityId>
+        <Description>Inflige 345 à 382 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>AFE3FA77D6DED1B08</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-31639289</AbilityId>
+        <Description>Inflige 474 à 524 points de dégâts de l&apos;arme secondaire. À utiliser après la Frappe aiguisée ou la Frappe binaire du Voleur. Rapporte 2 points de combo. Ne peut être parée ni esquivée.</Description>
+        <AddonId>AFE1D3907785F64E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>2</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.960000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.960000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe rapide</Name>
+      <Icon>sweep3b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1277127007</AbilityId>
+        <Description>Inflige 37 à 41 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A4C1F695F8DAAABBF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1415875680</AbilityId>
+        <Description>Inflige 44 à 48 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A54648C6098CCD430</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>621258084</AbilityId>
+        <Description>Inflige 54 à 60 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A2507A5644272457B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1387385488</AbilityId>
+        <Description>Inflige 59 à 65 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A52B1D29074979DC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>108584247</AbilityId>
+        <Description>Inflige 71 à 78 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A0678DD3759504AD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1530986539</AbilityId>
+        <Description>Inflige 82 à 90 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A5B41002B40E89C98</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>750830534</AbilityId>
+        <Description>Inflige 97 à 107 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A2CC0C3C677071211</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>710964780</AbilityId>
+        <Description>Inflige 113 à 125 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A2A60762C843A87E1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1875888578</AbilityId>
+        <Description>Inflige 162 à 179 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A6FCFC9C2747F6382</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1132226063</AbilityId>
+        <Description>Inflige 175 à 193 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>A437C660FADBFF561</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42642030</AbilityId>
+        <Description>Inflige 316 à 349 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>AFD7555925E37484F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-83505181</AbilityId>
+        <Description>Inflige 458 à 506 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>AFB05CFE3825CD911</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83198011</AbilityId>
+        <Description>Inflige 523 à 578 points de dégâts de l&apos;arme secondaire. À utiliser après Frappe aiguisée ou Frappe binaire du Voleur. Rapporte 1 point de combo.</Description>
+        <AddonId>AFB0A7FC582ABEF89</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>2 armes équipées</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>24</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <GainComboPoints>1</GainComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.060000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">1.060000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Préparation au combat</Name>
+      <Icon>combat_pose1_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1496501054</AbilityId>
+        <Description>Augmente la dextérité de tous les membres du groupe ou du raid de 30. Dure 1 heure.</Description>
+        <AddonId>A5932CB3E5D051755</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1255973173</AbilityId>
+        <Description>Augmente la dextérité de tous les membres du groupe ou du raid de 40. Dure 1 heure.</Description>
+        <AddonId>A4ADCA1352F6E0587</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1391728495</AbilityId>
+        <Description>Augmente la dextérité de tous les membres du groupe ou du raid de 50. Dure 1 heure.</Description>
+        <AddonId>A52F4176F8313D7E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2093053975</AbilityId>
+        <Description>Augmente la dextérité de tous les membres du groupe ou du raid de 60. Dure 1 heure.</Description>
+        <AddonId>A7CC17817591BFF1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70301759</AbilityId>
+        <Description>Augmente la dextérité de tous les membres du groupe ou du raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFBCF47C1591BFF1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Danse mortelle</Name>
+      <Icon>combat_pose1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1683478228</AbilityId>
+        <Description>Les attaques finales du Danselame augmentent les dégâts de la capacité suivante du Voleur générant un point de combo de 3% par point de combo utilisé. Ce bonus ne s&apos;applique qu&apos;aux attaques avec des armes de corps à corps.</Description>
+        <AddonId>A6457D6D46B7BF06D</AddonId>
+        <IsPassive>True</IsPassive>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe meurtrière</Name>
+      <Icon>roguestrike2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1789543338</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 181 points de dégâts
+2 points : 226 points de dégâts
+3 points : 280 points de dégâts
+4 points : 342 points de dégâts
+5 points : 413 points de dégâts</Description>
+        <AddonId>A6AAA43AA85C7634E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1795791306</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 183 points de dégâts
+2 points : 229 points de dégâts
+3 points : 286 points de dégâts
+4 points : 351 points de dégâts
+5 points : 426 points de dégâts</Description>
+        <AddonId>A6B0999CA74BF707F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>552507663</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 186 points de dégâts
+2 points : 236 points de dégâts
+3 points : 297 points de dégâts
+4 points : 368 points de dégâts
+5 points : 451 points de dégâts</Description>
+        <AddonId>A20EE990F4EB3CCE4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>21623304</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 187 points de dégâts
+2 points : 240 points de dégâts
+3 points : 305 points de dégâts
+4 points : 380 points de dégâts
+5 points : 468 points de dégâts</Description>
+        <AddonId>A0149F20818F05E59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>2108058656</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 189 points de dégâts
+2 points : 245 points de dégâts
+3 points : 315 points de dégâts
+4 points : 394 points de dégâts
+5 points : 488 points de dégâts</Description>
+        <AddonId>A7DA66C20473A6136</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>782501874</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 192 points de dégâts
+2 points : 252 points de dégâts
+3 points : 327 points de dégâts
+4 points : 416 points de dégâts
+5 points : 518 points de dégâts</Description>
+        <AddonId>A2EA407F2866DC3C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>265735244</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 195 points de dégâts
+2 points : 260 points de dégâts
+3 points : 341 points de dégâts
+4 points : 436 points de dégâts
+5 points : 549 points de dégâts</Description>
+        <AddonId>A0FD6CC4C883915A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>348420200</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 199 points de dégâts
+2 points : 270 points de dégâts
+3 points : 361 points de dégâts
+4 points : 466 points de dégâts
+5 points : 590 points de dégâts</Description>
+        <AddonId>A14C478687DB3C57B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2054156909</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 207 points de dégâts
+2 points : 290 points de dégâts
+3 points : 395 points de dégâts
+4 points : 520 points de dégâts
+5 points : 668 points de dégâts</Description>
+        <AddonId>A7A6FF26D51D18644</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1886268005</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 211 points de dégâts
+2 points : 300 points de dégâts
+3 points : 415 points de dégâts
+4 points : 550 points de dégâts
+5 points : 711 points de dégâts</Description>
+        <AddonId>A706E2A652DC5F338</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-64512778</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 234 points de dégâts
+2 points : 356 points de dégâts
+3 points : 515 points de dégâts
+4 points : 706 points de dégâts
+5 points : 934 points de dégâts</Description>
+        <AddonId>AFC279CF63163578E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-95798449</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 280 points de dégâts
+2 points : 474 points de dégâts
+3 points : 725 points de dégâts
+4 points : 1034 points de dégâts
+5 points : 1402 points de dégâts</Description>
+        <AddonId>AFA4A3B4F6457E969</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18128051</AbilityId>
+        <Description>Inflige des dégâts supplémentaires par point de combo.
+
+1 point : 296 points de dégâts
+2 points : 512 points de dégâts
+3 points : 794 points de dégâts
+4 points : 1141 points de dégâts
+5 points : 1555 points de dégâts</Description>
+        <AddonId>AFEEB634D4CD26D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>16</CostEnergy>
+        <ConsumesComboPoints>True</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pas de côté</Name>
+      <Icon>side_steps</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1792681436</AbilityId>
+        <Description>Augmente l&apos;esquive de 50% pendant 15 secondes.</Description>
+        <AddonId>A6ADA25DCE98B047B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Double Coup</Name>
+      <Icon>deflection4cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1809451313</AbilityId>
+        <Description>Augmente les dégâts de toutes les attaques du Danselame générant des points de combo de 85% pendant 15 secondes.</Description>
+        <AddonId>A6BDA0931731F4FC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tempo des lames</Name>
+      <Icon>blade_tempo</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1951412239</AbilityId>
+        <Description>Augmente les dégâts de 30% pendant 15 secondes.</Description>
+        <AddonId>A7450300FC8778E25</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Danse de l&apos;acier</Name>
+      <Icon>dancing_steel</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2124791585</AbilityId>
+        <Description>Inflige 1288 à 1424 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>A7EA5BF21C273EFE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>336079519</AbilityId>
+        <Description>Inflige 1385 à 1530 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>A14082A9F88805D35</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>1334324913</AbilityId>
+        <Description>Inflige 1567 à 1732 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>A4F882EB1CDD4A0C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>816474012</AbilityId>
+        <Description>Inflige 1694 à 1872 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>A30AA679CC2FEC925</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-30071798</AbilityId>
+        <Description>Inflige 1948 à 2153 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>AFE35240A79CCD20C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-32900337</AbilityId>
+        <Description>Inflige 2925 à 3233 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>AFE09FB0F98E93EEE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-72964816</AbilityId>
+        <Description>Inflige 3720 à 4112 points de dégâts pour chaque arme pendant 6 secondes à un maximum de 5 ennemis. Immunise le Voleur contre tous les effets de contrôle de foule. Déplacement possible.</Description>
+        <AddonId>AFBA6A5307E862B87</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>40</CostEnergy>
+        <ConsumesComboPoints>False</ConsumesComboPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

@@ -1,0 +1,2915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Druid">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Main secourable</Name>
+      <Icon>spiritstrike3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-96632483</AbilityId>
+          <Description></Description>
+          <AddonId>AFA3D815D36B5D5D8</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par votre familier et vous-même de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par votre familier et vous-même de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés par votre familier et vous-même de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts infligés par votre familier et vous-même de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts infligés par votre familier et vous-même de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Discours à mi-voix</Name>
+      <Icon>sentinel-quietus</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18885620</AbilityId>
+          <Description></Description>
+          <AddonId>AFEDFD40C1DCBC9A3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre sagesse de 2%. Réduit les dégâts subis par votre familier de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre sagesse de 4%. Réduit les dégâts subis par votre familier de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente votre sagesse de 6%. Réduit les dégâts subis par votre familier de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente votre sagesse de 8%. Réduit les dégâts subis par votre familier de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente votre sagesse de 10%. Réduit les dégâts subis par votre familier de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Réponse à l&apos;appel</Name>
+      <Icon>releaseheat4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>127127256</AbilityId>
+          <Description></Description>
+          <AddonId>A0793CED8092316C0</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le temps d&apos;incantation de vos sorts d&apos;Invocation est réduit de 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le temps d&apos;incantation de vos sorts d&apos;Invocation est réduit de 6 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Trait de l&apos;Entourloupeur</Name>
+      <Icon>tactician_curative_bolt</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-82411169</AbilityId>
+          <Description>Inflige 476 à 526 points de dégâts de Vie.</Description>
+          <AddonId>AFB16815F5FB12750</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Passage à tabac</Name>
+      <Icon>2h_staff_042</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de votre Frappe fervente de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de votre Frappe fervente de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de votre Frappe fervente de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Versatile</Name>
+      <Icon>spiritblast1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3914434</AbilityId>
+          <Description></Description>
+          <AddonId>AFFC4453E4AF41511</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par les capacités instantanées de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par les capacités instantanées de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés par les capacités instantanées de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts infligés par les capacités instantanées de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts infligés par les capacités instantanées de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Croissance illimitée</Name>
+      <Icon>barbedtrap1</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1226935703</AbilityId>
+          <Description></Description>
+          <AddonId>A49218D975B112B19</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par Poussée de vie de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par Poussée de vie de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés par Poussée de vie de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Impact brutal</Name>
+      <Icon>sovereign_hammer_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>763596759</AbilityId>
+          <Description></Description>
+          <AddonId>A2D838FD768E9A615</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts physiques infligés par votre familier et vous-même de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts physiques infligés par votre familier et vous-même de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts physiques infligés par votre familier et vous-même de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts physiques infligés par votre familier et vous-même de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts physiques infligés par votre familier et vous-même de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Sommeil</Name>
+      <Icon>ressurect4bl</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1662193998</AbilityId>
+          <Description>Endort l&apos;ennemi pendant 10 secondes.</Description>
+          <AddonId>A6313114E97439373</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>10.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Silence sinistre</Name>
+      <Icon>druid-grim_silence</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1473690023</AbilityId>
+          <Description>Interrompt et réduit au silence pendant 5 secondes.</Description>
+          <AddonId>A57D6B9A76FDC3CA1</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Esprit du Bois</Name>
+      <Icon>shockwave2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-8010813</AbilityId>
+          <Description></Description>
+          <AddonId>AFF85C3C33FF3FBCA</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques d&apos;armes augmentent de 3% les sorts critiques de votre familier pendant 5 secondes ou jusqu&apos;à ce qu&apos;il inflige un coup critique. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques d&apos;armes augmentent de 6% les sorts critiques de votre familier pendant 5 secondes ou jusqu&apos;à ce qu&apos;il inflige un coup critique. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos attaques d&apos;armes augmentent de 9% les sorts critiques de votre familier pendant 5 secondes ou jusqu&apos;à ce qu&apos;il inflige un coup critique. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Vos attaques d&apos;armes augmentent de 12% les sorts critiques de votre familier pendant 5 secondes ou jusqu&apos;à ce qu&apos;il inflige un coup critique. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Vos attaques d&apos;armes augmentent de 15% les sorts critiques de votre familier pendant 5 secondes ou jusqu&apos;à ce qu&apos;il inflige un coup critique. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Satyre protecteur majeur</Name>
+      <Icon>staggeringshot3a</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-36140463</AbilityId>
+          <Description>Invoque un Satyre protecteur majeur de niveau 27 maximum. Plus approprié au tank.</Description>
+          <AddonId>AFDD88A51A7170A47</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>8.000000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Force sauvage</Name>
+      <Icon>spiritoflion3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>333949741</AbilityId>
+          <Description></Description>
+          <AddonId>A13E7AB2D4910B270</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts non physiques infligés par votre familier et vous de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts non physiques infligés par votre familier et vous de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts non physiques infligés par votre familier et vous de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Perforation du Voile</Name>
+      <Icon>shadow_shift_c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Marche féerique augmente votre vitesse de déplacement de 25% pendant 5 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Marche féerique augmente votre vitesse de déplacement de 50% pendant 5 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Frappe essentielle</Name>
+      <Icon>smite4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1240865605</AbilityId>
+          <Description>Inflige 1056 à 1167 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+          <AddonId>A49F61B45AAD84F4E</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Contact de Vie</Name>
+      <Icon>sanction_heretic</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>725588010</AbilityId>
+          <Description></Description>
+          <AddonId>A2B3F982A52710B74</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 3% votre puissance des sorts et celle de votre familier.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 6% votre puissance des sorts et celle de votre familier.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Précision curieuse</Name>
+      <Icon>exposeweakness3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-38262680</AbilityId>
+          <Description></Description>
+          <AddonId>AFDB828683EE86108</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos chances d&apos;infliger un coup critique de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos chances d&apos;infliger un coup critique de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos chances d&apos;infliger un coup critique de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Surprolifération</Name>
+      <Icon>untangle</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-44220939</AbilityId>
+          <Description></Description>
+          <AddonId>AFD5D3DF530895643</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur votre Éruption de Vie de 15%, et le nombre de fois où il peut déclencher des dégâts supplémentaires par 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur votre Éruption de Vie de 30%, et le nombre de fois où il peut déclencher des dégâts supplémentaires par 4.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Force de volonté</Name>
+      <Icon>spiritofturtle3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par vos familiers de 5% et les soins qu&apos;ils prodiguent de 10%. Réduit les dégâts qu&apos;ils subissent de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par vos familiers de 10% et les soins qu&apos;ils prodiguent de 20%. Réduit les dégâts qu&apos;ils subissent de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par vos familiers de 15% et les soins qu&apos;ils prodiguent de 30%. Réduit les dégâts qu&apos;ils subissent de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Satyre destructeur</Name>
+      <Icon>druid-summon_satyr</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>550912595</AbilityId>
+          <Description>Invoque un Satyre destructeur majeur de niveau 37 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+          <AddonId>A20D64253C28AC0D6</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>8.000000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Oracle féérique majeur</Name>
+      <Icon>druid_greater_faerie_seer_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-38457861</AbilityId>
+          <Description>Invoque un Oracle féérique majeur de niveau 42 maximum. Plus appropriée aux dégâts à distance.</Description>
+          <AddonId>AFDB52DFBA36C7982</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>8.000000</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Travail d&apos;équipe</Name>
+      <Icon>layonhands3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-59306828</AbilityId>
+          <Description></Description>
+          <AddonId>AFC770CB41729FB13</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Effort conjoint augmente les dégâts infligés par le Clerc et son familier de 5% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Effort conjoint augmente les dégâts infligés par le Clerc et son familier de 10% supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Effort conjoint augmente les dégâts infligés par le Clerc et son familier de 15% supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Célérité</Name>
+      <Icon>combat_pose1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération global et le temps d&apos;incantation de vos familiers de 0,25 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération global et le temps d&apos;incantation de vos familiers de 0,5 seconde.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Coup retentissant</Name>
+      <Icon>holysweep4d</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1640277529</AbilityId>
+          <Description>Inflige 1397 à 1544 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+          <AddonId>A61C4A619989EAE62</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+          <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Paix de la forêt</Name>
+      <Icon>generic_ability_011</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-95481715</AbilityId>
+        <Description>Régénère 7% des points de mana. Consomme 7% des points de vie.</Description>
+        <AddonId>AFA4F108DB3F3CA31</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="1">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Épines de courroux</Name>
+      <Icon>venomoustrap1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-90791839</AbilityId>
+        <Description>L&apos;ennemi subit 80 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFA96A06177D454AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-96747635</AbilityId>
+        <Description>L&apos;ennemi subit 115 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFA3BBF8D52039FCD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-83074502</AbilityId>
+        <Description>L&apos;ennemi subit 175 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFB0C623A39B2398F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-50602504</AbilityId>
+        <Description>L&apos;ennemi subit 250 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFCFBDDF8916358F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-88820523</AbilityId>
+        <Description>L&apos;ennemi subit 370 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFAB4B4D54CB88CDB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-19817900</AbilityId>
+        <Description>L&apos;ennemi subit 530 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFED19A547B41A384</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-42946769</AbilityId>
+        <Description>L&apos;ennemi subit 900 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFD70AF2F397E497F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-26250517</AbilityId>
+        <Description>L&apos;ennemi subit 1200 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFE6F72EB80B970AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-60895866</AbilityId>
+        <Description>L&apos;ennemi subit 1500 points de dégâts supplémentaires à chaque fois qu&apos;il est touché pendant 20 secondes. Chaque attaquant peut déclencher cet effet toutes les 3 secondes.</Description>
+        <AddonId>AFC5ECD86291B482A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Trait de l&apos;Entourloupeur</Name>
+      <Icon>tactician_curative_bolt</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-82411169</AbilityId>
+        <Description>Inflige 476 à 526 points de dégâts de Vie.</Description>
+        <AddonId>AFB16815F5FB12750</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-61089578</AbilityId>
+        <Description>Inflige 497 à 549 points de dégâts de Vie.</Description>
+        <AddonId>AFC5BD8D64F51BDEB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-31802220</AbilityId>
+        <Description>Inflige 508 à 561 points de dégâts de Vie.</Description>
+        <AddonId>AFE1ABC949C25E2AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-58863796</AbilityId>
+        <Description>Inflige 522 à 577 points de dégâts de Vie.</Description>
+        <AddonId>AFC7DCF4CE2598035</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-94936337</AbilityId>
+        <Description>Inflige 535 à 591 points de dégâts de Vie.</Description>
+        <AddonId>AFA5762EF4BD93D02</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-82230475</AbilityId>
+        <Description>Inflige 554 à 612 points de dégâts de Vie.</Description>
+        <AddonId>AFB194335C9EA3966</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-53376311</AbilityId>
+        <Description>Inflige 580 à 641 points de dégâts de Vie.</Description>
+        <AddonId>AFCD18AC9E70AB1C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-2598292</AbilityId>
+        <Description>Inflige 623 à 689 points de dégâts de Vie.</Description>
+        <AddonId>AFFD85A6C952DA728</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-29646414</AbilityId>
+        <Description>Inflige 700 à 774 points de dégâts de Vie.</Description>
+        <AddonId>AFE3BA1B28DFEE9DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-94884099</AbilityId>
+        <Description>Inflige 902 à 997 points de dégâts de Vie.</Description>
+        <AddonId>AFA582EFD55915E7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-4980853</AbilityId>
+        <Description>Inflige 1066 à 1178 points de dégâts de Vie.</Description>
+        <AddonId>AFFB3FF8B55DC0E7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Soutien de la forêt</Name>
+      <Icon>beastmaster_primal_recovery_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-82340978</AbilityId>
+        <Description>Les capacités de dégâts et de soins du familier du Clerc rendent des points de vie au Clerc et au familier en fonction de leur puissance des sorts.</Description>
+        <AddonId>AFB17938E9CCF6C5C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Satyre protecteur</Name>
+      <Icon>druid_summon_satyr_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-74881356</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 4 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFB8966B46F61921F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-76189276</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 8 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFB7571A4A84CE7E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-43253448</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 12 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFD6C0138BF6B7D20</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-4704793</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 18 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFFB835E7B989DEC2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-61032315</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 24 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFC5CB8856656EB76</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-84407751</AbilityId>
+        <Description>Invoque un Satyre protecteur de niveau 30 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFAF80A3999D04DBF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Esprit d&apos;Asphodel</Name>
+      <Icon>coda_of_wrath</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-72634708</AbilityId>
+        <Description>Les capacités de dégâts du familier du Clerc infligent des dégâts de Vie supplémentaires en fonction de leur puissance des sorts.</Description>
+        <AddonId>AFBABAEACD3726B23</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mimétisme féerique</Name>
+      <Icon>beastmaster_shared_bonds_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-59428155</AbilityId>
+        <Description>Les 4 prochaines capacités du Clerc infligeant des dégâts sur cible unique infligent des dégâts de Vie supplémentaires à hauteur des dégâts initiaux. N&apos;affecte pas les effets de dégâts répétés. Dure 15 secondes.</Description>
+        <AddonId>AFC7532C5F377D933</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Esprit de chamboulement</Name>
+      <Icon>riftblade-earth_burst_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-46018176</AbilityId>
+        <Description>Les capacités de dégâts du familier du Clerc infligent des dégâts de Terre supplémentaires en fonction de leur puissance des sorts jusqu&apos; à un maximum de 5 ennemis.</Description>
+        <AddonId>AFD41D180BF92326F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Oracle féérique majeur</Name>
+      <Icon>druid_greater_faerie_seer_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-38457861</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 42 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFDB52DFBA36C7982</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-7594731</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 48 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFF8C1D15402E13DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-88217957</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 51 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFABDE69B9CE35469</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-74876749</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 54 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFB8978B3B61985E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-7772258</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 57 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFF89679EC096078D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-41871426</AbilityId>
+        <Description>Invoque un Oracle féérique majeur de niveau 59 maximum. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFD8117BE7F2D1302</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-29838324</AbilityId>
+        <Description>Invoque un Oracle féérique majeur. Plus appropriée aux dégâts à distance.</Description>
+        <AddonId>AFE38B40C78A587AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Satyre protecteur majeur</Name>
+      <Icon>druid_summon_greater_satyr</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>-36140463</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 27 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFDD88A51A7170A47</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>-65184869</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 33 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFC1D5B9B0CE02F88</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>-7094872</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 39 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFF93BDA81D7DF0F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>-88957491</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 45 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFAB29DCDFF9B1EF8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>-9502158</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 50 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFF6F0232408ECF64</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-14091865</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 53 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFF28F9A715BB955B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22427980</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 56 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFEA9C6B4C2772C3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-85716881</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur de niveau 59 maximum. Plus approprié au tank.</Description>
+        <AddonId>AFAE4106FC7F03D16</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-72754377</AbilityId>
+        <Description>Invoque un Satyre protecteur majeur. Plus approprié au tank.</Description>
+        <AddonId>AFBA9DB373FDBAAD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Extraction féerique</Name>
+      <Icon>redirect1b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-29466448</AbilityId>
+        <Description>Téléporte l&apos;ennemi vers le Clerc.</Description>
+        <AddonId>AFE3E60B06C638AAC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Subtilité</Name>
+      <Icon>riftstalker_toughened_soul_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-16864272</AbilityId>
+        <Description>Permet aux capacités infligeant des dégâts du Clerc et de son familier d&apos;ignorer 20% de l&apos;armure et de la résistance de leurs cibles. Dure 1 heure.</Description>
+        <AddonId>AFEFEABF05FB02DA1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Force écrasante</Name>
+      <Icon>holysmite3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-15699444</AbilityId>
+        <Description>Inflige 1558 à 1722 points de dégâts de Terre en 15 secondes.</Description>
+        <AddonId>AFF10720C8612F0FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-71542775</AbilityId>
+        <Description>Inflige 1749 à 1934 points de dégâts de Terre en 15 secondes.</Description>
+        <AddonId>AFBBC580960011EB3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-8885673</AbilityId>
+        <Description>Inflige 2257 à 2495 points de dégâts de Terre en 15 secondes.</Description>
+        <AddonId>AFF786A575E19D0C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-94943451</AbilityId>
+        <Description>Inflige 2666 à 2947 points de dégâts de Terre en 15 secondes.</Description>
+        <AddonId>AFA5747258608C43C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Compagnon de la Sylve</Name>
+      <Icon>spiritoftree1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-15627680</AbilityId>
+        <Description></Description>
+        <AddonId>AFF118A604A9774EA</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pas de contournement</Name>
+      <Icon>silent_footsteps_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-5759198</AbilityId>
+        <Description>Marche féerique vous téléporte dans le dos de l&apos;ennemi.</Description>
+        <AddonId>AFFA81F229149D1E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe sauvage</Name>
+      <Icon>slam3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>136261040</AbilityId>
+        <Description>Inflige 361 à 399 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A081F2DB089804D28</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1081694984</AbilityId>
+        <Description>Inflige 369 à 407 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A40795B085E749F7C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>528347272</AbilityId>
+        <Description>Inflige 378 à 418 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A1F7DF088771030D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>442223202</AbilityId>
+        <Description>Inflige 388 à 429 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A1A5BCA627CD67149</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>158764258</AbilityId>
+        <Description>Inflige 402 à 445 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A09768CE23CF8C3A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1776678028</AbilityId>
+        <Description>Inflige 422 à 467 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A69E5F48C3E9C4A37</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>634747664</AbilityId>
+        <Description>Inflige 453 à 500 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>A25D57B10A9B5EE11</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-13030825</AbilityId>
+        <Description>Inflige 491 à 543 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>AFF392A576F63F439</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-62663849</AbilityId>
+        <Description>Inflige 640 à 707 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>AFC43D3577E3A3B7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-54017788</AbilityId>
+        <Description>Inflige 760 à 840 points de dégâts à un maximum de 5 ennemis.</Description>
+        <AddonId>AFCC7C104969332E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Éruption de Vie</Name>
+      <Icon>barbedtrap1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>303032785</AbilityId>
+        <Description>Inflige 294 à 325 points de dégâts de Vie. Poussée de vie inflige 96 à 107 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A120FE9D14C9C4755</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1119477664</AbilityId>
+        <Description>Inflige 303 à 335 points de dégâts de Vie. Poussée de vie inflige 100 à 110 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A42B9DFA0EA36A02A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>123449966</AbilityId>
+        <Description>Inflige 309 à 342 points de dégâts de Vie. Poussée de vie inflige 102 à 113 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A075BB26EC0A5F9AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2035177302</AbilityId>
+        <Description>Inflige 318 à 352 points de dégâts de Vie. Poussée de vie inflige 105 à 116 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A794E5756DFCBFC50</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1918904508</AbilityId>
+        <Description>Inflige 328 à 363 points de dégâts de Vie. Poussée de vie inflige 108 à 120 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A726028BC8DF72691</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>2101030053</AbilityId>
+        <Description>Inflige 340 à 376 points de dégâts de Vie. Poussée de vie inflige 112 à 123 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>A7D3B2CA58736E4C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-53363085</AbilityId>
+        <Description>Inflige 364 à 402 points de dégâts de Vie. Poussée de vie inflige 120 à 133 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>AFCD1BE7385C8A41C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-74053849</AbilityId>
+        <Description>Inflige 377 à 417 points de dégâts de Vie. Poussée de vie inflige 125 à 138 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>AFB9607278D550915</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-40173021</AbilityId>
+        <Description>Inflige 445 à 492 points de dégâts de Vie. Poussée de vie inflige 151 à 167 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>AFD9B022384F61408</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-30465779</AbilityId>
+        <Description>Inflige 587 à 649 points de dégâts de Vie. Poussée de vie inflige 198 à 219 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>AFE2F210D6212B520</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-90277507</AbilityId>
+        <Description>Inflige 633 à 699 points de dégâts de Vie. Poussée de vie inflige 198 à 219 points de dégâts de Vie supplémentaires et réduit le délai de récupération de Coup retentissant de 1,5 seconde, chaque fois que le Clerc touche l&apos;ennemi au cours des 15 prochaines secondes, jusqu&apos;à un maximum de 5 fois.</Description>
+        <AddonId>AFA9E797D39F4C615</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.500000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bouclier de chêne</Name>
+      <Icon>vitalizingshield1b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>369850818</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1054 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A160B79C27B5567B9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>822631546</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1149 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A31085C7A9D2B505F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1227309948</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1281 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A4927437C754392B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>276025462</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1364 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A1073D07641FBABD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1809854585</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1454 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A6BE03079BC300647</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>623188996</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1509 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A25251C04CE6D700F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1123177379</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1581 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A42F253A39468057F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1888467445</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1608 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A708FB9F5E879691E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>277077086</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1688 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>A1083DC5E555AEA0A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-2689641</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1723 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>AFFD6F597A06CD2A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-16610949</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1838 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>AFF02897B9D452B3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-96768933</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1936 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>AFA3B6C5B45B5B22E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-7725371</AbilityId>
+        <Description>Absorbe 25% des dégâts subis, jusqu&apos;à un maximum de 1943 points de dégâts. Augmente la vitesse de déplacement de 5%. Dure 30 secondes.</Description>
+        <AddonId>AFF8A1EC58C59D1F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Satyre destructeur majeur</Name>
+      <Icon>druid-summon_satyr</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>550912595</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 37 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>A20D64253C28AC0D6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>59325222</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 43 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>A03893B265788D073</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>631049269</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 49 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>A259D0C358E2C2125</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>1234552701</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 52 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>A4995C77D0B94D622</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-8681977</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 55 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>AFF7B86073C8F6A0A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-95181183</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur de niveau 58 maximum. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>AFA53A68199CE35CD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-35177041</AbilityId>
+        <Description>Invoque un Satyre destructeur majeur. Plus approprié aux dégâts au corps à corps.</Description>
+        <AddonId>AFDE73DAF26CE4B2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe fervente</Name>
+      <Icon>shockwave2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>722531426</AbilityId>
+        <Description>Inflige 570 à 630 points de dégâts.</Description>
+        <AddonId>A2B10F4625A2E6EE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1362583736</AbilityId>
+        <Description>Inflige 578 à 639 points de dégâts.</Description>
+        <AddonId>A513760B872106446</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>79961093</AbilityId>
+        <Description>Inflige 588 à 650 points de dégâts.</Description>
+        <AddonId>A04C41C0561FA2FB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1775699652</AbilityId>
+        <Description>Inflige 603 à 667 points de dégâts.</Description>
+        <AddonId>A69D706C49B493792</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>641702625</AbilityId>
+        <Description>Inflige 615 à 680 points de dégâts.</Description>
+        <AddonId>A263F9AE178FE77F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1320386979</AbilityId>
+        <Description>Inflige 630 à 697 points de dégâts.</Description>
+        <AddonId>A4EB381A3925A4636</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>477973839</AbilityId>
+        <Description>Inflige 647 à 715 points de dégâts.</Description>
+        <AddonId>A1C7D4D4F3F2F3ED9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1605224242</AbilityId>
+        <Description>Inflige 671 à 741 points de dégâts.</Description>
+        <AddonId>A5FADC732A54AEACA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>495763260</AbilityId>
+        <Description>Inflige 704 à 778 points de dégâts.</Description>
+        <AddonId>A1D8CBF3C952DCBB6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1765977991</AbilityId>
+        <Description>Inflige 755 à 834 points de dégâts.</Description>
+        <AddonId>A6942AF87526F9042</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-19115992</AbilityId>
+        <Description>Inflige 773 à 855 points de dégâts.</Description>
+        <AddonId>AFEDC50286FE5F9CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-44145731</AbilityId>
+        <Description>Inflige 971 à 1073 points de dégâts.</Description>
+        <AddonId>AFD5E63BD79C0CDD2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-1387894</AbilityId>
+        <Description>Inflige 1173 à 1297 points de dégâts.</Description>
+        <AddonId>AFFEAD28A54EB9F8D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-36186801</AbilityId>
+        <Description>Inflige 1266 à 1399 points de dégâts.</Description>
+        <AddonId>AFDD7D54F7669A411</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Guérisseuse féérique majeure</Name>
+      <Icon>druid-summon_greater_faerie</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1019014408</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 30 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A3CBCED0857B7E7E9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>423890618</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 36 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A19440EBA952371D8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>377776455</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 42 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A1684694755CA3B21</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1551413628</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 48 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A5C78B17CA7BF1D93</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>192651507</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 51 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A0B7BA0F3499E3A0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-48223524</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 54 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>AFD202ADC654D49A0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-8307074</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 57 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>AFF813E7E69255FDB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93589304</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure de niveau 59 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>AFA6BF0C838A8A495</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-88015632</AbilityId>
+        <Description>Invoque une Guérisseuse féérique majeure. Plus appropriée aux soins.</Description>
+        <AddonId>AFAC0FCF0A87750B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Renvoi du familier</Name>
+      <Icon>redirect1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1086659173</AbilityId>
+        <Description>Renvoie votre familier.</Description>
+        <AddonId>A40C51A65DBA71310</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hors des sentiers battus</Name>
+      <Icon>druid-hidden_path</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1104820851</AbilityId>
+        <Description>Dissipe toutes les malédictions, les maladies et les empoisonnements du Clerc et de son familier.</Description>
+        <AddonId>A41DA3A7379075728</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Frappe essentielle</Name>
+      <Icon>smite4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1240865605</AbilityId>
+        <Description>Inflige 1056 à 1167 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A49F61B45AAD84F4E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1650665701</AbilityId>
+        <Description>Inflige 1086 à 1200 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A626328E571F6A161</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>830853267</AbilityId>
+        <Description>Inflige 1124 à 1242 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A3185D093C1FD7F52</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1914167589</AbilityId>
+        <Description>Inflige 1203 à 1329 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A7217E1251E7D131C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1976162468</AbilityId>
+        <Description>Inflige 1246 à 1378 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A75C9D8A4EBE99580</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>2135225338</AbilityId>
+        <Description>Inflige 1518 à 1678 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A7F44F3FA67C4E24C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10653633</AbilityId>
+        <Description>Inflige 1983 à 2191 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>AFF5D703F736FF012</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>1818684401</AbilityId>
+        <Description>Inflige 2132 à 2357 points de dégâts de Vie. Réinitialise l&apos;Éruption de Vie active du Clerc sur l&apos;ennemi.</Description>
+        <AddonId>A6C66EBF13655E2A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Marche féérique</Name>
+      <Icon>shadow_shift_c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1298500173</AbilityId>
+        <Description>Téléporte jusqu&apos;à l&apos;ennemi.</Description>
+        <AddonId>A4D658A4D8EFB4B82</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Capture d&apos;offensive</Name>
+      <Icon>paragon_feint</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1322964650</AbilityId>
+        <Description>Interrompt l&apos;ennemi.</Description>
+        <AddonId>A4EDAD6AA6FC94EE4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Silence sinistre</Name>
+      <Icon>druid-grim_silence</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1473690023</AbilityId>
+        <Description>Interrompt et réduit au silence pendant 5 secondes.</Description>
+        <AddonId>A57D6B9A76FDC3CA1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dispersion féerique</Name>
+      <Icon>energyburst5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1484879043</AbilityId>
+        <Description>Peut être activée ou désactivée. Réduit les dégâts infligés par l&apos;Oracle féerique majeur de 40%, mais permet à tous ses sorts infligeant des dégâts de toucher jusqu&apos;à 5 ennemis. Réduit les soins prodigués par la Guérisseuse féerique majeure de 40%, mais permet à tous ses soins de soigner jusqu&apos;à 5 membres du groupe ou du raid.</Description>
+        <AddonId>A588174C32E5A52B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fureur des Fées</Name>
+      <Icon>riftstalker_rift_scavenger_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1509914339</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 28.</Description>
+        <AddonId>A59FF76E3A9671B6B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>883958647</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 40.</Description>
+        <AddonId>A34B02377867F9B1B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>938632089</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 53.</Description>
+        <AddonId>A37F26399DC726CF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1066126299</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 62.</Description>
+        <AddonId>A3F8BCBDB56CD55E5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-50404602</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 130.</Description>
+        <AddonId>AFCFEE306B3F9D39F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-51176294</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la puissance des sorts du Clerc et de son familier de 225.</Description>
+        <AddonId>AFCF31C9ACE3E2087</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fée guérisseuse</Name>
+      <Icon>druid-summon_faerie</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1555396489</AbilityId>
+        <Description>Invoque une Fée guérisseuse de niveau 4 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A5CB577899A4B6841</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1959400214</AbilityId>
+        <Description>Invoque une Fée guérisseuse de niveau 8 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A74CA131650523C6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1978600705</AbilityId>
+        <Description>Invoque une Fée guérisseuse de niveau 12 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A75EF0D0166B8A0F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>268372252</AbilityId>
+        <Description>Invoque une Fée guérisseuse de niveau 18 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>A0FFF091C1FDCE6A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-29800424</AbilityId>
+        <Description>Invoque une Fée guérisseuse de niveau 24 maximum. Plus appropriée aux soins.</Description>
+        <AddonId>AFE39481889E5A51C</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>8.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Coup retentissant</Name>
+      <Icon>holysweep4d</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>1640277529</AbilityId>
+        <Description>Inflige 1397 à 1544 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A61C4A619989EAE62</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>1482612975</AbilityId>
+        <Description>Inflige 1510 à 1669 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A585EE0EF6F57E415</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>203457424</AbilityId>
+        <Description>Inflige 1546 à 1709 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A0C208390BA0E9B17</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>889625112</AbilityId>
+        <Description>Inflige 1944 à 2149 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A35069A18A0D04254</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>1402056676</AbilityId>
+        <Description>Inflige 2347 à 2594 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A5391AFE459245861</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>352240361</AbilityId>
+        <Description>Inflige 2534 à 2801 points de dégâts. Augmente les dégâts infligés par la prochaine capacité de dégâts du Clerc de 50% pendant 10 secondes.</Description>
+        <AddonId>A14FEC2E9809B2B1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Sommeil</Name>
+      <Icon>ressurect4bl</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>1662193998</AbilityId>
+        <Description>Endort l&apos;ennemi pendant 10 secondes.</Description>
+        <AddonId>A6313114E97439373</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Effort conjoint</Name>
+      <Icon>intervene2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1673825006</AbilityId>
+        <Description>Inflige 1155 à 1277 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A63C48AEE7A1B7FF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>942675915</AbilityId>
+        <Description>Inflige 1176 à 1300 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A383017CB82885564</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>786098950</AbilityId>
+        <Description>Inflige 1205 à 1332 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A2EDAEB0686F59F89</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>881578334</AbilityId>
+        <Description>Inflige 1217 à 1346 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A348BD15E9592181B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>459568233</AbilityId>
+        <Description>Inflige 1253 à 1385 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A1B6474697073DE31</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1181652973</AbilityId>
+        <Description>Inflige 1283 à 1418 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A466E97ED8A4A2746</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>156052578</AbilityId>
+        <Description>Inflige 1328 à 1468 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>A094D2C627189D916</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-10331398</AbilityId>
+        <Description>Inflige 1373 à 1517 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFF625AFABDDCECE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-70476455</AbilityId>
+        <Description>Inflige 1510 à 1669 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFBCC9D59A2EBE092</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-16819347</AbilityId>
+        <Description>Inflige 1546 à 1709 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFEFF5B6D6FF045C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63274265</AbilityId>
+        <Description>Inflige 1944 à 2149 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFC3A82E75CDEB228</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-43903536</AbilityId>
+        <Description>Inflige 2347 à 2594 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFD6215D05B39F66B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-88208651</AbilityId>
+        <Description>Inflige 2534 à 2801 points de dégâts. Accorde une amélioration au Clerc pendant 15 secondes faisant que ses capacités infligeant des dégâts sur cible unique augmentent les dégâts infligés par lui-même et son familier de 5% pendant 5 secondes.</Description>
+        <AddonId>AFABE0AF5A57623A2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Force des Fées</Name>
+      <Icon>druid-strength_of_the_fae</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2106973498</AbilityId>
+        <Description>Réduit les dégâts subis par le Clerc et son familier de 50% pendant 10 secondes.</Description>
+        <AddonId>A7D95DD3A78D912A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

@@ -1,0 +1,2662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Justicar">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Bollwerk</Name>
+      <Icon>ward4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51692641</AbilityId>
+          <Description></Description>
+          <AddonId>AFCEB3B9F331F354A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Ausdauer um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Ausdauer um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Ausdauer um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Ausdauer um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Ausdauer um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Rüstung der Tugend</Name>
+      <Icon>armor_of_virtue_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1535043083</AbilityId>
+          <Description></Description>
+          <AddonId>A5B7EE60B75FF7667</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Weisheit um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Weisheit um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Weisheit um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure Weisheit um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure Weisheit um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Moment der Wahrheit</Name>
+      <Icon>flare_of_light_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-81389306</AbilityId>
+          <Description></Description>
+          <AddonId>AFB26190656323A5B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren Schaden und Eure Heilung durch Dogmen um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren Schaden und Eure Heilung durch Dogmen um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Beistand</Name>
+      <Icon>reparation_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Erlösung heilt bei bis zu 1 zusätzliches Gruppen- oder Schlachtzugmitglied.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Erlösung heilt bei bis zu 2 zusätzliche Gruppen- oder Schlachtzugmitglieder.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Erlösung heilt bei bis zu 3 zusätzliche Gruppen- oder Schlachtzugmitglieder.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Eure Erlösung heilt bei bis zu 4 zusätzliche Gruppen- oder Schlachtzugmitglieder.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Eure Erlösung heilt bei bis zu 5 zusätzliche Gruppen- oder Schlachtzugmitglieder.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Andacht des Lebens</Name>
+      <Icon>lifes_devotion_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-65480033</AbilityId>
+          <Description></Description>
+          <AddonId>AFC18DA9F5948483D</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die durch Erlösung verursachte Heilung beim Einsatz von Rächerfähigkeiten um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die durch Erlösung verursachte Heilung beim Einsatz von Rächerfähigkeiten um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die durch Erlösung verursachte Heilung beim Einsatz von Rächerfähigkeiten um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Doktrin des Glücks</Name>
+      <Icon>doctrine_of_bliss_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1985551240</AbilityId>
+          <Description>Stellt 1042 bis 1152 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+          <AddonId>A76591B88A856B283</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+          <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Gebot der Zuflucht</Name>
+      <Icon>defensivestrike1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1299258785</AbilityId>
+          <Description>Verursacht 588 bis 650 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+          <AddonId>A4D711DA1A66B8221</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>5.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+          <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+          <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Robuste Zitadelle</Name>
+      <Icon>bulwark1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1263310397</AbilityId>
+          <Description></Description>
+          <AddonId>A4B4C963D2704D929</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Blockwert wird jetzt von 50% Eurer Weisheit abgeleitet.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Blockwert wird jetzt von 100% Eurer Weisheit abgeleitet.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Zuversicht</Name>
+      <Icon>reprieve_01</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-43071235</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6EC8FD6545A60C</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Blocks verfügen über eine Chance von 50%, ein Dogma zu verleihen. Der Effekt kann nicht häufiger als 1 Mal alle 2 Sekunden auftreten.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Blocks verfügen über eine Chance von 100%, ein Dogma zu verleihen. Der Effekt kann nicht häufiger als 1 Mal alle 2 Sekunden auftreten.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Gerechtes Licht</Name>
+      <Icon>doctrine_of_faithful_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>806542081</AbilityId>
+          <Description></Description>
+          <AddonId>A3012DB013779DB55</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure kritischen Treffer mit lebensbasierten Schadensfähigkeiten gewähren ein zusätzliches Dogma.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Schild des Glaubens</Name>
+      <Icon>spiritofsaints3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>365846182</AbilityId>
+          <Description></Description>
+          <AddonId>A15CE5EA626C50C4C</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verringert Euren erlittenen Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verringert Euren erlittenen Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verringert Euren erlittenen Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Verringert Euren erlittenen Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Verringert Euren erlittenen Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Geste der Führung</Name>
+      <Icon>requital_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>413766657</AbilityId>
+          <Description>Erhöht Ausdauer, Rüstung und Widerstände um 35%. Erhöht Bedrohungserzeugung um 350%. Erlaubt dem Kleriker, durch Überschussheilung Bedrohung zu erzeugen. Verringert Schaden, verursachte Heilung und gewährte Absorption bei Nicht-Rächer-Fähigkeiten um 40%.</Description>
+          <AddonId>A18A99401C513B261</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Bekenntnis des Heilers</Name>
+      <Icon>spiritofvaliant1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1863103625</AbilityId>
+          <Description></Description>
+          <AddonId>A6F0CB48931C2648B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure erhaltene Heilung um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure erhaltene Heilung um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Geste der Ehre</Name>
+      <Icon>overwhelming_brilliance_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1916547586</AbilityId>
+          <Description>Reduziert die Bedrohungsstufe von schädigenden Fähigkeiten um 50% und erhöht die Heilungswirkung der Fähigkeiten des Rächers um 10%.</Description>
+          <AddonId>A723C320268298CCD</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Fromme Ablenkung</Name>
+      <Icon>deflection1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1254275259</AbilityId>
+          <Description></Description>
+          <AddonId>A4AC2B8BB6B989F57</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Euer Parierwert wird jetzt von 50% Eurer Weisheit abgeleitet. Euer Ausweichwert wird jetzt von 50% Eurer Intelligenz abgeleitet.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Euer Parierwert wird jetzt von 100% Eurer Weisheit abgeleitet. Euer Ausweichwert wird jetzt von 100% Eurer Intelligenz abgeleitet.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Dominanz</Name>
+      <Icon>paladin_face_slam</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-90195981</AbilityId>
+          <Description></Description>
+          <AddonId>AFA9FB7F30A9EA043</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Effekte der Zauberkraft von Eurem Hammer der Pflicht und Hammer des Glaubens um 25%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Effekte der Zauberkraft von Eurem Hammer der Pflicht und Hammer des Glaubens um 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die Effekte der Zauberkraft von Eurem Hammer der Pflicht und Hammer des Glaubens um 75%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Verbieten</Name>
+      <Icon>interdict_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1946401743</AbilityId>
+          <Description>Unterbricht den Gegner und in der Nähe befindliche Gegner.</Description>
+          <AddonId>A7403BBCFAF89FCAB</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>8.000000</Radius>
+          <MaxAffected>50</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Einsatz</Name>
+      <Icon>defstrike3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1544670164</AbilityId>
+          <Description></Description>
+          <AddonId>A5C11CBD43465E67A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Für jeden Block werden bei Euch 2% Mana regeneriert.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Für jeden Block werden bei Euch 4% Mana regeneriert.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Gerechte Sache</Name>
+      <Icon>generic_ability_016</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-61872026</AbilityId>
+          <Description></Description>
+          <AddonId>AFC4FE866317E539B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure maximale Anzahl an Dogmen um 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure maximale Anzahl an Dogmen um 2.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure maximale Anzahl an Dogmen um 3.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Licht der Schöpfung</Name>
+      <Icon>blindinglight3</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-93147190</AbilityId>
+          <Description></Description>
+          <AddonId>AFA72AFCA58FD3B50</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Euren durch Urteilsschlag, Abrechnung, Strahlungsblitz und Doktrin der Autorität verursachten Schaden um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Euren durch Urteilsschlag, Abrechnung, Strahlungsblitz und Doktrin der Autorität verursachten Schaden um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Euren durch Urteilsschlag, Abrechnung, Strahlungsblitz und Doktrin der Autorität verursachten Schaden um 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Thorvins Gesetz</Name>
+      <Icon>deflect2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-27796981</AbilityId>
+          <Description></Description>
+          <AddonId>AFE57DA0B212CC623</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Widerstände um 10%. Verringert Euren durch Zauber erlittenen Schaden um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Widerstände um 20%. Verringert Euren durch Zauber erlittenen Schaden um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure Widerstände um 30%. Verringert Euren durch Zauber erlittenen Schaden um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Absolution</Name>
+      <Icon>absolution_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1297021479</AbilityId>
+          <Description>Holt den gefallenen Verbündeten zurück ins Leben und stellt 100% Gesundheit und 50% Mana wieder her. Kann im Kampf verwendet werden.</Description>
+          <AddonId>A4D4EFA27574FDC9A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>300.000000</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Vergeltungsschlag</Name>
+      <Icon>smite2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-10330795</AbilityId>
+          <Description>Verursacht 402 bis 445 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+          <AddonId>AFF625D555A57E90C</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+          <Cooldown>6.000000</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+          <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+          <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Göttliches Recht</Name>
+      <Icon>resolve2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn Ihr bei voller Gesundheit seid, absorbieren Eure Doktrin des Glücks und Eure Doktrin der Treue Schaden in Höhe von 33% der normalen Heilung, anstatt Euch zu heilen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Wenn Ihr bei voller Gesundheit seid, absorbieren Eure Doktrin des Glücks und Eure Doktrin der Treue Schaden in Höhe von 66% der normalen Heilung, anstatt Euch zu heilen.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Wenn Ihr bei voller Gesundheit seid, absorbieren Eure Doktrin des Glücks und Eure Doktrin der Treue Schaden in Höhe von 100% der normalen Heilung, anstatt Euch zu heilen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Unerschütterlicher Glauben</Name>
+      <Icon>defensivestrike2</Icon>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-66226041</AbilityId>
+          <Description></Description>
+          <AddonId>AFC0D78871FA76686</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure Blockabsorbierung um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure Blockabsorbierung um 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Hammer des Glaubens</Name>
+      <Icon>hammer_of_virtue_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-85041758</AbilityId>
+          <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 126 bis 139 Lebensschaden zu.</Description>
+          <AddonId>AFAEE5DA267AC4EFA</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doktrin des Ruhms</Name>
+      <Icon>cavalier_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-94048933</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verringert den erlittenen Schaden pro verbrauchtem Dogma um 2,86%. Dauer beträgt 4 Sekunden.</Description>
+        <AddonId>AFA64ED5B71F3A99C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Hammer des Glaubens</Name>
+      <Icon>hammer_of_virtue_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-85041758</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 126 bis 139 Lebensschaden zu.</Description>
+        <AddonId>AFAEE5DA267AC4EFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-85513720</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 135 bis 150 Lebensschaden zu.</Description>
+        <AddonId>AFAE72A088C00B653</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-86126784</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 139 bis 153 Lebensschaden zu.</Description>
+        <AddonId>AFADDCF40E585529A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-32060924</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 175 bis 193 Lebensschaden zu.</Description>
+        <AddonId>AFE16CA043D382948</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-57165557</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 211 bis 233 Lebensschaden zu.</Description>
+        <AddonId>AFC97B90BD6129D84</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-56185152</AbilityId>
+        <Description>Verbraucht alle Dogmen. Fügt einem Feind und bis zu 4 zusätzlichen Feinden für jedes Dogma 227 bis 251 Lebensschaden zu.</Description>
+        <AddonId>AFCA6AEC058F12BC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Abrechnung</Name>
+      <Icon>smite1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-65354533</AbilityId>
+        <Description>Verursacht 948 bis 1048 Lebensschaden.</Description>
+        <AddonId>AFC1AC4DBD5944784</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-44194394</AbilityId>
+        <Description>Verursacht 1239 bis 1369 Lebensschaden.</Description>
+        <AddonId>AFD5DA5A648A37F63</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-3378535</AbilityId>
+        <Description>Verursacht 1333 bis 1473 Lebensschaden.</Description>
+        <AddonId>AFFCC7299513EC428</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Umfassende Zuversicht</Name>
+      <Icon>doctrine_of_loyalty_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60843264</AbilityId>
+        <Description>Verleiht 7 Dogmen. Erhöht Schaden und Heilung mit Dogmen um 50% für 30 Sekunden oder bis die Dogmen verbraucht sind.</Description>
+        <AddonId>AFC5F9B00B44E9A75</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hammer der Pflicht</Name>
+      <Icon>generic_ability_013</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-43974202</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 173 bis 191 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFD6101C64C8F9A58</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-85694564</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 176 bis 194 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFAE4679C7C9F3D79</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-37565029</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 180 bis 199 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFDC2CD9B9F49BE7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-93541549</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 183 bis 203 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFA6CAB539D9EDF4A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-38926380</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 189 bis 209 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFDAE07D45F8107FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-92054223</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 193 bis 214 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFA835D31BF33B24E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-48339020</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 201 bis 222 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFD1E67B47FBED2C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-66898273</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 211 bis 233 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFC03369F68E29ECA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-76559978</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 226 bis 250 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFB6FC996CE7F2538</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-5382048</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 246 bis 272 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFFADE060578354AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-85702679</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 319 bis 353 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFAE447E91B7B6AA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-186915</AbilityId>
+        <Description>Verbraucht alle Dogmen. Verursacht 380 bis 420 Lebensschaden für jedes Dogma.</Description>
+        <AddonId>AFFFD25DDA4AF861F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vergeltungsschlag</Name>
+      <Icon>smite2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-10330795</AbilityId>
+        <Description>Verursacht 402 bis 445 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFF625D555A57E90C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-97967551</AbilityId>
+        <Description>Verursacht 422 bis 467 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFA2922417AF8215E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-14502661</AbilityId>
+        <Description>Verursacht 453 bis 500 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFF22B4FBC8C730F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-24386784</AbilityId>
+        <Description>Verursacht 491 bis 543 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFE8BE3209B621B21</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-71913045</AbilityId>
+        <Description>Verursacht 640 bis 707 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFBB6B1AB82FF6E9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-43246107</AbilityId>
+        <Description>Verursacht 760 bis 840 Lebensschaden. Muss eingesetzt werden, nachdem der Kleriker geblockt hat.</Description>
+        <AddonId>AFD6C1DE5628B5B1B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>6.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Glaube im Tun</Name>
+      <Icon>doctrine_of_virtue_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>24282980</AbilityId>
+        <Description></Description>
+        <AddonId>A017287645DAA0795</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Erlösung</Name>
+      <Icon>salvation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>67113915</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 131 bis 145 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>A040013BBA78A4491</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-81319227</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 134 bis 148 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFB272AC5D225F54D</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-93807066</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 141 bis 156 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFA689E26AAD22CC2</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-19592799</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 146 bis 162 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFED509A1E435ED16</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-35022189</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 152 bis 168 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFDE99A93F3B4AB2C</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-41007842</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 157 bis 173 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFD8E451EE1B90D96</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-43875896</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 160 bis 177 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFD6281C89F9996F2</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-60119021</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 164 bis 181 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFC6AA813F089E534</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-49909191</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 165 bis 183 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFD067239B11EBD75</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-92021050</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 171 bis 189 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFA83DEC6C52DF1F7</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-67715710</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 172 bis 191 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFBF6BD82AC6022DD</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-29176092</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 181 bis 200 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFE42CEE4790C78B6</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-56662291</AbilityId>
+        <Description>Schadensfähigkeiten stellen beim Kleriker 183 bis 202 Gesundheit wieder her. Stellt beim Einsatz von Einzelzielfähigkeiten des Rächers doppelt so viel Gesundheit wieder her. Stellt beim Einsatz von Nicht-Rächerfähigkeiten mit Flächenwirkung ein Viertel der Gesundheit wieder her. Stellt 5% dieser Gesundheit bei Nutzung von nicht-kanalisierten Nicht-Rächerfähigkeiten mit Bodenziel-Flächenwirkung wieder her.</Description>
+        <AddonId>AFC9F66EDD6EE0B69</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ritterlich</Name>
+      <Icon>conviction_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>211641305</AbilityId>
+        <Description>Bewirkt, dass lebensbasierte Schadensfähigkeiten 30 Sekunden lang ein Dogma gewähren.</Description>
+        <AddonId>A0C9D63D967C04D66</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rüge</Name>
+      <Icon>redirect4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>361496699</AbilityId>
+        <Description>Zieht bis zu 5 Feinde zum Kleriker und zwingt sie, den Kleriker 3 Sekunden lang anzugreifen. </Description>
+        <AddonId>A158C007B3BBA0EF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Geste der Führung</Name>
+      <Icon>requital_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>413766657</AbilityId>
+        <Description>Erhöht Ausdauer, Rüstung und Widerstände um 35%. Erhöht Bedrohungserzeugung um 350%. Erlaubt dem Kleriker, durch Überschussheilung Bedrohung zu erzeugen. Verringert Schaden, verursachte Heilung und gewährte Absorption bei Nicht-Rächer-Fähigkeiten um 40%.</Description>
+        <AddonId>A18A99401C513B261</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Strahlungsblitz</Name>
+      <Icon>bolt_of_radiance_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>436858804</AbilityId>
+        <Description>Verursacht 862 bis 952 Lebensschaden.</Description>
+        <AddonId>A1A09EFB440FCA57C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>547799649</AbilityId>
+        <Description>Verursacht 874 bis 966 Lebensschaden.</Description>
+        <AddonId>A20A6C2617CDC0607</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>941231168</AbilityId>
+        <Description>Verursacht 897 bis 991 Lebensschaden.</Description>
+        <AddonId>A381A0C409930A300</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>533373974</AbilityId>
+        <Description>Verursacht 911 bis 1007 Lebensschaden.</Description>
+        <AddonId>A1FCAA416532BC6AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1582355505</AbilityId>
+        <Description>Verursacht 929 bis 1027 Lebensschaden.</Description>
+        <AddonId>A5E50D43141D3EBEF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>858042924</AbilityId>
+        <Description>Verursacht 957 bis 1057 Lebensschaden.</Description>
+        <AddonId>A3324B22C92D75289</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1233663212</AbilityId>
+        <Description>Verursacht 985 bis 1089 Lebensschaden.</Description>
+        <AddonId>A498834EC7997EB32</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>789036701</AbilityId>
+        <Description>Verursacht 1022 bis 1130 Lebensschaden.</Description>
+        <AddonId>A2F07BE9D9E9B08AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>102952919</AbilityId>
+        <Description>Verursacht 1093 bis 1208 Lebensschaden.</Description>
+        <AddonId>A0622EFD765ACAE18</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-92519958</AbilityId>
+        <Description>Verursacht 1133 bis 1252 Lebensschaden.</Description>
+        <AddonId>AFA7C41EABFEC2DE7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-93675833</AbilityId>
+        <Description>Verursacht 1229 bis 1358 Lebensschaden.</Description>
+        <AddonId>AFA6A9EC7CDEA4AA3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-61412588</AbilityId>
+        <Description>Verursacht 1599 bis 1767 Lebensschaden.</Description>
+        <AddonId>AFC56EB145924C3CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-1029779</AbilityId>
+        <Description>Verursacht 1901 bis 2101 Lebensschaden.</Description>
+        <AddonId>AFFF0496D59994AB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gebot des Rechtschaffenen</Name>
+      <Icon>ressurection3bb</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>519389657</AbilityId>
+        <Description>Zwingt bis zu 10 Feinde in der Nähe, den Kleriker 3 Sekunden lang anzugreifen.</Description>
+        <AddonId>A1EF541D9302B6651</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Prächtige Umarmung</Name>
+      <Icon>paladin-preservation</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>997293584</AbilityId>
+        <Description>Erhöht die maximale Gesundheit um 20%. Erhöht die erhaltene Heilung um 50%. Die Dauer beträgt 10 Sekunden.</Description>
+        <AddonId>A3B717E109EF7265C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Absolution</Name>
+      <Icon>absolution_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>1297021479</AbilityId>
+        <Description>Holt den gefallenen Verbündeten zurück ins Leben und stellt 100% Gesundheit und 50% Mana wieder her. Kann im Kampf verwendet werden.</Description>
+        <AddonId>A4D4EFA27574FDC9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>300.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gebot der Zuflucht</Name>
+      <Icon>defensivestrike1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>1299258785</AbilityId>
+        <Description>Verursacht 588 bis 650 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A4D711DA1A66B8221</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>1681848349</AbilityId>
+        <Description>Verursacht 599 bis 662 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A643EF81D8A25F76E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>1500652661</AbilityId>
+        <Description>Verursacht 615 bis 680 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A597224754559C214</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>475681911</AbilityId>
+        <Description>Verursacht 630 bis 697 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A1C5A547783F7A36B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>384706130</AbilityId>
+        <Description>Verursacht 652 bis 721 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A16EE265261404C7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>44599468</AbilityId>
+        <Description>Verursacht 683 bis 755 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A02A888AC87B9FD88</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>1877130893</AbilityId>
+        <Description>Verursacht 739 bis 816 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>A6FE2BE8D7CB11C37</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-23099422</AbilityId>
+        <Description>Verursacht 756 bis 836 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>AFE9F87E25E987941</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-63677339</AbilityId>
+        <Description>Verursacht 950 bis 1050 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>AFC345C6544B7967F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-86358779</AbilityId>
+        <Description>Verursacht 1146 bis 1267 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>AFADA4505A341BADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-70027948</AbilityId>
+        <Description>Verursacht 1237 bis 1367 Lebensschaden. Zusätzlich ist der Blockwert des Klerikers 8 Sekunden lang um 5% erhöht. Erfordert einen ausgerüsteten Schild.</Description>
+        <AddonId>AFBD37554B8D49F62</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+        <PowerStatCoefficient effect="1" action="0">0.980000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Provozieren</Name>
+      <Icon>piety2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1320857460</AbilityId>
+        <Description>Der Feind wird gezwungen, den Kleriker für 3 Sekunden anzugreifen.</Description>
+        <AddonId>A4EBAAF7455A0CE9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Souveränität</Name>
+      <Icon>virtuous_conviction_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1507966295</AbilityId>
+        <Description>Betäubt das Ziel für 2 Sekunden.</Description>
+        <AddonId>A59E1BD579C0516B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>2.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Begnadigung</Name>
+      <Icon>layinghands1x</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1555582549</AbilityId>
+        <Description>Stellt 100% der Gesundheit und 50% der maximalen Gesundheit des Klerikers beim Ziel der Rechtschaffenen Weisung des Klerikers wieder her.</Description>
+        <AddonId>A5CB84E55BC27F73F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <PowerStatCoefficient effect="1" action="0">0.000000E+000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doktrin der Treue</Name>
+      <Icon>righteous_invocation_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1730478653</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 337 bis 372 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A6725023DD527DA93</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1439919574</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 347 bis 384 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A55D36DD69FEC0968</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>2109285446</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 359 bis 397 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A7DB924468412403A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1032721152</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 364 bis 403 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A3D8E13005E1A21FD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1375145337</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 378 bis 418 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A51F70D794A934022</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>190699284</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 383 bis 424 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A0B5DD7145CA441CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>172774187</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 390 bis 431 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A0A4C532B8418345F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>602908968</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 415 bis 458 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A23EFA928DD3FAE91</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>1321451206</AbilityId>
+        <Description>Stellt bei bis zu 10 Gruppen- oder Schlachtzugmitgliedern 422 bis 466 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A4EC3BEC6A62D5736</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+        <PowerStatCoefficient effect="1" action="0">0.300000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gerechte Verteidigung</Name>
+      <Icon>paladin-reprisal</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1745856916</AbilityId>
+        <Description>Absorbiert Schaden in Höhe von 50% der maximalen Gesundheit des Klerikers. Dauer beträgt 10 Sekunden.</Description>
+        <AddonId>A680FA994B8E41D02</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Geste der Ehre</Name>
+      <Icon>overwhelming_brilliance_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>1916547586</AbilityId>
+        <Description>Reduziert die Bedrohungsstufe von schädigenden Fähigkeiten um 50% und erhöht die Heilungswirkung der Fähigkeiten des Rächers um 10%.</Description>
+        <AddonId>A723C320268298CCD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Verbieten</Name>
+      <Icon>interdict_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1946401743</AbilityId>
+        <Description>Unterbricht den Gegner und in der Nähe befindliche Gegner.</Description>
+        <AddonId>A7403BBCFAF89FCAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>8.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Gleiches Recht</Name>
+      <Icon>even_justice_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1970897476</AbilityId>
+        <Description>Verursacht 365 bis 404 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A757982446FF36D7F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>161977196</AbilityId>
+        <Description>Verursacht 375 bis 415 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A09A7936CE25DE1D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1454766749</AbilityId>
+        <Description>Verursacht 385 bis 426 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A56B5FA9D3D293B5B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>734088497</AbilityId>
+        <Description>Verursacht 398 bis 440 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A2BC14D3175CC2CEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1263209816</AbilityId>
+        <Description>Verursacht 411 bis 455 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A4B4B0D5852D54CF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>41835013</AbilityId>
+        <Description>Verursacht 453 bis 500 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>A027E5A059523E6BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-70765407</AbilityId>
+        <Description>Verursacht 464 bis 512 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFBC834A17027671F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-37234265</AbilityId>
+        <Description>Verursacht 583 bis 644 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFDC7D9A72CD5F99E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-47353831</AbilityId>
+        <Description>Verursacht 704 bis 778 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFD2D70197239044E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-6704144</AbilityId>
+        <Description>Verursacht 760 bis 840 Lebensschaden bei bis zu 5 Gegnern, die sich vor dem Kleriker befinden.</Description>
+        <AddonId>AFF99B3F0B6CE882F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Doktrin des Glücks</Name>
+      <Icon>doctrine_of_bliss_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>1985551240</AbilityId>
+        <Description>Stellt 1042 bis 1152 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A76591B88A856B283</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>257880082</AbilityId>
+        <Description>Stellt 1127 bis 1246 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A0F5EF01278A0C2CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1380030485</AbilityId>
+        <Description>Stellt 1179 bis 1304 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A52419815B9BE94DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>431813596</AbilityId>
+        <Description>Stellt 1237 bis 1367 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A19BCF3DC59E2AC1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>676239880</AbilityId>
+        <Description>Stellt 1271 bis 1405 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A284E9A08BA00764D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1931623321</AbilityId>
+        <Description>Stellt 1318 bis 1457 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A73223B99784D0FD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1949060401</AbilityId>
+        <Description>Stellt 1335 bis 1476 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A742C4D31B1E69DB8</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>761833926</AbilityId>
+        <Description>Stellt 1386 bis 1532 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A2D68A9C6B3E941E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1569800350</AbilityId>
+        <Description>Stellt 1408 bis 1557 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A5D91409EC13BEBC0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-45776424</AbilityId>
+        <Description>Stellt 1431 bis 1581 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFD4581D8EC44290E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-23199987</AbilityId>
+        <Description>Stellt 1519 bis 1679 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFE9DFF0D62ECBBFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-75541024</AbilityId>
+        <Description>Stellt 1547 bis 1710 Gesundheit wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFB7F55E09FCC472E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <PowerStatCoefficient effect="1" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bestimmung</Name>
+      <Icon>generic_ability_024_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1991851906</AbilityId>
+        <Description>Angriffe mit Waffen stellen beim Kleriker 10% Mana wieder her. Blockiert den Erhalt von Dogmen.</Description>
+        <AddonId>A76B93F826E12B56C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>1.500000</Cooldown>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tadel</Name>
+      <Icon>paladin-life_rapture_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>2011478686</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 205 bis 227 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A77E4BA9E3E8D6BA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1456886671</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 226 bis 250 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A56D6538F88A77C71</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>90120609</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 232 bis 256 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A055F21A18FDFACDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1359171852</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 292 bis 322 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A5103510C54FD694E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>130279201</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 352 bis 389 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A07C3E72198DDCB96</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>427834832</AbilityId>
+        <Description>Fügt bis zu 10 Gegnern 380 bis 420 Lebensschaden zu. Reduziert die Trefferchance bei jedem getroffenen Gegner 15 Sekunden lang um 5%.</Description>
+        <AddonId>A19803DD04C1C9FDA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Urteilsschlag</Name>
+      <Icon>strike_of_judgement_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2037559528</AbilityId>
+        <Description>Verursacht 570 bis 630 Lebensschaden.</Description>
+        <AddonId>A7972B0E833DD1F62</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1028924681</AbilityId>
+        <Description>Verursacht 578 bis 639 Lebensschaden.</Description>
+        <AddonId>A3D54250974047F20</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1973331361</AbilityId>
+        <Description>Verursacht 588 bis 650 Lebensschaden.</Description>
+        <AddonId>A759EA5A1E523193E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1967324605</AbilityId>
+        <Description>Verursacht 603 bis 667 Lebensschaden.</Description>
+        <AddonId>A7542FDBD71176BA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>900796670</AbilityId>
+        <Description>Verursacht 615 bis 680 Lebensschaden.</Description>
+        <AddonId>A35B110FEBEC84983</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2017388311</AbilityId>
+        <Description>Verursacht 630 bis 697 Lebensschaden.</Description>
+        <AddonId>A783EE71721EC23F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1460857496</AbilityId>
+        <Description>Verursacht 647 bis 715 Lebensschaden.</Description>
+        <AddonId>A5712EA987F0EA5A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>781087541</AbilityId>
+        <Description>Verursacht 671 bis 741 Lebensschaden.</Description>
+        <AddonId>A2E8E73358812927F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1985836150</AbilityId>
+        <Description>Verursacht 704 bis 778 Lebensschaden.</Description>
+        <AddonId>A765D7476AFEA9DE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>209670535</AbilityId>
+        <Description>Verursacht 755 bis 834 Lebensschaden.</Description>
+        <AddonId>A0C7F518734E35E02</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-27001794</AbilityId>
+        <Description>Verursacht 819 bis 906 Lebensschaden.</Description>
+        <AddonId>AFE63FC3EA114ACCF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-45370316</AbilityId>
+        <Description>Verursacht 1066 bis 1179 Lebensschaden.</Description>
+        <AddonId>AFD4BB434A71976FE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-91158238</AbilityId>
+        <Description>Verursacht 1266 bis 1399 Lebensschaden.</Description>
+        <AddonId>AFA910922973B0EF3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">1.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="1" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rechtschaffene Weisung</Name>
+      <Icon>faithful_doctrine_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>2105010482</AbilityId>
+        <Description>Bewirkt, dass die Erlösung des Klerikers zusätzlich den Verbündeten heilt. Kann nur bei einem Verbündeten eingesetzt werden. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A7D77E932B02DCBBB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Doktrin der Autorität</Name>
+      <Icon>spiritstrike5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>2132984583</AbilityId>
+        <Description>Verursacht 1812 bis 2003 Lebensschaden. Stellt 577 bis 638 Gesundheit bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>A7F22C30780C72F82</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-24694602</AbilityId>
+        <Description>Verursacht 2137 bis 2362 Lebensschaden. Stellt 607 bis 670 Gesundheit bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFE8730B6874EB022</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-6515323</AbilityId>
+        <Description>Verursacht 2817 bis 3114 Lebensschaden. Stellt 633 bis 699 Gesundheit bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFF9C9585FC1C5645</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-43853755</AbilityId>
+        <Description>Verursacht 3040 bis 3360 Lebensschaden. Stellt 634 bis 701 Gesundheit bei bis zu 5 Gruppen- oder Schlachtzugmitgliedern wieder her. Entfernt 1 Dogma.</Description>
+        <AddonId>AFD62D845B1183F97</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.400000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">2.000000</AggroMultiplier>
+        <WeaponDamageMultiplier effect="0" action="0">0.000000E+000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

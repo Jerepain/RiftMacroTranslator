@@ -1,0 +1,3162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Riftblade">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Elementarermächtigung</Name>
+      <Icon>lightingbolt4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-64647095</AbilityId>
+          <Description></Description>
+          <AddonId>AFC25904900000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Elementarstrom</Name>
+      <Icon>chainlighting1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Klingenstärkungen erhalten eine zusätzliche Trefferchance von 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Klingenstärkungen erhalten eine zusätzliche Trefferchance von 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Klingenstärkungen erhalten eine zusätzliche Trefferchance von 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Klingenstärkungen erhalten eine zusätzliche Trefferchance von 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Klingenstärkungen erhalten eine zusätzliche Trefferchance von 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Windspeer</Name>
+      <Icon>lance1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1505512909</AbilityId>
+          <Description>Betäubt das Ziel für 3 Sekunden.</Description>
+          <AddonId>A59BC4DCD4FAA5B41</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>1</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Windspeer frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Elementarberührung</Name>
+      <Icon>souldrain3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>679718004</AbilityId>
+          <Description></Description>
+          <AddonId>A2883AC74539F854E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Angriffsfähigkeiten erhalten eine Chance von 33%, zusätzlich 3% Eurer Angriffskraft als Luftschaden zu verursachen.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Angriffsfähigkeiten erhalten eine Chance von 66%, zusätzlich 3% Eurer Angriffskraft als Luftschaden zu verursachen.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Angriffsfähigkeiten erhalten eine Chance von 100%, zusätzlich 3% Eurer Angriffskraft als Luftschaden zu verursachen.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Elementarpräzision</Name>
+      <Icon>shaman-glory_of_the_chosen</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>922020252</AbilityId>
+          <Description></Description>
+          <AddonId>A36F4E99C00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Nicht körperliche Angriffe ignorieren 2% der Widerstände des Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Nicht körperliche Angriffe ignorieren 4% der Widerstände des Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Nicht körperliche Angriffe ignorieren 6% der Widerstände des Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Nicht körperliche Angriffe ignorieren 8% der Widerstände des Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Nicht körperliche Angriffe ignorieren 10% der Widerstände des Ziels.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Brennendes Blut</Name>
+      <Icon>bleeding_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1631921368</AbilityId>
+          <Description></Description>
+          <AddonId>A614524D86DD7AED3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn Ihr in einem Nahkampf getroffen werdet, erhaltet Ihr eine Chance von 10%, dass der Feind Feuerschaden in Höhe von 6% Eurer Angriffskraft erleidet.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Wenn Ihr in einem Nahkampf getroffen werdet, erhaltet Ihr eine Chance von 20%, dass der Feind Feuerschaden in Höhe von 6% Eurer Angriffskraft erleidet.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Wenn Ihr in einem Nahkampf getroffen werdet, erhaltet Ihr eine Chance von 30%, dass der Feind Feuerschaden in Höhe von 6% Eurer Angriffskraft erleidet.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Affinität</Name>
+      <Icon>archon_crumbling_resistance_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-55548242</AbilityId>
+          <Description></Description>
+          <AddonId>AFCB066AE00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert den erlittenen Schaden aus nicht körperlichen Angriffen um 2% und erhöht den nicht körperlichen Schaden um 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert den erlittenen Schaden aus nicht körperlichen Angriffen um 4% und erhöht den nicht körperlichen Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert den erlittenen Schaden aus nicht körperlichen Angriffen um 6% und erhöht den nicht körperlichen Schaden um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduziert den erlittenen Schaden aus nicht körperlichen Angriffen um 8% und erhöht den nicht körperlichen Schaden um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduziert den erlittenen Schaden aus nicht körperlichen Angriffen um 10% und erhöht den nicht körperlichen Schaden um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Klinge der Elementaraffinität</Name>
+      <Icon>holysweep3aa</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>574912446</AbilityId>
+          <Description>Aufbauangriffe haben eine Chance von 25%, den Krieger mit 20% der Angriffskraft zu heilen. Es kann immer nur 1 Klingenzauber aktiv sein. Die Dauer beträgt 1 Stunde.</Description>
+          <AddonId>A224477BE4EFA9265</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Klinge der Elementaraffinität frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Gabelung</Name>
+      <Icon>cripplingshot1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-58172091</AbilityId>
+          <Description>Speerfähigkeiten treffen bis zu 5 Feinde, verursachen aber 50% weniger Schaden.</Description>
+          <AddonId>AFC885D45D36CEB86</AddonId>
+          <IsPassive>False</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Gabelung frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Elementare Umarmung</Name>
+      <Icon>energyblast1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>969362245</AbilityId>
+          <Description></Description>
+          <AddonId>A39C74B45229FC475</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Bedrohung, die durch Schadenseffekte erzeugt wird, um 25% und erhöht den Schaden um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die Bedrohung, die durch Schadenseffekte erzeugt wird, um 50% und erhöht den Schaden um 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Verbesserter Avatar</Name>
+      <Icon>absolution_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1788078131</AbilityId>
+          <Description></Description>
+          <AddonId>A6A93E83300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Schaden von Avatar des Windes auf 13%, Avatar des Wassers auf 7%, Avatar der Flamme auf 10% und Avatar des Risses auf 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Avatar des Windes um 16%, Avatar des Wassers um 10%, Avatar der Flamme um 20% und Avatar des Risses um 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Kondensatorexplosion</Name>
+      <Icon>virtuoso_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-45619114</AbilityId>
+          <Description></Description>
+          <AddonId>AFD47E85600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Explosionen und Verbrühungen um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Explosionen und Verbrühungen um 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden von Explosionen und Verbrühungen um 24%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden von Explosionen und Verbrühungen um 32%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden von Explosionen und Verbrühungen um 40%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Sprudelnde Energie</Name>
+      <Icon>riftblade-surging_energy_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1479236641</AbilityId>
+          <Description></Description>
+          <AddonId>A582B5C21204F0083</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gewährt eine 25%ige Chance, dass die Kraftkosten Eurer nächsten Fähigkeit, die Angriffspunkte erzeugt, bei einem erfolgreichen Treffer um 25% verringert werden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gewährt eine 50%ige Chance, dass die Kraftkosten Eurer nächsten Fähigkeit, die Angriffspunkte erzeugt, bei einem erfolgreichen Treffer um 25% verringert werden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Steinschild</Name>
+      <Icon>riftblade_stone_shield_01_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>230076056</AbilityId>
+          <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 182. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+          <AddonId>A0DB6AE988ACBDE8F</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Steinschild frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Schnelle Explosion</Name>
+      <Icon>sanction_heretic_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18623644</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE3D36400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Beitrag der Angriffskraft und des Waffenschadens zu Explosionsangriffen um 40%. Die Kraftkosten von Explosionsangriffen werden um 40% gesenkt.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Elementarwaffe</Name>
+      <Icon>generic_ability_021</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2110576641</AbilityId>
+          <Description></Description>
+          <AddonId>A7DCCD80100000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden, der von Elementarberührung verursacht wird, um 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden, der von Elementarberührung verursacht wird, um 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Synergie</Name>
+      <Icon>cabalist_sigil_of_ravaging_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41210563</AbilityId>
+          <Description></Description>
+          <AddonId>AFD8B2D3D4C00205D</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Senkt die Kraftkosten von Teleportationen um 50%. Erhöht den Schaden von Abschlussattacken um 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Regenguss</Name>
+      <Icon>warden-deluge_a</Icon>
+      <PrereqTraitKey>19</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verlängert die Dauer von Risssturm um 1 Sekunde.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verlängert die Dauer von Risssturm um 2 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Erweiterte Explosion</Name>
+      <Icon>energyburst3f</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>209649187</AbilityId>
+          <Description></Description>
+          <AddonId>A0C7EFE2300000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Ein Treffer mit einer Explosionsfähigkeit erhöht den nicht körperlichen Schaden 6 Sekunden lang um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Ein Treffer mit einer Explosionsfähigkeit erhöht den nicht körperlichen Schaden 6 Sekunden lang um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Risssturm</Name>
+      <Icon>generic_ability_031</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>476643581</AbilityId>
+          <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 285 Schaden
+2 Punkte: 390 Schaden
+3 Punkte: 549 Schaden</Description>
+          <AddonId>A1C6900FD40B56F2A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <CostEnergy>22</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Duration>6.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Risssturm frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Brüher</Name>
+      <Icon>bomb_choking_gas_a</Icon>
+      <PrereqTraitKey>26</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Feinde, die Schaden durch Eisexplosion erleiden, während sie unter dem Effekt von Feuerexplosion stehen, erleiden 3%, 6% oder ß% der Angriffskraft als Luftschaden, basierend auf den eingesetzten Angriffspunkten.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Feinde, die Schaden durch Eisexplosion erleiden, während sie unter dem Effekt von Feuerexplosion stehen, erleiden 6%, 12% oder 18% der Angriffskraft als Luftschaden, basierend auf den eingesetzten Angriffspunkten.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Rissvertrautheit</Name>
+      <Icon>scatter_the_shadows</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-20519994</AbilityId>
+          <Description></Description>
+          <AddonId>AFEC6E3C600000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die Reichweite von Teleportationen um 3 Meter und den Elementarschaden um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die Reichweite von Teleportationen um 6 Meter und den Elementarschaden um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Rissbarriere</Name>
+      <Icon>purge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-31074456</AbilityId>
+          <Description>Betäubt bis zu 8 Feinde für 3 Sekunden.</Description>
+          <AddonId>AFE25D76873B07A06</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>11</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>8</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Rissbarriere frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Avatar der Flamme</Name>
+      <Icon>demolition_specialist</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-25886028</AbilityId>
+          <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 146 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+          <AddonId>AFE7502B4E5899525</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Avatar der Flamme frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Intensivieren</Name>
+      <Icon>flashback_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-23303184</AbilityId>
+          <Description></Description>
+          <AddonId>AFE9C6BF000000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden durch und die Chance auf kritische Treffer um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden durch und die Chance auf kritische Treffer um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden durch und die Chance auf kritische Treffer um 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Rissimplosion</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>35920450</AbilityId>
+          <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 395 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+          <AddonId>A02241A426F3737D3</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Rissimplosion frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Feuerexplosion</Name>
+      <Icon>slam4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>411115433</AbilityId>
+          <Description>Bewirkt bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 51 Schaden
+2 Punkte: 150 Schaden
+3 Punkte: 300 Schaden</Description>
+          <AddonId>A18811FA9A44AC000</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostEnergy>15</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Schaltet die Fähigkeit Feuerexplosion frei.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>27</Key>
+      <Name>Verbesserter Frostschlag</Name>
+      <Icon>shaman-vengeance_of_frozen_earth_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die verstärkende Wirkung von Frostschlag auf Elementarschlag um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die verstärkende Wirkung von Frostschlag auf Elementarschlag um 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rissreise</Name>
+      <Icon>scatter_the_shadows</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-87529854</AbilityId>
+        <Description>Teleportiert zum Zielort.</Description>
+        <AddonId>AFAC8668257BE9F16</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosionssynergie</Name>
+      <Icon>bomb_fragment_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-73394494</AbilityId>
+        <Description>Der Basisschaden der nächsten 3 Explosionsfähigkeiten erhöht sich um 40%. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFBA016C2493D7E65</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>30.000002</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Geschenk der Rissklinge</Name>
+      <Icon>soul_riftblade</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-71412052</AbilityId>
+        <Description>Erhöht den Basisschaden um 1% pro Punkt, welcher der Rissklingen-Seele zugewiesen wird.</Description>
+        <AddonId>AFBBE56ACC69FACB8</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gabelung</Name>
+      <Icon>cripplingshot1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-58172091</AbilityId>
+        <Description>Speerfähigkeiten treffen bis zu 5 Feinde, verursachen aber 50% weniger Schaden.</Description>
+        <AddonId>AFC885D45D36CEB86</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Klinge der Auserwählten</Name>
+      <Icon>2h_sword_069a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-38256167</AbilityId>
+        <Description>Verleiht Sturmklinge, Klinge der Elementaraffinität, Ebenenklinge und Klinge der Auserwählten, was die Kraftkosten von nicht körperlichen Abschlussattacken um 2 verringert und den Schaden von Rissklingen-Fähigkeiten um 30% erhöht. Die Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFDB841D9DAB8E8AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Rissbarriere</Name>
+      <Icon>purge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-31074456</AbilityId>
+        <Description>Betäubt bis zu 8 Feinde für 3 Sekunden.</Description>
+        <AddonId>AFE25D76873B07A06</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Avatar der Flamme</Name>
+      <Icon>demolition_specialist</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-25886028</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 146 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFE7502B4E5899525</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-8521473</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 159 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF7DF8FF57BE3483</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-38317055</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 181 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFDB75401E1C1F68E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-14906200</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 209 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF1C8CA83EC66B84</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-96508976</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 312 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA3F63D0BB0F4F44</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-82383054</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 20%ige Chance, dem Angreifer 396 Feuerschaden zuzufügen. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFB16EF3239B08094</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rissspeer</Name>
+      <Icon>2h_staff_078a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-22031241</AbilityId>
+        <Description>Fügt dem Ziel und bei bis zu 8 Feinden entlang der Flugbahn des Geschosses 773 bis 854 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFEAFD4777C0A0A9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-1341383</AbilityId>
+        <Description>Fügt dem Ziel und bei bis zu 8 Feinden entlang der Flugbahn des Geschosses 1015 bis 1122 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFFEB8839E64975B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41302803</AbilityId>
+        <Description>Fügt dem Ziel und bei bis zu 8 Feinden entlang der Flugbahn des Geschosses 1127 bis 1246 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFD89C4ED62C2BD73</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Rissimplosion</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>35920450</AbilityId>
+        <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 395 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A02241A426F3737D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>212051720</AbilityId>
+        <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 456 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A0CA3A70848C9FB5C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1599984222</AbilityId>
+        <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 476 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A5F5DD25E9327554D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1672186449</AbilityId>
+        <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 687 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A63AB8A51915A3578</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>2024804423</AbilityId>
+        <Description>Schwächt den Feind und lässt jeden Elementarangriff des Kriegers Implosionsschub auf den Feind wirken. Verursacht nach 8 Sekunden 902 Luftschaden. Der Schaden erhöht sich um 5% pro Implosionsschub, der auf den Feind wirkt. Gilt für maximal 5 Effekte. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A78B01047CC5993B6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flammenspeer</Name>
+      <Icon>critical2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>115904938</AbilityId>
+        <Description>Verursacht 438 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A06E891AA7A595DFA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1022809590</AbilityId>
+        <Description>Verursacht 472 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A3CF6D5F6640908CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1964537953</AbilityId>
+        <Description>Verursacht 492 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A75187861B118CBCC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2120130376</AbilityId>
+        <Description>Verursacht 522 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A7E5E9F4898938AF9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>946863183</AbilityId>
+        <Description>Verursacht 554 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A386FFC4F58EB4BFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>312226365</AbilityId>
+        <Description>Verursacht 596 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A129C323DCFFCECD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1014032987</AbilityId>
+        <Description>Verursacht 676 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A3C70EA5B97A85B96</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1720328828</AbilityId>
+        <Description>Verursacht 720 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A668A227C302216A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>652532638</AbilityId>
+        <Description>Verursacht 948 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A26E4DB9EDB4438EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-34980167</AbilityId>
+        <Description>Verursacht 1425 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFDEA3EB96CA6D6AA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-18133923</AbilityId>
+        <Description>Verursacht 1583 Feuerschaden über 15 Sekunden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFEEB4C5DA0405C5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>4.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ebenenklinge</Name>
+      <Icon>shockwave3d</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>148138694</AbilityId>
+        <Description>Fähigkeitentreffer haben eine Chance von 25%,  Risswandeln und Rissreisen zu erneuern. Erhöht den Schaden von Rissklingen-Fähigkeiten um 10%. Es kann immer nur 1 Klingenzauber aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A08D46AC6608339A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Steinschild</Name>
+      <Icon>riftblade_stone_shield_01_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>230076056</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 182. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>A0DB6AE988ACBDE8F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.100000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>-46204852</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 610. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFD3EF84C6B7A9C65</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>-20218628</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 679. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFECB7CFC601EB92E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>-22829920</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 709. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFEA3A4A0B0B71B2C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>-15786923</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 800. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFF0F1C558DF00C23</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-51420131</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 830. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFCEF641D7A3345EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-90455515</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 1148. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFA9BC2255F4B5AD3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-99764388</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 1277. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFA0DB75C548BE20D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-68508583</AbilityId>
+        <Description>Absorbiert 50% des erlittenen Schadens bis zu einem Maximum von 1286. Dauer beträgt 30 Sekunden. Diese Fähigkeit ist nicht von der globalen Abklingzeit betroffen.</Description>
+        <AddonId>AFBEAA459AF043D6F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.640000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frostschlag</Name>
+      <Icon>riftblade_frost_strike_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>273821893</AbilityId>
+        <Description>Verursacht 210 bis 232 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A105230C5890FDE26</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>284469167</AbilityId>
+        <Description>Verursacht 220 bis 243 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A10F4A7AF7C340F48</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1165638312</AbilityId>
+        <Description>Verursacht 232 bis 257 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A457A3AA82C3D22F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1990418981</AbilityId>
+        <Description>Verursacht 245 bis 271 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A76A36225396434B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1859133083</AbilityId>
+        <Description>Verursacht 264 bis 292 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6ED01E9B77445C2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1545567662</AbilityId>
+        <Description>Verursacht 288 bis 318 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A5C1F7DAE722644B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-46045710</AbilityId>
+        <Description>Verursacht 327 bis 362 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFD4165F259B78CCA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-50965571</AbilityId>
+        <Description>Verursacht 376 bis 416 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFCF653BD589D6123</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-48458032</AbilityId>
+        <Description>Verursacht 566 bis 626 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFD1C96D0484F868C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-56315317</AbilityId>
+        <Description>Verursacht 720 bis 796 Wasserschaden. Erhöht den Schaden von Elementarschlag 15 Sek. lang um 10%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFCA4B24B938A50C2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.770000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.150000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Eisexplosion</Name>
+      <Icon>shaman-vengeance_of_winter_storm_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>328860256</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 35 Schaden
+2 Punkte: 104 Schaden
+3 Punkte: 208 Schaden</Description>
+        <AddonId>A139A02604BCAF884</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>2073761196</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 36 Schaden
+2 Punkte: 107 Schaden
+3 Punkte: 214 Schaden</Description>
+        <AddonId>A7B9B15AC4BCAB6DD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>509553858</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 39 Schaden
+2 Punkte: 114 Schaden
+3 Punkte: 228 Schaden</Description>
+        <AddonId>A1E5F2CC2A12D153A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>109170358</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 40 Schaden
+2 Punkte: 118 Schaden
+3 Punkte: 236 Schaden</Description>
+        <AddonId>A0681CEB68574A9D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1807320741</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 41 Schaden
+2 Punkte: 123 Schaden
+3 Punkte: 246 Schaden</Description>
+        <AddonId>A6BB986A5380F59F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2029327279</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 44 Schaden
+2 Punkte: 130 Schaden
+3 Punkte: 261 Schaden</Description>
+        <AddonId>A78F513AF5424B618</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1743749850</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 47 Schaden
+2 Punkte: 138 Schaden
+3 Punkte: 277 Schaden</Description>
+        <AddonId>A67EF82DA61738F7A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1702699702</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 50 Schaden
+2 Punkte: 149 Schaden
+3 Punkte: 298 Schaden</Description>
+        <AddonId>A657D22B63878BCC3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2049268130</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 57 Schaden
+2 Punkte: 169 Schaden
+3 Punkte: 338 Schaden</Description>
+        <AddonId>A7A2559A25276D46D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1945519504</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 61 Schaden
+2 Punkte: 180 Schaden
+3 Punkte: 360 Schaden</Description>
+        <AddonId>A73F645907F19AF92</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-14136395</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 80 Schaden
+2 Punkte: 237 Schaden
+3 Punkte: 474 Schaden</Description>
+        <AddonId>AFF284BB54D8C9397</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78284976</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 120 Schaden
+2 Punkte: 357 Schaden
+3 Punkte: 713 Schaden</Description>
+        <AddonId>AFB557750531AF6ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-84721284</AbilityId>
+        <Description>Die Waffe des Kriegers ist 15 Sekunden lang in Eis gehüllt. Die nächste Angriffsfähigkeit, die trifft, verursacht zusätzlichen Wasserschaden.
+
+1 Punkt: 134 Schaden
+2 Punkte: 396 Schaden
+3 Punkte: 791 Schaden</Description>
+        <AddonId>AFAF3417C53F06FB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Feuerexplosion</Name>
+      <Icon>slam4a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>411115433</AbilityId>
+        <Description>Bewirkt bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 51 Schaden
+2 Punkte: 150 Schaden
+3 Punkte: 300 Schaden</Description>
+        <AddonId>A18811FA9A44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1325347585</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 55 Schaden
+2 Punkte: 162 Schaden
+3 Punkte: 324 Schaden</Description>
+        <AddonId>A4EFF33012DBD883B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1449935104</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 58 Schaden
+2 Punkte: 169 Schaden
+3 Punkte: 338 Schaden</Description>
+        <AddonId>A566C41004443C3DE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>585757222</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 60 Schaden
+2 Punkte: 178 Schaden
+3 Punkte: 357 Schaden</Description>
+        <AddonId>A22E9F2267FB50231</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>688301654</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 63 Schaden
+2 Punkte: 188 Schaden
+3 Punkte: 376 Schaden</Description>
+        <AddonId>A2906A656AC855A3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>930615962</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 68 Schaden
+2 Punkte: 202 Schaden
+3 Punkte: 405 Schaden</Description>
+        <AddonId>A3778129A86BBC5B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>888681632</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 75 Schaden
+2 Punkte: 222 Schaden
+3 Punkte: 443 Schaden</Description>
+        <AddonId>A34F834A04CAF9F3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1160915906</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 85 Schaden
+2 Punkte: 252 Schaden
+3 Punkte: 504 Schaden</Description>
+        <AddonId>A45322BC2E5D35309</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>307021021</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 89 Schaden
+2 Punkte: 263 Schaden
+3 Punkte: 526 Schaden</Description>
+        <AddonId>A124CC4DD2648AED2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>130745899</AbilityId>
+        <Description>Verursacht bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 129 Schaden
+2 Punkte: 379 Schaden
+3 Punkte: 759 Schaden</Description>
+        <AddonId>A07CB062B99C941A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-53240947</AbilityId>
+        <Description>Bewirkt bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 169 Schaden
+2 Punkte: 499 Schaden
+3 Punkte: 997 Schaden</Description>
+        <AddonId>AFCD39B8DA44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-41863641</AbilityId>
+        <Description>Bewirkt bei der nächsten Kampffähigkeit des Kriegers zusätzlich Feuerschaden pro Angriffspunkt für 15 Sekunden. Hält 15 Sekunden lang an.
+
+1 Punkt: 188 Schaden
+2 Punkte: 554 Schaden
+3 Punkte: 1108 Schaden</Description>
+        <AddonId>AFD813627A44AC000</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostEnergy>15</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Risssturm</Name>
+      <Icon>generic_ability_031</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>476643581</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 285 Schaden
+2 Punkte: 390 Schaden
+3 Punkte: 549 Schaden</Description>
+        <AddonId>A1C6900FD40B56F2A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>110382156</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 290 Schaden
+2 Punkte: 407 Schaden
+3 Punkte: 582 Schaden</Description>
+        <AddonId>A06944C4C585095BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>794467694</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 298 Schaden
+2 Punkte: 429 Schaden
+3 Punkte: 626 Schaden</Description>
+        <AddonId>A2F5A9D6ED3B16D50</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1091169794</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 311 Schaden
+2 Punkte: 470 Schaden
+3 Punkte: 710 Schaden</Description>
+        <AddonId>A4109EE02DDBA86D9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-34279651</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 320 Schaden
+2 Punkte: 493 Schaden
+3 Punkte: 756 Schaden</Description>
+        <AddonId>AFDF4EF1D2280D7A3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-45535183</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 360 Schaden
+2 Punkte: 613 Schaden
+3 Punkte: 995 Schaden</Description>
+        <AddonId>AFD4930317DF331EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-90176555</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 446 Schaden
+2 Punkte: 864 Schaden
+3 Punkte: 1497 Schaden</Description>
+        <AddonId>AFAA003D56DD08EFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-9081247</AbilityId>
+        <Description>Verleiht dem Krieger Risssturm und verursacht über 6 Sekunden hinweg bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt.
+
+1 Punkt: 474 Schaden
+2 Punkte: 947 Schaden
+3 Punkte: 1661 Schaden</Description>
+        <AddonId>AFF756E61444034EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Donnerschlag</Name>
+      <Icon>riftblade_thunder_strike_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>490337432</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 186 bis 205 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A1D39F498E34BB556</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>929125038</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 203 bis 225 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A376152AE86CBB4CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1400147948</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 231 bis 255 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A53748FEC53A6C091</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1812460728</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 265 bis 293 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6C07F4B89E6E5A8B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1120404843</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 399 bis 441 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A42C8056B7B5457E8</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>375607775</AbilityId>
+        <Description>Verursacht bei bis zu 5 Feinden 507 bis 560 Luftschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A166351DF6ADB9BC7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar des Wassers</Name>
+      <Icon>riftblade-avatar_of_water_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>501920592</AbilityId>
+        <Description>Reduziert den erlittenen Schaden um 5%. Es kann immer nur 1 Avatarzauber gleichzeitig aktiv sein. Die Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A1DEAB3506CDE4844</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Klinge der Elementaraffinität</Name>
+      <Icon>holysweep3aa</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>574912446</AbilityId>
+        <Description>Aufbauangriffe haben eine Chance von 25%, den Krieger mit 20% der Angriffskraft zu heilen. Es kann immer nur 1 Klingenzauber aktiv sein. Die Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A224477BE4EFA9265</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar des Risses</Name>
+      <Icon>ebon_fury_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>586213503</AbilityId>
+        <Description>Erhöht den Schaden von Elementarfähigkeiten um 15%, und verringert zusätzlich die Kraftkosten von Elementaraufbauangriffen um 2. Es kann immer nur 1 Avatar-Zauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A22F0E87F6F12ACEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Risswandeln</Name>
+      <Icon>generic_ability_022</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>909489591</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 63 bis 70 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A3635B5B7D0F1874F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1387043765</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 68 bis 75 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A52AC9BB5A26EBA72</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>612185676</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 71 bis 79 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A247D364C6C715458</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1922071723</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 75 bis 83 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A72907CABBAF91FCA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1186834715</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 81 bis 89 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A46BDA91B82B1DC2F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>817085614</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 96 bis 106 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A30B3BCAED312777B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-71601809</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 101 bis 111 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFBBB716FAA4179C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-80191464</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 145 bis 161 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFB386018B1AAEBD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-84953286</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 191 bis 211 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFAEFB73AC354DC5B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-29048667</AbilityId>
+        <Description>Teleportiert hinter den Feind und fügt ihm 213 bis 236 Luftschaden zu. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFE44C0A5B6E70652</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sturmexplosion</Name>
+      <Icon>chainlighting5a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1058361955</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden. 
+
+1 Punkt: 52 Schaden
+2 Punkte: 153 Schaden
+3 Punkte: 307 Schaden</Description>
+        <AddonId>A3F15526328C9C32D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1234806185</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 62 Schaden
+2 Punkte: 183 Schaden
+3 Punkte: 366 Schaden</Description>
+        <AddonId>A4999A5A980C32CDA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>2088343182</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 64 Schaden
+2 Punkte: 190 Schaden
+3 Punkte: 381 Schaden</Description>
+        <AddonId>A7C79968E13453CD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1949250272</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 93 Schaden
+2 Punkte: 275 Schaden
+3 Punkte: 551 Schaden</Description>
+        <AddonId>A742F32E09CDF40C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>450193796</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt Dauer beträgt 15 Sekunden. 
+
+1 Punkt: 123 Schaden
+2 Punkte: 362 Schaden
+3 Punkte: 724 Schaden</Description>
+        <AddonId>A1AD56984A060D6E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-83828380</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Luftschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 136 Schaden
+2 Punkte: 402 Schaden
+3 Punkte: 804 Schaden</Description>
+        <AddonId>AFB00E16443A32404</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Avatar des Windes</Name>
+      <Icon>generic_ability_025_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1115947072</AbilityId>
+        <Description>Erhöht den Ausweichwert um 3% und die Bewegungsgeschwindigkeit um 10%. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A4284004052949299</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Windspeer</Name>
+      <Icon>lance1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1505512909</AbilityId>
+        <Description>Betäubt das Ziel für 3 Sekunden.</Description>
+        <AddonId>A59BC4DCD4FAA5B41</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aufstauender Zorn</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1519821007</AbilityId>
+        <Description>Abschlussattacken erhalten einen Bonus in der Verteilung der Angriffskraft, je nachdem wie viele Angriffspunkte verbraucht wurden.</Description>
+        <AddonId>A5A96A0CF7CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sturmklinge</Name>
+      <Icon>shockwave3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1557281695</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 25 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A5CD23B9F9C33368B</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-11066149</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 27 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF5724DB878F53D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-98600736</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 28 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA1F78E0823BC738</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-72268272</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 29 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFBB146106FA22769</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-11414488</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 30 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF51D428B9ED4183</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-82408216</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 32 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFB168CE8CB938E32</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-44764696</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 33 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFD54F1E860F05902</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-10885968</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 36 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFF59E4B06B214486</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-89548309</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 39 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFAA999EB8A88A59D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-89647007</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 45 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFAA818617BBC895E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-57027614</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 47 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFC99D3E2825502AF</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-3723710</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 68 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFFC72E42CBFD2520</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93471836</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 89 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFA6DBBA4B4512291</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-51087208</AbilityId>
+        <Description>Fähigkeitentreffer erhalten eine 25%ige Chance, 99 Luftschaden zu verursachen. Es kann immer nur 1 Klingenzauber gleichzeitig aktiv sein. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFCF478985D954EA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Erdexplosion</Name>
+      <Icon>riftblade-earth_burst_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1634370869</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 43 Schaden
+2 Punkte: 125 Schaden
+3 Punkte: 250 Schaden</Description>
+        <AddonId>A616A85353AB3DB1F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>261620229</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden. 
+
+1 Punkt: 45 Schaden
+2 Punkte: 133 Schaden
+3 Punkte: 265 Schaden</Description>
+        <AddonId>A0F9802057D246C28</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>842024161</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden. 
+
+1 Punkt: 47 Schaden
+2 Punkte: 141 Schaden
+3 Punkte: 281 Schaden</Description>
+        <AddonId>A323044E17069A2B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1821227432</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 51 Schaden
+2 Punkte: 151 Schaden
+3 Punkte: 303 Schaden</Description>
+        <AddonId>A6C8DB9A8574A3173</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1510645406</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 58 Schaden
+2 Punkte: 172 Schaden
+3 Punkte: 343 Schaden</Description>
+        <AddonId>A5A0A9E9E282BB7A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>454065394</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 62 Schaden
+2 Punkte: 183 Schaden
+3 Punkte: 366 Schaden</Description>
+        <AddonId>A1B107CF25B840A40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1254452783</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 82 Schaden
+2 Punkte: 241 Schaden
+3 Punkte: 481 Schaden</Description>
+        <AddonId>A4AC56E2F396782F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-87059174</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt  15 Sekunden. 
+
+1 Punkt: 123 Schaden
+2 Punkte: 362 Schaden
+3 Punkte: 724 Schaden</Description>
+        <AddonId>AFACF951A40584D31</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-5385291</AbilityId>
+        <Description>Verursacht bei der nächsten Angriffsfähigkeit des Kriegers bei bis zu 5 Feinden zusätzlichen Erdschaden pro Angriffspunkt. Dauer beträgt 15 Sekunden.
+
+1 Punkt: 136 Schaden
+2 Punkte: 402 Schaden
+3 Punkte: 804 Schaden</Description>
+        <AddonId>AFFADD3B52AC86491</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>17</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sengender Schlag</Name>
+      <Icon>shockwave1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1897016662</AbilityId>
+        <Description>Verursacht 218 bis 242 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A71122D5669026794</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1732401986</AbilityId>
+        <Description>Verursacht 225 bis 249 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A67425B42560ADD59</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1009876296</AbilityId>
+        <Description>Verursacht 234 bis 258 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A3C317D48A11C22FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1994899796</AbilityId>
+        <Description>Verursacht 248 bis 274 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A76E7C1547D66062A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>2014675980</AbilityId>
+        <Description>Verursacht 258 bis 285 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A7815840C7009F9A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>162744500</AbilityId>
+        <Description>Verursacht 272 bis 301 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A09B348B49012F5C7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>454213028</AbilityId>
+        <Description>Verursacht 287 bis 318 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A1B12BDA433CF0ED0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1825446730</AbilityId>
+        <Description>Verursacht 309 bis 342 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A6CCE1B4A8006F46D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1662483801</AbilityId>
+        <Description>Verursacht 339 bis 374 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A63177D59FB7FE880</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1698579918</AbilityId>
+        <Description>Verursacht 385 bis 425 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A653E45CE7AE96C69</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6022641</AbilityId>
+        <Description>Verursacht 401 bis 443 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFFA41A0F127D6DAC</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-17515966</AbilityId>
+        <Description>Verursacht 580 bis 641 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFEF4BA420BB0C429</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96009836</AbilityId>
+        <Description>Verursacht 761 bis 842 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFA4701943E38D880</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-80112207</AbilityId>
+        <Description>Verursacht 846 bis 935 Feuerschaden. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFB3995B15358A777</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.900000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="1" action="0">1.350000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Steinspeer</Name>
+      <Icon>2h_polearm_019_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1936866306</AbilityId>
+        <Description>Unterbricht.</Description>
+        <AddonId>A73723C02BF6828CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>1</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Rissschlag</Name>
+      <Icon>shadow_assault</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1980969236</AbilityId>
+        <Description>Verursacht 684 bis 756 Luftschaden. Erhöht den nicht körperlichen Schaden des Kriegers für 20 Sekunden um 25%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A76133114B9D2550D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1593986752</AbilityId>
+        <Description>Verursacht 787 bis 870 Luftschaden. Erhöht den nicht körperlichen Schaden des Kriegers für 20 Sekunden um 25%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A5F024EC09A26A74C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1467187259</AbilityId>
+        <Description>Verursacht 1181 bis 1305 Luftschaden. Erhöht den nicht körperlichen Schaden des Kriegers für 20 Sekunden um 25%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>A5773803B8516F9BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-94463954</AbilityId>
+        <Description>Verursacht 1503 bis 1662 Luftschaden. Erhöht den nicht körperlichen Schaden des Kriegers für 20 Sekunden um 25%. Gewährt 1 Angriffspunkt.</Description>
+        <AddonId>AFA5E982E86767AE0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Nahkampfwaffe</RequiresWeapon>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.600000</PowerStatCoefficient>
+        <WeaponDamageMultiplier effect="0" action="0">2.400000</WeaponDamageMultiplier>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

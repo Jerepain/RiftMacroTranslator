@@ -1,0 +1,2944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Warlock">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Verbesserter Leereblitz</Name>
+      <Icon>darkbolt3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>912714411</AbilityId>
+          <Description></Description>
+          <AddonId>A3666EAAB389F8F1E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die Wirkzeit Eures Zaubers Leereblitz um 8% und Manakosten um 10%. </Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die Wirkzeit Eures Zaubers Leereblitz um 16% und Manakosten um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduziert die Wirkzeit Eures Zaubers Leereblitz um 24% und Manakosten um 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Magieaffinität</Name>
+      <Icon>elemental_attunement1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>822811281</AbilityId>
+          <Description></Description>
+          <AddonId>A310B1A911A1E6E2A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht die von Euren Fähigkeiten erzeugte Ladungsmenge um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht die von Euren Fähigkeiten erzeugte Ladungsmenge um 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht die von Euren Fähigkeiten erzeugte Ladungsmenge um 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht die von Euren Fähigkeiten erzeugte Ladungsmenge um 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht die von Euren Fähigkeiten erzeugte Ladungsmenge um 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Starke Kontamination</Name>
+      <Icon>dirtytricks3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schadensbonus von Kontaminieren um 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schadensbonus von Kontaminieren um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Phobie</Name>
+      <Icon>finalstrike3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden, den deine verängstigten Feinde erleiden können, bevor der Effekt beendet wird, um 2% ihrer maximalen Gesundheit.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden, den deine verängstigten Feinde erleiden können, bevor der Effekt beendet wird, um 4% ihrer maximalen Gesundheit.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden, den deine verängstigten Feinde erleiden können, bevor der Effekt beendet wird, um 6% ihrer maximalen Gesundheit.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Gelegenheit</Name>
+      <Icon>redirect1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>337202986</AbilityId>
+          <Description></Description>
+          <AddonId>A14194F2A1816F629</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Wenn Ihr einen Zauber wirkt, besteht eine 2%ige Chance, die Wirkzeit Eures nächsten Zaubers um 100% zu verkürzen und die Manakosten um 40% zu reduzieren. Kann höchstens alle 3 Sekunden auftreten.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Wenn Ihr einen Zauber wirkt, besteht eine 4%ige Chance, die Wirkzeit Eures nächsten Zaubers um 100% zu verkürzen und die Manakosten um 40% zu reduzieren. Kann höchstens alle 3 Sekunden auftreten.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Wenn Ihr einen Zauber wirkt, besteht eine 6%ige Chance, die Wirkzeit Eures nächsten Zaubers um 100% zu verkürzen und die Manakosten um 40% zu reduzieren. Kann höchstens alle 3 Sekunden auftreten.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Wenn Ihr einen Zauber wirkt, besteht eine 8%ige Chance, die Wirkzeit Eures nächsten Zaubers um 100% zu verkürzen und die Manakosten um 40% zu reduzieren. Kann höchstens alle 3 Sekunden auftreten.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Wenn Ihr einen Zauber wirkt, besteht eine 10%ige Chance, die Wirkzeit Eures nächsten Zaubers um 100% zu verkürzen und die Manakosten um 40% zu reduzieren. Kann höchstens alle 3 Sekunden auftreten.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Einsickernde Verderbnis</Name>
+      <Icon>void_knight-void_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-13443699</AbilityId>
+          <Description></Description>
+          <AddonId>AFF32DD8D43CA5BEB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure nicht-körperlichen Angriffe ignorieren 3% der Widerstände Eures Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure nicht-körperlichen Angriffe ignorieren 6% der Widerstände Eures Ziels.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure nicht-körperlichen Angriffe ignorieren 10% der Widerstände Eures Ziels.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Vitalität</Name>
+      <Icon>holystrength3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1200381260</AbilityId>
+          <Description></Description>
+          <AddonId>A478C5D4C3420387B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht Eure maximale Gesundheit um 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht Eure maximale Gesundheit um 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht Eure maximale Gesundheit um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht Eure maximale Gesundheit um 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht Eure maximale Gesundheit um 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Neddras Griff</Name>
+      <Icon>drainlife3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1426525974</AbilityId>
+          <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 410 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+          <AddonId>A55070F16971D9268</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+          <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Neddras Griff</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Verbesserter Zehrender Blitz</Name>
+      <Icon>piercingenergy3</Icon>
+      <PrereqTraitKey>10</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden von Zehrender Blitz um 5% für jeden Eurer auf Todesschaden über einen gewissen Zeitraum basierenden Effekte, die beim Feind aktiv sind.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden von Zehrender Blitz um 10% für jeden Eurer auf Todesschaden über einen gewissen Zeitraum basierenden Effekte, die beim Feind aktiv sind.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Zehrender Blitz</Name>
+      <Icon>darkbolt5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>408072910</AbilityId>
+          <Description>Verursacht 1072 bis 1185 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+          <AddonId>A1852B2CE6520A991</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Zehrender Blitz</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Neddras Qual</Name>
+      <Icon>fatique</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1787331256</AbilityId>
+          <Description>Verursacht nach 8 Sekunden 944 bis 1043 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1227 bis 1356 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+          <AddonId>A6A8882B822B7FE40</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Schnelle Verderbung</Name>
+      <Icon>ruthless_stalker</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-39174447</AbilityId>
+          <Description></Description>
+          <AddonId>AFDAA3ED1411186F5</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduziert die globale Abklingzeit von Fähigkeiten, die Schaden über einen gewissen Zeitraum verursachen, auf 1,25 Sekunden und reduziert die Manakosten um 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduziert die globale Abklingzeit von Fähigkeiten, die Schaden über einen gewissen Zeitraum verursachen, auf 1 Sekunde und reduziert die Manakosten um 33%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Dunkle Kraft</Name>
+      <Icon>ebon_fury_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>622265515</AbilityId>
+          <Description></Description>
+          <AddonId>A251704AB328AA5AE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten, die Schaden über einen gewissen Zeitraum bewirken, um 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten, die Schaden über einen gewissen Zeitraum bewirken, um 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten, die Schaden über einen gewissen Zeitraum bewirken, um 9%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten, die Schaden über einen gewissen Zeitraum bewirken, um 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden Eurer Fähigkeiten, die Schaden über einen gewissen Zeitraum bewirken, um 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Strahlentod</Name>
+      <Icon>summonskel5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>415991213</AbilityId>
+          <Description>Verbreitet die Effekte Dunkle Berührung und Neddras Griff auf bis zu 6 zusätzliche Feinde.</Description>
+          <AddonId>A18CB85AD76646086</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>6</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Strahlentod</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Verbesserte Magierrüstung</Name>
+      <Icon>voidknight_ravenous_defence_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1122876121</AbilityId>
+          <Description></Description>
+          <AddonId>A42EDBAD934830E85</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Eure Magier-Rüstungs-Verstärkung erhöht den von Euch verursachten Schaden um 2%, zusätzlich zu der normalen Wirkung.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Eure Magier-Rüstungs-Verstärkung erhöht den von Euch verursachten Schaden um 4%, zusätzlich zu der normalen Wirkung.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Eure Magier-Rüstungs-Verstärkung erhöht den von Euch verursachten Schaden um 6%, zusätzlich zu der normalen Wirkung.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Eure Magier-Rüstungs-Verstärkung erhöht den von Euch verursachten Schaden um 8%, zusätzlich zu der normalen Wirkung.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Eure Magier-Rüstungs-Verstärkung erhöht den von Euch verursachten Schaden um 10%, zusätzlich zu der normalen Wirkung.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Neddras Essenz</Name>
+      <Icon>summonskeleton1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1978709104</AbilityId>
+          <Description>Reduziert den erlittenen Schaden 7 Sekunden lang um 80%.</Description>
+          <AddonId>A75F0B47069DE0947</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>7.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Neddras Essenz</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Verbesserter Lebensegel</Name>
+      <Icon>drainlife1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den von Eurem Lebensegel verursachten Basisschaden und den Nutzen, den er aus Eurer Zauberkraft zieht, um 20%. Erhöht die Heilwirkung Eures Lebensegels auf 12% des verursachten Schadens und die Dauer um 2 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den von Eurem Lebensegel verursachten Basisschaden und den Nutzen, den er aus Eurer Zauberkraft zieht, um 40%. Erhöht die Heilwirkung Eures Lebensegels auf 14% des verursachten Schadens und die Dauer um 4 Sekunden.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den von Eurem Lebensegel verursachten Basisschaden und den Nutzen, den er aus Eurer Zauberkraft zieht, um 60%. Erhöht die Heilwirkung Eures Lebensegels auf 16% des verursachten Schadens und die Dauer um 6 Sekunden.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Anhaltender Schmerz</Name>
+      <Icon>flash2</Icon>
+      <PrereqTraitKey>17</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>639630724</AbilityId>
+          <Description></Description>
+          <AddonId>A261FFD840704305E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verleiht Euren Erstblitz-Fähigkeiten eine 50%ige Chance, die Dauer von Lebensegel beim Gegner zu erneuern.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verleiht Euren Erstblitz-Fähigkeiten eine 100%ige Chance, die Dauer von Lebensegel beim Gegner zu erneuern.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Erweiterte Ansteckung</Name>
+      <Icon>cabalist_sigil_of_ravaging</Icon>
+      <PrereqTraitKey>14</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Verleiht Eurer Fähigkeit Strahlentod eine Chance von 33%, Lebensegel, Schwund, Nekrose, Verbrennung, Elektrifizieren und Ruf des Todes zu verbreiten.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Verleiht Eurer Fähigkeit Strahlentod eine Chance von 66%, Lebensegel, Schwund, Nekrose, Verbrennung, Elektrifizieren und Ruf des Todes zu verbreiten.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Verleiht Eurer Fähigkeit Strahlentod eine Chance von 100%, Lebensegel, Schwund, Nekrose, Verbrennung, Elektrifizieren und Ruf des Todes zu verbreiten.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Leere-Dezimierung</Name>
+      <Icon>shadow_blitz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Erhöht den Schaden Eures Leereblitzes und Eurer Leerebarriere um 2% für jeden auf Todesschaden über Zeit basierenden Effekt, der beim Gegner aktiv ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Erhöht den Schaden Eures Leereblitzes und Eurer Leerebarriere um 4% für jeden auf Todesschaden über Zeit basierenden Effekt, der beim Gegner aktiv ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Erhöht den Schaden Eures Leereblitzes und Eurer Leerebarriere um 6% für jeden auf Todesschaden über Zeit basierenden Effekt, der beim Gegner aktiv ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Erhöht den Schaden Eures Leereblitzes und Eurer Leerebarriere um 8% für jeden auf Todesschaden über Zeit basierenden Effekt, der beim Gegner aktiv ist.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Erhöht den Schaden Eures Leereblitzes und Eurer Leerebarriere um 10% für jeden auf Todesschaden über Zeit basierenden Effekt, der beim Gegner aktiv ist.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Fortbestehen</Name>
+      <Icon>dirtytricks1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41702020</AbilityId>
+          <Description>Erneuert alle beim Feind aktiven Effekte des Magiers, die Todesschaden über einen bestimmten Zeitraum verursachen.</Description>
+          <AddonId>AFD83AD7C7ED5E2D5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Zufluss</Name>
+      <Icon>curse_of_solitude</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3398260</AbilityId>
+          <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 503 bis 556 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+          <AddonId>AFFCC258C169142B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Würgen</Name>
+      <Icon>secondwind1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1472223050</AbilityId>
+          <Description>Unterbricht den Feind und lässt ihn 5 Sekunden lang verstummen.</Description>
+          <AddonId>A57C0574AA3EB505B</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>40.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gelegenheit</Name>
+      <Icon>redirect1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-95170530</AbilityId>
+        <Description>Reduziert die Wirkzeit des nächsten Zaubers um 100%.</Description>
+        <AddonId>AFA53D01E75C43B86</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Leerebarriere</Name>
+      <Icon>darkball4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89843867</AbilityId>
+        <Description>Verursacht 9297 Todesschaden über 3 Sekunden. Der erste Schaden erneuert alle beim Feind aktiven Effekte des Magiers, die Todesschaden über einen bestimmten Zeitraum verursachen.</Description>
+        <AddonId>AFAA517652A3473AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schwund</Name>
+      <Icon>generic_ability_027</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-73435607</AbilityId>
+        <Description>Verursacht 2132 Todesschaden über 16 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFB9F7629479DF854</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-23553867</AbilityId>
+        <Description>Verursacht 2395 Todesschaden über 16 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFE9898B5B6BC1944</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-20795357</AbilityId>
+        <Description>Verursacht 3089 Todesschaden über 16 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFEC2B02350E1EDA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-57961007</AbilityId>
+        <Description>Verursacht 3648 Todesschaden über 16 Sekunden. Der Schaden nimmt mit jeder Sekunde zu.</Description>
+        <AddonId>AFC8B95D162EDCA10</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tödliches Leichentuch</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-71430080</AbilityId>
+        <Description>Wirkt alle Effekte mit Todesschaden über einen bestimmten Zeitraum, die von der Fähigkeit Bergung der Verderbnis des Magiers entfernt wurden, auf den Feind.</Description>
+        <AddonId>AFBBE10403F5BF0B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>3.750000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bergung der Verderbnis</Name>
+      <Icon>dominator_draining_presence_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-59502705</AbilityId>
+        <Description>Entfernt beim Feind alle Effekte des Magiers, die Todesschaden über einen bestimmten Zeitraum verursachen, um sie bis zu 15 Sekunden lang auf dem Magier zu speichern. Gespeicherte Effekte können mit der Fähigkeit Tödliches Leichentuch wieder auf einen Feind übertragen werden.</Description>
+        <AddonId>AFC740F8F749E6948</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Kontaminieren</Name>
+      <Icon>dirtytricks3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-48761057</AbilityId>
+        <Description>Erhöht den von Effekten des Magiers verursachten Schaden über einen bestimmten Zeitraum um 20%. Jede Fähigkeit, die Schaden über Zeit verursacht, verbraucht 10 Ladung. Fähigkeiten, die Schaden über Zeit verursachen, können keine Ladung generieren, solange sie aktiv sind. Diese Fähigkeit löst keine globale Abklingzeit aus.</Description>
+        <AddonId>AFD17F71F98085600</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Fortbestehen</Name>
+      <Icon>dirtytricks1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-41702020</AbilityId>
+        <Description>Erneuert alle beim Feind aktiven Effekte des Magiers, die Todesschaden über einen bestimmten Zeitraum verursachen.</Description>
+        <AddonId>AFD83AD7C7ED5E2D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Verzehrende Pein</Name>
+      <Icon>defiler_loathsome_restoration_g</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-27666901</AbilityId>
+        <Description>Verursacht 1285 bis 1420 Todesschaden zu. Dieser Schaden erhöht sich für jeden Todesschadenseffekt, der über einen bestimmten Zeitraum auf den Feind wirkt, um 20%.</Description>
+        <AddonId>AFE59D62B52FF71EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1068766158</AbilityId>
+        <Description>Verursacht 1442 bis 1594 Todesschaden zu. Dieser Schaden erhöht sich für jeden Todesschadenseffekt, der über einen bestimmten Zeitraum auf den Feind wirkt, um 20%.</Description>
+        <AddonId>A3FB413CE85B7606F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1782581952</AbilityId>
+        <Description>Verursacht 1858 bis 2054 Todesschaden zu. Dieser Schaden erhöht sich für jeden Todesschadenseffekt, der über einen bestimmten Zeitraum auf den Feind wirkt, um 20%.</Description>
+        <AddonId>A6A400AC040752649</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>355136950</AbilityId>
+        <Description>Verursacht 2193 bis 2423 Todesschaden zu. Dieser Schaden erhöht sich für jeden Todesschadenseffekt, der über einen bestimmten Zeitraum auf den Feind wirkt, um 20%.</Description>
+        <AddonId>A152AF5B68F276F6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tür des Todes</Name>
+      <Icon>generic_ability_020</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-15917885</AbilityId>
+        <Description>Verursacht 3913 Todesschaden über 8 Sekunden. Kann nur bei Feinden mit unter 50% Gesundheit eingesetzt werden.</Description>
+        <AddonId>AFF0D1CC33CC6094C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42825217</AbilityId>
+        <Description>Verursacht 4210 Todesschaden über 8 Sekunden. Kann nur bei Feinden mit unter 50% Gesundheit eingesetzt werden.</Description>
+        <AddonId>AFD7289FF9C5B7993</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Zufluss</Name>
+      <Icon>curse_of_solitude</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-3398260</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 503 bis 556 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFFCC258C169142B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-50515906</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 545 bis 602 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFCFD303E46F5389F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-55254326</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 577 bis 638 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFCB4E2CA4EBC0A6F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-121659</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 722 bis 798 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFFFE24C560BCDB9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-27263390</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 867 bis 958 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFE5FFE6235580096</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-20923169</AbilityId>
+        <Description>Verflucht den Feind für bis zu 30 Sekunden und verursacht jedes Mal 932 bis 1031 Todesschaden für die nächsten 10 Mal, wenn Todesschaden über einen bestimmten Zeitraum auf den Feind wirkt.</Description>
+        <AddonId>AFEC0BCDF329022BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Machtvolle Dunkelheit</Name>
+      <Icon>necropotence1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>301593466</AbilityId>
+        <Description>Erhöht den verursachten Schaden 15 Sekunden lang um 40%.</Description>
+        <AddonId>A11F9F37A2A980B95</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>75</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Zehrender Blitz</Name>
+      <Icon>darkbolt5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>408072910</AbilityId>
+        <Description>Verursacht 1072 bis 1185 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A1852B2CE6520A991</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>813542174</AbilityId>
+        <Description>Verursacht 1118 bis 1235 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A307DAB1EA5D1E728</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1431271826</AbilityId>
+        <Description>Verursacht 1144 bis 1264 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A554F7992D654210C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1649256555</AbilityId>
+        <Description>Verursacht 1176 bis 1299 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A624DA86B46DA0A33</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1265187746</AbilityId>
+        <Description>Verursacht 1205 bis 1332 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A4B693BA26813586E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>259326138</AbilityId>
+        <Description>Verursacht 1247 bis 1378 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A0F7500BA3C91B02A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1109565430</AbilityId>
+        <Description>Verursacht 1306 bis 1443 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>A42229FF633902012</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-75558428</AbilityId>
+        <Description>Verursacht 1402 bis 1549 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>AFB7F11E4573206EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-17050656</AbilityId>
+        <Description>Verursacht 1574 bis 1740 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>AFEFBD3E054EAD4D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-9616786</AbilityId>
+        <Description>Verursacht 2031 bis 2245 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>AFF6D426E4BEC67B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-30432570</AbilityId>
+        <Description>Verursacht 2399 bis 2652 Todesschaden und heilt den Magier in Höhe von 30% des verursachten Schadens.</Description>
+        <AddonId>AFE2FA2C6666E89CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Strahlentod</Name>
+      <Icon>summonskel5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>415991213</AbilityId>
+        <Description>Verbreitet die Effekte Dunkle Berührung und Neddras Griff auf bis zu 6 zusätzliche Feinde.</Description>
+        <AddonId>A18CB85AD76646086</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>6</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lebensegel</Name>
+      <Icon>drainlife1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>573446963</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 973 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A222E1B336F8C0394</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1558667022</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 992 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A5CE75F0E2AA2C505</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2008017088</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1016 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A77AFE8C0B7863FF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1652027032</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1046 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A6277EE987DD06CF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>2001861545</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1070 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A7751FBA9CC4569D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1378380897</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1099 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A52286C6154138154</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1877593590</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1127 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A6FE9CDF6C7BCDD60</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2057468570</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1167 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A7AA27A9A9301DC76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1232057253</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1222 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A496FB3A54954C3AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1969688444</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1312 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>A75670F7CC33135AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-26661093</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1390 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>AFE692F1B694DB489</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-98432713</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 1737 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>AFA22093788D32AAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53259452</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 2087 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>AFCD3534440E1A78D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31429551</AbilityId>
+        <Description>Verursacht über einen Zeitraum von 10 Sekunden 2245 Todesschaden und heilt den Magier um 10% des verursachten Schadens.</Description>
+        <AddonId>AFE206C51A063DFFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dunkle Berührung</Name>
+      <Icon>darkball2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>646858846</AbilityId>
+        <Description>Verursacht 1351 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A268E485E3C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>511726833</AbilityId>
+        <Description>Verursacht 1378 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A1E8054F17331F01A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1712829093</AbilityId>
+        <Description>Verursacht 1422 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A6617B2A5E2DCA320</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>281345424</AbilityId>
+        <Description>Verursacht 1452 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A10C4FD909E98A6F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1827043449</AbilityId>
+        <Description>Verursacht 1487 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A6CE678795FCB0C00</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>831480112</AbilityId>
+        <Description>Verursacht 1529 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A318F6130D9A48C1F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>899002764</AbilityId>
+        <Description>Verursacht 1573 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A3595B18C9D170F89</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>589195541</AbilityId>
+        <Description>Verursacht 1627 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A231E6915B66936BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>493380745</AbilityId>
+        <Description>Verursacht 1742 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A1D686489E622FDA9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1055329214</AbilityId>
+        <Description>Verursacht 1804 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>A3EE70BBE3E48A954</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-48834356</AbilityId>
+        <Description>Verursacht 2197 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>AFD16D8CC3C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-85191751</AbilityId>
+        <Description>Verursacht 2870 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>AFAEC13B93C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-40419215</AbilityId>
+        <Description>Verursacht 3087 Todesschaden über 16 Sekunden.</Description>
+        <AddonId>AFD9740713C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sterblichkeit</Name>
+      <Icon>channelhealth4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>714617022</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 4369 bis 4829 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A2A9830BE8A7539BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2055311102</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 4559 bis 5039 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A7A818EFE69613CBE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>435314421</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 4756 bis 5256 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A19F25EF59F7D36D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>761133178</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 5402 bis 5971 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A2D5DF87AB4A8F00D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1147531843</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 5821 bis 6434 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A4465F243921EEFD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>934227307</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 7674 bis 8481 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A37AF2D6BA676E06B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>19272521</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 9543 bis 10547 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A0126134989E6490F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1651719134</AbilityId>
+        <Description>Verursacht bei bis zu 5 in der Nähe befindlichen Feinden 10387 bis 11481 Todesschaden über 6 Sekunden und heilt den Magier in Höhe des verursachten Schadens. Dieser Effekt verbraucht Ladung, wenn er aktiv ist.</Description>
+        <AddonId>A62733BDE8DBE72E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Dunkle Rüstung</Name>
+      <Icon>darkball2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>742316164</AbilityId>
+        <Description>Verursacht bei einem Treffer 175 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A2C3ED88433E2F15E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1636697021</AbilityId>
+        <Description>Verursacht bei einem Treffer 176 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A618E03BD3BB74F57</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1519850305</AbilityId>
+        <Description>Verursacht bei einem Treffer 178 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A5A971341DC30A47A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-74470697</AbilityId>
+        <Description>Verursacht bei einem Treffer 179 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFB8FAAD7811C4291</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-63986051</AbilityId>
+        <Description>Verursacht bei einem Treffer 181 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFC2FA67D76F33BE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-54053311</AbilityId>
+        <Description>Verursacht bei einem Treffer 183 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFCC736417509C12A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-72115492</AbilityId>
+        <Description>Verursacht bei einem Treffer 185 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFBB39ADC39DD859F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-39863732</AbilityId>
+        <Description>Verursacht bei einem Treffer 187 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFD9FBA4C9A60D7E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-75381735</AbilityId>
+        <Description>Verursacht bei einem Treffer 194 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFB81C4194A406097</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6229118</AbilityId>
+        <Description>Verursacht bei einem Treffer 199 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFFA0F3825168F450</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-21991975</AbilityId>
+        <Description>Verursacht bei einem Treffer 221 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFEB06DD9452CD994</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-60284291</AbilityId>
+        <Description>Verursacht bei einem Treffer 243 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFC68227D48182CEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31392736</AbilityId>
+        <Description>Verursacht bei einem Treffer 253 Todesschaden beim Angreifer. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFE20FC2064C24590</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Massenpanik</Name>
+      <Icon>finalstrike3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>927188724</AbilityId>
+        <Description>Versetzt bis zu 5 Feinde in der Nähe 10 Sekunden lang in Furcht, oder bis sie Schaden erlitten haben.</Description>
+        <AddonId>A3743C6F49C83B31B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Verschlingende Schatten</Name>
+      <Icon>poisoned</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1001182568</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 2749 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>A3BACD5687AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2054010889</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 2860 Todesschaden zu. Erzeugt 6 Ladung alle 1 Sekunden.</Description>
+        <AddonId>A7A6DB80944123337</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1379903298</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 2971 Todesschaden zu. Erzeugt 6 Ladung alle 1 Sekunden.</Description>
+        <AddonId>A523FA742B8EC86E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1142512102</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 3111 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>A441959E66BFABD0B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1066790323</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 3405 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>A3F95EDB355905592</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>8664756</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 3565 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>A008436B4A0AAF3E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-80278547</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 4575 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>AFB370BED7AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-50715548</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 6299 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>AFCFA24647AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-85901948</AbilityId>
+        <Description>Fügt bis zu 8 Feinden über 6 Sekunden 6856 Todesschaden zu. Erzeugt 6 Ladung pro Sekunde.</Description>
+        <AddonId>AFAE13D847AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lebensopfer: Schaden</Name>
+      <Icon>sacrificepet3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1133456236</AbilityId>
+        <Description>Erhöht den verursachten Schaden 15 Sekunden lang um 20%. Verbraucht 15% der Gesundheit.</Description>
+        <AddonId>A438F2B6C4AA4EBF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Hexenmeister-Rüstung</Name>
+      <Icon>darkball1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1145695696</AbilityId>
+        <Description>Verursacht bei einem Treffer 175 Todesschaden beim Angreifer und stellt 129 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A4449EDD03D27DD70</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>735584044</AbilityId>
+        <Description>Verursacht bei einem Treffer 177 Todesschaden beim Angreifer und stellt 131 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A2BD81F2C8F64C8E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>473115348</AbilityId>
+        <Description>Verursacht bei einem Treffer 182 Todesschaden beim Angreifer und stellt 135 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>A1C332AD47D1BDC29</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-58915461</AbilityId>
+        <Description>Verursacht bei einem Treffer 185 Todesschaden beim Angreifer und stellt 136 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFC7D057B8336AB67</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-94074701</AbilityId>
+        <Description>Verursacht bei einem Treffer 202 Todesschaden beim Angreifer und stellt 143 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFA6488B31AE80AC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-5701069</AbilityId>
+        <Description>Verursacht bei einem Treffer 230 Todesschaden beim Angreifer und stellt 150 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFFA902333E0A7718</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-22030831</AbilityId>
+        <Description>Verursacht bei einem Treffer 240 Todesschaden beim Angreifer und stellt 164 Gesundheit wieder her. Erhöht den Schaden von Fähigkeiten, die Schaden über einen bestimmten Zeitraum verursachen, um 5%. Gewährt Todesschadenszaubern eine Chance von 20%, die Manakosten um 50% zu senken und die Abklingzeit der nächsten innerhalb von 8 Sekunden gewirkten Verzehrenden Pein zurückzusetzen, sodass diese sofort gewirkt werden kann. Der Effekt kann nur einmal innerhalb von 10 Sekunden ausgelöst werden. Die Dauer beträgt 1 Stunde. Zählt als Magierrüstung.</Description>
+        <AddonId>AFEAFD61176DE0D71</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.130000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Schändung</Name>
+      <Icon>void_knight-rift_summon_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1282932639</AbilityId>
+        <Description>Verursacht 2042 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>A4C77FF9F75FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1813227128</AbilityId>
+        <Description>Verursacht 2138 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>A6C13A678C1441C7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>764255181</AbilityId>
+        <Description>Verursacht 2296 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>A2D8D9BCD6DC85F68</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-46415581</AbilityId>
+        <Description>Verursacht 2579 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>AFD3BC12375FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-25306468</AbilityId>
+        <Description>Verursacht 3326 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>AFE7DDA9C75FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-2304880</AbilityId>
+        <Description>Verursacht 3929 Todesschaden über 16 Sekunden. Dieser Effekt verbraucht Ladung, wenn er aktiv ist (aber er verhindert nicht den Erhalt von Ladung).</Description>
+        <AddonId>AFFDCD49075FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aversion</Name>
+      <Icon>defiler_empowered_affliction_cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1338281782</AbilityId>
+        <Description>Unterbricht.</Description>
+        <AddonId>A4FC48F3683FC6C9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Neddras Griff</Name>
+      <Icon>drainlife3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1426525974</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 410 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A55070F16971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>2071798388</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 418 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A7B7D22748D228B6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>893634029</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 432 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A3543C5EDD7D14283</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>1094678478</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 441 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A413F77CE211CF18A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>611114803</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 457 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A246CDF33617D9105</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>1322629450</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 476 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>A4ED5B94A352FB671</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-56389978</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 516 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFCA38EA6971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="1" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-88090584</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 548 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFABFD828971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5214636</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 684 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFFB06E54971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-85437116</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 822 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFAE85544971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-19684998</AbilityId>
+        <Description>Immer, wenn ein Feind eine Fähigkeit einsetzt, erleidet er 883 Todesschaden. Kann bis zu 5 Mal geschehen. Die Dauer beträgt 15 Sekunden.</Description>
+        <AddonId>AFED3A17A971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Würgen</Name>
+      <Icon>secondwind1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1472223050</AbilityId>
+        <Description>Unterbricht den Feind und lässt ihn 5 Sekunden lang verstummen.</Description>
+        <AddonId>A57C0574AA3EB505B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>40.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Neddras Qual</Name>
+      <Icon>fatique</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1787331256</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 944 bis 1043 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1227 bis 1356 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A6A8882B822B7FE40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>2010131703</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 973 bis 1076 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1265 bis 1398 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A77D02CF743E38EC6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1430351150</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 996 bis 1101 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1295 bis 1432 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A55416D2E8DBC3397</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1673077339</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1028 bis 1136 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1337 bis 1478 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A63B9225B525B7A00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1559024275</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1060 bis 1172 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1380 bis 1525 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A5CECD2937B07C0C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>471646963</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1169 bis 1292 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1519 bis 1679 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A1C1CC2F3F5B091C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1609145117</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1239 bis 1369 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 1611 bis 1781 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A5FE99B1DC7D91C78</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>528423916</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1547 bis 1709 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 2013 bis 2225 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>A1F7F1BECB2356F7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-22585601</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1859 bis 2055 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 2419 bis 2673 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>AFEA75EFFA622FEC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-62178653</AbilityId>
+        <Description>Verursacht nach 8 Sekunden 1999 bis 2209 Todesschaden. Wenn ein Effekt mit Schaden über einen bestimmten Zeitraum beim Feind geläutert wird, explodiert Neddras Qual und fügt dem Läuterer 2602 bis 2876 Todesschaden zu und bringt ihn 3 Sekunden lang zum Schweigen.</Description>
+        <AddonId>AFC4B3AA37A797B99</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Neddras Kraft</Name>
+      <Icon>channelhealth3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1790739682</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 20. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A6ABC84E2D92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1285905445</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 30. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A4CA55C25BE1F4A78</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>2010713335</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 40. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A77D90CF7A0E1C593</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>2052875030</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 50. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>A7A5C6316A8B5252E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17646422</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 60. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFEF2BCAAD92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-84706703</AbilityId>
+        <Description>Erhöht die Ausdauer aller Gruppen- oder Schlachtzugmitglieder um 70. Dauer beträgt 1 Stunde.</Description>
+        <AddonId>AFAF37A71D92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Lebensopfer: Mana</Name>
+      <Icon>sacrificepet4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1793162193</AbilityId>
+        <Description>Regeneriert 7% Mana. Verbraucht 7% Gesundheit.</Description>
+        <AddonId>A6AE17BD1BEE7999D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="1">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Neddras Einfluss</Name>
+      <Icon>invoker_prerogative1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1843334233</AbilityId>
+        <Description>Erhöht den Schaden des Magiers um 1% pro Punkt, welcher der Hexenmeister-Seele zugewiesen wird.</Description>
+        <AddonId>A6DDF0C59B3B94A39</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Furcht</Name>
+      <Icon>finalstrike3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1949993914</AbilityId>
+        <Description>Versetzt für 10 Sekunden oder bis zu einem Treffer in Furcht. Kann nur bei 1 Feind eingesetzt werden.</Description>
+        <AddonId>A743A8BBA54FFD6EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>1.500000</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Neddras Essenz</Name>
+      <Icon>summonskeleton1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1978709104</AbilityId>
+        <Description>Reduziert den erlittenen Schaden 7 Sekunden lang um 80%.</Description>
+        <AddonId>A75F0B47069DE0947</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>7.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Leereblitz</Name>
+      <Icon>darkbolt3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1988160741</AbilityId>
+        <Description>Verursacht 693 bis 766 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A7680ECE56E195070</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1309479040</AbilityId>
+        <Description>Verursacht 707 bis 782 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A4E0D10808CB9DFFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>67962511</AbilityId>
+        <Description>Verursacht 723 bis 800 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A040D068F2BBF7779</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1679335114</AbilityId>
+        <Description>Verursacht 745 bis 824 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A64189ECA0D19C048</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>431782537</AbilityId>
+        <Description>Verursacht 762 bis 842 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A19BC7A89066BD209</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>374432702</AbilityId>
+        <Description>Verursacht 784 bis 866 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A165163BED73FCC0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1958474476</AbilityId>
+        <Description>Verursacht 803 bis 888 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A74BBF2EC921C8D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>187832897</AbilityId>
+        <Description>Verursacht 832 bis 919 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A0B321A410B78D4D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1484187411</AbilityId>
+        <Description>Verursacht 871 bis 963 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A5876E71398F73984</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1661668470</AbilityId>
+        <Description>Verursacht 934 bis 1033 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>A630B0C76E858BFD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-84755949</AbilityId>
+        <Description>Verursacht 990 bis 1094 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>AFAF2BA134C4515A8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42190383</AbilityId>
+        <Description>Verursacht 1238 bis 1368 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>AFD7C39D17D0FDADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-83347477</AbilityId>
+        <Description>Verursacht 1487 bis 1644 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>AFB0837EB28CEC49C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-82593024</AbilityId>
+        <Description>Verursacht 1600 bis 1768 Todesschaden. Zählt als Erstblitz.</Description>
+        <AddonId>AFB13BB006FECD918</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

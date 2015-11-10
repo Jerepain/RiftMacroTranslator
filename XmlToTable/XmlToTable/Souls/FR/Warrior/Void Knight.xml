@@ -1,0 +1,2671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Warrior" name="Void Knight">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Soins de qualité</Name>
+      <Icon>invigorate1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1487315437</AbilityId>
+          <Description></Description>
+          <AddonId>A58A6A1ED00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Lorsque vous recevez un soin sur cible unique, vous avez 10% de chances de gagner un Pacte.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Lorsque vous recevez un soin sur cible unique, vous avez 20% de chances de gagner un Pacte.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Lorsque vous recevez un soin sur cible unique, vous avez 30% de chances de gagner un Pacte.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Poussée</Name>
+      <Icon>berserk4a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1947595151</AbilityId>
+          <Description></Description>
+          <AddonId>A7415F18F00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Génère de la menace auprès de 10 ennemis proches en fonction de l&apos;endurance à chaque fois qu&apos;un Pacte est gagné.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Forces destructrices</Name>
+      <Icon>surge_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Frappe téméraire et Tempête enragée infligent désormais les dégâts d&apos;arme plus 0,3% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires par Pacte actif. Pour chaque point d&apos;attaque utilisé par Pacte, Coup dévorant inflige 0,3% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Frappe téméraire et Tempête enragée infligent désormais les dégâts d&apos;arme plus 0,6% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires par Pacte actif. Pour chaque point d&apos;attaque utilisé par Pacte, Coup dévorant inflige 0,6% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Frappe téméraire et Tempête enragée infligent désormais les dégâts d&apos;arme plus 0,9% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires par Pacte actif. Pour chaque point d&apos;attaque utilisé par Pacte, Coup dévorant inflige 0,9% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Frappe téméraire et Tempête enragée infligent désormais les dégâts d&apos;arme plus 1,2% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires par Pacte actif. Pour chaque point d&apos;attaque utilisé par Pacte, Coup dévorant inflige 1,2% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Frappe téméraire et Tempête enragée infligent désormais les dégâts d&apos;arme plus 1,5% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires par Pacte actif. Pour chaque point d&apos;attaque utilisé par Pacte, Coup dévorant inflige 1,5% de votre puissance d&apos;attaque sous forme de dégâts d&apos;Air supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Rétention d&apos;énergie</Name>
+      <Icon>rally1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>469955733</AbilityId>
+          <Description></Description>
+          <AddonId>A1C02F49500000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la durée des Pactes de 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la durée des Pactes de 6 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la durée des Pactes de 9 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente la durée des Pactes de 12 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente la durée des Pactes de 15 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Dévoreur</Name>
+      <Icon>void_knight-void</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1939647797</AbilityId>
+          <Description></Description>
+          <AddonId>A739CAD3574420A01</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la réduction des dégâts autres que ceux des sorts de Néant de 2%, et sa réduction des dégâts des sorts de 4%. Augmente les dégâts infligés de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la réduction des dégâts autres que ceux des sorts de Néant de 4%, et sa réduction des dégâts des sorts de 8%. Augmente les dégâts infligés de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Affinité magique</Name>
+      <Icon>riftstalker_great_fortitude_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-84342564</AbilityId>
+          <Description></Description>
+          <AddonId>AFAF908DC00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente toutes les résistances de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente toutes les résistances de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente toutes les résistances de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente toutes les résistances de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente toutes les résistances de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Conversion efficace</Name>
+      <Icon>redirect1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1431739930</AbilityId>
+          <Description></Description>
+          <AddonId>A55569E1A00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit de 2 le coût en puissance des capacités consommant des Pactes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit de 4 le coût en puissance des capacités consommant des Pactes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit de 6 le coût en puissance des capacités consommant des Pactes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Propulsion du Néant</Name>
+      <Icon>elemres4b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-28481407</AbilityId>
+          <Description>Projette l&apos;ennemi 15 mètres en arrière. Cette capacité confère 1 point d&apos;attaque.</Description>
+          <AddonId>AFE4D68816C2BD068</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>3.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Renforcement</Name>
+      <Icon>riftstalker_planar_refuge_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-75527429</AbilityId>
+          <Description></Description>
+          <AddonId>AFB7F8AFB00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;endurance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;endurance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;endurance de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente l&apos;endurance de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente l&apos;endurance de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Rage furieuse</Name>
+      <Icon>shatter3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1493185390</AbilityId>
+          <Description>Interrompt l&apos;ennemi.</Description>
+          <AddonId>A5900336E981E3D9F</AddonId>
+          <IsPassive>False</IsPassive>
+          <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Scission de sort</Name>
+      <Icon>shatter1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1981681650</AbilityId>
+          <Description>Supprime 1 amélioration. Applique 1 Pacte au Guerrier.</Description>
+          <AddonId>A761E0FF2A95D81BF</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Scission de sort.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Armure renforcée</Name>
+      <Icon>curse_of_solitude</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-13339340</AbilityId>
+          <Description></Description>
+          <AddonId>AFF34753400000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;armure de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;armure de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente l&apos;armure de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Brise-sort</Name>
+      <Icon>magicward4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1001670511</AbilityId>
+          <Description>Dissipe 1 malédiction. Applique 1 Pacte au Guerrier.</Description>
+          <AddonId>A3BB4476FAB8B318F</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Brise-sort.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Rage effrénée</Name>
+      <Icon>void_knight_staggering_rage_a</Icon>
+      <PrereqTraitKey>9</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Rage furieuse réduit l&apos;ennemi au silence pendant 4 secondes en cas d&apos;interruption réussie.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Invocation de Faille</Name>
+      <Icon>void_knight-rift_summon</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1949985207</AbilityId>
+          <Description>Téléporte l&apos;ennemi jusqu&apos;au Guerrier, l&apos;immobilisant pendant 1,5 secondes. Force l&apos;ennemi à attaquer le Guerrier pendant 3 secondes. Procure 1 point d&apos;attaque.</Description>
+          <AddonId>A743A69B7C8578E19</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Invocation de Faille.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Absorption résiduelle</Name>
+      <Icon>magicresist2</Icon>
+      <PrereqTraitKey>12</PrereqTraitKey>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1614589406</AbilityId>
+          <Description>Réduit les dégâts subis de [%INCDMGPERCENT0]%.</Description>
+          <AddonId>A603CADDED4DEE90B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit les dégâts des sorts subis de 15% pendant 1,5 seconde après avoir lancé Brise-sort.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit les dégâts des sorts subis de 15% pendant 3 seconde après avoir lancé Brise-sort.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Absorption puissante</Name>
+      <Icon>souldrain2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2047742386</AbilityId>
+          <Description></Description>
+          <AddonId>A7A0E11B200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>À chaque Pacte acquis grâce à Néant, Brise-sort, Scission de sort ou Réaction instable, vous avez 10% de chances d&apos;obtenir un Pacte supplémentaire.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>À chaque Pacte acquis grâce à Néant, Brise-sort, Scission de sort ou Réaction instable, vous avez 20% de chances d&apos;obtenir un Pacte supplémentaire.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>À chaque Pacte acquis grâce à Néant, Brise-sort, Scission de sort ou Réaction instable, vous avez 30% de chances d&apos;obtenir un Pacte supplémentaire.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Contact déferlant</Name>
+      <Icon>baneful_touch_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-60419233</AbilityId>
+          <Description></Description>
+          <AddonId>AFC66135F2E1BA607</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de 5%. Réduit les dégâts des sorts de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de 10%. Réduit les dégâts des sorts de 2%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Bouclier de Faille</Name>
+      <Icon>void_knight_rift_shield</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>541541749</AbilityId>
+          <Description>Absorbe 162 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+          <AddonId>A2047457596441A60</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Bouclier de Faille.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Bonne allonge</Name>
+      <Icon>shadow_assault</Icon>
+      <PrereqTraitKey>14</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-48236023</AbilityId>
+          <Description></Description>
+          <AddonId>AFD1FFA0900000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la portée de vos Invocations de 5 mètres.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la portée de vos Invocations de 10 mètres.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Horizon des événements</Name>
+      <Icon>virtuoso_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-48451877</AbilityId>
+          <Description></Description>
+          <AddonId>AFD1CAEDB00000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>La valeur d&apos;absorption des Boucliers d&apos;absorption augmente de 7%. Tous les dégâts non physiques augmentent de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La valeur d&apos;absorption des Boucliers d&apos;absorption augmente de 14%. Tous les dégâts non physiques augmentent de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>La valeur d&apos;absorption des Boucliers d&apos;absorption augmente de 21%. Tous les dégâts non physiques augmentent de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Opportunité de réinitialisation</Name>
+      <Icon>energyblast2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gagner un Pacte confère 10% de chances de réinitialiser vos capacités d&apos;Invocation.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Tempête du Néant</Name>
+      <Icon>void_knight_void_storm_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-19886337</AbilityId>
+          <Description>Inflige 173 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+          <AddonId>AFED08EFF763541C5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Distorsion de Faille</Name>
+      <Icon>scatter_the_shadows</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-99931944</AbilityId>
+          <Description></Description>
+          <AddonId>AFA0B28D833D23D9F</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la portée de Décharge, Étincelle, Choc et Réaction instable de 5 mètres. Réduit les dégâts des sorts de 4%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Bouclier protecteur</Name>
+      <Icon>memory_capture</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-90638658</AbilityId>
+          <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 416 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+          <AddonId>AFA98F6BE9B863D37</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+          <Duration>5.000000</Duration>
+          <Interval>1.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Accord de Changement</Name>
+      <Icon>shadow_warp</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-2644417</AbilityId>
+          <Description>La vitesse de déplacement augmente de 1% par Pacte actif. Les dégâts des sorts subis sont réduits de 0,5% par Pacte. Dure 1 heure.</Description>
+          <AddonId>AFFD7A63F6F4868F5</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>10</CostEnergy>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Engorgement ambiant</Name>
+      <Icon>void_knight-pact_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-74474766</AbilityId>
+          <Description></Description>
+          <AddonId>AFB8F9AF200000000</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+          <Interval>9.000000</Interval>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Confère un Pacte toutes les 9 secondes lorsque vous êtes en combat, et augmente les dégâts de Forces destructrices de 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Confère un Pacte toutes les 6 secondes lorsque vous êtes en combat, et augmente les dégâts de Forces destructrices de 35%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Confère un Pacte toutes les 3 secondes lorsque vous êtes en combat, et augmente les dégâts de Forces destructrices de 50%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>27</Key>
+      <Name>Invocation du Néant</Name>
+      <Icon>void_knight-improved_rift_summon</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-59425144</AbilityId>
+          <Description>Téléporte jusqu&apos;à 5 ennemis proches de la cible près du Guerrier, les immobilisant pendant 1,5 secondes. Force les ennemis à attaquer le Guerrier pendant 3 secondes. Procure 1 point d&apos;attaque.</Description>
+          <AddonId>AFC753E885FFD10F9</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>20.000000</MaxRange>
+          <CostEnergy>20</CostEnergy>
+          <GainAttackPoints>1</GainAttackPoints>
+          <CastTime>Instant</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>28</Key>
+      <Name>Bouclier dévorant</Name>
+      <Icon>fire_death_attunement_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-32728897</AbilityId>
+          <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 29 points de dégâts
+2 points : 70 points de dégâts
+3 points : 132 points de dégâts</Description>
+          <AddonId>AFE0C98BF636D4683</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostEnergy>20</CostEnergy>
+          <CostAttackPoints>1</CostAttackPoints>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Débloque la capacité Bouclier dévorant.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bouclier protecteur</Name>
+      <Icon>memory_capture</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-90638658</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 416 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFA98F6BE9B863D37</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-57241924</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 445 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFC968EBC5E5BBA94</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-90863511</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 498 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFA958869B9E9CA3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-23154987</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 522 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFE9EAED5295C94F4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-88182771</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 614 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFABE700D912428FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-32533185</AbilityId>
+        <Description>Consomme 1 Pacte par seconde pendant 6 secondes maximum pour absorber 643 points de dégâts par accumulation. Rapporte 1 point d&apos;attaque toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFE0F953F487100FC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Harmonie de la Faille</Name>
+      <Icon>riftstalker_planar_repulsion_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-74789625</AbilityId>
+        <Description>Augmente l&apos;efficacité des soins reçus de 1% et des dégâts infligés de 2% pour chaque Pacte actif. Dure 1 heure.</Description>
+        <AddonId>AFB8ACD07C6DCC381</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Accord de Résistance</Name>
+      <Icon>voidknight_ravenous_defence_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>-73300499</AbilityId>
+        <Description>Augmente l&apos;armure de 0,5% et les résistances de 1% pour chaque Pacte actif. Dure 1 heure.</Description>
+        <AddonId>AFBA185EDBBEFFD23</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Choc</Name>
+      <Icon>ruthless_stalker</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-72701631</AbilityId>
+        <Description>Réduit au silence pendant 5 secondes.</Description>
+        <AddonId>AFBAAA9410F39C3D7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Invocation du Néant</Name>
+      <Icon>void_knight-improved_rift_summon</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-59425144</AbilityId>
+        <Description>Téléporte jusqu&apos;à 5 ennemis proches de la cible près du Guerrier, les immobilisant pendant 1,5 secondes. Force les ennemis à attaquer le Guerrier pendant 3 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFC753E885FFD10F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Destruction de sort</Name>
+      <Icon>discombobulate1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-42981935</AbilityId>
+        <Description>Crée un champ d&apos;énergie négative qui supprime 1 amélioration à un maximum de 5 ennemis et 1 effet de poison, de malédiction ou de maladie à un maximum de 5 alliés par seconde pendant 3 secondes.</Description>
+        <AddonId>AFD7025D154FB9967</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Néant instable</Name>
+      <Icon>rogue_shadow_shift</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-39284909</AbilityId>
+        <Description>Augmente les dégâts du Guerrier de 20%, réduit les dégâts reçus par le Guerrier de 5%. Augmente l’endurance de 5%. Dure 1 heure.</Description>
+        <AddonId>AFDA88F536BE268ED</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bouclier dévorant</Name>
+      <Icon>fire_death_attunement_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-32728897</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 29 points de dégâts
+2 points : 70 points de dégâts
+3 points : 132 points de dégâts</Description>
+        <AddonId>AFE0C98BF636D4683</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-38400334</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 45 points de dégâts
+2 points : 117 points de dégâts
+3 points : 225 points de dégâts</Description>
+        <AddonId>AFDB60EB2083F686E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-70374883</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 55 points de dégâts
+2 points : 146 points de dégâts
+3 points : 283 points de dégâts</Description>
+        <AddonId>AFBCE2A1DE06392E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-75761494</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 66 points de dégâts
+2 points : 178 points de dégâts
+3 points : 347 points de dégâts</Description>
+        <AddonId>AFB7BF8AA1FD29445</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-37432348</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 72 points de dégâts
+2 points : 197 points de dégâts
+3 points : 385 points de dégâts</Description>
+        <AddonId>AFDC4D3E47750A23A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-77371436</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 81 points de dégâts
+2 points : 222 points de dégâts
+3 points : 436 points de dégâts</Description>
+        <AddonId>AFB6367D4C851A015</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-60575825</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 84 points de dégâts
+2 points : 232 points de dégâts
+3 points : 455 points de dégâts</Description>
+        <AddonId>AFC63AFAF703BEF9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-71746068</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 93 points de dégâts
+2 points : 260 points de dégâts
+3 points : 511 points de dégâts</Description>
+        <AddonId>AFBB93DEC74303050</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-42683169</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 98 points de dégâts
+2 points : 272 points de dégâts
+3 points : 536 points de dégâts</Description>
+        <AddonId>AFD74B4DF828FB2F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-71202886</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 112 points de dégâts
+2 points : 313 points de dégâts
+3 points : 617 points de dégâts</Description>
+        <AddonId>AFBC187BAA935A7E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-60445592</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 123 points de dégâts
+2 points : 347 points de dégâts
+3 points : 686 points de dégâts</Description>
+        <AddonId>AFC65AC6856F39EE1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-40995737</AbilityId>
+        <Description>Absorbe des dégâts en fonction des points d&apos;attaque utilisés.
+
+1 point : 124 points de dégâts
+2 points : 350 points de dégâts
+3 points : 691 points de dégâts</Description>
+        <AddonId>AFD8E746745EEEC0A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.000000E+000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Propulsion du Néant</Name>
+      <Icon>elemres4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-28481407</AbilityId>
+        <Description>Projette l&apos;ennemi 15 mètres en arrière. Cette capacité confère 1 point d&apos;attaque.</Description>
+        <AddonId>AFE4D68816C2BD068</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Accord de Puissance</Name>
+      <Icon>void_knight-ravenous_strength_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-24685401</AbilityId>
+        <Description>Augmente la puissance d&apos;attaque et la contribution aux dégâts d&apos;arme de 4% pour chaque Pacte actif. Dure 1 heure.</Description>
+        <AddonId>AFE8754A74377916A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Coup dévorant</Name>
+      <Icon>paralyzing_strike_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-24490029</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 269 points de dégâts.
+2 points : 338 points de dégâts.
+3 points : 442 points de dégâts.</Description>
+        <AddonId>AFE8A4FD3871425BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-54477771</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 271 points de dégâts.
+2 points : 345 points de dégâts.
+3 points : 456 points de dégâts.</Description>
+        <AddonId>AFCC0BC3546066721</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-7319777</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 275 points de dégâts.
+2 points : 359 points de dégâts.
+3 points : 483 points de dégâts.</Description>
+        <AddonId>AFF904F1F2BDF855D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-77769598</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 279 points de dégâts.
+2 points : 367 points de dégâts.
+3 points : 501 points de dégâts.</Description>
+        <AddonId>AFB5D54823C73BFA3</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-43058496</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 282 points de dégâts.
+2 points : 379 points de dégâts.
+3 points : 524 points de dégâts.</Description>
+        <AddonId>AFD6EFAC03CE5F0A7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-96930070</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 288 points de dégâts.
+2 points : 395 points de dégâts.
+3 points : 555 points de dégâts.</Description>
+        <AddonId>AFA38F6EA762A9801</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-36825875</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 294 points de dégâts.
+2 points : 412 points de dégâts.
+3 points : 589 points de dégâts.</Description>
+        <AddonId>AFDCE14EDA6B689A4</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-33069066</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 301 points de dégâts.
+2 points : 434 points de dégâts.
+3 points : 634 points de dégâts.</Description>
+        <AddonId>AFE0767F6D533DEE5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-37046744</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 316 points de dégâts.
+2 points : 476 points de dégâts.
+3 points : 718 points de dégâts.</Description>
+        <AddonId>AFDCAB6286DA76039</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-52612431</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 324 points de dégâts.
+2 points : 499 points de dégâts.
+3 points : 765 points de dégâts.</Description>
+        <AddonId>AFCDD32B188CEE336</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-48288195</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 365 points de dégâts.
+2 points : 620 points de dégâts.
+3 points : 1007 points de dégâts.</Description>
+        <AddonId>AFD1F2E3DAFA7EEE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10899590</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 450 points de dégâts.
+2 points : 874 points de dégâts.
+3 points : 1514 points de dégâts.</Description>
+        <AddonId>AFF59AF7AA578F443</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-40065984</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air dont le total est fonction des points d&apos;attaque :
+
+1 point : 479 points de dégâts.
+2 points : 957 points de dégâts.
+3 points : 1680 points de dégâts.</Description>
+        <AddonId>AFD9CA4408EBD7F9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tempête du Néant</Name>
+      <Icon>void_knight_void_storm_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-19886337</AbilityId>
+        <Description>Inflige 173 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFED08EFF763541C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>37</RequiredLevel>
+        <AbilityId>-22492350</AbilityId>
+        <Description>Inflige 186 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFEA8CB428F8EC856</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>43</RequiredLevel>
+        <AbilityId>-35974393</AbilityId>
+        <Description>Inflige 211 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFDDB130716FA5C09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>49</RequiredLevel>
+        <AbilityId>-63257576</AbilityId>
+        <Description>Inflige 227 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFC3AC4184D99272E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-65910312</AbilityId>
+        <Description>Inflige 262 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFC1249D88C49FC5B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-31368071</AbilityId>
+        <Description>Inflige 394 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFE215C796AF23060</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-38668125</AbilityId>
+        <Description>Inflige 501 points de dégâts d&apos;Air par Pacte consommé à un maximum de 5 ennemis situés devant le Guerrier. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFDB1F8A34146171D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Inversion de Faille</Name>
+      <Icon>shadow_stalk</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-16285523</AbilityId>
+        <Description>Les attaques à base de sorts lancées sur le Guerrier sont renvoyées sur l&apos;attaquant :
+
+1 point : 1 attaque, 12 secondes.
+2 points : 2 attaques, 12 secondes.
+3 points : 3 attaques, 12 secondes.</Description>
+        <AddonId>AFF0780AD6C044917</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bouclier d&apos;énergie</Name>
+      <Icon>rally1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-15360549</AbilityId>
+        <Description>Consomme jusqu&apos;à 5 Pactes et réduit les dégâts subis de 4% par Pacte consommé pendant 4 secondes. Protège jusqu&apos;à 5 membres du groupe ou du raid en absorbant 25 points de dégâts par Pacte consommé. Dure 30 secondes. Non cumulable avec Défense du bouclier ou Blason d&apos;entropie.</Description>
+        <AddonId>AFF159DDBC3BD23F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-15990606</AbilityId>
+        <Description>Consomme jusqu&apos;à 5 Pactes et réduit les dégâts subis de 4% par Pacte consommé pendant 4 secondes. Protège jusqu&apos;à 5 membres du groupe ou du raid en absorbant 29 points de dégâts par Pacte consommé. Dure 30 secondes. Non cumulable avec Défense du bouclier ou Blason d&apos;entropie.</Description>
+        <AddonId>AFF0C00B220BDA75E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-53845881</AbilityId>
+        <Description>Consomme jusqu&apos;à 5 Pactes et réduit les dégâts subis de 4% par Pacte consommé pendant 4 secondes. Protège jusqu&apos;à 5 membres du groupe ou du raid en absorbant 32 points de dégâts par Pacte consommé. Dure 30 secondes. Non cumulable avec Défense du bouclier ou Blason d&apos;entropie.</Description>
+        <AddonId>AFCCA60877DF87CB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-55456526</AbilityId>
+        <Description>Consomme jusqu&apos;à 5 Pactes et réduit les dégâts subis de 4% par Pacte consommé pendant 4 secondes. Protège jusqu&apos;à 5 membres du groupe ou du raid en absorbant 32 points de dégâts par Pacte consommé. Dure 30 secondes. Non cumulable avec Défense du bouclier ou Blason d&apos;entropie.</Description>
+        <AddonId>AFCB1CCF25D971589</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Accord de Changement</Name>
+      <Icon>shadow_warp</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-2644417</AbilityId>
+        <Description>La vitesse de déplacement augmente de 1% par Pacte actif. Les dégâts des sorts subis sont réduits de 0,5% par Pacte. Dure 1 heure.</Description>
+        <AddonId>AFFD7A63F6F4868F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fusion de la chair</Name>
+      <Icon>healthchannel3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>8485216</AbilityId>
+        <Description>Absorbe des dégâts équivalents à 15% des points de vie maximum du Guerrier par Pacte consommé pendant 20 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A008179609E385C6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Néant</Name>
+      <Icon>void_knight-void_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>224874144</AbilityId>
+        <Description>Réduit les dégâts de sorts subis de 3% et les autres dégâts subis de 1%. Lorsque la cible subit des dégâts de capacité, elle a 30% de chances d&apos;obtenir un Pacte. Dure 1 heure.</Description>
+        <AddonId>A0D674EA083DC58F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tempête</Name>
+      <Icon>void_knight-tempest</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>274863033</AbilityId>
+        <Description>Inflige 164 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A106213B9D7DB0C46</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1120597301</AbilityId>
+        <Description>Inflige 174 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A42CAF5358A0EF247</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>2024122269</AbilityId>
+        <Description>Inflige 182 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A78A5A79D88016E34</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2107409605</AbilityId>
+        <Description>Inflige 195 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A7D9C84C5604A2009</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>188960757</AbilityId>
+        <Description>Inflige 209 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A0B434FF561D638DA</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-77700330</AbilityId>
+        <Description>Inflige 249 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFB5E63167E12B8C0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-85269517</AbilityId>
+        <Description>Inflige 259 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFAEAE3F3A6F8FD3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-71016409</AbilityId>
+        <Description>Inflige 374 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFBC46027C4ACBB48</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-59757457</AbilityId>
+        <Description>Inflige 493 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFC702C6F6E32BA8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-5947889</AbilityId>
+        <Description>Inflige 547 points de dégâts d&apos;Air à un maximum de 10 ennemis proches. Génère un niveau élevé de menace. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFFA53E0F7DE424FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bouclier de Faille</Name>
+      <Icon>void_knight_rift_shield</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>541541749</AbilityId>
+        <Description>Absorbe 162 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A2047457596441A60</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>27</RequiredLevel>
+        <AbilityId>1366792653</AbilityId>
+        <Description>Absorbe 183 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A517799CD8E0540D8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>33</RequiredLevel>
+        <AbilityId>659592528</AbilityId>
+        <Description>Absorbe 204 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A275095503954E00E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>39</RequiredLevel>
+        <AbilityId>2026330071</AbilityId>
+        <Description>Absorbe 213 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A78C757D739549E67</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>45</RequiredLevel>
+        <AbilityId>1033671540</AbilityId>
+        <Description>Absorbe 240 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>A3D9C9374916493CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-10001234</AbilityId>
+        <Description>Absorbe 249 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>AFF6764AE2CF95219</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-30812911</AbilityId>
+        <Description>Absorbe 287 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>AFE29D51142255F58</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-84592124</AbilityId>
+        <Description>Absorbe 320 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>AFAF53A046B85F0E1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-10999812</AbilityId>
+        <Description>Absorbe 322 points de dégâts par Pacte consommé. Dure 30 secondes. Consomme jusqu&apos;à 5 Pactes.</Description>
+        <AddonId>AFF5827FC6554B914</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Don du Chevalier du Néant</Name>
+      <Icon>soul_voidknight</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>665448778</AbilityId>
+        <Description>Chaque point investi dans l&apos;âme du Chevalier du Néant augmente l&apos;endurance de 1,5%, l&apos;armure de 1%, les résistances de 2% et les dégâts de base de 0,5%.</Description>
+        <AddonId>A27A9F14A5DF2513A</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Étincelle</Name>
+      <Icon>spiritblast3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>867457943</AbilityId>
+        <Description>Force l&apos;ennemi à attaquer le Guerrier pendant 3 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A33B45B97DC6A0829</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Brise-sort</Name>
+      <Icon>magicward4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1001670511</AbilityId>
+        <Description>Dissipe 1 malédiction. Applique 1 Pacte au Guerrier.</Description>
+        <AddonId>A3BB4476FAB8B318F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion aérienne</Name>
+      <Icon>energyburst5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1171233828</AbilityId>
+        <Description>Force un maximum de 10 ennemis à attaquer le Guerrier pendant 3 secondes.</Description>
+        <AddonId>A45CF9C24C5AC1997</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Tempête enragée</Name>
+      <Icon>elemres4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1349214407</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 274 à 303 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A506B60C7833FCAFB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>157907515</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 294 à 325 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A09697A3BA7E62CA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>819829577</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 313 à 346 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A30DD9B490BF18D39</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>2012282267</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 373 à 413 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A77F0FD9BC3CAC945</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>544323324</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 389 à 430 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A2071B6FCAFF9F71C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1009638043</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 562 à 622 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A3C2DDA9B8B9CA929</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-93180676</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 738 à 816 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFA722CFC52F3EB0D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-72677720</AbilityId>
+        <Description>Inflige les dégâts d&apos;arme plus 820 à 907 points de dégâts physiques à un maximum de 5 ennemis. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFBAB06A8970F6386</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Décharge</Name>
+      <Icon>layonhands2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1433238237</AbilityId>
+        <Description>Inflige 147 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A556D7ADD948BA35B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1208170874</AbilityId>
+        <Description>Inflige 153 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A4803397A9C0E655D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1267728150</AbilityId>
+        <Description>Inflige 162 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A4B8FFF161C41A691</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1194932798</AbilityId>
+        <Description>Inflige 170 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A47393A3E75A78F81</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>763279276</AbilityId>
+        <Description>Inflige 184 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A2D7EB7ACC5F6644E</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>361182337</AbilityId>
+        <Description>Inflige 201 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A158734815012D172</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1981890742</AbilityId>
+        <Description>Inflige 227 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A762140B6D902C3E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1223200700</AbilityId>
+        <Description>Inflige 262 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A48E88FBCA45E4237</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>217863452</AbilityId>
+        <Description>Inflige 394 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>A0CFC551C7AC9C66B</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-56060415</AbilityId>
+        <Description>Inflige 501 points de dégâts d&apos;Air par Pacte consommé. Procure 1 point d&apos;attaque. Consomme jusqu&apos;à 3 Pactes.</Description>
+        <AddonId>AFCA8960172AD59AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Rage furieuse</Name>
+      <Icon>shatter3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1493185390</AbilityId>
+        <Description>Interrompt l&apos;ennemi.</Description>
+        <AddonId>A5900336E981E3D9F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Réaction instable</Name>
+      <Icon>energybeam2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1588733846</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air pendant 6 secondes à un maximum de 5 ennemis. Génère 1 Pacte par seconde de maintien de l&apos;effet.
+
+1 point : 1412 points de dégâts.
+2 points : 2181 points de dégâts.
+3 points : 3341 points de dégâts.</Description>
+        <AddonId>A5EB22796DA3AAD1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1871906230</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air pendant 6 secondes à un maximum de 5 ennemis. Génère 1 Pacte par seconde de maintien de l&apos;effet.
+
+1 point : 1497 points de dégâts.
+2 points : 2431 points de dégâts.
+3 points : 3844 points de dégâts.</Description>
+        <AddonId>A6F9305B6AFF447B8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1111638160</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air pendant 6 secondes à un maximum de 5 ennemis. Génère 1 Pacte par seconde de maintien de l&apos;effet.
+
+1 point : 1825 points de dégâts.
+2 points : 3396 points de dégâts.
+3 points : 5773 points de dégâts.</Description>
+        <AddonId>A424240908D168911</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>549912920</AbilityId>
+        <Description>Inflige des dégâts d&apos;Air pendant 6 secondes à un maximum de 5 ennemis. Génère 1 Pacte par seconde de maintien de l&apos;effet.
+
+1 point : 2093 points de dégâts.
+2 points : 4183 points de dégâts.
+3 points : 7345 points de dégâts.</Description>
+        <AddonId>A20C7015850785AA0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>22</CostEnergy>
+        <CostAttackPoints>1</CostAttackPoints>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion choquante</Name>
+      <Icon>ward1zz</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1620250941</AbilityId>
+        <Description>Réduit au silence un maximum de 5 ennemis pendant 8 secondes.</Description>
+        <AddonId>A6093113D9440BAD8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostEnergy>11</CostEnergy>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Invocation de Faille</Name>
+      <Icon>void_knight-rift_summon</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1949985207</AbilityId>
+        <Description>Téléporte l&apos;ennemi jusqu&apos;au Guerrier, l&apos;immobilisant pendant 1,5 secondes. Force l&apos;ennemi à attaquer le Guerrier pendant 3 secondes. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A743A69B7C8578E19</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>20.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Frappe téméraire</Name>
+      <Icon>swiftstrike1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1973816291</AbilityId>
+        <Description>Inflige 218 à 242 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A75A60BE3C8E3EAA7</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1773877629</AbilityId>
+        <Description>Inflige 225 à 249 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A69BB397DADB3FB88</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>301481192</AbilityId>
+        <Description>Inflige 234 à 258 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A11F83CE884A8C211</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1591427303</AbilityId>
+        <Description>Inflige 248 à 274 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5EDB40E7E1B7B821</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1925140085</AbilityId>
+        <Description>Inflige 258 à 285 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A72BF4E758DE8FD0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1655783230</AbilityId>
+        <Description>Inflige 272 à 301 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A62B13F3E5DCF083C</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>502931138</AbilityId>
+        <Description>Inflige 287 à 318 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A1DFA1EC276E78FCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1683608552</AbilityId>
+        <Description>Inflige 309 à 342 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A6459D3E8DFF502F0</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1738514580</AbilityId>
+        <Description>Inflige 339 à 374 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A679FA094C031889D</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1342556874</AbilityId>
+        <Description>Inflige 385 à 425 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>A5005CACA42B65A55</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-86960742</AbilityId>
+        <Description>Inflige 401 à 443 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFAD1159A7BDED4F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-11521792</AbilityId>
+        <Description>Inflige 580 à 641 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFF50310042B924F6</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-64107988</AbilityId>
+        <Description>Inflige 761 à 842 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFC2DCA2C2B89566F</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-15444940</AbilityId>
+        <Description>Inflige 846 à 935 points de dégâts physiques. Procure 1 point d&apos;attaque.</Description>
+        <AddonId>AFF1454344457FA75</AddonId>
+        <IsPassive>False</IsPassive>
+        <RequiresWeapon>Arme de corps à corps</RequiresWeapon>
+        <MaxRange>3.000000</MaxRange>
+        <CostEnergy>20</CostEnergy>
+        <GainAttackPoints>1</GainAttackPoints>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Scission de sort</Name>
+      <Icon>shatter1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1981681650</AbilityId>
+        <Description>Supprime 1 amélioration. Applique 1 Pacte au Guerrier.</Description>
+        <AddonId>A761E0FF2A95D81BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostEnergy>10</CostEnergy>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Montée de fureur</Name>
+      <Icon>carpet_bombing_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1988589265</AbilityId>
+        <Description>Les attaques finales gagnent un bonus de contribution à la puissance d&apos;attaque en fonction du nombre de points d&apos;attaque consommés.</Description>
+        <AddonId>A768776D17CF516B9</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

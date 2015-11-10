@@ -1,0 +1,2992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Cleric" name="Warden">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Force des profondeurs</Name>
+      <Icon>whirlwind1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-54907147</AbilityId>
+          <Description></Description>
+          <AddonId>AFCBA2EF527E08AB3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Aucune limite</Name>
+      <Icon>blackout_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1192193513</AbilityId>
+          <Description></Description>
+          <AddonId>A470F6DE90793D700</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts infligés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts infligés de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Rivière calme</Name>
+      <Icon>souldrain1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-91244799</AbilityId>
+          <Description></Description>
+          <AddonId>AFA8FB701297FADDE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit la menace générée par vos sorts de soins répétés de 50%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit la menace générée par vos sorts de soins répétés de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Marée</Name>
+      <Icon>secondwind2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-18737746</AbilityId>
+          <Description></Description>
+          <AddonId>AFEE215AE1F8FF538</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les sorts critiques augmentent de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les sorts critiques augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les sorts critiques augmentent de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les sorts critiques augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les sorts critiques augmentent de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Geyser</Name>
+      <Icon>arcaneshield3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-55719382</AbilityId>
+          <Description>Inflige 446 à 493 points de dégâts d&apos;Eau. Rend 143 à 158 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+          <AddonId>AFCADCA2A9671443D</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Générosité de l&apos;Océan</Name>
+      <Icon>beastmaster_survival_of_the_fittest_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-10032776</AbilityId>
+          <Description></Description>
+          <AddonId>AFF66E9784245FAA3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à effet de zone de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à effet de zone de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos soins prodigués et votre absorption conférée avec les sorts à effet de zone de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Poussée des marées</Name>
+      <Icon>warden-tidal_surge</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1460282892</AbilityId>
+          <Description>Augmente les dégâts infligés et les soins prodigués par le Clerc, ainsi que l&apos;absorption conférée pour sa prochaine capacité de 50%. Dure 30 secondes.</Description>
+          <AddonId>A570A260C07D4F966</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Sur la voie de l&apos;harmonie</Name>
+      <Icon>redirect1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-97832873</AbilityId>
+          <Description></Description>
+          <AddonId>AFA2B3057047942D3</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente vos dégâts infligés, vos soins prodigués et votre absorption conférée de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente vos dégâts infligés, vos soins prodigués et votre absorption conférée de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente vos dégâts infligés, vos soins prodigués et votre absorption conférée de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente vos dégâts infligés, vos soins prodigués et votre absorption conférée de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente vos dégâts infligés, vos soins prodigués et votre absorption conférée de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Rivages lointains</Name>
+      <Icon>warden-healing_flood_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-29367200</AbilityId>
+          <Description></Description>
+          <AddonId>AFE3FE46076E41209</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la portée de vos soins de zone de 1 mètre.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la portée de vos soins de zone de 2 mètres.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la portée de vos soins de zone de 3 mètres.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Barrière de récif</Name>
+      <Icon>generic_ability_031</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-2637599</AbilityId>
+          <Description></Description>
+          <AddonId>AFFD7C0E11AAA0BFB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos sorts d&apos;absorption et de soins à effet de zone réduisent les dégâts subis de 2% pendant 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos sorts d&apos;absorption et de soins à effet de zone réduisent les dégâts subis de 2% pendant 6 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Fluidité</Name>
+      <Icon>manadrain1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1659899013</AbilityId>
+          <Description></Description>
+          <AddonId>A62F00C856F8A5986</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 3% les dégâts que vous infligez à l&apos;aide de sorts à dégâts répétés et les soins que vous prodiguez grâce aux sorts de soins répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 6% les dégâts que vous infligez à l&apos;aide de sorts à dégâts répétés et les soins que vous prodiguez grâce aux sorts de soins répétés.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 12% les dégâts que vous infligez à l&apos;aide de sorts à dégâts répétés et les soins que vous prodiguez grâce aux sorts de soins répétés.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Orbes du courant</Name>
+      <Icon>ward1zz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>498653500</AbilityId>
+          <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 875 à 967 points de vie et retire 1 orbe.</Description>
+          <AddonId>A1DB8D93C7B201F33</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Don de Diona</Name>
+      <Icon>layinghands1</Icon>
+      <PrereqTraitKey>6</PrereqTraitKey>
+      <BendType>VerticalToHorizontal</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les bonus de votre Poussée des marées augmentent de 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les bonus de votre Poussée des marées augmentent de 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Réserves cachées</Name>
+      <Icon>spiritofsorcery1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-44134290</AbilityId>
+          <Description></Description>
+          <AddonId>AFD5E906E733A0566</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par les capacités d&apos;Eau de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par les capacités d&apos;Eau de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés et les soins prodigués par les capacités d&apos;Eau de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Vaguelette</Name>
+      <Icon>whirlingblades1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2067504057</AbilityId>
+          <Description>Transmet Embruns de soins et Courant apaisant du Clerc de la cible à un maximum de 5 membres du groupe ou du raid.</Description>
+          <AddonId>A7B3B9BB95BE69AFD</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>15.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Alluvion</Name>
+      <Icon>warden-overflow_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-8997575</AbilityId>
+          <Description></Description>
+          <AddonId>AFF76B539560C1437</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;effet de puissance des sorts de 5% sur Courant apaisant, Cataracte de soins et Profusion de soins.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de puissance des sorts de 10% sur Courant apaisant, Cataracte de soins et Profusion de soins.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Force de la mer</Name>
+      <Icon>underwaterbreath2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-77306899</AbilityId>
+          <Description></Description>
+          <AddonId>AFB6463ED7B7EEA2A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos capacités d&apos;Eau de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos capacités d&apos;Eau de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente l&apos;effet de la puissance des sorts sur vos capacités d&apos;Eau de 15%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Flots curatifs</Name>
+      <Icon>rally1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>15111452</AbilityId>
+          <Description>Supprime un effet de malédiction, de maladie ou de poison à un maximum de 10 membres du groupe ou du raid toutes les 3 secondes pendant 3 secondes.</Description>
+          <AddonId>A00E6951C7C1781EC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>3.000000</Duration>
+          <Interval>3.000000</Interval>
+          <Radius>25.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Marée montante</Name>
+      <Icon>riftblade-avatar_of_water_a</Icon>
+      <PrereqTraitKey>12</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-1947083</AbilityId>
+          <Description></Description>
+          <AddonId>AFFE24A356A64E6D5</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos sorts infligeant des dégâts réduisent de 1,5 seconde le délai de récupération actuel de Poussée des marées.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos sorts infligeant des dégâts réduisent de 3 secondes le délai de récupération actuel de Poussée des marées.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Excès partagé</Name>
+      <Icon>untangle_b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-71113418</AbilityId>
+          <Description>Transfère 25% de l&apos;excès de soins prodigué par le Clerc à un maximum de 5 autres membres du groupe ou du raid. Ne peut affecter qu&apos;un allié à la fois. Dure 1 heure.</Description>
+          <AddonId>AFBC2E5367E1F4C3C</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>35.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Sous pression</Name>
+      <Icon>drowning2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-89611681</AbilityId>
+          <Description></Description>
+          <AddonId>AFAA8A25F431F9833</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts infligés par Appel des profondeurs et Geyser de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts infligés par Appel des profondeurs et Geyser de 40%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts infligés par Appel des profondeurs et Geyser de 60%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Profusion de soins</Name>
+      <Icon>doctrine_of_authority_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-58327838</AbilityId>
+          <Description>Restaure 638 à 706 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+          <AddonId>AFC85FCE2799EAF12</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>31.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>35.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Dangers des profondeurs</Name>
+      <Icon>underwaterbreath3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-43298348</AbilityId>
+          <Description></Description>
+          <AddonId>AFD6B51D45F94B8F9</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos capacités infligeant des dégâts augmentent les soins que vous prodiguez de 1% et la durée de vos sorts de soins répétés non canalisés de 1 seconde. Dure 15 secondes. Cumulable 5 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités infligeant des dégâts augmentent les soins que vous prodiguez de 2% et la durée de vos sorts de soins répétés non canalisés de 1 seconde. Dure 15 secondes. Cumulable 5 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités infligeant des dégâts augmentent les soins que vous prodiguez de 3% et la durée de vos sorts de soins répétés non canalisés de 1 seconde. Dure 15 secondes. Cumulable 5 fois.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Coup de fouet</Name>
+      <Icon>cavalier_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Embruns de soins et Inondation de soins augmentent les soins que vous prodiguez de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Embruns de soins et Inondation de soins augmentent les soins que vous prodiguez de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Bassin de restauration</Name>
+      <Icon>doctrine_of_bliss_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-51332742</AbilityId>
+          <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 366 à 405 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+          <AddonId>AFCF0B97A65121CF7</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Radius>35.000000</Radius>
+          <MaxAffected>10</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>En eaux profondes</Name>
+      <Icon>beastmaster_shared_bonds_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-97296443</AbilityId>
+        <Description>Régénère 5% des points de mana par seconde pendant 10 secondes.</Description>
+        <AddonId>AFA335FC5A41046EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Renouveau luxuriant</Name>
+      <Icon>motif_of_encouragement</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>-89807425</AbilityId>
+        <Description>Restaure 1406 à 1554 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFAA5A5BF6187D05F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-59668993</AbilityId>
+        <Description>Restaure 1492 à 1650 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFC7185FF14AFEE3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>-57177998</AbilityId>
+        <Description>Restaure 1612 à 1782 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFC9788728599F7F9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>-3028318</AbilityId>
+        <Description>Restaure 1687 à 1864 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFFD1CAA2E15E67EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>-13158718</AbilityId>
+        <Description>Restaure 1770 à 1956 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFF3736C2B390BCFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>-26334030</AbilityId>
+        <Description>Restaure 1818 à 2010 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFE6E2CB2A419FA4A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>-67865023</AbilityId>
+        <Description>Restaure 1884 à 2083 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFBF4764181936529</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>-10851410</AbilityId>
+        <Description>Restaure 1909 à 2110 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFF5A6BAE89592A32</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-30961874</AbilityId>
+        <Description>Restaure 1981 à 2190 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFE278F2E5B20F9C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-82265697</AbilityId>
+        <Description>Restaure 2013 à 2225 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFB18B99FA112924A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-31659595</AbilityId>
+        <Description>Restaure 2118 à 2341 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFE1CE9B5D91F857E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-49458229</AbilityId>
+        <Description>Restaure 2207 à 2439 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFD0D53CB5D35BD51</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-73898281</AbilityId>
+        <Description>Restaure 2214 à 2447 points de vie. Les excès de soins sont répartis entre un maximum de 2 membres du groupe ou du raid.</Description>
+        <AddonId>AFB9866D7B6561E3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <PowerStatCoefficient effect="0" action="0">1.180000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Appel des profondeurs</Name>
+      <Icon>underwaterbreath1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-77851053</AbilityId>
+        <Description>Inflige 1399 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFB5C16536A91F3BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-44471019</AbilityId>
+        <Description>Inflige 1443 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFD596D1583DC826E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-8767680</AbilityId>
+        <Description>Inflige 1489 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFF7A37405C00C0BB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-13291984</AbilityId>
+        <Description>Inflige 1640 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFF352E304351CEE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-73035786</AbilityId>
+        <Description>Inflige 1738 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFBA58FF69104BE2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-21493518</AbilityId>
+        <Description>Inflige 2172 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFEB808F22EFAC641</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-52847579</AbilityId>
+        <Description>Inflige 2609 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFCD99C251AA3FC97</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-13345183</AbilityId>
+        <Description>Inflige 2806 points de dégâts d&apos;Eau en 15 secondes. Les dégâts infligés augmentent progressivement.</Description>
+        <AddonId>AFF345E61142E6509</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>31</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Excès partagé</Name>
+      <Icon>untangle_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>31</RequiredLevel>
+        <AbilityId>-71113418</AbilityId>
+        <Description>Transfère 25% de l&apos;excès de soins prodigué par le Clerc à un maximum de 5 autres membres du groupe ou du raid. Ne peut affecter qu&apos;un allié à la fois. Dure 1 heure.</Description>
+        <AddonId>AFBC2E5367E1F4C3C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vague de renouveau</Name>
+      <Icon>inspiration3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-64150878</AbilityId>
+        <Description>Restaure 2924 à 3231 points de vie à tous les membres du groupe ou du raid dans un cercle qui s&apos;étend. Après 3 secondes, le cercle rétrécit, en restaurant à nouveau le même nombre de points de vie.</Description>
+        <AddonId>AFC2D22A2657DB24B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-70728067</AbilityId>
+        <Description>Restaure 3022 à 3341 points de vie à tous les membres du groupe ou du raid dans un cercle qui s&apos;étend. Après 3 secondes, le cercle rétrécit, en restaurant à nouveau le même nombre de points de vie.</Description>
+        <AddonId>AFBC8C67D4A233A12</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-35154246</AbilityId>
+        <Description>Restaure 3033 à 3352 points de vie à tous les membres du groupe ou du raid dans un cercle qui s&apos;étend. Après 3 secondes, le cercle rétrécit, en restaurant à nouveau le même nombre de points de vie.</Description>
+        <AddonId>AFDE796BA8A8B4584</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Profusion de soins</Name>
+      <Icon>doctrine_of_authority_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-58327838</AbilityId>
+        <Description>Restaure 638 à 706 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC85FCE2799EAF12</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-72662741</AbilityId>
+        <Description>Restaure 652 à 721 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFBAB412BA064C882</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-62205807</AbilityId>
+        <Description>Restaure 676 à 748 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC4AD091A7DA31BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-46821808</AbilityId>
+        <Description>Restaure 689 à 761 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFD358E509B7874EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-17899655</AbilityId>
+        <Description>Restaure 730 à 807 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFEEEDF796C3148B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-3582233</AbilityId>
+        <Description>Restaure 744 à 822 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFFC956E7AEF93969</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>31.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>6</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Geyser</Name>
+      <Icon>arcaneshield3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>-55719382</AbilityId>
+        <Description>Inflige 446 à 493 points de dégâts d&apos;Eau. Rend 143 à 158 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFCADCA2A9671443D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>-14192882</AbilityId>
+        <Description>Inflige 466 à 515 points de dégâts d&apos;Eau. Rend 157 à 173 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFF276F0EB4E12A9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>-70854049</AbilityId>
+        <Description>Inflige 476 à 527 points de dégâts d&apos;Eau. Rend 165 à 183 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFBC6DA5F78F93754</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-39715530</AbilityId>
+        <Description>Inflige 490 à 541 points de dégâts d&apos;Eau. Rend 172 à 191 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFDA1FD367FD71F0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-7932168</AbilityId>
+        <Description>Inflige 502 à 554 points de dégâts d&apos;Eau. Rend 179 à 198 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFF86F6F8432A1C4C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-27469417</AbilityId>
+        <Description>Inflige 520 à 575 points de dégâts d&apos;Eau. Rend 183 à 202 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFE5CD99755B52494</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-57788886</AbilityId>
+        <Description>Inflige 544 à 601 points de dégâts d&apos;Eau. Rend 186 à 206 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFC8E362A83DD20AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-62492763</AbilityId>
+        <Description>Inflige 585 à 646 points de dégâts d&apos;Eau. Rend 193 à 214 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFC466FA5BE2885BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-39796041</AbilityId>
+        <Description>Inflige 657 à 726 points de dégâts d&apos;Eau. Rend 197 à 217 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFDA0C2B727B18079</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-90074050</AbilityId>
+        <Description>Inflige 848 à 937 points de dégâts d&apos;Eau. Rend 209 à 231 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFAA1943E955428CE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-12884733</AbilityId>
+        <Description>Inflige 1002 à 1107 points de dégâts d&apos;Eau. Rend 212 à 235 points de vie à un maximum de 10 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFF3B6503C23BF065</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.750000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>41</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Bassin de restauration</Name>
+      <Icon>doctrine_of_bliss_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>-51332742</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 366 à 405 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFCF0B97A65121CF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-17674877</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 383 à 424 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFEF24D83DD643BDB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-20639400</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 389 à 430 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFEC5115841954957</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-71452837</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 409 à 453 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFBBDB75B7E2BDC9C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-77165735</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 420 à 464 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFB668B59AD0C1AB1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31139292</AbilityId>
+        <Description>Applique Bassin de restauration à un maximum de 10 membres du groupe ou du raid. Pour chaque allié affecté, restaure 422 à 466 points de vie à un maximum de 3 membres du groupe ou du raid à proximité.</Description>
+        <AddonId>AFE24DA243DBCD55C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Gloire de l&apos;Océan</Name>
+      <Icon>generic_ability_029</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-21347810</AbilityId>
+        <Description></Description>
+        <AddonId>AFEBA421E715201C3</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sursaturation</Name>
+      <Icon>paragon_way_of_the_river_01_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-5140867</AbilityId>
+        <Description>Inflige 141 à 156 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>AFFB18E7D86D4135F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-39840804</AbilityId>
+        <Description>Inflige 155 à 171 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>AFDA013DC3B8CBD92</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-93451484</AbilityId>
+        <Description>Inflige 165 à 182 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>AFA6E0B247E7AD87D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>242435744</AbilityId>
+        <Description>Inflige 206 à 228 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>A0E7346A057A84E3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>2035042240</AbilityId>
+        <Description>Inflige 248 à 274 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>A794C47C07E135EF7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1889898633</AbilityId>
+        <Description>Inflige 266 à 294 points de dégâts d&apos;Eau à l&apos;ennemi chaque fois qu&apos;un membre du groupe ou du raid proche est soigné par le Clerc. N&apos;affecte qu&apos;un ennemi à la fois. Dure 15 secondes.</Description>
+        <AddonId>A70A59089B994555D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>26</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Flots curatifs</Name>
+      <Icon>rally1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>15111452</AbilityId>
+        <Description>Supprime un effet de malédiction, de maladie ou de poison à un maximum de 10 membres du groupe ou du raid toutes les 3 secondes pendant 3 secondes.</Description>
+        <AddonId>A00E6951C7C1781EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3.000000</Duration>
+        <Interval>3.000000</Interval>
+        <Radius>25.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mousson</Name>
+      <Icon>harbinger_storm_nova_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>159617037</AbilityId>
+        <Description>Applique Inondation de soins, Embruns de soins et 4 accumulations de Courant apaisant à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A0983900D47E93A3A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Embruns de soins</Name>
+      <Icon>layonhands2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>242045841</AbilityId>
+        <Description>Restaure 1855 points de vie en 15 secondes.</Description>
+        <AddonId>A0E6D53915A99DA0A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1636210459</AbilityId>
+        <Description>Restaure 1934 points de vie en 15 secondes.</Description>
+        <AddonId>A6186971B572C76A6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>525291283</AbilityId>
+        <Description>Restaure 2072 points de vie en 15 secondes.</Description>
+        <AddonId>A1F4F4F136BAC25FF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>753536358</AbilityId>
+        <Description>Restaure 2202 points de vie en 15 secondes.</Description>
+        <AddonId>A2CEA0D669FA0BBC6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>368617470</AbilityId>
+        <Description>Restaure 2321 points de vie en 15 secondes.</Description>
+        <AddonId>A15F8A7FE45BAB2BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>2036765383</AbilityId>
+        <Description>Restaure 2403 points de vie en 15 secondes.</Description>
+        <AddonId>A796692C7C1BB3011</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1230280905</AbilityId>
+        <Description>Restaure 2499 points de vie en 15 secondes.</Description>
+        <AddonId>A495498C999856B42</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>769958112</AbilityId>
+        <Description>Restaure 2543 points de vie en 15 secondes.</Description>
+        <AddonId>A2DE4A0E0A0A07A81</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>423841022</AbilityId>
+        <Description>Restaure 2598 points de vie en 15 secondes.</Description>
+        <AddonId>A19434CFE24DD39AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>982806151</AbilityId>
+        <Description>Restaure 2695 points de vie en 15 secondes.</Description>
+        <AddonId>A3A946E87C70B4255</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-59463404</AbilityId>
+        <Description>Restaure 2728 points de vie pendant 15 secondes.</Description>
+        <AddonId>AFC74A914CE361941</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-33192307</AbilityId>
+        <Description>Restaure 2877 points de vie pendant 15 secondes.</Description>
+        <AddonId>AFE05868DDB6DC5AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-5082877</AbilityId>
+        <Description>Restaure 2954 points de vie pendant 15 secondes.</Description>
+        <AddonId>AFFB27103A64640C1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-95983138</AbilityId>
+        <Description>Restaure 2963 points de vie en 15 secondes.</Description>
+        <AddonId>AFA4769DE5234BB1D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pluie torrentielle</Name>
+      <Icon>warden-downpour</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>367527577</AbilityId>
+        <Description>Restaure 2585 points de vie pendant 6 secondes à un maximum de 10 membres du groupe ou du raid dans la zone visée.</Description>
+        <AddonId>A15E806993D952C55</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>15.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17001863</AbilityId>
+        <Description>Restaure 2759 points de vie pendant 6 secondes à un maximum de 10 membres du groupe ou du raid dans la zone visée.</Description>
+        <AddonId>AFEFC92792835F2CD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>15.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-78719907</AbilityId>
+        <Description>Restaure 2907 points de vie pendant 6 secondes à un maximum de 10 membres du groupe ou du raid dans la zone visée.</Description>
+        <AddonId>AFB4ED45D5F21FD8B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>15.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-56992081</AbilityId>
+        <Description>Restaure 2916 points de vie pendant 6 secondes à un maximum de 10 membres du groupe ou du raid dans la zone visée.</Description>
+        <AddonId>AFC9A5EAF8E397026</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>15.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Reflet lisse</Name>
+      <Icon>mirrorandsmoke2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>424994565</AbilityId>
+        <Description>Renvoie le prochain sort infligeant des dégâts dirigé vers le Clerc à son lanceur. Dure 5 secondes.</Description>
+        <AddonId>A1954E7057FF260EA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bénédiction du Capitaine</Name>
+      <Icon>exorcize1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>455568532</AbilityId>
+        <Description>Les sorts de soins à effet de zone restaurent 85 à 94 points de vie. Augmente les dégâts infligés de 10%. Dure 1 heure.</Description>
+        <AddonId>A1B276C94C9AAF52F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Orbes du courant</Name>
+      <Icon>ward1zz</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>498653500</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 875 à 967 points de vie et retire 1 orbe.</Description>
+        <AddonId>A1DB8D93C7B201F33</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>96432528</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 903 à 998 points de vie et retire 1 orbe.</Description>
+        <AddonId>A05BF71904D551FD2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1675851201</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 945 à 1044 points de vie et retire 1 orbe.</Description>
+        <AddonId>A63E375C15994824B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1307540427</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 962 à 1063 points de vie et retire 1 orbe.</Description>
+        <AddonId>A4DEF7BCBD573120A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>417202028</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 974 à 1077 points de vie et retire 1 orbe.</Description>
+        <AddonId>A18DDFF6CE650D76F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1374279413</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 1023 à 1130 points de vie et retire 1 orbe.</Description>
+        <AddonId>A51E9D6F559333980</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-18111599</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 1036 à 1146 points de vie et retire 1 orbe.</Description>
+        <AddonId>AFEEBA3917A73F60E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-3837090</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 1094 à 1209 points de vie et retire 1 orbe.</Description>
+        <AddonId>AFFC5735EB0160144</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-81393722</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 1121 à 1240 points de vie et retire 1 orbe.</Description>
+        <AddonId>AFB2607C67B3752A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-15423254</AbilityId>
+        <Description>Applique 3 Orbes du courant pendant 30 secondes. En cas de coup reçu, rend 1125 à 1243 points de vie et retire 1 orbe.</Description>
+        <AddonId>AFF14A8EA8C54DE54</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Vagues écrasantes</Name>
+      <Icon>warden-crushing_wave</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>590588289</AbilityId>
+        <Description>Repousse jusqu&apos;à 10 ennemis à proximité.</Description>
+        <AddonId>A2333A9817B8BD10C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cataracte de soins</Name>
+      <Icon>warden-healing_cataract</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>615741220</AbilityId>
+        <Description>Restaure 418 à 462 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A24B3772482AB4E64</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>688338442</AbilityId>
+        <Description>Restaure 441 à 487 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A2907360A8F8053F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-97053164</AbilityId>
+        <Description>Restaure 456 à 505 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFA37161481B082FB</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>-58091697</AbilityId>
+        <Description>Restaure 474 à 524 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC89974F765BC155</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>-55845536</AbilityId>
+        <Description>Restaure 482 à 533 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFCABDD6080499734</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-62331784</AbilityId>
+        <Description>Restaure 493 à 545 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC48E4787A220323</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-30654186</AbilityId>
+        <Description>Restaure 512 à 566 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFE2C41161A5231AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-66947153</AbilityId>
+        <Description>Restaure 521 à 575 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC0277AFBC67FFFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-27512158</AbilityId>
+        <Description>Restaure 552 à 610 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFE5C32A282AB4E64</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-99358616</AbilityId>
+        <Description>Restaure 562 à 621 points de vie à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFA13E86882AB4E64</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>12.000000</CostManaPercent>
+        <CastTime>2.000000</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fleuve de Vie</Name>
+      <Icon>ressurect4bl</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>692256564</AbilityId>
+        <Description>Ressuscite l&apos;allié et lui rend 50% de ses points de vie et de mana. Utilisable en combat.</Description>
+        <AddonId>A2942FF34A490A22D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>300.000000</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Inondation de soins</Name>
+      <Icon>warden-healing_flood</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>740001041</AbilityId>
+        <Description>Restaure 622 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A2C1B8511BCED4276</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>486698199</AbilityId>
+        <Description>Restaure 676 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A1D026CD7B81CFAEA</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>371644671</AbilityId>
+        <Description>Restaure 709 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A1626D8FF80B04651</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1769542592</AbilityId>
+        <Description>Restaure 729 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A697913C08F04D11A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1341663413</AbilityId>
+        <Description>Restaure 757 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A4FF828B5AB393FD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1413953731</AbilityId>
+        <Description>Restaure 766 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A544738C3B9D65082</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>919940514</AbilityId>
+        <Description>Restaure 795 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>A36D52DA299710E9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-1134663</AbilityId>
+        <Description>Restaure 808 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFFEEAFB97290CDD4</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-3121267</AbilityId>
+        <Description>Restaure 850 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFFD05F8D72A383C3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-61958753</AbilityId>
+        <Description>Restaure 886 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFC4E959FC4FCF791</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-75727272</AbilityId>
+        <Description>Restaure 888 points de vie en 15 secondes à un maximum de 10 membres du groupe ou du raid.</Description>
+        <AddonId>AFB7C7E58A8CED40D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>20.000000</Radius>
+        <MaxAffected>10</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cascade</Name>
+      <Icon>healthchannel3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1047212725</AbilityId>
+        <Description>Restaure les points de mana à raison de 15% du mana maximum du Clerc en 3 secondes.</Description>
+        <AddonId>A3E6B32B54419885D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CastTime>Instant</CastTime>
+        <Duration>3.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flots purificateurs</Name>
+      <Icon>rally1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1162847454</AbilityId>
+        <Description>Dissipe un effet de malédiction, de maladie ou de poison.</Description>
+        <AddonId>A454FA4DE8F07DDFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Courant apaisant</Name>
+      <Icon>souldrain1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1196724232</AbilityId>
+        <Description>Restaure 691 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A475490086AD6BC6C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1601013748</AbilityId>
+        <Description>Restaure 713 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A5F6D87F49274882E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>514980926</AbilityId>
+        <Description>Restaure 746 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A1EB1FC3E5001A02D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2104398718</AbilityId>
+        <Description>Restaure 760 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A7D6E937E45DC9DD6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1882984896</AbilityId>
+        <Description>Restaure 769 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A703C11C0651CC183</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1579937893</AbilityId>
+        <Description>Restaure 808 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>A5E2BF065A6FF8B7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-94413369</AbilityId>
+        <Description>Restaure 819 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>AFA5F5DC7AF034048</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-94036728</AbilityId>
+        <Description>Restaure 862 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>AFA651D0870A826B2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-78767797</AbilityId>
+        <Description>Restaure 886 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>AFB4E194BA5442D48</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-50037378</AbilityId>
+        <Description>Restaure 888 points de vie en 15 secondes. Les soins diminuent sur la durée. Cumulable 4 fois.</Description>
+        <AddonId>AFD047D7EB1A60CDB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <AggroMultiplier effect="0" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Jet d&apos;eau</Name>
+      <Icon>warden-waterjet</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1296537430</AbilityId>
+        <Description>Inflige 491 à 543 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A4D47975652C0278F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1154457791</AbilityId>
+        <Description>Inflige 501 à 553 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A44CFA0BF6C74137F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>944390094</AbilityId>
+        <Description>Inflige 513 à 567 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A384A3FCE6D60ADF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1978046806</AbilityId>
+        <Description>Inflige 528 à 584 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A75E699568EDB45EC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>826142276</AbilityId>
+        <Description>Inflige 540 à 597 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A313DEE443E3F26D1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>398795231</AbilityId>
+        <Description>Inflige 555 à 614 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A17C521DF613DB3CC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>612349045</AbilityId>
+        <Description>Inflige 569 à 629 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A247FB4758463F8BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>322084720</AbilityId>
+        <Description>Inflige 589 à 651 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A13329F70BBE9D874</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1827170480</AbilityId>
+        <Description>Inflige 618 à 683 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A6CE868B073AC7DB5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>273324667</AbilityId>
+        <Description>Inflige 662 à 732 points de dégâts d&apos;Eau.</Description>
+        <AddonId>A104A9A7B1F3E70E6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-12408720</AbilityId>
+        <Description>Inflige 703 à 777 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFF42A8709FDA9A04</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-74859734</AbilityId>
+        <Description>Inflige 878 à 970 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFB89BB2A7B4DDA45</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-51496135</AbilityId>
+        <Description>Inflige 1056 à 1167 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFCEE3B39A1C3286B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-19933827</AbilityId>
+        <Description>Inflige 1135 à 1255 points de dégâts d&apos;Eau.</Description>
+        <AddonId>AFECFD57DE99ADD7B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>11</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Poussée des marées</Name>
+      <Icon>warden-tidal_surge</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>11</RequiredLevel>
+        <AbilityId>1460282892</AbilityId>
+        <Description>Augmente les dégâts infligés et les soins prodigués par le Clerc, ainsi que l&apos;absorption conférée pour sa prochaine capacité de 50%. Dure 30 secondes.</Description>
+        <AddonId>A570A260C07D4F966</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Déshydratation</Name>
+      <Icon>souldrain3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1967141557</AbilityId>
+        <Description>Inflige 1240 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A754032B58031DF87</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>748403730</AbilityId>
+        <Description>Inflige 1270 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A2C9BBC123BEB2835</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>113411711</AbilityId>
+        <Description>Inflige 1308 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A06C2867F99541ED9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>809275039</AbilityId>
+        <Description>Inflige 1324 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A303C8E9F698B63C9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1459879913</AbilityId>
+        <Description>Inflige 1365 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A5703FFE91FAFD14B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>132136206</AbilityId>
+        <Description>Inflige 1399 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A07E03D0EAEB3C45C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1751215401</AbilityId>
+        <Description>Inflige 1443 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A68616D297DC34F87</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>511552298</AbilityId>
+        <Description>Inflige 1489 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>A1E7DAB2AA2820E1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-22619824</AbilityId>
+        <Description>Inflige 1640 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>AFEA6D95090A857BD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-75826447</AbilityId>
+        <Description>Inflige 1738 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>AFB7AFAF153EC1CA4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-84432157</AbilityId>
+        <Description>Inflige 2172 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>AFAF7AAE3785BEA4D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-10000639</AbilityId>
+        <Description>Inflige 2609 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>AFF676701D21E91C6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-10696466</AbilityId>
+        <Description>Inflige 2806 points de dégâts d&apos;Eau en 15 secondes.</Description>
+        <AddonId>AFF5CC8EEBA8961F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>1.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.100000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Orbes du flux</Name>
+      <Icon>warden-orbs_of_the_tide</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1975969839</AbilityId>
+        <Description>Applique 3 Orbes du flux pendant 30 secondes. En cas de coup reçu, rend 301 à 333 points de vie à un maximum de 10 membres du groupe ou du raid et retire 1 orbe.</Description>
+        <AddonId>A75C6E82F1C323514</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1970442281</AbilityId>
+        <Description>Applique 3 Orbes du flux pendant 30 secondes. En cas de coup reçu, rend 306 à 339 points de vie à un maximum de 10 membres du groupe ou du raid et retire 1 orbe.</Description>
+        <AddonId>A7572902965E87FCB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>1862475833</AbilityId>
+        <Description>Applique 3 Orbes du flux pendant 30 secondes. En cas de coup reçu, rend 322 à 356 points de vie à un maximum de 10 membres du groupe ou du raid et retire 1 orbe.</Description>
+        <AddonId>A6F0320395F51E155</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-82136826</AbilityId>
+        <Description>Applique 3 Orbes du flux pendant 30 secondes. En cas de coup reçu, rend 336 à 371 points de vie à un maximum de 10 membres du groupe ou du raid et retire 1 orbe.</Description>
+        <AddonId>AFB1AB10696760AB0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-14562293</AbilityId>
+        <Description>Applique 3 Orbes du flux pendant 30 secondes. En cas de coup reçu, rend 337 à 373 points de vie à un maximum de 10 membres du groupe ou du raid et retire 1 orbe.</Description>
+        <AddonId>AFF21CC0B700CF055</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>21</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vaguelette</Name>
+      <Icon>whirlingblades1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>21</RequiredLevel>
+        <AbilityId>2067504057</AbilityId>
+        <Description>Transmet Embruns de soins et Courant apaisant du Clerc de la cible à un maximum de 5 membres du groupe ou du raid.</Description>
+        <AddonId>A7B3B9BB95BE69AFD</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>15.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

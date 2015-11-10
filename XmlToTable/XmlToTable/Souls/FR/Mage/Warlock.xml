@@ -1,0 +1,2944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Warlock">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Trait du vide amélioré</Name>
+      <Icon>darkbolt3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>912714411</AbilityId>
+          <Description></Description>
+          <AddonId>A3666EAAB389F8F1E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de Trait du vide de 8% et son coût en mana de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le temps d&apos;incantation de Trait du vide de 16% et son coût en mana de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le temps d&apos;incantation de Trait du vide de 24% et son coût en mana de 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Affinité magique</Name>
+      <Icon>elemental_attunement1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>822811281</AbilityId>
+          <Description></Description>
+          <AddonId>A310B1A911A1E6E2A</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>La charge générée par vos capacités augmente de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La charge générée par vos capacités augmente de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>La charge générée par vos capacités augmente de 15%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>La charge générée par vos capacités augmente de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>La charge générée par vos capacités augmente de 25%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Contamination majeure</Name>
+      <Icon>dirtytricks3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le bonus aux dégâts de Contamination de 5%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le bonus aux dégâts de Contamination de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Phobie</Name>
+      <Icon>finalstrike3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente la quantité de dégâts que vos ennemis victimes de Peur peuvent subir avant que l&apos;effet ne cesse de 2% de leurs points de vie maximum.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente la quantité de dégâts que vos ennemis victimes de Peur peuvent subir avant que l&apos;effet ne cesse de 4% de leurs points de vie maximum.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente la quantité de dégâts que vos ennemis victimes de Peur peuvent subir avant que l&apos;effet ne cesse de 6% de leurs points de vie maximum.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Opportunité</Name>
+      <Icon>redirect1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>337202986</AbilityId>
+          <Description></Description>
+          <AddonId>A14194F2A1816F629</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Quand vous lancez un sort, vous avez 2% de chances de réduire le temps d&apos;incantation de votre prochain sort de 100% et son coût en mana de 40%. Cet effet ne peut se déclencher qu&apos;une fois toutes les 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Quand vous lancez un sort, vous avez 4% de chances de réduire le temps d&apos;incantation de votre prochain sort de 100% et son coût en mana de 40%. Cet effet ne peut se déclencher qu&apos;une fois toutes les 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Quand vous lancez un sort, vous avez 6% de chances de réduire le temps d&apos;incantation de votre prochain sort de 100% et son coût en mana de 40%. Cet effet ne peut se déclencher qu&apos;une fois toutes les 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Quand vous lancez un sort, vous avez 8% de chances de réduire le temps d&apos;incantation de votre prochain sort de 100% et son coût en mana de 40%. Cet effet ne peut se déclencher qu&apos;une fois toutes les 3 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Quand vous lancez un sort, vous avez 10% de chances de réduire le temps d&apos;incantation de votre prochain sort de 100% et son coût en mana de 40%. Cet effet ne peut se déclencher qu&apos;une fois toutes les 3 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Corruption suintante</Name>
+      <Icon>void_knight-void_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-13443699</AbilityId>
+          <Description></Description>
+          <AddonId>AFF32DD8D43CA5BEB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques non physiques ignorent 3% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos attaques non physiques ignorent 6% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos attaques non physiques ignorent 10% des résistances de la cible.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Vitalité</Name>
+      <Icon>holystrength3a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1200381260</AbilityId>
+          <Description></Description>
+          <AddonId>A478C5D4C3420387B</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre santé maximum augmente de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre santé maximum augmente de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre santé maximum augmente de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Votre santé maximum augmente de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Votre santé maximum augmente de 10%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>8</Key>
+      <Name>Poigne de Neddra</Name>
+      <Icon>drainlife3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1426525974</AbilityId>
+          <Description>Inflige 410 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+          <AddonId>A55070F16971D9268</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>10.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+          <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Poigne de Neddra</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Absorption impie améliorée</Name>
+      <Icon>piercingenergy3</Icon>
+      <PrereqTraitKey>10</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts d&apos;Absorption impie de 5% pour chaque effet de dégâts répétés de Mort sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts d&apos;Absorption impie de 10% pour chaque effet de dégâts répétés de Mort sur l&apos;ennemi.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Absorption impie</Name>
+      <Icon>darkbolt5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>408072910</AbilityId>
+          <Description>Inflige 1072 à 1185 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+          <AddonId>A1852B2CE6520A991</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Absorption impie</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Torture de Neddra</Name>
+      <Icon>fatique</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1787331256</AbilityId>
+          <Description>Inflige 944 à 1043 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1227 à 1356 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+          <AddonId>A6A8882B822B7FE40</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>8.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Corruption rapide</Name>
+      <Icon>ruthless_stalker</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-39174447</AbilityId>
+          <Description></Description>
+          <AddonId>AFDAA3ED1411186F5</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération général de vos capacités infligeant des dégâts répétés de 1,25 seconde et réduit leur coût en mana de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération général de vos capacités infligeant des dégâts répétés de 1 seconde et réduit leur coût en mana de 33%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Puissance noire</Name>
+      <Icon>ebon_fury_01</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>622265515</AbilityId>
+          <Description></Description>
+          <AddonId>A251704AB328AA5AE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos capacités de dégâts répétés infligent 3% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos capacités de dégâts répétés infligent 6% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos capacités de dégâts répétés infligent 9% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Vos capacités de dégâts répétés infligent 12% de dégâts supplémentaires.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Vos capacités de dégâts répétés infligent 15% de dégâts supplémentaires.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Irradiation de Mort</Name>
+      <Icon>summonskel5</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>415991213</AbilityId>
+          <Description>Diffuse Contact obscur et Poigne de Neddra à un maximum de 6 ennemis supplémentaires.</Description>
+          <AddonId>A18CB85AD76646086</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Radius>10.000000</Radius>
+          <MaxAffected>6</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Irradiation de Mort</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Armure de Mage améliorée</Name>
+      <Icon>voidknight_ravenous_defence_01_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1122876121</AbilityId>
+          <Description></Description>
+          <AddonId>A42EDBAD934830E85</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les améliorations de votre Armure de Mage vous permettent d&apos;infliger 2% de dégâts supplémentaires en plus de leurs effets habituels.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les améliorations de votre Armure de Mage vous permettent d&apos;infliger 4% de dégâts supplémentaires en plus de leurs effets habituels.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les améliorations de votre Armure de Mage vous permettent d&apos;infliger 6% de dégâts supplémentaires en plus de leurs effets habituels.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Les améliorations de votre Armure de Mage vous permettent d&apos;infliger 8% de dégâts supplémentaires en plus de leurs effets habituels.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Les améliorations de votre Armure de Mage vous permettent d&apos;infliger 10% de dégâts supplémentaires en plus de leurs effets habituels.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Essence de Neddra</Name>
+      <Icon>summonskeleton1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1978709104</AbilityId>
+          <Description>Réduit les dégâts subis de 80% pendant 7 secondes.</Description>
+          <AddonId>A75F0B47069DE0947</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>7.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Essence de Neddra</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Absorption vitale améliorée</Name>
+      <Icon>drainlife1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de base d&apos;Absorption vitale de 20%, le bonus accordé par votre puissance des sorts de 20%, la quantité de soins prodigués à raison de 12% des dégâts infligés et la durée de 2 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de base d&apos;Absorption vitale de 40%, le bonus accordé par votre puissance des sorts de 40%, la quantité de soins prodigués à raison de 14% des dégâts infligés et la durée de 4 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de base d&apos;Absorption vitale de 60%, le bonus accordé par votre puissance des sorts de 60%, la quantité de soins prodigués à raison de 16% des dégâts infligés et la durée de 6 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Douleur persistante</Name>
+      <Icon>flash2</Icon>
+      <PrereqTraitKey>17</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>639630724</AbilityId>
+          <Description></Description>
+          <AddonId>A261FFD840704305E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Confère 50% de chances à vos Traits principaux de réinitialiser la durée de l&apos;Absorption vitale sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Confère 100% de chances à vos Traits principaux de réinitialiser la durée de l&apos;Absorption vitale sur l&apos;ennemi.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Contagion sévère</Name>
+      <Icon>cabalist_sigil_of_ravaging</Icon>
+      <PrereqTraitKey>14</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre Irradiation de Mort a 33% de chances de répandre Absorption vitale, Atrophie, Nécrose, Combustion, Électrifié et Appel de mort.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Votre Irradiation de Mort a 66% de chances de répandre Absorption vitale, Atrophie, Nécrose, Combustion, Électrifié et Appel de mort.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Votre Irradiation de Mort a 100% de chances de répandre Absorption vitale, Atrophie, Nécrose, Combustion, Électrifié et Appel de mort.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Décimation du Néant</Name>
+      <Icon>shadow_blitz</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les dégâts de votre Trait du vide et de votre Barrage du Néant de 2% pour chaque effet de dégâts de Mort répétés sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les dégâts de votre Trait du vide et de votre Barrage du Néant de 4% pour chaque effet de dégâts de Mort répétés sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les dégâts de votre Trait du vide et de votre Barrage du Néant de 6% pour chaque effet de dégâts de Mort répétés sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Augmente les dégâts de votre Trait du vide et de votre Barrage du Néant de 8% pour chaque effet de dégâts de Mort répétés sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Augmente les dégâts de votre Trait du vide et de votre Barrage du Néant de 10% pour chaque effet de dégâts de Mort répétés sur l&apos;ennemi.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Persister</Name>
+      <Icon>dirtytricks1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-41702020</AbilityId>
+          <Description>Réinitialise tous les effets de dégâts répétés de Mort actifs du Mage sur l&apos;ennemi.</Description>
+          <AddonId>AFD83AD7C7ED5E2D5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Confluence</Name>
+      <Icon>curse_of_solitude</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-3398260</AbilityId>
+          <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 503 à 556 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+          <AddonId>AFFCC258C169142B5</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>45.000004</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>7.500000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Étranglement</Name>
+      <Icon>secondwind1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1472223050</AbilityId>
+          <Description>Interrompt l&apos;ennemi et le réduit au silence pendant 5 secondes.</Description>
+          <AddonId>A57C0574AA3EB505B</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>40.000000</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Opportunité</Name>
+      <Icon>redirect1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-95170530</AbilityId>
+        <Description>Le délai de lancement du prochain sort est réduit de 100%.</Description>
+        <AddonId>AFA53D01E75C43B86</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Barrage du Néant</Name>
+      <Icon>darkball4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-89843867</AbilityId>
+        <Description>Inflige 9297 points de dégâts de Mort en 3 secondes. Les dégâts initiaux réinitialisent tous les effets de dégâts répétés de Mort du Mage actifs sur l&apos;ennemi.</Description>
+        <AddonId>AFAA517652A3473AC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Atrophie</Name>
+      <Icon>generic_ability_027</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-73435607</AbilityId>
+        <Description>Inflige 2132 points de dégâts de Mort en 16 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFB9F7629479DF854</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-23553867</AbilityId>
+        <Description>Inflige 2395 points de dégâts de Mort en 16 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFE9898B5B6BC1944</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-20795357</AbilityId>
+        <Description>Inflige 3089 points de dégâts de Mort en 16 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFEC2B02350E1EDA5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-57961007</AbilityId>
+        <Description>Inflige 3648 points de dégâts de Mort en 16 secondes. Les dégâts augmentent à chaque seconde.</Description>
+        <AddonId>AFC8B95D162EDCA10</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>6.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.600000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.070000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Voile mortel</Name>
+      <Icon>shadow_blitz_b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-71430080</AbilityId>
+        <Description>Tous les effets infligeant des dégâts de Mort répétés supprimés par la capacité Corruption entretenue du Mage sont appliqués à l&apos;ennemi.</Description>
+        <AddonId>AFBBE10403F5BF0B7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>3.750000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Corruption entretenue</Name>
+      <Icon>dominator_draining_presence_01</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-59502705</AbilityId>
+        <Description>Dissipe tous les effets de dégâts répétés de Mort du Mage sur l&apos;ennemi, les stockant sur le Mage pendant 15 secondes maximum. Les effets stockés peuvent être appliqués de nouveau sur un ennemi à l&apos;aide de la capacité Voile mortel.</Description>
+        <AddonId>AFC740F8F749E6948</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>5.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Contamination</Name>
+      <Icon>dirtytricks3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>-48761057</AbilityId>
+        <Description>Augmente les dégâts des effets de dégâts répétés du Mage de 20%. L&apos;incantation de chaque capacité infligeant des dégâts répétés consomme 10 points de Charge. Les capacités infligeant des dégâts répétés ne peuvent pas générer de points de Charge lorsqu&apos;elles sont actives. N&apos;active pas de délai de récupération général.</Description>
+        <AddonId>AFD17F71F98085600</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Persister</Name>
+      <Icon>dirtytricks1a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-41702020</AbilityId>
+        <Description>Réinitialise tous les effets de dégâts répétés de Mort actifs du Mage sur l&apos;ennemi.</Description>
+        <AddonId>AFD83AD7C7ED5E2D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Agonie dévorante</Name>
+      <Icon>defiler_loathsome_restoration_g</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-27666901</AbilityId>
+        <Description>Inflige 1285 à 1420 points de dégâts de Mort. Les dégâts sont accrus de 20% par effet de dégâts répétés de Mort du lanceur sur l&apos;ennemi.</Description>
+        <AddonId>AFE59D62B52FF71EB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>1068766158</AbilityId>
+        <Description>Inflige 1442 à 1594 points de dégâts de Mort. Les dégâts sont accrus de 20% par effet de dégâts répétés de Mort du lanceur sur l&apos;ennemi.</Description>
+        <AddonId>A3FB413CE85B7606F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>1782581952</AbilityId>
+        <Description>Inflige 1858 à 2054 points de dégâts de Mort. Les dégâts sont accrus de 20% par effet de dégâts répétés de Mort du lanceur sur l&apos;ennemi.</Description>
+        <AddonId>A6A400AC040752649</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>355136950</AbilityId>
+        <Description>Inflige 2193 à 2423 points de dégâts de Mort. Les dégâts sont accrus de 20% par effet de dégâts répétés de Mort du lanceur sur l&apos;ennemi.</Description>
+        <AddonId>A152AF5B68F276F6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>29</GainHeat>
+        <CastTime>4.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Porte de la Mort</Name>
+      <Icon>generic_ability_020</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-15917885</AbilityId>
+        <Description>Inflige 3913 points de dégâts de Mort en 8 secondes. Utilisable uniquement si les points de vie de l&apos;ennemi sont inférieurs à 50%.</Description>
+        <AddonId>AFF0D1CC33CC6094C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-42825217</AbilityId>
+        <Description>Inflige 4210 points de dégâts de Mort en 8 secondes. Utilisable uniquement si les points de vie de l&apos;ennemi sont inférieurs à 50%.</Description>
+        <AddonId>AFD7289FF9C5B7993</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Confluence</Name>
+      <Icon>curse_of_solitude</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-3398260</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 503 à 556 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFFCC258C169142B5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-50515906</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 545 à 602 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFCFD303E46F5389F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-55254326</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 577 à 638 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFCB4E2CA4EBC0A6F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-121659</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 722 à 798 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFFFE24C560BCDB9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-27263390</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 867 à 958 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFE5FFE6235580096</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-20923169</AbilityId>
+        <Description>Maudit l&apos;ennemi pendant un maximum de 30 secondes, infligeant 932 à 1031 points de dégâts de Mort lors des 10 prochaines applications d&apos;effet de dégâts répétés de Mort.</Description>
+        <AddonId>AFEC0BCDF329022BE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ténèbres investies</Name>
+      <Icon>necropotence1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>301593466</AbilityId>
+        <Description>Augmente les dégâts infligés de 40% pendant 15 secondes.</Description>
+        <AddonId>A11F9F37A2A980B95</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>75</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Absorption impie</Name>
+      <Icon>darkbolt5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>408072910</AbilityId>
+        <Description>Inflige 1072 à 1185 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A1852B2CE6520A991</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>813542174</AbilityId>
+        <Description>Inflige 1118 à 1235 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A307DAB1EA5D1E728</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>1431271826</AbilityId>
+        <Description>Inflige 1144 à 1264 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A554F7992D654210C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1649256555</AbilityId>
+        <Description>Inflige 1176 à 1299 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A624DA86B46DA0A33</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1265187746</AbilityId>
+        <Description>Inflige 1205 à 1332 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A4B693BA26813586E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>259326138</AbilityId>
+        <Description>Inflige 1247 à 1378 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A0F7500BA3C91B02A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1109565430</AbilityId>
+        <Description>Inflige 1306 à 1443 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>A42229FF633902012</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-75558428</AbilityId>
+        <Description>Inflige 1402 à 1549 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>AFB7F11E4573206EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-17050656</AbilityId>
+        <Description>Inflige 1574 à 1740 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>AFEFBD3E054EAD4D5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-9616786</AbilityId>
+        <Description>Inflige 2031 à 2245 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>AFF6D426E4BEC67B1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-30432570</AbilityId>
+        <Description>Inflige 2399 à 2652 points de dégâts de Mort et soigne le Mage à hauteur de 30% des dégâts infligés.</Description>
+        <AddonId>AFE2FA2C6666E89CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Irradiation de Mort</Name>
+      <Icon>summonskel5</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>415991213</AbilityId>
+        <Description>Diffuse Contact obscur et Poigne de Neddra à un maximum de 6 ennemis supplémentaires.</Description>
+        <AddonId>A18CB85AD76646086</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Radius>10.000000</Radius>
+        <MaxAffected>6</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Absorption vitale</Name>
+      <Icon>drainlife1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>573446963</AbilityId>
+        <Description>Inflige 973 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A222E1B336F8C0394</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1558667022</AbilityId>
+        <Description>Inflige 992 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A5CE75F0E2AA2C505</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>2008017088</AbilityId>
+        <Description>Inflige 1016 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A77AFE8C0B7863FF6</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1652027032</AbilityId>
+        <Description>Inflige 1046 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A6277EE987DD06CF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>2001861545</AbilityId>
+        <Description>Inflige 1070 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A7751FBA9CC4569D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1378380897</AbilityId>
+        <Description>Inflige 1099 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A52286C6154138154</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1877593590</AbilityId>
+        <Description>Inflige 1127 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A6FE9CDF6C7BCDD60</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>2057468570</AbilityId>
+        <Description>Inflige 1167 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A7AA27A9A9301DC76</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1232057253</AbilityId>
+        <Description>Inflige 1222 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A496FB3A54954C3AD</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1969688444</AbilityId>
+        <Description>Inflige 1312 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>A75670F7CC33135AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-26661093</AbilityId>
+        <Description>Inflige 1390 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>AFE692F1B694DB489</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-98432713</AbilityId>
+        <Description>Inflige 1737 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>AFA22093788D32AAB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-53259452</AbilityId>
+        <Description>Inflige 2087 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>AFCD3534440E1A78D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31429551</AbilityId>
+        <Description>Inflige 2245 points de dégâts de Mort en 10 secondes et soigne le Mage à hauteur de 10% des dégâts infligés.</Description>
+        <AddonId>AFE206C51A063DFFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>11</GainHeat>
+        <CastTime>1.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Contact obscur</Name>
+      <Icon>darkball2z</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>646858846</AbilityId>
+        <Description>Inflige 1351 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A268E485E3C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>6</RequiredLevel>
+        <AbilityId>511726833</AbilityId>
+        <Description>Inflige 1378 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A1E8054F17331F01A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>10</RequiredLevel>
+        <AbilityId>1712829093</AbilityId>
+        <Description>Inflige 1422 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A6617B2A5E2DCA320</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>281345424</AbilityId>
+        <Description>Inflige 1452 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A10C4FD909E98A6F1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1827043449</AbilityId>
+        <Description>Inflige 1487 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A6CE678795FCB0C00</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>831480112</AbilityId>
+        <Description>Inflige 1529 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A318F6130D9A48C1F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>899002764</AbilityId>
+        <Description>Inflige 1573 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A3595B18C9D170F89</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>589195541</AbilityId>
+        <Description>Inflige 1627 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A231E6915B66936BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>493380745</AbilityId>
+        <Description>Inflige 1742 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A1D686489E622FDA9</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>1055329214</AbilityId>
+        <Description>Inflige 1804 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>A3EE70BBE3E48A954</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-48834356</AbilityId>
+        <Description>Inflige 2197 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>AFD16D8CC3C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-85191751</AbilityId>
+        <Description>Inflige 2870 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>AFAEC13B93C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-40419215</AbilityId>
+        <Description>Inflige 3087 points de dégâts de Mort en 16 secondes.</Description>
+        <AddonId>AFD9740713C52DD65</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.200000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Mortalité</Name>
+      <Icon>channelhealth4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>714617022</AbilityId>
+        <Description>Inflige 4369 à 4829 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A2A9830BE8A7539BF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>2055311102</AbilityId>
+        <Description>Inflige 4559 à 5039 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A7A818EFE69613CBE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>435314421</AbilityId>
+        <Description>Inflige 4756 à 5256 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A19F25EF59F7D36D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>761133178</AbilityId>
+        <Description>Inflige 5402 à 5971 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A2D5DF87AB4A8F00D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1147531843</AbilityId>
+        <Description>Inflige 5821 à 6434 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A4465F243921EEFD9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>934227307</AbilityId>
+        <Description>Inflige 7674 à 8481 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A37AF2D6BA676E06B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>19272521</AbilityId>
+        <Description>Inflige 9543 à 10547 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A0126134989E6490F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1651719134</AbilityId>
+        <Description>Inflige 10387 à 11481 points de dégâts de Mort en 6 secondes à un maximum de 5 ennemis proches, et soigne le Mage à hauteur des dégâts infligés. Consomme de la charge.</Description>
+        <AddonId>A62733BDE8DBE72E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MinimumHeat>15</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>8.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Armure obscure</Name>
+      <Icon>darkball2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>742316164</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 175 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A2C3ED88433E2F15E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1636697021</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 176 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A618E03BD3BB74F57</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1519850305</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 178 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A5A971341DC30A47A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>-74470697</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 179 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFB8FAAD7811C4291</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>-63986051</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 181 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFC2FA67D76F33BE2</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>-54053311</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 183 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFCC736417509C12A</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>-72115492</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 185 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFBB39ADC39DD859F</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>-39863732</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 187 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFD9FBA4C9A60D7E0</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>-75381735</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 194 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFB81C4194A406097</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6229118</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 199 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFFA0F3825168F450</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-21991975</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 221 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFEB06DD9452CD994</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-60284291</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 243 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFC68227D48182CEC</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-31392736</AbilityId>
+        <Description>Augmente les dégâts des capacités de dégâts répétés de 5%. En cas de coup reçu, inflige 253 points de dégâts de Mort à l&apos;attaquant. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFE20FC2064C24590</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Peur de masse</Name>
+      <Icon>finalstrike3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>927188724</AbilityId>
+        <Description>Effraie jusqu&apos;à 5 ennemis à proximité pendant 10 secondes ou jusqu&apos;à ce qu&apos;ils subissent des dégâts.</Description>
+        <AddonId>A3743C6F49C83B31B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ombres dévorantes</Name>
+      <Icon>poisoned</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>1001182568</AbilityId>
+        <Description>Inflige 2749 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A3BACD5687AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>2054010889</AbilityId>
+        <Description>Inflige 2860 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A7A6DB80944123337</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1379903298</AbilityId>
+        <Description>Inflige 2971 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A523FA742B8EC86E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1142512102</AbilityId>
+        <Description>Inflige 3111 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A441959E66BFABD0B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1066790323</AbilityId>
+        <Description>Inflige 3405 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A3F95EDB355905592</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>8664756</AbilityId>
+        <Description>Inflige 3565 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A008436B4A0AAF3E4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-80278547</AbilityId>
+        <Description>Inflige 4575 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFB370BED7AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-50715548</AbilityId>
+        <Description>Inflige 6299 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFCFA24647AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-85901948</AbilityId>
+        <Description>Inflige 6856 points de dégâts de Mort en 6 secondes à un maximum de 8 ennemis. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFAE13D847AAACAB4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>6.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>8</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sacrifice de vie : Dégâts</Name>
+      <Icon>sacrificepet3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1133456236</AbilityId>
+        <Description>Augmente les dégâts infligés de 20% pendant 15 secondes. Consomme 15% des points de vie.</Description>
+        <AddonId>A438F2B6C4AA4EBF4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <PowerStatCoefficient effect="0" action="0">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Armure d&apos;Anathema</Name>
+      <Icon>darkball1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1145695696</AbilityId>
+        <Description>En cas de coup reçu, inflige 175 points de dégâts de Mort à l&apos;assaillant et régénère 129 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A4449EDD03D27DD70</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>735584044</AbilityId>
+        <Description>En cas de coup reçu, inflige 177 points de dégâts de Mort à l&apos;assaillant et régénère 131 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A2BD81F2C8F64C8E3</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>473115348</AbilityId>
+        <Description>En cas de coup reçu, inflige 182 points de dégâts de Mort à l&apos;assaillant et régénère 135 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A1C332AD47D1BDC29</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-58915461</AbilityId>
+        <Description>En cas de coup reçu, inflige 185 points de dégâts de Mort à l&apos;assaillant et régénère 136 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFC7D057B8336AB67</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-94074701</AbilityId>
+        <Description>En cas de coup reçu, inflige 202 points de dégâts de Mort à l&apos;assaillant et régénère 143 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFA6488B31AE80AC5</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-5701069</AbilityId>
+        <Description>En cas de coup reçu, inflige 230 points de dégâts de Mort à l&apos;assaillant et régénère 150 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFFA902333E0A7718</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.120000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-22030831</AbilityId>
+        <Description>En cas de coup reçu, inflige 240 points de dégâts de Mort à l&apos;assaillant et régénère 164 points de vie. Augmente les dégâts infligés par les capacités de dégâts répétés de 5%. Donne à vos sorts de Mort infligeant des dégâts 20% de chances d&apos;améliorer votre Agonie dévorante suivante (lancement instantané et coût en mana réduit de 50%) si elle est utilisée dans les 8 secondes. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>AFEAFD61176DE0D71</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="1" action="0">0.130000</PowerStatCoefficient>
+        <AggroMultiplier effect="1" action="0">0.250000</AggroMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Souillure</Name>
+      <Icon>void_knight-rift_summon_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1282932639</AbilityId>
+        <Description>Inflige 2042 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>A4C77FF9F75FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1813227128</AbilityId>
+        <Description>Inflige 2138 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>A6C13A678C1441C7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>764255181</AbilityId>
+        <Description>Inflige 2296 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>A2D8D9BCD6DC85F68</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>-46415581</AbilityId>
+        <Description>Inflige 2579 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>AFD3BC12375FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-25306468</AbilityId>
+        <Description>Inflige 3326 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>AFE7DDA9C75FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-2304880</AbilityId>
+        <Description>Inflige 3929 points de dégâts de Mort pendant 16 secondes. Consomme de la charge mais n&apos;empêche pas le gain de charge.</Description>
+        <AddonId>AFFDCD49075FC11A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>16.000000</Duration>
+        <Interval>2.000000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.800000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.111000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Aversion</Name>
+      <Icon>defiler_empowered_affliction_cc</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1338281782</AbilityId>
+        <Description>Interrompt l&apos;ennemi.</Description>
+        <AddonId>A4FC48F3683FC6C9E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Poigne de Neddra</Name>
+      <Icon>drainlife3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1426525974</AbilityId>
+        <Description>Inflige 410 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A55070F16971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>17</RequiredLevel>
+        <AbilityId>2071798388</AbilityId>
+        <Description>Inflige 418 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A7B7D22748D228B6D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>23</RequiredLevel>
+        <AbilityId>893634029</AbilityId>
+        <Description>Inflige 432 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A3543C5EDD7D14283</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>29</RequiredLevel>
+        <AbilityId>1094678478</AbilityId>
+        <Description>Inflige 441 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A413F77CE211CF18A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>35</RequiredLevel>
+        <AbilityId>611114803</AbilityId>
+        <Description>Inflige 457 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A246CDF33617D9105</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>41</RequiredLevel>
+        <AbilityId>1322629450</AbilityId>
+        <Description>Inflige 476 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>A4ED5B94A352FB671</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-56389978</AbilityId>
+        <Description>Inflige 516 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>AFCA38EA6971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="1" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-88090584</AbilityId>
+        <Description>Inflige 548 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>AFABFD828971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-5214636</AbilityId>
+        <Description>Inflige 684 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>AFFB06E54971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-85437116</AbilityId>
+        <Description>Inflige 822 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>AFAE85544971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-19684998</AbilityId>
+        <Description>Inflige 883 points de dégâts de Mort à chaque fois que l&apos;ennemi utilise une capacité. Cet effet peut se produire jusqu&apos;à 5 fois. Dure 15 secondes.</Description>
+        <AddonId>AFED3A17A971D9268</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">0.600000</PowerStatCoefficient>
+        <PowerStatCoefficient effect="2" action="0">0.600000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Étranglement</Name>
+      <Icon>secondwind1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1472223050</AbilityId>
+        <Description>Interrompt l&apos;ennemi et le réduit au silence pendant 5 secondes.</Description>
+        <AddonId>A57C0574AA3EB505B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>40.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Torture de Neddra</Name>
+      <Icon>fatique</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1787331256</AbilityId>
+        <Description>Inflige 944 à 1043 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1227 à 1356 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A6A8882B822B7FE40</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>2010131703</AbilityId>
+        <Description>Inflige 973 à 1076 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1265 à 1398 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A77D02CF743E38EC6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1430351150</AbilityId>
+        <Description>Inflige 996 à 1101 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1295 à 1432 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A55416D2E8DBC3397</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1673077339</AbilityId>
+        <Description>Inflige 1028 à 1136 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1337 à 1478 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A63B9225B525B7A00</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1559024275</AbilityId>
+        <Description>Inflige 1060 à 1172 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1380 à 1525 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A5CECD2937B07C0C5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>471646963</AbilityId>
+        <Description>Inflige 1169 à 1292 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1519 à 1679 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A1C1CC2F3F5B091C8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1609145117</AbilityId>
+        <Description>Inflige 1239 à 1369 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 1611 à 1781 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A5FE99B1DC7D91C78</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>528423916</AbilityId>
+        <Description>Inflige 1547 à 1709 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 2013 à 2225 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>A1F7F1BECB2356F7D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-22585601</AbilityId>
+        <Description>Inflige 1859 à 2055 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 2419 à 2673 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>AFEA75EFFA622FEC8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-62178653</AbilityId>
+        <Description>Inflige 1999 à 2209 points de dégâts de Mort au bout de 8 secondes. Si un effet de dégâts répétés est purgé sur l&apos;ennemi, Torture de Neddra explose en infligeant 2602 à 2876 points de dégâts de Mort au responsable de la purge et le réduit au silence pendant 3 secondes.</Description>
+        <AddonId>AFC4B3AA37A797B99</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Puissance de Neddra</Name>
+      <Icon>channelhealth3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1790739682</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 20. Dure 1 heure.</Description>
+        <AddonId>A6ABC84E2D92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1285905445</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 30. Dure 1 heure.</Description>
+        <AddonId>A4CA55C25BE1F4A78</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>2010713335</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 40. Dure 1 heure.</Description>
+        <AddonId>A77D90CF7A0E1C593</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>2052875030</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 50. Dure 1 heure.</Description>
+        <AddonId>A7A5C6316A8B5252E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-17646422</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 60. Dure 1 heure.</Description>
+        <AddonId>AFEF2BCAAD92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-84706703</AbilityId>
+        <Description>Augmente l&apos;endurance de tous les membres du groupe ou du raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFAF37A71D92B114E</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Sacrifice de vie : Mana</Name>
+      <Icon>sacrificepet4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1793162193</AbilityId>
+        <Description>Restaure 7% des points de mana. Consomme 7% des points de vie.</Description>
+        <AddonId>A6AE17BD1BEE7999D</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="1">1.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Influence de Neddra</Name>
+      <Icon>invoker_prerogative1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1843334233</AbilityId>
+        <Description>Augmente les dégâts du Mage de 1% par point investi dans l&apos;âme de l&apos;Anathema.</Description>
+        <AddonId>A6DDF0C59B3B94A39</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Peur</Name>
+      <Icon>finalstrike3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>1949993914</AbilityId>
+        <Description>Effraie pendant 10 secondes ou jusqu&apos;à ce que l&apos;ennemi subisse des dégâts. N&apos;affecte qu&apos;un ennemi à la fois.</Description>
+        <AddonId>A743A8BBA54FFD6EF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>1.500000</CastTime>
+        <Duration>10.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Essence de Neddra</Name>
+      <Icon>summonskeleton1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1978709104</AbilityId>
+        <Description>Réduit les dégâts subis de 80% pendant 7 secondes.</Description>
+        <AddonId>A75F0B47069DE0947</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>7.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Trait du vide</Name>
+      <Icon>darkbolt3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1988160741</AbilityId>
+        <Description>Inflige 693 à 766 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A7680ECE56E195070</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1309479040</AbilityId>
+        <Description>Inflige 707 à 782 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A4E0D10808CB9DFFC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>67962511</AbilityId>
+        <Description>Inflige 723 à 800 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A040D068F2BBF7779</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1679335114</AbilityId>
+        <Description>Inflige 745 à 824 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A64189ECA0D19C048</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>431782537</AbilityId>
+        <Description>Inflige 762 à 842 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A19BC7A89066BD209</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>374432702</AbilityId>
+        <Description>Inflige 784 à 866 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A165163BED73FCC0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1958474476</AbilityId>
+        <Description>Inflige 803 à 888 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A74BBF2EC921C8D83</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>187832897</AbilityId>
+        <Description>Inflige 832 à 919 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A0B321A410B78D4D3</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1484187411</AbilityId>
+        <Description>Inflige 871 à 963 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A5876E71398F73984</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1661668470</AbilityId>
+        <Description>Inflige 934 à 1033 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>A630B0C76E858BFD7</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-84755949</AbilityId>
+        <Description>Inflige 990 à 1094 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>AFAF2BA134C4515A8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42190383</AbilityId>
+        <Description>Inflige 1238 à 1368 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>AFD7C39D17D0FDADB</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-83347477</AbilityId>
+        <Description>Inflige 1487 à 1644 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>AFB0837EB28CEC49C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-82593024</AbilityId>
+        <Description>Inflige 1600 à 1768 points de dégâts de Mort. Compte comme un Trait principal.</Description>
+        <AddonId>AFB13BB006FECD918</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

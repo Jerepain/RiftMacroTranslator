@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Pyromancer">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Trait amélioré</Name>
+      <Icon>fireball</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1799824579</AbilityId>
+          <Description></Description>
+          <AddonId>A6B4724C3619B23F6</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Les chances de coup critique de vos Traits principaux augmentent de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Les chances de coup critique de vos Traits principaux augmentent de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Les chances de coup critique de vos Traits principaux augmentent de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Allumage</Name>
+      <Icon>internalizeheat1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>5261135</AbilityId>
+          <Description></Description>
+          <AddonId>A0050474F178DFDDB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+        <Ability>
+          <AbilityId>1372881079</AbilityId>
+          <Description></Description>
+          <AddonId>A51D480B7488A49DB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts de Feu de 4% et des autres sorts de 1%. Réduit le coût en mana des sorts de Feu non instantanés de 4%. Augmente la portée de vos capacités infligeant des dégâts à distance d&apos;1 mètre. La portée accrue ne s&apos;accumule pas avec l&apos;augmentation de portée octroyée par la capacité Détermination mentale du Dominateur.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts de Feu de 8% et des autres sorts de 2%. Réduit le coût en mana des sorts de Feu non instantanés de 8%. Augmente la portée de vos capacités infligeant des dégâts à distance de 2 mètres. La portée accrue ne s&apos;accumule pas avec l&apos;augmentation de portée octroyée par la capacité Détermination mentale du Dominateur.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts de Feu de 12% et des autres sorts de 3%. Réduit le coût en mana des sorts de Feu non instantanés de 12%. Augmente la portée de vos capacités infligeant des dégâts à distance de 3 mètres. La portée accrue ne s&apos;accumule pas avec l&apos;augmentation de portée octroyée par la capacité Détermination mentale du Dominateur.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts de Feu de 16% et des autres sorts de 4%. Réduit le coût en mana des sorts de Feu non instantanés de 16%. Augmente la portée de vos capacités infligeant des dégâts à distance de 4 mètres. La portée accrue ne s&apos;accumule pas avec l&apos;augmentation de portée octroyée par la capacité Détermination mentale du Dominateur.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit le temps d&apos;incantation de vos sorts de Feu de 20% et des autres sorts de 5%. Réduit le coût en mana des sorts de Feu non instantanés de 20%. Augmente la portée de vos capacités infligeant des dégâts à distance de 5 mètres. La portée accrue ne s&apos;accumule pas avec l&apos;augmentation de portée octroyée par la capacité Détermination mentale du Dominateur.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Concentration ardente</Name>
+      <Icon>releaseheat3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>75494617</AbilityId>
+          <Description></Description>
+          <AddonId>A047FF4D96E214A7F</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Le recul subi lors du lancement d&apos;un sort à cible unique est réduit de 33%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Le recul subi lors du lancement d&apos;un sort à cible unique est réduit de 66%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Le recul subi lors du lancement d&apos;un sort à cible unique est réduit de 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Liens brûlants</Name>
+      <Icon>ensnare1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>173506618</AbilityId>
+          <Description>Immobilise pendant 8 secondes ou jusqu&apos;à ce que l&apos;ennemi subisse des dégâts.</Description>
+          <AddonId>A0A57803A6011387D</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Liens brûlants</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Feu inné</Name>
+      <Icon>releaseheat4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le bonus de dégâts de Charge intériorisée de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente le bonus de dégâts de Charge intériorisée de 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente le bonus de dégâts de Charge intériorisée de 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Combustion améliorée</Name>
+      <Icon>elemental_bolt1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les chances de votre Boule de feu d&apos;enflammer l&apos;ennemi de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les chances de votre Boule de feu d&apos;enflammer l&apos;ennemi de 40%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les chances de votre Boule de feu d&apos;enflammer l&apos;ennemi de 60%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Détermination ardente</Name>
+      <Icon>internalizeheat3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>219433022</AbilityId>
+          <Description></Description>
+          <AddonId>A0D14483E3B54616E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>La durée des étourdissements et des silences que vous subissez est réduite de 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>La durée des étourdissements et des silences que vous subissez est réduite de 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>La durée des étourdissements et des silences que vous subissez est réduite de 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Vacillement</Name>
+      <Icon>burning</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>805577881</AbilityId>
+          <Description>Supprime tous les effets de contrôle de foule. Téléporte 15 mètres vers l&apos;avant.</Description>
+          <AddonId>A3004249946C9508C</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vacillement</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Trait de flamme amélioré</Name>
+      <Icon>energybeam1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>9626640</AbilityId>
+          <Description>Les dégâts de feu augmentent de 10%.</Description>
+          <AddonId>A0092E41052D6D4FA</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Lors de l&apos;impact, votre sort Trait de flamme a 33% de chances d&apos;augmenter vos dégâts de sorts de 10% pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Lors de l&apos;impact, votre sort Trait de flamme a 66% de chances d&apos;augmenter vos dégâts de sorts de 10% pendant 10 secondes.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Lors de l&apos;impact, votre sort Trait de flamme a 100% de chances d&apos;augmenter vos dégâts de sorts de 10% pendant 10 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Amadou</Name>
+      <Icon>generic_ability_019</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-16899797</AbilityId>
+          <Description></Description>
+          <AddonId>AFEFE212B4C28E986</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente de 2% le bonus aux dégâts dont Compte à rebours bénéficie pour chaque accumulation de Combustion sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente de 4% le bonus aux dégâts dont Compte à rebours bénéficie pour chaque accumulation de Combustion sur l&apos;ennemi.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente de 6% le bonus aux dégâts dont Compte à rebours bénéficie pour chaque accumulation de Combustion sur l&apos;ennemi.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Tempête de feu</Name>
+      <Icon>conflagration1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>829631591</AbilityId>
+          <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 3566 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+          <AddonId>A31732C67899BD0AE</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>18.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>8.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Tempête de feu</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Feu de brousse</Name>
+      <Icon>coalesceheat3</Icon>
+      <PrereqTraitKey>9</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>31992931</AbilityId>
+          <Description></Description>
+          <AddonId>A01E82C63582AD129</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos Boules de feu ont 10% de chances de réinitialiser et de réduire le délai de récupération de vos 3 prochains Traits de flamme à 0 seconde. Vos Traits de flamme réussis ont 33% de chances de lancer Combustion sur l&apos;ennemi, infligeant des dégâts de Feu répétés. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Vos Boules de feu ont 20% de chances de réinitialiser et de réduire le délai de récupération de vos 3 prochains Traits de flamme à 0 seconde. Vos Traits de flamme réussis ont 66% de chances de lancer Combustion sur l&apos;ennemi, infligeant des dégâts de Feu répétés. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Vos Boules de feu ont 30% de chances de réinitialiser et de réduire le délai de récupération de vos 3 prochains Traits de flamme à 0 seconde. Vos Traits de flamme réussis ont 100% de chances de lancer Combustion sur l&apos;ennemi, infligeant des dégâts de Feu répétés. Cumulable jusqu&apos;à 3 fois.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Glyphes de puissance améliorés</Name>
+      <Icon>dirtytricks1c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit les dégâts supplémentaires subis de 1% sous l&apos;effet des Glyphes de puissance. 
+Augmente les dégâts supplémentaires infligés de 2% sous l&apos;effet des Glyphes de puissance.
+Augmente le bonus de régénération de mana des Glyphes de puissance de 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit les dégâts supplémentaires subis de 2% sous l&apos;effet des Glyphes de puissance. 
+Augmente les dégâts supplémentaires infligés de 4% sous l&apos;effet des Glyphes de puissance.
+Augmente le bonus de régénération de mana des Glyphes de puissance de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit les dégâts supplémentaires subis de 3% sous l&apos;effet des Glyphes de puissance. 
+Augmente les dégâts supplémentaires infligés de 6% sous l&apos;effet des Glyphes de puissance.
+Augmente le bonus de régénération de mana des Glyphes de puissance de 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit les dégâts supplémentaires subis de 4% sous l&apos;effet des Glyphes de puissance. 
+Augmente les dégâts supplémentaires infligés de 8% sous l&apos;effet des Glyphes de puissance.
+Augmente le bonus de régénération de mana des Glyphes de puissance de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit les dégâts supplémentaires subis de 5% sous l&apos;effet des Glyphes de puissance. 
+Augmente les dégâts supplémentaires infligés de 10% sous l&apos;effet des Glyphes de puissance.
+Augmente le bonus de régénération de mana des Glyphes de puissance de 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Liens inaltérables</Name>
+      <Icon>elemward1a</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>270432095</AbilityId>
+          <Description></Description>
+          <AddonId>A101E775F3766AD49</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Votre sort Liens brûlants ne se rompt plus en cas de dégâts.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Bouclier de feu</Name>
+      <Icon>elemward1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1684897549</AbilityId>
+          <Description>Absorbe des dégâts.</Description>
+          <AddonId>A646D7F0D40BBC454</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>3</Points>
+          <Description>Après avoir été touché, vous avez 30% de chances de recevoir un bouclier qui absorbe les dégâts jusqu&apos;à l&apos;équivalent de 15% de votre santé maximum pendant les 10 prochaines secondes. Cet effet peut se déclencher une fois toutes les 30 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Armure de Pyromancien</Name>
+      <Icon>arcaneshield4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>74498861</AbilityId>
+          <Description>Confère aux sorts de Feu infligeant des dégâts 20% de chances de réinitialiser le délai de récupération d&apos;Explosion de cendres, de supprimer son temps d&apos;incantation et de réduire son coût en mana de 50%. Cet effet ne peut avoir lieu plus d&apos;une fois toutes les 10 secondes. Compte comme une armure de Mage.</Description>
+          <AddonId>A0470C32D947590E7</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Armure de Pyromancien</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Retour de flammes</Name>
+      <Icon>conflagration3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1788133291</AbilityId>
+          <Description>Inflige 1030 à 1139 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+          <AddonId>A6A94BFAB5D1641DC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>0.500000</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Retour de flammes</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Vague de chaleur</Name>
+      <Icon>bloodfire1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2024808981</AbilityId>
+          <Description>Réduit le temps d&apos;incantation des sorts de Feu de 50% pendant 15 secondes. Réinitialise le délai de récupération de tous les sorts de Feu.</Description>
+          <AddonId>A78B02215C52CCFDE</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Étincelle</Name>
+      <Icon>healing_flare2_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1217402084</AbilityId>
+          <Description></Description>
+          <AddonId>A489014E44AE01F26</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Réduit le délai de récupération général de vos sorts de Feu à 1,4 secondes, leur temps d&apos;incantation de 4%, le coût en mana de vos sorts de Feu instantanés de 6% et le coût en mana des sorts de Feu non instantanés de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Réduit le délai de récupération général de vos sorts de Feu à 1,3 secondes, leur temps d&apos;incantation de 8%, le coût en mana de vos sorts de Feu instantanés de 12% et le coût en mana des sorts de Feu non instantanés de 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Réduit le délai de récupération général de vos sorts de Feu à 1,2 secondes, leur temps d&apos;incantation de 12%, le coût en mana de vos sorts de Feu instantanés de 19% et le coût en mana des sorts de Feu non instantanés de 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Réduit le délai de récupération général de vos sorts de Feu à 1,1 secondes, leur temps d&apos;incantation de 16%, le coût en mana de vos sorts de Feu instantanés de 26% et le coût en mana des sorts de Feu non instantanés de 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Réduit le délai de récupération général de vos sorts de Feu à 1 seconde, leur temps d&apos;incantation de 20%, le coût en mana de vos sorts de Feu instantanés de 33% et le coût en mana des sorts de Feu non instantanés de 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Philosophie de la Flamme</Name>
+      <Icon>cauterize1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>769315673</AbilityId>
+          <Description></Description>
+          <AddonId>A2DDAD3595D2A2CC5</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente votre charge maximum de 5.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente votre charge maximum de 10.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Fureur brûlante</Name>
+      <Icon>demolition_specialist</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1002889389</AbilityId>
+          <Description></Description>
+          <AddonId>A3BC6E0AD48D8F2AE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente les chances de coup critique de vos capacités de 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Augmente les chances de coup critique de vos capacités de 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Augmente les chances de coup critique de vos capacités de 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Pieu de flammes</Name>
+      <Icon>coalesceheat2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le total de dégâts de votre Combustion de 50% et sa durée de 1 seconde.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le total de dégâts de votre Combustion de 100% et sa durée de 2 secondes.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Conflagration</Name>
+      <Icon>conflagration4</Icon>
+      <PrereqTraitKey>22</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-61165632</AbilityId>
+          <Description></Description>
+          <AddonId>AFC5AAFC0232B462E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le niveau d&apos;accumulation maximum de votre Combustion de 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Augmente le niveau d&apos;accumulation maximum de votre Combustion de 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Flammes voraces</Name>
+      <Icon>flame_speaker</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-75400380</AbilityId>
+          <Description></Description>
+          <AddonId>AFB817B4441027F3E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques non physiques ignorent 3% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques non physiques ignorent 6% des résistances de la cible.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Vos attaques non physiques ignorent 10% des résistances de la cible.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Interruption de flammes</Name>
+      <Icon>restorative_flame_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>426781034</AbilityId>
+          <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+          <AddonId>A1970296AA6F6BBE3</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>5.400000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+          <Interval>2.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Volée de flammes</Name>
+      <Icon>rapid_setup</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-33845295</AbilityId>
+          <Description>Inflige 4137 points de dégâts de Feu en 3 secondes. Inflige 1704 à 1883 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+          <AddonId>AFDFB8FD17F175C9A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>15.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <Interval>0.500000</Interval>
+          <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+          <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fusillade</Name>
+      <Icon>detonate_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-95294442</AbilityId>
+        <Description>Inflige 948 à 1048 points de dégâts de Feu par accumulation de Combustion affectant l&apos;ennemi.</Description>
+        <AddonId>AFA51EC16C43FFF90</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10053326</AbilityId>
+        <Description>Inflige 1239 à 1369 points de dégâts de Feu par accumulation de Combustion affectant l&apos;ennemi.</Description>
+        <AddonId>AFF6699323B31AD09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-90875199</AbilityId>
+        <Description>Inflige 1333 à 1473 points de dégâts de Feu par accumulation de Combustion affectant l&apos;ennemi.</Description>
+        <AddonId>AFA955AC1875DCF97</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flamboiement cérébral</Name>
+      <Icon>fanaticism</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-68581539</AbilityId>
+        <Description>Restaure 5% des points de mana par seconde.</Description>
+        <AddonId>AFBE9875D85A89C90</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Extinction</Name>
+      <Icon>healing_flame</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-68083644</AbilityId>
+        <Description>Le Mage peut lancer instantanément 5 Boules de feu. Dure 15 secondes.</Description>
+        <AddonId>AFBF12044913B54AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Égide du Pyromancien</Name>
+      <Icon>purifier_sign_of_wrath</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60004000</AbilityId>
+        <Description>La Boule de feu du Mage génère une Boule de feu supplémentaire sur l&apos;ennemi. Cette Boule de feu ne génère pas de charge et ne peut pas appliquer Combustion. Ne peut pas se produire plus d&apos;une fois toutes les 3 secondes. Les sorts de Feu infligeant des dégâts ont 5% de chances de réinitialiser le délai de récupération d&apos;Explosion de cendres, de supprimer son temps d&apos;incantation et de réduire son coût en mana de 50%. Ne peut pas se produire plus d&apos;une fois toutes les 10 secondes. Vous ne pouvez activer qu&apos;une armure de Mage à la fois.</Description>
+        <AddonId>AFC6C69604527F918</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Volée de flammes</Name>
+      <Icon>rapid_setup</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-33845295</AbilityId>
+        <Description>Inflige 4137 points de dégâts de Feu en 3 secondes. Inflige 1704 à 1883 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFDFB8FD17F175C9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-19427255</AbilityId>
+        <Description>Inflige 4593 points de dégâts de Feu en 3 secondes. Inflige 1892 à 2091 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFED7904971A22974</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-39535119</AbilityId>
+        <Description>Inflige 4949 points de dégâts de Feu en 3 secondes. Inflige 2038 à 2253 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFDA4BDF1B8FA6B69</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42160439</AbilityId>
+        <Description>Inflige 6524 points de dégâts de Feu en 3 secondes. Inflige 2687 à 2970 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFD7CAEC93BE0C005</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-36592223</AbilityId>
+        <Description>Inflige 8114 points de dégâts de Feu en 3 secondes. Inflige 3342 à 3694 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFDD1A5A15D03C0B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-90022456</AbilityId>
+        <Description>Inflige 8833 points de dégâts de Feu en 3 secondes. Inflige 3639 à 4022 points de dégâts de Feu supplémentaires après 3 secondes.</Description>
+        <AddonId>AFAA25DC8E176AD51</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Apogée</Name>
+      <Icon>soothe_the_flames</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-20076508</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 69 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFECDA824C08EE2A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-47200279</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 75 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFD2FC7E912E23F1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-67853177</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 79 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFBF4A487AB330056</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-26557925</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 99 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFE6AC21B6E92862C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-31098575</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 119 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFE257931BA141AA4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-25878512</AbilityId>
+        <Description>Applique le maximum d&apos;accumulations de Combustion du Mage à l&apos;ennemi. Inflige 129 points de dégâts de Feu en 8 secondes par accumulation.</Description>
+        <AddonId>AFE752010CB29F963</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Explosion de cendres</Name>
+      <Icon>coalesceheat1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>33805137</AbilityId>
+        <Description>Inflige de 2514 à 2778 points de dégâts de Feu.</Description>
+        <AddonId>A0203D351E4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1790399060</AbilityId>
+        <Description>Inflige de 2586 à 2858 points de dégâts de Feu.</Description>
+        <AddonId>A6AB7525489C384D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>532882665</AbilityId>
+        <Description>Inflige de 2659 à 2939 points de dégâts de Feu.</Description>
+        <AddonId>A1FC324E9ABA2F6A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>886644178</AbilityId>
+        <Description>Inflige de 2751 à 3040 points de dégâts de Feu.</Description>
+        <AddonId>A34D91DD2D4024100</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>237363076</AbilityId>
+        <Description>Inflige de 2944 à 3254 points de dégâts de Feu.</Description>
+        <AddonId>A0E25DF84AD7585CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>508219757</AbilityId>
+        <Description>Inflige de 3050 à 3371 points de dégâts de Feu.</Description>
+        <AddonId>A1E4AD16D8FD7912F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>795424656</AbilityId>
+        <Description>Inflige de 3712 à 4103 points de dégâts de Feu.</Description>
+        <AddonId>A2F693790BE8D254E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-40895581</AbilityId>
+        <Description>Inflige de 4844 à 5354 points de dégâts de Feu.</Description>
+        <AddonId>AFD8FFBA3E4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95597446</AbilityId>
+        <Description>Inflige de 5210 à 5758 points de dégâts de Feu.</Description>
+        <AddonId>AFA4D4C7AE4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Armure de Pyromancien</Name>
+      <Icon>arcaneshield4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>74498861</AbilityId>
+        <Description>Confère aux sorts de Feu infligeant des dégâts 20% de chances de réinitialiser le délai de récupération d&apos;Explosion de cendres, de supprimer son temps d&apos;incantation et de réduire son coût en mana de 50%. Cet effet ne peut avoir lieu plus d&apos;une fois toutes les 10 secondes. Compte comme une armure de Mage.</Description>
+        <AddonId>A0470C32D947590E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Liens brûlants</Name>
+      <Icon>ensnare1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>173506618</AbilityId>
+        <Description>Immobilise pendant 8 secondes ou jusqu&apos;à ce que l&apos;ennemi subisse des dégâts.</Description>
+        <AddonId>A0A57803A6011387D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Bouclier brûlant</Name>
+      <Icon>releaseheat3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>282137164</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1400 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A10D1124C4959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>431351385</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1463 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A19B5E659A1021EE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1333775188</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1553 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A4F7FCB54771DF7BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1826316751</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1590 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A6CDB61CF15F26E85</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1942325547</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1617 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A73C5892B9508F064</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1292423432</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1723 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A4D08D108BC8A60DA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>574013461</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1750 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A2236C0159DBEFF37</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>495744271</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1873 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>A1D8C750FA5858281</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96107752</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1936 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFA4583184959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53905475</AbilityId>
+        <Description>Absorbe 50% des dégâts subis jusqu&apos;à un maximum de 1943 points de dégâts. Dure 30 secondes.</Description>
+        <AddonId>AFCC977BD4959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Charge intériorisée</Name>
+      <Icon>releaseheat4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>283776260</AbilityId>
+        <Description>Augmente les dégâts infligés de 10%. Consomme de la charge. Le gain de points de charge est impossible tant que l&apos;aptitude est active.</Description>
+        <AddonId>A10EA15048B8158A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>40.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Combustion spontanée</Name>
+      <Icon>releaseheat2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>298725717</AbilityId>
+        <Description>Interrompt l&apos;ennemi et l&apos;étourdit pendant 5 secondes.</Description>
+        <AddonId>A11CE3155461C65F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Compte à rebours</Name>
+      <Icon>pyroclasty2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>391653731</AbilityId>
+        <Description>Inflige 905 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A17582963BA1FCFD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1936042302</AbilityId>
+        <Description>Inflige 940 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A7365A93E51888C0D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>240826499</AbilityId>
+        <Description>Inflige 962 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A0E5AB8837151161D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>465126872</AbilityId>
+        <Description>Inflige 991 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A1BB945D88FA18C1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1162254792</AbilityId>
+        <Description>Inflige 1018 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A454699C87438CB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>2079141690</AbilityId>
+        <Description>Inflige 1054 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A7BED2F3A67F98845</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1571501358</AbilityId>
+        <Description>Inflige 1128 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>A5DAB352E8ECF85F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-97927638</AbilityId>
+        <Description>Inflige 1169 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>AFA29BE2A9C884F2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-31310853</AbilityId>
+        <Description>Inflige 1423 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>AFE223BFBB7DAE7E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-23729386</AbilityId>
+        <Description>Inflige 1859 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>AFE95EB16D7D57E84</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-27794374</AbilityId>
+        <Description>Inflige 1999 points de dégâts de Feu après 8 secondes. Les dégâts augmentent de 5% par accumulation de Combustion.</Description>
+        <AddonId>AFE57E43A942EF725</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Interruption de flammes</Name>
+      <Icon>restorative_flame_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>426781034</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A1970296AA6F6BBE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-65514522</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>AFC1853E67C99FE01</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>732064206</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A2BA269CE8EAF25BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1761356415</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A68FC2A7F51F3563D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1616953363</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A6060C013E3483F5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>776498431</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A2E486CFFA55A516B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1344404071</AbilityId>
+        <Description>Affaiblit l&apos;ennemi et applique une accumulation de Combustion à un maximum de 5 ennemis dans un rayon de 7 mètres toutes les 2 secondes. Dure 15 secondes.</Description>
+        <AddonId>A5021FA675479A6F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fulmination</Name>
+      <Icon>intense_flames</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>560530674</AbilityId>
+        <Description>Inflige de 4207 à 4650 points de dégâts de Feu.</Description>
+        <AddonId>A216904F261DF5FB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-46161014</AbilityId>
+        <Description>Inflige de 5125 à 5665 points de dégâts de Feu.</Description>
+        <AddonId>AFD3FA38AAABDD618</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-36754213</AbilityId>
+        <Description>Inflige de 6692 à 7396 points de dégâts de Feu.</Description>
+        <AddonId>AFDCF2CDB84E2CAF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95124260</AbilityId>
+        <Description>Inflige de 7199 à 7956 points de dégâts de Feu.</Description>
+        <AddonId>AFA5484DCB4E2ABA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Inferno</Name>
+      <Icon>internalizeheat1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>623218025</AbilityId>
+        <Description>Inflige 1382 à 1527 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A25258D6999175549</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>817503733</AbilityId>
+        <Description>Inflige 1425 à 1575 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A30BA1DF5790DD095</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1856582782</AbilityId>
+        <Description>Inflige 1471 à 1626 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A6EA9347EAFD36712</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1227613390</AbilityId>
+        <Description>Inflige 1621 à 1792 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A492BE4CE7165B0CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1582091835</AbilityId>
+        <Description>Inflige 1717 à 1898 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A5E4CCE3B8EB8361E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1325211496</AbilityId>
+        <Description>Inflige 2145 à 2371 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>A4EFD1F688F1C205F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-44527865</AbilityId>
+        <Description>Inflige 2578 à 2849 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>AFD588F074E13A278</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-74125696</AbilityId>
+        <Description>Inflige 2772 à 3064 points de dégâts de Feu. Les points de vie de l&apos;ennemi doivent être inférieurs à 40%.</Description>
+        <AddonId>AFB94EE8088BD0A79</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vacillement</Name>
+      <Icon>burning</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>805577881</AbilityId>
+        <Description>Supprime tous les effets de contrôle de foule. Téléporte 15 mètres vers l&apos;avant.</Description>
+        <AddonId>A3004249946C9508C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Tempête de feu</Name>
+      <Icon>conflagration1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>829631591</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 3566 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A31732C67899BD0AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1492012077</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 3720 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A58EE4C2DC56E0E0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>89161428</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 3845 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A05507ED47031FE79</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>205389261</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 4012 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A0C3DFDCD6362294A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>422487657</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 4186 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A192EA66975BDBDDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1838305003</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 4755 points de dégâts de Feu en 8 secondes. Les dégâts infligés augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>A6D924EEB884FAB26</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-63253532</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 5123 points de dégâts de Feu en 8 secondes. Les dégâts augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFC3AD3E468659FDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-73519402</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 6753 points de dégâts de Feu en 8 secondes. Les dégâts augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFB9E2ED635508FBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-28302281</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 8398 points de dégâts de Feu en 8 secondes. Les dégâts augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFE502437821E4AAE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-36782504</AbilityId>
+        <Description>Un incendie se déclare dans la zone choisie, brûlant jusqu&apos;à 5 ennemis s&apos;y trouvant et leur infligeant 9141 points de dégâts de Feu en 8 secondes. Les dégâts augmentent de 10% par accumulation de Combustion sur les ennemis affectés. Génère 6 points de charge par seconde.</Description>
+        <AddonId>AFDCEBE58AF4FF730</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Glyphes de puissance</Name>
+      <Icon>dirtytricks1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1058700592</AbilityId>
+        <Description>Augmente le taux de récupération de mana de 10% et les dégâts infligés de 5%. Augmente les dégâts subis de 5%. Dure 1 heure.</Description>
+        <AddonId>A3F1A7D303C9C1272</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Brûlure</Name>
+      <Icon>deflect1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1446889096</AbilityId>
+        <Description>Désarme pendant 5 secondes.</Description>
+        <AddonId>A563DC688D3773D05</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>50.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Brillance brûlante</Name>
+      <Icon>card10a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1570984916</AbilityId>
+        <Description>Augmente les dégâts du Mage de 1% pour chaque point investi dans l&apos;âme du Pyromancien.</Description>
+        <AddonId>A5DA353D49BA97362</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Boule de feu</Name>
+      <Icon>fireball</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1588471451</AbilityId>
+        <Description>Inflige 914 à 1010 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 54 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A5EAE269BB440BDE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>307270934</AbilityId>
+        <Description>Inflige 933 à 1031 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 55 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A12509516C326A311</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>201591403</AbilityId>
+        <Description>Inflige 955 à 1056 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 57 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A0C040A6BE5FBDF93</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1919099481</AbilityId>
+        <Description>Inflige 984 à 1088 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 58 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A72632259957CDF8D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>486319116</AbilityId>
+        <Description>Inflige 1006 à 1112 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 60 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A1CFCA40C8260252C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1939912023</AbilityId>
+        <Description>Inflige 1034 à 1143 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 62 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A73A0B5576E2410C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1147984983</AbilityId>
+        <Description>Inflige 1060 à 1172 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 63 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A446CDC5783FEEFFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>714738476</AbilityId>
+        <Description>Inflige 1098 à 1213 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 65 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A2A9A0B2C82CA0ACF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>940104018</AbilityId>
+        <Description>Inflige 1149 à 1270 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 69 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A3808D952C192A748</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1603542252</AbilityId>
+        <Description>Inflige 1234 à 1364 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 75 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>A5F941CEC322DBD20</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6611785</AbilityId>
+        <Description>Inflige 1308 à 1446 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 79 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>AFF9B1CB779F3D99F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-58679852</AbilityId>
+        <Description>Inflige 1635 à 1807 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 99 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>AFC809DD44D4E2520</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-1661276</AbilityId>
+        <Description>Inflige 1964 à 2171 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 119 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>AFFE6A6A4B3103206</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-94102432</AbilityId>
+        <Description>Inflige 2114 à 2336 points de dégâts de Feu. Dispose de 40% de chances d&apos;appliquer Combustion, infligeant 129 points de dégâts de Feu en 8 secondes. Compte comme un Trait principal.</Description>
+        <AddonId>AFA641C60608925A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flammes desséchantes</Name>
+      <Icon>pyroclasty1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1699948637</AbilityId>
+        <Description>Inflige 2109 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 63 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>A6553285DA032CABB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>266731926</AbilityId>
+        <Description>Inflige 2245 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 65 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>A0FE60196A2E73564</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1944730894</AbilityId>
+        <Description>Inflige 2465 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 69 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>A73EA3D0EE6AA73B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>318959761</AbilityId>
+        <Description>Inflige 2858 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 75 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>A1302F091CF09C736</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-55668343</AbilityId>
+        <Description>Inflige 3899 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 63 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>AFCAE91897AE0AA9C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-4841280</AbilityId>
+        <Description>Inflige 4738 points de dégâts de Feu en 5 secondes. Augmente les dégâts de 40% par accumulation de Combustion. Applique une accumulation de Combustion chaque seconde, infligeant 63 points de dégâts en 8 secondes. Consomme de la charge.</Description>
+        <AddonId>AFFB620C0BC0FC09B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Armure de feu</Name>
+      <Icon>elemward1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1724504260</AbilityId>
+        <Description>Augmente les dégâts de Feu infligés de 5%. Dure 1 heure. Compte comme une armure de Mage.</Description>
+        <AddonId>A66C9D8C477AFDE3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Retour de flammes</Name>
+      <Icon>conflagration3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1788133291</AbilityId>
+        <Description>Inflige 1030 à 1139 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>A6A94BFAB5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>383986166</AbilityId>
+        <Description>Inflige 1059 à 1170 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>A16E329F61D313B7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1473170341</AbilityId>
+        <Description>Inflige 1096 à 1211 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>A57CECBA5785C7D5C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2093374724</AbilityId>
+        <Description>Inflige 1173 à 1297 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>A7CC65D043104E386</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-18974340</AbilityId>
+        <Description>Inflige 1215 à 1343 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>AFEDE797C5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-21143424</AbilityId>
+        <Description>Inflige 1480 à 1636 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>AFEBD60805D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-94047725</AbilityId>
+        <Description>Inflige 1933 à 2136 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>AFA64F2135D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-4903698</AbilityId>
+        <Description>Inflige 2079 à 2298 points de dégâts de Feu à un maximum de 5 ennemis. Les ennemis touchés sont étourdis pendant 2 secondes.</Description>
+        <AddonId>AFFB52CEE5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Intellect flamboyant</Name>
+      <Icon>discombobulate2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1793852735</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 20. Dure 1 heure.</Description>
+        <AddonId>A6AEC053F294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1041320778</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 30. Dure 1 heure.</Description>
+        <AddonId>A3E114B4A8198536F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1388137055</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 40. Dure 1 heure.</Description>
+        <AddonId>A52BD4A5F15A9BE9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>206349566</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 50. Dure 1 heure.</Description>
+        <AddonId>A0C4CA4FEAA3B116A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-71719271</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 60. Dure 1 heure.</Description>
+        <AddonId>AFBB9A699294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-76004086</AbilityId>
+        <Description>Augmente l&apos;intelligence de tous les membres du groupe ou du raid de 70. Dure 1 heure.</Description>
+        <AddonId>AFB78450A294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Ardeur</Name>
+      <Icon>tactician_infernal_torrent_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1931384788</AbilityId>
+        <Description>Interrompt l&apos;ennemi.</Description>
+        <AddonId>A731E97D4949C18A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Trait de flamme</Name>
+      <Icon>energybeam1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1955350713</AbilityId>
+        <Description>Inflige de 953 à 1053 points de dégâts de Feu.</Description>
+        <AddonId>A748C48B97CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1972320241</AbilityId>
+        <Description>Inflige de 972 à 1074 points de dégâts de Feu.</Description>
+        <AddonId>A758F37F155C986D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1837920453</AbilityId>
+        <Description>Inflige de 996 à 1101 points de dégâts de Feu.</Description>
+        <AddonId>A6D8C70C5E213282D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>779341186</AbilityId>
+        <Description>Inflige de 1025 à 1133 points de dégâts de Feu.</Description>
+        <AddonId>A2E73CD8290AF22F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>82068419</AbilityId>
+        <Description>Inflige de 1048 à 1158 points de dégâts de Feu.</Description>
+        <AddonId>A04E443C3AF36D7E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>604839904</AbilityId>
+        <Description>Inflige de 1078 à 1191 points de dégâts de Feu.</Description>
+        <AddonId>A240D1FE061321C8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>291635134</AbilityId>
+        <Description>Inflige de 1105 à 1221 points de dégâts de Feu.</Description>
+        <AddonId>A1161FFBE43067684</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>26120173</AbilityId>
+        <Description>Inflige de 1143 à 1264 points de dégâts de Feu.</Description>
+        <AddonId>A018E8FED6FA64804</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1513247107</AbilityId>
+        <Description>Inflige de 1198 à 1324 points de dégâts de Feu.</Description>
+        <AddonId>A5A325183AD03B00E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1053902919</AbilityId>
+        <Description>Inflige de 1286 à 1422 points de dégâts de Feu.</Description>
+        <AddonId>A3ED14847E085A814</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-17290065</AbilityId>
+        <Description>Inflige de 1363 à 1506 points de dégâts de Feu.</Description>
+        <AddonId>AFEF82CAF7CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-8571099</AbilityId>
+        <Description>Inflige de 1704 à 1883 points de dégâts de Feu.</Description>
+        <AddonId>AFF7D37257CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-75849582</AbilityId>
+        <Description>Inflige de 2047 à 2262 points de dégâts de Feu.</Description>
+        <AddonId>AFB7AA0927CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-75134979</AbilityId>
+        <Description>Inflige de 2202 à 2434 points de dégâts de Feu.</Description>
+        <AddonId>AFB8587FD7CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Vague de chaleur</Name>
+      <Icon>bloodfire1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2024808981</AbilityId>
+        <Description>Réduit le temps d&apos;incantation des sorts de Feu de 50% pendant 15 secondes. Réinitialise le délai de récupération de tous les sorts de Feu.</Description>
+        <AddonId>A78B02215C52CCFDE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+

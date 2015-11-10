@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoulTree calling="Mage" name="Pyromancer">
+  <Traits>
+    <Trait>
+      <Key>0</Key>
+      <Name>Improved Bolt</Name>
+      <Icon>fireball</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1799824579</AbilityId>
+          <Description></Description>
+          <AddonId>A6B4724C3619B23F6</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases your critical strike chance of your Primary Bolt abilities by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases your critical strike chance of your Primary Bolt abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases your critical strike chance of your Primary Bolt abilities by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>1</Key>
+      <Name>Ignition</Name>
+      <Icon>internalizeheat1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>5261135</AbilityId>
+          <Description></Description>
+          <AddonId>A0050474F178DFDDB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+        <Ability>
+          <AbilityId>1372881079</AbilityId>
+          <Description></Description>
+          <AddonId>A51D480B7488A49DB</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Decreases the cast time of your Fire spells by 4% and all other spells by 1%. Reduces the mana cost of non-instant Fire spells by 4%. Increases the range of non-melee damaging abilities by 1 meter. Increased range does not stack with the range increase from the Dominator&apos;s Mental Fortitude.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Decreases the cast time of your Fire spells by 8% and all other spells by 2%. Reduces the mana cost of non-instant Fire spells by 8%. Increases the range of non-melee damaging abilities by 2 meters. Increased range does not stack with the range increase from the Dominator&apos;s Mental Fortitude.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Decreases the cast time of your Fire spells by 12% and all other spells by 3%. Reduces the mana cost of non-instant Fire spells by 12%. Increases the range of non-melee damaging abilities by 3 meters. Increased range does not stack with the range increase from the Dominator&apos;s Mental Fortitude.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Decreases the cast time of your Fire spells by 16% and all other spells by 4%. Reduces the mana cost of non-instant Fire spells by 16%. Increases the range of non-melee damaging abilities by 4 meters. Increased range does not stack with the range increase from the Dominator&apos;s Mental Fortitude.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Decreases the cast time of your Fire spells by 20% and all other spells by 5%. Reduces the mana cost of non-instant Fire spells by 20%. Increases the range of non-melee damaging abilities by 5 meters. Increased range does not stack with the range increase from the Dominator&apos;s Mental Fortitude.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>2</Key>
+      <Name>Fiery Concentration</Name>
+      <Icon>releaseheat3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>0</MinimumPointsSpent>
+      <DisplayRow>0</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>75494617</AbilityId>
+          <Description></Description>
+          <AddonId>A047FF4D96E214A7F</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the amount of pushback suffered while casting single target spells by 33%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the amount of pushback suffered while casting single target spells by 66%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the amount of pushback suffered while casting single target spells by 100%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>3</Key>
+      <Name>Burning Bonds</Name>
+      <Icon>ensnare1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>173506618</AbilityId>
+          <Description>Roots for 8s or until damaged.</Description>
+          <AddonId>A0A57803A6011387D</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>8.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Burning Bonds</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>4</Key>
+      <Name>Innate Fire</Name>
+      <Icon>releaseheat4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage bonus of Internalize Charge by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage bonus of Internalize Charge by 6%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage bonus of Internalize Charge by 9%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>5</Key>
+      <Name>Improved Combustion</Name>
+      <Icon>elemental_bolt1b</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the chance for your Fireball to ignite the enemy by 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the chance for your Fireball to ignite the enemy by 40%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the chance for your Fireball to ignite the enemy by 60%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>6</Key>
+      <Name>Fiery Resolve</Name>
+      <Icon>internalizeheat3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>219433022</AbilityId>
+          <Description></Description>
+          <AddonId>A0D14483E3B54616E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the duration of hostile stuns and silences cast on you by 10%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the duration of hostile stuns and silences cast on you by 20%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the duration of hostile stuns and silences cast on you by 30%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>7</Key>
+      <Name>Flicker</Name>
+      <Icon>burning</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>10</MinimumPointsSpent>
+      <DisplayRow>2</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>805577881</AbilityId>
+          <Description>Removes all crowd control effects. Teleports forward 15m.</Description>
+          <AddonId>A3004249946C9508C</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>20.000000</Cooldown>
+          <CostManaPercent>4.500000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Flicker</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>9</Key>
+      <Name>Improved Flame Bolt</Name>
+      <Icon>energybeam1a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>9626640</AbilityId>
+          <Description>Fire damage increased by 10%.</Description>
+          <AddonId>A0092E41052D6D4FA</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Gives your Flame Bolt spell a 33% chance on hit to increase your spell damage by 10% for 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Gives your Flame Bolt spell a 66% chance on hit to increase your spell damage by 10% for 10 seconds.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Gives your Flame Bolt spell a 100% chance on hit to increase your spell damage by 10% for 10 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>10</Key>
+      <Name>Tinder</Name>
+      <Icon>generic_ability_019</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-16899797</AbilityId>
+          <Description></Description>
+          <AddonId>AFEFE212B4C28E986</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the damage bonus Countdown gains per stack of Combust on the enemy by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the damage bonus Countdown gains per stack of Combust on the enemy by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the damage bonus Countdown gains per stack of Combust on the enemy by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>11</Key>
+      <Name>Fire Storm</Name>
+      <Icon>conflagration1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>829631591</AbilityId>
+          <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 3566 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+          <AddonId>A31732C67899BD0AE</AddonId>
+          <IsPassive>False</IsPassive>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>18.000000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>8.000000</Duration>
+          <Interval>1.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Fire Storm</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>12</Key>
+      <Name>Wildfire</Name>
+      <Icon>coalesceheat3</Icon>
+      <PrereqTraitKey>9</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>31992931</AbilityId>
+          <Description></Description>
+          <AddonId>A01E82C63582AD129</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Fireball casts have a 10% chance to reset and reduce the cooldown of your next 3 Flame Bolt casts to 0 seconds. Your successful Flame Bolts have a 33% chance to apply Combust to the enemy, dealing Fire damage over time. Max 3 stacks.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Your Fireball casts have a 20% chance to reset and reduce the cooldown of your next 3 Flame Bolt casts to 0 seconds. Your successful Flame Bolts have a 66% chance to apply Combust to the enemy, dealing Fire damage over time. Max 3 stacks.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Your Fireball casts have a 30% chance to reset and reduce the cooldown of your next 3 Flame Bolt casts to 0 seconds. Your successful Flame Bolts have a 100% chance to apply Combust to the enemy, dealing Fire damage over time. Max 3 stacks.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>13</Key>
+      <Name>Improved Glyphs of Power</Name>
+      <Icon>dirtytricks1c</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Decreases the additional damage you take while affected by Glyphs of Power by 1%. 
+Increases the additional damage you deal while affected by Glyphs of Power by 2%.
+Increases the mana regeneration bonus from Glyphs of Power by 1%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Decreases the additional damage you take while affected by Glyphs of Power by 2%. 
+Increases the additional damage you deal while affected by Glyphs of Power by 4%.
+Increases the mana regeneration bonus from Glyphs of Power by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Decreases the additional damage you take while affected by Glyphs of Power by 3%. 
+Increases the additional damage you deal while affected by Glyphs of Power by 6%.
+Increases the mana regeneration bonus from Glyphs of Power by 3%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Decreases the additional damage you take while affected by Glyphs of Power by 4%. 
+Increases the additional damage you deal while affected by Glyphs of Power by 8%.
+Increases the mana regeneration bonus from Glyphs of Power by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Decreases the additional damage you take while affected by Glyphs of Power by 5%. 
+Increases the additional damage you deal while affected by Glyphs of Power by 10%.
+Increases the mana regeneration bonus from Glyphs of Power by 5%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>14</Key>
+      <Name>Unbreakable Bonds</Name>
+      <Icon>elemward1a</Icon>
+      <PrereqTraitKey>3</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>270432095</AbilityId>
+          <Description></Description>
+          <AddonId>A101E775F3766AD49</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your Burning Bonds spell no longer breaks on damage.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>15</Key>
+      <Name>Fire Shield</Name>
+      <Icon>elemward1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1684897549</AbilityId>
+          <Description>Absorbs damage.</Description>
+          <AddonId>A646D7F0D40BBC454</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>3</Points>
+          <Description>After being hit you have a 30% chance to receive a shield that absorbs damage up to the value of 15% of your maximum health for the next 10 seconds. This effect can occur once every 30 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>16</Key>
+      <Name>Pyromancer&apos;s Armor</Name>
+      <Icon>arcaneshield4</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>20</MinimumPointsSpent>
+      <DisplayRow>4</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>74498861</AbilityId>
+          <Description>Grants damaging Fire spells a 20% chance to reset the cooldown of Cinder Burst and allow it to be cast instantly, and reduces its mana cost by 50%. Cannot happen more than once every 10s. Counts as a Mage Armor</Description>
+          <AddonId>A0470C32D947590E7</AddonId>
+          <IsPassive>False</IsPassive>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>3600.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Pyromancer&apos;s Armor</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>17</Key>
+      <Name>Backdraft</Name>
+      <Icon>conflagration3</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1788133291</AbilityId>
+          <Description>Deals 1030 to 1139 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+          <AddonId>A6A94BFAB5D1641DC</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>30.000002</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>9.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>0.500000</CastTime>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description>Backdraft</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>18</Key>
+      <Name>Heat Wave</Name>
+      <Icon>bloodfire1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>2024808981</AbilityId>
+          <Description>Reduces Fire spell cast time by 50% for 15s. Resets the cooldown on all Fire spells.</Description>
+          <AddonId>A78B02215C52CCFDE</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>120.000008</Cooldown>
+          <CostManaPercent>2.250000</CostManaPercent>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>19</Key>
+      <Name>Spark</Name>
+      <Icon>healing_flare2_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>30</MinimumPointsSpent>
+      <DisplayRow>6</DisplayRow>
+      <DisplayColumn>3</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1217402084</AbilityId>
+          <Description></Description>
+          <AddonId>A489014E44AE01F26</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="5">
+        <Rank>
+          <Points>1</Points>
+          <Description>Reduces the global cooldown of your Fire spells to 1.4 seconds. Reduces the cast time of your Fire spells by 4%. Reduces the mana cost of your instant Fire spells by 6% and your non-instant Fire spells by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Reduces the global cooldown of your Fire spells to 1.3 seconds. Reduces the cast time of your Fire spells by 8%. Reduces the mana cost of your instant Fire spells by 12% and your non-instant Fire spells by 8%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Reduces the global cooldown of your Fire spells to 1.2 seconds. Reduces the cast time of your Fire spells by 12%. Reduces the mana cost of your instant Fire spells by 19% and your non-instant Fire spells by 12%.</Description>
+        </Rank>
+        <Rank>
+          <Points>4</Points>
+          <Description>Reduces the global cooldown of your Fire spells to 1.1 seconds. Reduces the cast time of your Fire spells by 16%. Reduces the mana cost of your instant Fire spells by 26% and your non-instant Fire spells by 16%.</Description>
+        </Rank>
+        <Rank>
+          <Points>5</Points>
+          <Description>Reduces the global cooldown of your Fire spells to 1 second. Reduces the cast time of your Fire spells by 20%. Reduces the mana cost of your instant Fire spells by 33% and your non-instant Fire spells by 20%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>20</Key>
+      <Name>Philosophy of Flame</Name>
+      <Icon>cauterize1</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>769315673</AbilityId>
+          <Description></Description>
+          <AddonId>A2DDAD3595D2A2CC5</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases your Maximum Charge by 5.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases your Maximum Charge by 10.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>21</Key>
+      <Name>Burning Fury</Name>
+      <Icon>demolition_specialist</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>5</MinimumPointsSpent>
+      <DisplayRow>1</DisplayRow>
+      <DisplayColumn>2</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>1002889389</AbilityId>
+          <Description></Description>
+          <AddonId>A3BC6E0AD48D8F2AE</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the critical hit chance of your abilities by 2%.</Description>
+        </Rank>
+        <Rank>
+          <Points>2</Points>
+          <Description>Increases the critical hit chance of your abilities by 4%.</Description>
+        </Rank>
+        <Rank>
+          <Points>3</Points>
+          <Description>Increases the critical hit chance of your abilities by 6%.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>22</Key>
+      <Name>Flame Spike</Name>
+      <Icon>coalesceheat2</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>25</MinimumPointsSpent>
+      <DisplayRow>5</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the total damage of your Combust by 50% and the duration by 1 second.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the total damage of your Combust by 100% and the duration by 2 seconds.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>23</Key>
+      <Name>Conflagration</Name>
+      <Icon>conflagration4</Icon>
+      <PrereqTraitKey>22</PrereqTraitKey>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-61165632</AbilityId>
+          <Description></Description>
+          <AddonId>AFC5AAFC0232B462E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="2">
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the maximum stack size of your Combust by 1.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Increases the maximum stack size of your Combust by 2.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>24</Key>
+      <Name>Ravenous Flames</Name>
+      <Icon>flame_speaker</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>15</MinimumPointsSpent>
+      <DisplayRow>3</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-75400380</AbilityId>
+          <Description></Description>
+          <AddonId>AFB817B4441027F3E</AddonId>
+          <IsPassive>True</IsPassive>
+          <CastTime>Instant</CastTime>
+        </Ability>
+      </Abilities>
+      <Ranks count="3">
+        <Rank>
+          <Points>1</Points>
+          <Description>Your non-Physical attacks ignore 3% of your target&apos;s Resistances.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Your non-Physical attacks ignore 6% of your target&apos;s Resistances.</Description>
+        </Rank>
+        <Rank>
+          <Points>1</Points>
+          <Description>Your non-Physical attacks ignore 10% of your target&apos;s Resistances.</Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>25</Key>
+      <Name>Flame Rupture</Name>
+      <Icon>restorative_flame_a</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>35</MinimumPointsSpent>
+      <DisplayRow>7</DisplayRow>
+      <DisplayColumn>0</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>426781034</AbilityId>
+          <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+          <AddonId>A1970296AA6F6BBE3</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>15.000001</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>5.400000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Duration>15.000000</Duration>
+          <Interval>2.000000</Interval>
+          <Radius>7.000000</Radius>
+          <MaxAffected>5</MaxAffected>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+    <Trait>
+      <Key>26</Key>
+      <Name>Flame Volley</Name>
+      <Icon>rapid_setup</Icon>
+      <BendType>HorizontalToVertical</BendType>
+      <MinimumPointsSpent>40</MinimumPointsSpent>
+      <DisplayRow>8</DisplayRow>
+      <DisplayColumn>1</DisplayColumn>
+      <Abilities>
+        <Ability>
+          <AbilityId>-33845295</AbilityId>
+          <Description>Deals 4137 Fire damage over 3s. Deals an additional 1704 to 1883 Fire damage after 3s.</Description>
+          <AddonId>AFDFB8FD17F175C9A</AddonId>
+          <IsPassive>False</IsPassive>
+          <Cooldown>60.000004</Cooldown>
+          <MaxRange>30.000000</MaxRange>
+          <CostManaPercent>15.000000</CostManaPercent>
+          <GainHeat>9</GainHeat>
+          <CastTime>Instant</CastTime>
+          <Channel>true</Channel>
+          <Duration>3.000000</Duration>
+          <Interval>0.500000</Interval>
+          <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+          <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+        </Ability>
+      </Abilities>
+      <Ranks count="1">
+        <Rank>
+          <Points>1</Points>
+          <Description></Description>
+        </Rank>
+      </Ranks>
+    </Trait>
+  </Traits>
+  <Abilities>
+    <Ability>
+      <MinimumPointsInSoul>54</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fusillade</Name>
+      <Icon>detonate_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-95294442</AbilityId>
+        <Description>Deals 948 to 1048 Fire damage per stack of Combust on the enemy.</Description>
+        <AddonId>AFA51EC16C43FFF90</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-10053326</AbilityId>
+        <Description>Deals 1239 to 1369 Fire damage per stack of Combust on the enemy.</Description>
+        <AddonId>AFF6699323B31AD09</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-90875199</AbilityId>
+        <Description>Deals 1333 to 1473 Fire damage per stack of Combust on the enemy.</Description>
+        <AddonId>AFA955AC1875DCF97</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>10.000000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cerebral Flare</Name>
+      <Icon>fanaticism</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>-68581539</AbilityId>
+        <Description>Restores 5% mana per second.</Description>
+        <AddonId>AFBE9875D85A89C90</AddonId>
+        <IsPassive>False</IsPassive>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>10.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>58</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Extinguish</Name>
+      <Icon>healing_flame</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-68083644</AbilityId>
+        <Description>The Mage&apos;s next 5 Fireball casts are instant. Lasts 15s.</Description>
+        <AddonId>AFBF12044913B54AB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>61</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Pyromancer&apos;s Aegis</Name>
+      <Icon>purifier_sign_of_wrath</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-60004000</AbilityId>
+        <Description>The Mage&apos;s Fireball casts generate an additional Fireball on the enemy. This Fireball does not generate Charge and cannot apply Combust. Cannot occur more than once every 3s. Damaging Fire spells have a 5% chance to reset the cooldown of Cinder Burst and allow it to be cast instantly and reduces its mana cost by 50%. Cannot occur more than once every 10s. Only 1 Mage Armor may be active at a time.</Description>
+        <AddonId>AFC6C69604527F918</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Flame Volley</Name>
+      <Icon>rapid_setup</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>-33845295</AbilityId>
+        <Description>Deals 4137 Fire damage over 3s. Deals an additional 1704 to 1883 Fire damage after 3s.</Description>
+        <AddonId>AFDFB8FD17F175C9A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>47</RequiredLevel>
+        <AbilityId>-19427255</AbilityId>
+        <Description>Deals 4593 Fire damage over 3s. Deals an additional 1892 to 2091 Fire damage after 3s.</Description>
+        <AddonId>AFED7904971A22974</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-39535119</AbilityId>
+        <Description>Deals 4949 Fire damage over 3s. Deals an additional 2038 to 2253 Fire damage after 3s.</Description>
+        <AddonId>AFDA4BDF1B8FA6B69</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-42160439</AbilityId>
+        <Description>Deals 6524 Fire damage over 3s. Deals an additional 2687 to 2970 Fire damage after 3s.</Description>
+        <AddonId>AFD7CAEC93BE0C005</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-36592223</AbilityId>
+        <Description>Deals 8114 Fire damage over 3s. Deals an additional 3342 to 3694 Fire damage after 3s.</Description>
+        <AddonId>AFDD1A5A15D03C0B3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-90022456</AbilityId>
+        <Description>Deals 8833 Fire damage over 3s. Deals an additional 3639 to 4022 Fire damage after 3s.</Description>
+        <AddonId>AFAA25DC8E176AD51</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>60.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>3.000000</Duration>
+        <Interval>0.500000</Interval>
+        <PowerStatCoefficient effect="0" action="0">2.550000</PowerStatCoefficient>
+        <DamageMultiplier effect="0" action="0">0.140000</DamageMultiplier>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>44</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Prime</Name>
+      <Icon>soothe_the_flames</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>-20076508</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 69 Fire damage over 8s per stack.</Description>
+        <AddonId>AFECDA824C08EE2A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>-47200279</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 75 Fire damage over 8s per stack.</Description>
+        <AddonId>AFD2FC7E912E23F1A</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-67853177</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 79 Fire damage over 8s per stack.</Description>
+        <AddonId>AFBF4A487AB330056</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-26557925</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 99 Fire damage over 8s per stack.</Description>
+        <AddonId>AFE6AC21B6E92862C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-31098575</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 119 Fire damage over 8s per stack.</Description>
+        <AddonId>AFE257931BA141AA4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-25878512</AbilityId>
+        <Description>Applies the Mage&apos;s maximum number of Combust stacks to the enemy. Dealing 129 Fire damage over 8s per stack.</Description>
+        <AddonId>AFE752010CB29F963</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>20</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Cinder Burst</Name>
+      <Icon>coalesceheat1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>33805137</AbilityId>
+        <Description>Deals 2514 to 2778 Fire damage.</Description>
+        <AddonId>A0203D351E4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>1790399060</AbilityId>
+        <Description>Deals 2586 to 2858 Fire damage.</Description>
+        <AddonId>A6AB7525489C384D2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>532882665</AbilityId>
+        <Description>Deals 2659 to 2939 Fire damage.</Description>
+        <AddonId>A1FC324E9ABA2F6A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>886644178</AbilityId>
+        <Description>Deals 2751 to 3040 Fire damage.</Description>
+        <AddonId>A34D91DD2D4024100</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>237363076</AbilityId>
+        <Description>Deals 2944 to 3254 Fire damage.</Description>
+        <AddonId>A0E25DF84AD7585CB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>508219757</AbilityId>
+        <Description>Deals 3050 to 3371 Fire damage.</Description>
+        <AddonId>A1E4AD16D8FD7912F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>795424656</AbilityId>
+        <Description>Deals 3712 to 4103 Fire damage.</Description>
+        <AddonId>A2F693790BE8D254E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-40895581</AbilityId>
+        <Description>Deals 4844 to 5354 Fire damage.</Description>
+        <AddonId>AFD8FFBA3E4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95597446</AbilityId>
+        <Description>Deals 5210 to 5758 Fire damage.</Description>
+        <AddonId>AFA4D4C7AE4FB52D4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>15.000000</CostManaPercent>
+        <GainHeat>37</GainHeat>
+        <CastTime>6.000000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Pyromancer&apos;s Armor</Name>
+      <Icon>arcaneshield4</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>74498861</AbilityId>
+        <Description>Grants damaging Fire spells a 20% chance to reset the cooldown of Cinder Burst and allow it to be cast instantly, and reduces its mana cost by 50%. Cannot happen more than once every 10s. Counts as a Mage Armor</Description>
+        <AddonId>A0470C32D947590E7</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Burning Bonds</Name>
+      <Icon>ensnare1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>173506618</AbilityId>
+        <Description>Roots for 8s or until damaged.</Description>
+        <AddonId>A0A57803A6011387D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>16</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Burning Shield</Name>
+      <Icon>releaseheat3a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>16</RequiredLevel>
+        <AbilityId>282137164</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1400 damage. Lasts 30s.</Description>
+        <AddonId>A10D1124C4959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>431351385</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1463 damage. Lasts 30s.</Description>
+        <AddonId>A19B5E659A1021EE6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>1333775188</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1553 damage. Lasts 30s.</Description>
+        <AddonId>A4F7FCB54771DF7BA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>1826316751</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1590 damage. Lasts 30s.</Description>
+        <AddonId>A6CDB61CF15F26E85</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1942325547</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1617 damage. Lasts 30s.</Description>
+        <AddonId>A73C5892B9508F064</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1292423432</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1723 damage. Lasts 30s.</Description>
+        <AddonId>A4D08D108BC8A60DA</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>574013461</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1750 damage. Lasts 30s.</Description>
+        <AddonId>A2236C0159DBEFF37</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>495744271</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1873 damage. Lasts 30s.</Description>
+        <AddonId>A1D8C750FA5858281</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-96107752</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1936 damage. Lasts 30s.</Description>
+        <AddonId>AFA4583184959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-53905475</AbilityId>
+        <Description>Absorbs 50% of damage taken up to 1943 damage. Lasts 30s.</Description>
+        <AddonId>AFCC977BD4959E8F7</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.000000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>4</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Internalize Charge</Name>
+      <Icon>releaseheat4b</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>283776260</AbilityId>
+        <Description>Increases damage done by 10%. Consumes Charge while active. Charge cannot be gained while active.</Description>
+        <AddonId>A10EA15048B8158A5</AddonId>
+        <IsPassive>False</IsPassive>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>40.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>40</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flashfire</Name>
+      <Icon>releaseheat2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>298725717</AbilityId>
+        <Description>Interrupts the enemy and Stuns for 5s.</Description>
+        <AddonId>A11CE3155461C65F3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>8</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Countdown</Name>
+      <Icon>pyroclasty2</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>391653731</AbilityId>
+        <Description>Deals 905 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A17582963BA1FCFD5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>14</RequiredLevel>
+        <AbilityId>1936042302</AbilityId>
+        <Description>Deals 940 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A7365A93E51888C0D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>20</RequiredLevel>
+        <AbilityId>240826499</AbilityId>
+        <Description>Deals 962 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A0E5AB8837151161D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>26</RequiredLevel>
+        <AbilityId>465126872</AbilityId>
+        <Description>Deals 991 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A1BB945D88FA18C1E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1162254792</AbilityId>
+        <Description>Deals 1018 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A454699C87438CB0C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>2079141690</AbilityId>
+        <Description>Deals 1054 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A7BED2F3A67F98845</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>1571501358</AbilityId>
+        <Description>Deals 1128 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>A5DAB352E8ECF85F8</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-97927638</AbilityId>
+        <Description>Deals 1169 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>AFA29BE2A9C884F2D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-31310853</AbilityId>
+        <Description>Deals 1423 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>AFE223BFBB7DAE7E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-23729386</AbilityId>
+        <Description>Deals 1859 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>AFE95EB16D7D57E84</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-27794374</AbilityId>
+        <Description>Deals 1999 Fire damage after 8s. Damage is increased by 5% per stack of Combust.</Description>
+        <AddonId>AFE57E43A942EF725</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>8.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Flame Rupture</Name>
+      <Icon>restorative_flame_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>426781034</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A1970296AA6F6BBE3</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>-65514522</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>AFC1853E67C99FE01</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>732064206</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A2BA269CE8EAF25BC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1761356415</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A68FC2A7F51F3563D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1616953363</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A6060C013E3483F5D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>776498431</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A2E486CFFA55A516B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>1344404071</AbilityId>
+        <Description>Debuffs the enemy, applying a stack of Combust to up to 5 enemies within 7m every 2s.  Lasts 15s.</Description>
+        <AddonId>A5021FA675479A6F5</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>15.000001</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>5.400000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+        <Interval>2.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>51</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fulminate</Name>
+      <Icon>intense_flames</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>560530674</AbilityId>
+        <Description>Deals 4207 to 4650 Fire damage.</Description>
+        <AddonId>A216904F261DF5FB2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-46161014</AbilityId>
+        <Description>Deals 5125 to 5665 Fire damage.</Description>
+        <AddonId>AFD3FA38AAABDD618</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-36754213</AbilityId>
+        <Description>Deals 6692 to 7396 Fire damage.</Description>
+        <AddonId>AFDCF2CDB84E2CAF1</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-95124260</AbilityId>
+        <Description>Deals 7199 to 7956 Fire damage.</Description>
+        <AddonId>AFA5484DCB4E2ABA6</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>60</MinimumHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>28</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Inferno</Name>
+      <Icon>internalizeheat1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>623218025</AbilityId>
+        <Description>Deals 1382 to 1527 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A25258D6999175549</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>817503733</AbilityId>
+        <Description>Deals 1425 to 1575 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A30BA1DF5790DD095</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>1856582782</AbilityId>
+        <Description>Deals 1471 to 1626 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A6EA9347EAFD36712</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1227613390</AbilityId>
+        <Description>Deals 1621 to 1792 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A492BE4CE7165B0CF</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>1582091835</AbilityId>
+        <Description>Deals 1717 to 1898 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A5E4CCE3B8EB8361E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>1325211496</AbilityId>
+        <Description>Deals 2145 to 2371 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>A4EFD1F688F1C205F</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-44527865</AbilityId>
+        <Description>Deals 2578 to 2849 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>AFD588F074E13A278</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-74125696</AbilityId>
+        <Description>Deals 2772 to 3064 Fire damage. Only usable on enemies under 40% health.</Description>
+        <AddonId>AFB94EE8088BD0A79</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+        <PowerStatCoefficient effect="0" action="0">2.080000</PowerStatCoefficient>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Flicker</Name>
+      <Icon>burning</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>805577881</AbilityId>
+        <Description>Removes all crowd control effects. Teleports forward 15m.</Description>
+        <AddonId>A3004249946C9508C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>20.000000</Cooldown>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Fire Storm</Name>
+      <Icon>conflagration1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>829631591</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 3566 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A31732C67899BD0AE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1492012077</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 3720 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A58EE4C2DC56E0E0F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>28</RequiredLevel>
+        <AbilityId>89161428</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 3845 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A05507ED47031FE79</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>34</RequiredLevel>
+        <AbilityId>205389261</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 4012 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A0C3DFDCD6362294A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>40</RequiredLevel>
+        <AbilityId>422487657</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 4186 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A192EA66975BDBDDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>46</RequiredLevel>
+        <AbilityId>1838305003</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 4755 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>A6D924EEB884FAB26</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-63253532</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 5123 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>AFC3AD3E468659FDC</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-73519402</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 6753 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>AFB9E2ED635508FBA</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-28302281</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 8398 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>AFE502437821E4AAE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-36782504</AbilityId>
+        <Description>A conflagration erupts at the selected area burning up to 5 enemies within, causing 9141 Fire damage over 8s. Damage is increased by 10% for each stack of Combust on affected enemies. Generates 6 Charge every second.</Description>
+        <AddonId>AFDCEBE58AF4FF730</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>18.000000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>8.000000</Duration>
+        <Interval>1.000000</Interval>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>24</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Glyphs of Power</Name>
+      <Icon>dirtytricks1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1058700592</AbilityId>
+        <Description>Increases Mana Regeneration rate by 10% damage done by 5% and damage taken by 5%. Lasts 1h.</Description>
+        <AddonId>A3F1A7D303C9C1272</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>32</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Burn</Name>
+      <Icon>deflect1c</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1446889096</AbilityId>
+        <Description>Disarms for 5s.</Description>
+        <AddonId>A563DC688D3773D05</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>50.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>5.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Burning Bright</Name>
+      <Icon>card10a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1570984916</AbilityId>
+        <Description>Increases the Mage&apos;s damage by 1% for each point spent in the Pyromancer soul.</Description>
+        <AddonId>A5DA353D49BA97362</AddonId>
+        <IsPassive>True</IsPassive>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fireball</Name>
+      <Icon>fireball</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1588471451</AbilityId>
+        <Description>Deals 914 to 1010 Fire damage. Has a 40% chance to apply Combust, dealing 54 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A5EAE269BB440BDE8</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>307270934</AbilityId>
+        <Description>Deals 933 to 1031 Fire damage. Has a 40% chance to apply Combust, dealing 55 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A12509516C326A311</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>201591403</AbilityId>
+        <Description>Deals 955 to 1056 Fire damage. Has a 40% chance to apply Combust, dealing 57 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A0C040A6BE5FBDF93</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1919099481</AbilityId>
+        <Description>Deals 984 to 1088 Fire damage. Has a 40% chance to apply Combust, dealing 58 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A72632259957CDF8D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>486319116</AbilityId>
+        <Description>Deals 1006 to 1112 Fire damage. Has a 40% chance to apply Combust, dealing 60 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A1CFCA40C8260252C</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>1939912023</AbilityId>
+        <Description>Deals 1034 to 1143 Fire damage. Has a 40% chance to apply Combust, dealing 62 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A73A0B5576E2410C4</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>1147984983</AbilityId>
+        <Description>Deals 1060 to 1172 Fire damage. Has a 40% chance to apply Combust, dealing 63 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A446CDC5783FEEFFE</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>714738476</AbilityId>
+        <Description>Deals 1098 to 1213 Fire damage. Has a 40% chance to apply Combust, dealing 65 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A2A9A0B2C82CA0ACF</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>940104018</AbilityId>
+        <Description>Deals 1149 to 1270 Fire damage. Has a 40% chance to apply Combust, dealing 69 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A3808D952C192A748</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1603542252</AbilityId>
+        <Description>Deals 1234 to 1364 Fire damage. Has a 40% chance to apply Combust, dealing 75 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>A5F941CEC322DBD20</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-6611785</AbilityId>
+        <Description>Deals 1308 to 1446 Fire damage. Has a 40% chance to apply Combust, dealing 79 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>AFF9B1CB779F3D99F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-58679852</AbilityId>
+        <Description>Deals 1635 to 1807 Fire damage. Has a 40% chance to apply Combust, dealing 99 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>AFC809DD44D4E2520</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-1661276</AbilityId>
+        <Description>Deals 1964 to 2171 Fire damage. Has a 40% chance to apply Combust, dealing 119 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>AFFE6A6A4B3103206</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-94102432</AbilityId>
+        <Description>Deals 2114 to 2336 Fire damage. Has a 40% chance to apply Combust, dealing 129 Fire damage over 8s. Counts as a Primary Bolt.</Description>
+        <AddonId>AFA641C60608925A1</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>12.500000</CostManaPercent>
+        <GainHeat>15</GainHeat>
+        <CastTime>2.500000</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>36</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Withering Flames</Name>
+      <Icon>pyroclasty1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>1699948637</AbilityId>
+        <Description>Deals 2109 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 63 over 8s. Consumes Charge while active.</Description>
+        <AddonId>A6553285DA032CABB</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>266731926</AbilityId>
+        <Description>Deals 2245 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 65 over 8s. Consumes Charge while active.</Description>
+        <AddonId>A0FE60196A2E73564</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1944730894</AbilityId>
+        <Description>Deals 2465 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 69 over 8s. Consumes Charge while active.</Description>
+        <AddonId>A73EA3D0EE6AA73B4</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>52</RequiredLevel>
+        <AbilityId>318959761</AbilityId>
+        <Description>Deals 2858 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 75 over 8s. Consumes Charge while active.</Description>
+        <AddonId>A1302F091CF09C736</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>55</RequiredLevel>
+        <AbilityId>-55668343</AbilityId>
+        <Description>Deals 3899 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 63 over 8s. Consumes Charge while active.</Description>
+        <AddonId>AFCAE91897AE0AA9C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>58</RequiredLevel>
+        <AbilityId>-4841280</AbilityId>
+        <Description>Deals 4738 Fire damage over 5s. Damage is increased by 40% per stack of Combust. Applies a stack of Combust each second, dealing 63 over 8s. Consumes Charge while active.</Description>
+        <AddonId>AFFB620C0BC0FC09B</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>45.000004</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <MinimumHeat>10</MinimumHeat>
+        <CastTime>Instant</CastTime>
+        <Channel>true</Channel>
+        <Duration>5.000000</Duration>
+        <Interval>1.000000</Interval>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>2</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Fire Armor</Name>
+      <Icon>elemward1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>2</RequiredLevel>
+        <AbilityId>1724504260</AbilityId>
+        <Description>Increases Fire damage done by 5%. Lasts 1h. Counts as a Mage Armor.</Description>
+        <AddonId>A66C9D8C477AFDE3E</AddonId>
+        <IsPassive>False</IsPassive>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>3600.000000</Duration>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Backdraft</Name>
+      <Icon>conflagration3</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1788133291</AbilityId>
+        <Description>Deals 1030 to 1139 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>A6A94BFAB5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>383986166</AbilityId>
+        <Description>Deals 1059 to 1170 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>A16E329F61D313B7E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>38</RequiredLevel>
+        <AbilityId>1473170341</AbilityId>
+        <Description>Deals 1096 to 1211 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>A57CECBA5785C7D5C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>44</RequiredLevel>
+        <AbilityId>2093374724</AbilityId>
+        <Description>Deals 1173 to 1297 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>A7CC65D043104E386</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>50</RequiredLevel>
+        <AbilityId>-18974340</AbilityId>
+        <Description>Deals 1215 to 1343 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>AFEDE797C5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-21143424</AbilityId>
+        <Description>Deals 1480 to 1636 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>AFEBD60805D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>56</RequiredLevel>
+        <AbilityId>-94047725</AbilityId>
+        <Description>Deals 1933 to 2136 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>AFA64F2135D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>59</RequiredLevel>
+        <AbilityId>-4903698</AbilityId>
+        <Description>Deals 2079 to 2298 Fire damage to up to 5 enemies. Stuns each enemy hit for 2s.</Description>
+        <AddonId>AFFB52CEE5D1641DC</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>30.000002</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>9.000000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>0.500000</CastTime>
+        <Radius>7.000000</Radius>
+        <MaxAffected>5</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>12</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flaring Intellect</Name>
+      <Icon>discombobulate2a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>1793852735</AbilityId>
+        <Description>Increases Intelligence by 20 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>A6AEC053F294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>22</RequiredLevel>
+        <AbilityId>1041320778</AbilityId>
+        <Description>Increases Intelligence by 30 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>A3E114B4A8198536F</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>32</RequiredLevel>
+        <AbilityId>1388137055</AbilityId>
+        <Description>Increases Intelligence by 40 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>A52BD4A5F15A9BE9D</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>206349566</AbilityId>
+        <Description>Increases Intelligence by 50 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>A0C4CA4FEAA3B116A</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>53</RequiredLevel>
+        <AbilityId>-71719271</AbilityId>
+        <Description>Increases Intelligence by 60 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>AFBB9A699294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-76004086</AbilityId>
+        <Description>Increases Intelligence by 70 on all party or raid members. Lasts 1h.</Description>
+        <AddonId>AFB78450A294D4B9B</AddonId>
+        <IsPassive>False</IsPassive>
+        <MaxRange>35.000000</MaxRange>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Radius>35.000000</Radius>
+        <MaxAffected>50</MaxAffected>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>48</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Scorch</Name>
+      <Icon>tactician_infernal_torrent_a</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1931384788</AbilityId>
+        <Description>Interrupts.</Description>
+        <AddonId>A731E97D4949C18A9</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>10.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>4.500000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>False</TraitRequired>
+      <Name>Flame Bolt</Name>
+      <Icon>energybeam1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>1955350713</AbilityId>
+        <Description>Deals 953 to 1053 Fire damage.</Description>
+        <AddonId>A748C48B97CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>2</Number>
+        <RequiredLevel>4</RequiredLevel>
+        <AbilityId>1972320241</AbilityId>
+        <Description>Deals 972 to 1074 Fire damage.</Description>
+        <AddonId>A758F37F155C986D0</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>3</Number>
+        <RequiredLevel>8</RequiredLevel>
+        <AbilityId>1837920453</AbilityId>
+        <Description>Deals 996 to 1101 Fire damage.</Description>
+        <AddonId>A6D8C70C5E213282D</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>4</Number>
+        <RequiredLevel>12</RequiredLevel>
+        <AbilityId>779341186</AbilityId>
+        <Description>Deals 1025 to 1133 Fire damage.</Description>
+        <AddonId>A2E73CD8290AF22F2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>5</Number>
+        <RequiredLevel>18</RequiredLevel>
+        <AbilityId>82068419</AbilityId>
+        <Description>Deals 1048 to 1158 Fire damage.</Description>
+        <AddonId>A04E443C3AF36D7E2</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>6</Number>
+        <RequiredLevel>24</RequiredLevel>
+        <AbilityId>604839904</AbilityId>
+        <Description>Deals 1078 to 1191 Fire damage.</Description>
+        <AddonId>A240D1FE061321C8C</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>7</Number>
+        <RequiredLevel>30</RequiredLevel>
+        <AbilityId>291635134</AbilityId>
+        <Description>Deals 1105 to 1221 Fire damage.</Description>
+        <AddonId>A1161FFBE43067684</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>8</Number>
+        <RequiredLevel>36</RequiredLevel>
+        <AbilityId>26120173</AbilityId>
+        <Description>Deals 1143 to 1264 Fire damage.</Description>
+        <AddonId>A018E8FED6FA64804</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>9</Number>
+        <RequiredLevel>42</RequiredLevel>
+        <AbilityId>1513247107</AbilityId>
+        <Description>Deals 1198 to 1324 Fire damage.</Description>
+        <AddonId>A5A325183AD03B00E</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>10</Number>
+        <RequiredLevel>48</RequiredLevel>
+        <AbilityId>1053902919</AbilityId>
+        <Description>Deals 1286 to 1422 Fire damage.</Description>
+        <AddonId>A3ED14847E085A814</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>11</Number>
+        <RequiredLevel>51</RequiredLevel>
+        <AbilityId>-17290065</AbilityId>
+        <Description>Deals 1363 to 1506 Fire damage.</Description>
+        <AddonId>AFEF82CAF7CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>12</Number>
+        <RequiredLevel>54</RequiredLevel>
+        <AbilityId>-8571099</AbilityId>
+        <Description>Deals 1704 to 1883 Fire damage.</Description>
+        <AddonId>AFF7D37257CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>13</Number>
+        <RequiredLevel>57</RequiredLevel>
+        <AbilityId>-75849582</AbilityId>
+        <Description>Deals 2047 to 2262 Fire damage.</Description>
+        <AddonId>AFB7AA0927CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+      <AbilityRank>
+        <Number>14</Number>
+        <RequiredLevel>60</RequiredLevel>
+        <AbilityId>-75134979</AbilityId>
+        <Description>Deals 2202 to 2434 Fire damage.</Description>
+        <AddonId>AFB8587FD7CF3A780</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>8.000000</Cooldown>
+        <MaxRange>30.000000</MaxRange>
+        <CostManaPercent>7.500000</CostManaPercent>
+        <GainHeat>9</GainHeat>
+        <CastTime>Instant</CastTime>
+      </AbilityRank>
+    </Ability>
+    <Ability>
+      <MinimumPointsInSoul>0</MinimumPointsInSoul>
+      <TraitRequired>True</TraitRequired>
+      <Name>Heat Wave</Name>
+      <Icon>bloodfire1</Icon>
+      <AbilityRank>
+        <Number>1</Number>
+        <RequiredLevel>0</RequiredLevel>
+        <AbilityId>2024808981</AbilityId>
+        <Description>Reduces Fire spell cast time by 50% for 15s. Resets the cooldown on all Fire spells.</Description>
+        <AddonId>A78B02215C52CCFDE</AddonId>
+        <IsPassive>False</IsPassive>
+        <Cooldown>120.000008</Cooldown>
+        <CostManaPercent>2.250000</CostManaPercent>
+        <CastTime>Instant</CastTime>
+        <Duration>15.000000</Duration>
+      </AbilityRank>
+    </Ability>
+  </Abilities>
+</SoulTree>
+
